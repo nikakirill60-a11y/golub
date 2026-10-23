@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# buildozer / python-for-android — гигабайты промежуточных файлов,
+# в репозиторий не попадают (APK забираем из Artifacts в GitHub Actions)
+.buildozer/
+bin/
+*.apk
+*.aab
+
+# локальные данные приложения (SQLite-история и JSON-запас)
+*.sqlite3
+*.db
+
+# скриншоты автотеста интерфейса, если запускали локально
+tools/screenshots/
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
