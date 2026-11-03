@@ -1,0 +1,225 @@
+# Source-backed material bindings; runtime recreates URP materials.
+
+newmtl IS3Armor_module_tracks_20
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_hull_plate100_100
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_hull_plate110_110
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_hull_plate120s_120
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_hull_plate20_20
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_hull_plate30_30
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_hull_plate30s_30
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_hull_plate60_60
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_hull_plate90_90
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_01_plate0_0
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_01_plate104_104
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_01_plate114_114
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_01_plate142_142
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_01_plate161_161
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_01_plate19_19
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_01_plate47_47
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_01_plate76_76
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_01_plate85_85
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_01_plate95_95
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_gun_03_mask_turret_01_plate250s_250
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_gun_02_mask_turret_01_plate250s_250
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_gun_05_mask_turret_01_plate250s_250
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_02_plate0_0
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_02_plate104_104
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_02_plate161_161
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_02_plate19_19
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_02_plate209_209
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_02_plate47_47
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_armor_turret_02_plate76_76
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_gun_03_mask_turret_02_plate250s_250
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_gun_02_mask_turret_02_plate250s_250
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png
+
+newmtl IS3Armor_gun_05_mask_turret_02_plate250s_250
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/IS3.png

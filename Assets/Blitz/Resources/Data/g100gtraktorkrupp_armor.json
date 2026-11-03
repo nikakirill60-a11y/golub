@@ -1,0 +1,145 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "G100GTRAKTORKRUPPArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 298,
+      "vertices": 338
+    },
+    {
+      "armor": 0,
+      "material": "G100GTRAKTORKRUPPArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 13,
+      "material": "G100GTRAKTORKRUPPArmor_armor_hull_plate13s_13",
+      "mount": "hull",
+      "name": "armor_hull_plate13s_13",
+      "screen": true,
+      "submesh": 2,
+      "triangles": 82,
+      "vertices": 246
+    },
+    {
+      "armor": 14,
+      "material": "G100GTRAKTORKRUPPArmor_armor_hull_plate14_14",
+      "mount": "hull",
+      "name": "armor_hull_plate14_14",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 215,
+      "vertices": 645
+    },
+    {
+      "armor": 14,
+      "material": "G100GTRAKTORKRUPPArmor_armor_hull_plate14s_14",
+      "mount": "hull",
+      "name": "armor_hull_plate14s_14",
+      "screen": true,
+      "submesh": 4,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 6,
+      "material": "G100GTRAKTORKRUPPArmor_armor_hull_plate6_6",
+      "mount": "hull",
+      "name": "armor_hull_plate6_6",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 149,
+      "vertices": 447
+    },
+    {
+      "armor": 6,
+      "material": "G100GTRAKTORKRUPPArmor_armor_hull_plate6s_6",
+      "mount": "hull",
+      "name": "armor_hull_plate6s_6",
+      "screen": true,
+      "submesh": 6,
+      "triangles": 30,
+      "vertices": 90
+    },
+    {
+      "armor": 8,
+      "material": "G100GTRAKTORKRUPPArmor_armor_hull_plate8_8",
+      "mount": "hull",
+      "name": "armor_hull_plate8_8",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 0,
+      "material": "G100GTRAKTORKRUPPArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 14,
+      "material": "G100GTRAKTORKRUPPArmor_armor_turret_01_plate14_14",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate14_14",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 6,
+      "material": "G100GTRAKTORKRUPPArmor_armor_turret_01_plate6_6",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate6_6",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 48,
+      "vertices": 144
+    },
+    {
+      "armor": 8,
+      "material": "G100GTRAKTORKRUPPArmor_armor_turret_01_plate8_8",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate8_8",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 14,
+      "material": "G100GTRAKTORKRUPPArmor_gun_01_mask_turret_01_plate14s_14",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate14s_14",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 6,
+      "material": "G100GTRAKTORKRUPPArmor_gun_01_mask_turret_01_plate6s_6",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate6s_6",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 44,
+      "vertices": 132
+    }
+  ]
+}

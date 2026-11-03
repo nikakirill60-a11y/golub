@@ -1,0 +1,122 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.0,
+      0.1,
+      0.0
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GB35SENTINELACIVArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 368,
+      "vertices": 460
+    },
+    {
+      "armor": 16,
+      "material": "GB35SENTINELACIVArmor_armor_hull_plate16_16",
+      "mount": "hull",
+      "name": "armor_hull_plate16_16",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 23,
+      "material": "GB35SENTINELACIVArmor_armor_hull_plate23_23",
+      "mount": "hull",
+      "name": "armor_hull_plate23_23",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 30,
+      "vertices": 90
+    },
+    {
+      "armor": 45,
+      "material": "GB35SENTINELACIVArmor_armor_hull_plate45_45",
+      "mount": "hull",
+      "name": "armor_hull_plate45_45",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 110,
+      "vertices": 330
+    },
+    {
+      "armor": 50,
+      "material": "GB35SENTINELACIVArmor_armor_hull_plate50_50",
+      "mount": "hull",
+      "name": "armor_hull_plate50_50",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 56,
+      "vertices": 168
+    },
+    {
+      "armor": 65,
+      "material": "GB35SENTINELACIVArmor_armor_hull_plate65_65",
+      "mount": "hull",
+      "name": "armor_hull_plate65_65",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 60,
+      "vertices": 180
+    },
+    {
+      "armor": 35,
+      "material": "GB35SENTINELACIVArmor_armor_turret_01_plate35_35",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate35_35",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 76,
+      "vertices": 228
+    },
+    {
+      "armor": 50,
+      "material": "GB35SENTINELACIVArmor_armor_turret_01_plate50_50",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate50_50",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 63,
+      "vertices": 189
+    },
+    {
+      "armor": 65,
+      "material": "GB35SENTINELACIVArmor_armor_turret_01_plate65_65",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate65_65",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 75,
+      "vertices": 225
+    },
+    {
+      "armor": 5,
+      "material": "GB35SENTINELACIVArmor_gun_01_mask_turret_01_plate5s_5",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate5s_5",
+      "screen": true,
+      "submesh": 9,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 65,
+      "material": "GB35SENTINELACIVArmor_gun_01_mask_turret_01_plate65s_65",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate65s_65",
+      "screen": true,
+      "submesh": 10,
+      "triangles": 80,
+      "vertices": 240
+    }
+  ]
+}

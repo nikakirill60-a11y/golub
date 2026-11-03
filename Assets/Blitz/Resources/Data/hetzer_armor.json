@@ -1,0 +1,155 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "HETZERArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 288,
+      "vertices": 677
+    },
+    {
+      "armor": 0,
+      "material": "HETZERArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 21,
+      "material": "HETZERArmor_armor_hull_plate21_21",
+      "mount": "hull",
+      "name": "armor_hull_plate21_21",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 46,
+      "vertices": 138
+    },
+    {
+      "armor": 43,
+      "material": "HETZERArmor_armor_hull_plate43_43",
+      "mount": "hull",
+      "name": "armor_hull_plate43_43",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 64,
+      "material": "HETZERArmor_armor_hull_plate64_64",
+      "mount": "hull",
+      "name": "armor_hull_plate64_64",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 91,
+      "vertices": 273
+    },
+    {
+      "armor": 8,
+      "material": "HETZERArmor_armor_hull_plate8_8",
+      "mount": "hull",
+      "name": "armor_hull_plate8_8",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 31,
+      "vertices": 93
+    },
+    {
+      "armor": 0,
+      "material": "HETZERArmor_gun_03_mask_turret_01_plate0s_0",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate0s_0",
+      "screen": true,
+      "submesh": 6,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 20,
+      "material": "HETZERArmor_gun_03_mask_turret_01_plate20s_20",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate20s_20",
+      "screen": true,
+      "submesh": 7,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 60,
+      "material": "HETZERArmor_gun_03_mask_turret_01_plate60s_60",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate60s_60",
+      "screen": true,
+      "submesh": 8,
+      "triangles": 94,
+      "vertices": 282
+    },
+    {
+      "armor": 0,
+      "material": "HETZERArmor_gun_04_mask_turret_01_plate0s_0",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_01_plate0s_0",
+      "screen": true,
+      "submesh": 9,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 20,
+      "material": "HETZERArmor_gun_04_mask_turret_01_plate20s_20",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_01_plate20s_20",
+      "screen": true,
+      "submesh": 10,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 60,
+      "material": "HETZERArmor_gun_04_mask_turret_01_plate60s_60",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_01_plate60s_60",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 94,
+      "vertices": 282
+    },
+    {
+      "armor": 0,
+      "material": "HETZERArmor_gun_05_mask_turret_01_plate0s_0",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_01_plate0s_0",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 20,
+      "material": "HETZERArmor_gun_05_mask_turret_01_plate20s_20",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_01_plate20s_20",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 60,
+      "material": "HETZERArmor_gun_05_mask_turret_01_plate60s_60",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_01_plate60s_60",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 94,
+      "vertices": 282
+    }
+  ]
+}

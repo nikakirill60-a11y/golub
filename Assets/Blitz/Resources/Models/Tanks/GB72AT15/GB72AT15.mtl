@@ -1,0 +1,15 @@
+# Source-backed material bindings; runtime recreates URP materials.
+
+newmtl GB72AT15Body
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/GB72AT15.png
+
+newmtl GB72AT15Tracks
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/GB72AT15_tracks.png

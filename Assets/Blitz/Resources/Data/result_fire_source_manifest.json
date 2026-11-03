@@ -1,0 +1,39 @@
+{
+  "images": [
+    {
+      "source": "assets/particles/resources/ui/o2_fire_anim_stitched.png",
+      "destination": "result_fire1.png",
+      "sha256": "6f77680dc3762bae5aeff39e879963ca023e060e725ec7f0670a68d0b159ca7c"
+    },
+    {
+      "source": "assets/particles/resources/ui/fire_2.png",
+      "destination": "result_fire2.png",
+      "sha256": "804fc6aef4e37bde6d1fe83b3afc131384b60f70f7e48474f9d1839e41b4f4f0"
+    }
+  ],
+  "fire1": {
+    "frames": 14,
+    "amount": 8,
+    "lifetime": 1.8,
+    "gravity": 48,
+    "angularMin": -194.46,
+    "angularMax": 168.17998,
+    "scaleMin": 0.7,
+    "scaleMax": 1.1999999,
+    "loop": true,
+    "animationSpeed": -1
+  },
+  "fire2": {
+    "frames": 18,
+    "amount": 8,
+    "lifetime": 2,
+    "gravity": 40,
+    "angularMin": -50.000015,
+    "angularMax": 49.99998,
+    "scaleMin": 0.25,
+    "scaleMax": 0.5,
+    "emissionRadius": 30.8,
+    "loop": false,
+    "animationSpeed": 1
+  }
+}

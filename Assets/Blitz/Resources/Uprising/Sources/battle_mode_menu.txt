@@ -1,0 +1,687 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://assets/gfx/ui/hangar/battle_mode_menu.gd" id="1_bmmenu"]
+[ext_resource type="Script" uid="uid://c1w1poqkj0wxk" path="res://scripts/ui_elements/button_generic.gd" id="2_bmbtn"]
+[ext_resource type="Texture2D" path="res://assets/gfx/ui/hangar/battle_mode_cards/normal.png" id="3_normal"]
+[ext_resource type="Texture2D" path="res://assets/gfx/ui/hangar/battle_mode_cards/gravity.png" id="4_gravity"]
+[ext_resource type="Texture2D" path="res://assets/gfx/ui/hangar/battle_mode_cards/uprising.png" id="5_uprising"]
+[ext_resource type="Texture2D" path="res://assets/gfx/ui/hangar/battle_mode_cards/world_of_ducks.png" id="6_ducks"]
+[ext_resource type="Texture2D" path="res://assets/gfx/ui/hangar/battle_mode_cards/sandbox.png" id="7_sandbox"]
+[ext_resource type="Texture2D" path="res://assets/events/world_of_ducks/warduck_icon.png" id="8_duck_icon"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_card_clear"]
+bg_color = Color(0, 0, 0, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_focus"]
+bg_color = Color(0, 0, 0, 0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.54, 0.78, 1, 0.95)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_selected"]
+bg_color = Color(0, 0, 0, 0)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.96, 0.61, 0.15, 1)
+
+[node name="battle_mode_menu" type="Control" node_paths=PackedStringArray("l_header", "cards_scroll", "card_normal", "card_gravity", "card_uprising", "card_world_of_ducks", "card_training", "btn_close")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bmmenu")
+l_header = NodePath("top_bar/header")
+cards_scroll = NodePath("cards_scroll")
+card_normal = NodePath("cards_scroll/card_margin/cards/card_normal")
+card_gravity = NodePath("cards_scroll/card_margin/cards/card_gravity")
+card_uprising = NodePath("cards_scroll/card_margin/cards/card_uprising")
+card_world_of_ducks = NodePath("cards_scroll/card_margin/cards/card_world_of_ducks")
+card_training = NodePath("cards_scroll/card_margin/cards/card_training")
+btn_close = NodePath("top_bar/btn_close")
+
+[node name="background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.027, 0.043, 0.059, 1)
+
+[node name="background_glow" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 196.0
+grow_horizontal = 2
+mouse_filter = 2
+color = Color(0.08, 0.19, 0.27, 0.34)
+
+[node name="top_bar" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 80.0
+grow_horizontal = 2
+color = Color(0.015, 0.024, 0.035, 0.84)
+
+[node name="header" type="Label" parent="top_bar"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 172.0
+offset_right = -172.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_type_variation = &"LabelBold"
+theme_override_colors/font_color = Color(0.96, 0.97, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.75)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 2
+theme_override_font_sizes/font_size = 26
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="btn_close" type="Button" parent="top_bar"]
+custom_minimum_size = Vector2(132, 48)
+layout_mode = 0
+offset_left = 24.0
+offset_top = 16.0
+offset_right = 156.0
+offset_bottom = 64.0
+theme_override_font_sizes/font_size = 16
+script = ExtResource("2_bmbtn")
+
+[node name="top_divider" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 79.0
+offset_bottom = 81.0
+grow_horizontal = 2
+mouse_filter = 2
+color = Color(0.23, 0.52, 0.72, 0.8)
+
+[node name="cards_scroll" type="ScrollContainer" parent="."]
+clip_contents = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 24.0
+offset_top = 92.0
+offset_right = -24.0
+offset_bottom = -28.0
+grow_horizontal = 2
+grow_vertical = 2
+follow_focus = true
+horizontal_scroll_mode = 1
+vertical_scroll_mode = 0
+scroll_deadzone = 8
+
+[node name="card_margin" type="MarginContainer" parent="cards_scroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="cards" type="HBoxContainer" parent="cards_scroll/card_margin"]
+custom_minimum_size = Vector2(1106, 340)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+theme_override_constants/separation = 14
+alignment = 1
+
+[node name="card_normal" type="Button" parent="cards_scroll/card_margin/cards"]
+unique_name_in_owner = true
+clip_contents = true
+custom_minimum_size = Vector2(210, 340)
+layout_mode = 2
+focus_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_card_clear")
+theme_override_styles/hover = SubResource("StyleBoxFlat_card_clear")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_card_clear")
+theme_override_styles/focus = SubResource("StyleBoxFlat_card_clear")
+script = ExtResource("2_bmbtn")
+
+[node name="mode_art" type="TextureRect" parent="cards_scroll/card_margin/cards/card_normal"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("3_normal")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="art_tint" type="ColorRect" parent="cards_scroll/card_margin/cards/card_normal"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.02, 0.04, 0.06, 0.08)
+
+[node name="bottom_shade" type="ColorRect" parent="cards_scroll/card_margin/cards/card_normal"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -140.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+color = Color(0.008, 0.014, 0.022, 0.9)
+
+[node name="mode_name" type="Label" parent="cards_scroll/card_margin/cards/card_normal"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = -132.0
+offset_right = -12.0
+offset_bottom = -98.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_type_variation = &"LabelBold"
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0.9)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 20
+vertical_alignment = 1
+
+[node name="mode_desc" type="Label" parent="cards_scroll/card_margin/cards/card_normal"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = -98.0
+offset_right = -12.0
+offset_bottom = -12.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.88, 0.91, 0.95, 1)
+theme_override_font_sizes/font_size = 12
+autowrap_mode = 2
+
+[node name="focus_outline" type="Panel" parent="cards_scroll/card_margin/cards/card_normal"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_focus")
+
+[node name="selected_outline" type="Panel" parent="cards_scroll/card_margin/cards/card_normal"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_selected")
+
+[node name="card_gravity" type="Button" parent="cards_scroll/card_margin/cards"]
+unique_name_in_owner = true
+clip_contents = true
+custom_minimum_size = Vector2(210, 340)
+layout_mode = 2
+focus_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_card_clear")
+theme_override_styles/hover = SubResource("StyleBoxFlat_card_clear")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_card_clear")
+theme_override_styles/focus = SubResource("StyleBoxFlat_card_clear")
+script = ExtResource("2_bmbtn")
+
+[node name="mode_art" type="TextureRect" parent="cards_scroll/card_margin/cards/card_gravity"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("4_gravity")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="art_tint" type="ColorRect" parent="cards_scroll/card_margin/cards/card_gravity"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.02, 0.04, 0.06, 0.08)
+
+[node name="bottom_shade" type="ColorRect" parent="cards_scroll/card_margin/cards/card_gravity"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -140.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+color = Color(0.008, 0.014, 0.022, 0.9)
+
+[node name="mode_name" type="Label" parent="cards_scroll/card_margin/cards/card_gravity"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = -132.0
+offset_right = -12.0
+offset_bottom = -98.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_type_variation = &"LabelBold"
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0.9)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 20
+vertical_alignment = 1
+
+[node name="mode_desc" type="Label" parent="cards_scroll/card_margin/cards/card_gravity"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = -98.0
+offset_right = -12.0
+offset_bottom = -12.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.88, 0.91, 0.95, 1)
+theme_override_font_sizes/font_size = 12
+autowrap_mode = 2
+
+[node name="focus_outline" type="Panel" parent="cards_scroll/card_margin/cards/card_gravity"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_focus")
+
+[node name="selected_outline" type="Panel" parent="cards_scroll/card_margin/cards/card_gravity"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_selected")
+
+[node name="card_uprising" type="Button" parent="cards_scroll/card_margin/cards"]
+unique_name_in_owner = true
+clip_contents = true
+custom_minimum_size = Vector2(210, 340)
+layout_mode = 2
+focus_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_card_clear")
+theme_override_styles/hover = SubResource("StyleBoxFlat_card_clear")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_card_clear")
+theme_override_styles/focus = SubResource("StyleBoxFlat_card_clear")
+script = ExtResource("2_bmbtn")
+
+[node name="mode_art" type="TextureRect" parent="cards_scroll/card_margin/cards/card_uprising"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("5_uprising")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="art_tint" type="ColorRect" parent="cards_scroll/card_margin/cards/card_uprising"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.02, 0.04, 0.06, 0.08)
+
+[node name="bottom_shade" type="ColorRect" parent="cards_scroll/card_margin/cards/card_uprising"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -140.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+color = Color(0.008, 0.014, 0.022, 0.9)
+
+[node name="mode_name" type="Label" parent="cards_scroll/card_margin/cards/card_uprising"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = -132.0
+offset_right = -12.0
+offset_bottom = -98.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_type_variation = &"LabelBold"
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0.9)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 20
+vertical_alignment = 1
+
+[node name="mode_desc" type="Label" parent="cards_scroll/card_margin/cards/card_uprising"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = -98.0
+offset_right = -12.0
+offset_bottom = -12.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.88, 0.91, 0.95, 1)
+theme_override_font_sizes/font_size = 12
+autowrap_mode = 2
+
+[node name="focus_outline" type="Panel" parent="cards_scroll/card_margin/cards/card_uprising"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_focus")
+
+[node name="selected_outline" type="Panel" parent="cards_scroll/card_margin/cards/card_uprising"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_selected")
+
+[node name="card_world_of_ducks" type="Button" parent="cards_scroll/card_margin/cards"]
+unique_name_in_owner = true
+clip_contents = true
+custom_minimum_size = Vector2(210, 340)
+layout_mode = 2
+focus_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_card_clear")
+theme_override_styles/hover = SubResource("StyleBoxFlat_card_clear")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_card_clear")
+theme_override_styles/focus = SubResource("StyleBoxFlat_card_clear")
+script = ExtResource("2_bmbtn")
+
+[node name="mode_art" type="TextureRect" parent="cards_scroll/card_margin/cards/card_world_of_ducks"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("6_ducks")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="art_tint" type="ColorRect" parent="cards_scroll/card_margin/cards/card_world_of_ducks"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.02, 0.04, 0.06, 0.08)
+
+[node name="warduck_icon" type="TextureRect" parent="cards_scroll/card_margin/cards/card_world_of_ducks"]
+layout_mode = 0
+offset_left = 142.0
+offset_top = 10.0
+offset_right = 200.0
+offset_bottom = 68.0
+mouse_filter = 2
+texture = ExtResource("8_duck_icon")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="bottom_shade" type="ColorRect" parent="cards_scroll/card_margin/cards/card_world_of_ducks"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -140.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+color = Color(0.008, 0.014, 0.022, 0.9)
+
+[node name="mode_name" type="Label" parent="cards_scroll/card_margin/cards/card_world_of_ducks"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = -132.0
+offset_right = -12.0
+offset_bottom = -98.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_type_variation = &"LabelBold"
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0.9)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 18
+vertical_alignment = 1
+
+[node name="mode_desc" type="Label" parent="cards_scroll/card_margin/cards/card_world_of_ducks"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = -98.0
+offset_right = -12.0
+offset_bottom = -12.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.88, 0.91, 0.95, 1)
+theme_override_font_sizes/font_size = 12
+autowrap_mode = 2
+
+[node name="focus_outline" type="Panel" parent="cards_scroll/card_margin/cards/card_world_of_ducks"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_focus")
+
+[node name="selected_outline" type="Panel" parent="cards_scroll/card_margin/cards/card_world_of_ducks"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_selected")
+
+[node name="card_training" type="Button" parent="cards_scroll/card_margin/cards"]
+unique_name_in_owner = true
+clip_contents = true
+custom_minimum_size = Vector2(210, 340)
+layout_mode = 2
+focus_mode = 2
+mouse_default_cursor_shape = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_card_clear")
+theme_override_styles/hover = SubResource("StyleBoxFlat_card_clear")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_card_clear")
+theme_override_styles/focus = SubResource("StyleBoxFlat_card_clear")
+script = ExtResource("2_bmbtn")
+
+[node name="mode_art" type="TextureRect" parent="cards_scroll/card_margin/cards/card_training"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("7_sandbox")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="art_tint" type="ColorRect" parent="cards_scroll/card_margin/cards/card_training"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.02, 0.04, 0.06, 0.08)
+
+[node name="bottom_shade" type="ColorRect" parent="cards_scroll/card_margin/cards/card_training"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -140.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+color = Color(0.008, 0.014, 0.022, 0.9)
+
+[node name="mode_name" type="Label" parent="cards_scroll/card_margin/cards/card_training"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = -132.0
+offset_right = -12.0
+offset_bottom = -98.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_type_variation = &"LabelBold"
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0.9)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 20
+vertical_alignment = 1
+
+[node name="mode_desc" type="Label" parent="cards_scroll/card_margin/cards/card_training"]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = -98.0
+offset_right = -12.0
+offset_bottom = -12.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.88, 0.91, 0.95, 1)
+theme_override_font_sizes/font_size = 12
+autowrap_mode = 2
+
+[node name="focus_outline" type="Panel" parent="cards_scroll/card_margin/cards/card_training"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_focus")
+
+[node name="selected_outline" type="Panel" parent="cards_scroll/card_margin/cards/card_training"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_selected")

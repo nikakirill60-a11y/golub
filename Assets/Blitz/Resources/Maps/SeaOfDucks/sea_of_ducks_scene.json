@@ -1,0 +1,15 @@
+{
+  "format": "client",
+  "entities": 390,
+  "nodes": 397,
+  "batches": 416,
+  "vertices": 101844,
+  "triangles": 116222,
+  "materials": 200,
+  "textures": 25,
+  "destructibles": [],
+  "trees": [],
+  "hidden": 38,
+  "noCollision": 101,
+  "skinned": 107
+}

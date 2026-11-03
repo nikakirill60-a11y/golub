@@ -1,0 +1,18 @@
+{
+  "version": "11.20",
+  "policy": "authored Parameters icon paths; exact alpha crop; no resampling",
+  "icons": [
+    {
+      "name": "object_907",
+      "source": "Gfx/UI/BigTankIcons/ussr-Object_907@2x.packed.webp.dvpl",
+      "sha256": "14252aa9f42310dd91bc97d02b57871d5be394c8a2b3a0cddb48fd1f9405c4d2",
+      "crop": [
+        0,
+        0,
+        247,
+        197
+      ],
+      "output_sha256": "009d81001c2f6d56f30c956f2b5ba6dc04e3dbfa79fb46a9818c6cda437acc1b"
+    }
+  ]
+}

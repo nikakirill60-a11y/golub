@@ -1,0 +1,305 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GB68MATILDABLACKPRINCEArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 458,
+      "vertices": 457
+    },
+    {
+      "armor": 0,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 132,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate132s_132",
+      "mount": "hull",
+      "name": "armor_hull_plate132s_132",
+      "screen": true,
+      "submesh": 2,
+      "triangles": 1,
+      "vertices": 3
+    },
+    {
+      "armor": 13,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate13_13",
+      "mount": "hull",
+      "name": "armor_hull_plate13_13",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 20,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 44,
+      "vertices": 132
+    },
+    {
+      "armor": 26,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate26s_26",
+      "mount": "hull",
+      "name": "armor_hull_plate26s_26",
+      "screen": true,
+      "submesh": 5,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 34,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate34s_34",
+      "mount": "hull",
+      "name": "armor_hull_plate34s_34",
+      "screen": true,
+      "submesh": 6,
+      "triangles": 5,
+      "vertices": 15
+    },
+    {
+      "armor": 38,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate38s_38",
+      "mount": "hull",
+      "name": "armor_hull_plate38s_38",
+      "screen": true,
+      "submesh": 7,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 40,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate40s_40",
+      "mount": "hull",
+      "name": "armor_hull_plate40s_40",
+      "screen": true,
+      "submesh": 8,
+      "triangles": 5,
+      "vertices": 15
+    },
+    {
+      "armor": 41,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate41_41",
+      "mount": "hull",
+      "name": "armor_hull_plate41_41",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 48,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate48_48",
+      "mount": "hull",
+      "name": "armor_hull_plate48_48",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 46,
+      "vertices": 138
+    },
+    {
+      "armor": 52,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate52s_52",
+      "mount": "hull",
+      "name": "armor_hull_plate52s_52",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 5,
+      "vertices": 15
+    },
+    {
+      "armor": 54,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate54s_54",
+      "mount": "hull",
+      "name": "armor_hull_plate54s_54",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 57,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate57_57",
+      "mount": "hull",
+      "name": "armor_hull_plate57_57",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 67,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate67s_67",
+      "mount": "hull",
+      "name": "armor_hull_plate67s_67",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 71,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate71s_71",
+      "mount": "hull",
+      "name": "armor_hull_plate71s_71",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 56,
+      "vertices": 168
+    },
+    {
+      "armor": 72,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate72_72",
+      "mount": "hull",
+      "name": "armor_hull_plate72_72",
+      "screen": false,
+      "submesh": 16,
+      "triangles": 50,
+      "vertices": 150
+    },
+    {
+      "armor": 76,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate76s_76",
+      "mount": "hull",
+      "name": "armor_hull_plate76s_76",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 5,
+      "vertices": 15
+    },
+    {
+      "armor": 78,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate78_78",
+      "mount": "hull",
+      "name": "armor_hull_plate78_78",
+      "screen": false,
+      "submesh": 18,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 78,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate78s_78",
+      "mount": "hull",
+      "name": "armor_hull_plate78s_78",
+      "screen": true,
+      "submesh": 19,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 80,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate80s_80",
+      "mount": "hull",
+      "name": "armor_hull_plate80s_80",
+      "screen": true,
+      "submesh": 20,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 81,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate81_81",
+      "mount": "hull",
+      "name": "armor_hull_plate81_81",
+      "screen": false,
+      "submesh": 21,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 98,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_hull_plate98s_98",
+      "mount": "hull",
+      "name": "armor_hull_plate98s_98",
+      "screen": true,
+      "submesh": 22,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 0,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 23,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 20,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_turret_01_plate20_20",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate20_20",
+      "screen": false,
+      "submesh": 24,
+      "triangles": 27,
+      "vertices": 81
+    },
+    {
+      "armor": 21,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_turret_01_plate21_21",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate21_21",
+      "screen": false,
+      "submesh": 25,
+      "triangles": 50,
+      "vertices": 150
+    },
+    {
+      "armor": 66,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_turret_01_plate66_66",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate66_66",
+      "screen": false,
+      "submesh": 26,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 80,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_turret_01_plate80_80",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate80_80",
+      "screen": false,
+      "submesh": 27,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 93,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_turret_01_plate93_93",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate93_93",
+      "screen": false,
+      "submesh": 28,
+      "triangles": 25,
+      "vertices": 75
+    },
+    {
+      "armor": 93,
+      "material": "GB68MATILDABLACKPRINCEArmor_armor_turret_01_plate93s_93",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate93s_93",
+      "screen": true,
+      "submesh": 29,
+      "triangles": 5,
+      "vertices": 15
+    }
+  ]
+}

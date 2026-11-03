@@ -1,0 +1,339 @@
+{
+	"#dataNodes": [
+		{
+			"##name": "ParticleEmitterNode",
+			"#id": {
+				"hex": "0100000000000000"
+			},
+			"emissionRange": 0.0,
+			"emissionVector": [
+				0.0,
+				-1.0,
+				0.0
+			],
+			"generateOnSurface": false,
+			"innerRadius": 0.0,
+			"layers": [
+				{
+					"activeLODS": [
+						true,
+						true,
+						true,
+						false
+					],
+					"alphaOverLife": 0.699999988079071,
+					"alphaRemapLoopCount": 1.0,
+					"alphaRemapSampler": 2101589,
+					"applyGlobalForces": false,
+					"autoFPS": false,
+					"blending": 3,
+					"colorOverLife": 2197811455,
+					"cullMode": 0,
+					"degradeStrategy": 0,
+					"deltaTime": 0.0,
+					"deltaVariation": 0.0,
+					"depthDifferenceSlope": 2.0,
+					"enableAlphaRemap": false,
+					"enableFlow": false,
+					"enableFlowAnimation": false,
+					"enableFog": false,
+					"enableFrameBlend": false,
+					"enableMask": false,
+					"enableMaskUvScale": false,
+					"enableMaskUvScroll": false,
+					"enableNoise": false,
+					"enableNoiseScroll": true,
+					"enableUvScale": false,
+					"enableUvScroll": false,
+					"enableVertexAnimation": false,
+					"enableVertexAnimationMask": false,
+					"endTime": 100.0,
+					"flowOffset": 0.010999999940395355,
+					"flowSpeed": 0.0010000000474974513,
+					"flowSpeedVariation": 1.0,
+					"flowmapSampler": 2101589,
+					"forces": [],
+					"frameOverLifeEnabled": false,
+					"frameOverLifeFPS": 0.0,
+					"fresToAlphaBias": -1.7014118346046923e+38,
+					"fresToAlphaPower": -1.7014118346046923e+38,
+					"fuseBlendAddEdges": [
+						0.0,
+						1.0
+					],
+					"gradientMiddlePoint": 0.5,
+					"inheritChangesRotation": false,
+					"inheritChangesScale": false,
+					"inheritPosition": false,
+					"isLong": false,
+					"isLooped": false,
+					"isSingle": false,
+					"layerType": "particlesStripe",
+					"life": 0.10000000149011612,
+					"loopEndTime": 100.0,
+					"loopSpriteAnimation": true,
+					"loopVariation": 0.0,
+					"maskSampler": 2101589,
+					"name": "treil",
+					"noiseSampler": 2101589,
+					"noiseScale": 0.004999999888241291,
+					"noiseUScrollSpeed": 0.10000000149011612,
+					"noiseUScrollSpeedOverLife": [
+						2,
+						[
+							[
+								1,
+								1.0,
+								1.0
+							]
+						]
+					],
+					"noiseVScrollSpeed": -0.6000000238418579,
+					"noiseVScrollSpeedOverLife": [
+						2,
+						[
+							[
+								1,
+								0.0,
+								0.0
+							],
+							[
+								1,
+								1.0,
+								1.0
+							]
+						]
+					],
+					"number": 1.0,
+					"particleOrientation": 8,
+					"pivotPoint3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"randomFrameOnStart": false,
+					"randomOffsetOnStart": false,
+					"randomSpinDirection": false,
+					"scaleVelocityBase": 1.0,
+					"scaleVelocityFactor": 0.0,
+					"simplifiedForces": [],
+					"softParticles": false,
+					"spritePath": "~res:/Gfx/Particles/halloween_skills/1/afterburner",
+					"spriteSampler": 2102592,
+					"startTime": 0.0,
+					"stripeColorOverLife": [
+						2,
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.0,
+								0.17803700268268585
+							],
+							[
+								1,
+								1.0,
+								0.7836940288543701
+							],
+							[
+								1,
+								1.0,
+								0.9960240125656128
+							]
+						],
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.0,
+								0.17803700268268585
+							],
+							[
+								1,
+								1.0,
+								0.7836940288543701
+							],
+							[
+								1,
+								1.0,
+								0.9960240125656128
+							]
+						],
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.0,
+								0.17803700268268585
+							],
+							[
+								1,
+								1.0,
+								0.7836940288543701
+							],
+							[
+								1,
+								1.0,
+								0.9960240125656128
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							],
+							[
+								1,
+								1.0,
+								0.17803700268268585
+							],
+							[
+								1,
+								1.0,
+								0.7836940288543701
+							],
+							[
+								1,
+								0.0,
+								0.9960240125656128
+							]
+						]
+					],
+					"stripeFadeDistanceFromBack": 1.0,
+					"stripeLifetime": 1.5,
+					"stripeStartSize": 2.5,
+					"stripeTextureTileOverLife": 1.0,
+					"stripeUScrollSpeed": 0.0,
+					"stripeVScrollSpeed": -1.0,
+					"stripeVertexSpawnStep": 1.0,
+					"useFresToAlpha": false,
+					"usePerspectiveMapping": true,
+					"useThreePointGradient": false,
+					"useVertexColor": false,
+					"vertexAnimationSampler": 2101589
+				}
+			],
+			"life": 100.0,
+			"name": "afterburner",
+			"radius": 2.5,
+			"shockwaveMode": 0,
+			"shortEffect": false,
+			"size": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"type": 0
+		}
+	],
+	"#hierarchy": [
+		{
+			"##name": "Entity",
+			"components": {
+				"0000": {
+					"comp.typename": "LodComponent",
+					"lc.loddist": {
+						"distance0": 5.0,
+						"distance1": 70.0,
+						"distance2": 100.0,
+						"distance3": 3.4028234663852886e+38
+					}
+				},
+				"0001": {
+					"comp.typename": "ParticleEffectComponent",
+					"pe.clearOnRestart": true,
+					"pe.effectDuration": 1000.0,
+					"pe.emitters": [
+						{
+							"##name": "<Unknown class>",
+							"emitter.data": [
+								{
+									"emitter.id": 1,
+									"emitter.quality": "Default"
+								}
+							],
+							"emitter.position": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"emitter.rotation": [
+								0.0,
+								0.0,
+								0.0,
+								1.0
+							],
+							"emitter.scale": [
+								1.0,
+								1.0,
+								1.0
+							]
+						}
+					],
+					"pe.inheritScale": false,
+					"pe.nestedEmitters": true,
+					"pe.repeatsCount": 4294967295,
+					"pe.startFromTime": 0.0,
+					"pe.stopWhenEmpty": false,
+					"pe.version": 1,
+					"ro.flags": 1
+				},
+				"0002": {
+					"comp.typename": "TransformComponent",
+					"tc.localRotation": [
+						0.0,
+						0.0,
+						0.0,
+						1.0
+					],
+					"tc.localScale": [
+						1.0,
+						1.0,
+						1.0
+					],
+					"tc.localTranslation": [
+						0.0,
+						9.451469421386719,
+						0.0
+					],
+					"tc.worldRotation": [
+						0.0,
+						0.0,
+						0.0,
+						1.0
+					],
+					"tc.worldScale": [
+						1.0,
+						1.0,
+						1.0
+					],
+					"tc.worldTranslation": [
+						0.0,
+						9.451469421386719,
+						0.0
+					]
+				},
+				"count": 3
+			},
+			"flags": 2,
+			"id": 1,
+			"name": "afterburner"
+		}
+	],
+	"#sceneComponents": {
+		"count": 0
+	}
+}

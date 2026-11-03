@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>rempack</AssemblyName>
+    <RootNamespace>BlitzLegacy.Sdk</RootNamespace>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <Product>Blitz Remaster SDK</Product>
+    <Description>Checks, packs and inspects Remaster Packages (.rempack) for Blitz Remaster.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="*.cs" />
+    <Compile Include="$(GameCore)/Mods/Rempack/*.cs" Link="Core/Rempack/%(Filename)%(Extension)" />
+    <Compile Include="$(GameCore)/Mods/ModState.cs" Link="Core/Mods/ModState.cs" />
+    <Compile Include="$(GameCore)/Mods/ModCrashGuard.cs" Link="Core/Mods/ModCrashGuard.cs" />
+    <Compile Include="$(GameCore)/Serialization/JsonNode.cs" Link="Core/Serialization/JsonNode.cs" />
+    <Compile Include="$(GameCore)/BlitzVersion.cs" Link="Core/BlitzVersion.cs" />
+    <!-- The game's texts: rempack_* words the package issues, sdk_* the CLI's own lines. -->
+    <EmbeddedResource Include="$(GameRoot)/Assets/Blitz/Resources/Data/lang.json" LogicalName="lang.json" />
+    <InternalsVisibleTo Include="Rempack.Sdk.Tests" />
+  </ItemGroup>
+</Project>

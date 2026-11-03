@@ -1,0 +1,510 @@
+{
+  "version": "11.20",
+  "policy": "authored Parameters icon paths; exact alpha crop; no resampling",
+  "icons": [
+    {
+      "name": "a95_t95e6",
+      "source": "Gfx/UI/BigTankIcons/usa-T95_E6@2x.packed.webp.dvpl",
+      "sha256": "1edde4d160ceffcac88b8b07baaa9265b3112ff47876c5ca1d162f1a5d8b6a88",
+      "crop": [
+        0,
+        0,
+        281,
+        201
+      ],
+      "output_sha256": "926f05aea29be3b2d43b6be6f59e568da82b052b67c75b8df7353c3cd50d2f31"
+    },
+    {
+      "name": "a115_chrysler_k",
+      "source": "Gfx/UI/BigTankIcons/usa-Chrysler_K@2x.packed.webp.dvpl",
+      "sha256": "334077a7fa00e05b8d707910036d4f0a129901ca5cbc98c465fc939774a5051d",
+      "crop": [
+        0,
+        0,
+        275,
+        201
+      ],
+      "output_sha256": "c32100b91faf4318065d73ef3be388f7ad50f47a1ebea1cadf3d9ec570be08de"
+    },
+    {
+      "name": "a68_t28d",
+      "source": "Gfx/UI/BigTankIcons/usa-T28D@2x.packed.webp.dvpl",
+      "sha256": "62adcde6053631eb86f166c87d816247d53ac5a5fdb9842fb8afcb906f2fb79e",
+      "crop": [
+        0,
+        0,
+        285,
+        201
+      ],
+      "output_sha256": "1ec976e764ca2aea09f124791b9b20e9a94c30fe517f22cc003de65cc637e6c0"
+    },
+    {
+      "name": "a117_t26e5",
+      "source": "Gfx/UI/BigTankIcons/usa-T26E5@2x.packed.webp.dvpl",
+      "sha256": "9cb3ea2deba75148d6ed3a39f45997cc7f8a3d354de4030fd51e77a2c47c3b8e",
+      "crop": [
+        0,
+        0,
+        289,
+        198
+      ],
+      "output_sha256": "d5b005ce02990dac30e43b7522d1883f174b256b7adfb9267eda34016312a699"
+    },
+    {
+      "name": "a99_t92e1",
+      "source": "Gfx/UI/BigTankIcons/usa-T92E1@2x.packed.webp.dvpl",
+      "sha256": "c0edd6e56009de6f094f57b68208c01432fcee93d1dfecec0b93aecfb10e6df0",
+      "crop": [
+        0,
+        0,
+        203,
+        179
+      ],
+      "output_sha256": "0e53ed993e3623eab8030363f6278032687d4144f4f6879f3d92516891d9f7e0"
+    },
+    {
+      "name": "a116_xm551",
+      "source": "Gfx/UI/BigTankIcons/usa-A116_XM551@2x.packed.webp.dvpl",
+      "sha256": "2c76f5a547aa702828dc3da4fe0d182d16dd5a45b34357906c3a3662830543c5",
+      "crop": [
+        0,
+        0,
+        213,
+        187
+      ],
+      "output_sha256": "a8b1bf8699378ccd3941ef9af17f6cad638d7c3a22641953133a25ae90994e44"
+    },
+    {
+      "name": "a124_t54e2",
+      "source": "Gfx/UI/BigTankIcons/usa-A124_T54E2@2x.packed.webp.dvpl",
+      "sha256": "af2f4ccece98bb8cd84babb00ec662bc2ef330e981b1e621820652003e83b6f8",
+      "crop": [
+        0,
+        0,
+        290,
+        201
+      ],
+      "output_sha256": "498cf1f01c6293ada1029b2d7e54df8f44933cf3e8d1628ca797a5487daa1eee"
+    },
+    {
+      "name": "a111_t25_pilot",
+      "source": "Gfx/UI/BigTankIcons/usa-A111_T25_Pilot@2x.packed.webp.dvpl",
+      "sha256": "ea891d81fe17cad1899484e5e287c90a66a2435c4eb08c1c7fead14bf0d5e460",
+      "crop": [
+        0,
+        0,
+        256,
+        197
+      ],
+      "output_sha256": "f49026ad724c3dc5585c475d5f51d03f87bf2ff8599f6d7b44c5c26e24006411"
+    },
+    {
+      "name": "a121_t26e3",
+      "source": "Gfx/UI/BigTankIcons/usa-A121_T26E3@2x.packed.webp.dvpl",
+      "sha256": "e58bf19c649b388ce65fd0de400ba8749b74902f70aa47c14d4d17f6f644fdc8",
+      "crop": [
+        0,
+        0,
+        281,
+        198
+      ],
+      "output_sha256": "1ff11c9c0901c394ee853609971297d5b3944ca05a753a63505c15374f1b195b"
+    },
+    {
+      "name": "m4a3e8_bp",
+      "source": "Gfx/UI/BigTankIcons/usa-M4A3E8_BP@2x.packed.webp.dvpl",
+      "sha256": "28d438678ad9e7a78f6c44077766c69a45a4ffefd35d8cfddb05ac61a066a7ed",
+      "crop": [
+        0,
+        0,
+        231,
+        201
+      ],
+      "output_sha256": "48cfa7684550f85a832c787e162c06bb5eeb64bbb91f2e47198f7371594a576d"
+    },
+    {
+      "name": "m4a3e8tu",
+      "source": "Gfx/UI/BigTankIcons/usa-M4A3E8TU@2x.packed.webp.dvpl",
+      "sha256": "fd0dc76c74916cf8ebc587a9b830dada8ca1d099aaef05930bf4293d908ce621",
+      "crop": [
+        0,
+        0,
+        243,
+        201
+      ],
+      "output_sha256": "5f0d5e19e34023e5b316373539b65bbd68872291eed278911a9f797313aa3198"
+    },
+    {
+      "name": "a116_xm551_exp",
+      "source": "Gfx/UI/BigTankIcons/usa-A116_XM551_Exp@2x.packed.webp.dvpl",
+      "sha256": "f8e204a1c648fed23d3df8c5fea3f715216ee505452aa63102463ddee8673695",
+      "crop": [
+        0,
+        0,
+        217,
+        187
+      ],
+      "output_sha256": "d63aaac301253432febb7169e1b979e83be9360c87524966e5c2d0d8365d026c"
+    },
+    {
+      "name": "m6e2bp",
+      "source": "Gfx/UI/BigTankIcons/usa-M6E2BP@2x.packed.webp.dvpl",
+      "sha256": "f06c48617e9ee71109cf3cacbf294127dc1d3b6b41c10e7353d5abce0ed5307d",
+      "crop": [
+        0,
+        0,
+        274,
+        201
+      ],
+      "output_sha256": "5a6706a6ddf543dc0cda8fa4c382f1bb6028eae62d24927cb5f743e3f98c4e65"
+    },
+    {
+      "name": "a125_aep_1",
+      "source": "Gfx/UI/BigTankIcons/usa-A125_AEP_1@2x.packed.webp.dvpl",
+      "sha256": "e9abc8598fd006e9f7e74f99f6bf3ac2097f3ed1bbf1278ec4c09a87ff6963c0",
+      "crop": [
+        0,
+        0,
+        292,
+        201
+      ],
+      "output_sha256": "73932aa9c614d5a58d517692353b542520fd91cc7968434df912b9b8d4ed3fba"
+    },
+    {
+      "name": "a122_ts-5",
+      "source": "Gfx/UI/BigTankIcons/usa-A122_TS-5@2x.packed.webp.dvpl",
+      "sha256": "405c407a4f056709403cdff7bf48d3fbca7ec5c8278a5b4d6f94efb451e796ea",
+      "crop": [
+        0,
+        0,
+        265,
+        200
+      ],
+      "output_sha256": "4dd08902a494269cf146fc52d512b1faf6b13c6f7073a2f795e0fa86aeb9461e"
+    },
+    {
+      "name": "m-6-y",
+      "source": "Gfx/UI/BigTankIcons/usa-M-6-Y@2x.packed.webp.dvpl",
+      "sha256": "6fe877ebafbf0ebb641c11b4b2414876b46e47a48abca42cf9e2f44fe898a1a8",
+      "crop": [
+        0,
+        0,
+        314,
+        201
+      ],
+      "output_sha256": "e24ca648f91389d94cc23fdf5efe9def363347d89481159a6f50cdd1e06538b4"
+    },
+    {
+      "name": "m-5-y",
+      "source": "Gfx/UI/BigTankIcons/usa-M-5-Y@2x.packed.webp.dvpl",
+      "sha256": "cabea91c385766c82fcd958538e917dde14e3123db11bcf8524236852a3bd6d9",
+      "crop": [
+        0,
+        0,
+        290,
+        201
+      ],
+      "output_sha256": "901ba621ec36e61a94535213f1efbdc3507103bd22e0e19a3bcf6f343da6417b"
+    },
+    {
+      "name": "m-3-y",
+      "source": "Gfx/UI/BigTankIcons/usa-M-3-Y@2x.packed.webp.dvpl",
+      "sha256": "797a409c74ad10a823bd8f02e497cd4ed79da6cffa9a6d851624c5a94490a162",
+      "crop": [
+        0,
+        0,
+        315,
+        201
+      ],
+      "output_sha256": "ea2e4cb612c9ed749a49788f03296b8db23c5c3217565a053765faa42934b17a"
+    },
+    {
+      "name": "m-7-y",
+      "source": "Gfx/UI/BigTankIcons/usa-M-7-Y@2x.packed.webp.dvpl",
+      "sha256": "92bd801a72a7d49c4b76162e1ba5eea5d3b8fb52e55fa87bcdcb00c24e936968",
+      "crop": [
+        0,
+        0,
+        292,
+        201
+      ],
+      "output_sha256": "1ddd1dc6e16b3b6e0af37e147a4bb2bb154a74990ee0845a72349eb5cb800312"
+    },
+    {
+      "name": "a130_super_hellcat",
+      "source": "Gfx/UI/BigTankIcons/usa-A130_Super_Hellcat@2x.packed.webp.dvpl",
+      "sha256": "065e8f713c511afa11bccef3fff6a20b37c2483737fd66ef3459c27b4d067f9d",
+      "crop": [
+        0,
+        0,
+        244,
+        198
+      ],
+      "output_sha256": "9ddddb04bea0974622c8b68a7437741e1e252d886b31566aebd913b018d10c99"
+    },
+    {
+      "name": "m18e2bp",
+      "source": "Gfx/UI/BigTankIcons/usa-M18E2BP@2x.packed.webp.dvpl",
+      "sha256": "fe2e76fbd988fb59a870f01d7f38ffc07465bbf47c96dae0a986978c30c9212e",
+      "crop": [
+        0,
+        0,
+        246,
+        196
+      ],
+      "output_sha256": "8a75cf70e4c57f8a8149676536e932ead01914cefbccaa38118133ee15cee5cc"
+    },
+    {
+      "name": "a128_concept_1b",
+      "source": "Gfx/UI/BigTankIcons/usa-A128_Concept_1b@2x.packed.webp.dvpl",
+      "sha256": "ed85b1e3326f31bd2c7bfc893997ed4a6c12d502ae35316b3b7ecd3e749ec304",
+      "crop": [
+        0,
+        0,
+        279,
+        201
+      ],
+      "output_sha256": "3c80e1b7939e3a4466f43976d9b2e0a550f7d3274db8910ee6dc967b8a023a1c"
+    },
+    {
+      "name": "m-3-y-midas",
+      "source": "Gfx/UI/BigTankIcons/usa-M-3-Y_Midas@2x.packed.webp.dvpl",
+      "sha256": "27fb69c5a7ec475ef71fc2f02e0a5ff3a077d4ddb07d3a04dddd758489cf202e",
+      "crop": [
+        0,
+        0,
+        315,
+        201
+      ],
+      "output_sha256": "672dcd576438030bd194070795ad3d811a2141fc6312b77526d00af58b528336"
+    },
+    {
+      "name": "m46_cl",
+      "source": "Gfx/UI/BigTankIcons/usa-M46_CL@2x.packed.webp.dvpl",
+      "sha256": "8dceb8eedbd898ae850e817fdfc058f9926c3edf902a2e27f6ef9eb54ff5f208",
+      "crop": [
+        0,
+        0,
+        255,
+        182
+      ],
+      "output_sha256": "f45545df2ca2f20f954b24ca834d2230095c34cd2c5af179a55aa4af8b964762"
+    },
+    {
+      "name": "a132_t77",
+      "source": "Gfx/UI/BigTankIcons/usa-A132_T77@2x.packed.webp.dvpl",
+      "sha256": "4abd0666ed787c43a698eae3597c1d9b1354d50ef67f0cce6a7d11efe932bc68",
+      "crop": [
+        0,
+        0,
+        296,
+        201
+      ],
+      "output_sha256": "d3b5ddf80785a8e14bfc5ca51eee3e581a1e05e0a2733d19e99d9f2cfc84849b"
+    },
+    {
+      "name": "t21_bp",
+      "source": "Gfx/UI/BigTankIcons/usa-T21_BP@2x.packed.webp.dvpl",
+      "sha256": "b58a79699b423846766480feaf7b0d56b853aecca1af936e8cff9059b1da552b",
+      "crop": [
+        0,
+        0,
+        249,
+        201
+      ],
+      "output_sha256": "739670e1a16d470398d55d9e2e3cdcbd216ba98ea95b91453e7c246a5adc7050"
+    },
+    {
+      "name": "a141_m-4-y",
+      "source": "Gfx/UI/BigTankIcons/usa-A141_M-4-Y@2x.packed.webp.dvpl",
+      "sha256": "463c5448ce7546a71553557d261a01df0f1fbcfd682f571293abeeca38151530",
+      "crop": [
+        0,
+        0,
+        305,
+        201
+      ],
+      "output_sha256": "63b910e76f95d320eec5bb76421d23b10687909ec97d8b6d15d32fd9bdf7fb7f"
+    },
+    {
+      "name": "a05_m4_105bd",
+      "source": "Gfx/UI/BigTankIcons/usa-A05_M4_105BD@2x.packed.webp.dvpl",
+      "sha256": "ee1d274afe260ce89219003fab96d0b4f081bed25a8ab30bfb379acb56dcf887",
+      "crop": [
+        0,
+        0,
+        234,
+        201
+      ],
+      "output_sha256": "566e47d782ffa2a8a5797d7ba216466bb36497251203a324dc7c0688179a6dd4"
+    },
+    {
+      "name": "m36_bp",
+      "source": "Gfx/UI/BigTankIcons/usa-M36_BP@2x.packed.webp.dvpl",
+      "sha256": "841ec204df6573427fce402fba3cecb6c85474ca1c9b5fa5c43aa09ac81696f5",
+      "crop": [
+        0,
+        0,
+        255,
+        199
+      ],
+      "output_sha256": "42dc36141758f0e4559310c918374411c72c261bcc0099269719746bc3f12bf0"
+    },
+    {
+      "name": "a140_astron_rex_105",
+      "source": "Gfx/UI/BigTankIcons/usa-A140_ASTRON_REX_105@2x.packed.webp.dvpl",
+      "sha256": "e0d7e4ca2cf5673ba0cb436d7bd3eaad05b10bbcef9da5dd93c8adc2c5c0116d",
+      "crop": [
+        0,
+        0,
+        255,
+        191
+      ],
+      "output_sha256": "9c85b46318fddf2ea4d83d86c871efa4fd80d47a7a152802a466cb1483665e93"
+    },
+    {
+      "name": "m24_chaffee_bp",
+      "source": "Gfx/UI/BigTankIcons/usa-M24_Chaffee_BP@2x.packed.webp.dvpl",
+      "sha256": "5ec21391412c9607c26bed5bd5f861c5f1fdbaaf3604d292f9fac9820f7c7b8c",
+      "crop": [
+        0,
+        0,
+        230,
+        201
+      ],
+      "output_sha256": "11f4d741ab70fcf5c8bc305c6428000ec8afccaf3f78658d23fc39171d547928"
+    },
+    {
+      "name": "m6e2v2_bp",
+      "source": "Gfx/UI/BigTankIcons/usa-M6E2V2_BP@2x.packed.webp.dvpl",
+      "sha256": "b54d15cb282517130d56e49de44673d6e81921b8ed414a11ea709fb3d5c697ed",
+      "crop": [
+        0,
+        0,
+        262,
+        201
+      ],
+      "output_sha256": "88c7bd0c3ec39284d7c42901476eacf644aa9b384c59a95e099d7b22847f0f15"
+    },
+    {
+      "name": "a146_tl_7_120",
+      "source": "Gfx/UI/BigTankIcons/usa-A146_TL_7_120@2x.packed.webp.dvpl",
+      "sha256": "aa15f8838a65a6dd7f6b910e7c87cbbf1ebe3c02dcd56fe419d3077cbd784fef",
+      "crop": [
+        0,
+        0,
+        256,
+        197
+      ],
+      "output_sha256": "2427e72f00d1f74622ff2afc6409d6c6d979ec4cda813446d90a4809b6ef953c"
+    },
+    {
+      "name": "a142_pawlack_tank",
+      "source": "Gfx/UI/BigTankIcons/usa-A142_Pawlack_Tank@2x.packed.webp.dvpl",
+      "sha256": "5ef8d857c944f416ed7d86f239abd49e87b2f01cd196acb9251184385c68241f",
+      "crop": [
+        0,
+        0,
+        277,
+        201
+      ],
+      "output_sha256": "4ad501c0a1f15cc658b184142b7f952ee4deb06f41ea3db591eae488fff115e0"
+    },
+    {
+      "name": "t49_fearless",
+      "source": "Gfx/UI/BigTankIcons/usa-T49_Fearless@2x.packed.webp.dvpl",
+      "sha256": "ce5d1946f53799168dcaef77d4392d1bdfcd656845dbce46083b025237a6a8ad",
+      "crop": [
+        0,
+        0,
+        240,
+        194
+      ],
+      "output_sha256": "2f42e024ee071278b69b7c06981f9c0012f8213ff61b3e296b3183e49f7edb74"
+    },
+    {
+      "name": "a151_ts_60",
+      "source": "Gfx/UI/BigTankIcons/usa-A151_TS_60@2x.packed.webp.dvpl",
+      "sha256": "e9add1d4265472275f3551017ae56a4b34f42359854c3de3a6e34b07a52053bf",
+      "crop": [
+        0,
+        0,
+        284,
+        201
+      ],
+      "output_sha256": "b6e1ab4340f6264bfa9579764056a70be8cb9bc348814ab090e844694e859092"
+    },
+    {
+      "name": "a136_t42",
+      "source": "Gfx/UI/BigTankIcons/usa-A136_T42@2x.packed.webp.dvpl",
+      "sha256": "f57d21d217280dd14271af8a9d2ade499d9620b1d4c322e6c9a0fac9cb706851",
+      "crop": [
+        0,
+        0,
+        246,
+        201
+      ],
+      "output_sha256": "850fc89ac5a73a5794bda89769debab42a6c1441685de90604c515a2155efe34"
+    },
+    {
+      "name": "a153_xm66f",
+      "source": "Gfx/UI/BigTankIcons/usa-A153_XM66F@2x.packed.webp.dvpl",
+      "sha256": "bca0ddaa9f7afc442fc081ea89c221dacef283acb0a95604e4a79cc925a58216",
+      "crop": [
+        0,
+        0,
+        268,
+        201
+      ],
+      "output_sha256": "5b424f0c17fc2d4863e2a1874df0a9df09bfbf746b9cb635ba9e26a80bf4bc08"
+    },
+    {
+      "name": "m4a3e8tur",
+      "source": "Gfx/UI/BigTankIcons/usa-M4A3E8TUR@2x.packed.webp.dvpl",
+      "sha256": "5c0515a7263806720b31a1bdc4184c0d859884cfb1fd2220373051a376b09b25",
+      "crop": [
+        0,
+        0,
+        232,
+        201
+      ],
+      "output_sha256": "913b613ee25232682f2100858c12f5dfd252f977eeaafa849f142a71901e6a90"
+    },
+    {
+      "name": "a150_mbt_b",
+      "source": "Gfx/UI/BigTankIcons/usa-A150_MBT_B@2x.packed.webp.dvpl",
+      "sha256": "9602d45faf4a00c9dc32693fabd1177aad4027cc66919a4e3348562baa8a16fb",
+      "crop": [
+        0,
+        0,
+        276,
+        201
+      ],
+      "output_sha256": "39b8deba8da71e6e6e651d91a0622ea7e549e43be8ce45ed749426c610f463cf"
+    },
+    {
+      "name": "a175_atac",
+      "source": "Gfx/UI/BigTankIcons/usa-A175_ATAC@2x.packed.webp.dvpl",
+      "sha256": "824799b29313c3b4559fa578f9f68c39be8a655bf0b3451d5668d8c4e8b60605",
+      "crop": [
+        0,
+        0,
+        270,
+        199
+      ],
+      "output_sha256": "4c27b7dd2388db0c95f6df0831250573a3e427eea5f632b6497830ec2bb406b1"
+    },
+    {
+      "name": "a178_spht",
+      "source": "Gfx/UI/BigTankIcons/usa-A178_SPHT@2x.packed.webp.dvpl",
+      "sha256": "2a9ce4a330e0a9d3e9df474ab60570225471b70c0899eacce750043c4a7be257",
+      "crop": [
+        0,
+        0,
+        281,
+        201
+      ],
+      "output_sha256": "9d65d8d56fb6dc3c9c2a29ec446568cbd5a9aa03d2c8be6da3fe8532ccd88694"
+    }
+  ]
+}

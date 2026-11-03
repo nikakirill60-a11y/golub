@@ -1,0 +1,169 @@
+# Source-backed material bindings; runtime recreates URP materials.
+
+newmtl B1Armor_module_tracks_20
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_armor_hull_plate10s_10
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_armor_hull_plate20_20
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_armor_hull_plate25_25
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_armor_hull_plate45_45
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_armor_hull_plate55_55
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_armor_hull_plate60_60
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_armor_hull_plate70s_70
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_armor_turret_01_plate0_0
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_armor_turret_01_plate20_20
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_armor_turret_01_plate35_35
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_armor_turret_01_plate40_40
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_gun_01_mask_turret_01_plate20s_20
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_gun_01_mask_turret_01_plate30s_30
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_gun_03_mask_turret_01_plate30s_30
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_armor_turret_02_plate0_0
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_armor_turret_02_plate30_30
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_armor_turret_02_plate35_35
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_armor_turret_02_plate46_46
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_gun_04_mask_turret_02_plate20s_20
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_gun_04_mask_turret_02_plate30s_30
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_gun_06_mask_turret_02_plate30s_30
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_gun_07_mask_turret_02_plate30s_30
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png
+
+newmtl B1Armor_gun_07_mask_turret_02_plate46s_46
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/B1.png

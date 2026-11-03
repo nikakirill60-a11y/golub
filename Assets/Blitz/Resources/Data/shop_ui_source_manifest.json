@@ -1,0 +1,206 @@
+{
+  "existing_regions": [
+    "shop_reward_freexp",
+    "shop_reward_slot"
+  ],
+  "fx_transforms": {
+    "chest_fx_glow": {
+      "alpha_floor_removed": 3
+    }
+  },
+  "sources": [
+    {
+      "path": "godot/assets/gfx/ui/shop/Slot_04.tres",
+      "sha256": "ef1832a7b71186e1fcab7b78d47bca95bd1026e14c449324b96140aa7da6556d"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/shop0_Out.png",
+      "sha256": "49fce670c6c802d180a79309f207161c25f60cc7ef0adfe34ae85108f1806943"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/Slot_03.tres",
+      "sha256": "f41154d6c82a4be8277d8ae57d0d88c17725357bbe3982ef57c206b4e75988a7"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/TextExchangeBack.tres",
+      "sha256": "3402178a433641f4dcb13f0353ed6afff22cc685e7702c2d0f7331e5aea4ea0e"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/shop1_Out.png",
+      "sha256": "f31d5ba72d72138de67710ca3b8ae628d25d466fcefcf9f26bd1af41e399937c"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/daily_chest_small.tres",
+      "sha256": "f1512f097837505347222977a3440b695a76dd2b35b1268a27fbea1c901553c8"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/chests.webp",
+      "sha256": "ef2dbf8f06f7ed8baee6cd4a9090e55eae948c43a28d42701a98cc14cecdbcac"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/daily_chest_medium.tres",
+      "sha256": "065e6e973bd6159086795c815282c8304cb4dbc78362c4570bc1cbeb576c6881"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/daily_chest_big.tres",
+      "sha256": "0afb555e0e256842e64276c7d2fdfbeab32c4ee5bfa1b3c06172bffc136e0a3f"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/ImagePremium1.tres",
+      "sha256": "d92580b63ed563b4f5db8e8df0a065236f5a82c9f907a8d38e00cb9884222d60"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/ImagePremium3.tres",
+      "sha256": "1b3b34657c7ca46a43adf79e8a3dd195b23fde6da1ab2994001f43f86b22fa34"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/ImagePremium7.tres",
+      "sha256": "72b6f87efe1b08078b1d9d02c164611340b5451d992995d4a8d2c49062994fb0"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/ImagePremium14.tres",
+      "sha256": "8b9c59c0e4782f6832482f68e38a5551f628c795cb5415ebe951015225a8d9f5"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/ImagePremium30.tres",
+      "sha256": "2d01d8af8d85be7cafedd5f7e9e0c5fd460afc5d375c9a91aa1281a42c4c8dd9"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/ImagePremium90.tres",
+      "sha256": "0ca8a2f0345a33b401693050d4e38492358b663f4881a2f9ea4893e316c10f76"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/ImagePremium180.tres",
+      "sha256": "c31a768df76f7c2cc7d010d937d7fb0b62ffaec8194e88001ac78d50eec9ad6c"
+    },
+    {
+      "path": "godot/assets/gfx/ui/shop/ImagePremium360.tres",
+      "sha256": "ca35ea7a90095320f7f7bbb46c131a8cada0a25dec24cb3a4e2a4ec78fa6364d"
+    },
+    {
+      "path": "godot/maps/components/chest/background2.dx11_Out.png",
+      "sha256": "a70651f3efe97779cca134940900b2bbdda019fc3cd3f0d4c1516fd1a260ebbb"
+    },
+    {
+      "path": "blitz480/Gfx/Particles/chest/texture0.mali.webp",
+      "sha256": "980ff1c25c97c4493d915398a1ff125bfc69bcec1649ab63a2ee176d5a6dbae6"
+    },
+    {
+      "path": "blitz480/Gfx/Particles/chest/spot_light.txt",
+      "sha256": "ad8ecccba8c1bf0dfdd60f918816310514538e94e08502a7068e1562c79fc3c6"
+    },
+    {
+      "path": "blitz480/Gfx/Particles/chest/box_light.txt",
+      "sha256": "8ebdf262e2f433dbfd8ab08757dacc9b72cf06402ff5df3434771cab10f23ade"
+    },
+    {
+      "path": "blitz480/Gfx/Particles/chest/glow_anim_low.txt",
+      "sha256": "2763bcf86560da15f9b2c506fbb501bd83f99ed2af9f1c3c3d2fae2682f7e582"
+    },
+    {
+      "path": "blitz480/Gfx/Particles/chest/shadow1.txt",
+      "sha256": "8f41453f40eb41af777cbb598091796d006ba411197346464512e04f07243e5a"
+    },
+    {
+      "path": "blitz480/Gfx/Particles/chest/camm.txt",
+      "sha256": "85f409f1affffdb867c785e134e8be58eb6a412498224eabcc7bc183d0630d22"
+    },
+    {
+      "path": "blitz480/Gfx/Particles/chest/sparks1.txt",
+      "sha256": "c98af6d5f861e509a8b7e82cc4637e8d848d3d57976c5d8763e52d2d5d5b42a1"
+    },
+    {
+      "path": "blitz480/Gfx/UI/Quests/DailyChests/texture0.mali.webp",
+      "sha256": "2c6ab885e6dd26bf8ad88c2c19d3a619e88fea6412c3adabfa195a1fc6fcb7c8"
+    },
+    {
+      "path": "blitz480/Gfx/UI/Quests/DailyChests/daily_chest_small.txt",
+      "sha256": "ef9771ce0b3c734934f5a2f3b350d5a57697f9bb1dbfce414337e1ded66f95f7"
+    },
+    {
+      "path": "blitz480/Gfx/UI/Quests/DailyChests/daily_chest_medium.txt",
+      "sha256": "b3470927c0a03e6117d132167065f2f9be1d97492dd30676913872ffd983ed34"
+    },
+    {
+      "path": "blitz480/Gfx/UI/Quests/DailyChests/daily_chest_big.txt",
+      "sha256": "7c788c498d4d6376ebd4cb78de6fcf836ff822aa9854a651a242211b5c160374"
+    },
+    {
+      "path": "blitz480/from_apk/Data/UI/Screens/Lobby/Storage/ChestUsage.yaml",
+      "sha256": "d19c3f3646c0636fcdc4879ed8443a4607fcbbb38bdd29cf148f36392f48d464"
+    }
+  ],
+  "strings": [
+    "shop:collector_tank",
+    "shop:compensation",
+    "shop:connecting",
+    "shop:container/big",
+    "shop:container/big/desc",
+    "shop:container/huge",
+    "shop:container/huge/desc",
+    "shop:container/small",
+    "shop:container/small/desc",
+    "shop:guaranteed_left",
+    "shop:offline/text",
+    "shop:offline/title",
+    "shop:owned",
+    "shop:owned_error",
+    "shop:premium/desc",
+    "shop:premium_tank",
+    "shop:received",
+    "shop:retry",
+    "shop:reward/credits",
+    "shop:reward/freexp",
+    "shop:reward/gold",
+    "shop:reward/tank",
+    "shop:rotation",
+    "shop:rotation/hint",
+    "shop:time/dh",
+    "shop:time/hm"
+  ],
+  "textures": {
+    "chest_background": {
+      "crop": [
+        0,
+        64,
+        2048,
+        1088
+      ]
+    },
+    "chest_fx": {
+      "height": 1024,
+      "regions": [
+        "chest_fx_box_light",
+        "chest_fx_camm",
+        "chest_fx_glow",
+        "chest_fx_shadow",
+        "chest_fx_sparks",
+        "chest_fx_spot_light"
+      ],
+      "width": 2048
+    },
+    "shop_cards": {
+      "height": 2048,
+      "regions": [
+        "chest_open_big",
+        "chest_open_huge",
+        "chest_open_small",
+        "shop_chest_big",
+        "shop_chest_huge",
+        "shop_chest_small",
+        "shop_premium_1",
+        "shop_premium_14",
+        "shop_premium_180",
+        "shop_premium_3",
+        "shop_premium_30",
+        "shop_premium_360",
+        "shop_premium_7",
+        "shop_premium_90",
+        "shop_price_back",
+        "shop_slot_back",
+        "shop_slot_frame"
+      ],
+      "width": 2048
+    }
+  }
+}

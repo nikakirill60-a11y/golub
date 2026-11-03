@@ -1,0 +1,55 @@
+Header:
+    version: 142
+Prototypes:
+-   class: "UIControl"
+    name: "BossmodeAbilityType"
+    input: false
+    components:
+        LinearLayout: {}
+        SizePolicy:
+            horizontalPolicy: "PercentOfMaxChild"
+            verticalPolicy: "PercentOfMaxChild"
+    children:
+    -   class: "UIControl"
+        name: "Content"
+        input: false
+        components:
+            SizePolicy:
+                horizontalPolicy: "PercentOfMaxChild"
+                verticalPolicy: "PercentOfLastChild"
+        children:
+        -   class: "UIControl"
+            name: "Border"
+            input: false
+            components:
+                Background:
+                    drawType: "DRAW_STRETCH_BOTH"
+                    sprite: "~res:/Gfx/Battle/HUD/bossmode/bg_border_1px_r4"
+                    leftRightStretchCap: 4.000000
+                    topBottomStretchCap: 4.000000
+                Anchor:
+                    hCenterAnchorEnabled: true
+                    vCenterAnchorEnabled: true
+                SizePolicy:
+                    horizontalPolicy: "Formula"
+                    horizontalFormula: "maxChild + 8"
+                    verticalPolicy: "Formula"
+                    verticalFormula: "maxChild + 4"
+                StyleSheet:
+                    styles: "~res:/UI/Screens3/Color.style.yaml"
+            children:
+            -   class: "UIControl"
+                name: "Name"
+                input: false
+                classes: "t-caps bold"
+                components:
+                    UITextComponent: {}
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                        vCenterAnchorEnabled: true
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfContent"
+                        horizontalMin: 24.000000
+                        verticalPolicy: "PercentOfContent"
+                    StyleSheet:
+                        styles: "~res:/UI/Screens3/Font.style.yaml;~res:/UI/Screens3/Color.style.yaml"

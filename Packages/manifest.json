@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "com.unity.ai.navigation": "2.0.15",
+    "com.unity.ide.rider": "3.0.38",
+    "com.unity.inputsystem": "6.7.0",
+    "com.unity.nuget.mono-cecil": "1.11.6",
+    "com.unity.render-pipelines.universal": "17.7.0",
+    "com.unity.sdk.linux-x86_64": "1.1.0",
+    "com.unity.test-framework": "1.9.0",
+    "com.unity.toolchain.linux-x86_64-linux": "1.1.0",
+    "com.unity.ugui": "7.0.0",
+    "com.unity.modules.androidjni": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.localizationruntime": "1.0.0",
+    "com.unity.modules.particlesystem": "1.0.0",
+    "com.unity.modules.smartstrings": "1.0.0",
+    "com.unity.modules.spritemask": "1.0.0",
+    "com.unity.modules.unitywebrequestaudio": "1.0.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "BlitzLegacy.Tests",
+    "rootNamespace": "BlitzLegacy.Tests",
+    "references": [
+        "BlitzLegacy.Core",
+        "BlitzLegacy.Runtime",
+        "LiteNetLib",
+        "BlitzLegacy.Direct",
+        "BlitzLegacy.EditorTools",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

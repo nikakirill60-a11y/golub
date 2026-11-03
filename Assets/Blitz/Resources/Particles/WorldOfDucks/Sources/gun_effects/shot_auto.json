@@ -1,0 +1,724 @@
+{
+ "legacyEmitters": [
+  {
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "emitter": {
+    "name": "fireworks",
+    "emissionVector": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "emissionAngle": 0.0,
+    "type": 0,
+    "size": [
+     1.0,
+     1.0,
+     0.0
+    ],
+    "shortEffect": false,
+    "radius": 0.2,
+    "emissionRange": 120.0,
+    "emissionVectorInverted": true,
+    "layers": [
+     {
+      "life": 3.0,
+      "stripeLifetime": 0.0,
+      "endTime": 0.5,
+      "scaleVelocityBase": 1.0,
+      "stripeVertexSpawnStep": 1.0,
+      "stripeStartSize": 0.0,
+      "type": "layer",
+      "stripeUScrollSpeed": 0.0,
+      "enableFlow": false,
+      "stripeVScrollSpeed": 0.0,
+      "stripeFadeDistanceFromTop": 0.0,
+      "name": "bubbles",
+      "layerType": "particles",
+      "degradeStrategy": 0,
+      "particleOrientation": 1,
+      "inheritPosition": false,
+      "isLong": false,
+      "randomSpinDirection": true,
+      "pivotPoint": [
+       2.0,
+       2.0
+      ],
+      "effectFormat": 1,
+      "useFresToAlpha": false,
+      "fresToAlphaBias": 0.0,
+      "fresToAlphaPower": 0.0,
+      "alphaRemapLoopCount": 1.0,
+      "size": [
+       0.15,
+       0.15
+      ],
+      "sprite": "../../../../../../Data/Gfx/Particles/sea_of_ducks/bubbles",
+      "alphaOverLife": 0.3,
+      "enableAlphaRemap": false,
+      "blending": 3,
+      "deltaTime": 0.0,
+      "enableFlowAnimation": false,
+      "enableNoise": false,
+      "useNoiseScroll": false,
+      "useThreePointGradient": false,
+      "stripeInheritPositionForBase": false,
+      "enableFog": false,
+      "enableFrameBlend": false,
+      "loopEndTime": 100.0,
+      "scaleVelocityFactor": 0.0,
+      "startTime": 0.0,
+      "gradientMiddlePoint": 0.5,
+      "applyGlobalForces": false,
+      "loopVariation": 0.0,
+      "loopSpriteAnimation": true,
+      "number": 50.0,
+      "sizeVariation": [
+       0.15,
+       0.15
+      ],
+      "sizeOverLifeXY": [
+       0.0,
+       [
+        0.0,
+        0.0
+       ],
+       0.098876,
+       [
+        0.970803,
+        0.970803
+       ]
+      ],
+      "velocity": 3.0,
+      "frameOverLifeEnabled": false,
+      "velocityVariation": 2.0,
+      "frameOverLifeFPS": 0.0,
+      "spin": 200.0,
+      "spinVariation": 200.0,
+      "angle": 1.0,
+      "angleVariation": 360.0,
+      "randomFrameOnStart": false,
+      "isLooped": false,
+      "deltaVariation": 0.0,
+      "usePerspectiveMapping": false,
+      "activeLODS": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "legacyLod": 1,
+      "legacyPivot": [
+       2.0,
+       2.0
+      ],
+      "legacySpinDirection": true,
+      "size3d": [
+       0.15,
+       0.15,
+       1
+      ],
+      "sizeVariation3d": [
+       0.15,
+       0.15,
+       1
+      ],
+      "sizeOverLife3ds": [
+       2,
+       [
+        [
+         1,
+         0.0,
+         0.0
+        ],
+        [
+         1,
+         0.970803,
+         0.098876
+        ]
+       ],
+       [
+        [
+         1,
+         0.0,
+         0.0
+        ],
+        [
+         1,
+         0.970803,
+         0.098876
+        ]
+       ],
+       [
+        [
+         1,
+         1,
+         0.0
+        ],
+        [
+         1,
+         1,
+         0.098876
+        ]
+       ]
+      ],
+      "angle3d": [
+       0,
+       0,
+       1.0
+      ],
+      "angleVariation3d": [
+       0,
+       0,
+       360.0
+      ],
+      "spin3d": [
+       0,
+       0,
+       200.0
+      ],
+      "spinVariation3d": [
+       0,
+       0,
+       200.0
+      ],
+      "legacyForces": [],
+      "forces": [],
+      "spritePath": "../../../../../../Data/Gfx/Particles/sea_of_ducks/bubbles"
+     }
+    ]
+   }
+  },
+  {
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "emitter": {
+    "name": "exp",
+    "emissionVector": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "emissionAngle": 0.0,
+    "type": 0,
+    "size": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "shortEffect": true,
+    "emissionRange": 0.0,
+    "emissionVectorInverted": true,
+    "radius": 0,
+    "layers": [
+     {
+      "life": 0.25,
+      "stripeLifetime": 0.0,
+      "endTime": 0.1,
+      "scaleVelocityBase": 0.0,
+      "stripeVertexSpawnStep": 1.0,
+      "stripeStartSize": 0.0,
+      "type": "layer",
+      "stripeUScrollSpeed": 0.0,
+      "enableFlow": false,
+      "stripeVScrollSpeed": 0.0,
+      "colorOverLife": [
+       0.7265583098039216,
+       0.7356679294117647,
+       1.0,
+       1.0
+      ],
+      "stripeFadeDistanceFromTop": 0.0,
+      "name": "bigbubbles2",
+      "layerType": "particles",
+      "degradeStrategy": 0,
+      "particleOrientation": 1,
+      "inheritPosition": true,
+      "isLong": false,
+      "randomSpinDirection": false,
+      "pivotPoint": [
+       0.0,
+       0.0
+      ],
+      "effectFormat": 1,
+      "useFresToAlpha": false,
+      "fresToAlphaBias": 0.0,
+      "fresToAlphaPower": 0.0,
+      "alphaRemapLoopCount": 1.0,
+      "size": [
+       1.7,
+       1.7
+      ],
+      "sprite": "../../../../../../Data/Gfx/Particles/sea_of_ducks/glow_low2",
+      "alphaOverLife": [
+       2,
+       [
+        [
+         1,
+         0.0,
+         0.0
+        ],
+        [
+         1,
+         0.003942,
+         0.793258
+        ],
+        [
+         1,
+         0.988029,
+         0.862921
+        ]
+       ]
+      ],
+      "enableAlphaRemap": false,
+      "blending": 3,
+      "deltaTime": 0.0,
+      "enableFlowAnimation": false,
+      "enableNoise": false,
+      "useNoiseScroll": false,
+      "useThreePointGradient": false,
+      "stripeInheritPositionForBase": false,
+      "enableFog": false,
+      "enableFrameBlend": true,
+      "loopEndTime": 4.0,
+      "scaleVelocityFactor": 0.0,
+      "startTime": 0.0,
+      "gradientMiddlePoint": 0.5,
+      "sizeOverLifeXY": [
+       0.0,
+       [
+        0.3,
+        0.3
+       ],
+       1.0,
+       [
+        2.0,
+        2.0
+       ]
+      ],
+      "velocity": 50.0,
+      "velocityOverLife": [
+       2,
+       [
+        [
+         1,
+         1.0,
+         0.0
+        ],
+        [
+         1,
+         0.0,
+         0.35
+        ]
+       ]
+      ],
+      "angle": 90.0,
+      "frameOverLifeEnabled": false,
+      "frameOverLifeFPS": 100.0,
+      "randomFrameOnStart": false,
+      "applyGlobalForces": false,
+      "loopVariation": 0.0,
+      "loopSpriteAnimation": false,
+      "isLooped": false,
+      "deltaVariation": 0.0,
+      "usePerspectiveMapping": false,
+      "activeLODS": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "legacyLod": 1,
+      "isSingle": true,
+      "legacyPivot": [
+       0.0,
+       0.0
+      ],
+      "legacySpinDirection": true,
+      "size3d": [
+       1.7,
+       1.7,
+       1
+      ],
+      "sizeOverLife3ds": [
+       2,
+       [
+        [
+         1,
+         0.3,
+         0.0
+        ],
+        [
+         1,
+         2.0,
+         1.0
+        ]
+       ],
+       [
+        [
+         1,
+         0.3,
+         0.0
+        ],
+        [
+         1,
+         2.0,
+         1.0
+        ]
+       ],
+       [
+        [
+         1,
+         1,
+         0.0
+        ],
+        [
+         1,
+         1,
+         1.0
+        ]
+       ]
+      ],
+      "angle3d": [
+       0,
+       0,
+       90.0
+      ],
+      "legacyForces": [],
+      "forces": [],
+      "spritePath": "../../../../../../Data/Gfx/Particles/sea_of_ducks/glow_low2"
+     },
+     {
+      "life": 0.2,
+      "stripeLifetime": 0.0,
+      "endTime": 0.1,
+      "scaleVelocityBase": 0.0,
+      "stripeVertexSpawnStep": 1.0,
+      "stripeStartSize": 0.0,
+      "type": "layer",
+      "stripeUScrollSpeed": 0.0,
+      "enableFlow": false,
+      "stripeVScrollSpeed": 0.0,
+      "stripeFadeDistanceFromTop": 0.0,
+      "name": "bigbubbles1",
+      "layerType": "particles",
+      "degradeStrategy": 0,
+      "particleOrientation": 1,
+      "inheritPosition": true,
+      "isLong": false,
+      "randomSpinDirection": false,
+      "pivotPoint": [
+       0.0,
+       0.0
+      ],
+      "effectFormat": 1,
+      "useFresToAlpha": false,
+      "fresToAlphaBias": 0.0,
+      "fresToAlphaPower": 0.0,
+      "alphaRemapLoopCount": 1.0,
+      "size": [
+       1.4,
+       1.4
+      ],
+      "sprite": "../../../../../../Data/Gfx/Particles/sea_of_ducks/bubbles",
+      "alphaOverLife": 0.6,
+      "enableAlphaRemap": false,
+      "blending": 3,
+      "deltaTime": 0.0,
+      "enableFlowAnimation": false,
+      "enableNoise": false,
+      "useNoiseScroll": false,
+      "useThreePointGradient": false,
+      "stripeInheritPositionForBase": false,
+      "enableFog": false,
+      "enableFrameBlend": true,
+      "loopEndTime": 4.0,
+      "scaleVelocityFactor": 0.0,
+      "startTime": 0.0,
+      "gradientMiddlePoint": 0.5,
+      "sizeOverLifeXY": [
+       0.0,
+       [
+        0.3,
+        0.3
+       ],
+       1.0,
+       [
+        1.6,
+        1.6
+       ]
+      ],
+      "velocity": 50.0,
+      "velocityOverLife": [
+       2,
+       [
+        [
+         1,
+         1.0,
+         0.0
+        ],
+        [
+         1,
+         0.0,
+         0.35
+        ]
+       ]
+      ],
+      "angle": 90.0,
+      "frameOverLifeEnabled": false,
+      "frameOverLifeFPS": 100.0,
+      "randomFrameOnStart": false,
+      "applyGlobalForces": false,
+      "loopVariation": 0.0,
+      "loopSpriteAnimation": false,
+      "isLooped": false,
+      "deltaVariation": 0.0,
+      "usePerspectiveMapping": false,
+      "activeLODS": [
+       0,
+       1,
+       1,
+       0
+      ],
+      "legacyLod": 1,
+      "isSingle": true,
+      "legacyPivot": [
+       0.0,
+       0.0
+      ],
+      "legacySpinDirection": true,
+      "size3d": [
+       1.4,
+       1.4,
+       1
+      ],
+      "sizeOverLife3ds": [
+       2,
+       [
+        [
+         1,
+         0.3,
+         0.0
+        ],
+        [
+         1,
+         1.6,
+         1.0
+        ]
+       ],
+       [
+        [
+         1,
+         0.3,
+         0.0
+        ],
+        [
+         1,
+         1.6,
+         1.0
+        ]
+       ],
+       [
+        [
+         1,
+         1,
+         0.0
+        ],
+        [
+         1,
+         1,
+         1.0
+        ]
+       ]
+      ],
+      "angle3d": [
+       0,
+       0,
+       90.0
+      ],
+      "legacyForces": [],
+      "forces": [],
+      "spritePath": "../../../../../../Data/Gfx/Particles/sea_of_ducks/bubbles"
+     }
+    ]
+   }
+  },
+  {
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "emitter": {
+    "name": "exp1",
+    "emissionVector": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "emissionAngle": 0.0,
+    "type": 0,
+    "size": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "shortEffect": true,
+    "emissionRange": 0.0,
+    "emissionVectorInverted": true,
+    "radius": 0,
+    "layers": [
+     {
+      "life": 0.1,
+      "stripeLifetime": 0.0,
+      "endTime": 0.1,
+      "scaleVelocityBase": 0.0,
+      "stripeVertexSpawnStep": 1.0,
+      "stripeStartSize": 0.0,
+      "type": "layer",
+      "stripeUScrollSpeed": 0.0,
+      "enableFlow": false,
+      "stripeVScrollSpeed": 0.0,
+      "colorOverLife": [
+       0.40166323921568625,
+       0.5005111686274509,
+       0.7971007686274509,
+       1.0
+      ],
+      "stripeFadeDistanceFromTop": 0.0,
+      "name": "exp",
+      "layerType": "particles",
+      "degradeStrategy": 0,
+      "particleOrientation": 10,
+      "inheritPosition": true,
+      "isLong": true,
+      "randomSpinDirection": false,
+      "pivotPoint": [
+       0.0,
+       1.0
+      ],
+      "effectFormat": 1,
+      "useFresToAlpha": true,
+      "fresToAlphaBias": 0.0,
+      "fresToAlphaPower": 1.0,
+      "alphaRemapLoopCount": 1.0,
+      "size": [
+       1.0,
+       5.0
+      ],
+      "sprite": "../../../../../../Data/Gfx/Particles/sea_of_ducks/exp_water",
+      "enableAlphaRemap": false,
+      "blending": 3,
+      "deltaTime": 0.0,
+      "enableFlowAnimation": false,
+      "enableNoise": false,
+      "useNoiseScroll": false,
+      "useThreePointGradient": false,
+      "stripeInheritPositionForBase": false,
+      "enableFog": false,
+      "enableFrameBlend": false,
+      "loopEndTime": 2.0,
+      "scaleVelocityFactor": 0.3,
+      "startTime": 0.0,
+      "gradientMiddlePoint": 0.5,
+      "sizeOverLifeXY": [
+       0.0,
+       [
+        0.0,
+        0.0
+       ],
+       0.99,
+       [
+        2.0,
+        2.0
+       ]
+      ],
+      "velocity": 1.0,
+      "angle": 180.0,
+      "frameOverLifeEnabled": false,
+      "frameOverLifeFPS": 0.0,
+      "randomFrameOnStart": false,
+      "applyGlobalForces": false,
+      "loopVariation": 0.0,
+      "loopSpriteAnimation": true,
+      "isLooped": false,
+      "deltaVariation": 0.0,
+      "usePerspectiveMapping": false,
+      "activeLODS": [
+       0,
+       1,
+       1,
+       0
+      ],
+      "legacyLod": 1,
+      "isSingle": true,
+      "legacyPivot": [
+       0.0,
+       1.0
+      ],
+      "legacySpinDirection": true,
+      "size3d": [
+       1.0,
+       5.0,
+       1
+      ],
+      "sizeOverLife3ds": [
+       2,
+       [
+        [
+         1,
+         0.0,
+         0.0
+        ],
+        [
+         1,
+         2.0,
+         0.99
+        ]
+       ],
+       [
+        [
+         1,
+         0.0,
+         0.0
+        ],
+        [
+         1,
+         2.0,
+         0.99
+        ]
+       ],
+       [
+        [
+         1,
+         1,
+         0.0
+        ],
+        [
+         1,
+         1,
+         0.99
+        ]
+       ]
+      ],
+      "angle3d": [
+       0,
+       0,
+       180.0
+      ],
+      "legacyForces": [],
+      "forces": [],
+      "spritePath": "../../../../../../Data/Gfx/Particles/sea_of_ducks/exp_water"
+     }
+    ]
+   }
+  }
+ ]
+}

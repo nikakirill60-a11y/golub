@@ -1,0 +1,192 @@
+{
+  "mountOffsets": {
+    "hull": [
+      -0.06,
+      -0.02,
+      -0.12
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "S35CAArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 272,
+      "vertices": 288
+    },
+    {
+      "armor": 0,
+      "material": "S35CAArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 11,
+      "material": "S35CAArmor_armor_hull_plate11_11",
+      "mount": "hull",
+      "name": "armor_hull_plate11_11",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 17,
+      "vertices": 51
+    },
+    {
+      "armor": 11,
+      "material": "S35CAArmor_armor_hull_plate11s_11",
+      "mount": "hull",
+      "name": "armor_hull_plate11s_11",
+      "screen": true,
+      "submesh": 3,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 19,
+      "material": "S35CAArmor_armor_hull_plate19_19",
+      "mount": "hull",
+      "name": "armor_hull_plate19_19",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 24,
+      "material": "S35CAArmor_armor_hull_plate24_24",
+      "mount": "hull",
+      "name": "armor_hull_plate24_24",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 37,
+      "vertices": 111
+    },
+    {
+      "armor": 29,
+      "material": "S35CAArmor_armor_hull_plate29_29",
+      "mount": "hull",
+      "name": "armor_hull_plate29_29",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 29,
+      "material": "S35CAArmor_armor_hull_plate29s_29",
+      "mount": "hull",
+      "name": "armor_hull_plate29s_29",
+      "screen": true,
+      "submesh": 7,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 34,
+      "material": "S35CAArmor_armor_hull_plate34_34",
+      "mount": "hull",
+      "name": "armor_hull_plate34_34",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 49,
+      "vertices": 147
+    },
+    {
+      "armor": 35,
+      "material": "S35CAArmor_armor_hull_plate35_35",
+      "mount": "hull",
+      "name": "armor_hull_plate35_35",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 41,
+      "material": "S35CAArmor_armor_hull_plate41s_41",
+      "mount": "hull",
+      "name": "armor_hull_plate41s_41",
+      "screen": true,
+      "submesh": 10,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 53,
+      "material": "S35CAArmor_armor_hull_plate53s_53",
+      "mount": "hull",
+      "name": "armor_hull_plate53s_53",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 54,
+      "material": "S35CAArmor_armor_hull_plate54_54",
+      "mount": "hull",
+      "name": "armor_hull_plate54_54",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 81,
+      "vertices": 243
+    },
+    {
+      "armor": 19,
+      "material": "S35CAArmor_armor_turret_01_plate19_19",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate19_19",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 134,
+      "vertices": 402
+    },
+    {
+      "armor": 35,
+      "material": "S35CAArmor_gun_01_mask_turret_01_plate35s_35",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate35s_35",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 91,
+      "vertices": 273
+    },
+    {
+      "armor": 56,
+      "material": "S35CAArmor_gun_01_mask_turret_01_plate56s_56",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate56s_56",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 31,
+      "vertices": 93
+    },
+    {
+      "armor": 35,
+      "material": "S35CAArmor_gun_03_mask_turret_01_plate35s_35",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate35s_35",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 89,
+      "vertices": 267
+    },
+    {
+      "armor": 56,
+      "material": "S35CAArmor_gun_03_mask_turret_01_plate56s_56",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate56s_56",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 27,
+      "vertices": 81
+    }
+  ]
+}

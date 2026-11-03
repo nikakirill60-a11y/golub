@@ -1,0 +1,15 @@
+# Source-backed material bindings; runtime recreates URP materials.
+
+newmtl CH18WZ120Body
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/CH18WZ120.png
+
+newmtl CH18WZ120Tracks
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/CH18WZ120_tracks.png

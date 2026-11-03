@@ -1,0 +1,162 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.0,
+      -0.22,
+      0.04
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "SU76IArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 288,
+      "vertices": 320
+    },
+    {
+      "armor": 0,
+      "material": "SU76IArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 10,
+      "material": "SU76IArmor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 15,
+      "material": "SU76IArmor_armor_hull_plate15_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15_15",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 26,
+      "material": "SU76IArmor_armor_hull_plate26_26",
+      "mount": "hull",
+      "name": "armor_hull_plate26_26",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 31,
+      "material": "SU76IArmor_armor_hull_plate31_31",
+      "mount": "hull",
+      "name": "armor_hull_plate31_31",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 72,
+      "vertices": 216
+    },
+    {
+      "armor": 36,
+      "material": "SU76IArmor_armor_hull_plate36_36",
+      "mount": "hull",
+      "name": "armor_hull_plate36_36",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 47,
+      "material": "SU76IArmor_armor_hull_plate47_47",
+      "mount": "hull",
+      "name": "armor_hull_plate47_47",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 79,
+      "vertices": 237
+    },
+    {
+      "armor": 52,
+      "material": "SU76IArmor_armor_hull_plate52_52",
+      "mount": "hull",
+      "name": "armor_hull_plate52_52",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 57,
+      "material": "SU76IArmor_armor_hull_plate57_57",
+      "mount": "hull",
+      "name": "armor_hull_plate57_57",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 62,
+      "material": "SU76IArmor_armor_hull_plate62_62",
+      "mount": "hull",
+      "name": "armor_hull_plate62_62",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 68,
+      "material": "SU76IArmor_armor_hull_plate68_68",
+      "mount": "hull",
+      "name": "armor_hull_plate68_68",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 74,
+      "vertices": 222
+    },
+    {
+      "armor": 20,
+      "material": "SU76IArmor_gun_01_mask_turret_01_plate20s_20",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate20s_20",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 30,
+      "material": "SU76IArmor_gun_01_mask_turret_01_plate30s_30",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate30s_30",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 50,
+      "material": "SU76IArmor_gun_01_mask_turret_01_plate50s_50",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate50s_50",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 25,
+      "vertices": 75
+    }
+  ]
+}

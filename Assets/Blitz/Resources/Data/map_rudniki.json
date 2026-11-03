@@ -1,0 +1,1040 @@
+{
+  "aiMarkers": [
+    {
+      "name": "AIMarker",
+      "origin": [
+        399.97293,
+        74.18828,
+        324.7542
+      ],
+      "priority": 1,
+      "radius": 17.095,
+      "type": 0
+    },
+    {
+      "name": "AIMarker8",
+      "origin": [
+        450.45807,
+        74.18828,
+        279.47934
+      ],
+      "priority": 1,
+      "radius": 17.095,
+      "type": 0
+    },
+    {
+      "name": "AIMarker11",
+      "origin": [
+        398.67377,
+        74.18828,
+        211.54706
+      ],
+      "priority": 1,
+      "radius": 31.21,
+      "type": 0
+    },
+    {
+      "name": "AIMarker12",
+      "origin": [
+        351.93484,
+        74.18828,
+        286.09924
+      ],
+      "priority": 1,
+      "radius": 17.095,
+      "type": 0
+    },
+    {
+      "name": "AIMarker2",
+      "origin": [
+        237.45813,
+        69.169304,
+        268.66415
+      ],
+      "priority": 0,
+      "radius": 33.799,
+      "type": 0
+    },
+    {
+      "name": "AIMarker4",
+      "origin": [
+        490.92465,
+        68.353836,
+        105.58604
+      ],
+      "priority": 0,
+      "radius": 58.801,
+      "type": 1
+    },
+    {
+      "name": "AIMarker6",
+      "origin": [
+        207.07301,
+        52.808376,
+        44.967846
+      ],
+      "priority": 0,
+      "radius": 1.37,
+      "type": 3
+    },
+    {
+      "name": "AIMarker3",
+      "origin": [
+        289.37436,
+        54.957405,
+        54.494263
+      ],
+      "priority": 0,
+      "radius": 1.0,
+      "type": 3
+    },
+    {
+      "name": "AIMarker5",
+      "origin": [
+        65.77235,
+        54.063103,
+        273.34625
+      ],
+      "priority": 0,
+      "radius": 25.986,
+      "type": 1
+    },
+    {
+      "name": "AIMarker7",
+      "origin": [
+        330.31314,
+        52.50922,
+        512.9243
+      ],
+      "priority": 0,
+      "radius": 2.181,
+      "type": 3
+    },
+    {
+      "name": "AIMarker9",
+      "origin": [
+        291.2066,
+        53.025837,
+        537.1492
+      ],
+      "priority": 0,
+      "radius": 1.0,
+      "type": 3
+    },
+    {
+      "name": "AIMarker10",
+      "origin": [
+        91.48839,
+        42.596413,
+        547.3027
+      ],
+      "priority": 0,
+      "radius": 1.0,
+      "type": 3
+    },
+    {
+      "name": "AIMarker13",
+      "origin": [
+        83.72223,
+        42.235737,
+        424.0969
+      ],
+      "priority": 0,
+      "radius": 8.338000000000001,
+      "type": 3
+    }
+  ],
+  "border": {
+    "max": [
+      556.0,
+      55.782,
+      558.92145
+    ],
+    "min": [
+      39.104885,
+      40.205475,
+      38.543095
+    ]
+  },
+  "directionalLight": {
+    "basis": [
+      0.77051586,
+      -0.064132236,
+      -0.63418645,
+      0.6312419,
+      -0.061424557,
+      0.77314985,
+      -0.08853846,
+      -0.9960492,
+      -0.00684564
+    ],
+    "energy": 1.465,
+    "origin": [
+      237.79362,
+      241.9441,
+      295.6712
+    ]
+  },
+  "externalScene": "Maps/Rudniki/rudniki_scene",
+  "externalSceneSource": "maps/rudniki/_rudniki.tscn",
+  "id": "rudniki",
+  "loadingScreen": "Maps/Rudniki/loading_screen",
+  "minimap": "Maps/Rudniki/minimap",
+  "minimapArea": {
+    "frame": [
+      0,
+      0,
+      328,
+      328
+    ],
+    "max": [
+      556.0,
+      558.92145
+    ],
+    "min": [
+      39.104885,
+      38.543095
+    ]
+  },
+  "nameKey": "map:rudniki/name",
+  "objects": {
+    "billboards": 480,
+    "bytes": 1140472,
+    "count": 713,
+    "materials": 37,
+    "meshes": 66,
+    "multiMeshes": 7,
+    "resource": "Data/map_rudniki_objects",
+    "sha256": "ae6372c66d558b249359b0ab2fe7d0879447448c2c4b46bfb36fd22773073b4d",
+    "shapes": 30,
+    "skipped": {},
+    "textures": 36
+  },
+  "scene": "maps/rudniki/_rudniki.tscn",
+  "sceneFormat": "godot",
+  "sceneSources": [
+    {
+      "path": "res://maps/rudniki/objects/_resources/3_trunk.mali_Out.png",
+      "sha256": "8eaaaf81f07ff5402a97315d2d1fe6d3a7d6b6eb85978b99697d6c475f90d107"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/BoxCamouflage.mali_Out.png",
+      "sha256": "83c6f8284af5465e7685b20a98e3b0cd5d3e23090918f5aabad50cba33dc6fd3"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/Boxes.mali_Out.png",
+      "sha256": "ea9534b7300e198f743d275703edd3aefd4282d1693bf0cd4c2687e624bb1796"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/ElectroPole.mali_Out.png",
+      "sha256": "07fb28c39890bc4ce58d70ef0c864982872f1b3af38438e5720c01babb4492b4"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/Ez.mali_Out.png",
+      "sha256": "d882303a199dc570a8bc70a6d5608a6027a1a57a2ced7b2e4aa704dc6697f0fc"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/Fencecs.mali_Out.png",
+      "sha256": "a43e973792b7f1c7b57f1d7eea35da0d61c98c11f21b619c32d3d25d65d2c610"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/OldGTruck.mali_Out.png",
+      "sha256": "36e920dec75dbc32fd40cbfa424cfd4bd4678e5612e473fdef7d0937cec56ccd"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/Tower.mali_Out.png",
+      "sha256": "3d170304b1a9c687303b8142e0f04bedc0f406a40eff61f5b8471be2b3a2629c"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/WoodenStack.mali_Out.png",
+      "sha256": "a041fbf5dfad49dda2350d6bdd542605f17e821405ed25f8990caf980b694484"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/bld6111_shed.mali_Out.png",
+      "sha256": "11616714c56f8447cfe7fe924cebd73fcc6d194f2a04327163122c5581b2d2e1"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/bld703_vhouse.mali_Out.png",
+      "sha256": "3d62d87f7c82689a45c45552a450f7e174976fafb7e04b324e79140a084b9e7b"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/bld706_shed.mali_Out.png",
+      "sha256": "e86e4804e5b39a86bb8e4a4c189dbb41867c566fceb0f800c64aff608f93992b"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/bld708_shed.mali_Out.png",
+      "sha256": "87de312d694e500ba5a6a857ea2418ae87a568fb5e22ece081053dcfb001214b"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/blr201_PiggaeryW.mali_Out.png",
+      "sha256": "f0d30cb864854ddc6cd6253f174a04ae9ffd7c6770e9a96aa8990d9f499244eb"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/boatcrane.mali_Out.png",
+      "sha256": "c858fde2b3e3f2ff0c45b49ae4f72d10dbfa1d1a1c1f26bb7a1760a0b6ecefec"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/env203_WoodWells.mali_Out.png",
+      "sha256": "ed5e37bd86258699d8a29fccc9c8f2dd1c54c78382b0fe04b0bade0585606e50"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/lighthouse.mali_Out.png",
+      "sha256": "f8f8961bf86ff82ab2848f1b2be9591b7d4d752ba9e3542114f5403286c62d16"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/littleBobbin.mali_Out.png",
+      "sha256": "a98f0e25a832292e4a20e0f7b3f32e7d7d95be03bf4cb7d8ed1a8c96ccb213cd"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/log.mali_Out.png",
+      "sha256": "e7801ec0af3f5c54d4169645a4fe5d771e90ffd5613a1584f0ab33643b80f34b"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/mil001_GerPillbox.mali_Out.png",
+      "sha256": "ed81c14df7953557ba85d58a30d1301bcbe02a827be31b28aad7e84f125adfea"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/mill.mali_Out.png",
+      "sha256": "a4a30f682be8880a0c64a4e914a115e1419685a7627286bdb9b96738198916c3"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/mle002_KPP.mali_Out.png",
+      "sha256": "e51497bd6840380c357870316170bac6e07a50f4bfb025011b9baeb9688be696"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/mountains_test.mali_Out.png",
+      "sha256": "d8cf3e95040f9a0b2f4c429098f20b8de3bd488b81c42b75e2ad2ca69a55755e"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/r_bl01.mali_Out.png",
+      "sha256": "3248afb58ded2780ef6d0dc0e06c28967bf35c2a8a053b8136df9b334728bc99"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/rudnik.mali_Out.png",
+      "sha256": "e417630b49987a6afd959f0f6e5bfa7b01e51020a4a243f5b3b27d349eeb7b9b"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/sky_rud.PowerVR_iOS_Out-Face_1.png",
+      "sha256": "c188c0b8c4af99f5e0e18359eee4cd1734ca0d750fefdc6d1c7d64356228fbd4"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/sky_rud.PowerVR_iOS_Out-Face_2.png",
+      "sha256": "0b3d29a870eee9df9307ffb37269b02b1716073597e73e1efaead589be5405c3"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/sky_rud.PowerVR_iOS_Out-Face_3.png",
+      "sha256": "53302b6f6670f5eb68261cb93e8d74c8c7d4f6bc2540d5e9f6e68584ad9f1df3"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/sky_rud.PowerVR_iOS_Out-Face_4.png",
+      "sha256": "0242495b40c5045312438b0007c9e2d460394443cbd617eac9075398d2d1370d"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/sky_rud.PowerVR_iOS_Out.png",
+      "sha256": "b79e887c99f911d0a738266499c3623dec60cc10d8d99c3541ae62e64eb7cfb0"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/sss01_dif.mali_Out.png",
+      "sha256": "6dd767c0b89202db8c5342831d72da4ccb648947c13a843f4193c443418de304"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/sss04.mali_Out.png",
+      "sha256": "3e29db95f45f41513ebe61e66d9227dab00300426046de4b35c1945f65901f3a"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/stone_1.mali_Out.png",
+      "sha256": "f143de318a04be7d4858534290797aff6f1e21400e1c5dd370af8f9f9490ac06"
+    },
+    {
+      "path": "res://maps/rudniki/objects/_resources/w.mali_Out.png",
+      "sha256": "656dec023d90627172c1a87de7a92f48d1df4c5599784de8c6565482c4f3e0c9"
+    },
+    {
+      "path": "res://maps/rudniki/terrain/src/TileTxRudniki.mali_Out.png",
+      "sha256": "11b9b84d64388421606b2c2820087c9412afba784215540d1402eefaac6eaacc"
+    },
+    {
+      "path": "res://maps/vegetation/3_trunk.mali_Out.png",
+      "sha256": "8eaaaf81f07ff5402a97315d2d1fe6d3a7d6b6eb85978b99697d6c475f90d107"
+    },
+    {
+      "path": "res://maps/vegetation/bush01.mali_Out.png",
+      "sha256": "0c5ec4615028932f807766db934be604206d2fb06c24341cde2ea71445d722ff"
+    },
+    {
+      "path": "res://maps/vegetation/bush02.mali_Out.png",
+      "sha256": "8c745a324cd5bc9a110db130b75dda6c944d8580b4c346362c9883fd15a03f7c"
+    },
+    {
+      "path": "res://maps/vegetation/bush02_2.mali_Out.png",
+      "sha256": "03cbcddf659f892e7175928a9aed217a23c88b3a8323c357d1c48fb569d055cb"
+    },
+    {
+      "path": "res://maps/vegetation/bush03.mali_Out.png",
+      "sha256": "6ccddc36ec275f9a2625893987c109c275757e46d57b59532fc0bd6527928244"
+    },
+    {
+      "path": "res://maps/vegetation/low/bush01_low.mali_Out.png",
+      "sha256": "2436d0ae39d5f51e30e49ca038d197df68bde0fc00a65ff12c7a32ff7883bddf"
+    },
+    {
+      "path": "res://maps/vegetation/low/bush02_low1.mali_Out.png",
+      "sha256": "f4e23b71f26ca774a2c5626bf0d85e2c549f3d81f1c6c8d9573a622b9da1d1a3"
+    },
+    {
+      "path": "res://maps/vegetation/low/bush02_low2.mali_Out.png",
+      "sha256": "86396d852a205616236503f021d14b31ce7f584242c23e19c1516579e2425489"
+    },
+    {
+      "path": "res://maps/vegetation/low/bush03_low.mali_Out.png",
+      "sha256": "24ad76b2ac768c9d2bc12fa2b0f50aa0d66ded8b58063be7024bdcd89f15957f"
+    },
+    {
+      "path": "res://maps/vegetation/tree_02_2.mali_Out.png",
+      "sha256": "ca0699fcca81834730c22754a617d4364fe52116cf2308aaec7d258e8edfcf5b"
+    },
+    {
+      "path": "res://maps/vegetation/tree_K4_1.mali_Out.png",
+      "sha256": "9c833268fe4eda533e37cc1c0e04bb26ea2217534f6dd2c96fb058de6a4b32e8"
+    },
+    {
+      "path": "res://maps/vegetation/tree_planes/res/tree_02_planes.mali_Out.png",
+      "sha256": "fff78ea56dceb571372914ceddf6aa89acad15b3b5ee8367b2da0b085f10f7c7"
+    },
+    {
+      "path": "res://maps/vegetation/tree_planes/res/tree_03_planes.mali_Out.png",
+      "sha256": "4284db10f748b7a422b9491ac569c2d59ccfc9321a1afe39d89e5b067a14624a"
+    },
+    {
+      "path": "res://maps/vegetation/tree_planes/res/tree_k4_planes.mali_Out.png",
+      "sha256": "55e8742fca76f9522ad610b931800dd731cade734fecc3c76bd38ed7f01fc4e0"
+    }
+  ],
+  "sky": {
+    "basis": [
+      -5000.0,
+      0.0,
+      -0.0004371139,
+      0.0,
+      5000.0,
+      0.0,
+      0.0004371139,
+      0.0,
+      -5000.0
+    ],
+    "faces": [],
+    "origin": [
+      300.0,
+      100.0,
+      300.0
+    ]
+  },
+  "sources": [
+    {
+      "path": "maps/rudniki/terrain/terrain_mesh.res",
+      "sha256": "445a379067f865b6ceab925d4f94a42dd53b9cd3dc1ba6917dc62df6fdb34d59"
+    },
+    {
+      "path": "maps/rudniki/terrain/height.res",
+      "sha256": "e7706d1d0e1e9531cc589e81ecb5e5863330780305dde51d1c97ff0275ffcefb"
+    },
+    {
+      "path": "maps/rudniki/terrain/normal.png",
+      "sha256": "09f0d1ce9970e1f2f7c4cf224528899a8fb6dc39390d4dc56962e3a0ea117763"
+    },
+    {
+      "path": "maps/components/landscape.gdshader",
+      "sha256": "3753fee808316f5ec3515743b79d28c2fd1649dada6122d9c63c79605004c670"
+    },
+    {
+      "path": "assets/gfx/ui/map_loading_screeens/rudniki_Out.png",
+      "sha256": "6b1d7577bc20fe2627a537efb29903953d068644f0fe0d52211a551b3cb8622b"
+    },
+    {
+      "path": "assets/gfx/ui/map_minimaps/rudniki_Out.png",
+      "sha256": "5174baa716c4209ad3ab7e89610684959f40a47d7d9836a7a8325d216211d91f"
+    },
+    {
+      "path": "maps/rudniki/objects/_resources/sky_rud.PowerVR_iOS_Out-Face_1.png",
+      "sha256": "c188c0b8c4af99f5e0e18359eee4cd1734ca0d750fefdc6d1c7d64356228fbd4"
+    },
+    {
+      "path": "maps/rudniki/objects/_resources/sky_rud.PowerVR_iOS_Out-Face_2.png",
+      "sha256": "0b3d29a870eee9df9307ffb37269b02b1716073597e73e1efaead589be5405c3"
+    },
+    {
+      "path": "maps/rudniki/objects/_resources/sky_rud.PowerVR_iOS_Out-Face_3.png",
+      "sha256": "53302b6f6670f5eb68261cb93e8d74c8c7d4f6bc2540d5e9f6e68584ad9f1df3"
+    },
+    {
+      "path": "maps/rudniki/objects/_resources/sky_rud.PowerVR_iOS_Out-Face_4.png",
+      "sha256": "0242495b40c5045312438b0007c9e2d460394443cbd617eac9075398d2d1370d"
+    },
+    {
+      "path": "maps/rudniki/objects/_resources/sky_rud.PowerVR_iOS_Out.png",
+      "sha256": "b79e887c99f911d0a738266499c3623dec60cc10d8d99c3541ae62e64eb7cfb0"
+    },
+    {
+      "path": "maps/rudniki/terrain/color.png",
+      "sha256": "ba76336c8d0af0ba88a188970c450dadfe46be97718cfe61ec47b713f73f36b4"
+    },
+    {
+      "path": "maps/rudniki/terrain/global_albedo.png",
+      "sha256": "5f2aba3bfc8b73adc99f5703821ae5c261347c52422c52ab392a73f6ca72a7d9"
+    },
+    {
+      "path": "maps/rudniki/terrain/normal.png",
+      "sha256": "09f0d1ce9970e1f2f7c4cf224528899a8fb6dc39390d4dc56962e3a0ea117763"
+    },
+    {
+      "path": "maps/rudniki/terrain/splat.png",
+      "sha256": "b4c56475207cf9557bff9cd57b19239ced4ccfea8228d4da6475b7935f6abb4f"
+    },
+    {
+      "path": "maps/rudniki/terrain/src/TileTxRudniki.mali_Out.png",
+      "sha256": "11b9b84d64388421606b2c2820087c9412afba784215540d1402eefaac6eaacc"
+    },
+    {
+      "path": "maps/rudniki/_rudniki.tscn",
+      "sha256": "980629ae0761dd6f9ec3744a8f72bb8d2722c9aa7734aa1115cd8b2dd7c4df91"
+    }
+  ],
+  "spawns": {
+    "teamA": [
+      {
+        "basis": [
+          0.9556441,
+          0.0,
+          0.29452404,
+          0.0,
+          1.0,
+          0.0,
+          -0.29452404,
+          0.0,
+          0.9556441
+        ],
+        "name": "TankSpawner",
+        "origin": [
+          377.20456,
+          53.350956,
+          532.3895
+        ],
+        "respawn": 1,
+        "team": 0
+      },
+      {
+        "basis": [
+          0.8951445,
+          0.0,
+          0.44577605,
+          0.0,
+          1.0,
+          0.0,
+          -0.44577605,
+          0.0,
+          0.8951445
+        ],
+        "name": "TankSpawner8",
+        "origin": [
+          334.85327,
+          52.530903,
+          528.6237
+        ],
+        "respawn": 1,
+        "team": 0
+      },
+      {
+        "basis": [
+          0.9689769,
+          0.0,
+          0.24715123,
+          0.0,
+          1.0,
+          0.0,
+          -0.24715123,
+          0.0,
+          0.9689769
+        ],
+        "name": "TankSpawner9",
+        "origin": [
+          375.89172,
+          50.729294,
+          497.47708
+        ],
+        "respawn": 1,
+        "team": 0
+      },
+      {
+        "basis": [
+          0.94774055,
+          0.0,
+          0.31904203,
+          0.0,
+          1.0,
+          0.0,
+          -0.31904203,
+          0.0,
+          0.94774055
+        ],
+        "name": "TankSpawner2",
+        "origin": [
+          398.56293,
+          54.156643,
+          549.0045
+        ],
+        "respawn": 1,
+        "team": 0
+      },
+      {
+        "basis": [
+          0.64163697,
+          0.0,
+          0.76700836,
+          0.0,
+          1.0,
+          0.0,
+          -0.76700836,
+          0.0,
+          0.64163697
+        ],
+        "name": "TankSpawner3",
+        "origin": [
+          434.62888,
+          54.748554,
+          551.5652
+        ],
+        "respawn": 1,
+        "team": 0
+      },
+      {
+        "basis": [
+          0.6404583,
+          0.0,
+          -0.767993,
+          0.0,
+          1.0,
+          0.0,
+          0.767993,
+          0.0,
+          0.6404583
+        ],
+        "name": "TankSpawner4",
+        "origin": [
+          473.25787,
+          56.954544,
+          544.5601
+        ],
+        "respawn": 1,
+        "team": 0
+      },
+      {
+        "basis": [
+          0.97921216,
+          0.0,
+          -0.20283855,
+          0.0,
+          1.0,
+          0.0,
+          0.20283855,
+          0.0,
+          0.97921216
+        ],
+        "name": "TankSpawner5",
+        "origin": [
+          503.1096,
+          57.737743,
+          510.39032
+        ],
+        "respawn": 1,
+        "team": 0
+      },
+      {
+        "basis": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "name": "TankSpawner6",
+        "origin": [
+          507.45343,
+          57.34089,
+          539.0454
+        ],
+        "respawn": 1,
+        "team": 0
+      },
+      {
+        "basis": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "name": "TankSpawner7",
+        "origin": [
+          539.447,
+          51.721767,
+          452.55756
+        ],
+        "respawn": 1,
+        "team": 0
+      },
+      {
+        "basis": [
+          0.983239,
+          0.0,
+          0.18232132,
+          0.0,
+          1.0,
+          0.0,
+          -0.18232132,
+          0.0,
+          0.983239
+        ],
+        "name": "TankSpawner10",
+        "origin": [
+          522.1955,
+          57.291695,
+          518.8958
+        ],
+        "respawn": 1,
+        "team": 0
+      }
+    ],
+    "teamB": [
+      {
+        "basis": [
+          -0.2004966,
+          0.0,
+          -0.9796944,
+          0.0,
+          1.0,
+          0.0,
+          0.9796944,
+          0.0,
+          -0.2004966
+        ],
+        "name": "TankSpawner",
+        "origin": [
+          134.66345,
+          45.73143,
+          78.551254
+        ],
+        "respawn": 1,
+        "team": 1
+      },
+      {
+        "basis": [
+          -0.39535314,
+          0.0,
+          -0.9185292,
+          0.0,
+          1.0,
+          0.0,
+          0.9185292,
+          0.0,
+          -0.39535314
+        ],
+        "name": "TankSpawner2",
+        "origin": [
+          153.05663,
+          46.02202,
+          71.94414
+        ],
+        "respawn": 1,
+        "team": 1
+      },
+      {
+        "basis": [
+          -0.39535314,
+          0.0,
+          -0.9185292,
+          0.0,
+          1.0,
+          0.0,
+          0.9185292,
+          0.0,
+          -0.39535314
+        ],
+        "name": "TankSpawner3",
+        "origin": [
+          192.03078,
+          46.789146,
+          74.38696
+        ],
+        "respawn": 1,
+        "team": 1
+      },
+      {
+        "basis": [
+          -0.39535314,
+          0.0,
+          -0.9185292,
+          0.0,
+          1.0,
+          0.0,
+          0.9185292,
+          0.0,
+          -0.39535314
+        ],
+        "name": "TankSpawner4",
+        "origin": [
+          200.967,
+          45.94899,
+          94.63001
+        ],
+        "respawn": 1,
+        "team": 1
+      },
+      {
+        "basis": [
+          -0.39535314,
+          0.0,
+          -0.9185292,
+          0.0,
+          1.0,
+          0.0,
+          0.9185292,
+          0.0,
+          -0.39535314
+        ],
+        "name": "TankSpawner5",
+        "origin": [
+          240.72148,
+          49.05275,
+          86.822235
+        ],
+        "respawn": 1,
+        "team": 1
+      },
+      {
+        "basis": [
+          0.5002116,
+          0.0,
+          -0.8659032,
+          0.0,
+          1.0,
+          0.0,
+          0.8659032,
+          0.0,
+          0.5002116
+        ],
+        "name": "TankSpawner6",
+        "origin": [
+          136.47049,
+          43.474785,
+          112.92868
+        ],
+        "respawn": 1,
+        "team": 1
+      },
+      {
+        "basis": [
+          -0.21727446,
+          0.0,
+          -0.9761106,
+          0.0,
+          1.0,
+          0.0,
+          0.9761106,
+          0.0,
+          -0.21727446
+        ],
+        "name": "TankSpawner7",
+        "origin": [
+          168.55823,
+          45.680084,
+          93.2484
+        ],
+        "respawn": 1,
+        "team": 1
+      },
+      {
+        "basis": [
+          0.6773897,
+          0.0,
+          -0.73562443,
+          0.0,
+          1.0,
+          0.0,
+          0.73562443,
+          0.0,
+          0.6773897
+        ],
+        "name": "TankSpawner8",
+        "origin": [
+          208.99078,
+          43.07312,
+          118.10335
+        ],
+        "respawn": 1,
+        "team": 1
+      },
+      {
+        "basis": [
+          0.025967538,
+          0.0,
+          -0.9996629,
+          0.0,
+          1.0,
+          0.0,
+          0.9996629,
+          0.0,
+          0.025967538
+        ],
+        "name": "TankSpawner9",
+        "origin": [
+          223.47765,
+          46.775528,
+          94.98445
+        ],
+        "respawn": 1,
+        "team": 1
+      },
+      {
+        "basis": [
+          -0.13348466,
+          0.0,
+          -0.99105096,
+          0.0,
+          1.0,
+          0.0,
+          0.99105096,
+          0.0,
+          -0.13348466
+        ],
+        "name": "TankSpawner10",
+        "origin": [
+          210.5764,
+          46.71449,
+          86.43239
+        ],
+        "respawn": 1,
+        "team": 1
+      }
+    ]
+  },
+  "terrain": {
+    "brightness": 1.00000004424012,
+    "bytes": 4210732,
+    "castShadow": 0,
+    "collisionEnabled": true,
+    "colorMap": "Maps/Rudniki/Textures/terrain_color_raw",
+    "colorMapSize": [
+      2048.0,
+      2048.0
+    ],
+    "contrast": 1.0,
+    "detailContrast": 0.42000001925148,
+    "detailStrength": 1.0000000475,
+    "extent": 599.04,
+    "godot": {
+      "brightness": 1.00000004424012,
+      "contrast": 1.0,
+      "detailContrast": 0.42000001925148,
+      "detailStrength": 1.0000000475,
+      "mapScale": [
+        1.16999995708466,
+        1.0,
+        1.16999995708466
+      ],
+      "maskSharpness": 1.18000005535148,
+      "resolution": 513,
+      "tileColours": [
+        [
+          0.799103,
+          0.520996,
+          0.181164,
+          1.0
+        ],
+        [
+          0.846873,
+          0.630757,
+          0.171441,
+          1.0
+        ],
+        [
+          0.456411,
+          0.417885,
+          0.061246,
+          1.0
+        ],
+        [
+          0.799103,
+          0.48515,
+          0.111932,
+          1.0
+        ]
+      ],
+      "tileTexScale": 50.0000023275
+    },
+    "groundUvScale": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "mapScale": [
+      1.17,
+      1.0,
+      1.17
+    ],
+    "maskSharpness": 1.18000005535148,
+    "maxHeight": 79.92474365234375,
+    "minHeight": 0.0,
+    "normalMap": "Maps/Rudniki/Textures/terrain_normal_raw_nomip",
+    "normalSource": "maps/rudniki/terrain/normal.png",
+    "origin": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "resource": "Maps/Rudniki/terrain_height",
+    "sha256": "34a29091e609f50238122ebb8fe76aae66143fcfbdb1e654bbb474d591717961",
+    "side": 513,
+    "step": 1.17,
+    "surfaceNormal": [
+      -0.036834292113780975,
+      0.9990464448928833,
+      -0.023440003395080566
+    ],
+    "tileColour0": [
+      0.90588236,
+      0.7490196,
+      0.4627451,
+      1.0
+    ],
+    "tileColour1": [
+      0.92941177,
+      0.8156863,
+      0.4509804,
+      1.0
+    ],
+    "tileColour2": [
+      0.7058824,
+      0.6784314,
+      0.27450982,
+      1.0
+    ],
+    "tileColour3": [
+      0.90588236,
+      0.7254902,
+      0.36862746,
+      1.0
+    ],
+    "tileMask": "Maps/Rudniki/Textures/terrain_splat_raw_nomip",
+    "tileTexScale": 50.0000023275,
+    "tileTexture": "Maps/Rudniki/Textures/terrain_tile_lossless_raw"
+  }
+}

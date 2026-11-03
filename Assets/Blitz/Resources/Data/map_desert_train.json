@@ -1,0 +1,559 @@
+{
+  "border": {
+    "max": [
+      543.7946,
+      55.782,
+      547.19604
+    ],
+    "min": [
+      54.471138,
+      40.205475,
+      57.70598
+    ]
+  },
+  "directionalLight": {
+    "basis": [
+      0.46881622,
+      -0.65584415,
+      -0.5916754,
+      0.7911031,
+      0.013808737,
+      0.61152697,
+      -0.39289618,
+      -0.75477,
+      0.525314
+    ],
+    "energy": 4.336,
+    "origin": [
+      237.79362,
+      241.9441,
+      295.6712
+    ]
+  },
+  "id": "desert_train",
+  "loadingScreen": "Maps/DesertTrain/loading_screen",
+  "minimap": "Maps/DesertTrain/minimap",
+  "nameKey": "map:desert_train/name",
+  "objects": {
+    "billboards": 135,
+    "bytes": 954315,
+    "count": 635,
+    "materials": 34,
+    "meshes": 69,
+    "multiMeshes": 2,
+    "resource": "Data/map_desert_train_objects",
+    "sha256": "255806ef31014450dfb25a8e63df6fd09c1e8d503300af76d889078199f445db",
+    "shapes": 37,
+    "skipped": {},
+    "textures": 34
+  },
+  "scene": "maps/desert_train/_desert_train.tscn",
+  "sky": {
+    "origin": [
+      250.489,
+      28.83255,
+      184.744
+    ],
+    "resource": "Maps/DesertTrain/sky"
+  },
+  "sources": [
+    {
+      "path": "maps/desert_train/terrain/terrain_mesh.tres",
+      "sha256": "a551b4fd401d6716a4ca88bec24e66156b50a2629c8517e35ef4637504d4915f"
+    },
+    {
+      "path": "maps/desert_train/terrain/hterrain/height.res",
+      "sha256": "53fb8878ded5975ce73b81dce0a5d06988579276f4223bc2d1cd45f8a20bdc3a"
+    },
+    {
+      "path": "maps/desert_train/terrain/hterrain/normal.png",
+      "sha256": "9513d5245d65bd8e8a9fc030cc3b795bfad83970ead2357e0bc7db9958240f9e"
+    },
+    {
+      "path": "maps/components/landscape.gdshader",
+      "sha256": "3753fee808316f5ec3515743b79d28c2fd1649dada6122d9c63c79605004c670"
+    },
+    {
+      "path": "assets/gfx/ui/map_loading_screeens/desert_train_Out.png",
+      "sha256": "57a87dd70cae4eb84f68dedad8cfd2a650903f56409e323cded311e91b8e4929"
+    },
+    {
+      "path": "assets/gfx/ui/map_minimaps/desert_train_Out.png",
+      "sha256": "1e40ebaf902ebe0677064f96f43d04f0345fdd563cc467b9b2e94e429704fb0c"
+    },
+    {
+      "path": "maps/desert_train/terrain/DesertSky2.mali_Out.png",
+      "sha256": "4843c15d98e136a7c3ba183f1a0460b736e878e9590f366d1c5fe721b7300dbf"
+    },
+    {
+      "path": "maps/desert_train/terrain/deserttr_colormap.mali_Out.png",
+      "sha256": "00da9f435ad8667e5d9c8e61f9f99af5c9df36c6e3dac5d331de8cff25090c50"
+    },
+    {
+      "path": "maps/desert_train/terrain/deserttr_tilemask.mali_Out.png",
+      "sha256": "1ce9de5bccb91904fe6220dcaceb8ad7854d795fcd2e6e0f2637f49bd0c151f1"
+    },
+    {
+      "path": "maps/desert_train/terrain/deserttr_tiletexures.mali_Out.png",
+      "sha256": "1f3640aa92803d47e7a6cc4fb24bd1e1137227a8c2b1609994e8412f636ca275"
+    },
+    {
+      "path": "maps/desert_train/_desert_train.tscn",
+      "sha256": "7e1c912c51105456f23d8bef099da8b7cec4a3fbcc58be8fd732f2970ff03b75"
+    }
+  ],
+  "spawns": {
+    "teamA": [
+      {
+        "basis": [
+          0.99970746,
+          0.0,
+          0.024186864,
+          0.0,
+          1.0,
+          0.0,
+          -0.024186864,
+          0.0,
+          0.99970746
+        ],
+        "name": "TankSpawner",
+        "origin": [
+          418.10153,
+          8.130057,
+          479.62875
+        ],
+        "team": 0
+      },
+      {
+        "basis": [
+          0.99999607,
+          0.0,
+          -0.0028002262,
+          0.0,
+          1.0,
+          0.0,
+          0.0028002262,
+          0.0,
+          0.99999607
+        ],
+        "name": "TankSpawner8",
+        "origin": [
+          273.95346,
+          12.784798,
+          468.21234
+        ],
+        "team": 0
+      },
+      {
+        "basis": [
+          0.9996634,
+          0.0,
+          -0.02594474,
+          0.0,
+          1.0,
+          0.0,
+          0.02594474,
+          0.0,
+          0.9996634
+        ],
+        "name": "TankSpawner9",
+        "origin": [
+          273.00858,
+          11.841781,
+          489.6252
+        ],
+        "team": 0
+      },
+      {
+        "basis": [
+          0.96354324,
+          0.0,
+          0.26755306,
+          0.0,
+          1.0,
+          0.0,
+          -0.26755306,
+          0.0,
+          0.96354324
+        ],
+        "name": "TankSpawner2",
+        "origin": [
+          453.16733,
+          7.6909447,
+          470.02057
+        ],
+        "team": 0
+      },
+      {
+        "basis": [
+          0.9911788,
+          0.0,
+          0.13253254,
+          0.0,
+          1.0,
+          0.0,
+          -0.13253254,
+          0.0,
+          0.9911788
+        ],
+        "name": "TankSpawner3",
+        "origin": [
+          417.51108,
+          7.998395,
+          462.28543
+        ],
+        "team": 0
+      },
+      {
+        "basis": [
+          0.99903566,
+          0.0,
+          -0.0439066,
+          0.0,
+          1.0,
+          0.0,
+          0.0439066,
+          0.0,
+          0.99903566
+        ],
+        "name": "TankSpawner4",
+        "origin": [
+          501.5641,
+          11.746972,
+          472.73154
+        ],
+        "team": 0
+      },
+      {
+        "basis": [
+          0.99158686,
+          0.0,
+          0.12944344,
+          0.0,
+          1.0,
+          0.0,
+          -0.12944344,
+          0.0,
+          0.99158686
+        ],
+        "name": "TankSpawner5",
+        "origin": [
+          433.25385,
+          7.9864836,
+          460.4841
+        ],
+        "team": 0
+      },
+      {
+        "basis": [
+          0.9939703,
+          0.0,
+          0.10964994,
+          0.0,
+          1.0,
+          0.0,
+          -0.10964994,
+          0.0,
+          0.9939703
+        ],
+        "name": "TankSpawner6",
+        "origin": [
+          293.84766,
+          12.263139,
+          478.5145
+        ],
+        "team": 0
+      },
+      {
+        "basis": [
+          0.96708894,
+          0.0,
+          0.25443855,
+          0.0,
+          1.0,
+          0.0,
+          -0.25443855,
+          0.0,
+          0.96708894
+        ],
+        "name": "TankSpawner7",
+        "origin": [
+          500.28592,
+          9.369921,
+          454.23135
+        ],
+        "team": 0
+      },
+      {
+        "basis": [
+          0.9965173,
+          0.0,
+          0.08338553,
+          0.0,
+          1.0,
+          0.0,
+          -0.08338553,
+          0.0,
+          0.9965173
+        ],
+        "name": "TankSpawner10",
+        "origin": [
+          435.44867,
+          7.7725697,
+          477.9242
+        ],
+        "team": 0
+      }
+    ],
+    "teamB": [
+      {
+        "basis": [
+          -0.99850124,
+          0.0,
+          -0.054725796,
+          0.0,
+          1.0,
+          0.0,
+          0.054725796,
+          0.0,
+          -0.99850124
+        ],
+        "name": "TankSpawner",
+        "origin": [
+          309.49118,
+          13.324478,
+          84.57986
+        ],
+        "team": 1
+      },
+      {
+        "basis": [
+          -0.99916,
+          0.0,
+          0.040977657,
+          0.0,
+          1.0,
+          0.0,
+          -0.040977657,
+          0.0,
+          -0.99916
+        ],
+        "name": "TankSpawner2",
+        "origin": [
+          309.67477,
+          12.928131,
+          104.01307
+        ],
+        "team": 1
+      },
+      {
+        "basis": [
+          -0.99999493,
+          0.0,
+          0.0031692088,
+          0.0,
+          1.0,
+          0.0,
+          -0.0031692088,
+          0.0,
+          -0.99999493
+        ],
+        "name": "TankSpawner3",
+        "origin": [
+          474.25928,
+          8.339737,
+          106.94722
+        ],
+        "team": 1
+      },
+      {
+        "basis": [
+          -0.999677,
+          0.0,
+          0.025414512,
+          0.0,
+          1.0,
+          0.0,
+          -0.025414512,
+          0.0,
+          -0.999677
+        ],
+        "name": "TankSpawner4",
+        "origin": [
+          406.8804,
+          9.90007,
+          90.11436
+        ],
+        "team": 1
+      },
+      {
+        "basis": [
+          -0.99998534,
+          0.0,
+          0.005407274,
+          0.0,
+          1.0,
+          0.0,
+          -0.005407274,
+          0.0,
+          -0.99998534
+        ],
+        "name": "TankSpawner5",
+        "origin": [
+          476.43793,
+          8.315903,
+          90.13699
+        ],
+        "team": 1
+      },
+      {
+        "basis": [
+          -0.9999437,
+          0.0,
+          0.0106212795,
+          0.0,
+          1.0,
+          0.0,
+          -0.0106212795,
+          0.0,
+          -0.9999437
+        ],
+        "name": "TankSpawner6",
+        "origin": [
+          380.6956,
+          12.460999,
+          103.19524
+        ],
+        "team": 1
+      },
+      {
+        "basis": [
+          -0.99952644,
+          0.0,
+          -0.030773088,
+          0.0,
+          1.0,
+          0.0,
+          0.030773088,
+          0.0,
+          -0.99952644
+        ],
+        "name": "TankSpawner7",
+        "origin": [
+          287.919,
+          10.774796,
+          102.43076
+        ],
+        "team": 1
+      },
+      {
+        "basis": [
+          -0.99910146,
+          0.0,
+          0.04238019,
+          0.0,
+          1.0,
+          0.0,
+          -0.04238019,
+          0.0,
+          -0.99910146
+        ],
+        "name": "TankSpawner8",
+        "origin": [
+          288.9381,
+          10.816071,
+          84.14601
+        ],
+        "team": 1
+      },
+      {
+        "basis": [
+          -0.99955934,
+          0.0,
+          -0.029683948,
+          0.0,
+          1.0,
+          0.0,
+          0.029683948,
+          0.0,
+          -0.99955934
+        ],
+        "name": "TankSpawner9",
+        "origin": [
+          454.5687,
+          8.528442,
+          106.50492
+        ],
+        "team": 1
+      },
+      {
+        "basis": [
+          -0.99845594,
+          0.0,
+          0.05555065,
+          0.0,
+          1.0,
+          0.0,
+          -0.05555065,
+          0.0,
+          -0.99845594
+        ],
+        "name": "TankSpawner10",
+        "origin": [
+          455.24454,
+          8.531738,
+          88.4279
+        ],
+        "team": 1
+      }
+    ]
+  },
+  "terrain": {
+    "brightness": 0.77500003355262,
+    "bytes": 1052704,
+    "castShadow": 0,
+    "collisionEnabled": true,
+    "colorMap": "Maps/DesertTrain/colormap",
+    "colorMapSize": [
+      2048.0,
+      2048.0
+    ],
+    "contrast": 2.24600010342512,
+    "detailContrast": 0.41400001896648,
+    "detailStrength": 0.6800000323,
+    "extent": 599.0399780273438,
+    "groundUvScale": [
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "mapScale": [
+      1.17,
+      0.25,
+      1.17
+    ],
+    "maskSharpness": 1.00000004680148,
+    "maxHeight": 48.37873077392578,
+    "minHeight": 0.0,
+    "normalSource": "maps/desert_train/terrain/hterrain/normal.png",
+    "resource": "Maps/DesertTrain/terrain_height",
+    "sha256": "f6777e297462bb56b0ace55a49d036bed4e300b3c4a3385589bdbef95ce9e2b8",
+    "side": 513,
+    "step": 1.1699999570846558,
+    "surfaceNormal": [
+      -0.000837941426054899,
+      0.9999992978539199,
+      0.000837941426054899
+    ],
+    "tileColour2": [
+      0.9779369,
+      0.97793704,
+      0.9779369,
+      1.0
+    ],
+    "tileMask": "Maps/DesertTrain/tilemask",
+    "tileTexScale": 48.0000022325,
+    "tileTexture": "Maps/DesertTrain/tiletextures"
+  }
+}

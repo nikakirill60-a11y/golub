@@ -1,0 +1,7 @@
+<Project>
+  <!-- Keep build output out of the source tree (and away from Unity's Assets/). -->
+  <PropertyGroup>
+    <BaseOutputPath>$(MSBuildThisFileDirectory)../../.ci-cache/obfuscation-audit/bin/</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)../../.ci-cache/obfuscation-audit/obj/</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,175 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "T1CUNNINGHAMArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 288,
+      "vertices": 304
+    },
+    {
+      "armor": 10,
+      "material": "T1CUNNINGHAMArmor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 162,
+      "vertices": 486
+    },
+    {
+      "armor": 6,
+      "material": "T1CUNNINGHAMArmor_armor_hull_plate6_6",
+      "mount": "hull",
+      "name": "armor_hull_plate6_6",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 0,
+      "material": "T1CUNNINGHAMArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 10,
+      "material": "T1CUNNINGHAMArmor_armor_turret_01_plate10_10",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate10_10",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 78,
+      "vertices": 234
+    },
+    {
+      "armor": 6,
+      "material": "T1CUNNINGHAMArmor_armor_turret_01_plate6_6",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate6_6",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 10,
+      "material": "T1CUNNINGHAMArmor_gun_01_mask_turret_01_plate10s_10",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate10s_10",
+      "screen": true,
+      "submesh": 6,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 15,
+      "material": "T1CUNNINGHAMArmor_gun_01_mask_turret_01_plate15s_15",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate15s_15",
+      "screen": true,
+      "submesh": 7,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 0,
+      "material": "T1CUNNINGHAMArmor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 21,
+      "vertices": 63
+    },
+    {
+      "armor": 10,
+      "material": "T1CUNNINGHAMArmor_armor_turret_02_plate10_10",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate10_10",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 129,
+      "vertices": 387
+    },
+    {
+      "armor": 6,
+      "material": "T1CUNNINGHAMArmor_armor_turret_02_plate6_6",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate6_6",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 10,
+      "material": "T1CUNNINGHAMArmor_gun_03_mask_turret_02_plate10s_10",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_02_plate10s_10",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 15,
+      "material": "T1CUNNINGHAMArmor_gun_03_mask_turret_02_plate15s_15",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_02_plate15s_15",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 10,
+      "material": "T1CUNNINGHAMArmor_gun_05_mask_turret_02_plate10s_10",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate10s_10",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 15,
+      "material": "T1CUNNINGHAMArmor_gun_05_mask_turret_02_plate15s_15",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate15s_15",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 10,
+      "material": "T1CUNNINGHAMArmor_gun_06_mask_turret_02_plate10s_10",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate10s_10",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 15,
+      "material": "T1CUNNINGHAMArmor_gun_06_mask_turret_02_plate15s_15",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate15s_15",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 40,
+      "vertices": 120
+    }
+  ]
+}

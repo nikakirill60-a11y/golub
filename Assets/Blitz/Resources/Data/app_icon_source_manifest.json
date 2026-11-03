@@ -1,0 +1,59 @@
+{
+  "adaptive_safe_zone": 0.666667,
+  "background_color": {
+    "godot": [
+      0.24752441,
+      0.08524442,
+      0.0,
+      1.0
+    ],
+    "rgb8": [
+      63,
+      22,
+      0
+    ],
+    "srgb_hex": "#3F1600"
+  },
+  "outputs": {
+    "adaptive_background": {
+      "path": "Assets/Blitz/AppIcon/app_icon_adaptive_background.png",
+      "size": [
+        432,
+        432
+      ]
+    },
+    "adaptive_foreground": {
+      "inner_size": [
+        288,
+        288
+      ],
+      "path": "Assets/Blitz/AppIcon/app_icon_adaptive_foreground.png",
+      "size": [
+        432,
+        432
+      ]
+    },
+    "legacy": {
+      "path": "Assets/Blitz/AppIcon/app_icon.png",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "round": {
+      "path": "Assets/Blitz/AppIcon/app_icon.png",
+      "size": [
+        512,
+        512
+      ]
+    }
+  },
+  "source_file": "icon.png",
+  "source_project": "blitz-legacy-godot",
+  "source_reference": "uid://bc5q661nysgiq",
+  "source_sha256": "6376c395c8298be401f1ec84e74b556a6bd4ea78d214d33d1e349d8a22c1d508",
+  "source_size": [
+    256,
+    256
+  ]
+}

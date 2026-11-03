@@ -1,0 +1,145 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "SU85IArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 268,
+      "vertices": 300
+    },
+    {
+      "armor": 0,
+      "material": "SU85IArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 10,
+      "material": "SU85IArmor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 15,
+      "material": "SU85IArmor_armor_hull_plate15_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15_15",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 26,
+      "material": "SU85IArmor_armor_hull_plate26_26",
+      "mount": "hull",
+      "name": "armor_hull_plate26_26",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 43,
+      "vertices": 129
+    },
+    {
+      "armor": 31,
+      "material": "SU85IArmor_armor_hull_plate31_31",
+      "mount": "hull",
+      "name": "armor_hull_plate31_31",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 166,
+      "vertices": 498
+    },
+    {
+      "armor": 36,
+      "material": "SU85IArmor_armor_hull_plate36_36",
+      "mount": "hull",
+      "name": "armor_hull_plate36_36",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 47,
+      "material": "SU85IArmor_armor_hull_plate47_47",
+      "mount": "hull",
+      "name": "armor_hull_plate47_47",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 80,
+      "vertices": 240
+    },
+    {
+      "armor": 52,
+      "material": "SU85IArmor_armor_hull_plate52_52",
+      "mount": "hull",
+      "name": "armor_hull_plate52_52",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 57,
+      "material": "SU85IArmor_armor_hull_plate57_57",
+      "mount": "hull",
+      "name": "armor_hull_plate57_57",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 62,
+      "material": "SU85IArmor_armor_hull_plate62_62",
+      "mount": "hull",
+      "name": "armor_hull_plate62_62",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 23,
+      "vertices": 69
+    },
+    {
+      "armor": 68,
+      "material": "SU85IArmor_armor_hull_plate68_68",
+      "mount": "hull",
+      "name": "armor_hull_plate68_68",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 64,
+      "vertices": 192
+    },
+    {
+      "armor": 0,
+      "material": "SU85IArmor_gun_01_mask_turret_01_plate0s_0",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate0s_0",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 50,
+      "material": "SU85IArmor_gun_01_mask_turret_01_plate50s_50",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate50s_50",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 135,
+      "vertices": 405
+    }
+  ]
+}

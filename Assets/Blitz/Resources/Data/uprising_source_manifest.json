@@ -1,0 +1,1727 @@
+{
+	"menuTheme": {
+		"font": "Uprising/menu_default",
+		"fontSha256": "f80aa23a8e80cb2c19810a876c73bcaa7ba61fb09d3aeb11f509a1853db7382d",
+		"styleResource": "Uprising/Icons/style_manifest",
+		"defaultThemeSource": "project.godot gui/theme/custom: assets/fonts/ui_theme_blitz.tres"
+	},
+	"sourceVersion": "11.20.0",
+	"effects": {
+		"halloween2019/Berserk": {
+			"resource": "Uprising/Sources/halloween2019_Berserk",
+			"layers": 31,
+			"types": [
+				"mesh",
+				"particles",
+				"particlesStripe",
+				"superEmitter"
+			]
+		},
+		"halloween2019/ChainLightning": {
+			"resource": "Uprising/Sources/halloween2019_ChainLightning",
+			"layers": 4,
+			"types": [
+				"particlesStripe"
+			]
+		},
+		"halloween2019/ChainLightning_sniper": {
+			"resource": "Uprising/Sources/halloween2019_ChainLightning_sniper",
+			"layers": 4,
+			"types": [
+				"particlesStripe"
+			]
+		},
+		"halloween2019/DamageIncrease": {
+			"resource": "Uprising/Sources/halloween2019_DamageIncrease",
+			"layers": 11,
+			"types": [
+				"particles",
+				"particlesStripe",
+				"superEmitter"
+			]
+		},
+		"halloween2019/Dash": {
+			"resource": "Uprising/Sources/halloween2019_Dash",
+			"layers": 3,
+			"types": [
+				"particles"
+			]
+		},
+		"halloween2019/Reload_Halloween": {
+			"resource": "Uprising/Sources/halloween2019_Reload_Halloween",
+			"layers": 12,
+			"types": [
+				"particles",
+				"particlesStripe",
+				"superEmitter"
+			]
+		},
+		"halloween2019/Reload_Halloween_long": {
+			"resource": "Uprising/Sources/halloween2019_Reload_Halloween_long",
+			"layers": 12,
+			"types": [
+				"particles",
+				"particlesStripe",
+				"superEmitter"
+			]
+		},
+		"halloween2019/Reload_Halloween_short": {
+			"resource": "Uprising/Sources/halloween2019_Reload_Halloween_short",
+			"layers": 12,
+			"types": [
+				"particles",
+				"particlesStripe",
+				"superEmitter"
+			]
+		},
+		"halloween2019/Spell_Bat_one": {
+			"resource": "Uprising/Sources/halloween2019_Spell_Bat_one",
+			"layers": 18,
+			"types": [
+				"particles"
+			]
+		},
+		"halloween2019/Splash_Halloween": {
+			"resource": "Uprising/Sources/halloween2019_Splash_Halloween",
+			"layers": 37,
+			"types": [
+				"particles"
+			]
+		},
+		"halloween2019/Time_RollBack": {
+			"resource": "Uprising/Sources/halloween2019_Time_RollBack",
+			"layers": 20,
+			"types": [
+				"particles",
+				"particlesStripe",
+				"superEmitter"
+			]
+		},
+		"halloween2019/Tornado": {
+			"resource": "Uprising/Sources/halloween2019_Tornado",
+			"layers": 10,
+			"types": [
+				"particles",
+				"superEmitter"
+			]
+		},
+		"halloween_skills/DarkSkill": {
+			"resource": "Uprising/Sources/halloween_skills_DarkSkill",
+			"layers": 4,
+			"types": [
+				"particles",
+				"particlesStripe",
+				"superEmitter"
+			]
+		},
+		"halloween_skills/Reflection_Laser": {
+			"resource": "Uprising/Sources/halloween_skills_Reflection_Laser",
+			"layers": 5,
+			"types": [
+				"particles",
+				"particlesStripe"
+			]
+		},
+		"halloween_skills/Reflection_Sphere": {
+			"resource": "Uprising/Sources/halloween_skills_Reflection_Sphere",
+			"layers": 8,
+			"types": [
+				"mesh",
+				"particles"
+			]
+		},
+		"halloween_skills/afterburner": {
+			"resource": "Uprising/Sources/halloween_skills_afterburner",
+			"layers": 1,
+			"types": [
+				"particlesStripe"
+			]
+		},
+		"halloween_skills/berserk": {
+			"resource": "Uprising/Sources/halloween_skills_berserk",
+			"layers": 6,
+			"types": [
+				"particles",
+				"particlesStripe",
+				"superEmitter"
+			]
+		},
+		"halloween_skills/dash": {
+			"resource": "Uprising/Sources/halloween_skills_dash",
+			"layers": 2,
+			"types": [
+				"particles"
+			]
+		},
+		"halloween_skills/heal": {
+			"resource": "Uprising/Sources/halloween_skills_heal",
+			"layers": 2,
+			"types": [
+				"particles"
+			]
+		},
+		"halloween_skills/moonwalk": {
+			"resource": "Uprising/Sources/halloween_skills_moonwalk",
+			"layers": 3,
+			"types": [
+				"particles"
+			]
+		},
+		"halloween_skills/moonwalk_out": {
+			"resource": "Uprising/Sources/halloween_skills_moonwalk_out",
+			"layers": 1,
+			"types": [
+				"particles"
+			]
+		},
+		"halloween_skills/shield": {
+			"resource": "Uprising/Sources/halloween_skills_shield",
+			"layers": 3,
+			"types": [
+				"particles"
+			]
+		},
+		"halloween_skills/vampirism": {
+			"resource": "Uprising/Sources/halloween_skills_vampirism",
+			"layers": 2,
+			"types": [
+				"particles"
+			]
+		}
+	},
+	"textures": {
+		"~res:/Gfx/Particles/halloween2019/Graduent": {
+			"resource": "Uprising/Textures/Graduent_bf2747e2f4",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/Noise/Noise": {
+			"resource": "Uprising/Textures/Noise_38ad9ece67",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"noisePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/Mask/Mask": {
+			"resource": "Uprising/Textures/Mask_df5304acbe",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"maskSpritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/Circle/Circle": {
+			"resource": "Uprising/Textures/Circle_55ead87048",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/Shockwave/Shockwave": {
+			"resource": "Uprising/Textures/Shockwave_14009bd3eb",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/alpha/fog_white_snow": {
+			"resource": "Uprising/Textures/fog_white_snow_87ddc401b4",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/additive/Glow": {
+			"resource": "Uprising/Textures/Glow_7613236edf",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/additive/Spark": {
+			"resource": "Uprising/Textures/Spark_ebebda4b65",
+			"width": 158,
+			"height": 158,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/TrailSmoky/SmokeTrail": {
+			"resource": "Uprising/Textures/SmokeTrail_f6863eab81",
+			"width": 128,
+			"height": 256,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/MysticSmoke": {
+			"resource": "Uprising/Textures/MysticSmoke_34a19bc947",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/Lightnings/Lightning1/Lightning1": {
+			"resource": "Uprising/Textures/Lightning1_1a372dedbb",
+			"width": 240,
+			"height": 512,
+			"frames": 4,
+			"cols": 2,
+			"rows": 2,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/Lightnings/Lightning2/aga_2": {
+			"resource": "Uprising/Textures/aga_2_6e35a5255f",
+			"width": 240,
+			"height": 512,
+			"frames": 4,
+			"cols": 2,
+			"rows": 2,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/LightningDD/LightningDD": {
+			"resource": "Uprising/Textures/LightningDD_908a75dd5f",
+			"width": 768,
+			"height": 192,
+			"frames": 8,
+			"cols": 3,
+			"rows": 3,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/FlameTile/FlameTile": {
+			"resource": "Uprising/Textures/FlameTile_723f8f78ab",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/alpha/explosion_smoke_white": {
+			"resource": "Uprising/Textures/explosion_smoke_white_b6ee2bc4cc",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/additive/fire": {
+			"resource": "Uprising/Textures/fire_ce55827a39",
+			"width": 384,
+			"height": 384,
+			"frames": 32,
+			"cols": 6,
+			"rows": 6,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/alpha/burn": {
+			"resource": "Uprising/Textures/burn_4466f97fd7",
+			"width": 128,
+			"height": 128,
+			"frames": 4,
+			"cols": 2,
+			"rows": 2,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/Lightnings_Trail/Lightnings_Trail": {
+			"resource": "Uprising/Textures/Lightnings_Trail_b2e73b5fea",
+			"width": 128,
+			"height": 512,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/Lightning1x4/Lightning1x4": {
+			"resource": "Uprising/Textures/Lightning1x4_3eb688b1f5",
+			"width": 244,
+			"height": 256,
+			"frames": 4,
+			"cols": 2,
+			"rows": 2,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/Spark_1/Spark_1": {
+			"resource": "Uprising/Textures/Spark_1_25f8f2a7e4",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/alpha/fragments": {
+			"resource": "Uprising/Textures/fragments_01793e4834",
+			"width": 64,
+			"height": 64,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/alpha/DirtAndStones": {
+			"resource": "Uprising/Textures/DirtAndStones_2bdb89d0ba",
+			"width": 192,
+			"height": 128,
+			"frames": 5,
+			"cols": 3,
+			"rows": 2,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/Bat/bat_one": {
+			"resource": "Uprising/Textures/bat_one_d2df706822",
+			"width": 384,
+			"height": 202,
+			"frames": 5,
+			"cols": 3,
+			"rows": 2,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/alpha/Fx_DustSpray_two": {
+			"resource": "Uprising/Textures/Fx_DustSpray_two_2fd36b8fc1",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/ParticlesHigh/Smoke8x8/Smoke8x8Test": {
+			"resource": "Uprising/Textures/Smoke8x8Test_d7955ebcdb",
+			"width": 1024,
+			"height": 1024,
+			"frames": 64,
+			"cols": 8,
+			"rows": 8,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/LightningDefenderT28/Lightning1x4": {
+			"resource": "Uprising/Textures/Lightning1x4_af70576001",
+			"width": 512,
+			"height": 512,
+			"frames": 4,
+			"cols": 2,
+			"rows": 2,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/ExplosionHigh/Fire_6x6_Blured/SparkNew": {
+			"resource": "Uprising/Textures/SparkNew_11a28bde05",
+			"width": 64,
+			"height": 64,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/alpha/fog": {
+			"resource": "Uprising/Textures/fog_1eb71bb417",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/gun_effects_high/smoke_dust_2/smoke_dust": {
+			"resource": "Uprising/Textures/smoke_dust_dfdaafbf69",
+			"width": 1280,
+			"height": 1280,
+			"frames": 24,
+			"cols": 5,
+			"rows": 5,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/alpha/treil": {
+			"resource": "Uprising/Textures/treil_f2a7166395",
+			"width": 64,
+			"height": 64,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/ExplosionHigh/Fire_6x6_Blured/Spark": {
+			"resource": "Uprising/Textures/Spark_5801860516",
+			"width": 158,
+			"height": 158,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/traffic_light/traffic_light": {
+			"resource": "Uprising/Textures/traffic_light_d5b1b2740e",
+			"width": 64,
+			"height": 64,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/34_forgecity_fc/traffic_light": {
+			"resource": "Uprising/Textures/traffic_light_0c8406a012",
+			"width": 64,
+			"height": 64,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween_skills/LightningDD/LightningDD": {
+			"resource": "Uprising/Textures/LightningDD_663d664065",
+			"width": 1280,
+			"height": 320,
+			"frames": 24,
+			"cols": 5,
+			"rows": 5,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/GlowLines": {
+			"resource": "Uprising/Textures/GlowLines_5245253de6",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/LightningDefenderT28/Glow_additive": {
+			"resource": "Uprising/Textures/Glow_additive_0c505e7987",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"alphaRemapPath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/TimeLaps/TimeLaps": {
+			"resource": "Uprising/Textures/TimeLaps_22c8dba347",
+			"width": 244,
+			"height": 128,
+			"frames": 4,
+			"cols": 2,
+			"rows": 2,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/Sci-fi_noise/Sci-fi_noise": {
+			"resource": "Uprising/Textures/Sci-fi_noise_34f3c4038c",
+			"width": 512,
+			"height": 384,
+			"frames": 12,
+			"cols": 4,
+			"rows": 3,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/alpha/cloth": {
+			"resource": "Uprising/Textures/cloth_64314d3176",
+			"width": 50,
+			"height": 66,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/TileSci-fi/TileSci-fi": {
+			"resource": "Uprising/Textures/TileSci-fi_4c8fc75073",
+			"width": 256,
+			"height": 256,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween2019/Tornado1x4/torv2": {
+			"resource": "Uprising/Textures/torv2_996a9fd8ed",
+			"width": 252,
+			"height": 256,
+			"frames": 4,
+			"cols": 2,
+			"rows": 2,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/alpha/o2_expGlowB": {
+			"resource": "Uprising/Textures/o2_expGlowB_2bbe1d38f0",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween_skills/3/Trail_3": {
+			"resource": "Uprising/Textures/Trail_3_02f2d737bf",
+			"width": 64,
+			"height": 256,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/Boss_mode/Reflection/Spark_2": {
+			"resource": "Uprising/Textures/Spark_2_f38d0dc491",
+			"width": 64,
+			"height": 64,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/Boss_mode/Reflection/Glow": {
+			"resource": "Uprising/Textures/Glow_a80ec34034",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/Boss_mode/Reflection/Lightning/Lightning_2": {
+			"resource": "Uprising/Textures/Lightning_2_f3eff296d8",
+			"width": 240,
+			"height": 512,
+			"frames": 4,
+			"cols": 2,
+			"rows": 2,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/Boss_mode/Reflection/Spark": {
+			"resource": "Uprising/Textures/Spark_eacb4311e2",
+			"width": 64,
+			"height": 64,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/Boss_mode/Reflection/glow_13": {
+			"resource": "Uprising/Textures/glow_13_d2c43b5adc",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/Boss_mode/Reflection/shot_flowmap": {
+			"resource": "Uprising/Textures/shot_flowmap_b0348ca3dd",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"noisePath"
+			]
+		},
+		"~res:/Gfx/Particles/Boss_mode/Reflection/glow_4": {
+			"resource": "Uprising/Textures/glow_4_05061d2896",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/Boss_mode/Reflection/glow_2": {
+			"resource": "Uprising/Textures/glow_2_4c88d87b58",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween_skills/1/afterburner": {
+			"resource": "Uprising/Textures/afterburner_3e1865c685",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween_skills/2/Smoke_RibbonColumn_small_FX_C": {
+			"resource": "Uprising/Textures/Smoke_RibbonColumn_small_FX_C_a10d3076c0",
+			"width": 128,
+			"height": 512,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/alpha/fog_white": {
+			"resource": "Uprising/Textures/fog_white_f933437b98",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/halloween_skills/heal": {
+			"resource": "Uprising/Textures/heal_dc4ad830cf",
+			"width": 100,
+			"height": 100,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/alpha/electricity4": {
+			"resource": "Uprising/Textures/electricity4_56c06639ea",
+			"width": 150,
+			"height": 50,
+			"frames": 5,
+			"cols": 3,
+			"rows": 2,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/alpha/o2_expGlow": {
+			"resource": "Uprising/Textures/o2_expGlow_d65b865a02",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		},
+		"~res:/Gfx/Particles/FM2/flowmap": {
+			"missing": true
+		},
+		"~res:/Gfx/Particles/halloween_skills/shield": {
+			"resource": "Uprising/Textures/shield_86334d503c",
+			"width": 128,
+			"height": 128,
+			"frames": 1,
+			"cols": 1,
+			"rows": 1,
+			"usage": [
+				"spritePath"
+			]
+		}
+	},
+	"layerTypes": {
+		"mesh": 9,
+		"particles": 133,
+		"superEmitter": 19,
+		"particlesStripe": 50
+	},
+	"features": {
+		"enableMask": 3,
+		"enableNoise": 7,
+		"enableNoiseScroll": 13,
+		"enableFog": 52,
+		"usePerspectiveMapping": 35,
+		"useFresToAlpha": 12,
+		"enableFrameBlend": 38
+	},
+	"sources": [
+		{
+			"source": "assets/sfx/uprising/berserk_loop.ogg",
+			"role": "decoded-original-audio",
+			"sha256": "ba1f10f83d15b91a72d161d6396e41f8e18b31b092e86ed7f34fec6d1e7283a5"
+		},
+		{
+			"source": "assets/sfx/uprising/berserk_off.ogg",
+			"role": "decoded-original-audio",
+			"sha256": "450fa4fc36fa17404239d9e342087114e42f5afb9b08e0d639d78430d0b6da15"
+		},
+		{
+			"source": "assets/sfx/uprising/berserk_on_1.ogg",
+			"role": "decoded-original-audio",
+			"sha256": "f6f17cdde40281fa0f0565cfb0041ebfa39db6e38821d22c6bcf5406176374e1"
+		},
+		{
+			"source": "assets/sfx/uprising/berserk_on_2.ogg",
+			"role": "decoded-original-audio",
+			"sha256": "0ec8a2cc5b3eefde1ebf35d32a1067711828b575618a0ea69087d79509214466"
+		},
+		{
+			"source": "assets/sfx/uprising/berserk_on_3.ogg",
+			"role": "decoded-original-audio",
+			"sha256": "b549ac4abcd7b564d40e56e9f57292b53de685dee74b50f204acc2b81f6e7bd0"
+		},
+		{
+			"source": "assets/sfx/uprising/curse.ogg",
+			"role": "decoded-original-audio",
+			"sha256": "f77e1a990cae7902700f236a3727c0f01ea7abf4d02886d9a895ddb3445d7e76"
+		},
+		{
+			"source": "assets/sfx/uprising/huntersMark.ogg",
+			"role": "decoded-original-audio",
+			"sha256": "959770b84e146f00a5467f93d65b58cda7b1cbfa83e8f3d6dff17482ce5ae459"
+		},
+		{
+			"source": "assets/sfx/uprising/lightning.ogg",
+			"role": "decoded-original-audio",
+			"sha256": "03853e67655dc764fae679310a31496209c52035b3dd26d6525e9316b91216e0"
+		},
+		{
+			"source": "assets/sfx/uprising/moonwalk.ogg",
+			"role": "decoded-original-audio",
+			"sha256": "f991ca56c8c676aff8acb83c28a59018ea88c70ef51b62a617aa46ca534f76c2"
+		},
+		{
+			"source": "assets/sfx/uprising/returnInTime.ogg",
+			"role": "decoded-original-audio",
+			"sha256": "de29ab8217a55deed28ecacc86b90731609bc5c784a54b7d14007e65239fad1f"
+		},
+		{
+			"source": "assets/sfx/uprising/splash.ogg",
+			"role": "decoded-original-audio",
+			"sha256": "e41333c96a62b0b2dc1c2acc8266ef5c84ac41e32865c84e985880d8f962147f"
+		},
+		{
+			"source": "assets/data/uprising_abilities.gd",
+			"role": "logic",
+			"sha256": "b7846d24a88d572bb9599215b9fd825dc467f73f22ccb757a7c50190eb068098"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/berserk.png",
+			"role": "ui",
+			"sha256": "e2d9c0523682cd7fa9e654c87fd964e38fc6d046cb6d0d55a3601f020bfd4c6b"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/comeBackKit.png",
+			"role": "ui",
+			"sha256": "705634c2e3ab754e30c5a037c2146378f0198dbb53ef9c26cb9e0addf238f446"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/curse.png",
+			"role": "ui",
+			"sha256": "ef24427afddc5b4204246b331c16a1d03b009e777645d0578079e95fcd5b85be"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/damageBoost1.png",
+			"role": "ui",
+			"sha256": "da1acb89c1c85a8223798798352480aab0f0e5853131379c7b50edb64c8f566c"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/damageBoost2.png",
+			"role": "ui",
+			"sha256": "07b7bb0f86bad45492da835d86d18f6d8bd06b2c66bb1db17ab0072c7152da59"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/duplet.png",
+			"role": "ui",
+			"sha256": "9985257f123f6f4d77b52f7d1c82866e0278b181f102705835f30b98cde593f5"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/elixir.png",
+			"role": "ui",
+			"sha256": "0e427efec3bef968e1cb078f62dcc2a991cdd2cc573f46c96485bc1058d5fcae"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/enemyReloadTime.png",
+			"role": "ui",
+			"sha256": "17416c243b714fc2b5d5dfa5d2c400ba374d1b5c4e970251556980673ccdab7a"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/engineBoost1.png",
+			"role": "ui",
+			"sha256": "c24f14f5cbd53c78ad2b0ff62588dc527947b5a0899ae0a1165c2437a9ab2f16"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/engineBoost2.png",
+			"role": "ui",
+			"sha256": "32136a1c9e2d8e1d899e01c0f6ba74f4fe66320a7c85713823d5916d3e9b45e8"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/ghost.png",
+			"role": "ui",
+			"sha256": "0bb838040f41e2551194bad4c80224dc3955dcdba19a43f1655a8f1b211ffb20"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/huntersMark.png",
+			"role": "ui",
+			"sha256": "7bac7910cc7aa16938ebf8a3729af9273bb1cb46b315d15f8c10cc0b67b709ec"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/lightning1.png",
+			"role": "ui",
+			"sha256": "8ecf6af3f726da5bdaf6873b484ff704fd9a7e4dcf06807c4d38aab7085fdba2"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/lightning2.png",
+			"role": "ui",
+			"sha256": "713c9c2b7722a168ce692aa56c7be565959da57710d3754ba33d0958bdb8bc54"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/lives.png",
+			"role": "ui",
+			"sha256": "77203a3f273a7bcd53bfa369b084dfdd8e3ee8a6ea9647abefeee82eaf1c68a8"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/moonwalk.png",
+			"role": "ui",
+			"sha256": "29dab066f527ca1888c0b62a355c60049b6fe17d867f683ae9cdf834daeedcaf"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/pretendDead.png",
+			"role": "ui",
+			"sha256": "7f89c0f7e83923bd86509c64a752af6d4e1925c96dd3522a725ee3cb132a22f7"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/ramming1.png",
+			"role": "ui",
+			"sha256": "45a53da5609957dcdb3c13c22d90a7984a1d93cb9c9d956d83e722d8c6c04ca6"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/ramming2.png",
+			"role": "ui",
+			"sha256": "429cbc5a43634558b6e7d703fbc1ebbd3e0744d2ebb014cbdd69fdba58714370"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/reloadBoost1.png",
+			"role": "ui",
+			"sha256": "ba7e248c5a94088c4d4662d56afc78c4dd760743f0184749a6189e3250a15baf"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/reloadBoost2.png",
+			"role": "ui",
+			"sha256": "6588a3e1de06fb066305238ea8ac088e01e9bebad369a0a16c39432ad0656469"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/returnInTime.png",
+			"role": "ui",
+			"sha256": "9875f15340d67f87cea1fbb88f4ea18f809281b5db16e0d243cd7e30ae2603a4"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/skills_bg.png",
+			"role": "ui",
+			"sha256": "a5a67909b5f934f70603674954abf33fb0f6f0d641230897631495485d4e3d44"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/splash.png",
+			"role": "ui",
+			"sha256": "ce85a18f5126a202eb0586f403f6734cab103cc614310c6c4b5af22e2d1ab24a"
+		},
+		{
+			"source": "assets/gfx/ui/inventory/uprising/vortex.png",
+			"role": "ui",
+			"sha256": "3345122020135064b5aa1c24488e22e4b7f6f5738e1b1d73b1666dd182e1df5d"
+		},
+		{
+			"source": "assets/gfx/ui/hangar/battle_mode_cards/normal.png",
+			"role": "ui",
+			"sha256": "194884766a10f1d265f1f9fd6cb386ef9f30fd40d5e3707f6c44243335d464df"
+		},
+		{
+			"source": "assets/gfx/ui/hangar/battle_mode_cards/uprising.png",
+			"role": "ui",
+			"sha256": "ed145f97efe1e8cad072847dd2af49ba8668ef894bc54d9746231832e07c240a"
+		},
+		{
+			"source": "from_apk/Strings/en.yaml",
+			"role": "original-localization",
+			"sha256": "81fad9882af65f11a93d7e5dfe9261dae079f143e18d46566820a813cc701af6"
+		},
+		{
+			"source": "from_apk/Strings/ru.yaml",
+			"role": "original-localization",
+			"sha256": "3746028d382bfe5475069e433a14beee8b504aa010bedce75b10920c78a775c4"
+		},
+		{
+			"source": "assets/gfx/ui/hangar/battle_mode_menu.tscn",
+			"role": "ui-layout",
+			"sha256": "bf09bdfd273b1e6c2d39065d95fe0752ee6dcea497e08e1cc7ee4673cd767ba7"
+		},
+		{
+			"source": "assets/gfx/ui/battle/uprising_ability_panel.tscn",
+			"role": "ui-layout",
+			"sha256": "5c6c3ea16642481425d03d511b339af665a091df7b3b9e0b810de5084dedd797"
+		},
+		{
+			"source": "assets/gfx/ui/common/style_button_generic.stylebox",
+			"role": "ui-style",
+			"sha256": "86ec349d0fd739b4edeeab3560738bd6e434da797668e1f988f25ce32458be74"
+		},
+		{
+			"source": "assets/gfx/ui/common/style_button_generic_press.stylebox",
+			"role": "ui-style",
+			"sha256": "814adf044f01518cd193fd4ab44bf214255204659025dc866b683264c2bd83ab"
+		},
+		{
+			"source": "assets/gfx/ui/battle/uprising_selected_style.tres",
+			"role": "ui-style",
+			"sha256": "c44737739548c6a651fefc986496c0d375fa6f559511903de00b7337ca403037"
+		},
+		{
+			"source": "assets/fonts/arialmb.ttf",
+			"role": "ui-style",
+			"sha256": "abc12428d874a29aaf7b610bcde6ff5462afff239f3b29f5bdf8c61143d4ca16"
+		},
+		{
+			"source": "assets/fonts/ui_theme_blitz.tres",
+			"role": "ui-style",
+			"sha256": "2f0efc7bd27f03da51f57368eef2ddf94bac48b883bc149aed5ac036d1c29453"
+		},
+		{
+			"source": "assets/fonts/WarHeliosCondC.ttf",
+			"role": "ui-style",
+			"sha256": "f80aa23a8e80cb2c19810a876c73bcaa7ba61fb09d3aeb11f509a1853db7382d"
+		},
+		{
+			"source": "assets/fonts/WarHeliosCondCBold.ttf",
+			"role": "ui-style",
+			"sha256": "dada8ff0599cc553ae741acb46c16ef34f3a9044fbadbc1099b7d7ad613bfe85"
+		},
+		{
+			"source": "scripts/ui_global.gd",
+			"role": "ui-style",
+			"sha256": "856952ee14914c1ee3374c6bef474a7052b4657ca6b297ead377dc5c4572f186"
+		},
+		{
+			"source": "project.godot",
+			"role": "ui-style",
+			"sha256": "45fffff5d55738d47e97987dc42532e7fbb07182a00cda66d18a29384c27704b"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween2019/Berserk.scg",
+			"role": "original-fx-geometry",
+			"sha256": "d029181dfd04bcff279a79ad84bfdaa03fc5320021e9857edcc83f62e77fd5c1"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween2019/Berserk.sc2",
+			"role": "original-fx",
+			"sha256": "13cfb658a86863ede364cdd21273a7611c5d17bf8a72c82855eba9d7c84bf5da"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/texture0.packed.webp.dvpl",
+			"role": "original-fx-atlas",
+			"sha256": "5426f50dcde680c49c5e8ff821c4cb1a0581c303b3d9663b0dae42d91b48e6f4"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/Graduent.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "3511f7d6c557188d48bf28c8e0832a65f32e2e511004f8fc4118053d5251bd0a"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/Noise/Noise.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "d4ffc5a48214a05634e148be429a02211ba985c9ff169d0494aa1497bae83e09"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/Mask/Mask.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "69d5eec4b5f2152f6ef8225ba200ecd691a5783b0b0c29c32c11c5c93998b76a"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/Circle/Circle.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "aee36619ac138ad689cd4b54c71c8166a22e46b57fdcbf5a4fff0e56ffa8dcaa"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/Shockwave/Shockwave.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "dcd23f9e911193d89ebbe25d15bf90904471490a2ecfe934724f860d31cffa56"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "6c6bd30c584aac0722a7e4085ed6fb173b318e8432b5571df98d13165fbf4cf5"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/fog_white_snow.txt",
+			"role": "original-fx-texture",
+			"sha256": "e4c0e56374f6279f98f768b4eb8acacfd24b52235e63a38781d1625b0f0c227e"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/additive/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "b3cbe16b7cbc43894d745a1827465f342963bcab8fda55cf15b88eef8f0a7124"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/additive/Glow.txt",
+			"role": "original-fx-texture",
+			"sha256": "d8577d94cce5b3a7d187d1d4d8183b5b43a003c6c4a30739c8cb9c8ae8b074f5"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/additive/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "b3cbe16b7cbc43894d745a1827465f342963bcab8fda55cf15b88eef8f0a7124"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/additive/Spark.txt",
+			"role": "original-fx-texture",
+			"sha256": "2c6c5d73207aa49431e158188339365e63e97f8bd92cdb6d27a10e82db3fbc3d"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/TrailSmoky/SmokeTrail.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "d4fe70c6bfefa2261236d37d580d5ec367daf6069fc2346d6f1181f47032e460"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/texture0.packed.webp.dvpl",
+			"role": "original-fx-atlas",
+			"sha256": "5426f50dcde680c49c5e8ff821c4cb1a0581c303b3d9663b0dae42d91b48e6f4"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/MysticSmoke.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "f8272d3d570eada2ea989cc69a592ecfe7fc6974711e4973bfa2525599bfa91a"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween2019/ChainLightning.sc2",
+			"role": "original-fx",
+			"sha256": "744ded539207263ae8fa57a4fe41396f5fb064a3ed48f6f4b63518fd45771420"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/Lightnings/Lightning1/Lightning1.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "7abddba79095e5a0312e9abf554d8af16cec4789366bb4851b2f5a48379c5b5b"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/Lightnings/Lightning2/aga_2.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "688516622e5c76f8a2fd5b043cdd52812412d10e34b9971bfe41ea449dcd924b"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween2019/ChainLightning_sniper.sc2",
+			"role": "original-fx",
+			"sha256": "744ded539207263ae8fa57a4fe41396f5fb064a3ed48f6f4b63518fd45771420"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween2019/DamageIncrease.sc2",
+			"role": "original-fx",
+			"sha256": "b2d773b0fc2ffb136ea2330cf840755431a87efdd4b7739374d98c5bc2981cf5"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/LightningDD/LightningDD.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "c5a7fd9ac593cf2c70206a69c5c5f13bbf13ea36f2f2c2639d1ecdf444b1e55c"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/FlameTile/FlameTile.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "f419b6850e1d8cabd576fbc1583fc89bb03416abd749b022adb876de8fd170de"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween2019/Dash.sc2",
+			"role": "original-fx",
+			"sha256": "4821ab5e5022b4077053db8a5f12bc7bb60e46e00f832d3a0af43dc5643eb01c"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "6c6bd30c584aac0722a7e4085ed6fb173b318e8432b5571df98d13165fbf4cf5"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/explosion_smoke_white.txt",
+			"role": "original-fx-texture",
+			"sha256": "79707c9e18509a643f3813df4b78890efb9902f2e42d1f29c0273e2cbb9485aa"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/additive/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "b3cbe16b7cbc43894d745a1827465f342963bcab8fda55cf15b88eef8f0a7124"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/additive/fire.txt",
+			"role": "original-fx-texture",
+			"sha256": "c4e2d4f5dd6e6fa85de00552b342129012f181ac1e6e80179179dbe6ab2b3d12"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween2019/Reload_Halloween.sc2",
+			"role": "original-fx",
+			"sha256": "2d9edf6034ff00b5559de81ec8e689e13d54c0abf7cc12ebbaa056c2f8281e25"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "6c6bd30c584aac0722a7e4085ed6fb173b318e8432b5571df98d13165fbf4cf5"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/burn.txt",
+			"role": "original-fx-texture",
+			"sha256": "389e9910acbcbf81bbee31f7c1ea5ac92a6d95747fb069b8c957a17bafddc4c8"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/Lightnings_Trail/Lightnings_Trail.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "0973c4a56dce042cdbb2eb90d855d95299efc4b90ff0ba53f1b8f2711289e1e8"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/Lightning1x4/Lightning1x4.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "bdee0e29e8f39db60e79450fbe511b7886bb5d90ab0369aae683c4264d9546b2"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/Spark_1/Spark_1.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "42dc2486a20156282753a0f2e6703e25eefe812312443b3d127296dffd3d11a4"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween2019/Reload_Halloween_long.sc2",
+			"role": "original-fx",
+			"sha256": "32e4ed6cd770aeffffdf1ee8e20fcb16577a81d61e553333ae627296d17f91e0"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween2019/Reload_Halloween_short.sc2",
+			"role": "original-fx",
+			"sha256": "31d3ab995fceea4551bab74d738198e00f559ac6107415bf4bf555c156c018d0"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween2019/Spell_Bat_one.sc2",
+			"role": "original-fx",
+			"sha256": "89dd1aea9779e44f857bc5cd10d3e3e3ea793743bcdea883a386490798dca157"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "6c6bd30c584aac0722a7e4085ed6fb173b318e8432b5571df98d13165fbf4cf5"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/fragments.txt",
+			"role": "original-fx-texture",
+			"sha256": "da863b6435ec97edbc1898392070bb9ad93ec71a390d2ddebf203770f135beb2"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "6c6bd30c584aac0722a7e4085ed6fb173b318e8432b5571df98d13165fbf4cf5"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/DirtAndStones.txt",
+			"role": "original-fx-texture",
+			"sha256": "11b6e0cec41d1a2775a9ababb5427847b5e235fc88ad4561adec3d0ca61bdd50"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/Bat/bat_one.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "94d84ba8ecbecd1a6e595e9ce2f030a6c69f43313083ae1c4a50a077efd2bd74"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "6c6bd30c584aac0722a7e4085ed6fb173b318e8432b5571df98d13165fbf4cf5"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/Fx_DustSpray_two.txt",
+			"role": "original-fx-texture",
+			"sha256": "d7ac99d76bc5b1b19ea84ce777998df2588a0b33380920f60455a0d7dbde1e25"
+		},
+		{
+			"source": "Gfx/Particles/ParticlesHigh/Smoke8x8/Smoke8x8Test.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "29bec3864ade79b94ea7e0035ea0ad64560723d6d5a03d68fbc5ef331095d9f3"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween2019/Splash_Halloween.sc2",
+			"role": "original-fx",
+			"sha256": "91099b040bd704bb254f7b09d69d9eb5c859b3d61149bd9197de72f98a5f9fe1"
+		},
+		{
+			"source": "Gfx/Particles/LightningDefenderT28/texture0.packed.webp.dvpl",
+			"role": "original-fx-atlas",
+			"sha256": "ae8a275e44626216f5724c81f9f85d9741f9ddfcd8fdcad571218a0afe649165"
+		},
+		{
+			"source": "Gfx/Particles/LightningDefenderT28/Lightning1x4.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "6456376e732d0f8eb1e4eb17eb19935b9ad7a9e8977a0cdf6ca8b207ad8c0d0e"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/ExplosionHigh/Fire_6x6_Blured/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "4afb2169823b7e731e5371ecfc5156fc6349b1cdc536c8a83b0a162de1bbbb82"
+		},
+		{
+			"source": "Gfx/Particles/ExplosionHigh/Fire_6x6_Blured/SparkNew.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "018c115442b2c97cf5bfa8e134533e10c1340b444199f3c64213d66894effbad"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "6c6bd30c584aac0722a7e4085ed6fb173b318e8432b5571df98d13165fbf4cf5"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/fog.txt",
+			"role": "original-fx-texture",
+			"sha256": "f96427e8e19eead33ac4658bcd263dd3990ebbb8f5594f13a26167b354040e78"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/gun_effects_high/smoke_dust_2/smoke_dust.packed.webp",
+			"role": "original-fx-texture",
+			"sha256": "5be834cd3952890a777b4761805bee4dc6f64623d891ca1a15e743b836c6a0ee"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "6c6bd30c584aac0722a7e4085ed6fb173b318e8432b5571df98d13165fbf4cf5"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/treil.txt",
+			"role": "original-fx-texture",
+			"sha256": "a12715d20d60f3f226880b41aa1544c8468a0769177191c4c1d099748b763a2c"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/ExplosionHigh/Fire_6x6_Blured/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "4afb2169823b7e731e5371ecfc5156fc6349b1cdc536c8a83b0a162de1bbbb82"
+		},
+		{
+			"source": "Gfx/Particles/ExplosionHigh/Fire_6x6_Blured/Spark.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "fa0219127109fca52fc8cfa7ce13ec43bb9bb8d7a3ffe24078ff2b4f35226f61"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/traffic_light/traffic_light.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "2a9c265a0591e797b0ddf1cb31366e242ba0d88bc1e919a35714ebe375d34164"
+		},
+		{
+			"source": "Gfx/Particles/34_forgecity_fc/texture0.packed.webp.dvpl",
+			"role": "original-fx-atlas",
+			"sha256": "0ea188be005edbe60e49edf2cb79ac1352a638024f4ca2abf71cec3997b3729b"
+		},
+		{
+			"source": "Gfx/Particles/34_forgecity_fc/traffic_light.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "353f3879112ea4585c36f3889cbb0b0aff0767c75e487210909e9cc8fae23839"
+		},
+		{
+			"source": "Gfx/Particles/halloween_skills/LightningDD/LightningDD.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "8ccca669b88add78acb665f3809f72734eeeb2b045b7c340ff23350be71eaa1e"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween2019/Time_RollBack.sc2",
+			"role": "original-fx",
+			"sha256": "aea873e7fa319ae359ea5e0c1ea151e9f873b3e18849c26b8c9f371e7d5c58ac"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/texture0.packed.webp.dvpl",
+			"role": "original-fx-atlas",
+			"sha256": "5426f50dcde680c49c5e8ff821c4cb1a0581c303b3d9663b0dae42d91b48e6f4"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/GlowLines.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "0b9c676c85bebc1481c3b8bb4e981149584508b29272d8ff55e709202b00ad5f"
+		},
+		{
+			"source": "Gfx/Particles/LightningDefenderT28/texture0.packed.webp.dvpl",
+			"role": "original-fx-atlas",
+			"sha256": "ae8a275e44626216f5724c81f9f85d9741f9ddfcd8fdcad571218a0afe649165"
+		},
+		{
+			"source": "Gfx/Particles/LightningDefenderT28/Glow_additive.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "cc661830bf59161bfdab3bffdda2a8db861e7a180a1eaf1f56fbe26c9dd4dbdc"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/TimeLaps/TimeLaps.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "5805cfbe03896d8f0e8c2a81b0f72373e56c5d03f0a08c134b9d1a4f8f66a619"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/Sci-fi_noise/Sci-fi_noise.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "fd0819ed6d3ac9ede92eb6a26b713e9a72c469204237eefe6473363a51087bc1"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "6c6bd30c584aac0722a7e4085ed6fb173b318e8432b5571df98d13165fbf4cf5"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/cloth.txt",
+			"role": "original-fx-texture",
+			"sha256": "4d3cbb125f722d73c8e3314e22a38db178880c53433b48932e5a33fd3c469bf2"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/TileSci-fi/TileSci-fi.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "77f7ac5f749a44680d2e1656e1a0d780f173ef90e088c9a31614b63f5ce83c5d"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween2019/Tornado.sc2",
+			"role": "original-fx",
+			"sha256": "e315af7f6aece6ff9c1d30be1160b258c00d4d995870b1470192b23770a8e7d8"
+		},
+		{
+			"source": "Gfx/Particles/halloween2019/Tornado1x4/torv2.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "a43151f5a2278de84f7f957182830af7219c33f2631800bcd231282a57e0eff2"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween_skills/DarkSkill.sc2",
+			"role": "original-fx",
+			"sha256": "c5757d1cf0583adbe27e5eb39e621fd95719d6400e67d36d66bfcd13f229a994"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "6c6bd30c584aac0722a7e4085ed6fb173b318e8432b5571df98d13165fbf4cf5"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/o2_expGlowB.txt",
+			"role": "original-fx-texture",
+			"sha256": "cb7316bf502e5b2e77ddcc752870ebb53aadaab19e3319ae18164c8c19ea7609"
+		},
+		{
+			"source": "Gfx/Particles/halloween_skills/3/Trail_3.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "76b3767ef67baf9b998326a95469b1093e18cc8985cb6c6efeffdf2ace72a5e3"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween_skills/Reflection_Laser.sc2",
+			"role": "original-fx",
+			"sha256": "659376230d580e2af830c0b0e1e0609c8f726804a8563137dca9eef038933876"
+		},
+		{
+			"source": "Gfx/Particles/Boss_mode/Reflection/texture0.packed.webp.dvpl",
+			"role": "original-fx-atlas",
+			"sha256": "91f953eb688e45650cdd2fe60ddebb6ab4ff870d8dc37f02bdcd332395a540ff"
+		},
+		{
+			"source": "Gfx/Particles/Boss_mode/Reflection/Spark_2.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "b46d23924a02a39d7391d6ea7e3a3c3240ff1d95ea442d077ba8fd7fe982935b"
+		},
+		{
+			"source": "Gfx/Particles/Boss_mode/Reflection/texture0.packed.webp.dvpl",
+			"role": "original-fx-atlas",
+			"sha256": "91f953eb688e45650cdd2fe60ddebb6ab4ff870d8dc37f02bdcd332395a540ff"
+		},
+		{
+			"source": "Gfx/Particles/Boss_mode/Reflection/Glow.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "0b9c676c85bebc1481c3b8bb4e981149584508b29272d8ff55e709202b00ad5f"
+		},
+		{
+			"source": "Gfx/Particles/Boss_mode/Reflection/Lightning/Lightning_2.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "496b24e85c789a409ed02bf364e6df003154302612504bb3fd6387cb5d795dd5"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween_skills/Reflection_Sphere.scg",
+			"role": "original-fx-geometry",
+			"sha256": "d0f6100b35327635dd1c374d7d9ff4c6e1032280b7b0d5491f19c94c8900a413"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween_skills/Reflection_Sphere.sc2",
+			"role": "original-fx",
+			"sha256": "276a7d6ca1902e91010321b96a927c4a0ee5908ab2077662c742a703b14416c3"
+		},
+		{
+			"source": "Gfx/Particles/Boss_mode/Reflection/texture0.packed.webp.dvpl",
+			"role": "original-fx-atlas",
+			"sha256": "91f953eb688e45650cdd2fe60ddebb6ab4ff870d8dc37f02bdcd332395a540ff"
+		},
+		{
+			"source": "Gfx/Particles/Boss_mode/Reflection/Spark.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "85a17a7785236a82b717ce0e967400f6e9d2d88fae27dc42d6939a5bc3233d63"
+		},
+		{
+			"source": "Gfx/Particles/Boss_mode/Reflection/texture0.packed.webp.dvpl",
+			"role": "original-fx-atlas",
+			"sha256": "91f953eb688e45650cdd2fe60ddebb6ab4ff870d8dc37f02bdcd332395a540ff"
+		},
+		{
+			"source": "Gfx/Particles/Boss_mode/Reflection/glow_13.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "b9a4be0ae2bfa51f5c1e2d24e931fedc3fb76b1c1af46e8cb70ec977aa696546"
+		},
+		{
+			"source": "Gfx/Particles/Boss_mode/Reflection/texture0.packed.webp.dvpl",
+			"role": "original-fx-atlas",
+			"sha256": "91f953eb688e45650cdd2fe60ddebb6ab4ff870d8dc37f02bdcd332395a540ff"
+		},
+		{
+			"source": "Gfx/Particles/Boss_mode/Reflection/shot_flowmap.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "4326ccb5e6db5447ec445251ae02ec0a0e74e14341dddcaddf26eeea8947bb23"
+		},
+		{
+			"source": "Gfx/Particles/Boss_mode/Reflection/texture0.packed.webp.dvpl",
+			"role": "original-fx-atlas",
+			"sha256": "91f953eb688e45650cdd2fe60ddebb6ab4ff870d8dc37f02bdcd332395a540ff"
+		},
+		{
+			"source": "Gfx/Particles/Boss_mode/Reflection/glow_4.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "14556de5e12289255fdbf80d0fd37b116dabcda2886b7f711f905d081e27b7a8"
+		},
+		{
+			"source": "Gfx/Particles/Boss_mode/Reflection/texture0.packed.webp.dvpl",
+			"role": "original-fx-atlas",
+			"sha256": "91f953eb688e45650cdd2fe60ddebb6ab4ff870d8dc37f02bdcd332395a540ff"
+		},
+		{
+			"source": "Gfx/Particles/Boss_mode/Reflection/glow_2.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "492201cf7724734bab79dfc9a193fe95510f198edac4aae16116095ae228d503"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween_skills/afterburner.sc2",
+			"role": "original-fx",
+			"sha256": "72313bb3bac786fff254daf5f04c122c44025608643cc3476a0fd38ee6d92cb7"
+		},
+		{
+			"source": "Gfx/Particles/halloween_skills/1/afterburner.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "2d178c7859c3b6b7d771131d2011d82ebe3fbdab9d74ca9aced54fff878859ee"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween_skills/berserk.sc2",
+			"role": "original-fx",
+			"sha256": "607fa55eb4e39e2930db1bc572642b8d6b3f203e9c5e2ac0a5462a07b4cb2ee8"
+		},
+		{
+			"source": "Gfx/Particles/halloween_skills/2/Smoke_RibbonColumn_small_FX_C.packed.webp.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "4e3041bb2c74fcdb6bdbb61e1512d7f80c39814c95255b31e6aaedcdd83fa980"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "6c6bd30c584aac0722a7e4085ed6fb173b318e8432b5571df98d13165fbf4cf5"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/fog_white.txt",
+			"role": "original-fx-texture",
+			"sha256": "4c15356dac6c1c86259c62b26b264c9bd8e78c81ae5e9c58e7e35e6029dd156e"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween_skills/dash.sc2",
+			"role": "original-fx",
+			"sha256": "b11f8357980044945f8b9e0c8ed861007c9efd7f2abf347ec5c7ff5ad55d59cc"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween_skills/heal.sc2",
+			"role": "original-fx",
+			"sha256": "7170e0a5d4c5f0af96e6e78a3cc75bd43e795cdd70b736c8360bc8b6175c1bd4"
+		},
+		{
+			"source": "Gfx/Particles/halloween_skills/texture0.packed.webp.dvpl",
+			"role": "original-fx-atlas",
+			"sha256": "d47a48b685550b670249ed99124176929c9059aa9c3a1e75fc88c33a3d54f568"
+		},
+		{
+			"source": "Gfx/Particles/halloween_skills/heal.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "29540ba9b68b4e477484700e38072c8c3ba7a8b76c778e12487a7c5f423745b1"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween_skills/moonwalk.sc2",
+			"role": "original-fx",
+			"sha256": "9c6ae5bda261c33f360be1aca1c41b3f3fa1f079b40a9592b8251ccab1949cb4"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "6c6bd30c584aac0722a7e4085ed6fb173b318e8432b5571df98d13165fbf4cf5"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/electricity4.txt",
+			"role": "original-fx-texture",
+			"sha256": "a25cf4d8e9f946144b486256170b4eaa480708ee473329e3f456f0550174f917"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween_skills/moonwalk_out.sc2",
+			"role": "original-fx",
+			"sha256": "62f87ec31f8491c6e0422b63bd3e8bf2134afaef5f50ee9260848cf5e186b863"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween_skills/shield.sc2",
+			"role": "original-fx",
+			"sha256": "b9c1243b32d51aa09f50d77d56cc9c1d946a1c3da611bbb76846ec661b7aaed5"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/texture0.packed.webp",
+			"role": "original-fx-atlas",
+			"sha256": "6c6bd30c584aac0722a7e4085ed6fb173b318e8432b5571df98d13165fbf4cf5"
+		},
+		{
+			"source": "from_apk/Gfx/Particles/alpha/o2_expGlow.txt",
+			"role": "original-fx-texture",
+			"sha256": "b554802e43238916fa4d24941d6f97ade3ad7ab7fdc6222f9b343bd0eea0bee4"
+		},
+		{
+			"source": "Gfx/Particles/halloween_skills/texture0.packed.webp.dvpl",
+			"role": "original-fx-atlas",
+			"sha256": "d47a48b685550b670249ed99124176929c9059aa9c3a1e75fc88c33a3d54f568"
+		},
+		{
+			"source": "Gfx/Particles/halloween_skills/shield.txt.dvpl",
+			"role": "original-fx-texture",
+			"sha256": "0b9c676c85bebc1481c3b8bb4e981149584508b29272d8ff55e709202b00ad5f"
+		},
+		{
+			"source": "from_apk/3d/FX/halloween_skills/vampirism.sc2",
+			"role": "original-fx",
+			"sha256": "2058cc87ead6074661b94a1e2165103083e1e3989966f4c4d8327757eaec5668"
+		},
+		{
+			"source": "from_apk/Materials/Shaders/Default/particle-materials-fp.sl",
+			"role": "original-fx-shader",
+			"sha256": "fa4ce8d11094ac78c83c91d5b3bf948a443f6866b2e1249dac906dd40d56e21c"
+		},
+		{
+			"source": "from_apk/Materials/Shaders/Default/particle-materials-vp.sl",
+			"role": "original-fx-shader",
+			"sha256": "21a39717c8a8c0248fb926f35d950c6a24b49ebab037b9f5fb6bec9a271760a7"
+		},
+		{
+			"source": "from_apk/Materials/Shaders/Default/mesh-particle-materials-fp.sl",
+			"role": "original-fx-shader",
+			"sha256": "28af6d5f015d8bf89753999bf7b32b448f1e4ad385aa34b7bc50a4550b810e49"
+		},
+		{
+			"source": "from_apk/Materials/Shaders/Default/mesh-particle-materials-vp.sl",
+			"role": "original-fx-shader",
+			"sha256": "3c47c5d787fe3b2feb87a8c96f22cdd38700f175b8b261e00c228781b9d73c37"
+		},
+		{
+			"source": "from_apk/Materials/Shaders/common.slh",
+			"role": "original-fx-shader",
+			"sha256": "2620bc341f36d9117eb3ffcb1fb9ff4ff987e15dfbece23297e4a368d618138a"
+		},
+		{
+			"source": "from_apk/Materials/Shaders/blending.slh",
+			"role": "original-fx-shader",
+			"sha256": "b1091bd0bcb482453b6f43b6b56f0ea991388a92f4470aebd90fdfb5dadea788"
+		},
+		{
+			"source": "from_apk/Materials/Shaders/fresnel-shlick.slh",
+			"role": "original-fx-shader",
+			"sha256": "6f7debc87f40d74e4dfabe7442cc90abab09869df1ba2b602a5cad6a038701e4"
+		}
+	]
+}

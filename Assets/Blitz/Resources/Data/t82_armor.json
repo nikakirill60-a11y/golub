@@ -1,0 +1,72 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.0,
+      -0.1,
+      0.0
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "T82Armor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 320,
+      "vertices": 340
+    },
+    {
+      "armor": 0,
+      "material": "T82Armor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 13,
+      "material": "T82Armor_armor_hull_plate13_13",
+      "mount": "hull",
+      "name": "armor_hull_plate13_13",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 52,
+      "vertices": 156
+    },
+    {
+      "armor": 7,
+      "material": "T82Armor_armor_hull_plate7_7",
+      "mount": "hull",
+      "name": "armor_hull_plate7_7",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 80,
+      "vertices": 240
+    },
+    {
+      "armor": 7,
+      "material": "T82Armor_armor_turret_01_plate7_7",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate7_7",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 17,
+      "vertices": 51
+    },
+    {
+      "armor": 15,
+      "material": "T82Armor_gun_03_mask_turret_01_plate15_15",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate15_15",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 8,
+      "vertices": 24
+    }
+  ]
+}

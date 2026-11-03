@@ -1,25 +1,98 @@
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-
-# buildozer / python-for-android — гигабайты промежуточных файлов,
-# в репозиторий не попадают (APK забираем из Artifacts в GitHub Actions)
-.buildozer/
-bin/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/Assets/AssetStoreTools*
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+# Imported plugin symbol metadata keeps stable Unity GUIDs.
+# Track .pdb.meta when the corresponding third-party .pdb is tracked.
 *.apk
 *.aab
+*.unitypackage
+sysinfo.txt
+crashlytics-build.properties
+/[Aa]ssets/[Ss]treamingAssets/aa*
+# Android Gradle/CMake output that can escape the regular Build directory.
+/.utmp/
 
-# локальные данные приложения (SQLite-история и JSON-запас)
-*.sqlite3
-*.db
+# Unity Performance Test Framework leaves this transient root behind. Runtime
+# resources for the game live under Assets/Blitz/Resources instead.
+/Assets/Resources/
+/Assets/Resources.meta
 
-# скриншоты автотеста интерфейса, если запускали локально
-tools/screenshots/
+# keystores never enter the repo
+*.keystore
+*.jks
 
-# ОС и редакторы
-.DS_Store
-Thumbs.db
+# Python bytecode from Tools/ helper scripts.
+__pycache__/
+
+# Local virtualenv for Tools/ scripts (texture2ddecoder, numpy, Pillow).
+/.venv*/
+/.ruff_cache/
+
+# JetBrains project files.
 .idea/
-.vscode/
+
+# Converter cache of Tools/port_blitz_branch_models.py.
+Tools/_branch_glb/
+
+# The pinned Sentry Unity SDK is installed by Tools/bootstrap_sentry_sdk.py
+# from a checksummed archive. Unpacked it is ~290 MB of prebuilt binaries for
+# every supported platform, so the pin lives in the script and the package
+# itself stays out of the repository.
+/Packages/io.sentry.unity/
+/.ci-cache/
+
+# Local release output and the machine-local release configuration. The config
+# carries the keystore path/passwords and the Sentry auth token.
+/release-assets/
+/debug-assets/
+/productiondebug-assets/
+/.env.release.local
+/.sentryclirc
+/sentry.properties
+
+# Build stamp written per build by Tools/local_release.sh, so a working tree
+# never claims to be a released build.
+/Assets/Blitz/Resources/Data/telemetry_build.json
+/Assets/Blitz/Resources/Data/telemetry_build.json.meta
+
+# Mono dumps a 10 MB crash blob into the project root; never a source file.
+mono_crash.*.blob
+
+# Photon Fusion App ID (local only, see Tools/photon_app_id.sh)
+/Assets/Blitz/Network/Resources/BlitzNet/photon_app_id.txt
+/Assets/Blitz/Network/Resources/BlitzNet/photon_app_id.txt.meta
+
+# Machine-local deployment configuration and development journals.
+.env
+.env.*
+!.env.example
+TASK_PLAN*
+PORTING_NOTES*
+PORTING NOTES*
+# Build-time public settings; credentials must never be embedded.
+/Assets/Blitz/Resources/Data/sentry_dsn.txt
+/Assets/Blitz/Resources/Data/sentry_dsn.txt.meta
+/Assets/Blitz/Direct/Resources/BlitzDirect/server.txt
+/Assets/Blitz/Direct/Resources/BlitzDirect/server.txt.meta
+
+# The SDK is a .NET solution of its own: its project files are sources (the
+# Unity-generated *.csproj above are not), its build output is not.
+!/Sdk/**/*.csproj
+/Sdk/**/bin/
+/Sdk/**/obj/

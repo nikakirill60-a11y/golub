@@ -1,0 +1,15 @@
+# Source-backed material bindings; runtime recreates URP materials.
+
+newmtl VK2801Body
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/VK2801.png
+
+newmtl VK2801Tracks
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/VK2801_tracks.png

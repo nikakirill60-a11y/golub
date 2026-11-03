@@ -1,0 +1,3323 @@
+{
+  "id": "karieri",
+  "nameKey": "map:karieri/name",
+  "scene": "3d/Maps/23_karieri_kr/23_karieri_kr.sc2",
+  "externalScene": "Maps/Karieri/karieri_scene",
+  "externalSceneSource": "3d/Maps/23_karieri_kr/23_karieri_kr.sc2",
+  "randomTiers": [],
+  "orientation": "dava",
+  "sceneFormat": "client",
+  "minimap": "Maps/Karieri/minimap",
+  "minimapArea": {
+    "frame": [
+      0,
+      0,
+      326,
+      326
+    ],
+    "min": [
+      -300.0,
+      -300.0
+    ],
+    "max": [
+      300.0,
+      300.0
+    ]
+  },
+  "loadingScreen": "Maps/Karieri/loading_screen",
+  "sky": {
+    "basis": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "faces": []
+  },
+  "border": {
+    "min": [
+      -230.60000610351562,
+      0.0,
+      -223.39999389648438
+    ],
+    "max": [
+      249.5,
+      120.0,
+      186.89999389648438
+    ]
+  },
+  "terrain": {
+    "resource": "Maps/Karieri/terrain_height",
+    "side": 512,
+    "step": 1.1741682974559686,
+    "extent": 600.0,
+    "origin": [
+      -300.0,
+      0.0,
+      -300.0
+    ],
+    "minHeight": 16.780040740966797,
+    "maxHeight": 84.73334503173828,
+    "mapScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "normalSource": "3d/Maps/23_karieri_kr/landscape/height_map_edited.heightmap",
+    "surfaceNormal": [
+      -0.06811952590942383,
+      0.992745041847229,
+      -0.09908221662044525
+    ],
+    "collisionEnabled": true,
+    "castShadow": 0,
+    "tileTexScale": 40.0,
+    "tileColour0": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "tileColour1": [
+      1.2,
+      1.2,
+      1.2,
+      1.0
+    ],
+    "tileColour2": [
+      1.209938,
+      1.209938,
+      1.209938,
+      1.0
+    ],
+    "tileColour3": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "detailStrength": 1.0,
+    "detailContrast": 1.0,
+    "brightness": 1.0,
+    "contrast": 1.0,
+    "maskSharpness": 1.0,
+    "colorMap": "Maps/Karieri/colormap",
+    "tileMask": "Maps/Karieri/tilemask",
+    "tileTexture": "Maps/Karieri/tiletextures",
+    "client": {
+      "tiling": [
+        40.0,
+        40.0
+      ],
+      "colours": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.2,
+          1.2,
+          1.2,
+          1.0
+        ],
+        [
+          1.209938,
+          1.209938,
+          1.209938,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "glossiness": 0.5,
+      "specularity": 1.0,
+      "metalFresnelReflectance": 0.5
+    }
+  },
+  "environment": {
+    "fog": {
+      "color": [
+        0.855466,
+        0.968688,
+        1.0
+      ],
+      "start": -40.0,
+      "end": 700.0,
+      "limit": 0.699999988079071,
+      "atmosphere": true,
+      "skyColor": [
+        0.708106,
+        0.703682,
+        0.76121
+      ],
+      "sunColor": [
+        1.22848,
+        1.162496,
+        1.142176
+      ],
+      "atmosphereDistance": 100.0,
+      "scattering": 7.0,
+      "halfspace": {
+        "density": 0.1,
+        "falloff": 0.01,
+        "height": 50.0,
+        "limit": 0.2,
+        "linear": false
+      }
+    },
+    "shadowColor": [
+      0.729168,
+      0.764889,
+      0.811597,
+      1.0
+    ],
+    "ambient": [
+      0.5719233751296997,
+      0.5569084882736206,
+      0.6570076942443848
+    ],
+    "sunColor": [
+      1.0,
+      0.731578528881073,
+      0.48047611117362976
+    ],
+    "sunBasis": [
+      -0.817507722182387,
+      0.0,
+      -0.501814339174079,
+      0.0,
+      1.0,
+      0.4906974178530821,
+      0.5759176366219089,
+      0.0,
+      -0.7123190388523952
+    ],
+    "sunDirection": [
+      0.501814,
+      -0.490697,
+      -0.712319
+    ]
+  },
+  "directionalLight": {
+    "basis": [
+      -0.817507722182387,
+      0.0,
+      -0.501814339174079,
+      0.0,
+      1.0,
+      0.4906974178530821,
+      0.5759176366219089,
+      0.0,
+      -0.7123190388523952
+    ],
+    "origin": [
+      0,
+      64,
+      0
+    ],
+    "color": [
+      1.0,
+      0.731578528881073,
+      0.48047611117362976
+    ],
+    "energy": 1.25
+  },
+  "spawns": {
+    "teamA": [
+      {
+        "name": "TankSpawner",
+        "team": 0,
+        "basis": [
+          0.0642884297910442,
+          0.0,
+          0.9979313592602459,
+          0.0,
+          1.0,
+          0.0,
+          -0.9979313592602459,
+          0.0,
+          0.0642884297910442
+        ],
+        "origin": [
+          166.7404327392578,
+          29.513572692871094,
+          91.39977264404297
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner2",
+        "team": 0,
+        "basis": [
+          0.0642884075316822,
+          0.0,
+          0.9979313606942315,
+          0.0,
+          1.0,
+          0.0,
+          -0.9979313606942315,
+          0.0,
+          0.0642884075316822
+        ],
+        "origin": [
+          166.6126251220703,
+          29.778390884399414,
+          82.87569427490234
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner3",
+        "team": 0,
+        "basis": [
+          0.4939791260110038,
+          0.0,
+          0.8694737621489246,
+          0.0,
+          1.0,
+          0.0,
+          -0.8694737621489246,
+          0.0,
+          0.4939791260110038
+        ],
+        "origin": [
+          208.4398193359375,
+          30.0325984954834,
+          108.37107849121094
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner4",
+        "team": 0,
+        "basis": [
+          1.0,
+          0.0,
+          -0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          216.1842803955078,
+          27.11158561706543,
+          29.02458953857422
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner5",
+        "team": 0,
+        "basis": [
+          0.49398672052995096,
+          0.0,
+          0.8694694473873502,
+          0.0,
+          1.0,
+          0.0,
+          -0.8694694473873502,
+          0.0,
+          0.49398672052995096
+        ],
+        "origin": [
+          203.24856567382812,
+          29.56151008605957,
+          117.43312072753906
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner6",
+        "team": 0,
+        "basis": [
+          0.49398664986962565,
+          0.0,
+          0.8694694875328195,
+          0.0,
+          1.0,
+          0.0,
+          -0.8694694875328195,
+          0.0,
+          0.49398664986962565
+        ],
+        "origin": [
+          191.98019409179688,
+          29.311717987060547,
+          136.97360229492188
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner7",
+        "team": 0,
+        "basis": [
+          0.49398669492937675,
+          0.0,
+          0.8694694619322468,
+          0.0,
+          1.0,
+          0.0,
+          -0.8694694619322468,
+          0.0,
+          0.49398669492937675
+        ],
+        "origin": [
+          197.43878173828125,
+          29.426387786865234,
+          127.39493560791016
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner8",
+        "team": 0,
+        "basis": [
+          1.0,
+          0.0,
+          -0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          227.26414489746094,
+          27.853639602661133,
+          28.534034729003906
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner9",
+        "team": 0,
+        "basis": [
+          1.0,
+          0.0,
+          -0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          221.6004180908203,
+          26.705036163330078,
+          15.769744873046875
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner10",
+        "team": 0,
+        "basis": [
+          0.9999861056041114,
+          0.0,
+          -0.005271489231969018,
+          0.0,
+          1.0,
+          0.0,
+          0.005271489231969018,
+          0.0,
+          0.9999861056041114
+        ],
+        "origin": [
+          238.35447692871094,
+          28.677228927612305,
+          28.783302307128906
+        ],
+        "respawn": 1
+      }
+    ],
+    "teamB": [
+      {
+        "name": "TankSpawner",
+        "team": 1,
+        "basis": [
+          0.556832158966693,
+          0.0,
+          -0.8306250337790764,
+          0.0,
+          1.0,
+          0.0,
+          0.8306250337790764,
+          0.0,
+          0.556832158966693
+        ],
+        "origin": [
+          -179.9659881591797,
+          30.59280014038086,
+          123.27136993408203
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner2",
+        "team": 1,
+        "basis": [
+          1.0,
+          0.0,
+          -0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          -200.93186950683594,
+          24.816823959350586,
+          17.16767120361328
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner3",
+        "team": 1,
+        "basis": [
+          0.10142471093829122,
+          0.0,
+          -0.9948432178042348,
+          0.0,
+          1.0,
+          0.0,
+          0.9948432178042348,
+          0.0,
+          0.10142471093829122
+        ],
+        "origin": [
+          -142.34056091308594,
+          30.752408981323242,
+          118.35281372070312
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner4",
+        "team": 1,
+        "basis": [
+          1.0,
+          0.0,
+          -0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          -192.03298950195312,
+          24.917909622192383,
+          7.013988494873047
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner5",
+        "team": 1,
+        "basis": [
+          1.0,
+          0.0,
+          -0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          -214.9722900390625,
+          24.974090576171875,
+          16.740127563476562
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner6",
+        "team": 1,
+        "basis": [
+          0.10142090949009386,
+          0.0,
+          -0.99484360535624,
+          0.0,
+          1.0,
+          0.0,
+          0.99484360535624,
+          0.0,
+          0.10142090949009386
+        ],
+        "origin": [
+          -147.4355010986328,
+          31.826419830322266,
+          171.09947204589844
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner7",
+        "team": 1,
+        "basis": [
+          1.0,
+          0.0,
+          -0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          -185.11764526367188,
+          25.681686401367188,
+          17.609344482421875
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner8",
+        "team": 1,
+        "basis": [
+          0.5568321313984281,
+          0.0,
+          -0.8306250522602142,
+          0.0,
+          1.0,
+          0.0,
+          0.8306250522602142,
+          0.0,
+          0.5568321313984281
+        ],
+        "origin": [
+          -173.5048065185547,
+          30.628889083862305,
+          132.05572509765625
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner9",
+        "team": 1,
+        "basis": [
+          0.5568278060979479,
+          0.0,
+          -0.8306279518268971,
+          0.0,
+          1.0,
+          0.0,
+          0.8306279518268971,
+          0.0,
+          0.5568278060979479
+        ],
+        "origin": [
+          -186.2061004638672,
+          31.025672912597656,
+          115.2723159790039
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner10",
+        "team": 1,
+        "basis": [
+          0.10142079150701248,
+          0.0,
+          -0.9948436173842053,
+          0.0,
+          1.0,
+          0.0,
+          0.9948436173842053,
+          0.0,
+          0.10142079150701248
+        ],
+        "origin": [
+          -148.35379028320312,
+          31.085201263427734,
+          162.38075256347656
+        ],
+        "respawn": 1
+      }
+    ]
+  },
+  "aiMarkers": [
+    {
+      "name": "Control1",
+      "origin": [
+        10.663772583007812,
+        17.655622482299805,
+        -1.5830974578857422
+      ],
+      "priority": 1,
+      "radius": 30.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_12",
+      "origin": [
+        58.49589920043945,
+        17.662769317626953,
+        -43.31327819824219
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_13",
+      "origin": [
+        60.084564208984375,
+        17.660144805908203,
+        -69.7563247680664
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_15",
+      "origin": [
+        37.23586654663086,
+        25.18701171875,
+        -194.83836364746094
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_14",
+      "origin": [
+        28.24089813232422,
+        22.357372283935547,
+        -110.70643615722656
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_16",
+      "origin": [
+        65.33160400390625,
+        33.3859977722168,
+        75.77108001708984
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_17",
+      "origin": [
+        52.564388275146484,
+        35.799461364746094,
+        111.02793884277344
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_11",
+      "origin": [
+        52.5794677734375,
+        17.365121841430664,
+        -9.321182250976562
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_21",
+      "origin": [
+        -31.01378631591797,
+        17.44279670715332,
+        -39.05150604248047
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_22",
+      "origin": [
+        -1.8214874267578125,
+        17.59967613220215,
+        -77.17549896240234
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_24",
+      "origin": [
+        -18.146377563476562,
+        21.58602523803711,
+        -111.95550537109375
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_25",
+      "origin": [
+        -9.962892532348633,
+        25.31385040283203,
+        -197.46743774414062
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_27",
+      "origin": [
+        8.499950408935547,
+        36.248809814453125,
+        111.19210052490234
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_26",
+      "origin": [
+        7.830440521240234,
+        33.93303298950195,
+        72.16465759277344
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "strategicpoint_1.sc2",
+      "origin": [
+        18.32421875,
+        35.255699157714844,
+        93.0955810546875
+      ],
+      "priority": 1,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "strategicpoint_3.sc2",
+      "origin": [
+        8.536660194396973,
+        28.1708984375,
+        -136.49244689941406
+      ],
+      "priority": 1,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "route_center_1",
+      "origin": [
+        16.0,
+        17.66,
+        -4.0
+      ],
+      "priority": 3,
+      "radius": 28.0,
+      "type": 0
+    },
+    {
+      "name": "route_center_2",
+      "origin": [
+        50.0,
+        17.85,
+        -0.0
+      ],
+      "priority": 2,
+      "radius": 20.0,
+      "type": 0
+    },
+    {
+      "name": "route_center_3",
+      "origin": [
+        -50.0,
+        18.1,
+        -0.0
+      ],
+      "priority": 2,
+      "radius": 20.0,
+      "type": 0
+    },
+    {
+      "name": "route_hill_south_1",
+      "origin": [
+        0.0,
+        36.94,
+        100.0
+      ],
+      "priority": 3,
+      "radius": 26.0,
+      "type": 1
+    },
+    {
+      "name": "route_hill_south_2",
+      "origin": [
+        50.0,
+        38.21,
+        100.0
+      ],
+      "priority": 1,
+      "radius": 20.0,
+      "type": 3
+    },
+    {
+      "name": "route_hill_south_3",
+      "origin": [
+        -50.0,
+        37.95,
+        100.0
+      ],
+      "priority": 1,
+      "radius": 20.0,
+      "type": 3
+    },
+    {
+      "name": "route_hill_north_1",
+      "origin": [
+        0.0,
+        28.23,
+        -149.5
+      ],
+      "priority": 3,
+      "radius": 26.0,
+      "type": 1
+    },
+    {
+      "name": "route_hill_north_2",
+      "origin": [
+        50.0,
+        25.88,
+        -150.0
+      ],
+      "priority": 1,
+      "radius": 20.0,
+      "type": 3
+    },
+    {
+      "name": "route_hill_north_3",
+      "origin": [
+        -50.0,
+        23.89,
+        -150.0
+      ],
+      "priority": 1,
+      "radius": 20.0,
+      "type": 3
+    },
+    {
+      "name": "route_approach_east_1",
+      "origin": [
+        150.0,
+        18.22,
+        -100.0
+      ],
+      "priority": 1,
+      "radius": 22.0,
+      "type": 2
+    },
+    {
+      "name": "route_approach_east_2",
+      "origin": [
+        150.0,
+        29.08,
+        50.0
+      ],
+      "priority": 1,
+      "radius": 22.0,
+      "type": 2
+    },
+    {
+      "name": "route_approach_west_1",
+      "origin": [
+        -150.0,
+        22.37,
+        -100.0
+      ],
+      "priority": 1,
+      "radius": 22.0,
+      "type": 2
+    },
+    {
+      "name": "route_approach_west_2",
+      "origin": [
+        -150.0,
+        28.31,
+        50.0
+      ],
+      "priority": 1,
+      "radius": 22.0,
+      "type": 2
+    }
+  ],
+  "objects": {
+    "format": "client",
+    "entities": 386,
+    "nodes": 495,
+    "batches": 558,
+    "vertices": 271503,
+    "triangles": 182375,
+    "materials": 478,
+    "textures": 37,
+    "destructibles": [
+      {
+        "name": "env_kr_23_brickstack01.sc2",
+        "intactGroup": "entity_8_env_kr_23_brickstack01_sc2_intact",
+        "wreckGroup": "entity_8_env_kr_23_brickstack01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_23_brickstack01.sc2",
+        "intactGroup": "entity_9_env_kr_23_brickstack01_sc2_intact",
+        "wreckGroup": "entity_9_env_kr_23_brickstack01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_23_brickstack01.sc2",
+        "intactGroup": "entity_10_env_kr_23_brickstack01_sc2_intact",
+        "wreckGroup": "entity_10_env_kr_23_brickstack01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_23_brickstack01.sc2",
+        "intactGroup": "entity_11_env_kr_23_brickstack01_sc2_intact",
+        "wreckGroup": "entity_11_env_kr_23_brickstack01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_23_brickstack01.sc2",
+        "intactGroup": "entity_37_env_kr_23_brickstack01_sc2_intact",
+        "wreckGroup": "entity_37_env_kr_23_brickstack01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_08_log.sc2",
+        "intactGroup": "entity_38_env_kr_08_log_sc2_intact",
+        "wreckGroup": "entity_38_env_kr_08_log_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_08_log.sc2",
+        "intactGroup": "entity_39_env_kr_08_log_sc2_intact",
+        "wreckGroup": "entity_39_env_kr_08_log_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_08_log.sc2",
+        "intactGroup": "entity_40_env_kr_08_log_sc2_intact",
+        "wreckGroup": "entity_40_env_kr_08_log_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_08_log.sc2",
+        "intactGroup": "entity_41_env_kr_08_log_sc2_intact",
+        "wreckGroup": "entity_41_env_kr_08_log_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_08_log.sc2",
+        "intactGroup": "entity_42_env_kr_08_log_sc2_intact",
+        "wreckGroup": "entity_42_env_kr_08_log_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_08_log.sc2",
+        "intactGroup": "entity_43_env_kr_08_log_sc2_intact",
+        "wreckGroup": "entity_43_env_kr_08_log_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_08_log.sc2",
+        "intactGroup": "entity_44_env_kr_08_log_sc2_intact",
+        "wreckGroup": "entity_44_env_kr_08_log_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_08_log.sc2",
+        "intactGroup": "entity_45_env_kr_08_log_sc2_intact",
+        "wreckGroup": "entity_45_env_kr_08_log_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_08_log.sc2",
+        "intactGroup": "entity_46_env_kr_08_log_sc2_intact",
+        "wreckGroup": "entity_46_env_kr_08_log_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_23_brickstack02.sc2",
+        "intactGroup": "entity_92_env_kr_23_brickstack02_sc2_intact",
+        "wreckGroup": "entity_92_env_kr_23_brickstack02_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_23_brickstack02.sc2",
+        "intactGroup": "entity_93_env_kr_23_brickstack02_sc2_intact",
+        "wreckGroup": "entity_93_env_kr_23_brickstack02_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_23_brickstack02.sc2",
+        "intactGroup": "entity_94_env_kr_23_brickstack02_sc2_intact",
+        "wreckGroup": "entity_94_env_kr_23_brickstack02_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_23_brickstack02.sc2",
+        "intactGroup": "entity_95_env_kr_23_brickstack02_sc2_intact",
+        "wreckGroup": "entity_95_env_kr_23_brickstack02_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_MilitaryBox.sc2",
+        "intactGroup": "entity_107_env_kr_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_107_env_kr_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_kr_fuelTank.sc2",
+        "intactGroup": "entity_108_env_kr_fuelTank_sc2_intact",
+        "wreckGroup": "entity_108_env_kr_fuelTank_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_fuelTank.sc2",
+        "intactGroup": "entity_109_env_kr_fuelTank_sc2_intact",
+        "wreckGroup": "entity_109_env_kr_fuelTank_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_fuelTank.sc2",
+        "intactGroup": "entity_110_env_kr_fuelTank_sc2_intact",
+        "wreckGroup": "entity_110_env_kr_fuelTank_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_26_SignBoard_SN.sc2",
+        "intactGroup": "entity_111_env_kr_26_SignBoard_SN_sc2_intact",
+        "wreckGroup": "entity_111_env_kr_26_SignBoard_SN_sc2_wreck",
+        "health": 10,
+        "collisionType": 4,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_26_SignBoard_SN.sc2",
+        "intactGroup": "entity_112_env_kr_26_SignBoard_SN_sc2_intact",
+        "wreckGroup": "entity_112_env_kr_26_SignBoard_SN_sc2_wreck",
+        "health": 10,
+        "collisionType": 4,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_113_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_113_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_114_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_114_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering01.sc2",
+        "intactGroup": "entity_115_env_kr_concretering01_sc2_intact",
+        "wreckGroup": "entity_115_env_kr_concretering01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_116_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_116_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_117_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_117_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_118_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_118_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_119_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_119_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_26_SignBoard_SN.sc2",
+        "intactGroup": "entity_120_env_kr_26_SignBoard_SN_sc2_intact",
+        "wreckGroup": "entity_120_env_kr_26_SignBoard_SN_sc2_wreck",
+        "health": 10,
+        "collisionType": 4,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_26_SignBoard_SN.sc2",
+        "intactGroup": "entity_121_env_kr_26_SignBoard_SN_sc2_intact",
+        "wreckGroup": "entity_121_env_kr_26_SignBoard_SN_sc2_wreck",
+        "health": 10,
+        "collisionType": 4,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering01.sc2",
+        "intactGroup": "entity_126_env_kr_concretering01_sc2_intact",
+        "wreckGroup": "entity_126_env_kr_concretering01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_155_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_155_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_156_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_156_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_157_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_157_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_158_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_158_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering01.sc2",
+        "intactGroup": "entity_159_env_kr_concretering01_sc2_intact",
+        "wreckGroup": "entity_159_env_kr_concretering01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_160_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_160_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_161_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_161_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_162_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_162_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_163_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_163_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_164_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_164_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_165_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_165_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering01.sc2",
+        "intactGroup": "entity_166_env_kr_concretering01_sc2_intact",
+        "wreckGroup": "entity_166_env_kr_concretering01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_167_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_167_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_168_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_168_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_169_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_169_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_170_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_170_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_171_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_171_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_172_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_172_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_173_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_173_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_23_brickstack02.sc2",
+        "intactGroup": "entity_174_env_kr_23_brickstack02_sc2_intact",
+        "wreckGroup": "entity_174_env_kr_23_brickstack02_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_23_brickstack02.sc2",
+        "intactGroup": "entity_175_env_kr_23_brickstack02_sc2_intact",
+        "wreckGroup": "entity_175_env_kr_23_brickstack02_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_23_brickstack01.sc2",
+        "intactGroup": "entity_176_env_kr_23_brickstack01_sc2_intact",
+        "wreckGroup": "entity_176_env_kr_23_brickstack01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_23_brickstack01.sc2",
+        "intactGroup": "entity_177_env_kr_23_brickstack01_sc2_intact",
+        "wreckGroup": "entity_177_env_kr_23_brickstack01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_23_brickstack02.sc2",
+        "intactGroup": "entity_178_env_kr_23_brickstack02_sc2_intact",
+        "wreckGroup": "entity_178_env_kr_23_brickstack02_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_23_brickstack02.sc2",
+        "intactGroup": "entity_179_env_kr_23_brickstack02_sc2_intact",
+        "wreckGroup": "entity_179_env_kr_23_brickstack02_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_concretering01.sc2",
+        "intactGroup": "entity_192_env_kr_concretering01_sc2_intact",
+        "wreckGroup": "entity_192_env_kr_concretering01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_193_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_193_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_23_brickstack01.sc2",
+        "intactGroup": "entity_194_env_kr_23_brickstack01_sc2_intact",
+        "wreckGroup": "entity_194_env_kr_23_brickstack01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_23_brickstack01.sc2",
+        "intactGroup": "entity_195_env_kr_23_brickstack01_sc2_intact",
+        "wreckGroup": "entity_195_env_kr_23_brickstack01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_stack_01.sc2",
+        "intactGroup": "entity_209_env_kr_stack_01_sc2_intact",
+        "wreckGroup": "entity_209_env_kr_stack_01_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_02.sc2",
+        "intactGroup": "entity_210_env_kr_stack_02_sc2_intact",
+        "wreckGroup": "entity_210_env_kr_stack_02_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_01.sc2",
+        "intactGroup": "entity_211_env_kr_stack_01_sc2_intact",
+        "wreckGroup": "entity_211_env_kr_stack_01_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_01.sc2",
+        "intactGroup": "entity_212_env_kr_stack_01_sc2_intact",
+        "wreckGroup": "entity_212_env_kr_stack_01_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_01.sc2",
+        "intactGroup": "entity_213_env_kr_stack_01_sc2_intact",
+        "wreckGroup": "entity_213_env_kr_stack_01_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_01.sc2",
+        "intactGroup": "entity_214_env_kr_stack_01_sc2_intact",
+        "wreckGroup": "entity_214_env_kr_stack_01_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_01.sc2",
+        "intactGroup": "entity_215_env_kr_stack_01_sc2_intact",
+        "wreckGroup": "entity_215_env_kr_stack_01_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_01.sc2",
+        "intactGroup": "entity_216_env_kr_stack_01_sc2_intact",
+        "wreckGroup": "entity_216_env_kr_stack_01_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_01.sc2",
+        "intactGroup": "entity_217_env_kr_stack_01_sc2_intact",
+        "wreckGroup": "entity_217_env_kr_stack_01_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_01.sc2",
+        "intactGroup": "entity_218_env_kr_stack_01_sc2_intact",
+        "wreckGroup": "entity_218_env_kr_stack_01_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_03.sc2",
+        "intactGroup": "entity_219_env_kr_stack_03_sc2_intact",
+        "wreckGroup": "entity_219_env_kr_stack_03_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_01.sc2",
+        "intactGroup": "entity_220_env_kr_stack_01_sc2_intact",
+        "wreckGroup": "entity_220_env_kr_stack_01_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_03.sc2",
+        "intactGroup": "entity_221_env_kr_stack_03_sc2_intact",
+        "wreckGroup": "entity_221_env_kr_stack_03_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_02.sc2",
+        "intactGroup": "entity_222_env_kr_stack_02_sc2_intact",
+        "wreckGroup": "entity_222_env_kr_stack_02_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_02.sc2",
+        "intactGroup": "entity_223_env_kr_stack_02_sc2_intact",
+        "wreckGroup": "entity_223_env_kr_stack_02_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_03.sc2",
+        "intactGroup": "entity_224_env_kr_stack_03_sc2_intact",
+        "wreckGroup": "entity_224_env_kr_stack_03_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_03.sc2",
+        "intactGroup": "entity_225_env_kr_stack_03_sc2_intact",
+        "wreckGroup": "entity_225_env_kr_stack_03_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_02.sc2",
+        "intactGroup": "entity_226_env_kr_stack_02_sc2_intact",
+        "wreckGroup": "entity_226_env_kr_stack_02_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_03.sc2",
+        "intactGroup": "entity_227_env_kr_stack_03_sc2_intact",
+        "wreckGroup": "entity_227_env_kr_stack_03_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_02.sc2",
+        "intactGroup": "entity_228_env_kr_stack_02_sc2_intact",
+        "wreckGroup": "entity_228_env_kr_stack_02_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_02.sc2",
+        "intactGroup": "entity_229_env_kr_stack_02_sc2_intact",
+        "wreckGroup": "entity_229_env_kr_stack_02_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_02.sc2",
+        "intactGroup": "entity_230_env_kr_stack_02_sc2_intact",
+        "wreckGroup": "entity_230_env_kr_stack_02_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_02.sc2",
+        "intactGroup": "entity_231_env_kr_stack_02_sc2_intact",
+        "wreckGroup": "entity_231_env_kr_stack_02_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_03.sc2",
+        "intactGroup": "entity_232_env_kr_stack_03_sc2_intact",
+        "wreckGroup": "entity_232_env_kr_stack_03_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_02.sc2",
+        "intactGroup": "entity_233_env_kr_stack_02_sc2_intact",
+        "wreckGroup": "entity_233_env_kr_stack_02_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_01.sc2",
+        "intactGroup": "entity_234_env_kr_stack_01_sc2_intact",
+        "wreckGroup": "entity_234_env_kr_stack_01_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_02.sc2",
+        "intactGroup": "entity_235_env_kr_stack_02_sc2_intact",
+        "wreckGroup": "entity_235_env_kr_stack_02_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_03.sc2",
+        "intactGroup": "entity_236_env_kr_stack_03_sc2_intact",
+        "wreckGroup": "entity_236_env_kr_stack_03_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_02.sc2",
+        "intactGroup": "entity_237_env_kr_stack_02_sc2_intact",
+        "wreckGroup": "entity_237_env_kr_stack_02_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_03.sc2",
+        "intactGroup": "entity_238_env_kr_stack_03_sc2_intact",
+        "wreckGroup": "entity_238_env_kr_stack_03_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_23_brickstack02.sc2",
+        "intactGroup": "entity_240_env_kr_23_brickstack02_sc2_intact",
+        "wreckGroup": "entity_240_env_kr_23_brickstack02_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_23_brickstack02.sc2",
+        "intactGroup": "entity_241_env_kr_23_brickstack02_sc2_intact",
+        "wreckGroup": "entity_241_env_kr_23_brickstack02_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_kr_23_brickstack01.sc2",
+        "intactGroup": "entity_242_env_kr_23_brickstack01_sc2_intact",
+        "wreckGroup": "entity_242_env_kr_23_brickstack01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_23_brickstack01.sc2",
+        "intactGroup": "entity_243_env_kr_23_brickstack01_sc2_intact",
+        "wreckGroup": "entity_243_env_kr_23_brickstack01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_244_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_244_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering01.sc2",
+        "intactGroup": "entity_245_env_kr_concretering01_sc2_intact",
+        "wreckGroup": "entity_245_env_kr_concretering01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_concretering02.sc2",
+        "intactGroup": "entity_246_env_kr_concretering02_sc2_intact",
+        "wreckGroup": "entity_246_env_kr_concretering02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 1,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_kr_stack_01.sc2",
+        "intactGroup": "entity_377_env_kr_stack_01_sc2_intact",
+        "wreckGroup": "entity_377_env_kr_stack_01_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_01.sc2",
+        "intactGroup": "entity_378_env_kr_stack_01_sc2_intact",
+        "wreckGroup": "entity_378_env_kr_stack_01_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_01.sc2",
+        "intactGroup": "entity_379_env_kr_stack_01_sc2_intact",
+        "wreckGroup": "entity_379_env_kr_stack_01_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_01.sc2",
+        "intactGroup": "entity_380_env_kr_stack_01_sc2_intact",
+        "wreckGroup": "entity_380_env_kr_stack_01_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_stack_02.sc2",
+        "intactGroup": "entity_381_env_kr_stack_02_sc2_intact",
+        "wreckGroup": "entity_381_env_kr_stack_02_sc2_wreck",
+        "health": 30,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 30
+      },
+      {
+        "name": "env_kr_MilitaryBox.sc2",
+        "intactGroup": "entity_382_env_kr_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_382_env_kr_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_kr_MilitaryBox.sc2",
+        "intactGroup": "entity_383_env_kr_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_383_env_kr_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_kr_MilitaryBox.sc2",
+        "intactGroup": "entity_384_env_kr_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_384_env_kr_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_kr_MilitaryBox.sc2",
+        "intactGroup": "entity_385_env_kr_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_385_env_kr_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      }
+    ],
+    "trees": [
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_50_env_kr_cactus_sc2",
+        "origin": [
+          -112.3886,
+          32.8995,
+          -122.8745
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_51_env_kr_cactus_sc2",
+        "origin": [
+          157.6642,
+          23.5842,
+          194.6265
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_52_env_kr_cactus_sc2",
+        "origin": [
+          0.4882,
+          25.1364,
+          197.4537
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_53_env_kr_cactus_sc2",
+        "origin": [
+          232.0484,
+          19.1329,
+          154.6381
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_54_env_kr_cactus_sc2",
+        "origin": [
+          -219.4603,
+          35.2174,
+          -168.804
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_55_env_kr_cactus_sc2",
+        "origin": [
+          210.7151,
+          22.9387,
+          32.6693
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_56_env_kr_cactus_sc2",
+        "origin": [
+          163.2767,
+          23.872,
+          191.8393
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_57_env_kr_cactus_sc2",
+        "origin": [
+          13.6851,
+          31.3419,
+          217.0611
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_58_env_kr_cactus_sc2",
+        "origin": [
+          -208.4143,
+          26.5733,
+          -47.1573
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_59_env_kr_cactus_sc2",
+        "origin": [
+          -181.003,
+          26.01,
+          -7.2544
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_60_env_kr_cactus02_sc2",
+        "origin": [
+          234.4393,
+          19.4387,
+          144.2133
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_61_env_kr_cactus02_sc2",
+        "origin": [
+          -190.528,
+          24.7623,
+          36.766
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_62_env_kr_cactus02_sc2",
+        "origin": [
+          -68.3507,
+          25.0057,
+          155.7259
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_63_env_kr_cactus02_sc2",
+        "origin": [
+          -207.8932,
+          21.4407,
+          140.6567
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_64_env_kr_cactus02_sc2",
+        "origin": [
+          -106.1409,
+          32.9142,
+          -119.3522
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_65_env_kr_cactus02_sc2",
+        "origin": [
+          207.0427,
+          23.4583,
+          34.731
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_66_env_kr_cactus02_sc2",
+        "origin": [
+          163.3076,
+          22.3091,
+          146.7828
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_67_env_kr_cactus02_sc2",
+        "origin": [
+          106.8128,
+          22.92,
+          153.5608
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_68_env_kr_cactus02_sc2",
+        "origin": [
+          143.3785,
+          22.005,
+          120.5335
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_69_env_kr_cactus02_sc2",
+        "origin": [
+          -63.6935,
+          24.4214,
+          149.5203
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_70_env_kr_cactus02_sc2",
+        "origin": [
+          -71.7642,
+          25.0895,
+          153.9743
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_71_env_kr_cactus02_sc2",
+        "origin": [
+          -77.628,
+          25.3741,
+          199.2703
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_72_env_kr_cactus02_sc2",
+        "origin": [
+          -80.0868,
+          25.2497,
+          203.1214
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_73_env_kr_cactus_sc2",
+        "origin": [
+          225.9396,
+          21.4108,
+          55.4728
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_74_env_kr_cactus_sc2",
+        "origin": [
+          227.9657,
+          21.1788,
+          53.9554
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_75_env_kr_cactus_sc2",
+        "origin": [
+          148.291,
+          23.2485,
+          152.5701
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_76_env_kr_cactus_sc2",
+        "origin": [
+          146.4521,
+          23.2117,
+          175.8185
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_77_env_kr_cactus_sc2",
+        "origin": [
+          110.1851,
+          23.2725,
+          150.0107
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_78_env_kr_cactus_sc2",
+        "origin": [
+          -187.1228,
+          25.0713,
+          33.1864
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_79_env_kr_cactus_sc2",
+        "origin": [
+          -205.0587,
+          26.8545,
+          -49.9889
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_80_env_kr_cactus_sc2",
+        "origin": [
+          -206.7601,
+          21.5638,
+          145.5811
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_81_env_kr_cactus_sc2",
+        "origin": [
+          227.8561,
+          21.3278,
+          59.4764
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_82_env_kr_cactus_sc2",
+        "origin": [
+          145.4779,
+          23.4907,
+          153.5529
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_83_env_kr_cactus_sc2",
+        "origin": [
+          159.1973,
+          23.7105,
+          189.1676
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_84_env_kr_cactus_sc2",
+        "origin": [
+          104.2689,
+          27.4257,
+          239.7646
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_85_env_kr_cactus_sc2",
+        "origin": [
+          -201.127,
+          21.7062,
+          150.6592
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_86_env_kr_cactus_sc2",
+        "origin": [
+          -110.9358,
+          32.455,
+          -116.7437
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_87_env_kr_cactus_sc2",
+        "origin": [
+          -136.9356,
+          31.1423,
+          -146.4896
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_88_env_kr_cactus_sc2",
+        "origin": [
+          206.2312,
+          23.5084,
+          32.4036
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_89_env_kr_cactus_sc2",
+        "origin": [
+          206.8542,
+          23.5573,
+          26.0387
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_90_env_kr_cactus_sc2",
+        "origin": [
+          7.2746,
+          31.3873,
+          220.1449
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_91_env_kr_cactus_sc2",
+        "origin": [
+          110.4485,
+          23.0522,
+          153.8752
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_127_env_kr_cactus_sc2",
+        "origin": [
+          243.7229,
+          32.5089,
+          -81.276
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_128_env_kr_cactus_sc2",
+        "origin": [
+          231.9876,
+          32.4495,
+          -87.152
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_129_env_kr_cactus_sc2",
+        "origin": [
+          234.5196,
+          32.4045,
+          -81.523
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_130_env_kr_cactus02_sc2",
+        "origin": [
+          240.5268,
+          22.7787,
+          23.1238
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_131_env_kr_cactus_sc2",
+        "origin": [
+          242.1365,
+          22.5561,
+          28.008
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_132_env_kr_cactus_sc2",
+        "origin": [
+          238.3755,
+          32.4348,
+          -84.4746
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_133_env_kr_cactus_sc2",
+        "origin": [
+          237.5911,
+          21.8288,
+          31.7573
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_139_env_kr_cactus_sc2",
+        "origin": [
+          236.9518,
+          19.601,
+          150.3804
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_140_env_kr_cactus02_sc2",
+        "origin": [
+          236.8925,
+          19.6224,
+          145.938
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_141_env_kr_cactus_sc2",
+        "origin": [
+          99.102,
+          27.2867,
+          242.5739
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_142_env_kr_cactus_sc2",
+        "origin": [
+          232.2883,
+          20.0819,
+          214.5134
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_143_env_kr_cactus02_sc2",
+        "origin": [
+          226.7994,
+          19.8563,
+          212.0487
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_144_env_kr_cactus_sc2",
+        "origin": [
+          106.892,
+          27.7772,
+          243.4271
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_153_env_kr_cactus02_sc2",
+        "origin": [
+          -196.2619,
+          20.2733,
+          91.9648
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_186_env_kr_cactus_sc2",
+        "origin": [
+          -226.1879,
+          35.2221,
+          -164.407
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_187_env_kr_cactus_sc2",
+        "origin": [
+          233.6499,
+          20.6623,
+          227.8716
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_315_env_kr_cactus_sc2",
+        "origin": [
+          -174.2261,
+          25.2293,
+          38.6251
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_316_env_kr_cactus_sc2",
+        "origin": [
+          -221.7527,
+          22.5955,
+          10.6356
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_317_env_kr_cactus02_sc2",
+        "origin": [
+          -234.5798,
+          23.4495,
+          -1.9982
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_318_env_kr_cactus_sc2",
+        "origin": [
+          -220.8891,
+          21.0211,
+          86.2451
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_319_env_kr_cactus02_sc2",
+        "origin": [
+          -223.2546,
+          21.2586,
+          90.2144
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_320_env_kr_cactus02_sc2",
+        "origin": [
+          -218.2128,
+          34.8528,
+          -162.1513
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_321_env_kr_cactus_sc2",
+        "origin": [
+          -113.4477,
+          30.1339,
+          -49.1316
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_322_env_kr_cactus_sc2",
+        "origin": [
+          -128.6347,
+          30.2978,
+          -72.5878
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_323_env_kr_cactus_sc2",
+        "origin": [
+          -114.1978,
+          30.0188,
+          -45.4286
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_324_env_kr_cactus_sc2",
+        "origin": [
+          -140.8953,
+          30.252,
+          -91.4044
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_325_env_kr_cactus02_sc2",
+        "origin": [
+          -66.3225,
+          32.4838,
+          -74.0879
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_326_env_kr_cactus_sc2",
+        "origin": [
+          -71.1173,
+          32.2582,
+          -71.4794
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_327_env_kr_cactus_sc2",
+        "origin": [
+          -72.5702,
+          32.435,
+          -77.6102
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_328_env_kr_cactus_sc2",
+        "origin": [
+          -65.1008,
+          36.4454,
+          -171.6971
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_329_env_kr_cactus02_sc2",
+        "origin": [
+          -58.8531,
+          36.5446,
+          -168.1748
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_330_env_kr_cactus_sc2",
+        "origin": [
+          -63.6479,
+          36.5147,
+          -165.5663
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_331_env_kr_cactus02_sc2",
+        "origin": [
+          -249.6959,
+          20.5662,
+          257.3362
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_332_env_kr_cactus_sc2",
+        "origin": [
+          -236.4613,
+          20.5722,
+          260.8175
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_333_env_kr_cactus_sc2",
+        "origin": [
+          -237.5453,
+          19.9738,
+          241.7714
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_334_env_kr_cactus02_sc2",
+        "origin": [
+          -140.623,
+          25.2144,
+          203.7621
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_335_env_kr_cactus_sc2",
+        "origin": [
+          -163.679,
+          24.4412,
+          186.8255
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_336_env_kr_cactus_sc2",
+        "origin": [
+          -145.9156,
+          25.652,
+          206.5135
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_337_env_kr_cactus02_sc2",
+        "origin": [
+          -281.6021,
+          22.7291,
+          208.1418
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_338_env_kr_cactus_sc2",
+        "origin": [
+          -290.5999,
+          23.3955,
+          195.3235
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_339_env_kr_cactus_sc2",
+        "origin": [
+          -399.8855,
+          37.1898,
+          258.3068
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_340_env_kr_cactus_sc2",
+        "origin": [
+          -397.4105,
+          36.6625,
+          266.2143
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_341_env_kr_cactus02_sc2",
+        "origin": [
+          -397.312,
+          36.4856,
+          252.051
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_342_env_kr_cactus_sc2",
+        "origin": [
+          202.9505,
+          20.6819,
+          256.3646
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_343_env_kr_cactus_sc2",
+        "origin": [
+          207.2846,
+          20.4542,
+          255.1353
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_344_env_kr_cactus_sc2",
+        "origin": [
+          197.9964,
+          24.9458,
+          80.9226
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_345_env_kr_cactus_sc2",
+        "origin": [
+          194.3408,
+          24.5122,
+          85.8861
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_346_env_kr_cactus_sc2",
+        "origin": [
+          194.8418,
+          24.7318,
+          80.3868
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_347_env_kr_cactus02_sc2",
+        "origin": [
+          -99.0723,
+          24.7733,
+          127.9835
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_348_env_kr_cactus_sc2",
+        "origin": [
+          -102.0401,
+          24.7879,
+          128.4049
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_349_env_kr_cactus_sc2",
+        "origin": [
+          -156.718,
+          22.7202,
+          104.2799
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_350_env_kr_cactus02_sc2",
+        "origin": [
+          -154.1401,
+          22.7501,
+          108.6367
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_351_env_kr_cactus_sc2",
+        "origin": [
+          -2.3661,
+          25.5031,
+          200.654
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_352_env_kr_cactus_sc2",
+        "origin": [
+          99.4069,
+          31.1808,
+          -68.4033
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_353_env_kr_cactus02_sc2",
+        "origin": [
+          95.9104,
+          31.3625,
+          -70.751
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_354_env_kr_cactus_sc2",
+        "origin": [
+          97.6216,
+          31.3147,
+          -72.525
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_355_env_kr_cactus_sc2",
+        "origin": [
+          103.5834,
+          31.2009,
+          -74.8398
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_356_env_kr_cactus02_sc2",
+        "origin": [
+          90.5809,
+          35.2879,
+          -155.5152
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_357_env_kr_cactus_sc2",
+        "origin": [
+          85.786,
+          35.5316,
+          -152.9067
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_358_env_kr_cactus_sc2",
+        "origin": [
+          84.3332,
+          35.7188,
+          -159.0375
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus02.sc2",
+        "group": "entity_359_env_kr_cactus02_sc2",
+        "origin": [
+          238.9558,
+          34.8286,
+          -177.5726
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_360_env_kr_cactus_sc2",
+        "origin": [
+          240.9335,
+          35.0783,
+          -171.572
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_361_env_kr_cactus_sc2",
+        "origin": [
+          235.3491,
+          35.2813,
+          -166.9657
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_362_env_kr_cactus_sc2",
+        "origin": [
+          146.8563,
+          27.5951,
+          -21.1957
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_363_env_kr_cactus_sc2",
+        "origin": [
+          141.4892,
+          27.8099,
+          -22.4946
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_kr_cactus.sc2",
+        "group": "entity_364_env_kr_cactus_sc2",
+        "origin": [
+          142.4801,
+          27.8633,
+          -25.5371
+        ],
+        "fallType": 2
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "3d/Maps/23_karieri_kr/23_karieri_kr.sc2",
+      "sha256": "2f92376dbc420bf536b44613f094820ecb00462c35c8b8c994f8853e67c95ea0"
+    },
+    {
+      "path": "3d/Maps/23_karieri_kr/landscape/height_map_edited.heightmap",
+      "sha256": "3b4a8653dbf60296552da81a0729b6801debe7e4440777606ed2a46e7841c234"
+    },
+    {
+      "path": "3d/Maps/23_karieri_kr/landscape/landscape_kariery2.mali.pvr",
+      "sha256": "6e19bebc92bbd68fe5a8dff2d8d8f327e2b8d23f68649e73aa39f5f822ed120f"
+    },
+    {
+      "path": "3d/Maps/23_karieri_kr/landscape/tilemask_tga.mali.pvr",
+      "sha256": "a749dec4b07a5420fe3697d84556a3cec63c6ab4f7706bfd03fcd1ae92ff15a8"
+    },
+    {
+      "path": "3d/Maps/23_karieri_kr/landscape/karieri_tiletex2.mali.pvr",
+      "sha256": "689383d490e1b9947aec749638d90e32af0a2252837d77b78bde9715ac9d99e7"
+    },
+    {
+      "path": "from_apk/Data/Strings/en.yaml",
+      "sha256": "912cc9e8960dab29709a6224be917d0fa10b29dc0b639dbfde84e5182b64f0a8"
+    },
+    {
+      "path": "from_apk/Data/Strings/ru.yaml",
+      "sha256": "a4a26e86b276117e867a186d4f2b94f67013f2319d04933c1c94bf1e6a830195"
+    },
+    {
+      "path": "Gfx2/UI/BattleScreenHUD/minimap/karieri/texture0.mali.webp",
+      "sha256": "1eedd5d00cbe842843aed5dd569a758a3a52ff83f58c048f00817e062265f2d3"
+    },
+    {
+      "path": "Gfx/UI/BattleLoadingScreen/karieri/texture0.mali.webp",
+      "sha256": "c51f6769f8deb971584bb3b06a6451b7f54fb284699f21220a12d70e44301011"
+    },
+    {
+      "path": "Gfx2/UI/BattleScreenHUD/minimap/karieri/MiniMapSmall.txt",
+      "sha256": "b1069432f9bdae04052e4836dba2bce4e91bc46edf954ab9507a67a23566b707"
+    }
+  ]
+}

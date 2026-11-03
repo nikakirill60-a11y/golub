@@ -1,0 +1,3426 @@
+{
+  "version": "4.8.0",
+  "source": "Gfx2/UI/BigTankIcons",
+  "icons": [
+    {
+      "tank": "ms-1",
+      "dataId": "ms1",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-MS-1.txt",
+      "descriptorSha256": "a0e053ffacd3245dad72bf22618add2c2c547dfc10d5c18c0fc34660f0dd683d",
+      "source": "Gfx2/UI/BigTankIcons/ussr-MS-10.mali.webp",
+      "sourceSha256": "a245a26407b53c8781bed6294bdae44bc394912493385bb4118aab798fbf9b53",
+      "width": 218,
+      "height": 193
+    },
+    {
+      "tank": "at-1",
+      "dataId": "at1",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-AT-1.txt",
+      "descriptorSha256": "6e7e3a3a9c545ee8bfd8504f38089a43760eb6a841ee22dc9507f3de2c2bd351",
+      "source": "Gfx2/UI/BigTankIcons/ussr-AT-10.mali.webp",
+      "sourceSha256": "5e250fb1bc2ceb76c4140c422aa8019681a04286ac701b6262c22c58dfee8d7d",
+      "width": 259,
+      "height": 200
+    },
+    {
+      "tank": "bt-2",
+      "dataId": "bt2",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-BT-2.txt",
+      "descriptorSha256": "b61fde169ca8cf2ad2f81085b83f26cfedb1566936f7cd8055bc0c1136e13efd",
+      "source": "Gfx2/UI/BigTankIcons/ussr-BT-20.mali.webp",
+      "sourceSha256": "bf076a50c56b10d053bbb5c0912b77f3badd0370a066960342671558697a9e7e",
+      "width": 268,
+      "height": 200
+    },
+    {
+      "tank": "t-26",
+      "dataId": "t26",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T-26.txt",
+      "descriptorSha256": "6ff87f33e573279aed8d4ba0e49e56743efcbd3d45a278a785d9dd17144463c5",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T-260.mali.webp",
+      "sourceSha256": "0e7a3e1352096ab5d4b66512b0a0502d92b935e4e0e5ed2d3789f48fe2463527",
+      "width": 258,
+      "height": 200
+    },
+    {
+      "tank": "tetrarch_ll",
+      "dataId": "tetrarchll",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-Tetrarch.txt",
+      "descriptorSha256": "1301b6c6ead6127381c58d19c0414e35acc8a7fa452635e3428150e2d813c2f0",
+      "source": "Gfx2/UI/BigTankIcons/ussr-Tetrarch0.mali.webp",
+      "sourceSha256": "2580e9bf22b9c306434ee2065293f8d31b78b08f96a96c6ac79b1e09c9d5651c",
+      "width": 316,
+      "height": 198
+    },
+    {
+      "tank": "bt-7",
+      "dataId": "bt7",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-BT-7.txt",
+      "descriptorSha256": "7aec52b73a9a9338486e77b859752cb5930a2d43ad9f2e69eb298bbf399fd11f",
+      "source": "Gfx2/UI/BigTankIcons/ussr-BT-70.mali.webp",
+      "sourceSha256": "45bfd5e295af3a18ea558d1444d8a5404cb0082615abfe019479ca02f944e223",
+      "width": 270,
+      "height": 200
+    },
+    {
+      "tank": "r105_bt_7a",
+      "dataId": "r105bt7a",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-BT-7A.txt",
+      "descriptorSha256": "05af0823297c879018b15276ee5460bdad91987e5e97fa8c4a8d371489b503aa",
+      "source": "Gfx2/UI/BigTankIcons/ussr-BT-7A0.mali.webp",
+      "sourceSha256": "4fd7f7efb0dd3803c3b9e8b6b87773c183998460588ff9683bba8b6061d7c621",
+      "width": 212,
+      "height": 151
+    },
+    {
+      "tank": "bt-sv",
+      "dataId": "btsv",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-BT-SV.txt",
+      "descriptorSha256": "eb7db7ad4fdc32ba5849c5c3cb13611de199ce4cc8d2e3ba845be2a9df9dd8a1",
+      "source": "Gfx2/UI/BigTankIcons/ussr-BT-SV0.mali.webp",
+      "sourceSha256": "01a82326d256642b56689f773640edd1768f17f011e6170a7670c81de6315240",
+      "width": 303,
+      "height": 200
+    },
+    {
+      "tank": "ltp",
+      "dataId": "ltp",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-LTP.txt",
+      "descriptorSha256": "0d405992dd0116bab8fbc99e3bcf8b9c485cc4158f3677d6d81ba388e57c3c18",
+      "source": "Gfx2/UI/BigTankIcons/ussr-LTP0.mali.webp",
+      "sourceSha256": "e472b990ad806a42e36b949c4683f057bd2f9f4101f71cc38b2df9c0bc498cc7",
+      "width": 280,
+      "height": 175
+    },
+    {
+      "tank": "m3_stuart_ll",
+      "dataId": "m3stuartll",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-M3_Stuart_LL.txt",
+      "descriptorSha256": "3714d71eaed4b495858a48fb5c6b2fc703c23168a44a10b354c0de4a438443ee",
+      "source": "Gfx2/UI/BigTankIcons/ussr-M3_Stuart_LL0.mali.webp",
+      "sourceSha256": "8a691e374ddbd437ce40f5ad4600ffd37cbc2a5142e059d50ad48d70bc0cbe6e",
+      "width": 249,
+      "height": 200
+    },
+    {
+      "tank": "su-76",
+      "dataId": "su76",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-SU-76.txt",
+      "descriptorSha256": "6228a83454d269610e9523658d687bc2254c4e09ad24082f1934cb9313f3a66f",
+      "source": "Gfx2/UI/BigTankIcons/ussr-SU-760.mali.webp",
+      "sourceSha256": "0a95fcb0520e814e9368a13c97ff30aedb3c830e17c3540ad1bbac44b61eb4cf",
+      "width": 283,
+      "height": 200
+    },
+    {
+      "tank": "su76i",
+      "dataId": "su76i",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-SU76I.txt",
+      "descriptorSha256": "1fb53361e0e0d5742c063939d0a8db88e1d7b04da39819ea91eebb85c7509d31",
+      "source": "Gfx2/UI/BigTankIcons/ussr-SU76I0.mali.webp",
+      "sourceSha256": "770435eb7f32518293c36b88e70331d9c4279e4d3e00e2e3fe24381f8aa17368",
+      "width": 266,
+      "height": 200
+    },
+    {
+      "tank": "t-127",
+      "dataId": "t127",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T-127.txt",
+      "descriptorSha256": "07b3744c0a2aacfc047c0821175fc2fbf75988f6b0d13f34f38663799539872c",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T-1270.mali.webp",
+      "sourceSha256": "ec80b7b7a15578e306a9d27aad298b0ae8233baa3e0859730f6f01f685b04e6f",
+      "width": 264,
+      "height": 195
+    },
+    {
+      "tank": "t-46",
+      "dataId": "t46",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T-46.txt",
+      "descriptorSha256": "80781f5cdcd9e50d99aecd56c4300168f382f8144bd45b883a34c024f85044d3",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T-460.mali.webp",
+      "sourceSha256": "efe248a91050ae7c706911e556ca9ee2ea7c50f9558a7099e8fa140fc1296744",
+      "width": 291,
+      "height": 200
+    },
+    {
+      "tank": "r43_t-70_57",
+      "dataId": "r43t7057",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T-70_57.txt",
+      "descriptorSha256": "1493bece89b6e9dfebf8d8452928af032b753662616c7787e1d1341d378574fa",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T-70_570.mali.webp",
+      "sourceSha256": "3e6d448c37571f99c211847d94c0d8bd4e21ba0ad8f5148447bb8abefa7d3936",
+      "width": 235,
+      "height": 194
+    },
+    {
+      "tank": "a-20",
+      "dataId": "a20",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-A-20.txt",
+      "descriptorSha256": "3cec6c8221d1f35aabaff5b4c33f84659690f8482c5a2b0ab1166616a2b45198",
+      "source": "Gfx2/UI/BigTankIcons/ussr-A-200.mali.webp",
+      "sourceSha256": "cc931dc11f1405f0ec240ce368abcd953a30e938d6603862a9bd3a295ed451d6",
+      "width": 288,
+      "height": 200
+    },
+    {
+      "tank": "a-32",
+      "dataId": "a32",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-A-32.txt",
+      "descriptorSha256": "995b0bbf3dac84b37ac61a5830b710a29e19f969b3bfc34c028ba40329a867a6",
+      "source": "Gfx2/UI/BigTankIcons/ussr-A-320.mali.webp",
+      "sourceSha256": "b30ae9ef3917ba3e873c3bb6de9c38b397c86034e6f9ea8d6c753ef7bd8355cf",
+      "width": 293,
+      "height": 200
+    },
+    {
+      "tank": "valentine_ll",
+      "dataId": "valentinell",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-Valentine_LL.txt",
+      "descriptorSha256": "2ea3302e3ae37d93fae2e60b70176ea41e62ae947f88b431496864288f34e82e",
+      "source": "Gfx2/UI/BigTankIcons/ussr-Valentine_LL0.mali.webp",
+      "sourceSha256": "07e1214f37874bb41c41d1d726f299b6effd7212b21fdd0e70b3dbc02569f72e",
+      "width": 284,
+      "height": 200
+    },
+    {
+      "tank": "gaz-74b",
+      "dataId": "gaz74b",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-SU-85b.txt",
+      "descriptorSha256": "fe38cef5327ecd45a8b149b44bc1dbc87454075354e0bb7e7490587c303afb2c",
+      "source": "Gfx2/UI/BigTankIcons/ussr-SU-85b0.mali.webp",
+      "sourceSha256": "5ca16a090c319facb9c668106148d055f7691273f04fc25cb641484da77ee474",
+      "width": 283,
+      "height": 200
+    },
+    {
+      "tank": "t-28",
+      "dataId": "t28",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T-28.txt",
+      "descriptorSha256": "274735a933d05916239851489eeb35e55dae4b890aea37ee94553be6ef34b1cf",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T-280.mali.webp",
+      "sourceSha256": "3b248792ab57827c55ae46fe9c61d9c39979bf98229e04d3a075234898e2bfde",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "kv1",
+      "dataId": "kv1",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-KV1.txt",
+      "descriptorSha256": "9f99497ee8e8cd9cf375703f786fe3fd514b9fbaa0c1e6af4e4e2f2440a3ba49",
+      "source": "Gfx2/UI/BigTankIcons/ussr-KV10.mali.webp",
+      "sourceSha256": "c8917947138e45ae9a87f0fd2c8998535faabcb13c9ea367e2db637a02d970b1",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "kv-220",
+      "dataId": "kv220",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-KV-220.txt",
+      "descriptorSha256": "4697da0505a0820d7f89c3bb3ec178e17197890d2ef26f590d609145ec370ffa",
+      "source": "Gfx2/UI/BigTankIcons/ussr-KV-2200.mali.webp",
+      "sourceSha256": "70ae804137f1cb29a43fa544bee7b603a27e59b041d2104fb43a2bd2318e543d",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "matilda_ii_ll",
+      "dataId": "matildaiill",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-Matilda-IV.txt",
+      "descriptorSha256": "d5d8bdc6112d5eb7937b07f4ec649791d16a25730d7ae4bb69cc85c42c9045cd",
+      "source": "Gfx2/UI/BigTankIcons/ussr-Matilda-IV0.mali.webp",
+      "sourceSha256": "d88c1ada9f9356804b1934e0e74468f2b0b003e414f1a49e185c0f66a275eded",
+      "width": 274,
+      "height": 200
+    },
+    {
+      "tank": "su-85",
+      "dataId": "su85",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-SU-85.txt",
+      "descriptorSha256": "63ec9ceb23a10fbae8869f971651731daa581baa41d64f0946741e3a31dce676",
+      "source": "Gfx2/UI/BigTankIcons/ussr-SU-850.mali.webp",
+      "sourceSha256": "20dba76a1efa27c407492437ef405e6b06044584874505455ef399b32428b47e",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "su_85i",
+      "dataId": "su85i",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-SU-85I.txt",
+      "descriptorSha256": "c5d7eddd0fc3e9bbe736f2b6867f906c07d5daa95ce47eaddd2a908caa4c5040",
+      "source": "Gfx2/UI/BigTankIcons/ussr-SU-85I0.mali.webp",
+      "sourceSha256": "a2269ad49cc78123e5c7b95f3ce05cf7422ea5a9eed3056d6ca216af2a492c54",
+      "width": 300,
+      "height": 200
+    },
+    {
+      "tank": "t-34",
+      "dataId": "t34",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T-34.txt",
+      "descriptorSha256": "99e861376c3464608fe065a81c72cfb54f2b5831c5eaf8c7fee83e3bf41764b3",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T-340.mali.webp",
+      "sourceSha256": "c4722bcc59c6c7f05657092f658b01127b997fb313ffbe6b489174103e2eb05d",
+      "width": 306,
+      "height": 200
+    },
+    {
+      "tank": "churchill_ll",
+      "dataId": "churchillll",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-Curchill_III.txt",
+      "descriptorSha256": "9ea3924f01b61cfd592baf0d12322cfe14140d76edcd520a802eb2dfaffa79ef",
+      "source": "Gfx2/UI/BigTankIcons/ussr-Curchill_III0.mali.webp",
+      "sourceSha256": "991f074d7414a1a671bd21eb16ae9c21a19db5a6c5702ad0488efa5e9ce404f6",
+      "width": 318,
+      "height": 198
+    },
+    {
+      "tank": "t-34-85_victory",
+      "dataId": "t3485victory",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T-34-85_Victory.txt",
+      "descriptorSha256": "fdb50f67c2261c54f56b861b1b836b64a587c301637dac05a425ed073903e784",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T-34-85_Victory0.mali.webp",
+      "sourceSha256": "369fbf2c975639c30e602095a6b636320dc9bbd867f31c289c9bf8b0de06bc7a",
+      "width": 315,
+      "height": 200
+    },
+    {
+      "tank": "kv-1s",
+      "dataId": "kv1s",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-KV-1s.txt",
+      "descriptorSha256": "235ab27aeabdc81bdf397c4ac3a6218b4041ce66a338ac3ec8d1f7cd749f2dcb",
+      "source": "Gfx2/UI/BigTankIcons/ussr-KV-1s0.mali.webp",
+      "sourceSha256": "e8ca14087c404a81f4ba6620a47e740ec9c2bc0ead4940544d9e4e1c3bb4ffc3",
+      "width": 318,
+      "height": 200
+    },
+    {
+      "tank": "kv2",
+      "dataId": "kv2",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-KV-2.txt",
+      "descriptorSha256": "1d2e2aa0264da2898405af75fd0ea3ad19d95c7c3a813dab50c13a28251ed6b1",
+      "source": "Gfx2/UI/BigTankIcons/ussr-KV-20.mali.webp",
+      "sourceSha256": "8a0f7704adff5b14ca31731fd4398e11166fb5eecec91eb17744b52bf68a470d",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "mt25",
+      "dataId": "mt25",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-MT25.txt",
+      "descriptorSha256": "ec7a324b02bac8077ef6575d4748383f391b01e407aecf0f5f966ff182bf1a09",
+      "source": "Gfx2/UI/BigTankIcons/ussr-MT250.mali.webp",
+      "sourceSha256": "3df6d1a94ccce095196e892b74aea6f26be8b1366d7ff48ab3b057d67b86bc91",
+      "width": 238,
+      "height": 200
+    },
+    {
+      "tank": "su-100",
+      "dataId": "su100",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-SU-100.txt",
+      "descriptorSha256": "1c7218ed1d843e2d21c97c59925744344600d7f6f2a5f9b25e438a662a842f46",
+      "source": "Gfx2/UI/BigTankIcons/ussr-SU-1000.mali.webp",
+      "sourceSha256": "f33dc8bc83ee88cd4bfe32ddfa90e828f5101843da2889e4fe67198af3158233",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "su100y",
+      "dataId": "su100y",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-SU-100Y.txt",
+      "descriptorSha256": "774d8c6cdc7e2e8fa18f8883ba13bbc5684295e5a83e0391262b4737bb151781",
+      "source": "Gfx2/UI/BigTankIcons/ussr-SU-100Y0.mali.webp",
+      "sourceSha256": "96c1e39a1d7481bb927d7845ef450dc4a3d9c073bb36696ebe90dff58407a24a",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t150",
+      "dataId": "t150",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T150.txt",
+      "descriptorSha256": "16200688ce51f45105885866273e1d93c693d5e5cbfe741d51a1b429a67ecf11",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T1500.mali.webp",
+      "sourceSha256": "121b20e4fd95651f7279b31db999f3833a5b8be1109ff5fbda8329a50f446350",
+      "width": 310,
+      "height": 200
+    },
+    {
+      "tank": "t-34-85",
+      "dataId": "t3485",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T-34-85.txt",
+      "descriptorSha256": "c8b827c8aeb74b65afdce224c206c612e88bea0b04f8f5a4209010984995e51c",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T-34-850.mali.webp",
+      "sourceSha256": "5046f3d1166732da7310dd341f67c6be0a062f0825bdfe1204456d76556d953a",
+      "width": 318,
+      "height": 200
+    },
+    {
+      "tank": "t-34-85_rudy",
+      "dataId": "t3485rudy",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T-34-85_Rudy.txt",
+      "descriptorSha256": "d42d9650dcc52020f53878469f878a040b79427ad7f1a952c37b3154aa574b1f",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T-34-85_Rudy0.mali.webp",
+      "sourceSha256": "44fd2e72791952494a0d64691a07494ae0dc90561665e803b3deed53f6e5d119",
+      "width": 304,
+      "height": 200
+    },
+    {
+      "tank": "is",
+      "dataId": "is",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-IS.txt",
+      "descriptorSha256": "fe14f16ed82287d18356103ccf403fd0adb453d7ea9f3cacfec3cda5df6019f8",
+      "source": "Gfx2/UI/BigTankIcons/ussr-IS0.mali.webp",
+      "sourceSha256": "6ac9a080c834273aed18aa4fbab2686ae84eefe350aea5863065c3f084c12f44",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "r71_is_2b",
+      "dataId": "r71is2b",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-IS_2_Berlin.txt",
+      "descriptorSha256": "3be824f91dc488a4ebddec431674355cbe7182aaee1df49e87f1806d951c95b6",
+      "source": "Gfx2/UI/BigTankIcons/ussr-IS_2_Berlin0.mali.webp",
+      "sourceSha256": "d61179d687c9e49a90fb97c207624bca5b40d03584ccb29c348a285780af94c4",
+      "width": 316,
+      "height": 200
+    },
+    {
+      "tank": "r116_isu122c_berlin",
+      "dataId": "r116isu122cberlin",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-ISU122_Berlin.txt",
+      "descriptorSha256": "7b09277b2f6576a2af4438ef6730d51709dc90d024d08a26a838e0892e852ad6",
+      "source": "Gfx2/UI/BigTankIcons/ussr-ISU122_Berlin0.mali.webp",
+      "sourceSha256": "fd7216f4845b7974108c2d0ef884c317f565e577b2e04669a6fdf4b2e9aec6b1",
+      "width": 316,
+      "height": 192
+    },
+    {
+      "tank": "kv-13",
+      "dataId": "kv13",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-KV-13.txt",
+      "descriptorSha256": "a5387e293ab66cbfeccbf0f5ebad193e0aa2801fab7a2cac26f4b66fbcf5945f",
+      "source": "Gfx2/UI/BigTankIcons/ussr-KV-130.mali.webp",
+      "sourceSha256": "40e54ca3a73cb594d09b5ddd9e2dad2ad38cb1fc91f8db20111ae51da81a7f03",
+      "width": 315,
+      "height": 200
+    },
+    {
+      "tank": "kv-3",
+      "dataId": "kv3",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-KV-3.txt",
+      "descriptorSha256": "31cbd30e7426afc3c0ebeb85d9320145aaac13f2309c41748a4bc7ddfbffe840",
+      "source": "Gfx2/UI/BigTankIcons/ussr-KV-30.mali.webp",
+      "sourceSha256": "60a7e20e85d0431f72f77b0e12006519ac97a8d0d9e6f5407ed0497e6f833d2d",
+      "width": 315,
+      "height": 200
+    },
+    {
+      "tank": "r107_ltb",
+      "dataId": "r107ltb",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-LTB.txt",
+      "descriptorSha256": "6712de37701a93985c33485e983d83517052b0e079cff25b3933c8aae6926906",
+      "source": "Gfx2/UI/BigTankIcons/ussr-LTB0.mali.webp",
+      "sourceSha256": "4096845ee0d1bb8b0466a60b8dcc27bc9492a4413038b2fabbc3fabd9d8ecd3e",
+      "width": 312,
+      "height": 200
+    },
+    {
+      "tank": "su100m1",
+      "dataId": "su100m1",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-SU100M1.txt",
+      "descriptorSha256": "16adf25f9b997b8d51e4037ada70c978957fe21c8cc62d23ef41a7a6e63e993b",
+      "source": "Gfx2/UI/BigTankIcons/ussr-SU100M10.mali.webp",
+      "sourceSha256": "5dc10a881f25b61cba69d11e9f75c7e9d6c174a67587e826968ee1c0f7fe531e",
+      "width": 295,
+      "height": 200
+    },
+    {
+      "tank": "su122_44",
+      "dataId": "su12244",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-SU-122-44.txt",
+      "descriptorSha256": "974ad4317ba990413b2470eb08d36f7b54632aa0d17d566e0f230efb5db0579e",
+      "source": "Gfx2/UI/BigTankIcons/ussr-SU-122-440.mali.webp",
+      "sourceSha256": "d19d18a6cb33fff07980a1d3b499297ff7e3fbfae7fd463e509d5507a1dbc5cd",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "su-152",
+      "dataId": "su152",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-SU-152.txt",
+      "descriptorSha256": "6e2a4af7f6eaa96f580c453575f4d1a41208b17eaf67cba64555a07ce81cf26d",
+      "source": "Gfx2/UI/BigTankIcons/ussr-SU-1520.mali.webp",
+      "sourceSha256": "a300bb606b531d66003441b4b7c8ded4d9e9e349c688c038652ee8a1fc834ed3",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t-43",
+      "dataId": "t43",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T-43.txt",
+      "descriptorSha256": "22e7f7ee443e196e7d8b3c3c4416887adb170eb4896b60390e56ad9f6d5accde",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T-430.mali.webp",
+      "sourceSha256": "0ca7e48a7efb356a9a252110c6d69b96d588d6e87b4ef1f9868ccc516c00deaf",
+      "width": 317,
+      "height": 200
+    },
+    {
+      "tank": "r127_t44_100_p",
+      "dataId": "r127t44100p",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T44-100_P.txt",
+      "descriptorSha256": "abb7e99cdc94a6c886be220f04f44514678e32c16f62117251172d3615fe5ff2",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T44-100_P0.mali.webp",
+      "sourceSha256": "d9545e53bdd9d703f6a83b528075c9cfe9cef8e68b1838898f6c5015ab8fda0c",
+      "width": 319,
+      "height": 200
+    },
+    {
+      "tank": "is-2sh",
+      "dataId": "is2sh",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-IS2_Sh.txt",
+      "descriptorSha256": "78678fe354a6de0d0c551821bab6484aeedd6396e20153722783ba2a34f54ae0",
+      "source": "Gfx2/UI/BigTankIcons/ussr-IS2_Sh0.mali.webp",
+      "sourceSha256": "80a791c9fd2b2585cb05150a4aaa1f6d5486955c72db28ca1b943d14b9b10228",
+      "width": 290,
+      "height": 200
+    },
+    {
+      "tank": "is-3",
+      "dataId": "is3",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-IS-3.txt",
+      "descriptorSha256": "81e1074e4b3e4fbc5991bda939ca8f965aa5bc93a48b6587d6f488a6a560169e",
+      "source": "Gfx2/UI/BigTankIcons/ussr-IS-30.mali.webp",
+      "sourceSha256": "a1bbaa75c80fbd365fa795f3bcf9f66f3ce017025a88730f85ac81927885df38",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "r115_is-3_auto",
+      "dataId": "r115is3auto",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-IS-3-auto.txt",
+      "descriptorSha256": "604fb4b72d2b106fd7e5e339149c78ce149861e8e1b24dbdda0fca8416e46466",
+      "source": "Gfx2/UI/BigTankIcons/ussr-IS-3-auto0.mali.webp",
+      "sourceSha256": "13c1527e026d6c0b8521a924846b32eb622dfa3670ee51bb4fc3c2053f523eca",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "r113_object_730",
+      "dataId": "r113object730",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-Object_730.txt",
+      "descriptorSha256": "41a4fc209505f36c8a9c2b647cce58074afccdef1f062455c301d2c19deecc52",
+      "source": "Gfx2/UI/BigTankIcons/ussr-Object_7300.mali.webp",
+      "sourceSha256": "e184836611274a775a82f2e7ef9ed598f202dc0888324b3b02f4b76512679a98",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "object252",
+      "dataId": "object252",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-Object_252.txt",
+      "descriptorSha256": "c53af97e0a5023b8b22928c232db8b0578b80c1215963fc4272f13109d728778",
+      "source": "Gfx2/UI/BigTankIcons/ussr-Object_2520.mali.webp",
+      "sourceSha256": "c62c9e6f7ef4390e6c74fbf57be6a2faa16ae7fcaf85fe2d43c9a840cef5f1ff",
+      "width": 318,
+      "height": 198
+    },
+    {
+      "tank": "object252_fearless",
+      "dataId": "object252fearless",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-Object_252_fearless.txt",
+      "descriptorSha256": "7edfeb91b10633d2766c88f58d97ab33dfb94f11f22d20d8d4d9585ddfa94d8e",
+      "source": "Gfx2/UI/BigTankIcons/ussr-Object_252_fearless0.mali.webp",
+      "sourceSha256": "e2bca86dae1833f36bb2e5244f5c13d44cb2d048d4d385c35421b0d2ca0d9ef4",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "r111_isu130",
+      "dataId": "r111isu130",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-isu_130.txt",
+      "descriptorSha256": "881ead088f2e82a57244e412fd7becdfd88a7a82410a8fc4f9ee13d8b4b1ca03",
+      "source": "Gfx2/UI/BigTankIcons/ussr-isu_1300.mali.webp",
+      "sourceSha256": "2c5b4ba9150f7c793c7e6f5cd4e302357b0d07a8031c534b4f19e238c1ea853a",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "isu-152",
+      "dataId": "isu152",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-ISU-152.txt",
+      "descriptorSha256": "14e6305186a201cb0e0e9e577dff15887a29f3e076455445261477ac079c892d",
+      "source": "Gfx2/UI/BigTankIcons/ussr-ISU-1520.mali.webp",
+      "sourceSha256": "89adc7e710ad46f8dd8921c265c0f157a34a25d83ab238d3ded01fdf2aa2f520",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "kv4",
+      "dataId": "kv4",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-KV-4.txt",
+      "descriptorSha256": "dac4e06be2f5b8213be121ab514d3ec3c5afb354fb69a02c378d2f202a117643",
+      "source": "Gfx2/UI/BigTankIcons/ussr-KV-40.mali.webp",
+      "sourceSha256": "97a878ef7625515eb8ffb4ef2ec057b8d1d8d12ea646633903a1c5f8dc801676",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "kv-5",
+      "dataId": "kv5",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-KV-5.txt",
+      "descriptorSha256": "bb06cc25d246cd0ce5ba9ed230bb2ad98cbac18cc1f406223a8c67796758e8cb",
+      "source": "Gfx2/UI/BigTankIcons/ussr-KV-50.mali.webp",
+      "sourceSha256": "4e715cf4848c0d74f0cdd3b03fd7f6e01ab696266e4585f7524033438b9b47c4",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "su-101",
+      "dataId": "su101",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-SU-101.txt",
+      "descriptorSha256": "37a4f3c992cec94b4f50b6259b7033cdaedb4bb5553c83ab8f8ac6f6d17dcc27",
+      "source": "Gfx2/UI/BigTankIcons/ussr-SU-1010.mali.webp",
+      "sourceSha256": "d15d1d36a85fae073cdf9f174b889104dd50a076484448ff300721675d7e6f9e",
+      "width": 303,
+      "height": 200
+    },
+    {
+      "tank": "t-44",
+      "dataId": "t44",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T-44.txt",
+      "descriptorSha256": "2d9205c824f85240fb0c6fb4eef97e51c7cc6e98ba3538162341a00f950153ca",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T-440.mali.webp",
+      "sourceSha256": "2a7d132b92b129355fa026504c0c868c152ad06890b9b8be255294b60e98eeb8",
+      "width": 310,
+      "height": 200
+    },
+    {
+      "tank": "r109_t54s",
+      "dataId": "r109t54s",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T54S.txt",
+      "descriptorSha256": "895b573145bdb66d966ffc43f0635886d20355a13f3a37e8b3ec9dfc8b97edfb",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T54S0.mali.webp",
+      "sourceSha256": "5bfda38734e97a75f415597d1550b59ec6c349d8ec6e8ec021453752a96fcdf1",
+      "width": 293,
+      "height": 199
+    },
+    {
+      "tank": "r112_t54_45",
+      "dataId": "r112t5445",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T54-45.txt",
+      "descriptorSha256": "80e98df6c902c16158df1e018b86215b63f295657c3acb35143e5ee4a662efca",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T54-450.mali.webp",
+      "sourceSha256": "2d74e1ba166eba20ec4dc371e17d985f5ea18fccc8ebcdcecb3de03da819d600",
+      "width": 272,
+      "height": 170
+    },
+    {
+      "tank": "is8",
+      "dataId": "is8",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-IS-8.txt",
+      "descriptorSha256": "b01df985f5fc2544e8ae1777df41f6004491f0ecec3993d7b9481747368f58c8",
+      "source": "Gfx2/UI/BigTankIcons/ussr-IS-80.mali.webp",
+      "sourceSha256": "534bcff6b7e7e52a718785d28600741a42ba3e2a4af867401323a370c39b155b",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "k-91",
+      "dataId": "k91",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-K-91.txt",
+      "descriptorSha256": "4868c76a88370c4a04ebe9dea3993291c4783578bbb9c8508f52b5088472e8d0",
+      "source": "Gfx2/UI/BigTankIcons/ussr-K-910.mali.webp",
+      "sourceSha256": "270a1bc9caa383aa2bd53a53207b0a3f0bf27e3272458a63970fcbb942958d77",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "object_704",
+      "dataId": "object704",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-Object_704.txt",
+      "descriptorSha256": "288b359545ae05a2c79b8057bd0a2602c3e342bb2ee74eb62199d9293cffc24d",
+      "source": "Gfx2/UI/BigTankIcons/ussr-Object_7040.mali.webp",
+      "sourceSha256": "b12cff01190dc7a9287d7709a3807a86d9bb307447ac9d6e212c80a8bfab2c1f",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "st_i",
+      "dataId": "sti",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-ST-1.txt",
+      "descriptorSha256": "c2e4c022f79c50c543bd3ee7ee0499d1e968a322957c8dfbfe8c9b9db595bc73",
+      "source": "Gfx2/UI/BigTankIcons/ussr-ST-10.mali.webp",
+      "sourceSha256": "06335fcd941ed745b37f8a11069b77bbdd438e6c129d089c5c1d96ff04aa6dcd",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "su122_54",
+      "dataId": "su12254",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-SU-122-54.txt",
+      "descriptorSha256": "04086f2c59889654ae1a8b7511f1c8fc3837608885c820fec08a63ac6786e4be",
+      "source": "Gfx2/UI/BigTankIcons/ussr-SU-122-540.mali.webp",
+      "sourceSha256": "f9eac8f595edd331ff2e3de71f5e983cf9db276b21852098d99772faedeaf621",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t-54",
+      "dataId": "t54",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T-54.txt",
+      "descriptorSha256": "01eb81492b7f70a73d13cb4c057e062abc160b796d67481ee6ca35d538e8ef6e",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T-540.mali.webp",
+      "sourceSha256": "3a92a1e5042e29835fd40439db3aaa116b3ea4dc5f696f546da17de0069b0919",
+      "width": 313,
+      "height": 200
+    },
+    {
+      "tank": "is-4",
+      "dataId": "is4",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-IS-4M.txt",
+      "descriptorSha256": "9c8ce0053be622a4892524c24f1050b5f25ce2ed15ea4a785ccf5d54d4020522",
+      "source": "Gfx2/UI/BigTankIcons/ussr-IS-4M0.mali.webp",
+      "sourceSha256": "571106f8c1980b5dc404fc5e9e12641993187c959466c09c473a2ccdca5ef8dc",
+      "width": 310,
+      "height": 200
+    },
+    {
+      "tank": "is-7",
+      "dataId": "is7",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-IS-7.txt",
+      "descriptorSha256": "1b235dfd26fa5770ba20fe3c46c3a80aff167ba5d64cb8410ce3ea4e246c1a50",
+      "source": "Gfx2/UI/BigTankIcons/ussr-IS-70.mali.webp",
+      "sourceSha256": "ae557d91bb607873be9ad12862ccd5d8399f3dac2d69b3c111b53a0ae81734f5",
+      "width": 304,
+      "height": 190
+    },
+    {
+      "tank": "object_140",
+      "dataId": "object140",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-Object_140.txt",
+      "descriptorSha256": "3acf7c04871090a4f30a27029ff3f10ef9b7e9b89595a9f7d52391d437435f0f",
+      "source": "Gfx2/UI/BigTankIcons/ussr-Object_1400.mali.webp",
+      "sourceSha256": "e43ff5d776808e865d5868dc0fc3761153089ee7be2632360836feb0a98ebcde",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "object263",
+      "dataId": "object263",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-Object263.txt",
+      "descriptorSha256": "ac1b7a480dcbbb5eba1e46a6323f9f11d131f2ea5b4edffe1219da6bd0812107",
+      "source": "Gfx2/UI/BigTankIcons/ussr-Object2630.mali.webp",
+      "sourceSha256": "4de8a378f783fdae1df77a8ff1decf309c0e81e09950054f148e65b4cdfd474d",
+      "width": 309,
+      "height": 200
+    },
+    {
+      "tank": "object268",
+      "dataId": "object268",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-Object268.txt",
+      "descriptorSha256": "2d336e2997b779eb02fa70cd1d04b8783240b8641c87008cca2e2f3c2487f517",
+      "source": "Gfx2/UI/BigTankIcons/ussr-Object2680.mali.webp",
+      "sourceSha256": "f310c6894719eab842c3df5a242ef3d8aa6243ef50f51aa5249254c4b0eb08ed",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t62a",
+      "dataId": "t62a",
+      "descriptor": "Gfx2/UI/BigTankIcons/ussr-T62A.txt",
+      "descriptorSha256": "0c199b16b6a313dda27a1c453f3b232901c24b8a8d23f28dee98e5e2e114ae9a",
+      "source": "Gfx2/UI/BigTankIcons/ussr-T62A0.mali.webp",
+      "sourceSha256": "86a3fc696a9e58f3830334dbb260e1c7a84b38e2633759bbe7ce56f0a478522d",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "ltraktor",
+      "dataId": "ltraktor",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Ltraktor.txt",
+      "descriptorSha256": "30c187abba25a09845b9ae2139b8fb57eed2a4b74416889141fd801b73ee5722",
+      "source": "Gfx2/UI/BigTankIcons/germany-Ltraktor0.mali.webp",
+      "sourceSha256": "b6cea9c0f685b38e1b512f070e6bea3b91e9095cb564d4f285f2e606333cf910",
+      "width": 242,
+      "height": 200
+    },
+    {
+      "tank": "panzerjager_i",
+      "dataId": "panzerjageri",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PanzerJager_I.txt",
+      "descriptorSha256": "1522af6ffaf0f1b8c5cc7537190faedd46db33ae09d35608db6fc116905af278",
+      "source": "Gfx2/UI/BigTankIcons/germany-PanzerJager_I0.mali.webp",
+      "sourceSha256": "970351dc20055ee9e8a6bf4beebe31db7a72a91fd009d0fd12ae0c4a959e69d0",
+      "width": 244,
+      "height": 200
+    },
+    {
+      "tank": "pz35t",
+      "dataId": "pz35t",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Pz35t.txt",
+      "descriptorSha256": "bb138d1025daa52f1c1edcb8f52c55cf756c558087f693c474a87b4a0e278f72",
+      "source": "Gfx2/UI/BigTankIcons/germany-Pz35t0.mali.webp",
+      "sourceSha256": "00a2ad0859676d8716053e4f7ecd074a0c45e15aa68d25034f034d349225a785",
+      "width": 275,
+      "height": 200
+    },
+    {
+      "tank": "h39_captured",
+      "dataId": "h39captured",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzKpfw38H_735.txt",
+      "descriptorSha256": "c7463cf9e3727e912cc2e0b1531a851df392b965a81b7caeaa98332c4146f56a",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzKpfw38H_7350.mali.webp",
+      "sourceSha256": "8236656fb52fb42668b14af2e74caa2d07f15265d3b644074b6f56e94465d976",
+      "width": 243,
+      "height": 200
+    },
+    {
+      "tank": "pzii",
+      "dataId": "pzii",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzII.txt",
+      "descriptorSha256": "4199f2038b63589eecd5502944d81e3d1c7c3419acefff74f76dc57f5d14a54b",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzII0.mali.webp",
+      "sourceSha256": "5171e0a720672ba1bce44db85d040e0732c5d4f48cb3d639da8ccda930acdb9a",
+      "width": 260,
+      "height": 200
+    },
+    {
+      "tank": "g100_gtraktor_krupp",
+      "dataId": "g100gtraktorkrupp",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Gtraktor_Krupp.txt",
+      "descriptorSha256": "28c84b48d094cd9face782d08fa401a1d5d0f0be1c0294e2e4756a666e1f7f1a",
+      "source": "Gfx2/UI/BigTankIcons/germany-Gtraktor_Krupp0.mali.webp",
+      "sourceSha256": "da2b225c5c6ac9b368bf4e76fe036e404b728fdfe18b414eb84f48f94e259fca",
+      "width": 293,
+      "height": 200
+    },
+    {
+      "tank": "g20_marder_ii",
+      "dataId": "g20marderii",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-G20_Marder_II.txt",
+      "descriptorSha256": "2a80a25886f8a3b174ccf7cabf7cb22dfb5c94f542e8de4ad78fb5598c93eee5",
+      "source": "Gfx2/UI/BigTankIcons/germany-G20_Marder_II0.mali.webp",
+      "sourceSha256": "8682d9de6f64b76937903a53bc27bb0568c3d32d72065dd70ab7f4b28334b025",
+      "width": 261,
+      "height": 200
+    },
+    {
+      "tank": "pz38t",
+      "dataId": "pz38t",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Pz38t.txt",
+      "descriptorSha256": "7430612114c77c4b6341891d4d1d55b20a77cde26451493be632e7f871d8f287",
+      "source": "Gfx2/UI/BigTankIcons/germany-Pz38t0.mali.webp",
+      "sourceSha256": "281f91fbb14f74add08c74761f02d2af87669e22dd0d658b5e3669198fa3a29c",
+      "width": 261,
+      "height": 197
+    },
+    {
+      "tank": "pz_ii_ausfg",
+      "dataId": "pziiausfg",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Pz_II_AusfG.txt",
+      "descriptorSha256": "3d825cac3a603d1033af919d3e8bd3e212300c4461723832fbbe05b81cb44a31",
+      "source": "Gfx2/UI/BigTankIcons/germany-Pz_II_AusfG0.mali.webp",
+      "sourceSha256": "d7053502bca0dbdcbd984fc7f597eccb2fac2f520d5a18c641a30b1029551f41",
+      "width": 229,
+      "height": 191
+    },
+    {
+      "tank": "pzii_j",
+      "dataId": "pziij",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzII_J.txt",
+      "descriptorSha256": "a69b8db608332d35e0d828856423c650a5f4acce7223237ca6cf9acda3dc622f",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzII_J0.mali.webp",
+      "sourceSha256": "e6c7ee91139d9f45a6eced874e771beb372cd776efd26b7d148650d6c70bf541",
+      "width": 265,
+      "height": 200
+    },
+    {
+      "tank": "pziii_a",
+      "dataId": "pziiia",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzIII_A.txt",
+      "descriptorSha256": "89f65d030b3dcbc095933380eff18391279fc054ca91c5fb38256de5b33c18ef",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzIII_A0.mali.webp",
+      "sourceSha256": "250cb9f664b89dcb0ff9e8339ef711d989048ea1adb34abbbc865d269ee20355",
+      "width": 291,
+      "height": 200
+    },
+    {
+      "tank": "pz_iv_ausfa",
+      "dataId": "pzivausfa",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzIV_AusfA.txt",
+      "descriptorSha256": "3e68503b5dbb1f570ff99227c80e0e472886bac95491ee03f66290e32969de09",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzIV_AusfA0.mali.webp",
+      "sourceSha256": "3e99c5c63d49b6345493b44cb4c461b3ac901063454eedda1b0c0ce8aef8c693",
+      "width": 306,
+      "height": 200
+    },
+    {
+      "tank": "s35_captured",
+      "dataId": "s35captured",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-S35_captured.txt",
+      "descriptorSha256": "39ddc8ab1d4b063c72daa9cc3ca7c135aa6dd78e04412abfd4497e16151272c3",
+      "source": "Gfx2/UI/BigTankIcons/germany-S35_captured0.mali.webp",
+      "sourceSha256": "67dbc08bbec18faefc8f5286a383b1ab087e2c70c7f381975f9f9399114aec55",
+      "width": 318,
+      "height": 198
+    },
+    {
+      "tank": "t-15",
+      "dataId": "t15",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-T-15.txt",
+      "descriptorSha256": "56dac9a514bec211968ed53cee127b9e94cee86b3fb43ad1b63bbfc94b76892f",
+      "source": "Gfx2/UI/BigTankIcons/germany-T-150.mali.webp",
+      "sourceSha256": "1f61557eaf6f5b23781bce3f7fdb4e71e63bedbd997fbddb6e741d40905187b3",
+      "width": 250,
+      "height": 198
+    },
+    {
+      "tank": "dw_ii",
+      "dataId": "dwii",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-DW_II.txt",
+      "descriptorSha256": "b0e47bf8f32dd0b3e94873578333142784e41943356b68be9954a60fd77cbea9",
+      "source": "Gfx2/UI/BigTankIcons/germany-DW_II0.mali.webp",
+      "sourceSha256": "eb3740c7668d1c39f56452a5fa2c9cdac2a199649ab277674c6e08facefe6a9b",
+      "width": 310,
+      "height": 200
+    },
+    {
+      "tank": "hetzer",
+      "dataId": "hetzer",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Hetzer.txt",
+      "descriptorSha256": "17d426c6295e98a4d2f0dae6a036e249d0f486c4f2b34b01b46b1b1ad78f7f02",
+      "source": "Gfx2/UI/BigTankIcons/germany-Hetzer0.mali.webp",
+      "sourceSha256": "b4a4518a791e3731674ceac58418aef06e5db4fdaf3c273d03b879907f3ff115",
+      "width": 280,
+      "height": 200
+    },
+    {
+      "tank": "pz38_na",
+      "dataId": "pz38na",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Pz38_NA.txt",
+      "descriptorSha256": "8a1673d73b905a226fb2fa645d4cdd295a83d8ce841ededc0ddb3df23c6ae5e2",
+      "source": "Gfx2/UI/BigTankIcons/germany-Pz38_NA0.mali.webp",
+      "sourceSha256": "8e4c3ac521f02dd28bf1deccd692831cd78c4db57b0270eaabd23d29da765bbd",
+      "width": 252,
+      "height": 192
+    },
+    {
+      "tank": "b-1bis_captured",
+      "dataId": "b1biscaptured",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-B-1bis_captured.txt",
+      "descriptorSha256": "4a49f2f4d803181f1b84bd454e7fb907e43d21f4ef2e7f9c8b560946fa14a1a8",
+      "source": "Gfx2/UI/BigTankIcons/germany-B-1bis_captured0.mali.webp",
+      "sourceSha256": "d23f9ed00a67df0566e76521ec97e4ce447ca5fef540c89f71fd0db508e4e139",
+      "width": 292,
+      "height": 200
+    },
+    {
+      "tank": "pzii_luchs",
+      "dataId": "pziiluchs",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzII_Luchs.txt",
+      "descriptorSha256": "20ac1de49f7cde3603570e1317560aa2a9d5cdd57f8d082449bc3fac40bd72c9",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzII_Luchs0.mali.webp",
+      "sourceSha256": "ce258cddfe4ac0b074f0dc963e7ef257972d07fc66db5a74a56049f87de39e68",
+      "width": 240,
+      "height": 200
+    },
+    {
+      "tank": "pziii",
+      "dataId": "pziii",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzIII.txt",
+      "descriptorSha256": "151b0875319ab49237b2edfccbf41ccd9be98fc9e2df1fdb9ff95543268d8d63",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzIII0.mali.webp",
+      "sourceSha256": "263ab56df049905221b821d71ab8b7346ce71cffd6fa3707a7789c96f99498c4",
+      "width": 296,
+      "height": 200
+    },
+    {
+      "tank": "pz_iv_ausfd",
+      "dataId": "pzivausfd",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Pz_IV_AusfD.txt",
+      "descriptorSha256": "799449a496d9a24a5691e3357a0a98384c4cf272326d1964660096d3fb90b867",
+      "source": "Gfx2/UI/BigTankIcons/germany-Pz_IV_AusfD0.mali.webp",
+      "sourceSha256": "321e08b230b95638b78549a9f8e15994150b1693c1c83b6999a713340df9706e",
+      "width": 309,
+      "height": 200
+    },
+    {
+      "tank": "krupp-38d",
+      "dataId": "krupp38d",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Krupp-38_D.txt",
+      "descriptorSha256": "62634f9d943f2db9f48242747ad3d998c214db45a11dd7746a1f64d41300a29e",
+      "source": "Gfx2/UI/BigTankIcons/germany-Krupp-38_D0.mali.webp",
+      "sourceSha256": "6cb28eedbd38b8d6b9b700eec49a3af336ad3d82e6fd7b6a84bd80222255f757",
+      "width": 299,
+      "height": 200
+    },
+    {
+      "tank": "pziii_iv",
+      "dataId": "pziiiiv",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzIII_IV.txt",
+      "descriptorSha256": "f5603bbb1ecca17e9d91ace17f6bc46185d0668e096376adbce03d6cec63d5fd",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzIII_IV0.mali.webp",
+      "sourceSha256": "8e3cb7403ebe27c79e9cf4717eba1a417f7b092155d15fae9346dfcba01b0e4b",
+      "width": 304,
+      "height": 200
+    },
+    {
+      "tank": "pziv",
+      "dataId": "pziv",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzIV.txt",
+      "descriptorSha256": "b443be5e01f2f93f9181a9f7a76bd774f63bfb08397eb7451618e1a72def1a83",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzIV0.mali.webp",
+      "sourceSha256": "0d40c68b9b13db02f53043309d68d2a2b1c3a71e0baf8457a32d200ff98e40fc",
+      "width": 298,
+      "height": 200
+    },
+    {
+      "tank": "pziv_hydro",
+      "dataId": "pzivhydro",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzIV_Hydro.txt",
+      "descriptorSha256": "2b144292c97689dee3c8ef76a1a447a305a6455ae9509c435b5a9a58df750baa",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzIV_Hydro0.mali.webp",
+      "sourceSha256": "81202336ddff57685a63736b75312085f9adfaaa97fd16dc6061e4f4e1625238",
+      "width": 299,
+      "height": 200
+    },
+    {
+      "tank": "pzv_pziv",
+      "dataId": "pzvpziv",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzV_IV.txt",
+      "descriptorSha256": "536114964a363dc6c6dc6df53f9e3c732d449de466af35a631246b965a2d8204",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzV_IV0.mali.webp",
+      "sourceSha256": "21daabda13e812a60767bdf3c90c7314dd31f179e224beba8f0705d10f629646",
+      "width": 297,
+      "height": 200
+    },
+    {
+      "tank": "pz_sfl_ivc",
+      "dataId": "pzsflivc",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Pz_Sfl_IVc.txt",
+      "descriptorSha256": "fdc927eb319daf92fbdb8226bd717ca51552c268b55eb5d5bc2654a8f68762b2",
+      "source": "Gfx2/UI/BigTankIcons/germany-Pz_Sfl_IVc0.mali.webp",
+      "sourceSha256": "17365fec49d5b23e2daed6559339a835d0ea2c4def0a41cab0fe77f70d81840b",
+      "width": 292,
+      "height": 200
+    },
+    {
+      "tank": "stugiii",
+      "dataId": "stugiii",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-StugIII.txt",
+      "descriptorSha256": "0b368f9a8d2ce1c1e633bbc24caa29cfaf66aa43dfb2812243a134c41cca7a22",
+      "source": "Gfx2/UI/BigTankIcons/germany-StugIII0.mali.webp",
+      "sourceSha256": "6b139dc6ca8e041effd2e5a19809738f03a3cc85189b617d34c3ba3180448345",
+      "width": 289,
+      "height": 200
+    },
+    {
+      "tank": "t-25",
+      "dataId": "t25",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-T-25.txt",
+      "descriptorSha256": "fd55318827b79c140a7bc036e76bd63dc0927f3c549c1de47594a069b2c413e3",
+      "source": "Gfx2/UI/BigTankIcons/germany-T-250.mali.webp",
+      "sourceSha256": "0a41e9ad6fc3cce6fddcb3f1a5bde0a399933122de189498cf3b9909645f025f",
+      "width": 298,
+      "height": 200
+    },
+    {
+      "tank": "vk1602",
+      "dataId": "vk1602",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-VK1602.txt",
+      "descriptorSha256": "b6cde678c9f86b233e012196ee1dd41fbc79a43b4a2ee4458583cc8738a84218",
+      "source": "Gfx2/UI/BigTankIcons/germany-VK16020.mali.webp",
+      "sourceSha256": "40f7decd9447d7c0e3ea84a068eb6832bbba82694b286a69bcaa89f7a0b56132",
+      "width": 273,
+      "height": 200
+    },
+    {
+      "tank": "vk3001h",
+      "dataId": "vk3001h",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-VK3001H.txt",
+      "descriptorSha256": "83db91c5c13957d49d8a64279a052136c3cb4b5c138ef3d02dc7ebe0022a4bc4",
+      "source": "Gfx2/UI/BigTankIcons/germany-VK3001H0.mali.webp",
+      "sourceSha256": "4d1402ca1dab95e917cfa5e4ecd7a1028e32205eeeddaed7787178cb0f8d0af4",
+      "width": 305,
+      "height": 200
+    },
+    {
+      "tank": "dickermax",
+      "dataId": "dickermax",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-DickerMax.txt",
+      "descriptorSha256": "4a50094c45e1ad950044238e79975d820715790b68ab79689d9c3d03dbef784a",
+      "source": "Gfx2/UI/BigTankIcons/germany-DickerMax0.mali.webp",
+      "sourceSha256": "71f92898390c5e42494b64f6ee87613f4dbc7ef664559499f527a9a4d4cc907c",
+      "width": 301,
+      "height": 200
+    },
+    {
+      "tank": "jagdpziv",
+      "dataId": "jagdpziv",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-JagdPzIV.txt",
+      "descriptorSha256": "527c9e23785afaa8152dfc76c2365eaa3206ebd715ca90a9dbf2f392aeda2f0f",
+      "source": "Gfx2/UI/BigTankIcons/germany-JagdPzIV0.mali.webp",
+      "sourceSha256": "69c802a5c31aad6eedef819e2dea27446d4dbb54f1c0b3869f085394948593d9",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "nashorn",
+      "dataId": "nashorn",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Nashorn.txt",
+      "descriptorSha256": "fe98e7fd45fbe289b4b2b1fb37395996dc130a4cd046da42c40dbd4dcc562e0e",
+      "source": "Gfx2/UI/BigTankIcons/germany-Nashorn0.mali.webp",
+      "sourceSha256": "47391aedf7ab0ff4fec8f5e07bfd5a963358210d6dc51c185efc01961384cef9",
+      "width": 288,
+      "height": 200
+    },
+    {
+      "tank": "pziv_schmalturm",
+      "dataId": "pzivschmalturm",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzIV_Schmalturm.txt",
+      "descriptorSha256": "d64c932f688ca83908afd368c3cd2ca14e4992615ba9ac1f7cc620289f782833",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzIV_Schmalturm0.mali.webp",
+      "sourceSha256": "e7624590e67bca64748bc2dc3914bbfd314454006a19e91fc6fa9a0cfdc976ae",
+      "width": 300,
+      "height": 200
+    },
+    {
+      "tank": "vk2801",
+      "dataId": "vk2801",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-VK2801.txt",
+      "descriptorSha256": "11e1a77304a2ef27a38c85318a4e709662564ef75a17dd9f87b8690f4c60ed83",
+      "source": "Gfx2/UI/BigTankIcons/germany-VK28010.mali.webp",
+      "sourceSha256": "bd4f094927b4a888fcdaa5e87bcfd49ed0e7df65a417d3d0415c7922c5ded04a",
+      "width": 289,
+      "height": 200
+    },
+    {
+      "tank": "vk3002db_v1",
+      "dataId": "vk3002dbv1",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-VK3002DB_V1.txt",
+      "descriptorSha256": "1e7db2d2a575fb5d54686333f98f7f172648742676a514843a1ba27dfa7b81b8",
+      "source": "Gfx2/UI/BigTankIcons/germany-VK3002DB_V10.mali.webp",
+      "sourceSha256": "776e1f7423f8a61fa70141178c96df58831a23c782071e0db287cd644e39b4de",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "vk3001p",
+      "dataId": "vk3001p",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-VK3001P.txt",
+      "descriptorSha256": "3e75b498c4ac53fe60b7cee7d1e0c19694ff8def427a79c37dcb05e1c6dd264a",
+      "source": "Gfx2/UI/BigTankIcons/germany-VK3001P0.mali.webp",
+      "sourceSha256": "d3a8ea93057f56a6db5940b576e8b41691c80c662bcce8ed3d096e0f78270960",
+      "width": 284,
+      "height": 194
+    },
+    {
+      "tank": "vk3002m",
+      "dataId": "vk3002m",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-VK3002M.txt",
+      "descriptorSha256": "4c77a1bc6688f4793ff71560982152e20733dd07ab3878c51e0ae2d9d3207a0f",
+      "source": "Gfx2/UI/BigTankIcons/germany-VK3002M0.mali.webp",
+      "sourceSha256": "c7978fd7ea235f481c9e2e0d57edc537ccef9078652250acfea00f64e9bd6352",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "vk3601h",
+      "dataId": "vk3601h",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-VK3601H.txt",
+      "descriptorSha256": "1357d3e78570eb8b99d54d1bd30876810dc06d52ba4957394fef0312af06c204",
+      "source": "Gfx2/UI/BigTankIcons/germany-VK3601H0.mali.webp",
+      "sourceSha256": "9894a7c306a489f8de7617c86f40ac7e6ed94fbcc36673367ac729d1a34d02ca",
+      "width": 304,
+      "height": 200
+    },
+    {
+      "tank": "e-25",
+      "dataId": "e25",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-E-25.txt",
+      "descriptorSha256": "10f016d23d2cc74be0fb3671caf9ca7d77b8d7239ac51d85db8c6e48a51ddab5",
+      "source": "Gfx2/UI/BigTankIcons/germany-E-250.mali.webp",
+      "sourceSha256": "785256b4358f95c23c2c192b10e6cab05dcd193baf997769ab03dbb53649da6f",
+      "width": 302,
+      "height": 200
+    },
+    {
+      "tank": "jagdpanther",
+      "dataId": "jagdpanther",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-JagdPanther.txt",
+      "descriptorSha256": "0c47e9565c5677a538d43f585529c504afd0090fce95426c392614765ebba084",
+      "source": "Gfx2/UI/BigTankIcons/germany-JagdPanther0.mali.webp",
+      "sourceSha256": "6d05031719b337106781fac6b0013e7bf89860bad964b34f4d5294d2c44e8fc7",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "pzv",
+      "dataId": "pzv",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzV.txt",
+      "descriptorSha256": "aef18b1ae8c2b71663cbe3a90f8388da6f6725e7d356ba3d39bafead0a5751c3",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzV0.mali.webp",
+      "sourceSha256": "f74ccff1f799ef2fc3c0bcf2998c9f65f2058b4e8ea74ea6c81bb16ead7b730b",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "panther_m10",
+      "dataId": "pantherm10",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Panther_M10.txt",
+      "descriptorSha256": "3f308abd84dbb2e67439e16b2c07336e03836a2a2a5d4ec60a1295bfef004b5b",
+      "source": "Gfx2/UI/BigTankIcons/germany-Panther_M100.mali.webp",
+      "sourceSha256": "75a06bf069cf42b2d63ab164e711a3c283d5781d076df8c31a79aaff61828a87",
+      "width": 312,
+      "height": 200
+    },
+    {
+      "tank": "g113_sp_i_c",
+      "dataId": "g113spic",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-SP_I_C.txt",
+      "descriptorSha256": "0c2c98694a822d4fdabbce74cdbf0e6781d765e9cb8004330bb15f8e9f3c41c6",
+      "source": "Gfx2/UI/BigTankIcons/germany-SP_I_C0.mali.webp",
+      "sourceSha256": "282e3db68d21a6bc5c563a86b1f119b42fbe5a7f000abe034552687239ca4f95",
+      "width": 242,
+      "height": 200
+    },
+    {
+      "tank": "sturer_emil",
+      "dataId": "stureremil",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Sturer_Emil.txt",
+      "descriptorSha256": "af7126019c2634f3d001264f2b7a30039dedffdcf802f126f1dbf9756dd5c0f2",
+      "source": "Gfx2/UI/BigTankIcons/germany-Sturer_Emil0.mali.webp",
+      "sourceSha256": "a7ffebf4abe0cd81e37960109d3d3754823c8b7b4c7650a86d87804ccfa78541",
+      "width": 290,
+      "height": 200
+    },
+    {
+      "tank": "pzvi_tiger_p",
+      "dataId": "pzvitigerp",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzVI_Tiger_P.txt",
+      "descriptorSha256": "755508874e554f5aae72341f8987e87a8bb2d1782b032df9b454509adf0390e0",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzVI_Tiger_P0.mali.webp",
+      "sourceSha256": "8b660dd009b5376cdebb5ef34a5922283ddf98bd78688d610006d00a561666ce",
+      "width": 313,
+      "height": 193
+    },
+    {
+      "tank": "pzvi",
+      "dataId": "pzvi",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzVI.txt",
+      "descriptorSha256": "0f44f672572713017cce9ed6bd9fd322c1140e60457590b4e4aa158b3a31bf07",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzVI0.mali.webp",
+      "sourceSha256": "5bbb5cddee9d2fe975edc97aa5cce2cd42395a7d468e131ffefc0481a03da3d5",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "vk3002db",
+      "dataId": "vk3002db",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-VK3002DB.txt",
+      "descriptorSha256": "eae69c5e581949099362673ff934a03951947b53c280e47344f4c9d67f743939",
+      "source": "Gfx2/UI/BigTankIcons/germany-VK3002DB0.mali.webp",
+      "sourceSha256": "cd0dcc57151bc12836d0fd091ae7691b1ffd803a88baef0568d126a59ec9a20d",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "g118_vk4503",
+      "dataId": "g118vk4503",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-VK4503.txt",
+      "descriptorSha256": "f40ed0977558ca83d20a562ddf13bcb4d36963a5ced49efd3949a636e6428db8",
+      "source": "Gfx2/UI/BigTankIcons/germany-VK45030.mali.webp",
+      "sourceSha256": "63a2a834be94832a8db2754dd1bbac540ff0ee335d7e8df40d5e47bda97f1c0b",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "s01_frankentank",
+      "dataId": "s01frankentank",
+      "descriptor": "Gfx2/UI/BigTankIcons/Frankentank_event.txt",
+      "descriptorSha256": "6ea0251d659aa1d2ae2ff647f95f7149afb853f059d7015c44cfaf6097818dcf",
+      "source": "Gfx2/UI/BigTankIcons/Frankentank_event0.mali.webp",
+      "sourceSha256": "4da65b87eb84e235b19764abcbcea070c0bc27211626013dc18ce220b34d045c",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "jagdtiger_sdkfz_185",
+      "dataId": "jagdtigersdkfz185",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-JagdTiger8_8.txt",
+      "descriptorSha256": "f2c8072e01c0bcc5086ce64bcb3c939ce56799154787f24b42c2912c4e4f212f",
+      "source": "Gfx2/UI/BigTankIcons/germany-JagdTiger8_80.mali.webp",
+      "sourceSha256": "433ee414f004b14071c779e189a33bace70e58def9329a74f1bc1d2bf2601060",
+      "width": 318,
+      "height": 198
+    },
+    {
+      "tank": "ferdinand",
+      "dataId": "ferdinand",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Ferdinand.txt",
+      "descriptorSha256": "a86074e9ad0c8f2990c09b021caf27a453efa46c3923a1024b8277bdc7d798ae",
+      "source": "Gfx2/UI/BigTankIcons/germany-Ferdinand0.mali.webp",
+      "sourceSha256": "8f1bd10077dd957fa40f7e2ae8d538375a0b8d8dedf12933ab271bddefb18052",
+      "width": 317,
+      "height": 200
+    },
+    {
+      "tank": "indien_panzer",
+      "dataId": "indienpanzer",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Indian_Pz.txt",
+      "descriptorSha256": "cf3ab88a85238b31dd884138bb3d290b31341f5d112f49d0c9ea5e5d23a0aa49",
+      "source": "Gfx2/UI/BigTankIcons/germany-Indian_Pz0.mali.webp",
+      "sourceSha256": "8d68da5873aaef523a2897fd08f611777f5a0b95461d729676fc74e1552437a4",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "jagdpantherii",
+      "dataId": "jagdpantherii",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany_Jagdpanther_II.txt",
+      "descriptorSha256": "de7a5756a6379df751e08441b919692f31dadc929a71a1edcd42141621e330be",
+      "source": "Gfx2/UI/BigTankIcons/germany_Jagdpanther_II0.mali.webp",
+      "sourceSha256": "5ba440ec6e15b17a7fb35e05a9b84d91c84dd211aed4eea35a076e95d1c8c386",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "g120_m41_90",
+      "dataId": "g120m4190",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-M41_90.txt",
+      "descriptorSha256": "80982ac626807d19b2bcfb9d04d0e7a699705941ca8f8cc1a07606182b68b2a1",
+      "source": "Gfx2/UI/BigTankIcons/germany-M41_900.mali.webp",
+      "sourceSha256": "68f792ab77c9abfd8b12620de48dad17933105c8ecd856698ab745b7c4aa89b6",
+      "width": 284,
+      "height": 178
+    },
+    {
+      "tank": "lowe",
+      "dataId": "lowe",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Lowe.txt",
+      "descriptorSha256": "349c3eb3aba9d4af0fcc36e65c3f6d0d9349749d33ae55dd30e6cf7c3eba9cdd",
+      "source": "Gfx2/UI/BigTankIcons/germany-Lowe0.mali.webp",
+      "sourceSha256": "28723cc5c94e3bfe0c177860023b49693e0c69ddb95f70ac2a9ff577e6f3803c",
+      "width": 293,
+      "height": 197
+    },
+    {
+      "tank": "panther_ii",
+      "dataId": "pantherii",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Panther_II.txt",
+      "descriptorSha256": "51ccaa42e3f7a1051e259969191be139d353136125436070b58eda5069b260d9",
+      "source": "Gfx2/UI/BigTankIcons/germany-Panther_II0.mali.webp",
+      "sourceSha256": "de433f6947a72ee2662cd9e48a1de3fddda578f4ef41214be78c158a92299901",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "g106_pzkpfwpanther_ausff",
+      "dataId": "g106pzkpfwpantherausff",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzKpfwPanther_AusfF.txt",
+      "descriptorSha256": "6b20d7be9b70ffcdcb418f0e718d577ca42523898228a68bfe1a5e5fa34c516e",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzKpfwPanther_AusfF0.mali.webp",
+      "sourceSha256": "f32d8a32a61db4147b9fe131485fb32cfd375589fab06cec4fc36b191d5f7531",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "rhb_waffentrager",
+      "dataId": "rhbwaffentrager",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-RhB_Waffentrager.txt",
+      "descriptorSha256": "cf4be66c3a02782c41fe6bc4c9df77e1514097643840a2cae68af42129b058a9",
+      "source": "Gfx2/UI/BigTankIcons/germany-RhB_Waffentrager0.mali.webp",
+      "sourceSha256": "7bbf45f10c2902fcf97b2446179551a1097524985d2bf4f549218266a3379b51",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "g103_ru_251",
+      "dataId": "g103ru251",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-RU_251.txt",
+      "descriptorSha256": "3ffd07346383bce689189f4fc131b266c68a9d7b185659d6b10b4eb0dc758cf6",
+      "source": "Gfx2/UI/BigTankIcons/germany-RU_2510.mali.webp",
+      "sourceSha256": "61c19c76bedf1ab8cfc38a10de234d026415c0c2b55d308c5b1a2f776347ef12",
+      "width": 283,
+      "height": 200
+    },
+    {
+      "tank": "pzvib_tiger_ii",
+      "dataId": "pzvibtigerii",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-PzVIB_Tiger_II.txt",
+      "descriptorSha256": "06ff540c9faebd09574e5c390e7cd2ff504503d3abe0fb8cf03b24d09e0e6af4",
+      "source": "Gfx2/UI/BigTankIcons/germany-PzVIB_Tiger_II0.mali.webp",
+      "sourceSha256": "f7553e68f35d4e5fca379bd48f1e8eabfdc1c14d868373c1c74c69538eb08b93",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "vk4502a",
+      "dataId": "vk4502a",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-VK4502A.txt",
+      "descriptorSha256": "4ca516522fd697a4edf081df625450a790f825f4a7f698bbe7a3965313730801",
+      "source": "Gfx2/UI/BigTankIcons/germany-VK4502A0.mali.webp",
+      "sourceSha256": "bda6ab0d789567df42e3a99831e99a7d5d4216550b8e6a81be5ea2365e3d3cb6",
+      "width": 315,
+      "height": 198
+    },
+    {
+      "tank": "jagdtiger_sdkfz_185_snowstorm",
+      "dataId": "jagdtigersdkfz185snowstorm",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-JagdTiger8_8_Snowstorm.txt",
+      "descriptorSha256": "59a87f25efd3969bf08ba2e04c799e96a208516c77aca34a603d39cfdc7cfaaf",
+      "source": "Gfx2/UI/BigTankIcons/germany-JagdTiger8_8_Snowstorm0.mali.webp",
+      "sourceSha256": "8961cb6894b3b4726800d94dea17c62132a2b4cd6616f753cf9b3af7b9f039ec",
+      "width": 311,
+      "height": 198
+    },
+    {
+      "tank": "e-50",
+      "dataId": "e50",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-E-50.txt",
+      "descriptorSha256": "fcc97db4c5dd6bfc82a0165e8702f6a275fd6f2a1724e9c0fc25feeb69a02e58",
+      "source": "Gfx2/UI/BigTankIcons/germany-E-500.mali.webp",
+      "sourceSha256": "87cc8bfbf24e380ab1e2a51164a1ecca6e63de4bd57acc0e0245784479dd6911",
+      "width": 302,
+      "height": 198
+    },
+    {
+      "tank": "e-75",
+      "dataId": "e75",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-E-75.txt",
+      "descriptorSha256": "0d70386732487fb8a583e6005508c4570e3a69015dd1737db023d954157ebdd1",
+      "source": "Gfx2/UI/BigTankIcons/germany-E-750.mali.webp",
+      "sourceSha256": "304ac00fd23414fc42af4ab1ed02634a0ff099ffd866071ede0f00a555bfa73c",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "jagdtiger",
+      "dataId": "jagdtiger",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-JagdTiger.txt",
+      "descriptorSha256": "22dffa95a804810610c25ab6781756c15dd80c4e41427ebc1f02c96fbeaf93de",
+      "source": "Gfx2/UI/BigTankIcons/germany-JagdTiger0.mali.webp",
+      "sourceSha256": "df8b3446808af248c2f994710ad276c5ca9df4f767efe274dbe96f4f02db0d67",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "g_kpfpz_70",
+      "dataId": "gkpfpz70",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-KpfPz_70.txt",
+      "descriptorSha256": "b3cd8663a124165321957f0141fd34dcb9718a10e412fb15ff04e5f4ef948a04",
+      "source": "Gfx2/UI/BigTankIcons/germany-KpfPz_700.mali.webp",
+      "sourceSha256": "0ea38c4626601fe15cda557f2070124a3162d6c8114db6d03791b743b62c42b9",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "pro_ag_a",
+      "dataId": "proaga",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Leopard_PT_A.txt",
+      "descriptorSha256": "ddbdb4d4ef6a2d671e93c9bda012d5a8e4d68544d3bcc68e7e30a73f4e52a468",
+      "source": "Gfx2/UI/BigTankIcons/germany-Leopard_PT_A0.mali.webp",
+      "sourceSha256": "c3e6d271b3efdc94ec066b465707d6a125b7d7b4fc464bb13d2b74744d7f49b2",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "vk4502p",
+      "dataId": "vk4502p",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-VK4502P.txt",
+      "descriptorSha256": "9c51e7ec73d2cc6c6d558b5d756dbb032fd945d003450c23ce6a09052d05fd71",
+      "source": "Gfx2/UI/BigTankIcons/germany-VK4502P0.mali.webp",
+      "sourceSha256": "58a4c519b2f94272fc060d42294427af3d42d59dcca649b7352cb75fc914a149",
+      "width": 292,
+      "height": 200
+    },
+    {
+      "tank": "waffentrager_iv",
+      "dataId": "waffentrageriv",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Waffentrager_IV.txt",
+      "descriptorSha256": "ee5f0c933bbe53e9095f905fccf1546fdfae14bed8e4627e405ce4428653bed1",
+      "source": "Gfx2/UI/BigTankIcons/germany-Waffentrager_IV0.mali.webp",
+      "sourceSha256": "7944f18c4b2b6d51796a3514748b0d5934e51949385e5b6cb485245281b92ea5",
+      "width": 309,
+      "height": 200
+    },
+    {
+      "tank": "e-100",
+      "dataId": "e100",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-E-100.txt",
+      "descriptorSha256": "224419261992361ccab632c2c4f0e10af065e8d6206da7dced227fff331378de",
+      "source": "Gfx2/UI/BigTankIcons/germany-E-1000.mali.webp",
+      "sourceSha256": "0468ef91b67f69fce6d223d4d6a524eb00ed55e899f6955dbc8a6498ddced130",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "e50_ausf_m",
+      "dataId": "e50ausfm",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-E-50M.txt",
+      "descriptorSha256": "e97631c26347b9c482c64fddd221e8a5483fae525cbf1cf7e864ea43ff550b3e",
+      "source": "Gfx2/UI/BigTankIcons/germany-E-50M0.mali.webp",
+      "sourceSha256": "130c9e66dbd658f4d69ed939cfddeda1d84c3aca49174112188daef5e0de285f",
+      "width": 309,
+      "height": 198
+    },
+    {
+      "tank": "g121_grille_15_l63",
+      "dataId": "g121grille15l63",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Grille_15_L63.txt",
+      "descriptorSha256": "7d2a9c05a7950674f6b8e694b0812757558aeaca223661722a84c82e4aeedb53",
+      "source": "Gfx2/UI/BigTankIcons/germany-Grille_15_L630.mali.webp",
+      "sourceSha256": "2b1d136435e663533dc63db0b1e67a451a5777f42b87e5ab31de8587fa49808c",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "jagdpz_e100",
+      "dataId": "jagdpze100",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-JagdPzE100.txt",
+      "descriptorSha256": "cb98f967d0d2ee8d1ce5494869580e13928886c7e1272b7ea154d5ad67970586",
+      "source": "Gfx2/UI/BigTankIcons/germany-JagdPzE1000.mali.webp",
+      "sourceSha256": "1ca5af156e27b7f6af2810980e3816893d463853bc3b79df943d8d7a16afe489",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "leopard1",
+      "dataId": "leopard1",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Leopard1.txt",
+      "descriptorSha256": "1fbff5f54db02b92c5cd55501a1b500d0260e6f4262548946bbdc017ac4ec4ed",
+      "source": "Gfx2/UI/BigTankIcons/germany-Leopard10.mali.webp",
+      "sourceSha256": "f4f58f75fc1272968cd0b3f607ca7845631ecb97e654db0602cd6bce8ecb49d2",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "maus",
+      "dataId": "maus",
+      "descriptor": "Gfx2/UI/BigTankIcons/germany-Maus.txt",
+      "descriptorSha256": "55d440d7250cdc144d3f1ac48946da3927cb79c9d1b72d74bfab6c5d16262194",
+      "source": "Gfx2/UI/BigTankIcons/germany-Maus0.mali.webp",
+      "sourceSha256": "e47349065526d08941e66c1d5492091d237ba9a953cf9fa8fff7efcac4d4ef8b",
+      "width": 313,
+      "height": 200
+    },
+    {
+      "tank": "t1_cunningham",
+      "dataId": "t1cunningham",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T1.txt",
+      "descriptorSha256": "53a6bb6faa0871485993a4d519ea36a6984aece2fb4fe07ef23db7398194151a",
+      "source": "Gfx2/UI/BigTankIcons/usa-T10.mali.webp",
+      "sourceSha256": "291fb78f64816b06d0201276f6d3142f1ed5139d04de7ac1d45f1db261b8b382",
+      "width": 224,
+      "height": 200
+    },
+    {
+      "tank": "m2_lt",
+      "dataId": "m2lt",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M2_lt.txt",
+      "descriptorSha256": "c1bf32a60ca22226d834bcbe45df57bbd8753bcdfd9efce70d8f791437beac96",
+      "source": "Gfx2/UI/BigTankIcons/usa-M2_lt0.mali.webp",
+      "sourceSha256": "cd52dd1debe752b947739591b5201d11fb599980e93a33c21178e0dbb0e3760e",
+      "width": 249,
+      "height": 199
+    },
+    {
+      "tank": "t18",
+      "dataId": "t18",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T18.txt",
+      "descriptorSha256": "6d6c30468ab0ba7007f80cb75803a7ee7599d4a28476227d0e4d51550c7d694f",
+      "source": "Gfx2/UI/BigTankIcons/usa-T180.mali.webp",
+      "sourceSha256": "21b72d4642553afaa95aff13c057e9be05061afb944db6bd4ef3b3ead2ea90d1",
+      "width": 251,
+      "height": 200
+    },
+    {
+      "tank": "t1_e6",
+      "dataId": "t1e6",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T1_E6.txt",
+      "descriptorSha256": "28f95bbe70292abe4dd528cdbaf25705eb9f9e5c2c7182b1728927f3258f149b",
+      "source": "Gfx2/UI/BigTankIcons/usa-T1_E60.mali.webp",
+      "sourceSha256": "1a3db47957e528ba63fd130d98a667beef756f6d96ea3bf6eb1206aa582dcd7b",
+      "width": 244,
+      "height": 200
+    },
+    {
+      "tank": "t2_lt",
+      "dataId": "t2lt",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T2lt.txt",
+      "descriptorSha256": "56580c6f2c7f5bba1ade5ac121b6605fc8c5b52edd6b9deb822ba333feacb5d3",
+      "source": "Gfx2/UI/BigTankIcons/usa-T2lt0.mali.webp",
+      "sourceSha256": "37c9c61f87fe71260d36a035134ef098611c2d362c80cfee410dcf5a39ab32ce",
+      "width": 245,
+      "height": 194
+    },
+    {
+      "tank": "t2_med",
+      "dataId": "t2med",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T2_MT.txt",
+      "descriptorSha256": "2132dd9738eebf21e874e3fe48d6af7c627362e0fc5663b588a4049ca9c75fdf",
+      "source": "Gfx2/UI/BigTankIcons/usa-T2_MT0.mali.webp",
+      "sourceSha256": "53ae96221f9da9aa3fc5b33204e7d93ae9ed8c144744e8fe205f4c175e7152e8",
+      "width": 268,
+      "height": 200
+    },
+    {
+      "tank": "t7_combat_car",
+      "dataId": "t7combatcar",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T7-cc.txt",
+      "descriptorSha256": "503e2d310d1717cd565bd9d6ce63497845ae165f56805e74cbfa1a07093cf5d3",
+      "source": "Gfx2/UI/BigTankIcons/usa-T7-cc0.mali.webp",
+      "sourceSha256": "cf3e53343919fae5c952e571732e2339674f6e990296b008eba567ade2615177",
+      "width": 277,
+      "height": 200
+    },
+    {
+      "tank": "m2_med",
+      "dataId": "m2med",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M2_MT.txt",
+      "descriptorSha256": "a64885d2eb9542d3bfde191065cf04b27b38b953caaf7712ebc6b214bc0e36ba",
+      "source": "Gfx2/UI/BigTankIcons/usa-M2_MT0.mali.webp",
+      "sourceSha256": "948e88eb1038527ba0c6c3d139d86aff840e5d6e2cb23c194ad53b2e369a17cf",
+      "width": 275,
+      "height": 200
+    },
+    {
+      "tank": "m22_locust",
+      "dataId": "m22locust",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M22_Locust.txt",
+      "descriptorSha256": "89b5b74030043dea70e82ff36f87af96099be3628254c263361f14cd4327c232",
+      "source": "Gfx2/UI/BigTankIcons/usa-M22_Locust0.mali.webp",
+      "sourceSha256": "43dbe5c29da538e36bbe92831822a4657e79a523a144c0c121110befed7884c2",
+      "width": 240,
+      "height": 200
+    },
+    {
+      "tank": "m3_stuart",
+      "dataId": "m3stuart",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M3_Stuart.txt",
+      "descriptorSha256": "ad3239297598e2a20d074ad400b4637fba75a0115f3cd1610253bc50c4210e77",
+      "source": "Gfx2/UI/BigTankIcons/usa-M3_Stuart0.mali.webp",
+      "sourceSha256": "186321b13eb18c01e036a152a54aeb3f5bb84f8ddd5e15f8836ef281882a8a10",
+      "width": 212,
+      "height": 197
+    },
+    {
+      "tank": "t82",
+      "dataId": "t82",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T82.txt",
+      "descriptorSha256": "2ca040e55509c4691b8a339ea8b30fdcf38c1fa9f39b397c715b80fde97ed2b4",
+      "source": "Gfx2/UI/BigTankIcons/usa-T820.mali.webp",
+      "sourceSha256": "37e779e81b61c943960d8d42c87f6aad71ffa379bc1da637aba06aca2738d15e",
+      "width": 247,
+      "height": 199
+    },
+    {
+      "tank": "m3_grant",
+      "dataId": "m3grant",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M3lee.txt",
+      "descriptorSha256": "043775f4f516e2a1f83984f5081a97f11cc6b2021bf11b2922d2cdab5f5f4766",
+      "source": "Gfx2/UI/BigTankIcons/usa-M3lee0.mali.webp",
+      "sourceSha256": "6e4a87eb2286ccc71b753cfd2d9d7ac9a5e24c4f4fb5d1fdc0391ace68635a7c",
+      "width": 287,
+      "height": 200
+    },
+    {
+      "tank": "m5_stuart",
+      "dataId": "m5stuart",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M5_Stuart.txt",
+      "descriptorSha256": "d97fd289307da2e896aa9d699447e25d8d0cddb9d75a89476de24bde044a6ca6",
+      "source": "Gfx2/UI/BigTankIcons/usa-M5_Stuart0.mali.webp",
+      "sourceSha256": "24fae2d7303b3c043e8c781c1463c4cfebce6e75373954f0cf98d8ae2fc0a21a",
+      "width": 252,
+      "height": 200
+    },
+    {
+      "tank": "m8a1",
+      "dataId": "m8a1",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M8A1.txt",
+      "descriptorSha256": "07b12bbbfa45de51e9bd08502c7a7838c3ee26272d5bfc9ffc4872a15b941f89",
+      "source": "Gfx2/UI/BigTankIcons/usa-M8A10.mali.webp",
+      "sourceSha256": "776d926b9016d9bc3f1ac3a3fa52000c26e877debc185839224a61fef670bdb6",
+      "width": 318,
+      "height": 198
+    },
+    {
+      "tank": "t40",
+      "dataId": "t40",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T40.txt",
+      "descriptorSha256": "88490fc2139abe254fc5a63b1018f2b25ac8f5a1472697add7b971fbabd9226d",
+      "source": "Gfx2/UI/BigTankIcons/usa-T400.mali.webp",
+      "sourceSha256": "4980626729e6d8da2592724da0005ea9d979d2b8fbbcd957d41d06f5413169bc",
+      "width": 288,
+      "height": 200
+    },
+    {
+      "tank": "a77_t6m",
+      "dataId": "a77t6m",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T6_M.txt",
+      "descriptorSha256": "da6106f7b6a9a6d32a2d735cf1baef5540c00eaa298af386919c12efd97d6c8a",
+      "source": "Gfx2/UI/BigTankIcons/usa-T6_M0.mali.webp",
+      "sourceSha256": "499aa9c63ee84ca49dcb63e859c0d9bcf4ea66381b5376186b0516b064c70a90",
+      "width": 239,
+      "height": 200
+    },
+    {
+      "tank": "m10_wolverine",
+      "dataId": "m10wolverine",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M10_wolverine.txt",
+      "descriptorSha256": "57593bad2d891b048a8d7dba1a22a80684d8939f140753026fcfec842a7a6c55",
+      "source": "Gfx2/UI/BigTankIcons/usa-M10_wolverine0.mali.webp",
+      "sourceSha256": "169829d898173ec6eb061b593b47505d90a9905fa259a155cd229e14e17664cf",
+      "width": 305,
+      "height": 200
+    },
+    {
+      "tank": "m24_chaffee",
+      "dataId": "m24chaffee",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M24_Chaffee.txt",
+      "descriptorSha256": "d1699d7bb586b8853f1c3d7b5c10b7dbd2a5a17d820eee21b464ddbc52676567",
+      "source": "Gfx2/UI/BigTankIcons/usa-M24_Chaffee0.mali.webp",
+      "sourceSha256": "df2bd102d29e9e2de8fae84010a799bf914196287044743f052dc39f71437698",
+      "width": 282,
+      "height": 200
+    },
+    {
+      "tank": "m4_sherman",
+      "dataId": "m4sherman",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M4_Sherman.txt",
+      "descriptorSha256": "ddc94c1983b835dfa3ee341c1146bc267979fb671968377a7102624da376a7ef",
+      "source": "Gfx2/UI/BigTankIcons/usa-M4_Sherman0.mali.webp",
+      "sourceSha256": "4b2904a316c28fd9326da20592d62d85c20a2d1f266e827089a64649a43954f2",
+      "width": 286,
+      "height": 200
+    },
+    {
+      "tank": "m4a2e4",
+      "dataId": "m4a2e4",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M4A2E4.txt",
+      "descriptorSha256": "1d9ae07bb83985facef2e7ad34be65e273b92ac11fcc6418e3316a39e86d0bbb",
+      "source": "Gfx2/UI/BigTankIcons/usa-M4A2E40.mali.webp",
+      "sourceSha256": "8534d6451cf0cc65dd9b0527f83d2378817461cb65e4a95b4d8bad324bc7a632",
+      "width": 297,
+      "height": 200
+    },
+    {
+      "tank": "m7_med",
+      "dataId": "m7med",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M7_med.txt",
+      "descriptorSha256": "5cf126d92e164cd20e366ac5379321c986559c3f3b7dcb64146942f5f6950de3",
+      "source": "Gfx2/UI/BigTankIcons/usa-M7_med0.mali.webp",
+      "sourceSha256": "54b1963910d8fbc161d9de568d68708c0d22a2fd48cedc4e54c70b47275757b9",
+      "width": 288,
+      "height": 200
+    },
+    {
+      "tank": "ram-ii",
+      "dataId": "ramii",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-Ram-II.txt",
+      "descriptorSha256": "5535f284b86a2c8bc6598e783ba2a135916b15b7bda8967d2b50e952a4fcf4b6",
+      "source": "Gfx2/UI/BigTankIcons/usa-Ram-II0.mali.webp",
+      "sourceSha256": "9d22cc10f4e7fbfe1d35b6cc0c82f5e0710b0d9b8ae1492cb1e11614d5047a4a",
+      "width": 289,
+      "height": 200
+    },
+    {
+      "tank": "t1_hvy",
+      "dataId": "t1hvy",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T1Heavy.txt",
+      "descriptorSha256": "febcf55faae64a364988fed1658c9c9e4cded6736980a34e95f77447ef16590e",
+      "source": "Gfx2/UI/BigTankIcons/usa-T1Heavy0.mali.webp",
+      "sourceSha256": "c500a1f9640e10f8a9bd0472c766baaa186894e225ac9aad3d683d46ca12d3ae",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t14",
+      "dataId": "t14",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T14.txt",
+      "descriptorSha256": "50340743e40134925b642d215ff73788e20b36b8ac2b3b23d840783cf8489e40",
+      "source": "Gfx2/UI/BigTankIcons/usa-T140.mali.webp",
+      "sourceSha256": "bc767bdefd6058eda3fc9340ec1626c2e2d20fe5f7871c796f1e6ed7789f9158",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t49",
+      "dataId": "t49",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T49.txt",
+      "descriptorSha256": "ec0551213469661aecf0a020d92ed72b8bd20cee82431b8ee98a846f7f3f25fe",
+      "source": "Gfx2/UI/BigTankIcons/usa-T490.mali.webp",
+      "sourceSha256": "bfafee38607cc26283a4e30497d0e61913de867bfdb974fc2c2ab5010aa70cfb",
+      "width": 316,
+      "height": 198
+    },
+    {
+      "tank": "m18_hellcat",
+      "dataId": "m18hellcat",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-Hellcat.txt",
+      "descriptorSha256": "728a0a361dd376ff99d75320f2eefbc858d2b99355ad9fbf215931f69fbfaa41",
+      "source": "Gfx2/UI/BigTankIcons/usa-Hellcat0.mali.webp",
+      "sourceSha256": "d2a4c8030b5e56d6d934445e02d116f8fb99a008aff951719b5a761e650603af",
+      "width": 318,
+      "height": 198
+    },
+    {
+      "tank": "m36_slagger",
+      "dataId": "m36slagger",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M36_Slagger.txt",
+      "descriptorSha256": "3ea1fc17e9430932444baf2c5c6d66a1d85bd442bfb795e6bfac44e7d76d9e66",
+      "source": "Gfx2/UI/BigTankIcons/usa-M36_Slagger0.mali.webp",
+      "sourceSha256": "ffea06a8cf12f7cf68d24e6f3f8322533d84263b047461c0d8a394f8468ccfc6",
+      "width": 305,
+      "height": 200
+    },
+    {
+      "tank": "sherman_jumbo",
+      "dataId": "shermanjumbo",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M4A3E2_Sherman_Jumbo.txt",
+      "descriptorSha256": "54071bdd8a14bb02794badaa032365edf97ec6601fb9cde80ce73333b1c0d49b",
+      "source": "Gfx2/UI/BigTankIcons/usa-M4A3E2_Sherman_Jumbo0.mali.webp",
+      "sourceSha256": "1821ed612a5e248f3b15cf736a34ad09023db77365fd2d29db6ae48daa407e12",
+      "width": 287,
+      "height": 200
+    },
+    {
+      "tank": "a104_m4a3e8a",
+      "dataId": "a104m4a3e8a",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M4A3E8_Fury.txt",
+      "descriptorSha256": "b1772d921734a95a37edb1b4621768e5dc1ef6aae8672a6e0e637110e80d561f",
+      "source": "Gfx2/UI/BigTankIcons/usa-M4A3E8_Fury0.mali.webp",
+      "sourceSha256": "4b0caf5fd418c96cc5b2196b519ed79c5e09f0ff4fb14ccedaa10159cc5a6fce",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "m4a3e8_sherman",
+      "dataId": "m4a3e8sherman",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M4A3E8_Sherman.txt",
+      "descriptorSha256": "450dd51150f97bb26f7b12821dbc98e1003b62d5f4e5fcfe123c15150040734a",
+      "source": "Gfx2/UI/BigTankIcons/usa-M4A3E8_Sherman0.mali.webp",
+      "sourceSha256": "eac892394058261a1b4f350626f03e03121b55454da14f9ae12b48bc723765dc",
+      "width": 295,
+      "height": 200
+    },
+    {
+      "tank": "m6",
+      "dataId": "m6",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M6.txt",
+      "descriptorSha256": "23f020bd5eb58896ba287b14faceff3fa0bbbf04be5442054206113fcb689594",
+      "source": "Gfx2/UI/BigTankIcons/usa-M60.mali.webp",
+      "sourceSha256": "5b036deccc2e083d9c4cdeff6c921a249002482374d15d51229601a99d7844c3",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t21",
+      "dataId": "t21",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T21.txt",
+      "descriptorSha256": "bef66a4ce7074c353a425a4091085b5bf216cde68296f04e7069697006897ac8",
+      "source": "Gfx2/UI/BigTankIcons/usa-T210.mali.webp",
+      "sourceSha256": "9b8c0cc3b593333d9463a5204488515f5356fa693f44eaa032b9cb4d190b0b52",
+      "width": 282,
+      "height": 199
+    },
+    {
+      "tank": "a94_t37",
+      "dataId": "a94t37",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T37.txt",
+      "descriptorSha256": "74313effeb9fe870d447273528cc3e6ca34fa0d3fc7e6caad917d86c180fd85a",
+      "source": "Gfx2/UI/BigTankIcons/usa-T370.mali.webp",
+      "sourceSha256": "eecfd18b9ee02d8948de13fdb297d48e2ff9a36046afb76373395921893b4eba",
+      "width": 284,
+      "height": 200
+    },
+    {
+      "tank": "m41_bulldog",
+      "dataId": "m41bulldog",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M41_Bulldog.txt",
+      "descriptorSha256": "653a9a48d0755d8c8c228b541339cd549fb622a5f0bb7a774166bb72d51e82e1",
+      "source": "Gfx2/UI/BigTankIcons/usa-M41_Bulldog0.mali.webp",
+      "sourceSha256": "95b851895974de27d1c36584e75710f9ff48bc401c3f27e47a6ac9b194078916",
+      "width": 302,
+      "height": 200
+    },
+    {
+      "tank": "m6a2e1",
+      "dataId": "m6a2e1",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M6A2E1.txt",
+      "descriptorSha256": "3e18472570405ec66ab9e3cb36451c24259bedeabf62178dff9fcf54a97bba3c",
+      "source": "Gfx2/UI/BigTankIcons/usa-M6A2E10.mali.webp",
+      "sourceSha256": "f2b2f1f107ece5f8706be9f6a9130498306d098490e1c64638bf95ca40ab82bb",
+      "width": 317,
+      "height": 198
+    },
+    {
+      "tank": "t20",
+      "dataId": "t20",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T20.txt",
+      "descriptorSha256": "f12a4adbea7bb3c26feea9091c6b8f3e6a1dfce3f6b576451fed2b2dd5c9eb9c",
+      "source": "Gfx2/UI/BigTankIcons/usa-T200.mali.webp",
+      "sourceSha256": "1cf1650f248d20eb9f3134a2a259221779abf145ee05d682a46df51a9022b6a1",
+      "width": 301,
+      "height": 200
+    },
+    {
+      "tank": "t23e3",
+      "dataId": "t23e3",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T23E3.txt",
+      "descriptorSha256": "bb078c02b9c78b192edc1a26c7f4498eb99145cbe400fcf50879597d57814982",
+      "source": "Gfx2/UI/BigTankIcons/usa-T23E30.mali.webp",
+      "sourceSha256": "e2f8a1e520f471fd62f67ef30f7ab489ca9a214791048204dcdab53f233a56cf",
+      "width": 301,
+      "height": 200
+    },
+    {
+      "tank": "t25_at",
+      "dataId": "t25at",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T25_AT.txt",
+      "descriptorSha256": "6f63345b1435acacb8ddb6cd37fc8e9d79c01bc1fb86fc968cdf289edde3a8a6",
+      "source": "Gfx2/UI/BigTankIcons/usa-T25_AT0.mali.webp",
+      "sourceSha256": "20ed4d01444439b020d3cd39d4ff6b333efa456990ee7c35b7c382be2e131786",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t25_2",
+      "dataId": "t252",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T25_2.txt",
+      "descriptorSha256": "a1901bf9f8861d9a376f43ba94b903c79b92b0fc6d385fae5afb1b644798fb0c",
+      "source": "Gfx2/UI/BigTankIcons/usa-T25_20.mali.webp",
+      "sourceSha256": "b9fff7b54f7357ac709f44f5a8d5ba712117d36f5e8f4eac27ab6678a17767f3",
+      "width": 318,
+      "height": 198
+    },
+    {
+      "tank": "a102_t28_concept",
+      "dataId": "a102t28concept",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T28_Concept.txt",
+      "descriptorSha256": "5c0b5f9559293d9e50309d4e647d0d105968588552f813c6d5a54c792d960a72",
+      "source": "Gfx2/UI/BigTankIcons/usa-T28_Concept0.mali.webp",
+      "sourceSha256": "ff290e01e92ba3f8509f34c929d720e780c2e552989a75436ed17e851992b83b",
+      "width": 273,
+      "height": 200
+    },
+    {
+      "tank": "t29",
+      "dataId": "t29",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T29.txt",
+      "descriptorSha256": "5a9ab50cb256fd15d62ebbfb0ce2c1bb0580fb1b9434790e0d2242e18272907b",
+      "source": "Gfx2/UI/BigTankIcons/usa-T290.mali.webp",
+      "sourceSha256": "589e889542c13d0e800c96846fadcba6d0a06b0ff44dfc637b376fdacd1cd8f2",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t49_rocket",
+      "dataId": "t49rocket",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T49_Rocket.txt",
+      "descriptorSha256": "6a5f4778128eb6cf556f066966a738c4a3fb6b1887c0d64fb0cf4e2bb0677ee4",
+      "source": "Gfx2/UI/BigTankIcons/usa-T49_Rocket0.mali.webp",
+      "sourceSha256": "0006be1eff3a23d3e979a91e65e1be99becafa736f3d96113bfd54a66aee7ba5",
+      "width": 294,
+      "height": 200
+    },
+    {
+      "tank": "t71",
+      "dataId": "t71",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T71.txt",
+      "descriptorSha256": "21c0605c83150d491dff5941e304bc721f212910cf48030387cc0302b4906f2d",
+      "source": "Gfx2/UI/BigTankIcons/usa-T710.mali.webp",
+      "sourceSha256": "f18fd9cca50684bc7750a4403409d5de6df575f88695da48644a81691960640e",
+      "width": 219,
+      "height": 138
+    },
+    {
+      "tank": "pershing",
+      "dataId": "pershing",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-Pershing.txt",
+      "descriptorSha256": "d0afa69a180ac4900241f21bf13422dfe62b975e9fd9f66aff662d9c4310cf41",
+      "source": "Gfx2/UI/BigTankIcons/usa-Pershing0.mali.webp",
+      "sourceSha256": "404ed9daf0373f63a471fb6abbbeb988a9b60d5d883854988492ddc5be28659b",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "m6a2e1_exp",
+      "dataId": "m6a2e1exp",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M6A2E1_exp.txt",
+      "descriptorSha256": "e8d33e5ff0ecc88a89188399e44f627dd95822e0cd8fd20466f46f755f71d032",
+      "source": "Gfx2/UI/BigTankIcons/usa-M6A2E1_exp0.mali.webp",
+      "sourceSha256": "492201791808fe549b82ec8466c6ed80858e2053bf932d14405ed7915313f765",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t26_e4_superpershing",
+      "dataId": "t26e4superpershing",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T26_E4_SuperPershing.txt",
+      "descriptorSha256": "51a4062262814916193c4b66d717f37d22b5610412706636cee6199408619d5b",
+      "source": "Gfx2/UI/BigTankIcons/usa-T26_E4_SuperPershing0.mali.webp",
+      "sourceSha256": "920207bd17cdb6561e1c861bb8558f9c8aef67be6157f78c6e74683e74170853",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "usa-t28",
+      "dataId": "usat28",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T28.txt",
+      "descriptorSha256": "a128e8d136dc8b5d64cdc7dbd825a1896d7bc5a72320e940f34ef19adafc317c",
+      "source": "Gfx2/UI/BigTankIcons/usa-T280.mali.webp",
+      "sourceSha256": "60c92717f249571dcf2393d8b0a8f25313cb1927d82e7234ff965ee210611d8e",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t28_prototype",
+      "dataId": "t28prototype",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T28_Prototype.txt",
+      "descriptorSha256": "1562d28cdb59e7cc66f72ad97f910d0694aec0f2500d40c68ae86432fef261a6",
+      "source": "Gfx2/UI/BigTankIcons/usa-T28_Prototype0.mali.webp",
+      "sourceSha256": "1045e8dd9905ec582c4b7385781ab357cf23ab45ebee01c4320bd6116b694ddf",
+      "width": 318,
+      "height": 198
+    },
+    {
+      "tank": "t32",
+      "dataId": "t32",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T32.txt",
+      "descriptorSha256": "69a90baef4f18ee2a7460da5d7c06bfdb94c21c1daf83d5b09092b1597bf7360",
+      "source": "Gfx2/UI/BigTankIcons/usa-T320.mali.webp",
+      "sourceSha256": "e40c25f0387260f386cf80cf24b8a5ea85d60f2186e6eb927bac71c39b3debaa",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t34_hvy",
+      "dataId": "t34hvy",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T34_hvy.txt",
+      "descriptorSha256": "4dd7f82b3f72bbb3e3df28257ae2d89bef77aa1de49056b9ebed2843813cb05b",
+      "source": "Gfx2/UI/BigTankIcons/usa-T34_hvy0.mali.webp",
+      "sourceSha256": "d5d3513f067c5439aa03eb93c5fcfef41f1521adc0bc1c0ffc22c836086da6a2",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t34_hvy_freedom",
+      "dataId": "t34hvyfreedom",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T34_hvy_Freedom.txt",
+      "descriptorSha256": "f7718f936868f5ad970ead7bba4813d6e174d81ff2e5d2219cb73b2a44fbbf71",
+      "source": "Gfx2/UI/BigTankIcons/usa-T34_hvy_Freedom0.mali.webp",
+      "sourceSha256": "e6a8cc5859162444e30ece32ca44a14c5e652ac26f50a69f270b611b33ad5ff2",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "a100_t49",
+      "dataId": "a100t49",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-A100_T49.txt",
+      "descriptorSha256": "b974e7737f21a4cc2afc9cc164ec0af38dde8e7efe63373af78691d03bf2cd24",
+      "source": "Gfx2/UI/BigTankIcons/usa-A100_T490.mali.webp",
+      "sourceSha256": "f552f881d39bf75356e51ea4e62b28f6350eac41ad89c1817acc829b2632b7fb",
+      "width": 282,
+      "height": 200
+    },
+    {
+      "tank": "t69",
+      "dataId": "t69",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T69.txt",
+      "descriptorSha256": "7e63d9722b4cc0c89c845c44ba4b4aeeb891e094cc8cf5ed9f0d03c90d25ea91",
+      "source": "Gfx2/UI/BigTankIcons/usa-T690.mali.webp",
+      "sourceSha256": "fe549577c5116fb72319ef2e16135e289a0dcc757a37870f70b632d79ee3b6c6",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t95e2",
+      "dataId": "t95e2",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T95E2.txt",
+      "descriptorSha256": "eaf06099f53f6006f60b79b54fe48571bb3afc722a7bd3e87f5066f6b34862eb",
+      "source": "Gfx2/UI/BigTankIcons/usa-T95E20.mali.webp",
+      "sourceSha256": "3daf50a359236b862b028f50454619f139bcdbb1767515cde1124c9c961e19b5",
+      "width": 300,
+      "height": 200
+    },
+    {
+      "tank": "m103",
+      "dataId": "m103",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M103.txt",
+      "descriptorSha256": "7ff8950939a3d41c953897d7fb300f0e51c83bcdbf0cadc7259bba7db97c3b7a",
+      "source": "Gfx2/UI/BigTankIcons/usa-M1030.mali.webp",
+      "sourceSha256": "5e35c31c6fd081d3bf76715ab83ab955573ba8ef1096b4ba81ec88745a3c7aff",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "m46_patton",
+      "dataId": "m46patton",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M46_Patton.txt",
+      "descriptorSha256": "bb10ac7ce083f1b4ddad90ad0f5149254cfaffe1ea7580aa22684935505db32b",
+      "source": "Gfx2/UI/BigTankIcons/usa-M46_Patton0.mali.webp",
+      "sourceSha256": "2f256be2d860619e169f0b0c810b126b47db35d47bdc0aa63d2a15b0bc6d58d5",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t30",
+      "dataId": "t30",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T30.txt",
+      "descriptorSha256": "38f7955d06dfcf17585f869808bb523dbb7b620019b4ca9c235be0cf7e022419",
+      "source": "Gfx2/UI/BigTankIcons/usa-T300.mali.webp",
+      "sourceSha256": "99b681f56571b26500950b0027cb30e6506dc0ca36fc0cd8eb167eed1dc4af0b",
+      "width": 318,
+      "height": 198
+    },
+    {
+      "tank": "t54e1",
+      "dataId": "t54e1",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T54E1.txt",
+      "descriptorSha256": "3802b66fabdc8c509cdf1ebd567d2c3de2dc7a47236a6a52175541bca5b308d5",
+      "source": "Gfx2/UI/BigTankIcons/usa-T54E10.mali.webp",
+      "sourceSha256": "5df3877a4aca26fb49e8d358f27af5549605eda715648eaffb48c46a2ee70748",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t95",
+      "dataId": "t95",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T95.txt",
+      "descriptorSha256": "183203fc8bf857aa9d4bffdfd1d56963184c77b79fef5a5d235a6b6c74636070",
+      "source": "Gfx2/UI/BigTankIcons/usa-T950.mali.webp",
+      "sourceSha256": "26bab5463b1d21f2b0bf5212975d9f53214c793c83ea978b1f13f5c2af4129e1",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "m48a1",
+      "dataId": "m48a1",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M48A1_Patton.txt",
+      "descriptorSha256": "b429b69d99c202958d44c5d7785563c5ad02f3fb33ca952ff601d87228b7e279",
+      "source": "Gfx2/UI/BigTankIcons/usa-M48A1_Patton0.mali.webp",
+      "sourceSha256": "0b2ac55d540f142ffdf0a32d6970fef5f7bbcc0990436c276a608144869e2d22",
+      "width": 320,
+      "height": 198
+    },
+    {
+      "tank": "m60",
+      "dataId": "m60",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-M60.txt",
+      "descriptorSha256": "0d7ffae45f6b559ddb5862e0e880182c1d7983c7d9f972320ad14a0cf9f77775",
+      "source": "Gfx2/UI/BigTankIcons/usa-M600.mali.webp",
+      "sourceSha256": "0177aafc7acdbfacf7976383d8e9d05ce35ecc71bb2db9d1bb20539563b66889",
+      "width": 312,
+      "height": 200
+    },
+    {
+      "tank": "t110e3",
+      "dataId": "t110e3",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T110E3.txt",
+      "descriptorSha256": "5379c059bf08173cebf1e72fb1f26d9fc7814d33550e88030d8c17f0f4eb80f0",
+      "source": "Gfx2/UI/BigTankIcons/usa-T110E30.mali.webp",
+      "sourceSha256": "a7122fb00f4709200d9b8d44e67ae57d6703e0b1890051c344ac25c6537ff17c",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "t110e4",
+      "dataId": "t110e4",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T110E4.txt",
+      "descriptorSha256": "522cbc88479d9aa6a06431d086f773022844687645d5655b87ff66c04f0e8c24",
+      "source": "Gfx2/UI/BigTankIcons/usa-T110E40.mali.webp",
+      "sourceSha256": "b2027e36d9247bd470138abdc4183d55bcf9e592cab534fecaabb43a33f80411",
+      "width": 318,
+      "height": 198
+    },
+    {
+      "tank": "t110",
+      "dataId": "t110",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T110E5.txt",
+      "descriptorSha256": "9a8f1536b74b8bf0a41b48b5ce53698e85e6f7a4db24cd008ee04c9f30637bcc",
+      "source": "Gfx2/UI/BigTankIcons/usa-T110E50.mali.webp",
+      "sourceSha256": "997039238a797195f5f69db7805957a7b00667031232419b76ded9c4701bc8ba",
+      "width": 319,
+      "height": 200
+    },
+    {
+      "tank": "t57_58",
+      "dataId": "t5758",
+      "descriptor": "Gfx2/UI/BigTankIcons/usa-T57_58.txt",
+      "descriptorSha256": "1546715bab1a0be21df3c25338f857a948e495b8e2b0e0194b459d82485a9361",
+      "source": "Gfx2/UI/BigTankIcons/usa-T57_580.mali.webp",
+      "sourceSha256": "37406f39d3ae6052245f2387bfbe6657638fc2f42284bcb6ec17ad3ed7f39ee7",
+      "width": 319,
+      "height": 200
+    },
+    {
+      "tank": "gb_mark_i",
+      "dataId": "gbmarki",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Mark_I.txt",
+      "descriptorSha256": "ba7cbc919cd15f7d4aea1ab2de4047326c5367f095fc9a3d2c768bae823b2e7a",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Mark_I0.mali.webp",
+      "sourceSha256": "2c3c4eefad9667b88f4b38383e30328a192aa5fca9b2638a8bf12e89cbf04ae6",
+      "width": 309,
+      "height": 200
+    },
+    {
+      "tank": "gb01_medium_mark_i",
+      "dataId": "gb01mediummarki",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Medium_I.txt",
+      "descriptorSha256": "09bf7421c440ce458c69ff4b5360c84158bd9ff2545c2c0b56d645ffd2dc6556",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Medium_I0.mali.webp",
+      "sourceSha256": "59451aebb3cbe329f4e9f393de648c448215ae1af35f19ff16d4d3c21179859a",
+      "width": 315,
+      "height": 189
+    },
+    {
+      "tank": "gb03_cruiser_mk_i",
+      "dataId": "gb03cruisermki",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Cruiser_Mk_I.txt",
+      "descriptorSha256": "fefa277e10c0895fd9b99e6dd84c16418c46e959ce9668f5ec576f86a3b44152",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Cruiser_Mk_I0.mali.webp",
+      "sourceSha256": "3bd7f48bafe6ff63d749ce25b862bdf81b70d5fdddd6a03a83f17bef4629b9fe",
+      "width": 257,
+      "height": 200
+    },
+    {
+      "tank": "gb58_cruiser_mk_iii",
+      "dataId": "gb58cruisermkiii",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Cruiser_III.txt",
+      "descriptorSha256": "0197793fb4167c436c113b75475c52c09a9f7e6fae5376fbccb1555baa781740",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Cruiser_III0.mali.webp",
+      "sourceSha256": "6c2da51905999249dea5b210c92e93a0f11a16e7f7afe0f93a813436c869b52c",
+      "width": 258,
+      "height": 198
+    },
+    {
+      "tank": "gb76_mk_vic",
+      "dataId": "gb76mkvic",
+      "descriptor": "Gfx2/UI/BigTankIcons/british-Mk_VIc.txt",
+      "descriptorSha256": "33f3570bb6691c682c31c0a85e3528fb61b1cf537411c1d345230e80b77a7f78",
+      "source": "Gfx2/UI/BigTankIcons/british-Mk_VIc0.mali.webp",
+      "sourceSha256": "97130fc9652ac5970b33c963229565a6fcc61e50260714dc92809fdaa56a887c",
+      "width": 234,
+      "height": 195
+    },
+    {
+      "tank": "gb39_universal_carrierqf2",
+      "dataId": "gb39universalcarrierqf2",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Universal_CarrierQF2.txt",
+      "descriptorSha256": "20317456d49c64e0c4a74b09e1a80833c6828476f5ec0cc1a0feba11df3e878b",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Universal_CarrierQF20.mali.webp",
+      "sourceSha256": "fcf98c0918aa42c4d2a96f3610c1be22acd1ce14a0a54996f5453fff76d4ffcc",
+      "width": 245,
+      "height": 200
+    },
+    {
+      "tank": "gb05_vickers_medium_mk_ii",
+      "dataId": "gb05vickersmediummkii",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Medium_II.txt",
+      "descriptorSha256": "08ee79595f98ecf75373326d7996c45c0e6303ee24cdd29d54f037964902efdd",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Medium_II0.mali.webp",
+      "sourceSha256": "fff25903b97955e665b4b9125a0e3cef7cbcb8d436c7662f377b947963f9e4bd",
+      "width": 254,
+      "height": 192
+    },
+    {
+      "tank": "gb69_cruiser_mk_ii",
+      "dataId": "gb69cruisermkii",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Cruiser_Mk_II.txt",
+      "descriptorSha256": "133b9a76cead620fdab75c0e923b31162b09680951d4ead0121add50fc4f7328",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Cruiser_Mk_II0.mali.webp",
+      "sourceSha256": "83a3dbcce2081df0bd9cc6b5c50a5a9f60bbba8d7ec0ba60c57f8e880a37f682",
+      "width": 255,
+      "height": 200
+    },
+    {
+      "tank": "gb59_cruiser_mk_iv",
+      "dataId": "gb59cruisermkiv",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Cruiser_IV.txt",
+      "descriptorSha256": "af0956ef6e0e763f8390e82e0b6d48c98fd8c5e38f429cff8b326fe615e47803",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Cruiser_IV0.mali.webp",
+      "sourceSha256": "98e14b55ad30853b762984ae137d285554b30d7909e1c81bd3535eaad59478ad",
+      "width": 271,
+      "height": 198
+    },
+    {
+      "tank": "gb42_valentine_at",
+      "dataId": "gb42valentineat",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Valentine_AT.txt",
+      "descriptorSha256": "950f01acae14d88194c084a9dc05765e773adae220c26d77c60cd6355b2c1d6f",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Valentine_AT0.mali.webp",
+      "sourceSha256": "a665a98f52bdddcfb9b9c077a2c9c28d2de263183fb1fe0acf2225f7c8519487",
+      "width": 295,
+      "height": 200
+    },
+    {
+      "tank": "gb06_vickers_medium_mk_iii",
+      "dataId": "gb06vickersmediummkiii",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Medium_III.txt",
+      "descriptorSha256": "a13221bd5415004fbaa4b2629632244b69597be31d68eaf092bee42d311867bd",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Medium_III0.mali.webp",
+      "sourceSha256": "dc04bdea33c20047204ae65e4bbf488ee1ea2bba23743d5956e1a2aab25652b1",
+      "width": 267,
+      "height": 200
+    },
+    {
+      "tank": "sentinel_ac1",
+      "dataId": "sentinelac1",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Sentinel_AC1.txt",
+      "descriptorSha256": "bb0da2a1f9121ae687eff1cef728cbdb03b3004ec0e7cc5416d4df4d9244336d",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Sentinel_AC10.mali.webp",
+      "sourceSha256": "762997a381360a4959427318763aafb7ca7e30079deb0907c4ffcabc27e3fb69",
+      "width": 269,
+      "height": 200
+    },
+    {
+      "tank": "gb57_alecto",
+      "dataId": "gb57alecto",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Alecto.txt",
+      "descriptorSha256": "6ff2f3f10e92d4dfdcc014261ef97a3379da3ec79908cc1d0ff5e3ae19f4942f",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Alecto0.mali.webp",
+      "sourceSha256": "f37a8d3f03609633fce422c2fae26e4aafd69f6c1098e94e8f5b9e809c442ba2",
+      "width": 273,
+      "height": 200
+    },
+    {
+      "tank": "gb60_covenanter",
+      "dataId": "gb60covenanter",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Covenanter.txt",
+      "descriptorSha256": "641899b781be00644959e9cb96e83b4f80ffa6af2ae0b7d66a975cf77f438b5c",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Covenanter0.mali.webp",
+      "sourceSha256": "a3645b4208fec46415f936439225452e4ba533cc2eb7378c6524b8f815023d8d",
+      "width": 314,
+      "height": 198
+    },
+    {
+      "tank": "gb07_matilda",
+      "dataId": "gb07matilda",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Matilda.txt",
+      "descriptorSha256": "7bc9961a1ae91666f1510db60e33046f32ac02581c6d159053a92a1cded839fc",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Matilda0.mali.webp",
+      "sourceSha256": "91acdba575e4f8021149041c281321b01c5a5159bd32c4cea7e1a4e200f93bbd",
+      "width": 262,
+      "height": 199
+    },
+    {
+      "tank": "gb04_valentine",
+      "dataId": "gb04valentine",
+      "descriptor": "Gfx2/UI/BigTankIcons/british-Valentine.txt",
+      "descriptorSha256": "31c0b5cf24b32f751031214c62f278596d8b115a494189c293900ec29dd1e9ec",
+      "source": "Gfx2/UI/BigTankIcons/british-Valentine0.mali.webp",
+      "sourceSha256": "c6a34b20e894f610cb9c7563bbbba25c8f80fe38c7c7ad01f5654f88db7e7fb8",
+      "width": 244,
+      "height": 192
+    },
+    {
+      "tank": "gb73_at2",
+      "dataId": "gb73at2",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-AT2.txt",
+      "descriptorSha256": "9a7230e02b9994d5e8c0d43bbd6065fb853273239e92c7b5f9c072898b917534",
+      "source": "Gfx2/UI/BigTankIcons/britsh-AT20.mali.webp",
+      "sourceSha256": "c07124e22b1801bffc4f57d648ecf7add000c51c923085e22347174505ad7505",
+      "width": 290,
+      "height": 200
+    },
+    {
+      "tank": "gb08_churchill_i",
+      "dataId": "gb08churchilli",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Churchill_I.txt",
+      "descriptorSha256": "0d06873152518300be0aa78f0d61752009703c50597e32b1824fc13d22b43e71",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Churchill_I0.mali.webp",
+      "sourceSha256": "78fda6875e2e543d397cc1bbc153b95eff23c741077b7e0703d38fbc0cef73df",
+      "width": 318,
+      "height": 200
+    },
+    {
+      "tank": "gb20_crusader",
+      "dataId": "gb20crusader",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Crusader.txt",
+      "descriptorSha256": "65a34b90619d608c8cc6965256bc9f07c90d6523ad4dc1af0f42fa10e9558787",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Crusader0.mali.webp",
+      "sourceSha256": "82bfd7edc38dbe54c44dcf950b873125a78bdf3e5b7f30a79cc69b63279baa6a",
+      "width": 302,
+      "height": 197
+    },
+    {
+      "tank": "gb51_excelsior",
+      "dataId": "gb51excelsior",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Excelsior.txt",
+      "descriptorSha256": "de60546ff829945f51e264f07fc4abb820c40a5a4e4cd0508f0d6952a3ad04b3",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Excelsior0.mali.webp",
+      "sourceSha256": "12c2a0e525decd1264917fb830f18340d3cb367560438552cf73daca305f443a",
+      "width": 306,
+      "height": 200
+    },
+    {
+      "tank": "gb68_matilda_black_prince",
+      "dataId": "gb68matildablackprince",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-MatildaBP.txt",
+      "descriptorSha256": "ec00a4c0971f8209933b891000bcae759890600a24d1d5eca3cb1a4df08ae1c0",
+      "source": "Gfx2/UI/BigTankIcons/britsh-MatildaBP0.mali.webp",
+      "sourceSha256": "b7e42f438253da9d739c5cc925a42cda7c25ae85c6890a5913f6b855f088b1c2",
+      "width": 318,
+      "height": 200
+    },
+    {
+      "tank": "gb_sherman_v",
+      "dataId": "gbshermanv",
+      "descriptor": "Gfx2/UI/BigTankIcons/british-Sherman_V.txt",
+      "descriptorSha256": "8ce735dd05ebdd8d291b706ab035c957264cdcf1fd183aba5a16bbdcd79ae37b",
+      "source": "Gfx2/UI/BigTankIcons/british-Sherman_V0.mali.webp",
+      "sourceSha256": "5558ff886e96a966234bfd2c200f45201d6334b0ba8a6f206eeae3fd401eec08",
+      "width": 264,
+      "height": 200
+    },
+    {
+      "tank": "gb44_archer_custom",
+      "dataId": "gb44archercustom",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Archer_custom.txt",
+      "descriptorSha256": "829bd3753d5b2f500d882179a4b8bd76f299d504d096317088a66c1cba1a5376",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Archer_custom0.mali.webp",
+      "sourceSha256": "a50edbe0241af8d5541b5aa6cfd1b3556f5e0f56b3a4173e1f3b34ede6e9caf5",
+      "width": 280,
+      "height": 200
+    },
+    {
+      "tank": "gb35_sentinel_ac_iv",
+      "dataId": "gb35sentinelaciv",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Sentinel_AC_IV.txt",
+      "descriptorSha256": "284d7e5b9df3f0b1c5d61166af5ad0df017f053b978b62beecc7f16ac30a83af",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Sentinel_AC_IV0.mali.webp",
+      "sourceSha256": "1395bef1c96c683aadf1976b86dfa52a3bc8471ef7e3c6ad4af60b4113196938",
+      "width": 297,
+      "height": 200
+    },
+    {
+      "tank": "gb74_at8",
+      "dataId": "gb74at8",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-AT8.txt",
+      "descriptorSha256": "f5f9f9f83ee74952bc4967bcd99350a4691b87be010c585853b6cdbe7e55eaeb",
+      "source": "Gfx2/UI/BigTankIcons/britsh-AT80.mali.webp",
+      "sourceSha256": "b2416226fe5c1fe5a12295020f98ade92412219d00d1e195d4c5f757030567a6",
+      "width": 298,
+      "height": 200
+    },
+    {
+      "tank": "gb40_gun_carrier_churchill",
+      "dataId": "gb40guncarrierchurchill",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Churchill_GC.txt",
+      "descriptorSha256": "23eaa33331a285e748b780857af4a10b1d4cab1db82386b8b91166c8821a29b7",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Churchill_GC0.mali.webp",
+      "sourceSha256": "710d919b417053ba00b09b2454c65fb81896225ed7d7db78e6ef7c38eb01457b",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "gb_churchill_mkvi",
+      "dataId": "gbchurchillmkvi",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh_Churchill_MkVI.txt",
+      "descriptorSha256": "b4185b71e6e470a0082523ceaa7761ced87215f14940ea2d0fbe22647a17f9b8",
+      "source": "Gfx2/UI/BigTankIcons/britsh_Churchill_MkVI0.mali.webp",
+      "sourceSha256": "c7adca0eec48b03cfb8d0a7838327131c318df249a4a628abbb08dbc0c9c80ac",
+      "width": 274,
+      "height": 200
+    },
+    {
+      "tank": "gb09_churchill_vii",
+      "dataId": "gb09churchillvii",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Churchill_VII.txt",
+      "descriptorSha256": "2d27577a341e15d53e212cf1a8b8f096b2078768c6275a139ca54cdd83c105c3",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Churchill_VII0.mali.webp",
+      "sourceSha256": "ddeaeb699751771757314f9477d9d8f4e19f6ebb74ab400523418ab912cdb56a",
+      "width": 300,
+      "height": 200
+    },
+    {
+      "tank": "gb21_cromwell",
+      "dataId": "gb21cromwell",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Cromwell.txt",
+      "descriptorSha256": "4d40f79f23e9b7d32ce1fd553b49b7a1923b4a490fe0e8173b57b88797a047a8",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Cromwell0.mali.webp",
+      "sourceSha256": "5a5de726180909954beca15beb16e5ea8b5b29fdff80ae346ac80dda396b1fdd",
+      "width": 316,
+      "height": 200
+    },
+    {
+      "tank": "gb85_cromwell_berlin",
+      "dataId": "gb85cromwellberlin",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Cromwell_Berlin.txt",
+      "descriptorSha256": "e09b00b30e09fea8bc202f17fc36c6941db0d924379d9edd59383a8f9415e281",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Cromwell_Berlin0.mali.webp",
+      "sourceSha256": "777246b53dd182993cff6fff49e6df6bd148df6548bab85d9602ef9e42328801",
+      "width": 294,
+      "height": 200
+    },
+    {
+      "tank": "gb19_sherman_firefly",
+      "dataId": "gb19shermanfirefly",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Sherman_Firefly.txt",
+      "descriptorSha256": "611c08dd478179a2c97275eea3ce98dbf777ecf4ac62eefe2f0116c5dfc67e9a",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Sherman_Firefly0.mali.webp",
+      "sourceSha256": "072ea52675f0c571baa64b9b9b2f5fa6595ce34f3c77a8c5c98854641c9f5a75",
+      "width": 279,
+      "height": 200
+    },
+    {
+      "tank": "gb63_tog_ii",
+      "dataId": "gb63togii",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-TOG_II.txt",
+      "descriptorSha256": "328752c4ce628722dde569567d5bd78ade075216ff477e7acccfdaea2faab24a",
+      "source": "Gfx2/UI/BigTankIcons/britsh-TOG_II0.mali.webp",
+      "sourceSha256": "4f75b6827cded9d57c4b2203db776350a9757c3312f055df665ceb12898408c3",
+      "width": 318,
+      "height": 198
+    },
+    {
+      "tank": "gb71_at_15a",
+      "dataId": "gb71at15a",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-AT15A.txt",
+      "descriptorSha256": "807213b7bdbfafc9bbf3583f69e4405b47902289bcb726ca13617bcfb00b50d7",
+      "source": "Gfx2/UI/BigTankIcons/britsh-AT15A0.mali.webp",
+      "sourceSha256": "6beadaba01736b3a28a8b61a600c8bea7c562f320bb1d7b36ae4c53d01551d08",
+      "width": 283,
+      "height": 196
+    },
+    {
+      "tank": "gb75_at7",
+      "dataId": "gb75at7",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-AT7.txt",
+      "descriptorSha256": "2e4501f000664fc8f9684d5a2c8916425e8b61e7502134fca8ad312cb6416ef3",
+      "source": "Gfx2/UI/BigTankIcons/britsh-AT70.mali.webp",
+      "sourceSha256": "d03f638fefe238391ef2ce22075ad819829c13f9644d07edae73ced91c3578cf",
+      "width": 303,
+      "height": 200
+    },
+    {
+      "tank": "gb10_black_prince",
+      "dataId": "gb10blackprince",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-BlackPrince.txt",
+      "descriptorSha256": "6b943af32637390f99dca4cb0efbf2cb96c35af6bf9fd661f7cfb62b5e52c30c",
+      "source": "Gfx2/UI/BigTankIcons/britsh-BlackPrince0.mali.webp",
+      "sourceSha256": "31758cd2a94e84c1e42643812acc4aa1df6a1d35052cb6d99856c57b42875f05",
+      "width": 314,
+      "height": 200
+    },
+    {
+      "tank": "gb22_comet",
+      "dataId": "gb22comet",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Comet.txt",
+      "descriptorSha256": "2fc401b1fd740a9916fe3b9a5825993c32acb8044decf18b1c70151adb892208",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Comet0.mali.webp",
+      "sourceSha256": "3cb2e2d72fce2b2c71243ca5da2540ad99adb01f7e14c31ec39ac9c9b0b23291",
+      "width": 315,
+      "height": 200
+    },
+    {
+      "tank": "gb72_at15",
+      "dataId": "gb72at15",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-AT15.txt",
+      "descriptorSha256": "23f49b0006979326c2c726b28c68d4e568e6d4d1d8d510efb58e0a4237205534",
+      "source": "Gfx2/UI/BigTankIcons/britsh-AT150.mali.webp",
+      "sourceSha256": "542bdaa2db8d3aa26208026cab5224cbc97bc16f71e3ece040f6ebc75869b46e",
+      "width": 312,
+      "height": 200
+    },
+    {
+      "tank": "gb11_caernarvon",
+      "dataId": "gb11caernarvon",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Caernarvon.txt",
+      "descriptorSha256": "068a0d20ebd482cac8027333ebdad79877db65dcdb109f397ab2688bfdca5e2e",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Caernarvon0.mali.webp",
+      "sourceSha256": "86ad5ead1554d7af002f817b9c0ff9082f108f0c8037329f266b9085f67c3a8a",
+      "width": 317,
+      "height": 200
+    },
+    {
+      "tank": "gb23_centurion",
+      "dataId": "gb23centurion",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Centurion_I.txt",
+      "descriptorSha256": "7efc3683c71c76458731ddf0187c6a5ecb73c3e446eb4385c7bae6564b3282c5",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Centurion_I0.mali.webp",
+      "sourceSha256": "5ef76fe82a1ab8c4492bca02b25dfcfea371d2693a1d1cffd2fdca58e9ba042a",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "gb87_chieftain_t95_turret",
+      "dataId": "gb87chieftaint95turret",
+      "descriptor": "Gfx2/UI/BigTankIcons/british-Chieftain_T95_turret.txt",
+      "descriptorSha256": "d5e9dc00c684f3d52932ef43458ad220e035f4da12ae4bc6008e5e1d983a805a",
+      "source": "Gfx2/UI/BigTankIcons/british-Chieftain_T95_turret0.mali.webp",
+      "sourceSha256": "bacf115847e8779200474e0e0f9a274eaad4d9516477aa859054bc10211a923f",
+      "width": 316,
+      "height": 200
+    },
+    {
+      "tank": "gb24_centurion_mk3",
+      "dataId": "gb24centurionmk3",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Centurion_7-1.txt",
+      "descriptorSha256": "3ed74257aa94da841a9e07839eb39a6b97dd40dab8db7e38dd8df418063fc36b",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Centurion_7-10.mali.webp",
+      "sourceSha256": "c36596133d269ced776094bf653a02cae7bb29a374aaad442a028cef141ab7b6",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "gb12_conqueror",
+      "dataId": "gb12conqueror",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Conqueror.txt",
+      "descriptorSha256": "d69ce9318ee86a635d263586a05025345c59e3eaf4f0bca3d7d145bc9d865479",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Conqueror0.mali.webp",
+      "sourceSha256": "4e759479b09d0a7a706b891b713365919352c4b53fb771a7744d5d33e97ece63",
+      "width": 310,
+      "height": 200
+    },
+    {
+      "tank": "gb32_tortoise",
+      "dataId": "gb32tortoise",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Tortoise.txt",
+      "descriptorSha256": "a515ede6a6d607d2f2b3d065a1cb87ae213fd439c355efb9c37bf6b1385731b5",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Tortoise0.mali.webp",
+      "sourceSha256": "79d1455bd61157a88d8ad4db24396bbd3054125ee3f0b0932c877030917b1427",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "gb84_chieftain_mk6",
+      "dataId": "gb84chieftainmk6",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-Chieftain_Mk6.txt",
+      "descriptorSha256": "6e3f6d13342fd4cb6f6376f40a5466618f363b09ff8bb5210ed887fb3876933d",
+      "source": "Gfx2/UI/BigTankIcons/britsh-Chieftain_Mk60.mali.webp",
+      "sourceSha256": "78ae2d37a1b26eedf4cf128bf9892b867cf8e1b05778b184aca07ff8c2bc9059",
+      "width": 315,
+      "height": 200
+    },
+    {
+      "tank": "gb13_fv215b",
+      "dataId": "gb13fv215b",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-FV215b.txt",
+      "descriptorSha256": "f668bdb47d153fba907ffae55e34921f826d54fc707acb35f59cb13aaf855556",
+      "source": "Gfx2/UI/BigTankIcons/britsh-FV215b0.mali.webp",
+      "sourceSha256": "9b20b0c11f9fa60acc5b7ef5b2862e773ca6f1d58ae6a0b87a8c7b4fd2840b7e",
+      "width": 317,
+      "height": 198
+    },
+    {
+      "tank": "gb48_fv215b_183",
+      "dataId": "gb48fv215b183",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-FV215b_183.txt",
+      "descriptorSha256": "6c86da487e8206b85c8b6a1e46bf69fc8233db154e0bdb9b4d4ad5604db3b04b",
+      "source": "Gfx2/UI/BigTankIcons/britsh-FV215b_1830.mali.webp",
+      "sourceSha256": "7d87304845e6b1fd7539053249743892b820f34c750980d4e9795050d4ecd939",
+      "width": 319,
+      "height": 200
+    },
+    {
+      "tank": "gb70_fv4202_105",
+      "dataId": "gb70fv4202105",
+      "descriptor": "Gfx2/UI/BigTankIcons/britsh-FV4202.txt",
+      "descriptorSha256": "ac9affdbcc6f116ddafdb32eac50a1fe30700e38a1db8556957640bd11caf12b",
+      "source": "Gfx2/UI/BigTankIcons/britsh-FV42020.mali.webp",
+      "sourceSha256": "7c751590196426d7cfe950fa72ad8e7eb952fd55885b714566843ccdb2d0bf5b",
+      "width": 317,
+      "height": 200
+    },
+    {
+      "tank": "nc27",
+      "dataId": "nc27",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-NC27.txt",
+      "descriptorSha256": "d7f2e5a3887e11c8b8e4cceab8164035b9e925c6d52ca86dd9362341d010fab3",
+      "source": "Gfx2/UI/BigTankIcons/japan-NC270.mali.webp",
+      "sourceSha256": "400e700862afa634845ddcabb76aaac9ad6af8d3877de09cbc1125a4a951a361",
+      "width": 243,
+      "height": 197
+    },
+    {
+      "tank": "chi_ni",
+      "dataId": "chini",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-Chi_Ni.txt",
+      "descriptorSha256": "fd2d6d55f7fefd1ade47adce4d2ef4b24259b72e5221d6ee15d1e20f1bb886d4",
+      "source": "Gfx2/UI/BigTankIcons/japan-Chi_Ni0.mali.webp",
+      "sourceSha256": "9f2906a7cf4e5585175abba4e7656fa782237abab8222ade70ff976b99b1be3b",
+      "width": 268,
+      "height": 200
+    },
+    {
+      "tank": "ha_go",
+      "dataId": "hago",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-Ha_Go.txt",
+      "descriptorSha256": "327d4e727226d113b5c73f5620b179e7124fbd023cc6d65606bf8b575baae938",
+      "source": "Gfx2/UI/BigTankIcons/japan-Ha_Go0.mali.webp",
+      "sourceSha256": "963d8a65485024c9be44c1872d88de91c2b45e8ef8dbba5c1f61e53c72dcf57b",
+      "width": 254,
+      "height": 200
+    },
+    {
+      "tank": "chi_ha",
+      "dataId": "chiha",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-Chi_Ha.txt",
+      "descriptorSha256": "83fb115eb3c49adb87d9f11bff215d2999ff7741450dd247edac86592e43a9dc",
+      "source": "Gfx2/UI/BigTankIcons/japan-Chi_Ha0.mali.webp",
+      "sourceSha256": "253aace3849ac338b9f0d06e0ad9ec3a7744b26a3c9d35c55d1e50b00634bcf2",
+      "width": 282,
+      "height": 190
+    },
+    {
+      "tank": "ke_ni",
+      "dataId": "keni",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-Ke_Ni.txt",
+      "descriptorSha256": "190ea1fbd3be6083719538db379093d1072a26be51aa6ccf945242e26b6d1cfa",
+      "source": "Gfx2/UI/BigTankIcons/japan-Ke_Ni0.mali.webp",
+      "sourceSha256": "5502a4745fe3623244ebed98dafa403c23b4e55a96326a8c500480406d223340",
+      "width": 260,
+      "height": 200
+    },
+    {
+      "tank": "ke_ni_b",
+      "dataId": "kenib",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-Ke_Ni_B.txt",
+      "descriptorSha256": "6d3b47ac3351c2d1dcea21a8b0615072bf78bcd1e48b21d9c7bba60bd258b92d",
+      "source": "Gfx2/UI/BigTankIcons/japan-Ke_Ni_B0.mali.webp",
+      "sourceSha256": "b76306e9f547ee61eb648f6450e7e375abe727523d9c7e95b20d1d13781cb089",
+      "width": 188,
+      "height": 152
+    },
+    {
+      "tank": "g09_hetzer_gup",
+      "dataId": "g09hetzergup",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-Hetzer_GuP.txt",
+      "descriptorSha256": "09563192090172b618ddb41278facbbf57069cf00313e65b8750f4dadfac26c3",
+      "source": "Gfx2/UI/BigTankIcons/japan-Hetzer_GuP0.mali.webp",
+      "sourceSha256": "41346e44400b8486a71c8be7018a3cdfec35c3883616a3996b0c5a2c311f6693",
+      "width": 246,
+      "height": 194
+    },
+    {
+      "tank": "chi_he",
+      "dataId": "chihe",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-Chi_He.txt",
+      "descriptorSha256": "791a9b062d4af5130c6ccc8c3862bd816bb90f00e13ddbc04fc80bc5a9552926",
+      "source": "Gfx2/UI/BigTankIcons/japan-Chi_He0.mali.webp",
+      "sourceSha256": "8964a86053eb211ba2ac30bb24f76a31fed5bd8c0066f9b97620e260230b44d6",
+      "width": 240,
+      "height": 196
+    },
+    {
+      "tank": "ke_ho",
+      "dataId": "keho",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-Ke_Ho.txt",
+      "descriptorSha256": "3ccfc11cb03c255fd27902e232cb2b153f0f743152e321ad031ac657e1684f5b",
+      "source": "Gfx2/UI/BigTankIcons/japan-Ke_Ho0.mali.webp",
+      "sourceSha256": "3e73c5afe604edb53c4b7cd127e99d608518030696199955fc15355c1333f35e",
+      "width": 243,
+      "height": 200
+    },
+    {
+      "tank": "pz_iv_ausfh",
+      "dataId": "pzivausfh",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-Pz_IV_Ausf_H.txt",
+      "descriptorSha256": "9c9330bf62611861109379c64e5b50a9a4e6c41af0da9c1abee85b7ed43e5a20",
+      "source": "Gfx2/UI/BigTankIcons/japan-Pz_IV_Ausf_H0.mali.webp",
+      "sourceSha256": "73ac86531247e0a7a0745912af2023c530a059e141feebcdf29dc4d89513da92",
+      "width": 201,
+      "height": 160
+    },
+    {
+      "tank": "chi_nu",
+      "dataId": "chinu",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-Chi_Nu.txt",
+      "descriptorSha256": "49b0806b949ffdf69cf006355d42a2114d6b5a78d4b92dd64a43dfbb4cd4deab",
+      "source": "Gfx2/UI/BigTankIcons/japan-Chi_Nu0.mali.webp",
+      "sourceSha256": "e793656d3ba06215373e9c80968b4f0af859180ccc548ec3592529efee1c937a",
+      "width": 293,
+      "height": 200
+    },
+    {
+      "tank": "chi_nu_kai",
+      "dataId": "chinukai",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-Chi_Nu_Kai.txt",
+      "descriptorSha256": "272ff656830e5e692346a63f78c11760d7aa24d8ee000b2fa209c456956f3ee9",
+      "source": "Gfx2/UI/BigTankIcons/japan-Chi_Nu_Kai0.mali.webp",
+      "sourceSha256": "55e6a4f01c6780a5c1b59777e22075e1f8e4ad2fcc95517919475cc4b157775e",
+      "width": 296,
+      "height": 200
+    },
+    {
+      "tank": "pzvi_gup",
+      "dataId": "pzvigup",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-Tiger_I_GuP.txt",
+      "descriptorSha256": "61a0ab9526b84191f0a8c2e27e4652d7675afafd8e11014fed0b4e4f6c9fe423",
+      "source": "Gfx2/UI/BigTankIcons/japan-Tiger_I_GuP0.mali.webp",
+      "sourceSha256": "97ad12ac83cbb29a6f6157f8278beeb66cfdd8935a9468c2557ba549650ab1da",
+      "width": 316,
+      "height": 200
+    },
+    {
+      "tank": "chi_to",
+      "dataId": "chito",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-Chi_To.txt",
+      "descriptorSha256": "a8f4632f4cbba3878fb3546921773c45d979921e6ad1bc4cd3c6f25b493a2e4d",
+      "source": "Gfx2/UI/BigTankIcons/japan-Chi_To0.mali.webp",
+      "sourceSha256": "54a6e08da6376a36a72b8408cbe1dfe340c8ba3ee39917658085fc2947f3e3ac",
+      "width": 281,
+      "height": 200
+    },
+    {
+      "tank": "chi_ri",
+      "dataId": "chiri",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-Chi_Ri.txt",
+      "descriptorSha256": "2b4cf7d75b798a2707ce17c2fdedaedf2422509bbe2e759a945a15cb9cd0ca54",
+      "source": "Gfx2/UI/BigTankIcons/japan-Chi_Ri0.mali.webp",
+      "sourceSha256": "9285dae7a147d654a900117b71f574e30d58da88ca3c0023198c0a0f9fb0da47",
+      "width": 276,
+      "height": 200
+    },
+    {
+      "tank": "sta_1",
+      "dataId": "sta1",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-STA_1.txt",
+      "descriptorSha256": "d07d7760e1401b92282a813bac188cd636789389554a941889c70fefb2c7c348",
+      "source": "Gfx2/UI/BigTankIcons/japan-STA_10.mali.webp",
+      "sourceSha256": "a9b9eacef02686994cf6edda5876bd64f89a237a595a1df6ae2688a179a80114",
+      "width": 310,
+      "height": 200
+    },
+    {
+      "tank": "type_61",
+      "dataId": "type61",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-Type_61.txt",
+      "descriptorSha256": "5544797aeb547dbc081d4bacd519b207ea50e4fdb6e51ffa971602572b3a512c",
+      "source": "Gfx2/UI/BigTankIcons/japan-Type_610.mali.webp",
+      "sourceSha256": "fbee878c30451db9a6e3ad5ec7540e2e4aaade7c86d63893dbcf53e1f815bd19",
+      "width": 307,
+      "height": 200
+    },
+    {
+      "tank": "st_b1",
+      "dataId": "stb1",
+      "descriptor": "Gfx2/UI/BigTankIcons/japan-ST-B1.txt",
+      "descriptorSha256": "c824c6122cb5428a97858720a4d8ab8926400c19a1b33c51614d2a2a82783996",
+      "source": "Gfx2/UI/BigTankIcons/japan-ST-B10.mali.webp",
+      "sourceSha256": "cb4b07cec5e8b0a9299d84c4a332130bc984002aa28865bdec3dc725fca217c5",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "renaultft",
+      "dataId": "renaultft",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-RenaultFT.txt",
+      "descriptorSha256": "d504bd9a2ede9e194f06fccc598c21fb4f4b3657abd90b3c2d9282409a814923",
+      "source": "Gfx2/UI/BigTankIcons/france-RenaultFT0.mali.webp",
+      "sourceSha256": "1da7481153defbbbf96f94849077b427423e84354a6ee8f1d028ff2d45f8f6a3",
+      "width": 196,
+      "height": 144
+    },
+    {
+      "tank": "d1",
+      "dataId": "d1",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-Renault_D1.txt",
+      "descriptorSha256": "e73492e6f3f6e1fff76aab62f01e210845aa7e705deb8d26cd866b93a1e77595",
+      "source": "Gfx2/UI/BigTankIcons/france-Renault_D10.mali.webp",
+      "sourceSha256": "eff97d6ce2fb0c7ad2ea442b7d6def6cef9c725b2883c724fc3232c2af3f32b4",
+      "width": 214,
+      "height": 146
+    },
+    {
+      "tank": "renaultft_ac",
+      "dataId": "renaultftac",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-RenaultFT_AC.txt",
+      "descriptorSha256": "fb8ebfed418f32b76ef729c928d932c82180de122cb4f1ec319b021273986f04",
+      "source": "Gfx2/UI/BigTankIcons/france-RenaultFT_AC0.mali.webp",
+      "sourceSha256": "144fda6f5d5cfd96892aeae5f72828f6668e7f5f6f7f92f68db5bd70cbfdc264",
+      "width": 203,
+      "height": 194
+    },
+    {
+      "tank": "renaultr35",
+      "dataId": "renaultr35",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-RenaultR35.txt",
+      "descriptorSha256": "e49beffef320b67732fe390bb1179dd19465e8e6631c39b45b87c3fe8d5bc598",
+      "source": "Gfx2/UI/BigTankIcons/france-RenaultR350.mali.webp",
+      "sourceSha256": "79b2fd6a2486329dee3820c8931aa9029d180d539e0193d668d8081f3be9e996",
+      "width": 253,
+      "height": 200
+    },
+    {
+      "tank": "amx38",
+      "dataId": "amx38",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-AMX38.txt",
+      "descriptorSha256": "d972e326093b9216ad977610d789177205ca8f4acb8dd671ccda4cb59a9c2ec1",
+      "source": "Gfx2/UI/BigTankIcons/france-AMX380.mali.webp",
+      "sourceSha256": "7d990e5cc8763c09d1813a7ffd328045b3d33e07d2049a3bce31fb8c2ccf66c9",
+      "width": 225,
+      "height": 190
+    },
+    {
+      "tank": "d2",
+      "dataId": "d2",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-D2.txt",
+      "descriptorSha256": "7fbcc49fd19b1c4dd0e8a9bbd6fa5d946257a2f1f8cc89b8aa548097eb87a47e",
+      "source": "Gfx2/UI/BigTankIcons/france-D20.mali.webp",
+      "sourceSha256": "a201c253a15a4925e17d2094f16a058d90c0853f2b56b9049da72070ba361e6b",
+      "width": 223,
+      "height": 145
+    },
+    {
+      "tank": "fcm_36pak40",
+      "dataId": "fcm36pak40",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-FCM_36Pak40.txt",
+      "descriptorSha256": "dc053c5140e65aa36f59445afbcd1fdca83a1eec1bba7d79cc69752882334320",
+      "source": "Gfx2/UI/BigTankIcons/france-FCM_36Pak400.mali.webp",
+      "sourceSha256": "80291132351e4a364df66cd78db8c30febf7e9517d9a21df99d1102ac458edb3",
+      "width": 272,
+      "height": 198
+    },
+    {
+      "tank": "renaultue57",
+      "dataId": "renaultue57",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-RenaultUE57.txt",
+      "descriptorSha256": "d13975a3a13e98b065ece3bb29ef8b580fd2c4409660ffb5d16217d1be0dc928",
+      "source": "Gfx2/UI/BigTankIcons/france-RenaultUE570.mali.webp",
+      "sourceSha256": "9a54882671c6406ca97f8fd87271dde62a91f73afd5de373066e086de1351c7e",
+      "width": 229,
+      "height": 200
+    },
+    {
+      "tank": "amx40",
+      "dataId": "amx40",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-AMX40.txt",
+      "descriptorSha256": "1b9b5c3c24c67ef102c9dc31b6216c95e1894d4b5eda4bb37d5ea98f6d03b209",
+      "source": "Gfx2/UI/BigTankIcons/france-AMX400.mali.webp",
+      "sourceSha256": "92a51469378e04b1f96b0e4424ee2da43211fdfceb30916c4d2bbdb0d98d1c53",
+      "width": 272,
+      "height": 200
+    },
+    {
+      "tank": "b1",
+      "dataId": "b1",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-B1.txt",
+      "descriptorSha256": "c09fb6159c92c9559fc98a38ea40993c5e95348f8effc68b3322ac953b9e6250",
+      "source": "Gfx2/UI/BigTankIcons/france-B10.mali.webp",
+      "sourceSha256": "74fb7b5040ed2650c90a653f02364247c6f9f0c2be5ddd2079f5efb74bb4f98e",
+      "width": 224,
+      "height": 154
+    },
+    {
+      "tank": "somua_sau_40",
+      "dataId": "somuasau40",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-Somua_Sau_40.txt",
+      "descriptorSha256": "a2a49f3414bd9887266f7ce5ff0fbbae36ebed1e67ad6c06e5a9d806f8661a8e",
+      "source": "Gfx2/UI/BigTankIcons/france-Somua_Sau_400.mali.webp",
+      "sourceSha256": "7adedc7421743c773dd6c57bc757db1d5d8f38db933262de74093df04a558ac0",
+      "width": 247,
+      "height": 200
+    },
+    {
+      "tank": "elc_amx",
+      "dataId": "elcamx",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-ELC_AMX.txt",
+      "descriptorSha256": "88db6967d775406b9db74cc69f6e64891d6d4b7ac6c8f33f246d35fc8bf73200",
+      "source": "Gfx2/UI/BigTankIcons/france-ELC_AMX0.mali.webp",
+      "sourceSha256": "13a22a377c4c9f98cb8da72cbe7ed74cb45f9c96b7421bde7f7c2386eae8b7ce",
+      "width": 273,
+      "height": 200
+    },
+    {
+      "tank": "bdr_g1b",
+      "dataId": "bdrg1b",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-BDR_G1B.txt",
+      "descriptorSha256": "34651e9e8faa76b51dbe0b55fe46eb0323c5af51d84114bcb65a1dd3c4ce6a13",
+      "source": "Gfx2/UI/BigTankIcons/france-BDR_G1B0.mali.webp",
+      "sourceSha256": "d393fff5805c865ce50a10f97f3630e06d2a53a4188f366502773b1a98a11638",
+      "width": 261,
+      "height": 200
+    },
+    {
+      "tank": "s_35ca",
+      "dataId": "s35ca",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-S_35CA.txt",
+      "descriptorSha256": "eee8dd71e84201ad6bcefb0736517cc665936cc763deabae459f8dc3d6a7f212",
+      "source": "Gfx2/UI/BigTankIcons/france-S_35CA0.mali.webp",
+      "sourceSha256": "143f91b39187969cde4247e56d0ea5b86b8232af79624db47b122e8ee57a9c94",
+      "width": 315,
+      "height": 200
+    },
+    {
+      "tank": "amx_12t",
+      "dataId": "amx12t",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-AMX_12t.txt",
+      "descriptorSha256": "20f28102ca70f3f03ddf4dd81daaa6e081ddaaa99bf6eb1c8b7c189b72256c68",
+      "source": "Gfx2/UI/BigTankIcons/france-AMX_12t0.mali.webp",
+      "sourceSha256": "837484e6da998093f4ed8c10e41998f4db6fadcd6fcb241ac7e78006bccbb5ea",
+      "width": 175,
+      "height": 193
+    },
+    {
+      "tank": "arl_44",
+      "dataId": "arl44",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-ARL_44.txt",
+      "descriptorSha256": "cef95f457100d65ddcd6cd710334894e60825b8db6b97036240d551b161d2fe9",
+      "source": "Gfx2/UI/BigTankIcons/france-ARL_440.mali.webp",
+      "sourceSha256": "3c927b47ce34f374978188924d94c41bb5792cde2257a899d42711ec4d1a8d8e",
+      "width": 264,
+      "height": 200
+    },
+    {
+      "tank": "arl_v39",
+      "dataId": "arlv39",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-ARL_V39.txt",
+      "descriptorSha256": "4368e19629bb78fecdd00caba2c19b720d11ea1891d2bd8597cd4df77f8f49a3",
+      "source": "Gfx2/UI/BigTankIcons/france-ARL_V390.mali.webp",
+      "sourceSha256": "21fd4c256e50ec2cd70820ee8bfdf767f5dda119589b04f0ef5e59551078cb51",
+      "width": 261,
+      "height": 200
+    },
+    {
+      "tank": "amx_13_75",
+      "dataId": "amx1375",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-AMX_13_75.txt",
+      "descriptorSha256": "2fe348457a324d11b57a5aa3250c5b58f52c2d50679a1e8ccc68434278c12a0c",
+      "source": "Gfx2/UI/BigTankIcons/france-AMX_13_750.mali.webp",
+      "sourceSha256": "0acd9c31ec1e585081c8507f36ad566e8667acaca37b2f4741d1275edd70cd14",
+      "width": 222,
+      "height": 196
+    },
+    {
+      "tank": "amx_ac_mle1946",
+      "dataId": "amxacmle1946",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-AMX_AC_Mle1946.txt",
+      "descriptorSha256": "e2c178369f7538b0bd6361c7a1029891e0d2114f6707cc4e664ef7ce02f25512",
+      "source": "Gfx2/UI/BigTankIcons/france-AMX_AC_Mle19460.mali.webp",
+      "sourceSha256": "7d6ca760719dfd8df3a9a40f300e57ee0dc44209b715436d112688c8f1e40624",
+      "width": 319,
+      "height": 200
+    },
+    {
+      "tank": "amx_m4_1945",
+      "dataId": "amxm41945",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-AMX_M4-45.txt",
+      "descriptorSha256": "2e833ec494177ec23dbab14b74c10f1c96e6ee38ee8bd6e973ff7a06b286e75b",
+      "source": "Gfx2/UI/BigTankIcons/france-AMX_M4-450.mali.webp",
+      "sourceSha256": "481ff60209b2fbe4fa8e0cb7eec516a320c3fe45769adee84a7681daa14f613c",
+      "width": 303,
+      "height": 200
+    },
+    {
+      "tank": "amx_13_90",
+      "dataId": "amx1390",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-AMX_13-90.txt",
+      "descriptorSha256": "2deade5611fd4ed91ed36d3e1ecb06b2dcb5eded4001bb1dfe3d2d42a786b175",
+      "source": "Gfx2/UI/BigTankIcons/france-AMX_13-900.mali.webp",
+      "sourceSha256": "177eb16537016f8e3706a89cbf9c7e38a85363b0530b3690207f458dc4abb5bf",
+      "width": 305,
+      "height": 200
+    },
+    {
+      "tank": "amx_50_100",
+      "dataId": "amx50100",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-AMX_50_100.txt",
+      "descriptorSha256": "00904699dd233c6f78ca239ca3a9510eda7dfc23d4481081a494b2687d0d1d72",
+      "source": "Gfx2/UI/BigTankIcons/france-AMX_50_1000.mali.webp",
+      "sourceSha256": "af3cff6ccb60fa9679dc89ab73225fb6fcdae65d2b9fd504122d77271fd05409",
+      "width": 311,
+      "height": 200
+    },
+    {
+      "tank": "amx_ac_mle1948",
+      "dataId": "amxacmle1948",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-AMX_AC_Mle1948.txt",
+      "descriptorSha256": "c6cfe49b41a8eab9da7207bfbf15a3d8907d4e058eff24d9d4705a6b5496c34c",
+      "source": "Gfx2/UI/BigTankIcons/france-AMX_AC_Mle19480.mali.webp",
+      "sourceSha256": "07e0803c24281e9a7ad48a8089a70e5ada9476ec2019f97bd3ef3b786f34810c",
+      "width": 297,
+      "height": 200
+    },
+    {
+      "tank": "f68_amx_chasseur_de_char_46",
+      "dataId": "f68amxchasseurdechar46",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-CDC.txt",
+      "descriptorSha256": "183d72d99e220735679b8d900009c7165a45887be38b052797e958e3e6e10a34",
+      "source": "Gfx2/UI/BigTankIcons/france-CDC0.mali.webp",
+      "sourceSha256": "1cd888f3205da961f7d00727183e9707b40ba2221d9aa848f898f27c46d2f107",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "fcm_50t",
+      "dataId": "fcm50t",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-FCM_50t.txt",
+      "descriptorSha256": "733d48f929e6cb67f425a27d0abfaf6305f180df6e4090eb3f24410f5ef40fcc",
+      "source": "Gfx2/UI/BigTankIcons/france-FCM_50t0.mali.webp",
+      "sourceSha256": "578a51be66d1f0ed60b8c7540e6f26cce342cd634cebce9fe35fb77a59412feb",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "f71_amx_30_prototype",
+      "dataId": "f71amx30prototype",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-AMX_30_prototype.txt",
+      "descriptorSha256": "974a6413eb9c0046aa90bbb3a2db03eff3f6c987ca0ad7a1b51682d113fe9e8a",
+      "source": "Gfx2/UI/BigTankIcons/france-AMX_30_prototype0.mali.webp",
+      "sourceSha256": "6075e4915230df4db3157878841afec500c64a875a8f58d0a598557a65aabf34",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "amx_50_120",
+      "dataId": "amx50120",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-AMX_50_120.txt",
+      "descriptorSha256": "5a07d4ee4090c57468bbd55c04274535a9e15f03fc29068a3986c6ad0b5e9469",
+      "source": "Gfx2/UI/BigTankIcons/france-AMX_50_1200.mali.webp",
+      "sourceSha256": "e2dfbaebfe9bb970c6b096e973da24dd2b251238f43ae91d6c554dcfbf94fbc1",
+      "width": 319,
+      "height": 198
+    },
+    {
+      "tank": "amx50_foch",
+      "dataId": "amx50foch",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-AMX50_Foch.txt",
+      "descriptorSha256": "d30c8a483835e66110bbeb2f36ea90a2fa40e91e2cb90a9d0f2de2e12e1e7968",
+      "source": "Gfx2/UI/BigTankIcons/france-AMX50_Foch0.mali.webp",
+      "sourceSha256": "269e95da8d4b7972378e26360e22f669c435a76681022d4d94fcfff49aea672f",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "f75_char_de_25t",
+      "dataId": "f75charde25t",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-Char_de_25t.txt",
+      "descriptorSha256": "acfeda854641b0bdb9e4834db6f417a06538f6c78470be45dd5b6e0cc50d18a0",
+      "source": "Gfx2/UI/BigTankIcons/france-Char_de_25t0.mali.webp",
+      "sourceSha256": "c827f4232d09b6bd33ec114df567edb6b6b118bc43cf35b9c9cdde8e2fde5006",
+      "width": 291,
+      "height": 200
+    },
+    {
+      "tank": "f72_amx_30",
+      "dataId": "f72amx30",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-AMX_30.txt",
+      "descriptorSha256": "6e73da86d730ad28e4aaba805d1018acabe88a37cd22f9a99b0cc2f3d5d8af57",
+      "source": "Gfx2/UI/BigTankIcons/france-AMX_300.mali.webp",
+      "sourceSha256": "7f82c01a5ad9356baff391f500b4da92eabf827ae62aee465e050fd5c53e2ea3",
+      "width": 320,
+      "height": 200
+    },
+    {
+      "tank": "amx_50b",
+      "dataId": "amx50b",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-AMX_50B.txt",
+      "descriptorSha256": "708d293240b499a9bb389c24868c2dc2b0cc86e74c595924bd221f7df43b7c7b",
+      "source": "Gfx2/UI/BigTankIcons/france-AMX_50B0.mali.webp",
+      "sourceSha256": "fadf84b62d96c017bd5b6ab4ed9599850011370602523c78e1a2dda314769db9",
+      "width": 320,
+      "height": 198
+    },
+    {
+      "tank": "amx_50fosh_155",
+      "dataId": "amx50fosh155",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-AMX_50Fosh_155.txt",
+      "descriptorSha256": "f50799772f727e1b39b8b2d01882a84b660fec6b0c0516631cbeceff7062ac29",
+      "source": "Gfx2/UI/BigTankIcons/france-AMX_50Fosh_1550.mali.webp",
+      "sourceSha256": "d8f20a2af2ef2c2e45f0a0cd5800177be86f0c8d3c96a29415715bce5ff555cf",
+      "width": 307,
+      "height": 200
+    },
+    {
+      "tank": "bat_chatillon25t",
+      "dataId": "batchatillon25t",
+      "descriptor": "Gfx2/UI/BigTankIcons/france-Bat_Chatillon25t.txt",
+      "descriptorSha256": "7062165d8df26bcc3bc1049793ee4a354bfe3e8d832efd0e12af0189eec590e1",
+      "source": "Gfx2/UI/BigTankIcons/france-Bat_Chatillon25t0.mali.webp",
+      "sourceSha256": "47cd390db265daf32316b06749e4c8378de3039cab9a9460bc8324125e501341",
+      "width": 319,
+      "height": 200
+    },
+    {
+      "tank": "ch06_renault_nc31",
+      "dataId": "ch06renaultnc31",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-Renault_NC31.txt",
+      "descriptorSha256": "cab72d3fd7d196ac1bb2869335f6eec37b5b28b6b0204555ff09771772767328",
+      "source": "Gfx2/UI/BigTankIcons/china-Renault_NC310.mali.webp",
+      "sourceSha256": "f77a707fdd058bd9cc299c98c7238cac763ebcc59c5e7e8d7af4c91054493717",
+      "width": 228,
+      "height": 186
+    },
+    {
+      "tank": "ch07_vickers_mke_type_bt26",
+      "dataId": "ch07vickersmketypebt26",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-Vickers_MkE_Type_BT26.txt",
+      "descriptorSha256": "d0ac9bb9a83b8736bc5763b64718b0aa60b56be4f043601d2becba9d912a392b",
+      "source": "Gfx2/UI/BigTankIcons/china-Vickers_MkE_Type_BT260.mali.webp",
+      "sourceSha256": "e62559b9a98e3072eb02b92e73d0860dbe5670b6c11adf53e09c81b9ce778500",
+      "width": 250,
+      "height": 192
+    },
+    {
+      "tank": "ch08_type97_chi_ha",
+      "dataId": "ch08type97chiha",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-Type97_Chi_Ha.txt",
+      "descriptorSha256": "80db89fcaa15de501a207b4aa3bfc86cd3ce715140b3c00ccbe2d210b58eb8bb",
+      "source": "Gfx2/UI/BigTankIcons/china-Type97_Chi_Ha0.mali.webp",
+      "sourceSha256": "014e82c7bca4a6a9998d6d56286bd5411cdf622508def25ff912999f75c24dfb",
+      "width": 282,
+      "height": 200
+    },
+    {
+      "tank": "ch09_m5",
+      "dataId": "ch09m5",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-M5.txt",
+      "descriptorSha256": "b774ecd6d395f40a9217ae313a7135a5da5140ffc7e5efc1eea5f7971644976a",
+      "source": "Gfx2/UI/BigTankIcons/china-M50.mali.webp",
+      "sourceSha256": "0e9e4a79bac32b682f880b92e3bfd64681623c14d82643162d7bdb6c769aff84",
+      "width": 222,
+      "height": 200
+    },
+    {
+      "tank": "ch21_t34",
+      "dataId": "ch21t34",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-T34.txt",
+      "descriptorSha256": "f573bb36db1fe06b1d0e1651864417ff9de49271b6e9b9827d422565954dfcab",
+      "source": "Gfx2/UI/BigTankIcons/china-T340.mali.webp",
+      "sourceSha256": "92801a317e370692a2d895b311cefde90f8b9af3e76a4c8a5db5548934174758",
+      "width": 273,
+      "height": 200
+    },
+    {
+      "tank": "ch20_type58",
+      "dataId": "ch20type58",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-Type58.txt",
+      "descriptorSha256": "db0227b819ac1020eac3ac34c6032708e0d8d99f2d09710ff0a767f2dca67853",
+      "source": "Gfx2/UI/BigTankIcons/china-Type580.mali.webp",
+      "sourceSha256": "fa1fa6f97f875c5b38dc0a0bcb840686741ba0ae9444a8b5b644e6a60f4fc278",
+      "width": 281,
+      "height": 200
+    },
+    {
+      "tank": "ch24_type64",
+      "dataId": "ch24type64",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-Type64.txt",
+      "descriptorSha256": "cea0be910751c55531776fa60fba79b390088faeba8a16d18f7c041bfc54859b",
+      "source": "Gfx2/UI/BigTankIcons/china-Type640.mali.webp",
+      "sourceSha256": "214cc8ddf5780e0fad8646a0e6b21c5ed3a0b22524b0d8a16235e7dd24c7bf82",
+      "width": 290,
+      "height": 200
+    },
+    {
+      "tank": "ch04_t34_1",
+      "dataId": "ch04t341",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-T34_1.txt",
+      "descriptorSha256": "270cb019f85473dc43fae4ba2a76801cdc9df396fcfd1ba7fb09f7d7dfd4f724",
+      "source": "Gfx2/UI/BigTankIcons/china-T34_10.mali.webp",
+      "sourceSha256": "c8c82e7d452cd53c21e1c9d6eee9c602ca5317adf784de6c61d798791cc065ae",
+      "width": 287,
+      "height": 200
+    },
+    {
+      "tank": "ch02_type62",
+      "dataId": "ch02type62",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-Type62.txt",
+      "descriptorSha256": "8895abc4823417e62fc76931dd9ebcc8cf32ad6e6afc4b984f5c736af23156b6",
+      "source": "Gfx2/UI/BigTankIcons/china-Type620.mali.webp",
+      "sourceSha256": "721b40b53ab54098b1cb61fb32d7d23ed4ad934f19dcd02c4add1ee3ddf54081",
+      "width": 309,
+      "height": 200
+    },
+    {
+      "tank": "ch23_112",
+      "dataId": "ch23112",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-112_event.txt",
+      "descriptorSha256": "e4246c25943c3a11bc54709c5dcaf89e8afdda16f36e6be4c93839176732a9bc",
+      "source": "Gfx2/UI/BigTankIcons/china-112_event0.mali.webp",
+      "sourceSha256": "f2fb023b7019252ef34442641225301e91b38280b85f4f9f298e8b9dc900ae3f",
+      "width": 315,
+      "height": 200
+    },
+    {
+      "tank": "ch26_59_patton",
+      "dataId": "ch2659patton",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-59_Patton.txt",
+      "descriptorSha256": "f63c7b4857c9c0710e57536f4505969cf4799ecea15765de2353d6ba5a0f5bab",
+      "source": "Gfx2/UI/BigTankIcons/china-59_Patton0.mali.webp",
+      "sourceSha256": "b6b9b74a58838b80b771ef19f9df627d0ff73f6e6bfbeadb072777e046e12e8a",
+      "width": 201,
+      "height": 178
+    },
+    {
+      "tank": "ch05_t34_2",
+      "dataId": "ch05t342",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-T34_2.txt",
+      "descriptorSha256": "95bb25926c4c96ddd602ad39937b51d330bc41e1a02e9a034113fcba5e78501e",
+      "source": "Gfx2/UI/BigTankIcons/china-T34_20.mali.webp",
+      "sourceSha256": "50ea478a90a31f8015f46b1b7df91aa5f2f3266896254380d14bce36a0fba96e",
+      "width": 278,
+      "height": 200
+    },
+    {
+      "tank": "ch14_t34_3",
+      "dataId": "ch14t343",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-T34_3.txt",
+      "descriptorSha256": "2c53f5523fb3c61c5ee7bc2e70405711a659b7495f84e929b592328bc2a92e69",
+      "source": "Gfx2/UI/BigTankIcons/china-T34_30.mali.webp",
+      "sourceSha256": "8a6be584ec16b63bf5be6f89bed0b6decc7c70f1bfc612af667b38d0a38eddc8",
+      "width": 285,
+      "height": 200
+    },
+    {
+      "tank": "ch01_type59",
+      "dataId": "ch01type59",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-Type59.txt",
+      "descriptorSha256": "1bfe696186744fa60b921e58d1eaa9c7dd03b89dce61fd5ddd1ef160132d59fd",
+      "source": "Gfx2/UI/BigTankIcons/china-Type590.mali.webp",
+      "sourceSha256": "43895519b8d96eda5cfb73d558f1aa7eec7756b9682294641d9058343b24d01f",
+      "width": 279,
+      "height": 187
+    },
+    {
+      "tank": "ch03_wz-111",
+      "dataId": "ch03wz111",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-WZ-111.txt",
+      "descriptorSha256": "45994d65c42dad44302d750b1982977c58ed83672c2a42d7675695437b3f871d",
+      "source": "Gfx2/UI/BigTankIcons/china-WZ-1110.mali.webp",
+      "sourceSha256": "5b7bdcbbaa5db367e2cbebfbfd0980925c3c9f4b9f43d793c7bdd43312689a5d",
+      "width": 315,
+      "height": 200
+    },
+    {
+      "tank": "ch18_wz-120",
+      "dataId": "ch18wz120",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-WZ-120.txt",
+      "descriptorSha256": "9b4d0466ae4b9c42df90dfd486008c33cf4ede73cc415e323ccbc60fc136de0d",
+      "source": "Gfx2/UI/BigTankIcons/china-WZ-1200.mali.webp",
+      "sourceSha256": "7cde48cce454823295c124f20256826e7ab099c6e41857a5185dfd2c97e5b761",
+      "width": 294,
+      "height": 200
+    },
+    {
+      "tank": "ch22_113",
+      "dataId": "ch22113",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-wz_113.txt",
+      "descriptorSha256": "efa9cfbf15d40744a29bbd77b4aa581dbd3dccedda8d797d60ff44eb50dc3edc",
+      "source": "Gfx2/UI/BigTankIcons/china-wz_1130.mali.webp",
+      "sourceSha256": "4ef621ffcddcbf16d62e942b0b3eb77519010d15fb3c4a129646cb57a0f15da2",
+      "width": 318,
+      "height": 200
+    },
+    {
+      "tank": "ch19_121",
+      "dataId": "ch19121",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-121.txt",
+      "descriptorSha256": "e9839254e815c22d9d5d6eca6870fc9e4cfd53ae7028cb45cddd6389f3f71d01",
+      "source": "Gfx2/UI/BigTankIcons/china-1210.mali.webp",
+      "sourceSha256": "a9eb1a7f35afbddf158c982d3a213c044fcf4e627c348065f45951ff15ebf80e",
+      "width": 317,
+      "height": 200
+    },
+    {
+      "tank": "ch25_121_mod_1971b",
+      "dataId": "ch25121mod1971b",
+      "descriptor": "Gfx2/UI/BigTankIcons/china-Ch25_121_mod_1971B.txt",
+      "descriptorSha256": "d85dcfd16dcfb314eff9de7f2c3bbd1ed5d063220a3e8851b5f0ee4af00c070f",
+      "source": "Gfx2/UI/BigTankIcons/china-Ch25_121_mod_1971B0.mali.webp",
+      "sourceSha256": "d75131c9a455c1925cce6ab7d78c5135eb8c084eba4c9445c9bec4f4663334de",
+      "width": 305,
+      "height": 200
+    },
+    {
+      "tank": "strv_74a2",
+      "dataId": "strv74a2",
+      "descriptor": "Gfx2/UI/BigTankIcons/other-Strv_74_A2.txt",
+      "descriptorSha256": "8e1054adcd9246e521f57ac5032e3433ee7e792bb2a8767072dd7f8d6a610071",
+      "source": "Gfx2/UI/BigTankIcons/other-Strv_74_A20.mali.webp",
+      "sourceSha256": "81fa9ffd55197ea17c23603cc0b8849b509c8f94db2cccfe3d6efc6a7148cbf0",
+      "width": 279,
+      "height": 200
+    },
+    {
+      "tank": "sega_edelweiss",
+      "dataId": "segaedelweiss",
+      "descriptor": "Gfx2/UI/BigTankIcons/other-Sega_Edelweiss.txt",
+      "descriptorSha256": "1157e32ee2c18ba84011eac2b6b9fd453d88eab68f8deb3cf1b3ccc511493f16",
+      "source": "Gfx2/UI/BigTankIcons/other-Sega_Edelweiss0.mali.webp",
+      "sourceSha256": "51940b647b95c2bbdb170dd7f3bae7ea749a83b88ddf9dc05a8a25bb8b3ea55a",
+      "width": 320,
+      "height": 199
+    },
+    {
+      "tank": "oth06_sega_lupus",
+      "dataId": "oth06segalupus",
+      "descriptor": "Gfx2/UI/BigTankIcons/other-Sega_Lupus.txt",
+      "descriptorSha256": "72bf6a35171110396aa398b0836124521909168d89bef13ce1cdeb21e098d4c3",
+      "source": "Gfx2/UI/BigTankIcons/other-Sega_Lupus0.mali.webp",
+      "sourceSha256": "89364c5954ff17a6dc366611166b326cff2bdb8b54b1db02be352b4a5620ca51",
+      "width": 285,
+      "height": 200
+    },
+    {
+      "tank": "sega_nameless",
+      "dataId": "seganameless",
+      "descriptor": "Gfx2/UI/BigTankIcons/other-Sega_Nameless.txt",
+      "descriptorSha256": "0f24644929de8d8b7eae84900344363af04808ac13d2531f1cc1f7cfa20bca8a",
+      "source": "Gfx2/UI/BigTankIcons/other-Sega_Nameless0.mali.webp",
+      "sourceSha256": "058075722b52feee0fbde58117a72800b44a792b1d6b780b5368cea12a1af8a7",
+      "width": 299,
+      "height": 200
+    },
+    {
+      "tank": "oth09_wh_predator",
+      "dataId": "oth09whpredator",
+      "descriptor": "Gfx2/UI/BigTankIcons/other-Oth09_WH_Predator_Ultramarines.txt",
+      "descriptorSha256": "816a437256e8618d51bcb6a1ef6f4b779c8d9a6e799cef80d38bab84c0c9cd1e",
+      "source": "Gfx2/UI/BigTankIcons/other-Oth09_WH_Predator_Ultramarines0.mali.webp",
+      "sourceSha256": "ce0a67129d8f433721c2ceb9c0a358f525e8a4943c07b82c89e9393f0e9c79dc",
+      "width": 266,
+      "height": 200
+    },
+    {
+      "tank": "amx_dracula",
+      "dataId": "amxdracula",
+      "descriptor": "Gfx2/UI/BigTankIcons/other-AMX_Dracula.txt",
+      "descriptorSha256": "f541f72d4a0ea65139209e44df7d15f8d0ed4dd8dc98f3d88b67f24090000289",
+      "source": "Gfx2/UI/BigTankIcons/other-AMX_Dracula0.mali.webp",
+      "sourceSha256": "29d1b7ce79bb28a8b2e79c7c4e6f8b80dde4a22339d6f9536e00e56161f88882",
+      "width": 317,
+      "height": 200
+    },
+    {
+      "tank": "oth08_wh_vindicator",
+      "dataId": "oth08whvindicator",
+      "descriptor": "Gfx2/UI/BigTankIcons/other-Oth08_Vindicator.txt",
+      "descriptorSha256": "6f4664cfac822283ea8826727e9c36d1414c94609c3fdb5b33e72cb196e45bac",
+      "source": "Gfx2/UI/BigTankIcons/other-Oth08_Vindicator0.mali.webp",
+      "sourceSha256": "d447fc729dabbc0f27715028773f56d5121fd7db13c17c34f196bbca9d26f61f",
+      "width": 276,
+      "height": 200
+    },
+    {
+      "tank": "wz-135g_ft",
+      "dataId": "wz135gft",
+      "descriptor": "Gfx2/UI/BigTankIcons/other-WZ-135G_FT.txt",
+      "descriptorSha256": "04e8565d467f924a93c29b79f08076208a57cd14a88635f245ece1e6e88a9483",
+      "source": "Gfx2/UI/BigTankIcons/other-WZ-135G_FT0.mali.webp",
+      "sourceSha256": "c0718bd90984dcc922eb0d2afedae7891bca2f3be339b82b9df043b67f9d729a",
+      "width": 317,
+      "height": 200
+    },
+    {
+      "tank": "van_helsing",
+      "dataId": "vanhelsing",
+      "descriptor": "Gfx2/UI/BigTankIcons/other-Van_Helsing.txt",
+      "descriptorSha256": "1f5d4f89f18e39dc1e351480acbeb1dfd9174857925070667ea95d2054d03fef",
+      "source": "Gfx2/UI/BigTankIcons/other-Van_Helsing0.mali.webp",
+      "sourceSha256": "2825fd3ea96835d71b8f2e89555a869f7bd06ce44d722dc9637a9ac7e56e68a8",
+      "width": 312,
+      "height": 200
+    },
+    {
+      "tank": "akawara",
+      "dataId": "akawara",
+      "descriptor": "Gfx2/UI/BigTankIcons/other-Akawara.txt",
+      "descriptorSha256": "a29f24d1e6036294ee2ee56662811213f2937f97aed8a17d253f0f35b3d80978",
+      "source": "Gfx2/UI/BigTankIcons/other-Akawara0.mali.webp",
+      "sourceSha256": "ace45e27045d01bf87a0765ffc932af399f8a2e7977cf433875d5549ba8ecf74",
+      "width": 310,
+      "height": 200
+    }
+  ]
+}

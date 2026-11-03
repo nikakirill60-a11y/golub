@@ -1,0 +1,2781 @@
+{
+  "unavailableText": [
+    "#artefacts:healingAura/descr",
+    "#artefacts:healingAura/name",
+    "#artefacts:railgunCharger/descr",
+    "#bossmode:boss_role/descr",
+    "#bossmode:graviton_role/descr",
+    "#bossmode:healer_role/descr",
+    "#bossmode:kamikaze_role/descr",
+    "#bossmode:killer_role/descr"
+  ],
+  "sourceVersion": "11.20.0",
+  "status": "reconstruction",
+  "notice": "Reconstruction of the WoT Blitz 11.20 Big Boss mode from client data; server-side behaviour is a documented compatibility profile.",
+  "levels": [
+    0,
+    75,
+    200,
+    325,
+    475
+  ],
+  "profile": {
+    "id": "bigboss_reconstruction_v1",
+    "teamSize": 7,
+    "startPoints": 30,
+    "ordinaryDeathCost": 1,
+    "bossDeathCost": 5,
+    "bossLives": 3,
+    "timeLimitSeconds": 900,
+    "respawnSeconds": 7,
+    "closeVictoryPoints": 5,
+    "rolePointsPerDamage": 0.1,
+    "rolePointsPerHeal": 0.1,
+    "rolePointsPerKill": 10,
+    "roleRevealSeconds": 4,
+    "gravityShotRange": 400,
+    "gravityShotAccelerationPerMass": 0.1,
+    "gravityShotPullSpeedPerMass": 0.1,
+    "gravityShotCoreRadius": 3,
+    "gravityBurstVelocityPerForce": 0.000667,
+    "gravityBurstLift": 0.25,
+    "staticsDamageTypes": [
+      "Collision",
+      "Environment"
+    ],
+    "bossMaxHealthFactor": 5,
+    "autoActivatedFamilies": [
+      "shieldGiverAbility",
+      "railgunCharger"
+    ]
+  },
+  "roles": [
+    {
+      "id": 1,
+      "key": "boss",
+      "element": "bossRole",
+      "boss": true,
+      "nameKey": "#bossmode:boss_role/name",
+      "descriptionKey": "",
+      "colorClass": "color-red_boss",
+      "color": [
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "icon": "BigBoss/Textures/icon_role-boss_s",
+      "marker": "BigBoss/Textures/icon_role-boss_xs",
+      "levels": [
+        [
+          "bigBoss",
+          "gravityBurst",
+          "railgunCharger"
+        ],
+        [
+          "bigBoss",
+          "gravityBurst",
+          "railgunCharger"
+        ],
+        [
+          "bigBoss",
+          "gravityBurst",
+          "railgunCharger"
+        ],
+        [
+          "bigBoss",
+          "gravityBurst",
+          "railgunCharger"
+        ],
+        [
+          "bigBoss",
+          "gravityBurst",
+          "railgunCharger"
+        ]
+      ],
+      "unavailableSourceText": {
+        "description": "#bossmode:boss_role/descr"
+      }
+    },
+    {
+      "id": 2,
+      "key": "healer",
+      "element": "healerRole",
+      "boss": false,
+      "nameKey": "#bossmode:healer_role/name",
+      "descriptionKey": "",
+      "colorClass": "color-green_healer",
+      "color": [
+        0.239216,
+        0.6,
+        0.058824,
+        1.0
+      ],
+      "icon": "BigBoss/Textures/icon_role-healer_s",
+      "marker": "BigBoss/Textures/icon_role-healer_xs",
+      "levels": [
+        [
+          "healingAuraL1",
+          "shieldGiverAbilityL1",
+          "healingShotL1"
+        ],
+        [
+          "healingAuraL2",
+          "shieldGiverAbilityL2",
+          "healingShotL2"
+        ],
+        [
+          "healingAuraL3",
+          "shieldGiverAbilityL3",
+          "healingShotL3"
+        ],
+        [
+          "healingAuraL4",
+          "shieldGiverAbilityL4",
+          "healingShotL4"
+        ],
+        [
+          "healingAuraL5",
+          "shieldGiverAbilityL5",
+          "healingShotL5"
+        ]
+      ],
+      "unavailableSourceText": {
+        "description": "#bossmode:healer_role/descr"
+      }
+    },
+    {
+      "id": 4,
+      "key": "killer",
+      "element": "killerRole",
+      "boss": false,
+      "nameKey": "#bossmode:killer_role/name",
+      "descriptionKey": "",
+      "colorClass": "color-purple_killer",
+      "color": [
+        0.6,
+        0.541176,
+        0.901961,
+        1.0
+      ],
+      "icon": "BigBoss/Textures/icon_role-killer_s",
+      "marker": "BigBoss/Textures/icon_role-killer_xs",
+      "levels": [
+        [
+          "poisonedShellL1",
+          "killerPassiveL1"
+        ],
+        [
+          "poisonedShellL2",
+          "killerPassiveL2"
+        ],
+        [
+          "poisonedShellL3",
+          "killerPassiveL3"
+        ],
+        [
+          "poisonedShellL4",
+          "killerPassiveL4"
+        ],
+        [
+          "poisonedShellL5",
+          "killerPassiveL5"
+        ]
+      ],
+      "unavailableSourceText": {
+        "description": "#bossmode:killer_role/descr"
+      }
+    },
+    {
+      "id": 5,
+      "key": "kamikaze",
+      "element": "kamikazeRole",
+      "boss": false,
+      "nameKey": "#bossmode:kamikaze_role/name",
+      "descriptionKey": "",
+      "colorClass": "color-orange_kamikaze",
+      "color": [
+        1.0,
+        0.615686,
+        0.0,
+        1.0
+      ],
+      "icon": "BigBoss/Textures/icon_role-kamikaze_s",
+      "marker": "BigBoss/Textures/icon_role-kamikaze_xs",
+      "levels": [
+        [
+          "kamikazeAbilityL1",
+          "kamikazePassiveL1"
+        ],
+        [
+          "kamikazeAbilityL2",
+          "kamikazePassiveL2"
+        ],
+        [
+          "kamikazeAbilityL3",
+          "kamikazePassiveL3"
+        ],
+        [
+          "kamikazeAbilityL4",
+          "kamikazePassiveL4"
+        ],
+        [
+          "kamikazeAbilityL5",
+          "kamikazePassiveL5"
+        ]
+      ],
+      "unavailableSourceText": {
+        "description": "#bossmode:kamikaze_role/descr"
+      }
+    },
+    {
+      "id": 6,
+      "key": "graviton",
+      "element": "gravitonRole",
+      "boss": false,
+      "nameKey": "#bossmode:graviton_role/name",
+      "descriptionKey": "",
+      "colorClass": "color-blue_graviton",
+      "color": [
+        0.156863,
+        0.568627,
+        0.772549,
+        1.0
+      ],
+      "icon": "BigBoss/Textures/icon_role-graviton_s",
+      "marker": "BigBoss/Textures/icon_role-graviton_xs",
+      "levels": [
+        [
+          "gravityShotL1",
+          "permanentDamageShieldL1"
+        ],
+        [
+          "gravityShotL2",
+          "permanentDamageShieldL2"
+        ],
+        [
+          "gravityShotL3",
+          "permanentDamageShieldL3"
+        ],
+        [
+          "gravityShotL4",
+          "permanentDamageShieldL4"
+        ],
+        [
+          "gravityShotL5",
+          "permanentDamageShieldL5"
+        ]
+      ],
+      "unavailableSourceText": {
+        "description": "#bossmode:graviton_role/descr"
+      }
+    }
+  ],
+  "abilities": {
+    "gravityBurst": {
+      "id": "gravityBurst",
+      "itemId": 46,
+      "kind": "active",
+      "script": "GravityBurst",
+      "icon": "gravity-burst",
+      "family": "gravityBurst",
+      "nameKey": "#artefacts:gravityBurst/name",
+      "descriptionKey": "#artefacts:gravityBurst/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "burstRange": 50,
+        "burstForce": 15000,
+        "burstDamagePercent": 10,
+        "cooldown": 40
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Push_power_description",
+          "value": "10"
+        },
+        {
+          "nameKey": "Push_radius_description",
+          "value": "50"
+        },
+        {
+          "nameKey": "Push_cd_description",
+          "value": "40"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_scatter_s",
+      "iconBig": "BigBoss/Textures/consumable_scatter_m"
+    },
+    "railgunCharger": {
+      "id": "railgunCharger",
+      "itemId": 47,
+      "kind": "active",
+      "script": "RailgunCharger",
+      "icon": "railgun-charger",
+      "family": "railgunCharger",
+      "nameKey": "#artefacts:railgunCharger/name",
+      "descriptionKey": "",
+      "hiddenOnPanel": false,
+      "params": {
+        "damageFactor": 1.3,
+        "projectileSpeed": 1000,
+        "startCooldown": 30,
+        "cooldown": 40
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Megashot_damage_description",
+          "value": "30"
+        },
+        {
+          "nameKey": "Megashot_cd_description",
+          "value": "40"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_enhanced-shot_s",
+      "iconBig": "BigBoss/Textures/consumable_enhanced-shot_m",
+      "unavailableSourceText": {
+        "description": "#artefacts:railgunCharger/descr"
+      }
+    },
+    "healingAuraL1": {
+      "id": "healingAuraL1",
+      "itemId": 48,
+      "kind": "active",
+      "script": "HealingAura",
+      "icon": "healing-aura",
+      "family": "healingAura",
+      "nameKey": "",
+      "descriptionKey": "",
+      "hiddenOnPanel": false,
+      "params": {
+        "healWaveDelay": 3,
+        "healWavesCount": 2,
+        "healFactorPercent": 4,
+        "selfHealReducePercent": 50,
+        "range": 50,
+        "cooldown": 45
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Healaura_tics_description",
+          "value": "2"
+        },
+        {
+          "nameKey": "Healaura_power_description",
+          "value": "4"
+        },
+        {
+          "nameKey": "Healaura_radius_description",
+          "value": "50"
+        },
+        {
+          "nameKey": "Healaura_cd_description",
+          "value": "45"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_aura-of-healing_s",
+      "iconBig": "BigBoss/Textures/consumable_aura-of-healing_m",
+      "unavailableSourceText": {
+        "name": "#artefacts:healingAura/name",
+        "description": "#artefacts:healingAura/descr"
+      }
+    },
+    "healingAuraL2": {
+      "id": "healingAuraL2",
+      "itemId": 49,
+      "kind": "active",
+      "script": "HealingAura",
+      "icon": "healing-aura",
+      "family": "healingAura",
+      "nameKey": "",
+      "descriptionKey": "",
+      "hiddenOnPanel": false,
+      "params": {
+        "healWaveDelay": 3,
+        "healWavesCount": 3,
+        "healFactorPercent": 4,
+        "selfHealReducePercent": 50,
+        "range": 50,
+        "cooldown": 45
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Healaura_tics_description",
+          "value": "3"
+        },
+        {
+          "nameKey": "Healaura_power_description",
+          "value": "4"
+        },
+        {
+          "nameKey": "Healaura_radius_description",
+          "value": "50"
+        },
+        {
+          "nameKey": "Healaura_cd_description",
+          "value": "45"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_aura-of-healing_s",
+      "iconBig": "BigBoss/Textures/consumable_aura-of-healing_m",
+      "unavailableSourceText": {
+        "name": "#artefacts:healingAura/name",
+        "description": "#artefacts:healingAura/descr"
+      }
+    },
+    "healingAuraL3": {
+      "id": "healingAuraL3",
+      "itemId": 50,
+      "kind": "active",
+      "script": "HealingAura",
+      "icon": "healing-aura",
+      "family": "healingAura",
+      "nameKey": "",
+      "descriptionKey": "",
+      "hiddenOnPanel": false,
+      "params": {
+        "healWaveDelay": 3,
+        "healWavesCount": 4,
+        "healFactorPercent": 4,
+        "selfHealReducePercent": 50,
+        "range": 50,
+        "cooldown": 40
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Healaura_tics_description",
+          "value": "4"
+        },
+        {
+          "nameKey": "Healaura_power_description",
+          "value": "4"
+        },
+        {
+          "nameKey": "Healaura_radius_description",
+          "value": "50"
+        },
+        {
+          "nameKey": "Healaura_cd_description",
+          "value": "40"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_aura-of-healing_s",
+      "iconBig": "BigBoss/Textures/consumable_aura-of-healing_m",
+      "unavailableSourceText": {
+        "name": "#artefacts:healingAura/name",
+        "description": "#artefacts:healingAura/descr"
+      }
+    },
+    "healingAuraL4": {
+      "id": "healingAuraL4",
+      "itemId": 51,
+      "kind": "active",
+      "script": "HealingAura",
+      "icon": "healing-aura",
+      "family": "healingAura",
+      "nameKey": "",
+      "descriptionKey": "",
+      "hiddenOnPanel": false,
+      "params": {
+        "healWaveDelay": 3,
+        "healWavesCount": 5,
+        "healFactorPercent": 4,
+        "selfHealReducePercent": 50,
+        "range": 50,
+        "cooldown": 40
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Healaura_tics_description",
+          "value": "5"
+        },
+        {
+          "nameKey": "Healaura_power_description",
+          "value": "4"
+        },
+        {
+          "nameKey": "Healaura_radius_description",
+          "value": "50"
+        },
+        {
+          "nameKey": "Healaura_cd_description",
+          "value": "40"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_aura-of-healing_s",
+      "iconBig": "BigBoss/Textures/consumable_aura-of-healing_m",
+      "unavailableSourceText": {
+        "name": "#artefacts:healingAura/name",
+        "description": "#artefacts:healingAura/descr"
+      }
+    },
+    "healingAuraL5": {
+      "id": "healingAuraL5",
+      "itemId": 52,
+      "kind": "active",
+      "script": "HealingAura",
+      "icon": "healing-aura",
+      "family": "healingAura",
+      "nameKey": "",
+      "descriptionKey": "",
+      "hiddenOnPanel": false,
+      "params": {
+        "healWaveDelay": 3,
+        "healWavesCount": 6,
+        "healFactorPercent": 4,
+        "selfHealReducePercent": 50,
+        "range": 50,
+        "cooldown": 35
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Healaura_tics_description",
+          "value": "6"
+        },
+        {
+          "nameKey": "Healaura_power_description",
+          "value": "4"
+        },
+        {
+          "nameKey": "Healaura_radius_description",
+          "value": "50"
+        },
+        {
+          "nameKey": "Healaura_cd_description",
+          "value": "35"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_aura-of-healing_s",
+      "iconBig": "BigBoss/Textures/consumable_aura-of-healing_m",
+      "unavailableSourceText": {
+        "name": "#artefacts:healingAura/name",
+        "description": "#artefacts:healingAura/descr"
+      }
+    },
+    "shieldGiverAbilityL1": {
+      "id": "shieldGiverAbilityL1",
+      "itemId": 53,
+      "kind": "active",
+      "script": "ShieldGiverAbility",
+      "icon": "shield-giver-ability",
+      "family": "shieldGiverAbility",
+      "nameKey": "#artefacts:shieldGiverAbility/name",
+      "descriptionKey": "#artefacts:shieldGiverAbility/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "shieldDuration": 10,
+        "targetExtrasMustBeStopped": "fire",
+        "startCooldown": 40,
+        "cooldown": 40
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Healshield_duration_description",
+          "value": "10"
+        },
+        {
+          "nameKey": "Healshield_icd_description",
+          "value": "40"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_energy-shield_s",
+      "iconBig": "BigBoss/Textures/consumable_energy-shield_m",
+      "iconStatus": "BigBoss/Textures/consumable_energy-shield_xs"
+    },
+    "shieldGiverAbilityL2": {
+      "id": "shieldGiverAbilityL2",
+      "itemId": 54,
+      "kind": "active",
+      "script": "ShieldGiverAbility",
+      "icon": "shield-giver-ability",
+      "family": "shieldGiverAbility",
+      "nameKey": "#artefacts:shieldGiverAbility/name",
+      "descriptionKey": "#artefacts:shieldGiverAbility/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "shieldDuration": 15,
+        "targetExtrasMustBeStopped": "fire",
+        "startCooldown": 35,
+        "cooldown": 35
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Healshield_duration_description",
+          "value": "15"
+        },
+        {
+          "nameKey": "Healshield_icd_description",
+          "value": "35"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_energy-shield_s",
+      "iconBig": "BigBoss/Textures/consumable_energy-shield_m",
+      "iconStatus": "BigBoss/Textures/consumable_energy-shield_xs"
+    },
+    "shieldGiverAbilityL3": {
+      "id": "shieldGiverAbilityL3",
+      "itemId": 55,
+      "kind": "active",
+      "script": "ShieldGiverAbility",
+      "icon": "shield-giver-ability",
+      "family": "shieldGiverAbility",
+      "nameKey": "#artefacts:shieldGiverAbility/name",
+      "descriptionKey": "#artefacts:shieldGiverAbility/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "shieldDuration": 20,
+        "targetExtrasMustBeStopped": "fire",
+        "startCooldown": 35,
+        "cooldown": 35
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Healshield_duration_description",
+          "value": "20"
+        },
+        {
+          "nameKey": "Healshield_icd_description",
+          "value": "35"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_energy-shield_s",
+      "iconBig": "BigBoss/Textures/consumable_energy-shield_m",
+      "iconStatus": "BigBoss/Textures/consumable_energy-shield_xs"
+    },
+    "shieldGiverAbilityL4": {
+      "id": "shieldGiverAbilityL4",
+      "itemId": 56,
+      "kind": "active",
+      "script": "ShieldGiverAbility",
+      "icon": "shield-giver-ability",
+      "family": "shieldGiverAbility",
+      "nameKey": "#artefacts:shieldGiverAbility/name",
+      "descriptionKey": "#artefacts:shieldGiverAbility/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "shieldDuration": 25,
+        "targetExtrasMustBeStopped": "fire",
+        "startCooldown": 30,
+        "cooldown": 30
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Healshield_duration_description",
+          "value": "25"
+        },
+        {
+          "nameKey": "Healshield_icd_description",
+          "value": "30"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_energy-shield_s",
+      "iconBig": "BigBoss/Textures/consumable_energy-shield_m",
+      "iconStatus": "BigBoss/Textures/consumable_energy-shield_xs"
+    },
+    "shieldGiverAbilityL5": {
+      "id": "shieldGiverAbilityL5",
+      "itemId": 57,
+      "kind": "active",
+      "script": "ShieldGiverAbility",
+      "icon": "shield-giver-ability",
+      "family": "shieldGiverAbility",
+      "nameKey": "#artefacts:shieldGiverAbility/name",
+      "descriptionKey": "#artefacts:shieldGiverAbility/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "shieldDuration": 30,
+        "targetExtrasMustBeStopped": "fire",
+        "startCooldown": 30,
+        "cooldown": 30
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Healshield_duration_description",
+          "value": "30"
+        },
+        {
+          "nameKey": "Healshield_icd_description",
+          "value": "30"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_energy-shield_s",
+      "iconBig": "BigBoss/Textures/consumable_energy-shield_m",
+      "iconStatus": "BigBoss/Textures/consumable_energy-shield_xs"
+    },
+    "kamikazeAbilityL1": {
+      "id": "kamikazeAbilityL1",
+      "itemId": 58,
+      "kind": "active",
+      "script": "KamikazeAbility",
+      "icon": "kamikaze-ability",
+      "family": "kamikazeAbility",
+      "nameKey": "#artefacts:kamikazeAbility/name",
+      "descriptionKey": "#artefacts:kamikazeAbility/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "maxHealthSelfDamageFactor": 0,
+        "maxHealthDamageFactor": 0.2,
+        "range": 50,
+        "disableTracksCollisionDamage": true,
+        "cooldown": 40
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Kamikaziboom_power_description",
+          "value": "20"
+        },
+        {
+          "nameKey": "Kamikaziboom_boomradius_description",
+          "value": "50"
+        },
+        {
+          "nameKey": "Kamikaziboom_cd_description",
+          "value": "40"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_bang-boom_s",
+      "iconBig": "BigBoss/Textures/consumable_bang-boom_m"
+    },
+    "kamikazeAbilityL2": {
+      "id": "kamikazeAbilityL2",
+      "itemId": 59,
+      "kind": "active",
+      "script": "KamikazeAbility",
+      "icon": "kamikaze-ability",
+      "family": "kamikazeAbility",
+      "nameKey": "#artefacts:kamikazeAbility/name",
+      "descriptionKey": "#artefacts:kamikazeAbility/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "maxHealthSelfDamageFactor": 0,
+        "maxHealthDamageFactor": 0.3,
+        "range": 50,
+        "disableTracksCollisionDamage": true,
+        "cooldown": 40
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Kamikaziboom_power_description",
+          "value": "30"
+        },
+        {
+          "nameKey": "Kamikaziboom_boomradius_description",
+          "value": "50"
+        },
+        {
+          "nameKey": "Kamikaziboom_cd_description",
+          "value": "40"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_bang-boom_s",
+      "iconBig": "BigBoss/Textures/consumable_bang-boom_m"
+    },
+    "kamikazeAbilityL3": {
+      "id": "kamikazeAbilityL3",
+      "itemId": 60,
+      "kind": "active",
+      "script": "KamikazeAbility",
+      "icon": "kamikaze-ability",
+      "family": "kamikazeAbility",
+      "nameKey": "#artefacts:kamikazeAbility/name",
+      "descriptionKey": "#artefacts:kamikazeAbility/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "maxHealthSelfDamageFactor": 0,
+        "maxHealthDamageFactor": 0.3,
+        "range": 50,
+        "disableTracksCollisionDamage": true,
+        "cooldown": 35
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Kamikaziboom_power_description",
+          "value": "30"
+        },
+        {
+          "nameKey": "Kamikaziboom_boomradius_description",
+          "value": "50"
+        },
+        {
+          "nameKey": "Kamikaziboom_cd_description",
+          "value": "35"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_bang-boom_s",
+      "iconBig": "BigBoss/Textures/consumable_bang-boom_m"
+    },
+    "kamikazeAbilityL4": {
+      "id": "kamikazeAbilityL4",
+      "itemId": 61,
+      "kind": "active",
+      "script": "KamikazeAbility",
+      "icon": "kamikaze-ability",
+      "family": "kamikazeAbility",
+      "nameKey": "#artefacts:kamikazeAbility/name",
+      "descriptionKey": "#artefacts:kamikazeAbility/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "maxHealthSelfDamageFactor": 0,
+        "maxHealthDamageFactor": 0.4,
+        "range": 50,
+        "disableTracksCollisionDamage": true,
+        "cooldown": 35
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Kamikaziboom_power_description",
+          "value": "40"
+        },
+        {
+          "nameKey": "Kamikaziboom_boomradius_description",
+          "value": "50"
+        },
+        {
+          "nameKey": "Kamikaziboom_cd_description",
+          "value": "35"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_bang-boom_s",
+      "iconBig": "BigBoss/Textures/consumable_bang-boom_m"
+    },
+    "kamikazeAbilityL5": {
+      "id": "kamikazeAbilityL5",
+      "itemId": 62,
+      "kind": "active",
+      "script": "KamikazeAbility",
+      "icon": "kamikaze-ability",
+      "family": "kamikazeAbility",
+      "nameKey": "#artefacts:kamikazeAbility/name",
+      "descriptionKey": "#artefacts:kamikazeAbility/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "maxHealthSelfDamageFactor": 0,
+        "maxHealthDamageFactor": 0.5,
+        "range": 50,
+        "disableTracksCollisionDamage": true,
+        "cooldown": 30
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Kamikaziboom_power_description",
+          "value": "50"
+        },
+        {
+          "nameKey": "Kamikaziboom_boomradius_description",
+          "value": "50"
+        },
+        {
+          "nameKey": "Kamikaziboom_cd_description",
+          "value": "30"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_bang-boom_s",
+      "iconBig": "BigBoss/Textures/consumable_bang-boom_m"
+    },
+    "poisonedShellL1": {
+      "id": "poisonedShellL1",
+      "itemId": 63,
+      "kind": "active",
+      "script": "PoisonedShell",
+      "icon": "poisoned-shell",
+      "family": "poisonedShell",
+      "nameKey": "#artefacts:poisonedShell/name",
+      "descriptionKey": "#artefacts:poisonedShell/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "duration": 10,
+        "cooldown": 35,
+        "maxHealthDamagePercent": 5,
+        "poisonTicks": 3,
+        "poisonTickDelay": 2
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Poisonshell_activetime_description",
+          "value": "10"
+        },
+        {
+          "nameKey": "Poisonshell_cd_description",
+          "value": "35"
+        },
+        {
+          "nameKey": "Poisonshell_power_description",
+          "value": "5"
+        },
+        {
+          "nameKey": "Poisonshell_tics_description",
+          "value": "3"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_poisoned-shells_s",
+      "iconBig": "BigBoss/Textures/consumable_poisoned-shells_m",
+      "iconStatus": "BigBoss/Textures/consumable_poisoned-shells_xs"
+    },
+    "poisonedShellL2": {
+      "id": "poisonedShellL2",
+      "itemId": 64,
+      "kind": "active",
+      "script": "PoisonedShell",
+      "icon": "poisoned-shell",
+      "family": "poisonedShell",
+      "nameKey": "#artefacts:poisonedShell/name",
+      "descriptionKey": "#artefacts:poisonedShell/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "duration": 10,
+        "cooldown": 35,
+        "maxHealthDamagePercent": 7,
+        "poisonTicks": 3,
+        "poisonTickDelay": 2
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Poisonshell_activetime_description",
+          "value": "10"
+        },
+        {
+          "nameKey": "Poisonshell_cd_description",
+          "value": "35"
+        },
+        {
+          "nameKey": "Poisonshell_power_description",
+          "value": "7"
+        },
+        {
+          "nameKey": "Poisonshell_tics_description",
+          "value": "3"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_poisoned-shells_s",
+      "iconBig": "BigBoss/Textures/consumable_poisoned-shells_m",
+      "iconStatus": "BigBoss/Textures/consumable_poisoned-shells_xs"
+    },
+    "poisonedShellL3": {
+      "id": "poisonedShellL3",
+      "itemId": 65,
+      "kind": "active",
+      "script": "PoisonedShell",
+      "icon": "poisoned-shell",
+      "family": "poisonedShell",
+      "nameKey": "#artefacts:poisonedShell/name",
+      "descriptionKey": "#artefacts:poisonedShell/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "duration": 10,
+        "cooldown": 30,
+        "maxHealthDamagePercent": 7,
+        "poisonTicks": 3,
+        "poisonTickDelay": 2
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Poisonshell_activetime_description",
+          "value": "10"
+        },
+        {
+          "nameKey": "Poisonshell_cd_description",
+          "value": "30"
+        },
+        {
+          "nameKey": "Poisonshell_power_description",
+          "value": "7"
+        },
+        {
+          "nameKey": "Poisonshell_tics_description",
+          "value": "3"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_poisoned-shells_s",
+      "iconBig": "BigBoss/Textures/consumable_poisoned-shells_m",
+      "iconStatus": "BigBoss/Textures/consumable_poisoned-shells_xs"
+    },
+    "poisonedShellL4": {
+      "id": "poisonedShellL4",
+      "itemId": 66,
+      "kind": "active",
+      "script": "PoisonedShell",
+      "icon": "poisoned-shell",
+      "family": "poisonedShell",
+      "nameKey": "#artefacts:poisonedShell/name",
+      "descriptionKey": "#artefacts:poisonedShell/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "duration": 15,
+        "cooldown": 30,
+        "maxHealthDamagePercent": 7,
+        "poisonTicks": 3,
+        "poisonTickDelay": 2
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Poisonshell_activetime_description",
+          "value": "15"
+        },
+        {
+          "nameKey": "Poisonshell_cd_description",
+          "value": "30"
+        },
+        {
+          "nameKey": "Poisonshell_power_description",
+          "value": "7"
+        },
+        {
+          "nameKey": "Poisonshell_tics_description",
+          "value": "3"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_poisoned-shells_s",
+      "iconBig": "BigBoss/Textures/consumable_poisoned-shells_m",
+      "iconStatus": "BigBoss/Textures/consumable_poisoned-shells_xs"
+    },
+    "poisonedShellL5": {
+      "id": "poisonedShellL5",
+      "itemId": 67,
+      "kind": "active",
+      "script": "PoisonedShell",
+      "icon": "poisoned-shell",
+      "family": "poisonedShell",
+      "nameKey": "#artefacts:poisonedShell/name",
+      "descriptionKey": "#artefacts:poisonedShell/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "duration": 20,
+        "cooldown": 25,
+        "maxHealthDamagePercent": 10,
+        "poisonTicks": 3,
+        "poisonTickDelay": 2
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Poisonshell_activetime_description",
+          "value": "20"
+        },
+        {
+          "nameKey": "Poisonshell_cd_description",
+          "value": "25"
+        },
+        {
+          "nameKey": "Poisonshell_power_description",
+          "value": "10"
+        },
+        {
+          "nameKey": "Poisonshell_tics_description",
+          "value": "3"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_poisoned-shells_s",
+      "iconBig": "BigBoss/Textures/consumable_poisoned-shells_m",
+      "iconStatus": "BigBoss/Textures/consumable_poisoned-shells_xs"
+    },
+    "gravityShotL1": {
+      "id": "gravityShotL1",
+      "itemId": 68,
+      "kind": "active",
+      "script": "GravityShot",
+      "icon": "gravity-shot",
+      "family": "gravityShot",
+      "nameKey": "#artefacts:gravityShot/name",
+      "descriptionKey": "#artefacts:gravityShot/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "effectDuration": 7,
+        "cooldown": 45,
+        "radius": 60,
+        "attractorMass": 70.0
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Graviboom_time_description",
+          "value": "5"
+        },
+        {
+          "nameKey": "Graviboom_cd_description",
+          "value": "45"
+        },
+        {
+          "nameKey": "Graviboom_radius_description",
+          "value": "60"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_gravity-shot_s",
+      "iconBig": "BigBoss/Textures/consumable_gravity-shot_m"
+    },
+    "gravityShotL2": {
+      "id": "gravityShotL2",
+      "itemId": 69,
+      "kind": "active",
+      "script": "GravityShot",
+      "icon": "gravity-shot",
+      "family": "gravityShot",
+      "nameKey": "#artefacts:gravityShot/name",
+      "descriptionKey": "#artefacts:gravityShot/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "effectDuration": 7,
+        "cooldown": 45,
+        "radius": 65,
+        "attractorMass": 75.0
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Graviboom_time_description",
+          "value": "7"
+        },
+        {
+          "nameKey": "Graviboom_cd_description",
+          "value": "45"
+        },
+        {
+          "nameKey": "Graviboom_radius_description",
+          "value": "65"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_gravity-shot_s",
+      "iconBig": "BigBoss/Textures/consumable_gravity-shot_m"
+    },
+    "gravityShotL3": {
+      "id": "gravityShotL3",
+      "itemId": 70,
+      "kind": "active",
+      "script": "GravityShot",
+      "icon": "gravity-shot",
+      "family": "gravityShot",
+      "nameKey": "#artefacts:gravityShot/name",
+      "descriptionKey": "#artefacts:gravityShot/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "effectDuration": 7,
+        "cooldown": 40,
+        "radius": 70,
+        "attractorMass": 80.0
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Graviboom_time_description",
+          "value": "7"
+        },
+        {
+          "nameKey": "Graviboom_cd_description",
+          "value": "40"
+        },
+        {
+          "nameKey": "Graviboom_radius_description",
+          "value": "70"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_gravity-shot_s",
+      "iconBig": "BigBoss/Textures/consumable_gravity-shot_m"
+    },
+    "gravityShotL4": {
+      "id": "gravityShotL4",
+      "itemId": 71,
+      "kind": "active",
+      "script": "GravityShot",
+      "icon": "gravity-shot",
+      "family": "gravityShot",
+      "nameKey": "#artefacts:gravityShot/name",
+      "descriptionKey": "#artefacts:gravityShot/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "effectDuration": 7,
+        "cooldown": 40,
+        "radius": 75,
+        "attractorMass": 90.0
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Graviboom_time_description",
+          "value": "7"
+        },
+        {
+          "nameKey": "Graviboom_cd_description",
+          "value": "40"
+        },
+        {
+          "nameKey": "Graviboom_radius_description",
+          "value": "75"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_gravity-shot_s",
+      "iconBig": "BigBoss/Textures/consumable_gravity-shot_m"
+    },
+    "gravityShotL5": {
+      "id": "gravityShotL5",
+      "itemId": 72,
+      "kind": "active",
+      "script": "GravityShot",
+      "icon": "gravity-shot",
+      "family": "gravityShot",
+      "nameKey": "#artefacts:gravityShot/name",
+      "descriptionKey": "#artefacts:gravityShot/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "effectDuration": 7,
+        "cooldown": 35,
+        "radius": 80,
+        "attractorMass": 100.0
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Graviboom_time_description",
+          "value": "7"
+        },
+        {
+          "nameKey": "Graviboom_cd_description",
+          "value": "35"
+        },
+        {
+          "nameKey": "Graviboom_radius_description",
+          "value": "80"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_gravity-shot_s",
+      "iconBig": "BigBoss/Textures/consumable_gravity-shot_m"
+    },
+    "bigBoss": {
+      "id": "bigBoss",
+      "itemId": 47,
+      "kind": "passive",
+      "script": "BigBoss",
+      "icon": "big-boss",
+      "family": "bigBoss",
+      "nameKey": "#artefacts:bigBoss/name",
+      "descriptionKey": "#artefacts:bigBoss/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "gunReloadFactor": 0.5,
+        "commonDamageFactor": 1.4,
+        "enginePowerFactor": 1.3,
+        "speedLimitsFactor": 1.3,
+        "maxHealthPercentBonus": 300,
+        "maxStaticsDamagePercent": 20,
+        "chancesToHit.modules.engineHealth": 0.2,
+        "chancesToHit.modules.fuelTankHealth": 0.2,
+        "chancesToHit.modules.turretRotatorHealth": 0.2,
+        "chancesToHit.modules.surveyingDeviceHealth": 0.2,
+        "chancesToHit.modules.ammoBayHealth": 0.2,
+        "modulesMaxHpFactors.modules.ammoBayHealth": 3.0,
+        "modulesMaxRegenHpFactors.modules.ammoBayHealth": 3.0
+      },
+      "duplicateParams": [
+        "chancesToHit.modules.surveyingDeviceHealth"
+      ],
+      "descrParams": [
+        {
+          "nameKey": "Boss_reloadtime_description",
+          "value": "50"
+        },
+        {
+          "nameKey": "Boss_damage_description",
+          "value": "40"
+        },
+        {
+          "nameKey": "Boss_enginepower_description",
+          "value": "30"
+        },
+        {
+          "nameKey": "Boss_maxspeed_description",
+          "value": "30"
+        },
+        {
+          "nameKey": "Boss_hpboost_description",
+          "value": "4"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_tanks-ttx-up_m"
+    },
+    "permanentDamageShieldL1": {
+      "id": "permanentDamageShieldL1",
+      "itemId": 48,
+      "kind": "passive",
+      "script": "PermanentDamageShield",
+      "icon": "permanent-damage-shield",
+      "family": "permanentDamageShield",
+      "nameKey": "#artefacts:permanentDamageShield/name",
+      "descriptionKey": "#artefacts:permanentDamageShield/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "damageReductionPercent": 10
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Graviton_shield_description",
+          "value": "10"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_damage-resistance_s",
+      "iconBig": "BigBoss/Textures/consumable_damage-resistance_m"
+    },
+    "permanentDamageShieldL2": {
+      "id": "permanentDamageShieldL2",
+      "itemId": 49,
+      "kind": "passive",
+      "script": "PermanentDamageShield",
+      "icon": "permanent-damage-shield",
+      "family": "permanentDamageShield",
+      "nameKey": "#artefacts:permanentDamageShield/name",
+      "descriptionKey": "#artefacts:permanentDamageShield/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "damageReductionPercent": 15
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Graviton_shield_description",
+          "value": "15"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_damage-resistance_s",
+      "iconBig": "BigBoss/Textures/consumable_damage-resistance_m"
+    },
+    "permanentDamageShieldL3": {
+      "id": "permanentDamageShieldL3",
+      "itemId": 50,
+      "kind": "passive",
+      "script": "PermanentDamageShield",
+      "icon": "permanent-damage-shield",
+      "family": "permanentDamageShield",
+      "nameKey": "#artefacts:permanentDamageShield/name",
+      "descriptionKey": "#artefacts:permanentDamageShield/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "damageReductionPercent": 20
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Graviton_shield_description",
+          "value": "20"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_damage-resistance_s",
+      "iconBig": "BigBoss/Textures/consumable_damage-resistance_m"
+    },
+    "permanentDamageShieldL4": {
+      "id": "permanentDamageShieldL4",
+      "itemId": 51,
+      "kind": "passive",
+      "script": "PermanentDamageShield",
+      "icon": "permanent-damage-shield",
+      "family": "permanentDamageShield",
+      "nameKey": "#artefacts:permanentDamageShield/name",
+      "descriptionKey": "#artefacts:permanentDamageShield/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "damageReductionPercent": 25
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Graviton_shield_description",
+          "value": "25"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_damage-resistance_s",
+      "iconBig": "BigBoss/Textures/consumable_damage-resistance_m"
+    },
+    "permanentDamageShieldL5": {
+      "id": "permanentDamageShieldL5",
+      "itemId": 52,
+      "kind": "passive",
+      "script": "PermanentDamageShield",
+      "icon": "permanent-damage-shield",
+      "family": "permanentDamageShield",
+      "nameKey": "#artefacts:permanentDamageShield/name",
+      "descriptionKey": "#artefacts:permanentDamageShield/descr",
+      "hiddenOnPanel": false,
+      "params": {
+        "damageReductionPercent": 30
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Graviton_shield_description",
+          "value": "30"
+        }
+      ],
+      "iconSmall": "BigBoss/Textures/consumable_damage-resistance_s",
+      "iconBig": "BigBoss/Textures/consumable_damage-resistance_m"
+    },
+    "healingShotL1": {
+      "id": "healingShotL1",
+      "itemId": 53,
+      "kind": "passive",
+      "script": "LifestealHeal",
+      "icon": "healingShot",
+      "family": "healingShot",
+      "nameKey": "#artefacts:healingShot/name",
+      "descriptionKey": "#artefacts:healingShot/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "lifestealFactor": 0.0,
+        "lifestealRandomFactor": 0.0,
+        "killHealFactor": 0.0,
+        "healFactor": 0.4,
+        "healRandomFactor": 0.15
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Healshot_power_description",
+          "value": "40"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_shot-heailing_m"
+    },
+    "healingShotL2": {
+      "id": "healingShotL2",
+      "itemId": 54,
+      "kind": "passive",
+      "script": "LifestealHeal",
+      "icon": "healingShot",
+      "family": "healingShot",
+      "nameKey": "#artefacts:healingShot/name",
+      "descriptionKey": "#artefacts:healingShot/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "lifestealFactor": 0.0,
+        "lifestealRandomFactor": 0.0,
+        "killHealFactor": 0.0,
+        "healFactor": 0.5,
+        "healRandomFactor": 0.15
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Healshot_power_description",
+          "value": "50"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_shot-heailing_m"
+    },
+    "healingShotL3": {
+      "id": "healingShotL3",
+      "itemId": 55,
+      "kind": "passive",
+      "script": "LifestealHeal",
+      "icon": "healingShot",
+      "family": "healingShot",
+      "nameKey": "#artefacts:healingShot/name",
+      "descriptionKey": "#artefacts:healingShot/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "lifestealFactor": 0.0,
+        "lifestealRandomFactor": 0.0,
+        "killHealFactor": 0.0,
+        "healFactor": 0.5,
+        "healRandomFactor": 0.15
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Healshot_power_description",
+          "value": "50"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_shot-heailing_m"
+    },
+    "healingShotL4": {
+      "id": "healingShotL4",
+      "itemId": 56,
+      "kind": "passive",
+      "script": "LifestealHeal",
+      "icon": "healingShot",
+      "family": "healingShot",
+      "nameKey": "#artefacts:healingShot/name",
+      "descriptionKey": "#artefacts:healingShot/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "lifestealFactor": 0.0,
+        "lifestealRandomFactor": 0.0,
+        "killHealFactor": 0.0,
+        "healFactor": 0.5,
+        "healRandomFactor": 0.15
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Healshot_power_description",
+          "value": "50"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_shot-heailing_m"
+    },
+    "healingShotL5": {
+      "id": "healingShotL5",
+      "itemId": 57,
+      "kind": "passive",
+      "script": "LifestealHeal",
+      "icon": "healingShot",
+      "family": "healingShot",
+      "nameKey": "#artefacts:healingShot/name",
+      "descriptionKey": "#artefacts:healingShot/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "lifestealFactor": 0.0,
+        "lifestealRandomFactor": 0.0,
+        "killHealFactor": 0.0,
+        "healFactor": 0.6,
+        "healRandomFactor": 0.15
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Healshot_power_description",
+          "value": "60"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_shot-heailing_m"
+    },
+    "killerPassiveL1": {
+      "id": "killerPassiveL1",
+      "itemId": 58,
+      "kind": "passive",
+      "script": "AttributesModifier",
+      "icon": "killerPassive",
+      "family": "killerPassive",
+      "nameKey": "#artefacts:killerPassive/name",
+      "descriptionKey": "#artefacts:killerPassive/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "commonDamageFactor": 1.15,
+        "gunReloadFactor": 0.95,
+        "pumpGunReloadFactor": 0.95,
+        "gunAimingFactor": 0.75
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Killer_damage_description",
+          "value": "15"
+        },
+        {
+          "nameKey": "Killer_cd_description",
+          "value": "5"
+        },
+        {
+          "nameKey": "Killer_aim_description",
+          "value": "25"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_tanks-ttx-up_m"
+    },
+    "killerPassiveL2": {
+      "id": "killerPassiveL2",
+      "itemId": 59,
+      "kind": "passive",
+      "script": "AttributesModifier",
+      "icon": "killerPassive",
+      "family": "killerPassive",
+      "nameKey": "#artefacts:killerPassive/name",
+      "descriptionKey": "#artefacts:killerPassive/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "commonDamageFactor": 1.2,
+        "gunReloadFactor": 0.9,
+        "pumpGunReloadFactor": 0.9,
+        "gunAimingFactor": 0.75
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Killer_damage_description",
+          "value": "20"
+        },
+        {
+          "nameKey": "Killer_cd_description",
+          "value": "10"
+        },
+        {
+          "nameKey": "Killer_aim_description",
+          "value": "25"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_tanks-ttx-up_m"
+    },
+    "killerPassiveL3": {
+      "id": "killerPassiveL3",
+      "itemId": 60,
+      "kind": "passive",
+      "script": "AttributesModifier",
+      "icon": "killerPassive",
+      "family": "killerPassive",
+      "nameKey": "#artefacts:killerPassive/name",
+      "descriptionKey": "#artefacts:killerPassive/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "commonDamageFactor": 1.25,
+        "gunReloadFactor": 0.85,
+        "pumpGunReloadFactor": 0.85,
+        "gunAimingFactor": 0.75
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Killer_damage_description",
+          "value": "25"
+        },
+        {
+          "nameKey": "Killer_cd_description",
+          "value": "15"
+        },
+        {
+          "nameKey": "Killer_aim_description",
+          "value": "25"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_tanks-ttx-up_m"
+    },
+    "killerPassiveL4": {
+      "id": "killerPassiveL4",
+      "itemId": 61,
+      "kind": "passive",
+      "script": "AttributesModifier",
+      "icon": "killerPassive",
+      "family": "killerPassive",
+      "nameKey": "#artefacts:killerPassive/name",
+      "descriptionKey": "#artefacts:killerPassive/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "commonDamageFactor": 1.3,
+        "gunReloadFactor": 0.8,
+        "pumpGunReloadFactor": 0.8,
+        "gunAimingFactor": 0.75
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Killer_damage_description",
+          "value": "30"
+        },
+        {
+          "nameKey": "Killer_cd_description",
+          "value": "20"
+        },
+        {
+          "nameKey": "Killer_aim_description",
+          "value": "25"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_tanks-ttx-up_m"
+    },
+    "killerPassiveL5": {
+      "id": "killerPassiveL5",
+      "itemId": 62,
+      "kind": "passive",
+      "script": "AttributesModifier",
+      "icon": "killerPassive",
+      "family": "killerPassive",
+      "nameKey": "#artefacts:killerPassive/name",
+      "descriptionKey": "#artefacts:killerPassive/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "commonDamageFactor": 1.35,
+        "gunReloadFactor": 0.75,
+        "pumpGunReloadFactor": 0.75,
+        "gunAimingFactor": 0.5
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Killer_damage_description",
+          "value": "35"
+        },
+        {
+          "nameKey": "Killer_cd_description",
+          "value": "25"
+        },
+        {
+          "nameKey": "Killer_aim_description",
+          "value": "50"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_tanks-ttx-up_m"
+    },
+    "kamikazePassiveL1": {
+      "id": "kamikazePassiveL1",
+      "itemId": 63,
+      "kind": "passive",
+      "script": "AttributesModifier",
+      "icon": "kamikazePassive",
+      "family": "kamikazePassive",
+      "nameKey": "#artefacts:kamikazePassive/name",
+      "descriptionKey": "#artefacts:kamikazePassive/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "enginePowerFactor": 1.15,
+        "speedLimitsFactor": 1.15,
+        "chassisHealthFactor": 0.5
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Kamikazi_enginepower_description",
+          "value": "15"
+        },
+        {
+          "nameKey": "Kamikazi_maxspeed_description",
+          "value": "15"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_tanks-ttx-up_m"
+    },
+    "kamikazePassiveL2": {
+      "id": "kamikazePassiveL2",
+      "itemId": 64,
+      "kind": "passive",
+      "script": "AttributesModifier",
+      "icon": "kamikazePassive",
+      "family": "kamikazePassive",
+      "nameKey": "#artefacts:kamikazePassive/name",
+      "descriptionKey": "#artefacts:kamikazePassive/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "enginePowerFactor": 1.25,
+        "speedLimitsFactor": 1.25,
+        "chassisHealthFactor": 0.5
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Kamikazi_enginepower_description",
+          "value": "25"
+        },
+        {
+          "nameKey": "Kamikazi_maxspeed_description",
+          "value": "25"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_tanks-ttx-up_m"
+    },
+    "kamikazePassiveL3": {
+      "id": "kamikazePassiveL3",
+      "itemId": 65,
+      "kind": "passive",
+      "script": "AttributesModifier",
+      "icon": "kamikazePassive",
+      "family": "kamikazePassive",
+      "nameKey": "#artefacts:kamikazePassive/name",
+      "descriptionKey": "#artefacts:kamikazePassive/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "enginePowerFactor": 1.25,
+        "speedLimitsFactor": 1.25,
+        "chassisHealthFactor": 0.5
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Kamikazi_enginepower_description",
+          "value": "25"
+        },
+        {
+          "nameKey": "Kamikazi_maxspeed_description",
+          "value": "25"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_tanks-ttx-up_m"
+    },
+    "kamikazePassiveL4": {
+      "id": "kamikazePassiveL4",
+      "itemId": 66,
+      "kind": "passive",
+      "script": "AttributesModifier",
+      "icon": "kamikazePassive",
+      "family": "kamikazePassive",
+      "nameKey": "#artefacts:kamikazePassive/name",
+      "descriptionKey": "#artefacts:kamikazePassive/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "enginePowerFactor": 1.35,
+        "speedLimitsFactor": 1.35,
+        "chassisHealthFactor": 0.5
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Kamikazi_enginepower_description",
+          "value": "35"
+        },
+        {
+          "nameKey": "Kamikazi_maxspeed_description",
+          "value": "35"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_tanks-ttx-up_m"
+    },
+    "kamikazePassiveL5": {
+      "id": "kamikazePassiveL5",
+      "itemId": 67,
+      "kind": "passive",
+      "script": "AttributesModifier",
+      "icon": "kamikazePassive",
+      "family": "kamikazePassive",
+      "nameKey": "#artefacts:kamikazePassive/name",
+      "descriptionKey": "#artefacts:kamikazePassive/descr",
+      "hiddenOnPanel": true,
+      "params": {
+        "enginePowerFactor": 1.4,
+        "speedLimitsFactor": 1.4,
+        "chassisHealthFactor": 0.5
+      },
+      "duplicateParams": [],
+      "descrParams": [
+        {
+          "nameKey": "Kamikazi_enginepower_description",
+          "value": "40"
+        },
+        {
+          "nameKey": "Kamikazi_maxspeed_description",
+          "value": "40"
+        }
+      ],
+      "iconBig": "BigBoss/Textures/consumable_tanks-ttx-up_m"
+    }
+  },
+  "reconstructedStrings": [],
+  "textures": {
+    "consumable_scatter_s": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_scatter_s",
+      "pixel_size": [
+        96,
+        96
+      ],
+      "logical_size": [
+        48.0,
+        48.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "2b5eac4226afee1c41b6fc0498b0428676adc4c707e4816e4091973f562ddc2c"
+    },
+    "consumable_scatter_m": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_scatter_m",
+      "pixel_size": [
+        256,
+        256
+      ],
+      "logical_size": [
+        128.0,
+        128.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "9e105446e4884280c904b7f2fe6fdb8c2b931abdc582cfc8d605de8bc713ece2"
+    },
+    "consumable_enhanced-shot_s": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_enhanced-shot_s",
+      "pixel_size": [
+        96,
+        96
+      ],
+      "logical_size": [
+        48.0,
+        48.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "c62843e69b5fdadc6dbf8626ccb83d630df7b2d41cc25a333bd960fb14759ddb"
+    },
+    "consumable_enhanced-shot_m": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_enhanced-shot_m",
+      "pixel_size": [
+        256,
+        256
+      ],
+      "logical_size": [
+        128.0,
+        128.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "f28310a52a1393dddc78aed598006b1e845f31acc86519f72092b943ac6019b2"
+    },
+    "consumable_aura-of-healing_s": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_aura-of-healing_s",
+      "pixel_size": [
+        96,
+        96
+      ],
+      "logical_size": [
+        48.0,
+        48.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "5f8e88a1018d9ee2f3e814351e664cb56f6bf7f761f5bfa0732d9f960f13a0ff"
+    },
+    "consumable_aura-of-healing_m": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_aura-of-healing_m",
+      "pixel_size": [
+        256,
+        256
+      ],
+      "logical_size": [
+        128.0,
+        128.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "bb331ed7672795db45130e767510829324279e722db37c342a9cf20bcfc87655"
+    },
+    "consumable_energy-shield_s": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_energy-shield_s",
+      "pixel_size": [
+        96,
+        96
+      ],
+      "logical_size": [
+        48.0,
+        48.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "5afc90cddb0bdfbf920fe905dd8b71b8ee47c50bf0c0c758ed06845729a87ee1"
+    },
+    "consumable_energy-shield_m": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_energy-shield_m",
+      "pixel_size": [
+        256,
+        256
+      ],
+      "logical_size": [
+        128.0,
+        128.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "675dd609202b983317ffbf9fd250f20951b710d0555a6e37b490040dbbaba7df"
+    },
+    "consumable_energy-shield_xs": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/small/consumable_energy-shield_xs",
+      "pixel_size": [
+        48,
+        44
+      ],
+      "logical_size": [
+        24.0,
+        22.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "1cdfdc8af5fd311087f8c2442c5d0fd94cf0568d420d79c041ad1375c8d6c8d3"
+    },
+    "consumable_bang-boom_s": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_bang-boom_s",
+      "pixel_size": [
+        96,
+        96
+      ],
+      "logical_size": [
+        48.0,
+        48.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "28f287615a27b025201a2019788d265b10686bc5b44a6b43a4d84033f6d9ada3"
+    },
+    "consumable_bang-boom_m": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_bang-boom_m",
+      "pixel_size": [
+        256,
+        256
+      ],
+      "logical_size": [
+        128.0,
+        128.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "10d1390f7645abe04e3f7eba389363440c5d29c1d2a8b8e8ca68eae1ba991699"
+    },
+    "consumable_poisoned-shells_s": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_poisoned-shells_s",
+      "pixel_size": [
+        96,
+        96
+      ],
+      "logical_size": [
+        48.0,
+        48.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "ac065a5cc52bd80360fb41c0a65998b16e0a9f7a34fa254e18903f3f3cd9ccab"
+    },
+    "consumable_poisoned-shells_m": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_poisoned-shells_m",
+      "pixel_size": [
+        256,
+        256
+      ],
+      "logical_size": [
+        128.0,
+        128.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "3db085c82dd90529076abb1687e96cdf1f85bd52f803a9aa7265de142fd63d10"
+    },
+    "consumable_poisoned-shells_xs": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/small/consumable_poisoned-shells_xs",
+      "pixel_size": [
+        48,
+        44
+      ],
+      "logical_size": [
+        24.0,
+        22.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "146851e5596a25fbbf36f2aaccffc68de7ff79b690799a17b0eb7e8d59a89845"
+    },
+    "consumable_gravity-shot_s": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_gravity-shot_s",
+      "pixel_size": [
+        96,
+        96
+      ],
+      "logical_size": [
+        48.0,
+        48.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "f985d64a8530395da8f5ebcb3b2023cee859e3da315844720a827c04227ea00f"
+    },
+    "consumable_gravity-shot_m": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_gravity-shot_m",
+      "pixel_size": [
+        256,
+        256
+      ],
+      "logical_size": [
+        128.0,
+        128.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "d7672ead19d69d8c071f3126418969662ab38f885e8a1f0b12c17645f512a3e0"
+    },
+    "consumable_tanks-ttx-up_m": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_tanks-ttx-up_m",
+      "pixel_size": [
+        256,
+        256
+      ],
+      "logical_size": [
+        128.0,
+        128.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "0cc4e77ad184513c40fc84c010fffc50aebfa6aec3cc2264acbfe74f157167d5"
+    },
+    "consumable_damage-resistance_s": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_damage-resistance_s",
+      "pixel_size": [
+        96,
+        96
+      ],
+      "logical_size": [
+        48.0,
+        48.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "c1c385fab2d50aa386ed2c6e1605f2399dec53c8696f559faf2fbe68d75254c2"
+    },
+    "consumable_damage-resistance_m": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_damage-resistance_m",
+      "pixel_size": [
+        256,
+        256
+      ],
+      "logical_size": [
+        128.0,
+        128.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "0aa6bd8e0e61f86cba61a2329f30ca4079175d04ebd043aa7a8f698ae9a8b810"
+    },
+    "consumable_shot-heailing_m": {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_shot-heailing_m",
+      "pixel_size": [
+        256,
+        256
+      ],
+      "logical_size": [
+        128.0,
+        128.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "ff3c4a68515131ad0268d84f38d2fbf29d645d255d44404b2afc2bd6edb35f1a"
+    },
+    "icon_role-boss_s": {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-boss_s",
+      "pixel_size": [
+        192,
+        192
+      ],
+      "logical_size": [
+        96.0,
+        96.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "547c09d5ed3cd214616aff2b9e69756ad71061c1f42623fbd948984fd5bf5e7d"
+    },
+    "icon_role-boss_xs": {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-boss_xs",
+      "pixel_size": [
+        48,
+        44
+      ],
+      "logical_size": [
+        24.0,
+        22.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "5a85d510acb35837dea7a02a89827eb2c5f1d839f20274110053728f7ad08a5b"
+    },
+    "icon_role-healer_s": {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-healer_s",
+      "pixel_size": [
+        192,
+        192
+      ],
+      "logical_size": [
+        96.0,
+        96.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "44445177be14026a5ecb792af7023c6dd577bc8f70acb545907977b2f203e91f"
+    },
+    "icon_role-healer_xs": {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-healer_xs",
+      "pixel_size": [
+        48,
+        44
+      ],
+      "logical_size": [
+        24.0,
+        22.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "ce03c6a8dcdb0c11bae707d21d53f51feb45feb5bbcd2bef23c70ddfdf146e2d"
+    },
+    "icon_role-killer_s": {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-killer_s",
+      "pixel_size": [
+        192,
+        192
+      ],
+      "logical_size": [
+        96.0,
+        96.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "6b1f1d6d90c6b3ceeeb66e90b6c8cb2691cd7b110e30da3875a9d335361f8e88"
+    },
+    "icon_role-killer_xs": {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-killer_xs",
+      "pixel_size": [
+        48,
+        44
+      ],
+      "logical_size": [
+        24.0,
+        22.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "f9636dc0cdfea490e28e43ba67649500f30392c66ef6684ec448ec66e1cf6974"
+    },
+    "icon_role-kamikaze_s": {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-kamikaze_s",
+      "pixel_size": [
+        192,
+        192
+      ],
+      "logical_size": [
+        96.0,
+        96.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "322ca069b5a3c72c38d17b59f0d1489bc054159766ed23362345deeac6e84cbf"
+    },
+    "icon_role-kamikaze_xs": {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-kamikaze_xs",
+      "pixel_size": [
+        48,
+        44
+      ],
+      "logical_size": [
+        24.0,
+        22.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "b524463f3356316b57848390f26cd36ea7b107b014d805d53feecbf5bbe29645"
+    },
+    "icon_role-graviton_s": {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-graviton_s",
+      "pixel_size": [
+        192,
+        192
+      ],
+      "logical_size": [
+        96.0,
+        96.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "8758ca2481f92948b266172428618c3b628f8ee42aa55415f3dfba328d32056c"
+    },
+    "icon_role-graviton_xs": {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-graviton_xs",
+      "pixel_size": [
+        48,
+        44
+      ],
+      "logical_size": [
+        24.0,
+        22.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "8ca0309d8a57148c75b82f1808e8ae587fe51ec7279230fbd8088cab1529c8c1"
+    },
+    "bg_border_1px_r4": {
+      "source": "Gfx/Battle/HUD/bossmode/bg_border_1px_r4",
+      "pixel_size": [
+        20,
+        20
+      ],
+      "logical_size": [
+        10.0,
+        10.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "1837db0978dfd1166986e884accf6ce1ee912ca11b0b4d8c572f816e8469d457"
+    },
+    "bg_level": {
+      "source": "Gfx/Battle/HUD/bossmode/bg_level",
+      "pixel_size": [
+        42,
+        56
+      ],
+      "logical_size": [
+        21.0,
+        28.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "cbc91006325816c8abba9fbb21b950f3386bef74fee6cbdd31ade0ee67ed39dc"
+    },
+    "bg_triangle": {
+      "source": "Gfx/Battle/HUD/bossmode/bg_triangle",
+      "pixel_size": [
+        4,
+        8
+      ],
+      "logical_size": [
+        2.0,
+        4.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "aa882bdfe156937122ff9eb3f454d6854a3fc183746a74caef06389af0739bda"
+    },
+    "icon_live": {
+      "source": "Gfx/Battle/HUD/bossmode/icon_live",
+      "pixel_size": [
+        48,
+        48
+      ],
+      "logical_size": [
+        24.0,
+        24.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "6f3b38efb42e072f398c6e7d6c18c3f5e375e53cc84825608941e4235aa3379f"
+    },
+    "icon_live-bg": {
+      "source": "Gfx/Battle/HUD/bossmode/icon_live-bg",
+      "pixel_size": [
+        48,
+        48
+      ],
+      "logical_size": [
+        24.0,
+        24.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "7b57f833e4d2354d3be68aedbd72f6eb75da385c2780bd20d34efcb7cbf405bb"
+    },
+    "icon_wings": {
+      "source": "Gfx/Battle/HUD/bossmode/icon_wings",
+      "pixel_size": [
+        52,
+        48
+      ],
+      "logical_size": [
+        26.0,
+        24.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "308544dc8133cc117756d1a458a833b5c442f2f20b2208ffdba9ac1916905504"
+    },
+    "role-bg": {
+      "source": "Gfx/Battle/HUD/bossmode/role-bg",
+      "pixel_size": [
+        30,
+        60
+      ],
+      "logical_size": [
+        15.0,
+        30.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "a90849c5e803944d0a19ed25f376b28cb3b6e66bad1b18fd408b97d002922e60"
+    },
+    "bg_r1": {
+      "source": "Gfx/Shared/backgrounds/bg_r1",
+      "pixel_size": [
+        6,
+        6
+      ],
+      "logical_size": [
+        3.0,
+        3.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "9a0688ed5540165ed22d443b9990efd05d4698329b3d8ce6f5974cf20be5005b"
+    },
+    "bg_loader-circle_shadow": {
+      "source": "Gfx/Shared/backgrounds/bg_loader-circle_shadow",
+      "pixel_size": [
+        84,
+        84
+      ],
+      "logical_size": [
+        42.0,
+        42.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "6f8ef6059e00483b68a18a11080b5e0ed7b332a53f24279bf4cf2b1593b079bf"
+    },
+    "battle-type_bossmode": {
+      "source": "Gfx/UI/Hangar/GameTypes/battle-type_bossmode",
+      "pixel_size": [
+        500,
+        660
+      ],
+      "logical_size": [
+        250.0,
+        330.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "4d1b8a6028d7590390aaa2174c45c856d86e3e1ff9d210306cc4efede85d16d7"
+    },
+    "icon_plus": {
+      "source": "Gfx/Battle/icons/2020-halloween/icon_plus",
+      "pixel_size": [
+        48,
+        48
+      ],
+      "logical_size": [
+        24.0,
+        24.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "78545a5544ee2aec635817c3cd60f5abdb353591d587fc6bb086edd27a631f03"
+    },
+    "icon_up": {
+      "source": "Gfx/Battle/icons/2020-halloween/icon_up",
+      "pixel_size": [
+        48,
+        48
+      ],
+      "logical_size": [
+        24.0,
+        24.0
+      ],
+      "scale": 2,
+      "pixel_sha256": "19ee99f34238c1d9a6fac29289f17e1eded89b8ab9d5a101d81e5820ca572b81"
+    }
+  },
+  "sources": [
+    {
+      "source": "from_apk/UI/Styles/Lobby/Inventory/Event/InventoryNormalStyles.yaml",
+      "role": "original-ui-layout",
+      "sha256": "1dd8fde42fd8048178cbdd32a597b0d891b0c2d100d63bdce2f9c2a7d2c9d7d2"
+    },
+    {
+      "source": "from_apk/UI/Styles/Lobby/Inventory/Event/InventoryBigStyles.yaml",
+      "role": "original-ui-layout",
+      "sha256": "b53be206d6e49852092c3ed7c86fbd1f99bae459154bd552bfccba166576c475"
+    },
+    {
+      "source": "from_apk/UI/Screens/Battle/Styles/BattleEquipmentStyles.yaml",
+      "role": "original-ui-layout",
+      "sha256": "d37bd0dbe8d5d8dd738aca8b303405da3fa683f776841f6fdc2d3704d370cfbd"
+    },
+    {
+      "source": "from_apk/XML/item_defs/vehicles/common/consumables/bossmode.xml",
+      "role": "original-item-definitions",
+      "sha256": "d7b8a387512cf1090fe802b5caa5b14065be1cd4160ac355484bfb1bdf8a40d0"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/texture0@2x.packed.webp.dvpl",
+      "role": "original-atlas",
+      "sha256": "96d42eb5f72aee7a5742d552be159ef5a73ec05a2efb634397a039354e676ae6"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_scatter_s@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "6f04c1ad718b371c78dde83df07be17dd1d6ced4bb4d900566e434f2d84a6160"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/texture0@2x.packed.webp.dvpl",
+      "role": "original-atlas",
+      "sha256": "7ff72c1e86f8d4cb35cce222ae738270fc7ea637b6ec9d5e65137e1111492290"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_scatter_m@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "04ecf614544c6273802d268bd5ac377dcba7631c2a6eb21583a03ce74d281c61"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_enhanced-shot_s@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "1618cd5e320105ad9f116fa37265f25291bb0fa953956da4e9faad5beb6d2153"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_enhanced-shot_m@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "1775af28ff304d01bfd9695027ad82b9daed851d01a531f4f49f94fd1fc3db0e"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_aura-of-healing_s@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "d5345c49a72bbd59bd561725f40d5ef03ad6f1de5b79389bfddfdba963e0de43"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_aura-of-healing_m@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "85f9db59af5fe8daccac7b9746e8d38063f52280796f472b543391063e28a5fc"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_energy-shield_s@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "f25d200cc1ec82fb5710ed34ffbab77f9554204233119f628bdafb45e359b6a3"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_energy-shield_m@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "6f3a83f54839f5640025ad2a1a2a07942c6cf8b08b07dd65d00d9fe69741dcf7"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/small/texture0@2x.packed.webp.dvpl",
+      "role": "original-atlas",
+      "sha256": "121dcb836a00cff30f5bd287aabf5bd36c70ff972e223121574cdfc0aeae67f4"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/small/consumable_energy-shield_xs@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "71bf655cdd6bae541040f42558fdf9f95e973a15a11929bea787650c880c8e94"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_bang-boom_s@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "d6573cea79dfa843afe7f242b53a0bdcf31ae15a7091b8c904c439eff8523cd9"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_bang-boom_m@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "07ec7acbbf3186861e73188e62eb9e4353fd0c5e48c4b3a8a8af3fcce2445f95"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_poisoned-shells_s@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "b05019394f3a9718f42f041197becb54a39b67508be56195b67039607436024d"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_poisoned-shells_m@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "3e5289efcb481be534aaf1e681bacf1f4aa316bde639d199265e59fdf2cc3a6d"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/small/consumable_poisoned-shells_xs@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "193dcaee4b2431fc9bbb932bbdf4be61f9f9d72f4b846ba1dcff9f26bda4da45"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_gravity-shot_s@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "695b312013b3c2010eddc56f61bb82f19b856f401ffdd0297cb718cdc68dde29"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_gravity-shot_m@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "bf7ea1747fc91ba7c132cd0fd2b2493aa5d05394c089193247752e390e9c97e4"
+    },
+    {
+      "source": "from_apk/XML/item_defs/vehicles/common/provisions/bossmode.xml",
+      "role": "original-item-definitions",
+      "sha256": "8ecf5f2e4e9d8b57beaa2e9f1462b70087e9747b4581c057a604da78cb1c3397"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_tanks-ttx-up_m@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "4808cac40432eb8df0bdf0768f5723735fa6206ae915845f355edebce02b59ef"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/normal/consumable_damage-resistance_s@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "be195a67238bb6d44d9801045618debc03032548dfc7deafa86c1184b4cb74ad"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_damage-resistance_m@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "5e6240fe8e004b00b0b5151d886c5b4a142ae0dbe213a83a98e2564fb00d72c3"
+    },
+    {
+      "source": "Gfx/Shared/tank-supply/consumables/2021_BossMode/big/consumable_shot-heailing_m@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "8caee3d7a184f20988daa00104168d0832c1271408c19b174827acc48ebf064d"
+    },
+    {
+      "source": "from_apk/XML/item_defs/vehicles/common/roles.xml",
+      "role": "original-role-definitions",
+      "sha256": "e5118d9e49c2ad9c4b1873590bdaca0a9ede62417ccf32bca00245fa66d42e77"
+    },
+    {
+      "source": "from_apk/UI/Screens3/Battle/HUD/GameModes/RoleProgressBar.style.yaml",
+      "role": "original-ui-layout",
+      "sha256": "272d4eeb2df79acaa55c7bde75743e72f26a2b4dea8b0922e80caf356c9f532c"
+    },
+    {
+      "source": "from_apk/UI/Screens/Battle/VehicleUIObjectMarker/BossModeRole.style.yaml",
+      "role": "original-ui-layout",
+      "sha256": "88972f66b434ed7ca9726d8b41324db5b14b6bca73662664c2217a1b7c75f3fd"
+    },
+    {
+      "source": "Gfx/Shared/HUD/bossmode/texture0@2x.packed.webp.dvpl",
+      "role": "original-atlas",
+      "sha256": "dc9adbc40a8a06c11606ecfd1662e6e821d1bfa5b67cbb39422e9bf3090ffb76"
+    },
+    {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-boss_s@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "2ce7d1408b6539ec723135c56461d5324ff295b52125df6a06a8390c137b9930"
+    },
+    {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-boss_xs@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "f36f0b55226c35ffa8b0ea93727d27bb70e3be84c5ab230a50c32aebd5f12981"
+    },
+    {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-healer_s@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "b2cfaf0b0062b9827a3799c6faa8467562d0103bb632be219dd4e1cf5f4842b7"
+    },
+    {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-healer_xs@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "3396fb2cc63b1107f144845b96c5d0e19115765b7f444657544919ac152d113e"
+    },
+    {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-killer_s@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "e220f953a758ce4a0c1310d4b0f31ccababc8d81218a3e20edbb0f7a71e20bb7"
+    },
+    {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-killer_xs@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "200dbaf03d1920618417eb163d342dadfb172ff1150c3cced1fcd32b8a5feabf"
+    },
+    {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-kamikaze_s@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "ba24f36e04c8ca73a45d74c1f698402543eff678cc829975ef185be34b381f6f"
+    },
+    {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-kamikaze_xs@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "062531afa32c9102d4ca807c46a67cabfa2afbcfa5a0187b3a898b7bdfa53961"
+    },
+    {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-graviton_s@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "3e1124bef5c6f07ce06b46df449f84714345f9c22f216475a70745586dcc8b8e"
+    },
+    {
+      "source": "Gfx/Shared/HUD/bossmode/icon_role-graviton_xs@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "31dc806785ae43be766d571abad60a15eead313bf67107f42f82cebdeb6be797"
+    },
+    {
+      "source": "Gfx/Battle/HUD/bossmode/texture0@2x.packed.webp.dvpl",
+      "role": "original-atlas",
+      "sha256": "9fc12e35ea9ef642b3e2b801b10a31c5bea347ab0ae1c5e5e093e1dd869c4570"
+    },
+    {
+      "source": "Gfx/Battle/HUD/bossmode/bg_border_1px_r4@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "1025896acdec35eb3edc838b3380b489635964a4c1c2abbe835c3c7a4dd9aa67"
+    },
+    {
+      "source": "Gfx/Battle/HUD/bossmode/bg_level@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "2eb949094a645c893323327db50e3090c9cc875e94b2e49855ec1dda19b42245"
+    },
+    {
+      "source": "Gfx/Battle/HUD/bossmode/bg_triangle@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "491086f1077828c3e45ad72e0a31d82df1dee0b6c87afc6a10d1239cba8db801"
+    },
+    {
+      "source": "Gfx/Battle/HUD/bossmode/icon_live@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "16653868fea53ea9fd2f4a88d15fd3237ea075206099c19402b397abd93e200d"
+    },
+    {
+      "source": "Gfx/Battle/HUD/bossmode/icon_live-bg@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "f48a65595c3269eff5b2786f2df94821783faa5f15d78f448c1645be51f9be0d"
+    },
+    {
+      "source": "Gfx/Battle/HUD/bossmode/icon_wings@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "2f4adecef9779d89c411fdfb11372c8987c7876f3e93edc2b86de6af13c14c15"
+    },
+    {
+      "source": "Gfx/Battle/HUD/bossmode/role-bg@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "31f21bbd840342387f0b333c2bcdc6852465d64d34e3325f8fcb9ca7712e225b"
+    },
+    {
+      "source": "from_apk/Gfx/Shared/backgrounds/texture0@2x.packed.webp",
+      "role": "original-atlas",
+      "sha256": "c9d2b7799d2d9527201a11d52446bca4ee97d950436d105a5484475ef59bf6a4"
+    },
+    {
+      "source": "Gfx/Shared/backgrounds/bg_r1@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "0926ff264031e358d1d77d5aee820c7e04b7efa0ce18d27a093a2cffc4f43432"
+    },
+    {
+      "source": "Gfx/Shared/backgrounds/bg_loader-circle_shadow@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "a66f910b5134e773848ec8d919f138297ccff5150b725ef0e1bcba4d90c8cbb6"
+    },
+    {
+      "source": "Gfx/UI/Hangar/GameTypes/battle-type_bossmode@2x.packed.webp.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "2b750e7413b6e7209dca751d3ad897b2bca73182e345324a94efdf5727ffd76e"
+    },
+    {
+      "source": "Gfx/Battle/icons/2020-halloween/texture0@2x.packed.webp.dvpl",
+      "role": "original-atlas",
+      "sha256": "8b7269777e862e2746f4e0ce46c4d54fc52ec54b703e6d64206794d10e9c0da7"
+    },
+    {
+      "source": "Gfx/Battle/icons/2020-halloween/icon_plus@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "1f26936c8e53267721e182ba640d05a1e49da6d841fd77c225a2eeaf80e6881f"
+    },
+    {
+      "source": "Gfx/Battle/icons/2020-halloween/icon_up@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "117d16576933a25c2a6085b11582dd559ded686a5288fb62f707a4715d183ba5"
+    },
+    {
+      "source": "from_apk/UI/Screens3/Battle/HUD/GameModes/RoleProgressBar.yaml",
+      "role": "original-layout-copy",
+      "sha256": "53adb76d2bbe8e7521e51a7d4512d05581c940f20862f69d4aeb65ca274042a4"
+    },
+    {
+      "source": "from_apk/UI/Screens3/Battle/HUD/GameModes/RoleProgressBar.style.yaml",
+      "role": "original-layout-copy",
+      "sha256": "272d4eeb2df79acaa55c7bde75743e72f26a2b4dea8b0922e80caf356c9f532c"
+    },
+    {
+      "source": "from_apk/UI/Screens/Battle/OptionalHUDControls/BossmodeAbilitiesPanel.yaml",
+      "role": "original-layout-copy",
+      "sha256": "c3a0df4e39ce1a5ba51f312c01624e46035152b214ff873326f15b61e46d21e1"
+    },
+    {
+      "source": "from_apk/UI/Screens/Battle/OptionalHUDControls/BossmodeAbility.yaml",
+      "role": "original-layout-copy",
+      "sha256": "1808a038861d994da505be83edabf0612406ebf190807fcdc383060db63f110a"
+    },
+    {
+      "source": "from_apk/UI/Screens/Battle/OptionalHUDControls/BossmodeAbilityType.yaml",
+      "role": "original-layout-copy",
+      "sha256": "f87dcfb7f7b765a5f8e541c367527506c326ddd22df79c7279b86a049c74f4c9"
+    },
+    {
+      "source": "from_apk/UI/Screens/Battle/VehicleUIObjectMarker/BossModeRole.style.yaml",
+      "role": "original-layout-copy",
+      "sha256": "88972f66b434ed7ca9726d8b41324db5b14b6bca73662664c2217a1b7c75f3fd"
+    },
+    {
+      "source": "from_apk/UI/Screens/Battle/VehicleUIObjectMarker/HealerIconAnimation.animation",
+      "role": "original-layout-copy",
+      "sha256": "247ad28b2f33a4f213a0123b8d7d33c3ad6b3a12303ea08d968d87a0efc003e3"
+    },
+    {
+      "source": "from_apk/UI/Screens/Battle/VehicleUIObjectMarker/VehicleUIObjectMarker.yaml",
+      "role": "original-layout-copy",
+      "sha256": "6fed747cad9375ea4eeff140e36307732e83987108877e354a8b66c10e2fc7aa"
+    },
+    {
+      "source": "from_apk/UI/Screens/Battle/OptionalHUDControls/RespawnTimer.yaml",
+      "role": "original-layout-copy",
+      "sha256": "26d657f03b57ec4cd6818a5394a527d754b315fa5177a824310ee0c127d73e9a"
+    },
+    {
+      "source": "from_apk/UI/Screens3/Lobby/BattleResults/StatisticsOverlay.yaml",
+      "role": "original-layout-copy",
+      "sha256": "de8d3a4dc861b1902da1440d49242833f11556c3756edd0564261d3dfb52196d"
+    },
+    {
+      "source": "from_apk/UI/Screens/Battle/Notifications/BattleActionNotification.yaml",
+      "role": "original-layout-copy",
+      "sha256": "19c47ea5d19543503e157f2000448d8635e57304164d376128f9007bb70877d4"
+    },
+    {
+      "source": "from_apk/XML/item_defs/vehicles/common/roles.xml",
+      "role": "original-layout-copy",
+      "sha256": "e5118d9e49c2ad9c4b1873590bdaca0a9ede62417ccf32bca00245fa66d42e77"
+    },
+    {
+      "source": "from_apk/XML/item_defs/vehicles/common/consumables/bossmode.xml",
+      "role": "original-layout-copy",
+      "sha256": "d7b8a387512cf1090fe802b5caa5b14065be1cd4160ac355484bfb1bdf8a40d0"
+    },
+    {
+      "source": "from_apk/XML/item_defs/vehicles/common/provisions/bossmode.xml",
+      "role": "original-layout-copy",
+      "sha256": "8ecf5f2e4e9d8b57beaa2e9f1462b70087e9747b4581c057a604da78cb1c3397"
+    },
+    {
+      "source": "from_apk/Strings/en.yaml",
+      "role": "original-strings",
+      "sha256": "81fad9882af65f11a93d7e5dfe9261dae079f143e18d46566820a813cc701af6"
+    },
+    {
+      "source": "from_apk/Strings/ru.yaml",
+      "role": "original-strings",
+      "sha256": "3746028d382bfe5475069e433a14beee8b504aa010bedce75b10920c78a775c4"
+    }
+  ]
+}

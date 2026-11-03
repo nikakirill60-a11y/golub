@@ -1,0 +1,122 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.0,
+      0.06,
+      -0.18
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "WAFFENTRAGERIVArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 226,
+      "vertices": 254
+    },
+    {
+      "armor": 10,
+      "material": "WAFFENTRAGERIVArmor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 11,
+      "material": "WAFFENTRAGERIVArmor_armor_hull_plate11_11",
+      "mount": "hull",
+      "name": "armor_hull_plate11_11",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 20,
+      "material": "WAFFENTRAGERIVArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 30,
+      "material": "WAFFENTRAGERIVArmor_armor_hull_plate30_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30_30",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 112,
+      "vertices": 336
+    },
+    {
+      "armor": 80,
+      "material": "WAFFENTRAGERIVArmor_armor_hull_plate80_80",
+      "mount": "hull",
+      "name": "armor_hull_plate80_80",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 8,
+      "material": "WAFFENTRAGERIVArmor_armor_hull_plate8_8",
+      "mount": "hull",
+      "name": "armor_hull_plate8_8",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 0,
+      "material": "WAFFENTRAGERIVArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 48,
+      "vertices": 144
+    },
+    {
+      "armor": 10,
+      "material": "WAFFENTRAGERIVArmor_armor_turret_01_plate10_10",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate10_10",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 80,
+      "vertices": 240
+    },
+    {
+      "armor": 0,
+      "material": "WAFFENTRAGERIVArmor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 10,
+      "material": "WAFFENTRAGERIVArmor_armor_turret_02_plate10_10",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate10_10",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 78,
+      "vertices": 234
+    }
+  ]
+}

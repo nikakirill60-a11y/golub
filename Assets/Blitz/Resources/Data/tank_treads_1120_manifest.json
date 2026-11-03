@@ -1,0 +1,159 @@
+{
+  "generator": "Tools/port_blitz_1120_treads.py",
+  "client": "Blitz 11.20.0",
+  "textures": {
+    "Ussr": {
+      "resource": "TankTreads1120/Ussr",
+      "source": "from_apk/3d/Tanks/Common/images/USSR_01_tread.astc.pvr",
+      "sourceSha256": "d034d184ce53cc844a3cb91aa5c610de3affd9b5b041690a75f0cb38894ba982",
+      "pvrSha256": "d034d184ce53cc844a3cb91aa5c610de3affd9b5b041690a75f0cb38894ba982",
+      "pngSha256": "18a19b5e3f5ff2f57fa71eac347164bed502f42114ad768c7cc22758395684f2",
+      "width": 256,
+      "height": 256,
+      "pixelFormat": 32,
+      "mipCount": 9
+    },
+    "Germany": {
+      "resource": "TankTreads1120/Germany",
+      "source": "3d/Tanks/Common/images/German_01_double_tread.astc.pvr.dvpl",
+      "sourceSha256": "54829d45373117e870c684f4035909d861e49ae35e0b4c1542d27d4b6d0ce07b",
+      "pvrSha256": "592439922a5c6bc79774f73375494d58933ae9f58a5fece6d08b317462f633f3",
+      "pngSha256": "afcde8b5b73a3fdf0069d72f442edeb22d96cbbb9abdd8b9b0819716f66c3147",
+      "width": 256,
+      "height": 256,
+      "pixelFormat": 31,
+      "mipCount": 9
+    },
+    "Usa": {
+      "resource": "TankTreads1120/Usa",
+      "source": "3d/Tanks/Common/images/USA_01_double_tread.astc.pvr.dvpl",
+      "sourceSha256": "c7db35279cdc194e621d2b5e34f4f4a086d0291253187e68c567280f25bb45df",
+      "pvrSha256": "3f9aaf96928d63b8bfbc08db59bd3891dfbede4f091d48a05165c5af3eae61fb",
+      "pngSha256": "9d7ceaddaaef5f6ecce7ec696e653fd4e9f5412e00861f4f27ae0874ea7344d6",
+      "width": 256,
+      "height": 256,
+      "pixelFormat": 31,
+      "mipCount": 9
+    },
+    "Gb": {
+      "resource": "TankTreads1120/Gb",
+      "source": "3d/Tanks/Common/images/GB_01_tread.astc.pvr.dvpl",
+      "sourceSha256": "ef373f7841e858f61b0e31153ab3dfa610350264866f1a4a2414779f244bed7f",
+      "pvrSha256": "adb723db598761829e989bec0a0b748ff0bcbae732334c8fe26aed76ed2ba845",
+      "pngSha256": "4e1cbd0de1098ccd619fc449783f392cf3bd2979c0578447125d0be1e856f831",
+      "width": 256,
+      "height": 256,
+      "pixelFormat": 31,
+      "mipCount": 9
+    },
+    "Japan": {
+      "resource": "TankTreads1120/Japan",
+      "source": "3d/Tanks/Common/images/Japan_01_tread.astc.pvr.dvpl",
+      "sourceSha256": "d377a1894a6ea7dbf8806d0e1f79f83a831e3aa925262940de612cea0cfe3bbc",
+      "pvrSha256": "0989569f419e2b550fdfe7135b7095d193fab5d227ee6dfa4d6744ec129e219c",
+      "pngSha256": "851bb7199cd85d113ba646b5df231bbe02d14a498451788b5b2fa9828d8aa659",
+      "width": 256,
+      "height": 256,
+      "pixelFormat": 31,
+      "mipCount": 9
+    },
+    "France": {
+      "resource": "TankTreads1120/France",
+      "source": "3d/Tanks/Common/images/France_01_tread.astc.pvr.dvpl",
+      "sourceSha256": "9172c278d0e68a08db953c3dd8501c0f0da289523ca7e485f43e4ea2864ebd4d",
+      "pvrSha256": "2707804a252db864ef0cfe5cb94b664ac76e62617b97abf01edaf02ce3a16951",
+      "pngSha256": "3b0fde3a10b19c0ce9ab7d5c0ea5cd938746ab312cdf6e293796b735059760ba",
+      "width": 256,
+      "height": 256,
+      "pixelFormat": 31,
+      "mipCount": 9
+    },
+    "China": {
+      "resource": "TankTreads1120/China",
+      "source": "3d/Tanks/Common/images/China_01_tread.astc.pvr.dvpl",
+      "sourceSha256": "a61b187efe8b7ddc041dc18cf123dbecd869b35d9d9bfd478e4c53320cd60462",
+      "pvrSha256": "c035c5a4fdc8237a71c93151b666a8b1b6864caa6ecf0cf0d04f3fcf6d74d6e8",
+      "pngSha256": "e44ab90dce329cc2f9b1778526addb18b8a357755ef15f4ac2bddbaebafff0db",
+      "width": 256,
+      "height": 256,
+      "pixelFormat": 31,
+      "mipCount": 9
+    },
+    "Other": {
+      "resource": "TankTreads1120/Other",
+      "source": "3d/Tanks/Common/images/Other_01_tread.astc.pvr.dvpl",
+      "sourceSha256": "8212425ee989dd56e2e6c913efd6aefdbedc7e6f1951d2ea8464a82fc197a5f5",
+      "pvrSha256": "f12e9ad078904d9fe1e10d8790d47ce6c19ef0bd413768aa9e968b7370003e78",
+      "pngSha256": "0c5d41e76ca48e4bfed448d58e2f6dc0c845ad9a4d241d186549cf6036b02ed1",
+      "width": 256,
+      "height": 256,
+      "pixelFormat": 31,
+      "mipCount": 9
+    },
+    "European": {
+      "resource": "TankTreads1120/European",
+      "source": "3d/Tanks/Common/images/European_01_tread.astc.pvr.dvpl",
+      "sourceSha256": "9bb5e0174eb64e7eec2e2640ae365651fbe9b307282752da634661eb80f9aa4b",
+      "pvrSha256": "761b0a3dd019ff81b6aaa2562a02a30e6f569f76a7298b96a6b13590f903c5e1",
+      "pngSha256": "2c953cbf6bbd1a1c87bfa2e12210b61e2598a5065a920180119efa17e76a467b",
+      "width": 256,
+      "height": 256,
+      "pixelFormat": 31,
+      "mipCount": 9
+    },
+    "Other_Oth50_STT": {
+      "resource": "TankTreads1120/Other_Oth50_STT",
+      "source": "3d/Tanks/Common/images/Other_Oth50_STT_tread.astc.pvr.dvpl",
+      "sourceSha256": "1dfabc923c93f95721be1ab5051c7c585f58272ec0293645822568846e6526e5",
+      "pvrSha256": "fcf341c242d1ed8c91ffd6e19fac5ea95fa630ca263168a5d8010d842f3eb1be",
+      "pngSha256": "c442c93c1ceed07d17a1b35112848d33cca1b1a69b06caf741887c49de342542",
+      "width": 256,
+      "height": 256,
+      "pixelFormat": 30,
+      "mipCount": 9
+    }
+  },
+  "sourceBehaviour": {
+    "option": "TankTreads",
+    "english": "TRACK TRACES",
+    "russian": "СЛЕДЫ ГУСЕНИЦ",
+    "shaderDefines": [
+      "DECAL_TREAD",
+      "FADE_OUT_WITH_TIME"
+    ],
+    "distanceUniforms": [
+      "treadsNearFadeDistance",
+      "treadsFarFadeDistance"
+    ],
+    "timeUniform": "fadeOutTimeStartEnd",
+    "note": "The shipped shader exposes distance/time fading, while its runtime constant values live in native client code rather than these assets."
+  },
+  "portPolicy": {
+    "sampleDistanceMetres": 0.3,
+    "distanceFadeStartMetres": 80.0,
+    "maximumTrailDistanceMetres": 96.0,
+    "timeFadeStartSeconds": 24.0,
+    "timeFadeEndSeconds": 30.0,
+    "maximumSamplesPerSide": 384,
+    "allocation": "one reusable mesh per tank; no object per mark"
+  },
+  "provenance": {
+    "from_apk/3d/Tanks/Common/images/USSR_01_tread.astc.pvr": "d034d184ce53cc844a3cb91aa5c610de3affd9b5b041690a75f0cb38894ba982",
+    "3d/Tanks/Common/images/German_01_double_tread.astc.pvr.dvpl": "54829d45373117e870c684f4035909d861e49ae35e0b4c1542d27d4b6d0ce07b",
+    "3d/Tanks/Common/images/USA_01_double_tread.astc.pvr.dvpl": "c7db35279cdc194e621d2b5e34f4f4a086d0291253187e68c567280f25bb45df",
+    "3d/Tanks/Common/images/GB_01_tread.astc.pvr.dvpl": "ef373f7841e858f61b0e31153ab3dfa610350264866f1a4a2414779f244bed7f",
+    "3d/Tanks/Common/images/Japan_01_tread.astc.pvr.dvpl": "d377a1894a6ea7dbf8806d0e1f79f83a831e3aa925262940de612cea0cfe3bbc",
+    "3d/Tanks/Common/images/France_01_tread.astc.pvr.dvpl": "9172c278d0e68a08db953c3dd8501c0f0da289523ca7e485f43e4ea2864ebd4d",
+    "3d/Tanks/Common/images/China_01_tread.astc.pvr.dvpl": "a61b187efe8b7ddc041dc18cf123dbecd869b35d9d9bfd478e4c53320cd60462",
+    "3d/Tanks/Common/images/Other_01_tread.astc.pvr.dvpl": "8212425ee989dd56e2e6c913efd6aefdbedc7e6f1951d2ea8464a82fc197a5f5",
+    "3d/Tanks/Common/images/European_01_tread.astc.pvr.dvpl": "9bb5e0174eb64e7eec2e2640ae365651fbe9b307282752da634661eb80f9aa4b",
+    "3d/Tanks/Common/images/Other_Oth50_STT_tread.astc.pvr.dvpl": "1dfabc923c93f95721be1ab5051c7c585f58272ec0293645822568846e6526e5",
+    "from_apk/GraphicsPresets.yaml": "8936c10910e69911abe15a70d5eba58991bda4ffde058cb55ac14c56d4d2c92a",
+    "from_apk/UI/Screens/Options/GraphicsOptions/GraphicsOptionsPage.yaml": "180d23de7b2803b120b8c5a13c4cf13190a60dfad5b3a67f7c8be79bc0a14fb5",
+    "from_apk/Strings/en.yaml": "81fad9882af65f11a93d7e5dfe9261dae079f143e18d46566820a813cc701af6",
+    "from_apk/Strings/ru.yaml": "3746028d382bfe5475069e433a14beee8b504aa010bedce75b10920c78a775c4",
+    "from_apk/Materials/Shaders/common.slh": "2620bc341f36d9117eb3ffcb1fb9ff4ff987e15dfbece23297e4a368d618138a",
+    "from_apk/Materials/Shaders/Default/deferred-decal-vp.sl": "10a2409f9c00ce30795545f061802f27d6bc51df812a2f679187f415a474f397",
+    "from_apk/Materials/Shaders/Default/deferred-decal-fp.sl": "9dfe41e2a2a3ce1017bd0b9f60c1c7ff0ad88b625d7eae0277b554307d0fb994"
+  }
+}

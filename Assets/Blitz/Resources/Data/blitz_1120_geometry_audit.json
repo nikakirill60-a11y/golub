@@ -1,0 +1,141 @@
+{
+  "policy": "independent SCG LOD0 face counts and positions/UV/normals within 0.00002 + decoded source RGBA (track RGB bled under the clip) + native collision plate IDs + XML pivots",
+  "tanks": [
+    {
+      "name": "f01_vickers_mkf",
+      "visible_triangles": 6400,
+      "source_triangles": 6400,
+      "wheels": 28,
+      "collision_triangles": 1028,
+      "exact_plates": 31,
+      "configurations": 3
+    },
+    {
+      "name": "pl06_10tp",
+      "visible_triangles": 5768,
+      "source_triangles": 5768,
+      "wheels": 12,
+      "collision_triangles": 342,
+      "exact_plates": 25,
+      "configurations": 2
+    },
+    {
+      "name": "pl07_14tp",
+      "visible_triangles": 6853,
+      "source_triangles": 6853,
+      "wheels": 12,
+      "collision_triangles": 858,
+      "exact_plates": 41,
+      "configurations": 3
+    },
+    {
+      "name": "s04_lago-i",
+      "visible_triangles": 6783,
+      "source_triangles": 6783,
+      "wheels": 22,
+      "collision_triangles": 952,
+      "exact_plates": 38,
+      "configurations": 3
+    },
+    {
+      "name": "s02_strvm42",
+      "visible_triangles": 7544,
+      "source_triangles": 7544,
+      "wheels": 22,
+      "collision_triangles": 1110,
+      "exact_plates": 40,
+      "configurations": 3
+    },
+    {
+      "name": "s07_strv_74",
+      "visible_triangles": 8373,
+      "source_triangles": 8373,
+      "wheels": 22,
+      "collision_triangles": 1296,
+      "exact_plates": 43,
+      "configurations": 3
+    },
+    {
+      "name": "s13_leo",
+      "visible_triangles": 7422,
+      "source_triangles": 7422,
+      "wheels": 22,
+      "collision_triangles": 1010,
+      "exact_plates": 46,
+      "configurations": 3
+    },
+    {
+      "name": "s18_emil_1951e1",
+      "visible_triangles": 7178,
+      "source_triangles": 7178,
+      "wheels": 22,
+      "collision_triangles": 1030,
+      "exact_plates": 42,
+      "configurations": 2
+    },
+    {
+      "name": "s17_emil_1952e2",
+      "visible_triangles": 8230,
+      "source_triangles": 8230,
+      "wheels": 22,
+      "collision_triangles": 1964,
+      "exact_plates": 52,
+      "configurations": 2
+    },
+    {
+      "name": "s16_kranvagn",
+      "visible_triangles": 6637,
+      "source_triangles": 6637,
+      "wheels": 22,
+      "collision_triangles": 1256,
+      "exact_plates": 39,
+      "configurations": 1
+    },
+    {
+      "name": "f126_amx_13_m24",
+      "visible_triangles": 7655,
+      "source_triangles": 7655,
+      "wheels": 18,
+      "collision_triangles": 1149,
+      "exact_plates": 30,
+      "configurations": 2
+    },
+    {
+      "name": "f123_erac_105_proto",
+      "visible_triangles": 8151,
+      "source_triangles": 8151,
+      "wheels": 22,
+      "collision_triangles": 954,
+      "exact_plates": 29,
+      "configurations": 2
+    },
+    {
+      "name": "f120_project_louis",
+      "visible_triangles": 8784,
+      "source_triangles": 8784,
+      "wheels": 22,
+      "collision_triangles": 676,
+      "exact_plates": 38,
+      "configurations": 2
+    },
+    {
+      "name": "f119_projet_murat",
+      "visible_triangles": 7742,
+      "source_triangles": 7742,
+      "wheels": 24,
+      "collision_triangles": 654,
+      "exact_plates": 29,
+      "configurations": 1
+    },
+    {
+      "name": "ch57_bzt_70",
+      "visible_triangles": 7252,
+      "source_triangles": 7252,
+      "wheels": 20,
+      "collision_triangles": 1014,
+      "exact_plates": 33,
+      "configurations": 1
+    }
+  ],
+  "errors": []
+}

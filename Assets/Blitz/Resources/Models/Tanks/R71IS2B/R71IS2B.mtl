@@ -1,0 +1,15 @@
+# Source-backed material bindings; runtime recreates URP materials.
+
+newmtl R71IS2BBody
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/R71IS2B.png
+
+newmtl R71IS2BTracks
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/R71IS2B_tracks.png

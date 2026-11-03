@@ -1,0 +1,105 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "E25Armor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 304,
+      "vertices": 356
+    },
+    {
+      "armor": 0,
+      "material": "E25Armor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 20,
+      "material": "E25Armor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 52,
+      "vertices": 156
+    },
+    {
+      "armor": 31,
+      "material": "E25Armor_armor_hull_plate31_31",
+      "mount": "hull",
+      "name": "armor_hull_plate31_31",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 80,
+      "vertices": 240
+    },
+    {
+      "armor": 52,
+      "material": "E25Armor_armor_hull_plate52_52",
+      "mount": "hull",
+      "name": "armor_hull_plate52_52",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 116,
+      "vertices": 348
+    },
+    {
+      "armor": 83,
+      "material": "E25Armor_armor_hull_plate83_83",
+      "mount": "hull",
+      "name": "armor_hull_plate83_83",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 0,
+      "material": "E25Armor_gun_01_mask_turret_01_plate0s_0",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate0s_0",
+      "screen": true,
+      "submesh": 6,
+      "triangles": 21,
+      "vertices": 63
+    },
+    {
+      "armor": 10,
+      "material": "E25Armor_gun_01_mask_turret_01_plate10s_10",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate10s_10",
+      "screen": true,
+      "submesh": 7,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 25,
+      "material": "E25Armor_gun_01_mask_turret_01_plate25s_25",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate25s_25",
+      "screen": true,
+      "submesh": 8,
+      "triangles": 21,
+      "vertices": 63
+    },
+    {
+      "armor": 50,
+      "material": "E25Armor_gun_01_mask_turret_01_plate50s_50",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate50s_50",
+      "screen": true,
+      "submesh": 9,
+      "triangles": 62,
+      "vertices": 186
+    }
+  ]
+}

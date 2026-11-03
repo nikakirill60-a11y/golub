@@ -1,0 +1,202 @@
+{
+  "version": "11.20",
+  "source": "/home/smh01/projects/wotblitz11.20.0files",
+  "generator": "Tools/port_blitz_japan_1120.py",
+  "vehicles": [
+    "J20_Type_2605"
+  ],
+  "records": [
+    {
+      "nation": "japan",
+      "vehicle_id": "J20_Type_2605",
+      "name": "j20_type_2605",
+      "model_stem": "J20_Type_2605",
+      "scene": "3d/Tanks/Japan/J20_Type_2605.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/japan-J20_Type_2605.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/japan/J20_Type_2605.xml",
+      "xml_sha256": "073475c76c6b4f7f2d0b4b22267246631f9a75e22861ee12be0b127e60af4123",
+      "textures": [
+        {
+          "reference": "../Customization/images/J28_Ju_To_grill.tex",
+          "source": "3d/Tanks/Customization/images/J28_Ju_To_grill.astc.pvr.dvpl",
+          "sha256": "cc3ce82f4b38b8a2b57983922266bf019524c91035f3524692c25f0a860e3928"
+        },
+        {
+          "reference": "../Customization/images/J28_Ju_To_grill_NM.tex",
+          "source": "3d/Tanks/Customization/images/J28_Ju_To_grill_NM.astc.pvr.dvpl",
+          "sha256": "8d79a01374eb8694134cd004e5ba8c9e23abe7bef3d57a5ffa7f56263e631c82"
+        },
+        {
+          "reference": "../Customization/images_pbr/J28_Ju_To_grill_BC.tex",
+          "source": "3d/Tanks/Customization/images_pbr/J28_Ju_To_grill_BC.astc.pvr.dvpl",
+          "sha256": "9b5a3b0ce3f30d4ec3ec74ca9adda52556bac52efb0104aac16c03312c0d3f60"
+        },
+        {
+          "reference": "../Customization/images_pbr/J28_Ju_To_grill_MASK.tex",
+          "source": "3d/Tanks/Customization/images_pbr/J28_Ju_To_grill_MASK.astc.pvr.dvpl",
+          "sha256": "75a99093cbed9a7e518d1eb8da83eff3e86fce97bc404b600317411b0b13577c"
+        },
+        {
+          "reference": "../Customization/images_pbr/J28_Ju_To_grill_MISC.tex",
+          "source": "3d/Tanks/Customization/images_pbr/J28_Ju_To_grill_MISC.astc.pvr.dvpl",
+          "sha256": "7d8a36b22125dee5edecab06c5485d584d531780b9548179de70f2e624d7db2e"
+        },
+        {
+          "reference": "../Customization/images_pbr/J28_Ju_To_grill_NM.tex",
+          "source": "3d/Tanks/Customization/images_pbr/J28_Ju_To_grill_NM.astc.pvr.dvpl",
+          "sha256": "0d9c3ccc7642d79a60af0b6cde55c4c0a8c04e889e3f84ee4ddc1064470d8f79"
+        },
+        {
+          "reference": "../Customization/images_pbr/J28_Ju_To_grill_RM.tex",
+          "source": "3d/Tanks/Customization/images_pbr/J28_Ju_To_grill_RM.astc.pvr.dvpl",
+          "sha256": "4bc3fc3ab35f5a32903075808f5fcf3c8f738cfe4cd5ff525a3245678f8a392d"
+        },
+        {
+          "reference": "../German/images/Lowe_track.tex",
+          "source": "3d/Tanks/German/images/Lowe_track.astc.pvr.dvpl",
+          "sha256": "1e92aea958730500e4d41639c0675a9ed15e2c0d37c1620c954346df0d98648e"
+        },
+        {
+          "reference": "../German/images/Lowe_track_NM.tex",
+          "source": "3d/Tanks/German/images/Lowe_track_NM.astc.pvr.dvpl",
+          "sha256": "6a14a167cdef244fb463fd3c369c58ab885ae1f0b6c90cb2506ab4057b3b208a"
+        },
+        {
+          "reference": "../German/images_pbr/Lowe_track_BC.tex",
+          "source": "3d/Tanks/German/images_pbr/Lowe_track_BC.astc.pvr.dvpl",
+          "sha256": "ec0acc0a72e928dbc2ad1fdb38afac4d7318001afd30033676ebc2fea2576c62"
+        },
+        {
+          "reference": "../German/images_pbr/Lowe_track_MASK.tex",
+          "source": "3d/Tanks/German/images_pbr/Lowe_track_MASK.astc.pvr.dvpl",
+          "sha256": "c68c0ef5972731f83bf8f6afe43ec36fc693a1cb2996ceb1b85afabcba54146f"
+        },
+        {
+          "reference": "../German/images_pbr/Lowe_track_MISC.tex",
+          "source": "3d/Tanks/German/images_pbr/Lowe_track_MISC.astc.pvr.dvpl",
+          "sha256": "fb254fdeb48636ed1d7941d60fc3f3ac58ba5504a0ec4e57757baef81f5958d4"
+        },
+        {
+          "reference": "../German/images_pbr/Lowe_track_NM.tex",
+          "source": "3d/Tanks/German/images_pbr/Lowe_track_NM.astc.pvr.dvpl",
+          "sha256": "1a52f29d43c1d4126cfd893afcec0f5bbbfdc4c8085b2693e4d79d3daa15f847"
+        },
+        {
+          "reference": "../German/images_pbr/Lowe_track_RM.tex",
+          "source": "3d/Tanks/German/images_pbr/Lowe_track_RM.astc.pvr.dvpl",
+          "sha256": "3cfa194bd8df087fc623312e73af7159ec60f2aecd8627b9f8b712ff61561c20"
+        },
+        {
+          "reference": "CamouflageMasks/J20_Type_2605_CM.tex",
+          "source": "3d/Tanks/Japan/CamouflageMasks/J20_Type_2605_CM.astc.pvr.dvpl",
+          "sha256": "dd06eba5a7719de0cff63de19884bd8bd940ff669544aa07e4fa1befdb9b317c"
+        },
+        {
+          "reference": "images/J20_Type_2605.tex",
+          "source": "3d/Tanks/Japan/images/J20_Type_2605.astc.pvr.dvpl",
+          "sha256": "5d6e5ef4cc23f6d06ba06f6b6203654743fb1aa1d177c3cb21834a0728766418"
+        },
+        {
+          "reference": "images/J20_Type_2605_NM.tex",
+          "source": "3d/Tanks/Japan/images/J20_Type_2605_NM.astc.pvr.dvpl",
+          "sha256": "c82a957916b6f1973799c54fd13364e06c6bab0977284fd334356ca534f6d04d"
+        },
+        {
+          "reference": "images_pbr/J20_Type_2605_BC.tex",
+          "source": "3d/Tanks/Japan/images_pbr/J20_Type_2605_BC.astc.pvr.dvpl",
+          "sha256": "36ec5619601c4362cb69fca4937581c559931f7736a3e655b1f01f9a0294ccd5"
+        },
+        {
+          "reference": "images_pbr/J20_Type_2605_MASK.tex",
+          "source": "3d/Tanks/Japan/images_pbr/J20_Type_2605_MASK.astc.pvr.dvpl",
+          "sha256": "4071feacf1f16ebd05aa88008768af9a30a0683398448481e4da283af0fea8ed"
+        },
+        {
+          "reference": "images_pbr/J20_Type_2605_MISC.tex",
+          "source": "3d/Tanks/Japan/images_pbr/J20_Type_2605_MISC.astc.pvr.dvpl",
+          "sha256": "957923d412b04f7285e1c59789cfbb32350468fb59cfa9465ecefa3680a2f996"
+        },
+        {
+          "reference": "images_pbr/J20_Type_2605_NM.tex",
+          "source": "3d/Tanks/Japan/images_pbr/J20_Type_2605_NM.astc.pvr.dvpl",
+          "sha256": "0e2f6c6f540ed766164f9654e50b5b5fa25a08b73ddecf3a30c5ba0540ac5984"
+        },
+        {
+          "reference": "images_pbr/J20_Type_2605_RM.tex",
+          "source": "3d/Tanks/Japan/images_pbr/J20_Type_2605_RM.astc.pvr.dvpl",
+          "sha256": "5237357a62d98ac12bd4debcbad334178bbb812976673e5f24822779989f7b53"
+        }
+      ],
+      "parameter_source": "from_apk/3d/Tanks/Parameters/japan/J20_Type_2605.yaml",
+      "parameter_sha256": "28bf5a50db05b1bbbb33562caf0854ca1161be425058a348dd8125419e54307f",
+      "resources": {
+        "smallIconPath": "~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/japan-J20_Type_2605",
+        "bigIconPath": "~res:/Gfx/UI/BigTankIcons/japan-J20_Type_2605",
+        "carouselBackgroundImagePath": "",
+        "statisticBackgroundImagePath": "",
+        "favoriteBackgroundImagePath": "",
+        "blitzModelPath": "Tanks/Japan/J20_Type_2605.sc2",
+        "collisionMesh": "CollisionMeshes/japan-J20_Type_2605.sc2",
+        "smokeEffectPath": "FX/smoke_tank_type_black_new_2.sc2",
+        "fireEffectPathAlive": "FX/SmokeFire_tank_movement_new.sc2",
+        "fireEffectPathDead": "FX/Fire_and_Smoke.sc2",
+        "engineSoundPC": "tanks/pc/engine/jp/ht",
+        "engineSoundNPC": "tanks/npc/engine/jp/ht",
+        "chassisSoundPC": "tanks/pc/treads/ht",
+        "chassisSoundNPC": "tanks/npc/treads/ht"
+      },
+      "scene_source": "3d/Tanks/Japan/J20_Type_2605.sc2.dvpl",
+      "scene_sha256": "81e07c1d56c078d58528bb742aee90fbd79a1273bf80e3eb4ced8cae33e42d8d",
+      "geometry_source": "3d/Tanks/Japan/J20_Type_2605.scg.dvpl",
+      "geometry_sha256": "32a627231accf8e43a0054ee670000a1c750770658adcbb6a9e8abc24be53a3d",
+      "collision_source": "3d/Tanks/CollisionMeshes/japan-J20_Type_2605.sc2.dvpl",
+      "collision_sha256": "9cb97efbfcaa72c3df34d4f7161e8e1801d3790b0452270eeeab8133d6bf3949",
+      "collision_geometry_source": "3d/Tanks/CollisionMeshes/japan-J20_Type_2605.scg.dvpl",
+      "collision_geometry_sha256": "da2b77be1df04a4940deadd32f00610b25af543e6f2f84acf0023ce65673f09b",
+      "modules": {
+        "turrets": [
+          "Turret_1_J20_Type_2605"
+        ],
+        "guns": [
+          "_152mm_45_41st_Year_Type"
+        ],
+        "tracks": [
+          "Chassis_1_J20_Type_2605"
+        ],
+        "engines": [
+          "Kawasaki_Type98_V12_kai"
+        ],
+        "radios": [
+          "Type_3_Ko_J20"
+        ]
+      },
+      "configurations": [
+        {
+          "turret": "Turret_1_J20_Type_2605",
+          "gun": "_152mm_45_41st_Year_Type",
+          "turret_mesh": "turret_01",
+          "gun_mesh": "gun_01"
+        }
+      ],
+      "listing": {
+        "id": 31,
+        "level": 10,
+        "tags": [
+          "heavyTank",
+          "collectible"
+        ],
+        "not_in_shop": true,
+        "price_gold": 15000,
+        "sell_price_gold": 7500
+      }
+    }
+  ],
+  "totals": {
+    "turrets": 1,
+    "guns": 1,
+    "tracks": 1,
+    "engines": 1,
+    "radios": 1
+  },
+  "configurations": 1
+}

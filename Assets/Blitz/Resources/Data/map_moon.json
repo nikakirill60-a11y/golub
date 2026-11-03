@@ -1,0 +1,784 @@
+{
+  "id": "moon",
+  "nameKey": "map:moon/name",
+  "scene": "3d/Maps/40_moon_mn/40_moon_mn.sc2",
+  "externalScene": "Maps/Moon/moon_scene",
+  "externalSceneSource": "3d/Maps/40_moon_mn/40_moon_mn.sc2",
+  "randomTiers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "orientation": "dava",
+  "sceneFormat": "client",
+  "minimap": "Maps/Moon/minimap",
+  "minimapArea": {
+    "frame": [
+      0,
+      0,
+      505,
+      505
+    ],
+    "min": [
+      -300.0,
+      -300.0
+    ],
+    "max": [
+      300.0,
+      300.0
+    ],
+    "size": [
+      326,
+      326
+    ]
+  },
+  "loadingScreen": "Maps/Moon/loading_screen",
+  "introMusic": "map_intro_moon",
+  "sky": {
+    "basis": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "faces": []
+  },
+  "border": {
+    "min": [
+      -249.0,
+      0.0,
+      -240.0
+    ],
+    "max": [
+      249.10003662109375,
+      70.0,
+      243.79998779296875
+    ]
+  },
+  "terrain": {
+    "resource": "Maps/Moon/terrain_height",
+    "side": 512,
+    "step": 1.1741682974559686,
+    "extent": 600.0,
+    "origin": [
+      -300.0,
+      0.0,
+      -300.0
+    ],
+    "minHeight": 2.155489444732666,
+    "maxHeight": 48.22720718383789,
+    "mapScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "normalSource": "3d/Maps/40_moon_mn/landscape/moon_hm.heightmap.heightmap",
+    "surfaceNormal": [
+      0.18721139430999756,
+      0.918733537197113,
+      -0.3476787209510803
+    ],
+    "collisionEnabled": true,
+    "castShadow": 0,
+    "tileTexScale": 50.0,
+    "tileColour0": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "tileColour1": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "tileColour2": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "tileColour3": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "detailStrength": 1.0,
+    "detailContrast": 1.0,
+    "brightness": 1.0,
+    "contrast": 1.0,
+    "maskSharpness": 1.0,
+    "colorMap": "Maps/Moon/colormap",
+    "tileMask": "Maps/Moon/tilemask",
+    "tileTexture": "Maps/Moon/tiletextures",
+    "client": {
+      "tiling": [
+        50.0,
+        50.0
+      ],
+      "colours": [
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "glossiness": 0.5,
+      "specularity": 1.0,
+      "metalFresnelReflectance": 0.5,
+      "specular": false,
+      "separateLightmapChannel": true
+    }
+  },
+  "environment": {
+    "fog": {
+      "color": [
+        0.136614,
+        0.22031,
+        0.284321
+      ],
+      "start": 10.0,
+      "end": 100.0,
+      "limit": 1.0,
+      "atmosphere": false,
+      "atmosphereDistance": 0.0,
+      "scattering": 1.0,
+      "linear": false,
+      "density": 0.0005
+    },
+    "ambient": [
+      1.0188260078430176,
+      1.0557082891464233,
+      1.1242235898971558
+    ],
+    "sunColor": [
+      0.5,
+      0.6000000238418579,
+      0.800000011920929
+    ],
+    "sunBasis": [
+      -0.6630302347550132,
+      0.0,
+      -0.6109770386491553,
+      0.0,
+      1.0,
+      0.5778152409227356,
+      0.7485926180511748,
+      0.0,
+      -0.5411437938301701
+    ],
+    "sunDirection": [
+      0.610977,
+      -0.577815,
+      -0.541144
+    ]
+  },
+  "directionalLight": {
+    "basis": [
+      -0.6630302347550132,
+      0.0,
+      -0.6109770386491553,
+      0.0,
+      1.0,
+      0.5778152409227356,
+      0.7485926180511748,
+      0.0,
+      -0.5411437938301701
+    ],
+    "origin": [
+      0,
+      64,
+      0
+    ],
+    "color": [
+      0.5,
+      0.6000000238418579,
+      0.800000011920929
+    ],
+    "energy": 1.25,
+    "shadows": false
+  },
+  "spawns": {
+    "teamA": [
+      {
+        "name": "TankSpawner",
+        "team": 0,
+        "basis": [
+          0.22515742125204166,
+          0.0,
+          -0.9743223982107414,
+          0.0,
+          1.0,
+          0.0,
+          0.9743223982107414,
+          0.0,
+          0.22515742125204166
+        ],
+        "origin": [
+          -158.1764678955078,
+          9.411555290222168,
+          225.22076416015625
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner2",
+        "team": 0,
+        "basis": [
+          0.1685198270151818,
+          0.0,
+          -0.9856982641268947,
+          0.0,
+          1.0,
+          0.0,
+          0.9856982641268947,
+          0.0,
+          0.1685198270151818
+        ],
+        "origin": [
+          -178.3683624267578,
+          11.489544868469238,
+          205.0126190185547
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner3",
+        "team": 0,
+        "basis": [
+          0.20910108477632877,
+          0.0,
+          -0.9778940312453914,
+          0.0,
+          1.0,
+          0.0,
+          0.9778940312453914,
+          0.0,
+          0.20910108477632877
+        ],
+        "origin": [
+          -161.72738647460938,
+          10.806289672851562,
+          209.4428253173828
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner4",
+        "team": 0,
+        "basis": [
+          0.20910108477632877,
+          0.0,
+          -0.9778940312453914,
+          0.0,
+          1.0,
+          0.0,
+          0.9778940312453914,
+          0.0,
+          0.20910108477632877
+        ],
+        "origin": [
+          -165.8121337890625,
+          11.025233268737793,
+          193.2027587890625
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner5",
+        "team": 0,
+        "basis": [
+          0.20910108477632877,
+          0.0,
+          -0.9778940312453914,
+          0.0,
+          1.0,
+          0.0,
+          0.9778940312453914,
+          0.0,
+          0.20910108477632877
+        ],
+        "origin": [
+          -192.26611328125,
+          11.716896057128906,
+          199.52049255371094
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner6",
+        "team": 0,
+        "basis": [
+          0.20910108477632877,
+          0.0,
+          -0.9778940312453914,
+          0.0,
+          1.0,
+          0.0,
+          0.9778940312453914,
+          0.0,
+          0.20910108477632877
+        ],
+        "origin": [
+          -175.229248046875,
+          10.504541397094727,
+          221.12054443359375
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner7",
+        "team": 0,
+        "basis": [
+          0.20910108477632877,
+          0.0,
+          -0.9778940312453914,
+          0.0,
+          1.0,
+          0.0,
+          0.9778940312453914,
+          0.0,
+          0.20910108477632877
+        ],
+        "origin": [
+          -182.9497833251953,
+          10.088467597961426,
+          233.41110229492188
+        ],
+        "respawn": 1
+      }
+    ],
+    "teamB": [
+      {
+        "name": "TankSpawner",
+        "team": 1,
+        "basis": [
+          0.08514845104204498,
+          0.0,
+          0.9963682759327198,
+          0.0,
+          1.0,
+          0.0,
+          -0.9963682759327198,
+          0.0,
+          0.08514845104204498
+        ],
+        "origin": [
+          170.7251739501953,
+          12.096283912658691,
+          -174.3862762451172
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner2",
+        "team": 1,
+        "basis": [
+          0.05639043277826769,
+          0.0,
+          0.9984087935765988,
+          0.0,
+          1.0,
+          0.0,
+          -0.9984087935765988,
+          0.0,
+          0.05639043277826769
+        ],
+        "origin": [
+          150.8577423095703,
+          10.434659957885742,
+          -184.9509735107422
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner3",
+        "team": 1,
+        "basis": [
+          0.07113316110514653,
+          0.0,
+          0.9974668282159509,
+          0.0,
+          1.0,
+          0.0,
+          -0.9974668282159509,
+          0.0,
+          0.07113316110514653
+        ],
+        "origin": [
+          153.47288513183594,
+          11.785053253173828,
+          -197.2661590576172
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner4",
+        "team": 1,
+        "basis": [
+          0.09973184385981237,
+          0.0,
+          0.9950143513137497,
+          0.0,
+          1.0,
+          0.0,
+          -0.9950143513137497,
+          0.0,
+          0.09973184385981237
+        ],
+        "origin": [
+          172.1888885498047,
+          13.006067276000977,
+          -187.70565795898438
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner5",
+        "team": 1,
+        "basis": [
+          0.042587670179512344,
+          0.0,
+          0.9990927336081877,
+          0.0,
+          1.0,
+          0.0,
+          -0.9990927336081877,
+          0.0,
+          0.042587670179512344
+        ],
+        "origin": [
+          189.3408660888672,
+          14.610346794128418,
+          -194.77552795410156
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner6",
+        "team": 1,
+        "basis": [
+          0.07428227241820136,
+          0.0,
+          0.9972372556239503,
+          0.0,
+          1.0,
+          0.0,
+          -0.9972372556239503,
+          0.0,
+          0.07428227241820136
+        ],
+        "origin": [
+          188.57115173339844,
+          14.093387603759766,
+          -179.27175903320312
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner7",
+        "team": 1,
+        "basis": [
+          0.05667601759059528,
+          0.0,
+          0.9983926226841175,
+          0.0,
+          1.0,
+          0.0,
+          -0.9983926226841175,
+          0.0,
+          0.05667601759059528
+        ],
+        "origin": [
+          173.59381103515625,
+          14.221449851989746,
+          -200.88235473632812
+        ],
+        "respawn": 1
+      }
+    ]
+  },
+  "aiMarkers": [
+    {
+      "name": "ControlPoint.sc2",
+      "origin": [
+        -160.33599853515625,
+        21.542760848999023,
+        -164.28375244140625
+      ],
+      "priority": 1,
+      "radius": 30.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_PerfBot11",
+      "origin": [
+        -147.22396850585938,
+        21.764984130859375,
+        -214.4794158935547
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_PerfBot21",
+      "origin": [
+        -204.43894958496094,
+        28.04193878173828,
+        -149.9923095703125
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_PerfBot12",
+      "origin": [
+        -90.64905548095703,
+        23.930879592895508,
+        -134.86000061035156
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_PerfBot22",
+      "origin": [
+        -141.6079864501953,
+        26.647958755493164,
+        -76.89806365966797
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_PerfBot13",
+      "origin": [
+        -16.88907241821289,
+        30.90764617919922,
+        -111.35844421386719
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_PerfBot23",
+      "origin": [
+        -62.227073669433594,
+        30.14109992980957,
+        -40.75246810913086
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_PerfBot14",
+      "origin": [
+        15.50454044342041,
+        23.442840576171875,
+        -40.416290283203125
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_PerfBot24",
+      "origin": [
+        -17.370620727539062,
+        27.128116607666016,
+        8.231706619262695
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_PerfBot15",
+      "origin": [
+        94.17338562011719,
+        25.629852294921875,
+        -7.57484245300293
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_PerfBot25",
+      "origin": [
+        46.991886138916016,
+        27.477203369140625,
+        74.6634292602539
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_PerfBot16",
+      "origin": [
+        170.26309204101562,
+        23.5224609375,
+        65.32432556152344
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_PerfBot26",
+      "origin": [
+        120.24375915527344,
+        20.27130889892578,
+        147.0836181640625
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_PerfBot17",
+      "origin": [
+        233.11114501953125,
+        20.5820255279541,
+        148.78890991210938
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "botspawn_PerfBot27",
+      "origin": [
+        166.25201416015625,
+        9.012476921081543,
+        218.61053466796875
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    }
+  ],
+  "objects": {
+    "format": "client",
+    "entities": 170,
+    "nodes": 172,
+    "batches": 199,
+    "vertices": 86987,
+    "triangles": 80865,
+    "materials": 194,
+    "textures": 23,
+    "destructibles": [],
+    "trees": [],
+    "hidden": 5,
+    "noCollision": 10,
+    "skinned": 2,
+    "vegetationClusters": [
+      304,
+      76,
+      19
+    ]
+  },
+  "sources": [
+    {
+      "path": "3d/Maps/40_moon_mn/40_moon_mn.sc2.dvpl",
+      "sha256": "993f8cb5200c7e3db08291f9c01e5857ae23504d262cf80de0b5172af585c35a"
+    },
+    {
+      "path": "3d/Maps/40_moon_mn/40_moon_mn.scg.dvpl",
+      "sha256": "6cf68879e88421bc3dd2c6ac1b515d3d932356751b3cf6203f344f068eeb04f4"
+    },
+    {
+      "path": "3d/Maps/40_moon_mn/landscape/moon_hm.heightmap.heightmap.dvpl",
+      "sha256": "d13e3b7b21e07fa16e5df84bdfc5a691b664a1268865e36ba63c92af0f845d6d"
+    },
+    {
+      "path": "3d/Maps/40_moon_mn/landscape/moon_colormap.astc.pvr.dvpl",
+      "sha256": "6a3cd47f3debb17630f5b04d2cfac49716254f13bea0b7a9ac0fad0743ad1413"
+    },
+    {
+      "path": "3d/Maps/40_moon_mn/landscape/tilemaskMoon_2k.astc.pvr.dvpl",
+      "sha256": "22aa621ce51ac87959a758899fe9a7611b3af37a918efa9fdbe675f4fd021fe7"
+    },
+    {
+      "path": "3d/Maps/40_moon_mn/landscape/moonTiles.astc.pvr.dvpl",
+      "sha256": "f72d5064290f2d072bdf35c4cbe4e8a9f7fb9279c793375e4d9791fa8fb82d40"
+    },
+    {
+      "path": "3d/Maps/40_moon_mn/environment/space_duck_stone_10.anim.dvpl",
+      "sha256": "1735deff4cfe53649348fec40004f21f302d11aed707df68fd0de67102f98dd6"
+    },
+    {
+      "path": "3d/Maps/40_moon_mn/objects/UFO2.anim.dvpl",
+      "sha256": "f1a7ff0cd92c782a4df72c560c50f77880683cdaa7775a0dc9e44db2fe318158"
+    },
+    {
+      "path": "3d/Maps/00_global_content/buildings/images/1.astc.pvr.dvpl",
+      "sha256": "91e367a33d3eb745a82cb0dc2c9a3439476864c76d112edf15892b38f5e985ad"
+    },
+    {
+      "path": "from_apk/Strings/en.yaml",
+      "sha256": "81fad9882af65f11a93d7e5dfe9261dae079f143e18d46566820a813cc701af6"
+    },
+    {
+      "path": "from_apk/Strings/ru.yaml",
+      "sha256": "3746028d382bfe5475069e433a14beee8b504aa010bedce75b10920c78a775c4"
+    },
+    {
+      "path": "Gfx/UI/BattleScreenHUD/minimap/moon/MiniMapSmall@2x.packed.webp.dvpl",
+      "sha256": "cd777cd483a577868232e06c965e8f15c9db43e1db6d9b63c72bcf61e57059b2"
+    },
+    {
+      "path": "Gfx/UI/BattleLoadingScreen/moon/BackgroundLoading.packed.webp.dvpl",
+      "sha256": "cad9681cde2f68f3d5a667c6bf4ffca85ccd97e2aa4452517d0f021ef25a368c"
+    },
+    {
+      "path": "blitz-legacy-godot/assets/sfx/music/Luna.mp3",
+      "sha256": "490be2b85f8e0408026e581a1ccc09620ad5b69499f66f835572965335b2292a"
+    }
+  ]
+}

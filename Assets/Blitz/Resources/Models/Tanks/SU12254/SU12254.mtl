@@ -1,0 +1,15 @@
+# Source-backed material bindings; runtime recreates URP materials.
+
+newmtl SU12254Body
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/SU12254.png
+
+newmtl SU12254Tracks
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/SU12254_tracks.png

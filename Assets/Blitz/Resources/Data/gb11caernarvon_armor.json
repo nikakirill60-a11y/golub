@@ -1,0 +1,352 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.0,
+      0.06,
+      -0.12
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GB11CAERNARVONArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 200,
+      "vertices": 248
+    },
+    {
+      "armor": 0,
+      "material": "GB11CAERNARVONArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 135,
+      "material": "GB11CAERNARVONArmor_armor_hull_plate135_135",
+      "mount": "hull",
+      "name": "armor_hull_plate135_135",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 17,
+      "material": "GB11CAERNARVONArmor_armor_hull_plate17_17",
+      "mount": "hull",
+      "name": "armor_hull_plate17_17",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 23,
+      "vertices": 69
+    },
+    {
+      "armor": 20,
+      "material": "GB11CAERNARVONArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 211,
+      "material": "GB11CAERNARVONArmor_armor_hull_plate211_211",
+      "mount": "hull",
+      "name": "armor_hull_plate211_211",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 31,
+      "material": "GB11CAERNARVONArmor_armor_hull_plate31_31",
+      "mount": "hull",
+      "name": "armor_hull_plate31_31",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 39,
+      "material": "GB11CAERNARVONArmor_armor_hull_plate39_39",
+      "mount": "hull",
+      "name": "armor_hull_plate39_39",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 46,
+      "material": "GB11CAERNARVONArmor_armor_hull_plate46_46",
+      "mount": "hull",
+      "name": "armor_hull_plate46_46",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 25,
+      "vertices": 75
+    },
+    {
+      "armor": 48,
+      "material": "GB11CAERNARVONArmor_armor_hull_plate48s_48",
+      "mount": "hull",
+      "name": "armor_hull_plate48s_48",
+      "screen": true,
+      "submesh": 9,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 53,
+      "material": "GB11CAERNARVONArmor_armor_hull_plate53_53",
+      "mount": "hull",
+      "name": "armor_hull_plate53_53",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 59,
+      "material": "GB11CAERNARVONArmor_armor_hull_plate59s_59",
+      "mount": "hull",
+      "name": "armor_hull_plate59s_59",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 79,
+      "material": "GB11CAERNARVONArmor_armor_hull_plate79_79",
+      "mount": "hull",
+      "name": "armor_hull_plate79_79",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 0,
+      "material": "GB11CAERNARVONArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 152,
+      "material": "GB11CAERNARVONArmor_armor_turret_01_plate152_152",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate152_152",
+      "screen": false,
+      "submesh": 14,
+      "triangles": 44,
+      "vertices": 132
+    },
+    {
+      "armor": 20,
+      "material": "GB11CAERNARVONArmor_armor_turret_01_plate20_20",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate20_20",
+      "screen": false,
+      "submesh": 15,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 240,
+      "material": "GB11CAERNARVONArmor_armor_turret_01_plate240_240",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate240_240",
+      "screen": false,
+      "submesh": 16,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 30,
+      "material": "GB11CAERNARVONArmor_armor_turret_01_plate30_30",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate30_30",
+      "screen": false,
+      "submesh": 17,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 51,
+      "material": "GB11CAERNARVONArmor_armor_turret_01_plate51_51",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate51_51",
+      "screen": false,
+      "submesh": 18,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 70,
+      "material": "GB11CAERNARVONArmor_armor_turret_01_plate70_70",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate70_70",
+      "screen": false,
+      "submesh": 19,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 95,
+      "material": "GB11CAERNARVONArmor_armor_turret_01_plate95_95",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate95_95",
+      "screen": false,
+      "submesh": 20,
+      "triangles": 52,
+      "vertices": 156
+    },
+    {
+      "armor": 152,
+      "material": "GB11CAERNARVONArmor_gun_01_mask_turret_01_plate152s_152",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate152s_152",
+      "screen": true,
+      "submesh": 21,
+      "triangles": 122,
+      "vertices": 366
+    },
+    {
+      "armor": 0,
+      "material": "GB11CAERNARVONArmor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 22,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 112,
+      "material": "GB11CAERNARVONArmor_armor_turret_02_plate112_112",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate112_112",
+      "screen": false,
+      "submesh": 23,
+      "triangles": 72,
+      "vertices": 216
+    },
+    {
+      "armor": 165,
+      "material": "GB11CAERNARVONArmor_armor_turret_02_plate165_165",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate165_165",
+      "screen": false,
+      "submesh": 24,
+      "triangles": 45,
+      "vertices": 135
+    },
+    {
+      "armor": 30,
+      "material": "GB11CAERNARVONArmor_armor_turret_02_plate30_30",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate30_30",
+      "screen": false,
+      "submesh": 25,
+      "triangles": 88,
+      "vertices": 264
+    },
+    {
+      "armor": 51,
+      "material": "GB11CAERNARVONArmor_armor_turret_02_plate51_51",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate51_51",
+      "screen": false,
+      "submesh": 26,
+      "triangles": 87,
+      "vertices": 261
+    },
+    {
+      "armor": 90,
+      "material": "GB11CAERNARVONArmor_armor_turret_02_plate90_90",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate90_90",
+      "screen": false,
+      "submesh": 27,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 100,
+      "material": "GB11CAERNARVONArmor_gun_03_mask_turret_02_plate100s_100",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_02_plate100s_100",
+      "screen": true,
+      "submesh": 28,
+      "triangles": 39,
+      "vertices": 117
+    },
+    {
+      "armor": 200,
+      "material": "GB11CAERNARVONArmor_gun_03_mask_turret_02_plate200s_200",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_02_plate200s_200",
+      "screen": true,
+      "submesh": 29,
+      "triangles": 65,
+      "vertices": 195
+    },
+    {
+      "armor": 100,
+      "material": "GB11CAERNARVONArmor_gun_04_mask_turret_02_plate100s_100",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate100s_100",
+      "screen": true,
+      "submesh": 30,
+      "triangles": 39,
+      "vertices": 117
+    },
+    {
+      "armor": 200,
+      "material": "GB11CAERNARVONArmor_gun_04_mask_turret_02_plate200s_200",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate200s_200",
+      "screen": true,
+      "submesh": 31,
+      "triangles": 65,
+      "vertices": 195
+    },
+    {
+      "armor": 100,
+      "material": "GB11CAERNARVONArmor_gun_06_mask_turret_02_plate100s_100",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate100s_100",
+      "screen": true,
+      "submesh": 32,
+      "triangles": 39,
+      "vertices": 117
+    },
+    {
+      "armor": 200,
+      "material": "GB11CAERNARVONArmor_gun_06_mask_turret_02_plate200s_200",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate200s_200",
+      "screen": true,
+      "submesh": 33,
+      "triangles": 65,
+      "vertices": 195
+    }
+  ]
+}

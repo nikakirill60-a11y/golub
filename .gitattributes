@@ -1,0 +1,53 @@
+* text=auto eol=lf
+
+# Text sources and Unity's YAML assets stay diffable.
+*.cs           text diff=csharp
+*.asmdef       text
+*.asmref       text
+*.json         text
+*.md           text
+*.sh           text eol=lf
+*.inputactions text
+*.shader       text
+*.hlsl         text
+
+# Unity serializes an empty YAML key as "key: " with a trailing space. That is
+# the editor's own canonical format, so it must not trip git's whitespace checks
+# (git diff --check, git apply); otherwise every reimport looks like dirt that
+# somebody has to revert by hand. Hand-written sources above keep the checks.
+*.unity        text -whitespace
+*.asset        text -whitespace
+*.prefab       text -whitespace
+*.mat          text -whitespace
+*.controller   text -whitespace
+*.anim         text -whitespace
+*.meta         text -whitespace
+
+# Binary game content goes to git-lfs (enabled repo-locally via
+# "git lfs install --local"). Cloning this repo requires git-lfs installed,
+# otherwise these files arrive as pointer stubs.
+*.png    filter=lfs diff=lfs merge=lfs -text
+*.jpg    filter=lfs diff=lfs merge=lfs -text
+*.jpeg   filter=lfs diff=lfs merge=lfs -text
+*.webp   filter=lfs diff=lfs merge=lfs -text
+*.tga    filter=lfs diff=lfs merge=lfs -text
+*.psd    filter=lfs diff=lfs merge=lfs -text
+*.exr    filter=lfs diff=lfs merge=lfs -text
+*.wav    filter=lfs diff=lfs merge=lfs -text
+*.mp3    filter=lfs diff=lfs merge=lfs -text
+*.ogg    filter=lfs diff=lfs merge=lfs -text
+*.ttf    filter=lfs diff=lfs merge=lfs -text
+*.otf    filter=lfs diff=lfs merge=lfs -text
+*.fbx    filter=lfs diff=lfs merge=lfs -text
+*.glb    filter=lfs diff=lfs merge=lfs -text
+*.obj    filter=lfs diff=lfs merge=lfs -text
+*.blend  filter=lfs diff=lfs merge=lfs -text
+*.bytes  filter=lfs diff=lfs merge=lfs -text
+*.apk    filter=lfs diff=lfs merge=lfs -text
+*.aab    filter=lfs diff=lfs merge=lfs -text
+
+# Original 11.20 reference shader text is retained byte-for-byte (including CRLF/spacing).
+Assets/Blitz/Resources/Uprising/Sources/Shaders/*.txt -text -whitespace
+
+# Original ATGM UI references retain client bytes, including CRLF/spacing.
+Assets/Blitz/Resources/Atgm1120/Sources/*.txt -text -whitespace

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Blitz Legacy symbol-obfuscation keep-list (Obfuz rule file).
+  Obfuz already keeps: MonoBehaviour/ScriptableObject/[Serializable] type names,
+  Unity event methods, public serializable fields, delegates, overrides of
+  external virtuals, [RuntimeInitializeOnLoadMethod]. The rules below cover
+  what it cannot infer for this project.
+  Tests/EditorTools never ship and run against unobfuscated editor assemblies,
+  so their reflection targets need no entries here.
+-->
+<obfuz>
+  <assembly name="BlitzLegacy.Core">
+    <!-- enum member names may surface via ToString()/save data/localization keys -->
+    <type name="*" classType="enum" obName="0" applyToMembers="field"/>
+  </assembly>
+
+  <assembly name="BlitzLegacy.Runtime">
+    <type name="*" classType="enum" obName="0" applyToMembers="field"/>
+    <!-- JsonUtility: hangar JSON maps by C# field names -->
+    <type name="BlitzLegacy.Runtime.Hangar.ClientHangar*" obName="0" applyToMembers="field"/>
+    <!-- Sentry SDK resolves its options hook from the asset -->
+    <type name="BlitzLegacy.Runtime.Telemetry.BlitzSentryOptions" obName="0" applyToMembers="*"/>
+  </assembly>
+  <assembly name="BlitzLegacy.Network">
+    <type name="*" classType="enum" obName="0" applyToMembers="field"/>
+    <!-- Fusion: [Networked] properties, their weaved backing fields, RPCs and
+         GetArrayReader(nameof(...)) resolve by member name -->
+    <type name="BlitzLegacy.Network.NetBattle" obName="0" applyToMembers="*"/>
+    <!-- weaved network layouts (input + replicated structs) -->
+    <type name="BlitzLegacy.Network.NetInput" obName="0" applyToMembers="*"/>
+    <type name="BlitzLegacy.Network.NetTankState" obName="0" applyToMembers="*"/>
+    <type name="BlitzLegacy.Network.NetRocketState" obName="0" applyToMembers="*"/>
+    <type name="BlitzLegacy.Network.NetUprisingState" obName="0" applyToMembers="*"/>
+  </assembly>
+  <assembly name="BlitzLegacy.Direct">
+    <!-- own-server wire format is byte-explicit; only enum names may surface in logs -->
+    <type name="*" classType="enum" obName="0" applyToMembers="field"/>
+  </assembly>
+</obfuz>

@@ -1,0 +1,165 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "H39CAPTUREDArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 308,
+      "vertices": 390
+    },
+    {
+      "armor": 0,
+      "material": "H39CAPTUREDArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 11,
+      "material": "H39CAPTUREDArmor_armor_hull_plate11_11",
+      "mount": "hull",
+      "name": "armor_hull_plate11_11",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 43,
+      "vertices": 129
+    },
+    {
+      "armor": 14,
+      "material": "H39CAPTUREDArmor_armor_hull_plate14s_14",
+      "mount": "hull",
+      "name": "armor_hull_plate14s_14",
+      "screen": true,
+      "submesh": 3,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 19,
+      "material": "H39CAPTUREDArmor_armor_hull_plate19_19",
+      "mount": "hull",
+      "name": "armor_hull_plate19_19",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 23,
+      "material": "H39CAPTUREDArmor_armor_hull_plate23_23",
+      "mount": "hull",
+      "name": "armor_hull_plate23_23",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 53,
+      "vertices": 159
+    },
+    {
+      "armor": 28,
+      "material": "H39CAPTUREDArmor_armor_hull_plate28_28",
+      "mount": "hull",
+      "name": "armor_hull_plate28_28",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 38,
+      "material": "H39CAPTUREDArmor_armor_hull_plate38_38",
+      "mount": "hull",
+      "name": "armor_hull_plate38_38",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 138,
+      "vertices": 414
+    },
+    {
+      "armor": 0,
+      "material": "H39CAPTUREDArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 17,
+      "vertices": 51
+    },
+    {
+      "armor": 11,
+      "material": "H39CAPTUREDArmor_armor_turret_01_plate11_11",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate11_11",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 43,
+      "vertices": 129
+    },
+    {
+      "armor": 19,
+      "material": "H39CAPTUREDArmor_armor_turret_01_plate19_19",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate19_19",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 33,
+      "material": "H39CAPTUREDArmor_armor_turret_01_plate33_33",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate33_33",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 38,
+      "material": "H39CAPTUREDArmor_armor_turret_01_plate38_38",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate38_38",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 202,
+      "vertices": 606
+    },
+    {
+      "armor": 10,
+      "material": "H39CAPTUREDArmor_gun_01_mask_turret_01_plate10s_10",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate10s_10",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 15,
+      "material": "H39CAPTUREDArmor_gun_01_mask_turret_01_plate15s_15",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate15s_15",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 40,
+      "material": "H39CAPTUREDArmor_gun_01_mask_turret_01_plate40s_40",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate40s_40",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 46,
+      "vertices": 138
+    }
+  ]
+}

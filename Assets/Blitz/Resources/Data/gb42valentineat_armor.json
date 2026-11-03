@@ -1,0 +1,125 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GB42VALENTINEATArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 544,
+      "vertices": 504
+    },
+    {
+      "armor": 0,
+      "material": "GB42VALENTINEATArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 10,
+      "material": "GB42VALENTINEATArmor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 14,
+      "material": "GB42VALENTINEATArmor_armor_hull_plate14_14",
+      "mount": "hull",
+      "name": "armor_hull_plate14_14",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 19,
+      "vertices": 57
+    },
+    {
+      "armor": 17,
+      "material": "GB42VALENTINEATArmor_armor_hull_plate17_17",
+      "mount": "hull",
+      "name": "armor_hull_plate17_17",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 114,
+      "vertices": 342
+    },
+    {
+      "armor": 20,
+      "material": "GB42VALENTINEATArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 30,
+      "material": "GB42VALENTINEATArmor_armor_hull_plate30_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30_30",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 60,
+      "material": "GB42VALENTINEATArmor_armor_hull_plate60_60",
+      "mount": "hull",
+      "name": "armor_hull_plate60_60",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 74,
+      "material": "GB42VALENTINEATArmor_armor_hull_plate74s_74",
+      "mount": "hull",
+      "name": "armor_hull_plate74s_74",
+      "screen": true,
+      "submesh": 8,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 7,
+      "material": "GB42VALENTINEATArmor_armor_hull_plate7_7",
+      "mount": "hull",
+      "name": "armor_hull_plate7_7",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 0,
+      "material": "GB42VALENTINEATArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 14,
+      "material": "GB42VALENTINEATArmor_armor_turret_01_plate14_14",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate14_14",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 37,
+      "vertices": 111
+    }
+  ]
+}

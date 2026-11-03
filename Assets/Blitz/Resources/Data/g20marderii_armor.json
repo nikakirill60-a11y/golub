@@ -1,0 +1,105 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "G20MARDERIIArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 492,
+      "vertices": 924
+    },
+    {
+      "armor": 0,
+      "material": "G20MARDERIIArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 10,
+      "material": "G20MARDERIIArmor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 30,
+      "vertices": 90
+    },
+    {
+      "armor": 15,
+      "material": "G20MARDERIIArmor_armor_hull_plate15_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15_15",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 59,
+      "vertices": 177
+    },
+    {
+      "armor": 15,
+      "material": "G20MARDERIIArmor_armor_hull_plate15s_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15s_15",
+      "screen": true,
+      "submesh": 4,
+      "triangles": 23,
+      "vertices": 69
+    },
+    {
+      "armor": 20,
+      "material": "G20MARDERIIArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 30,
+      "material": "G20MARDERIIArmor_armor_hull_plate30_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30_30",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 35,
+      "material": "G20MARDERIIArmor_armor_hull_plate35_35",
+      "mount": "hull",
+      "name": "armor_hull_plate35_35",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 10,
+      "material": "G20MARDERIIArmor_armor_turret_01_plate10_10",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate10_10",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 4,
+      "material": "G20MARDERIIArmor_armor_turret_01_plate4_4",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate4_4",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 8,
+      "vertices": 24
+    }
+  ]
+}

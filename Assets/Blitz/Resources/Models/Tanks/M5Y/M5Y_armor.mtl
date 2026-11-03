@@ -1,0 +1,274 @@
+# Source-backed material bindings; runtime recreates URP materials.
+
+newmtl M5YArmor_module_tracks_20
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_hull_plate12_120
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_hull_plate16_65
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_hull_plate1_170
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_hull_plate2_60
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_hull_plate3_60
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_hull_plate4_55
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_hull_plate5_65
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_hull_plate6_65
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_hull_plate8_10
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_hull_plate9_40
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_turret_01_plate1_155
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_turret_01_plate2_110
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_turret_01_plate3_70
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_turret_01_plate5_145
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_turret_01_plate8_70
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_armor_turret_01_plate9_140
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_01_mask_turret_01_plate10_55
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_01_mask_turret_01_plate12_300
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_01_mask_turret_01_plate14_60
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_01_mask_turret_01_plate16_60
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_01_mask_turret_01_plate1_150
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_01_mask_turret_01_plate3_70
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_01_mask_turret_01_plate4_45
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_01_mask_turret_01_plate5_40
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_01_mask_turret_01_plate7_45
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_01_mask_turret_01_plate8_10
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_01_mask_turret_01_plate9_10
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_02_mask_turret_01_plate10_50
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_02_mask_turret_01_plate12_300
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_02_mask_turret_01_plate14_45
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_02_mask_turret_01_plate16_60
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_02_mask_turret_01_plate1_180
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_02_mask_turret_01_plate3_80
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_02_mask_turret_01_plate4_45
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_02_mask_turret_01_plate5_40
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_02_mask_turret_01_plate7_40
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_02_mask_turret_01_plate8_60
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png
+
+newmtl M5YArmor_gun_02_mask_turret_01_plate9_10
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M5Y.png

@@ -1,0 +1,190 @@
+# Source-backed material bindings; runtime recreates URP materials.
+
+newmtl PZIVArmor_module_tracks_20
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_hull_plate0_0
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_hull_plate10_10
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_hull_plate12_12
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_hull_plate21_21
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_hull_plate27_27
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_hull_plate32_32
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_hull_plate54_54
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_hull_plate86_86
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_turret_01_plate0_0
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_turret_01_plate10_10
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_turret_01_plate32_32
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_turret_01_plate54_54
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_gun_03_mask_turret_01_plate50s_50
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_gun_04_mask_turret_01_plate50s_50
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_turret_02_plate0_0
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_turret_02_plate10_10
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_turret_02_plate16_16
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_turret_02_plate32_32
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_turret_02_plate42s_42
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_turret_02_plate53s_53
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_turret_02_plate54_54
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_turret_02_plate64_64
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_armor_turret_02_plate64s_64
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_gun_03_mask_turret_02_plate50s_50
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_gun_04_mask_turret_02_plate50s_50
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png
+
+newmtl PZIVArmor_gun_05_mask_turret_02_plate50s_50
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/PZIV.png

@@ -1,0 +1,631 @@
+{
+  "animation": {
+    "closesBackwards": true,
+    "interpolation": 1,
+    "keys": [
+      [
+        0.0,
+        [
+          -289.0,
+          88.0
+        ],
+        1.0
+      ],
+      [
+        0.23333334922790527,
+        [
+          0.0,
+          88.0
+        ],
+        1.0
+      ]
+    ],
+    "name": "show_menu",
+    "reset": [
+      -289.0,
+      88.0
+    ],
+    "seconds": 0.23333333
+  },
+  "atlas": {
+    "added": {
+      "button_red": {
+        "h": 134,
+        "texture": "lobbyCommon_Out",
+        "w": 354,
+        "x": 1,
+        "y": 1682
+      }
+    },
+    "destination": "atlas_regions.json",
+    "regions": 217,
+    "textures": 27
+  },
+  "buttons": {
+    "logout": {
+      "fontSize": 16,
+      "icon": {
+        "rect": [
+          22.0,
+          10.0,
+          30.03,
+          42.77
+        ],
+        "region": [
+          327,
+          795,
+          66,
+          94
+        ],
+        "scale": 0.45500001311302185,
+        "sheet": "hangar_Out",
+        "texture": "res://assets/gfx/ui/hangar/SidebarIcons07.tres"
+      },
+      "rect": [
+        0.0,
+        0.0,
+        289.0,
+        64.0
+      ],
+      "style": {
+        "fontSize": 15,
+        "region": [
+          1,
+          1682,
+          354,
+          134
+        ],
+        "sheet": "lobbyCommon_Out",
+        "stylebox": "res://assets/gfx/ui/common/style_button_red.stylebox",
+        "texture": "res://assets/gfx/ui/lobby_common/WiderButton02.tres",
+        "textureMargins": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "text": "LOGOUT",
+      "variation": "ButtonRed"
+    },
+    "settings": {
+      "fontSize": 16,
+      "icon": {
+        "rect": [
+          17.0,
+          78.0,
+          39.13,
+          42.77
+        ],
+        "region": [
+          476,
+          309,
+          86,
+          86
+        ],
+        "scale": 0.45500001311302185,
+        "sheet": "hangar_Out",
+        "texture": "res://assets/gfx/ui/hangar/SidebarIcons08.tres"
+      },
+      "rect": [
+        0.0,
+        68.0,
+        289.0,
+        64.0
+      ],
+      "style": {
+        "fontSize": 16,
+        "region": [
+          1,
+          1546,
+          354,
+          134
+        ],
+        "sheet": "lobbyCommon_Out",
+        "stylebox": "res://assets/gfx/ui/common/style_button_generic.stylebox",
+        "texture": "res://assets/gfx/ui/lobby_common/WiderButton.tres",
+        "textureMargins": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "text": "SETTINGS",
+      "variation": "Button"
+    }
+  },
+  "dump": {
+    "note": "Rects are relative to the panel's top-left corner, so they do not depend on the headless window size.",
+    "script": "godot_hangar_menu_dump.gd",
+    "uiSize": [
+      1386.6666259765625,
+      1386.6666259765625
+    ]
+  },
+  "generator": "port_godot_hangar_menu.py",
+  "localization": {
+    "added": {
+      "hangar:toolbox/add_prem_hours": {
+        "caption": "add prem hours",
+        "sourceText": "add prem hours"
+      },
+      "hangar:toolbox/erase_battles": {
+        "caption": "erase battles",
+        "sourceText": "erase battles"
+      },
+      "hangar:toolbox/erase_rewards": {
+        "caption": "erase rewards",
+        "sourceText": "erase rewards"
+      },
+      "hangar:toolbox/full_upgrades": {
+        "caption": "full upgrades",
+        "sourceText": "full upgrades"
+      },
+      "hangar:toolbox/set_credits": {
+        "caption": "set credits",
+        "sourceText": "set credits\n"
+      },
+      "hangar:toolbox/set_freexp": {
+        "caption": "set freexp",
+        "sourceText": "set freexp\n"
+      },
+      "hangar:toolbox/set_gold": {
+        "caption": "set gold",
+        "sourceText": "set gold\n"
+      },
+      "hangar:toolbox/title": {
+        "caption": "Account toolbox",
+        "sourceText": "Account toolbox"
+      },
+      "hangar:toolbox/unlock_all_tanks": {
+        "caption": "unlock all tanks",
+        "sourceText": "unlock all tanks"
+      }
+    },
+    "destination": "lang.json",
+    "keys": 163,
+    "languages": 2,
+    "required": [
+      "LOGOUT",
+      "SETTINGS"
+    ]
+  },
+  "openButton": {
+    "iconMaxWidth": 50,
+    "path": "screens/main/btn_menu",
+    "rect": [
+      5.0,
+      4.0,
+      94.0,
+      77.0
+    ],
+    "sndVar": 3,
+    "sound": "assets/sfx/ui/filter_open.wav",
+    "toggleMode": true,
+    "toggleSound": false,
+    "volume": 0.7
+  },
+  "panel": {
+    "anchors": [
+      0.0,
+      0.1600000113248825,
+      0.0,
+      1.0
+    ],
+    "blur": {
+      "parameters": {
+        "blur_amount": 2.000000095,
+        "color": [
+          0.32740578055381775,
+          0.4176311194896698,
+          0.4824441075325012,
+          1.0
+        ]
+      },
+      "rect": [
+        0.0,
+        0.0,
+        289.0,
+        1164.7999
+      ],
+      "scene": "assets/gfx/ui/hangar/blur.tscn",
+      "shader": "res://assets/gfx/ui/hangar/ui_blur.gdshader"
+    },
+    "closedX": -289.0,
+    "edgeStrip": {
+      "anchors": [
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "color": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "offsets": [
+        -2.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rect": [
+        287.0,
+        0.0,
+        2.0,
+        1164.7999
+      ]
+    },
+    "mouseFilter": 2,
+    "openX": 0.0,
+    "path": "screens/main/menu",
+    "separation": 4,
+    "width": 289.0
+  },
+  "policy": "Source geometry, styles and captions only. The layout comes from a headless Godot dump of ui_hangar.tscn; nothing is measured by eye and no art is redrawn.",
+  "sources": [
+    {
+      "bytes": 292741,
+      "sha256": "37f16b687b993745d381f8c1243853fd9ad272f2aed854bbf93f824cc5c92962",
+      "source": "assets/gfx/ui/hangar/ui_hangar.tscn"
+    },
+    {
+      "bytes": 5280,
+      "sha256": "080639c5ee4450fa4bda96ebb0aeba3694824334f6f8aa8d6375b8d15219bc28",
+      "source": "assets/gfx/ui/hangar/ui_account_toolbox.gd"
+    },
+    {
+      "bytes": 612,
+      "sha256": "e5d7fe627483cb0690c6548cde32b58b73e4ce5e210f9d5fa1d71bd13ca4ed4e",
+      "source": "assets/gfx/ui/hangar/blur.tscn"
+    },
+    {
+      "bytes": 543,
+      "sha256": "756ca1b913ce1ccff88c108ad3ae9703e742e055ee33e21b8c4ed33eb565b7aa",
+      "source": "assets/gfx/ui/hangar/ui_blur.gdshader"
+    },
+    {
+      "bytes": 20057,
+      "sha256": "2f0efc7bd27f03da51f57368eef2ddf94bac48b883bc149aed5ac036d1c29453",
+      "source": "assets/fonts/ui_theme_blitz.tres"
+    },
+    {
+      "bytes": 1346,
+      "sha256": "28622246b98e6f9f9ef89be93b2e1c0637c21fab215be2fb84c7ab8f5ce88373",
+      "source": "scripts/ui_elements/button_generic.gd"
+    },
+    {
+      "bytes": 27622,
+      "sha256": "72dd42b782a95b793a8180ee95c36605a898b8606a023b41922f8a8fe800ba3a",
+      "source": "scripts/account.gd"
+    },
+    {
+      "bytes": 22442,
+      "sha256": "cd820fd119b72263ca48cefaf3ff417283d3220d9771df50dc20fe35e40d9e0d",
+      "source": "scripts/_audio.gd"
+    }
+  ],
+  "textEdit": {
+    "fontSize": 15,
+    "style": {
+      "bg_color": [
+        0.10000000149011612,
+        0.10000000149011612,
+        0.10000000149011612,
+        0.6000000238418579
+      ],
+      "border_color": [
+        0.0,
+        0.0,
+        0.0,
+        0.6000000238418579
+      ],
+      "border_width": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "class": "StyleBoxFlat",
+      "content_margins": [
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "corner_radius": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "resource_path": ""
+    }
+  },
+  "toolbox": {
+    "backgroundColor": [
+      0.0,
+      0.0,
+      0.0,
+      0.41960784792900085
+    ],
+    "debugBuildOnly": true,
+    "height": 246.0,
+    "innerOffsetBottom": 236.0,
+    "innerRect": [
+      0.0,
+      136.0,
+      289.0,
+      270.0
+    ],
+    "rect": [
+      0.0,
+      136.0,
+      289.0,
+      246.0
+    ],
+    "rows": [
+      {
+        "class": "Control",
+        "name": "Control",
+        "path": "VBoxContainer/Control",
+        "rect": [
+          0.0,
+          136.0,
+          289.0,
+          5.0
+        ]
+      },
+      {
+        "class": "Label",
+        "font_size": 15,
+        "horizontal_alignment": 1,
+        "name": "title",
+        "path": "VBoxContainer/title",
+        "rect": [
+          0.0,
+          145.0,
+          289.0,
+          16.0
+        ],
+        "text": "Account toolbox"
+      },
+      {
+        "class": "ColorRect",
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "name": "ColorRect",
+        "path": "VBoxContainer/ColorRect",
+        "rect": [
+          0.0,
+          165.0,
+          289.0,
+          1.0
+        ]
+      },
+      {
+        "class": "Button",
+        "font_size": 16,
+        "name": "btn_erase_rewards",
+        "path": "VBoxContainer/btn_erase_rewards",
+        "rect": [
+          0.0,
+          170.0,
+          289.0,
+          31.0
+        ],
+        "text": "erase rewards"
+      },
+      {
+        "class": "Button",
+        "font_size": 16,
+        "name": "btn_erase_battles",
+        "path": "VBoxContainer/btn_erase_battles",
+        "rect": [
+          0.0,
+          205.0,
+          289.0,
+          31.0
+        ],
+        "text": "erase battles"
+      },
+      {
+        "class": "HBoxContainer",
+        "name": "set_credits",
+        "path": "VBoxContainer/set_credits",
+        "rect": [
+          0.0,
+          240.0,
+          289.0,
+          30.0
+        ]
+      },
+      {
+        "class": "Button",
+        "font_size": 16,
+        "name": "btn_set_credits",
+        "path": "VBoxContainer/set_credits/btn_set_credits",
+        "rect": [
+          0.0,
+          240.0,
+          142.0,
+          30.0
+        ],
+        "text": "set credits\n"
+      },
+      {
+        "class": "TextEdit",
+        "font_size": 15,
+        "name": "tedit_set_credits",
+        "path": "VBoxContainer/set_credits/tedit_set_credits",
+        "placeholder_text": "0",
+        "rect": [
+          146.0,
+          240.0,
+          143.0,
+          30.0
+        ],
+        "text": "0"
+      },
+      {
+        "class": "HBoxContainer",
+        "name": "set_gold",
+        "path": "VBoxContainer/set_gold",
+        "rect": [
+          0.0,
+          274.0,
+          289.0,
+          30.0
+        ]
+      },
+      {
+        "class": "Button",
+        "font_size": 16,
+        "name": "btn_set_gold",
+        "path": "VBoxContainer/set_gold/btn_set_gold",
+        "rect": [
+          0.0,
+          274.0,
+          142.0,
+          30.0
+        ],
+        "text": "set gold\n"
+      },
+      {
+        "class": "TextEdit",
+        "font_size": 15,
+        "name": "tedit_set_gold",
+        "path": "VBoxContainer/set_gold/tedit_set_gold",
+        "placeholder_text": "0",
+        "rect": [
+          146.0,
+          274.0,
+          143.0,
+          30.0
+        ],
+        "text": "0"
+      },
+      {
+        "class": "HBoxContainer",
+        "name": "set_freexp",
+        "path": "VBoxContainer/set_freexp",
+        "rect": [
+          0.0,
+          308.0,
+          289.0,
+          30.0
+        ]
+      },
+      {
+        "class": "Button",
+        "font_size": 16,
+        "name": "btn_set_freexp",
+        "path": "VBoxContainer/set_freexp/btn_set_freexp",
+        "rect": [
+          0.0,
+          308.0,
+          142.0,
+          30.0
+        ],
+        "text": "set freexp\n"
+      },
+      {
+        "class": "TextEdit",
+        "font_size": 15,
+        "name": "tedit_set_freexp",
+        "path": "VBoxContainer/set_freexp/tedit_set_freexp",
+        "placeholder_text": "0",
+        "rect": [
+          146.0,
+          308.0,
+          143.0,
+          30.0
+        ],
+        "text": "0"
+      },
+      {
+        "class": "HBoxContainer",
+        "name": "set_prem",
+        "path": "VBoxContainer/set_prem",
+        "rect": [
+          0.0,
+          342.0,
+          289.0,
+          30.0
+        ]
+      },
+      {
+        "class": "Button",
+        "font_size": 16,
+        "name": "btn_set_prem",
+        "path": "VBoxContainer/set_prem/btn_set_prem",
+        "rect": [
+          0.0,
+          342.0,
+          142.0,
+          30.0
+        ],
+        "text": "add prem hours"
+      },
+      {
+        "class": "TextEdit",
+        "font_size": 15,
+        "name": "tedit_set_prem",
+        "path": "VBoxContainer/set_prem/tedit_set_prem",
+        "placeholder_text": "0",
+        "rect": [
+          146.0,
+          342.0,
+          143.0,
+          30.0
+        ],
+        "text": "0"
+      },
+      {
+        "class": "HBoxContainer",
+        "name": "unlock_all",
+        "path": "VBoxContainer/unlock_all",
+        "rect": [
+          0.0,
+          376.0,
+          289.0,
+          30.0
+        ]
+      },
+      {
+        "class": "Button",
+        "font_size": 16,
+        "name": "btn_unlock_tanks",
+        "path": "VBoxContainer/unlock_all/btn_unlock_tanks",
+        "rect": [
+          0.0,
+          376.0,
+          142.0,
+          30.0
+        ],
+        "text": "unlock all tanks"
+      },
+      {
+        "class": "Button",
+        "font_size": 16,
+        "name": "btn_full_upgrades",
+        "path": "VBoxContainer/unlock_all/btn_full_upgrades",
+        "rect": [
+          146.0,
+          376.0,
+          143.0,
+          30.0
+        ],
+        "text": "full upgrades"
+      }
+    ],
+    "script": "assets/gfx/ui/hangar/ui_account_toolbox.gd"
+  }
+}

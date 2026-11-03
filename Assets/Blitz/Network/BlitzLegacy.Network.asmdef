@@ -1,0 +1,19 @@
+{
+    "name": "BlitzLegacy.Network",
+    "rootNamespace": "BlitzLegacy.Network",
+    "references": [
+        "BlitzLegacy.Core",
+        "BlitzLegacy.Runtime",
+        "Fusion.Unity",
+        "Photon.Realtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

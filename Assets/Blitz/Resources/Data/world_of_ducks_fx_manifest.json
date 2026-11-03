@@ -1,0 +1,428 @@
+{
+  "generator": "Tools/port_world_of_ducks.py particles",
+  "scenes": {
+    "Fire_and_Smoke": 2,
+    "chassis_effects/dirt_water_m": 1,
+    "chassis_effects/dust_water_m": 1,
+    "collision": 1,
+    "duck": 1,
+    "explosion_tank_1": 6,
+    "fire": 1,
+    "fire_skull": 3,
+    "fish": 1,
+    "gun_effects/shot_auto": 3,
+    "gun_effects/shot_main": 5,
+    "gun_effects/shot_medium": 2,
+    "gun_effects/shot_torpedo": 3,
+    "hit_surface/DeepWaterHitMedium_HE2": 4,
+    "hit_surface/DeepWaterHit_HE2": 4,
+    "hit_surface/woodHit_HE4": 5,
+    "hit_tank/armorHit_HE4": 3,
+    "hit_tank/armorResisted": 2,
+    "ramming_effect": 1,
+    "seagull": 1,
+    "smoke_tank_type_black_new": 1,
+    "map/fish": 1,
+    "map/duck": 1,
+    "map/seagull": 1,
+    "map/fire": 1
+  },
+  "textures": {
+    "../../../../../Data/Gfx/Particles/sea_of_ducks/bubbles": {
+      "resource": "Particles/WorldOfDucks/Textures/bubbles_8b8ef7dc42",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../Data/Gfx/Particles/sea_of_ducks/rich_water": {
+      "resource": "Particles/WorldOfDucks/Textures/rich_water_3b6d56eccb",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/explosion_smoke_white": {
+      "resource": "Particles/WorldOfDucks/Textures/explosion_smoke_white_24e552ca3e",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/dust_water": {
+      "resource": "Particles/WorldOfDucks/Textures/dust_water_df9988ef6c",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/rich_water": {
+      "resource": "Particles/WorldOfDucks/Textures/rich_water_3b6d56eccb",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../Data/Gfx/Particles/sea_of_ducks/dust_water": {
+      "resource": "Particles/WorldOfDucks/Textures/dust_water_df9988ef6c",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../Data/Gfx/Particles/12_malinovka_ma/duck": {
+      "resource": "Particles/WorldOfDucks/Textures/duck_13b1f0ff93",
+      "frames": 7,
+      "cols": 3,
+      "rows": 3,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../Data/Gfx/Particles/sea_of_ducks/treil": {
+      "resource": "Particles/WorldOfDucks/Textures/treil_1ac4590d8d",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../Data/Gfx/Particles/sea_of_ducks/additive/exp_anim_L": {
+      "resource": "Particles/WorldOfDucks/Textures/exp_anim_L_711e526c82",
+      "frames": 29,
+      "cols": 6,
+      "rows": 5,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../Data/Gfx/Particles/sea_of_ducks/exp_water": {
+      "resource": "Particles/WorldOfDucks/Textures/exp_water_ac3d3198ae",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../Data/Gfx/Particles/sea_of_ducks/water_splash": {
+      "resource": "Particles/WorldOfDucks/Textures/water_splash_d8834e46eb",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../Data/Gfx/Particles/sea_of_ducks/Dirt_exp_white": {
+      "resource": "Particles/WorldOfDucks/Textures/Dirt_exp_white_a1ba87cc7b",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../Data/Gfx/Particles/alpha/fog_white": {
+      "resource": "Particles/WorldOfDucks/Textures/fog_white_5bfb921ed3",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../Data/Gfx/Particles/additive/fire": {
+      "resource": "Particles/WorldOfDucks/Textures/fire_502f85b382",
+      "frames": 32,
+      "cols": 6,
+      "rows": 6,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../Data/Gfx/Particles/additive/exp_anim_L": {
+      "resource": "Particles/WorldOfDucks/Textures/exp_anim_L_e0178fd151",
+      "frames": 29,
+      "cols": 6,
+      "rows": 5,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../Data/Gfx/Particles/alpha/o2_expGlowB": {
+      "resource": "Particles/WorldOfDucks/Textures/o2_expGlowB_89d722e600",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../Data/Gfx/Particles/ParticlesHigh/FireBig/fireBig": {
+      "resource": "Particles/WorldOfDucks/Textures/fireBig_db28ccfd5c",
+      "frames": 30,
+      "cols": 6,
+      "rows": 5,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../Data/Gfx/Particles/environment/fish": {
+      "resource": "Particles/WorldOfDucks/Textures/fish_4577892fa2",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/bubbles": {
+      "resource": "Particles/WorldOfDucks/Textures/bubbles_8b8ef7dc42",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/glow_low2": {
+      "resource": "Particles/WorldOfDucks/Textures/glow_low2_840289a2bd",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/exp_water": {
+      "resource": "Particles/WorldOfDucks/Textures/exp_water_ac3d3198ae",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/water": {
+      "resource": "Particles/WorldOfDucks/Textures/water_3c5468b85d",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/treil": {
+      "resource": "Particles/WorldOfDucks/Textures/treil_1ac4590d8d",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/Smoke_Ribbon/Smoke_Ribbon": {
+      "resource": "Particles/WorldOfDucks/Textures/Smoke_Ribbon_12c3766588",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/shark1": {
+      "resource": "Particles/WorldOfDucks/Textures/shark1_74b70c20c4",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/shark2": {
+      "resource": "Particles/WorldOfDucks/Textures/shark2_2a2a3afb0c",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/Dirt_exp_white": {
+      "resource": "Particles/WorldOfDucks/Textures/Dirt_exp_white_a1ba87cc7b",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/water_splash": {
+      "resource": "Particles/WorldOfDucks/Textures/water_splash_d8834e46eb",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/additive/exp_anim_fire": {
+      "resource": "Particles/WorldOfDucks/Textures/exp_anim_fire_aea6657d72",
+      "frames": 22,
+      "cols": 5,
+      "rows": 5,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/flinders": {
+      "resource": "Particles/WorldOfDucks/Textures/flinders_dbf6ea952e",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../../Data/Gfx/Particles/sea_of_ducks/Iskr_one": {
+      "resource": "Particles/WorldOfDucks/Textures/Iskr_one_7e93cec5e5",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "../../../../../Data/Gfx/Particles/24_milibase_mlb/seagull": {
+      "resource": "Particles/WorldOfDucks/Textures/seagull_ef6f414061",
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    }
+  },
+  "provenance": {
+    "3d/Configs/Particles/sea_of_ducks/Fire_and_Smoke_1_foam.yaml": "a52b88e6f29451a5c8b03d7727b2a07d3ab4c5fd6af900d7af184f6b919f43a9",
+    "3d/Configs/Particles/sea_of_ducks/Fire_and_Smoke_2_wave.yaml": "381c7a3c708227afe8081e949eb90b0242901e81eaa2efe21cac343c4f2c576b",
+    "3d/Configs/Particles/sea_of_ducks/chassis_effects/dirt_water_m.yaml": "3984c7891f3eb28782af9408f3462343fd14c896688bc41d101626c25592f9d9",
+    "3d/Configs/Particles/sea_of_ducks/chassis_effects/dust_water_m.yaml": "8df7ffcbf289da3cb2a1e27fde9cb26f035a152069184e0c60eb160cef8234c3",
+    "3d/Configs/Particles/sea_of_ducks/collision.yaml": "db42afd88ea16ccac6d75f2099cc4e1dba6a5c987a622d7099a2da0b328f2449",
+    "3d/Configs/Particles/sea_of_ducks/duck.yaml": "4298eef826c038e4aa5835a3ab44c386d3b7d548019b021098bf81457429b47a",
+    "3d/Configs/Particles/sea_of_ducks/explosion_tank_1_1_sparks.yaml": "7d38e0a73314b284d409fecd013009f784a1b5e82259e4fb96f9ffadee413bdd",
+    "3d/Configs/Particles/sea_of_ducks/explosion_tank_1_2_exp.yaml": "7859caca343e4fff2537cfd482a699217a35c45cdcc3279f46deeb9ef0382c71",
+    "3d/Configs/Particles/sea_of_ducks/explosion_tank_1_3_spray.yaml": "d0fdccecfaaac45bf393e0e3e219017211b1c669dc21b48246b16394c38d4189",
+    "3d/Configs/Particles/sea_of_ducks/explosion_tank_1_4_splash.yaml": "7d73a702810dc8094a6ffbfc6b139f4a1ebb472b4d9f1d3a359c90fda19f45c7",
+    "3d/Configs/Particles/sea_of_ducks/explosion_tank_1_5_foam.yaml": "4c683ca96694c40220f9c86d4d7573f5b1c49c09db1733290f6b72a3c85bc7d9",
+    "3d/Configs/Particles/sea_of_ducks/explosion_tank_1_6_wave.yaml": "89a6e5bef32667bd98322dc3d425ac811de0f50b5d16f129bc3f4b5de3ceb30b",
+    "3d/Configs/Particles/sea_of_ducks/fire.yaml": "64519ea92f558850e4d9a800b13eb582deb4968ad81e48491eafe061f623899a",
+    "3d/Configs/Particles/sea_of_ducks/fire_skull_1_fire1.yaml": "ec58fffd2ab912f9e103cc7a80508e0c6be363849c8fc466ec65de6d13532e4b",
+    "3d/Configs/Particles/sea_of_ducks/fire_skull_2_glow.yaml": "b95913a8cd65178174a1ce330cca9d51ba05b6d505e1ba9634631af5986eac1d",
+    "3d/Configs/Particles/sea_of_ducks/fire_skull_3_fire.yaml": "1da92f6a8876c39ca887d79c5d45da0c24b24639140d4103f458e635c5cc1cc3",
+    "3d/Configs/Particles/sea_of_ducks/fish.yaml": "184d901183ba47ee033e94768f455efcc870eb77fa6da7a46743fafa36936433",
+    "3d/Configs/Particles/sea_of_ducks/gun_effects/shot_auto_1_fireworks.yaml": "a698bb935b9e9cb2a5b2a4c8613512d624dac0b9f3abed8483913119a66d9265",
+    "3d/Configs/Particles/sea_of_ducks/gun_effects/shot_auto_2_exp.yaml": "040183059bf99e85e670d9520ce9f704a538ed94eaa426417897496c43cfa5a1",
+    "3d/Configs/Particles/sea_of_ducks/gun_effects/shot_auto_3_exp1.yaml": "669ed51644a2f9bdecc0129bef8c2b49f71e9ed9ce3d8d0fa7f45c46541997a1",
+    "3d/Configs/Particles/sea_of_ducks/gun_effects/shot_main_1_fireworks.yaml": "12c00bf0bc7bed989ef535bdf389ebf92e8620cfff034a87678d2d818a5f250e",
+    "3d/Configs/Particles/sea_of_ducks/gun_effects/shot_main_2_smoke.yaml": "d964a753558b3f7a99bf03c1dc87167944fb5d7ebb1bf226da2cf9484a3e9568",
+    "3d/Configs/Particles/sea_of_ducks/gun_effects/shot_main_3_sparks.yaml": "5ffdd2ff679559c780edd5c4d09b868d9ef579c41ebfca1f4d103987736390dd",
+    "3d/Configs/Particles/sea_of_ducks/gun_effects/shot_main_4_exp.yaml": "903dcdfc52f1a37a511fa426b6a187de1a15ed12d7ea1eb215f131ac8acc1109",
+    "3d/Configs/Particles/sea_of_ducks/gun_effects/shot_main_5_flash_top.yaml": "7f0df3889acda948d85d2e8aa105c489f579465fc68f0c89cbdc3091b046a385",
+    "3d/Configs/Particles/sea_of_ducks/gun_effects/shot_medium_1_exp.yaml": "b4398071184d0a8780d4626dde4130bc8497ea64694330d60dc930edb144be9f",
+    "3d/Configs/Particles/sea_of_ducks/gun_effects/shot_medium_2_dust.yaml": "712cce53cdb78fc511138dd3879c48ed6ef53e7446274d0f2a154bbc4b4aea33",
+    "3d/Configs/Particles/sea_of_ducks/gun_effects/shot_torpedo_1_treil.yaml": "57f0ca3070931e2352d98f0b68bbfed5ac7a6ebdcf5b9894c474576f7b9220a5",
+    "3d/Configs/Particles/sea_of_ducks/gun_effects/shot_torpedo_2_water1.yaml": "826257c54429dd4fcdc8c266af72a3c4d5487d8f9e69e612d66b6cfc02a8f3d7",
+    "3d/Configs/Particles/sea_of_ducks/gun_effects/shot_torpedo_3_water2.yaml": "2cd3b0bdaae7f56ae8f3e092aea7ea468d0f725672c984b8273fffa8f34094b3",
+    "3d/Configs/Particles/sea_of_ducks/hit_surface/DeepWaterHitMedium_HE2_1_spray.yaml": "56321fd7c86a4d11ea3abef8b7a08cff14dacc1efa7000cb4f3308e0967b1e99",
+    "3d/Configs/Particles/sea_of_ducks/hit_surface/DeepWaterHitMedium_HE2_2_splash.yaml": "c93f9b00b2e5e5b59fda8d3f14afe4413a447784d1f165c1ef90235f0c35f878",
+    "3d/Configs/Particles/sea_of_ducks/hit_surface/DeepWaterHitMedium_HE2_3_foam.yaml": "d97a42255efacc58759ee185430da5ad9df900886b711223551be9b371aebfdc",
+    "3d/Configs/Particles/sea_of_ducks/hit_surface/DeepWaterHitMedium_HE2_4_wave.yaml": "0bc683128e55bf852d9e468afe2447a009087d095814a6d27edacff190274b69",
+    "3d/Configs/Particles/sea_of_ducks/hit_surface/ShallowWaterHit_HE2_1_spray.yaml": "56321fd7c86a4d11ea3abef8b7a08cff14dacc1efa7000cb4f3308e0967b1e99",
+    "3d/Configs/Particles/sea_of_ducks/hit_surface/ShallowWaterHit_HE2_2_splash.yaml": "b4afebbc3502e5fe17038fb20bcb91758a74257ba440935d08f7fc6e44f67b3d",
+    "3d/Configs/Particles/sea_of_ducks/hit_surface/ShallowWaterHit_HE2_3_foam.yaml": "d97a42255efacc58759ee185430da5ad9df900886b711223551be9b371aebfdc",
+    "3d/Configs/Particles/sea_of_ducks/hit_surface/ShallowWaterHit_HE2_4_wave.yaml": "0bc683128e55bf852d9e468afe2447a009087d095814a6d27edacff190274b69",
+    "3d/Configs/Particles/sea_of_ducks/hit_surface/woodHit_HE4_1_exp.yaml": "8e920aa1a85fed8006ed9752a660549c569e9bc875b6afb35340b4d66324f2db",
+    "3d/Configs/Particles/sea_of_ducks/hit_surface/woodHit_HE4_2_exp.yaml": "d68e0e7a3123c7fb360a136759c504899d06204405f8b25be0c34104f3fa138b",
+    "3d/Configs/Particles/sea_of_ducks/hit_surface/woodHit_HE4_3_debris.yaml": "858bb945391d63ce36ce5f13ed1b0a5b9e5ac5143766421d885f458638f26ccc",
+    "3d/Configs/Particles/sea_of_ducks/hit_surface/woodHit_HE4_4_sparks.yaml": "57d215752ffa5e99000010b0e8b3ef2d0001a3baadda7cf9b4b134eae78ae4ac",
+    "3d/Configs/Particles/sea_of_ducks/hit_surface/woodHit_HE4_5_smoke.yaml": "4dfb2e4a4ca4e5a1cae4fd8855be52f1bd68e9244366bcdde102005c838c0a29",
+    "3d/Configs/Particles/sea_of_ducks/hit_tank/armorHit_HE4_1_splash.yaml": "9b9b2aac0391d5d877fcaad7f738f942508e2bc8adc785991f8ede673bf2b60f",
+    "3d/Configs/Particles/sea_of_ducks/hit_tank/armorHit_HE4_2_exp.yaml": "e6362a07c4dda67d55a165fe2bfa1d4c4d6e9432ef2501f600ad36f6d2e67ed5",
+    "3d/Configs/Particles/sea_of_ducks/hit_tank/armorHit_HE4_3_sparks.yaml": "45338d9c60ccef92e65b259bc2c4f7dcf61016a59108c88a5e97b6ea8170fe02",
+    "3d/Configs/Particles/sea_of_ducks/hit_tank/armorResisted_1_smoke.yaml": "d86af53c9e850fdfe4e8f152c1987985ec7da77d9cb6e5c956d4afc288b2cee0",
+    "3d/Configs/Particles/sea_of_ducks/hit_tank/armorResisted_2_fireworks.yaml": "ab54a02e0bea311fb0b18f0cb5e60c9137f275bb936d2cece78bead29c2804ec",
+    "3d/Configs/Particles/sea_of_ducks/seagull.yaml": "12afa2168badd0f004c0d38e9e1b5af347e66f0789efaa4c71929bc857528407",
+    "3d/Configs/Particles/sea_of_ducks/smoke_tank_type_black_new.yaml": "e3988de1a8c2a5779fbaf4ea11ac0e1119a9b943947459888ccee2176affd250",
+    "3d/FX/sea_of_ducks/Fire_and_Smoke.sc2": "a0949886fd235cf4c4a605c9b07af7c4e1379091f463197a1dd96eea4e40fd61",
+    "3d/FX/sea_of_ducks/chassis_effects/dirt_water_m.sc2": "406d8bae34c128b60e0dc43f27c68198de5d4977f61b63b7c200d007445f88df",
+    "3d/FX/sea_of_ducks/chassis_effects/dust_water_m.sc2": "dc86aaad612f565e100e88cd87f8c9fe8bbcfe4807f8278a051721b7b1600cbd",
+    "3d/FX/sea_of_ducks/collision.sc2": "c9e370328d97957c209afc40d1f9f110f7fa3e91f1ea546a949e4824d8391ec9",
+    "3d/FX/sea_of_ducks/duck.sc2": "f80357d0035f59dba1d83605beb09d6518d3c99ab594bec0471675bc4dbe9cf3",
+    "3d/FX/sea_of_ducks/explosion_tank_1.sc2": "f8ebf4e99d32eb7be2075072070e185f607f9789d0465ae474fadc7d28697a79",
+    "3d/FX/sea_of_ducks/fire.sc2": "cd0ed94b3bdaaebdf037def09e9046301ae7a36853bec345a9bf430cbde02c7f",
+    "3d/FX/sea_of_ducks/fire_skull.sc2": "1fcc98a3e35de87f101a3dd9eed13ae88e251f5410383b47788dd7ab78d955fa",
+    "3d/FX/sea_of_ducks/fish.sc2": "761cfbe62f7185754d9aca9096a47aeb901f6f04b1f5e853eda670ca0d8b62e7",
+    "3d/FX/sea_of_ducks/gun_effects/shot_auto.sc2": "fb4de28c4a80478195e778db67e0f148c2939f6c32e0be9a81ffb27e26cbfde1",
+    "3d/FX/sea_of_ducks/gun_effects/shot_main.sc2": "68070d0960d81be706d67ce6b73ef364a8c3b05692761c3845ba0cc67fa93a50",
+    "3d/FX/sea_of_ducks/gun_effects/shot_medium.sc2": "e08a39c551a818939d6f3a63731af6e1d3f12f117f9ec6e03bb9005a8af65530",
+    "3d/FX/sea_of_ducks/gun_effects/shot_torpedo.sc2": "a87da26f587fbdb8b138cb3687d1e27814e57b613519abce2e675b5877dcc7e2",
+    "3d/FX/sea_of_ducks/hit_surface/DeepWaterHitMedium_HE2.sc2": "2be3f9961030f878d93b57019ecc279ab93d39160dcf692f17a48d16e9b38c43",
+    "3d/FX/sea_of_ducks/hit_surface/DeepWaterHit_HE2.sc2": "629db4986cdc1699e0f94b377213d749fd5e09da899ee473d753cecf3d8f69c6",
+    "3d/FX/sea_of_ducks/hit_surface/woodHit_HE4.sc2": "1c5c76181d00e9476742445ddfb4aebfbb0651caf3bb5be5afbe2a0325a4b47d",
+    "3d/FX/sea_of_ducks/hit_tank/armorHit_HE4.sc2": "9019fb15b9310907617d9fb96cd04fafb249ace263b3ae1e069e4e7eb3aa9ea2",
+    "3d/FX/sea_of_ducks/hit_tank/armorResisted.sc2": "9bb1d083e91ee3ed464dc61816446120ce57900c9639028ed60c2436bfc87fd4",
+    "3d/FX/sea_of_ducks/ramming_effect.sc2": "d156e12710829df0575a1444b835b1d51991bbdbf328ce9969f1ce9be05a209b",
+    "3d/FX/sea_of_ducks/seagull.sc2": "109c5ea002a1588da5ec67da9b01ab56cb3a11517652d9c61db8d7f4d8a8c5ca",
+    "3d/FX/sea_of_ducks/smoke_tank_type_black_new.sc2": "01f2267d7eeab74483bb6ecd29a35b8df715105e0ca404fbce9b65ea0ac4d87a",
+    "3d/Maps/sea_of_ducks/sea_of_ducks.sc2": "ef22f3c07c24f0e60fa0a40a538c21f758b4811a981488e2d479c8f369657873",
+    "Gfx/Particles/12_malinovka_ma/duck.txt": "cb72f5c9c7124e983a25e0904f11e69121235118a98e91c73bc5b4aafafa657d",
+    "Gfx/Particles/12_malinovka_ma/texture0.mali.webp": "9c19c7f3e266f84e1eb6f6889662811b74aa9226f93ea07d65c1325799396114",
+    "Gfx/Particles/24_milibase_mlb/seagull.txt": "1d8a53d861a9462e9c6a08b7cd91ca24d2e246b578df63df7e3e560e9a4e2f1f",
+    "Gfx/Particles/24_milibase_mlb/texture0.mali.webp": "e1b5d0bcdf77b93b3ca1bc862ad863daaf013fe9462230e2dd90f085b6a3b18c",
+    "Gfx/Particles/ParticlesHigh/FireBig/fireBig.txt": "976e2756085d0b1f38e539c787f7c1a28c4ee9c9fff969e1445bec22c1c38c23",
+    "Gfx/Particles/ParticlesHigh/FireBig/texture0.mali.webp": "b2659bd5671cdd115f74ae089a1b2b36f13f681a473cf0092b5fb8d93077bd67",
+    "Gfx/Particles/additive/exp_anim_L.txt": "5743cfefdd284696ea8d5041b9d59c6bd5eb5cac6f5541c37f5e6f062f84152f",
+    "Gfx/Particles/additive/fire.txt": "96b178f186173f0f659143f156edc3b422b57d3dea858758eb5fed4e5616e714",
+    "Gfx/Particles/additive/texture0.mali.webp": "0ee438ace125ee584fe3194ccbd8ab1c3566e2e902b88a3616fe594fc7de26aa",
+    "Gfx/Particles/alpha/fog_white.txt": "fe3c28838e5ba13e37edd61c297a64a4fca373501135a8095d258e20bc557a34",
+    "Gfx/Particles/alpha/o2_expGlowB.txt": "16f683664eb092b7096b364b900c0ce7490f36a79ceacc5ffe12738a9322ceb7",
+    "Gfx/Particles/alpha/texture0.mali.webp": "05a2b9142533ec7bcfb9dc8f3219558ef0aa9560bf936a07547a726124fc2002",
+    "Gfx/Particles/environment/fish.txt": "a6dda952f9421e25eb73532062c9cd00f5bab35a7bd4bbd68c1228c90c27e9b3",
+    "Gfx/Particles/environment/texture0.mali.webp": "4b4316cd209535ac0b18a1b998570a465d03f4ceeed97524755e019d63c05180",
+    "Gfx/Particles/sea_of_ducks/Dirt_exp_white.txt": "8a29ae83a88f59d24adc5a9765db1975ed2c981b198c42acb43db3a19e62faa1",
+    "Gfx/Particles/sea_of_ducks/Iskr_one.txt": "8b2b90c30da9b55344d7cd9dd6bde477284664db87aed4630dd6271eb96e43ea",
+    "Gfx/Particles/sea_of_ducks/Smoke_Ribbon/Smoke_Ribbon.txt": "32082efb446290082fc16cb34e870770e878d980855e808020f285f281f27bc9",
+    "Gfx/Particles/sea_of_ducks/Smoke_Ribbon/texture0.mali.webp": "a977ea7d96d54807041c3f9ab86a1e2e6a0dc744b1b26ad6a6a4e13a6a840759",
+    "Gfx/Particles/sea_of_ducks/additive/exp_anim_L.txt": "5743cfefdd284696ea8d5041b9d59c6bd5eb5cac6f5541c37f5e6f062f84152f",
+    "Gfx/Particles/sea_of_ducks/additive/exp_anim_fire.txt": "e39c07a8f787d49bc354807914ddf6e3dda7e189223de116bc0b5d98311fe77c",
+    "Gfx/Particles/sea_of_ducks/additive/texture0.mali.webp": "2a7a0f778f14c937c46c8bd4216cc505329350fd391633262eb6488763058093",
+    "Gfx/Particles/sea_of_ducks/bubbles.txt": "d981c492eae1a6ed8b41729b2cd86bf125b5c666f624f7a3ea9321a011cca553",
+    "Gfx/Particles/sea_of_ducks/dust_water.txt": "1975fb5df25efc6fc3a05fc86e8cf222ec516cab95d30c0b35a6de319ce55596",
+    "Gfx/Particles/sea_of_ducks/exp_water.txt": "5ef40158e64ceba136daae5c22ee59860f93be55f81e255a15600f220b16b5be",
+    "Gfx/Particles/sea_of_ducks/explosion_smoke_white.txt": "cd7cc49c10d4afdd2681881e84c8ee5476fcfaf21ff0937bc7a22370bd27efce",
+    "Gfx/Particles/sea_of_ducks/flinders.txt": "93e4bc7d8a8eb154fef600179e088cbe0bb9780ee27d328821be9e56060e56f4",
+    "Gfx/Particles/sea_of_ducks/glow_low2.txt": "625c3ad0561219d4da385612f9912ac96f84e6c72ce0ee9e4024f4b463d2c997",
+    "Gfx/Particles/sea_of_ducks/rich_water.txt": "543c207fd12062896c5a6f7bf43bda9ada983489615565e4ee4c8d9667b088cf",
+    "Gfx/Particles/sea_of_ducks/shark1.txt": "461383e9e63ee9e9f852c9e30a63385dcaa466a6208efae783eeab8597bd4a40",
+    "Gfx/Particles/sea_of_ducks/shark2.txt": "0d85caf398a1077c991f414305a4ca36ab34d25e2941fb11bd5d596e8f2031a7",
+    "Gfx/Particles/sea_of_ducks/texture0.mali.webp": "79825199867b10538795899d4102b37de89d5cda0e5eef3398030f5ed830f506",
+    "Gfx/Particles/sea_of_ducks/treil.txt": "bed43016ebe64b15166ffb344ac6c9d71c623dbff769b5fb18e83bd854e58a15",
+    "Gfx/Particles/sea_of_ducks/water.txt": "267c109f0d8bdd382f1bbc2ccc495bdf65bc7038fa665ad6429c772418bd9c0c",
+    "Gfx/Particles/sea_of_ducks/water_splash.txt": "d87606306ba94cc255dcaf1c6c0da3a9f332741aa8c480d10ef7bfe1ad2ffdcf"
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "T28PROTOTYPEArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 224,
+      "vertices": 264
+    },
+    {
+      "armor": 0,
+      "material": "T28PROTOTYPEArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 127,
+      "material": "T28PROTOTYPEArmor_armor_hull_plate127_127",
+      "mount": "hull",
+      "name": "armor_hull_plate127_127",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 152,
+      "material": "T28PROTOTYPEArmor_armor_hull_plate152_152",
+      "mount": "hull",
+      "name": "armor_hull_plate152_152",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 52,
+      "vertices": 156
+    },
+    {
+      "armor": 203,
+      "material": "T28PROTOTYPEArmor_armor_hull_plate203_203",
+      "mount": "hull",
+      "name": "armor_hull_plate203_203",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 25,
+      "material": "T28PROTOTYPEArmor_armor_hull_plate25_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25_25",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 25,
+      "material": "T28PROTOTYPEArmor_armor_hull_plate25s_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25s_25",
+      "screen": true,
+      "submesh": 6,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 38,
+      "material": "T28PROTOTYPEArmor_armor_hull_plate38_38",
+      "mount": "hull",
+      "name": "armor_hull_plate38_38",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 88,
+      "vertices": 264
+    },
+    {
+      "armor": 50,
+      "material": "T28PROTOTYPEArmor_armor_hull_plate50_50",
+      "mount": "hull",
+      "name": "armor_hull_plate50_50",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 82,
+      "vertices": 246
+    },
+    {
+      "armor": 0,
+      "material": "T28PROTOTYPEArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 101,
+      "material": "T28PROTOTYPEArmor_armor_turret_01_plate101_101",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate101_101",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 56,
+      "vertices": 168
+    },
+    {
+      "armor": 127,
+      "material": "T28PROTOTYPEArmor_armor_turret_01_plate127_127",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate127_127",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 114,
+      "vertices": 342
+    },
+    {
+      "armor": 203,
+      "material": "T28PROTOTYPEArmor_armor_turret_01_plate203_203",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate203_203",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 50,
+      "vertices": 150
+    },
+    {
+      "armor": 25,
+      "material": "T28PROTOTYPEArmor_armor_turret_01_plate25_25",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate25_25",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 133,
+      "material": "T28PROTOTYPEArmor_gun_02_mask_turret_01_plate133s_133",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate133s_133",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 33,
+      "vertices": 99
+    },
+    {
+      "armor": 203,
+      "material": "T28PROTOTYPEArmor_gun_02_mask_turret_01_plate203s_203",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate203s_203",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 64,
+      "material": "T28PROTOTYPEArmor_gun_02_mask_turret_01_plate64s_64",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate64s_64",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 41,
+      "vertices": 123
+    },
+    {
+      "armor": 133,
+      "material": "T28PROTOTYPEArmor_gun_03_mask_turret_01_plate133s_133",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate133s_133",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 33,
+      "vertices": 99
+    },
+    {
+      "armor": 203,
+      "material": "T28PROTOTYPEArmor_gun_03_mask_turret_01_plate203s_203",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate203s_203",
+      "screen": true,
+      "submesh": 18,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 64,
+      "material": "T28PROTOTYPEArmor_gun_03_mask_turret_01_plate64s_64",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate64s_64",
+      "screen": true,
+      "submesh": 19,
+      "triangles": 43,
+      "vertices": 129
+    },
+    {
+      "armor": 133,
+      "material": "T28PROTOTYPEArmor_gun_04_mask_turret_01_plate133s_133",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_01_plate133s_133",
+      "screen": true,
+      "submesh": 20,
+      "triangles": 33,
+      "vertices": 99
+    },
+    {
+      "armor": 203,
+      "material": "T28PROTOTYPEArmor_gun_04_mask_turret_01_plate203s_203",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_01_plate203s_203",
+      "screen": true,
+      "submesh": 21,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 64,
+      "material": "T28PROTOTYPEArmor_gun_04_mask_turret_01_plate64s_64",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_01_plate64s_64",
+      "screen": true,
+      "submesh": 22,
+      "triangles": 41,
+      "vertices": 123
+    }
+  ]
+}

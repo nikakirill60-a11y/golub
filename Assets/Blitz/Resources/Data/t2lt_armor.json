@@ -1,0 +1,112 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.0,
+      0.08,
+      -0.02
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "T2LTArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 392,
+      "vertices": 394
+    },
+    {
+      "armor": 0,
+      "material": "T2LTArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 15,
+      "material": "T2LTArmor_armor_hull_plate15_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15_15",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 17,
+      "material": "T2LTArmor_armor_hull_plate17_17",
+      "mount": "hull",
+      "name": "armor_hull_plate17_17",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 108,
+      "vertices": 324
+    },
+    {
+      "armor": 6,
+      "material": "T2LTArmor_armor_hull_plate6_6",
+      "mount": "hull",
+      "name": "armor_hull_plate6_6",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 86,
+      "vertices": 258
+    },
+    {
+      "armor": 0,
+      "material": "T2LTArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 13,
+      "vertices": 39
+    },
+    {
+      "armor": 16,
+      "material": "T2LTArmor_armor_turret_01_plate16_16",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate16_16",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 118,
+      "vertices": 354
+    },
+    {
+      "armor": 5,
+      "material": "T2LTArmor_armor_turret_01_plate5_5",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate5_5",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 6,
+      "material": "T2LTArmor_armor_turret_01_plate6_6",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate6_6",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 13,
+      "vertices": 39
+    },
+    {
+      "armor": 16,
+      "material": "T2LTArmor_gun_01_mask_turret_01_plate16s_16",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate16s_16",
+      "screen": true,
+      "submesh": 9,
+      "triangles": 8,
+      "vertices": 24
+    }
+  ]
+}

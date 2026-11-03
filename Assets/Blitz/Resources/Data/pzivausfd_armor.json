@@ -1,0 +1,405 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "PZIVAUSFDArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 312,
+      "vertices": 352
+    },
+    {
+      "armor": 0,
+      "material": "PZIVAUSFDArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 10,
+      "material": "PZIVAUSFDArmor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 11,
+      "material": "PZIVAUSFDArmor_armor_hull_plate11_11",
+      "mount": "hull",
+      "name": "armor_hull_plate11_11",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 14,
+      "material": "PZIVAUSFDArmor_armor_hull_plate14_14",
+      "mount": "hull",
+      "name": "armor_hull_plate14_14",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 20,
+      "material": "PZIVAUSFDArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 70,
+      "vertices": 210
+    },
+    {
+      "armor": 30,
+      "material": "PZIVAUSFDArmor_armor_hull_plate30_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30_30",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 101,
+      "vertices": 303
+    },
+    {
+      "armor": 8,
+      "material": "PZIVAUSFDArmor_armor_hull_plate8_8",
+      "mount": "hull",
+      "name": "armor_hull_plate8_8",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 13,
+      "vertices": 39
+    },
+    {
+      "armor": 0,
+      "material": "PZIVAUSFDArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 10,
+      "material": "PZIVAUSFDArmor_armor_turret_01_plate10_10",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate10_10",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 35,
+      "vertices": 105
+    },
+    {
+      "armor": 14,
+      "material": "PZIVAUSFDArmor_armor_turret_01_plate14_14",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate14_14",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 101,
+      "vertices": 303
+    },
+    {
+      "armor": 30,
+      "material": "PZIVAUSFDArmor_armor_turret_01_plate30_30",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate30_30",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 188,
+      "vertices": 564
+    },
+    {
+      "armor": 8,
+      "material": "PZIVAUSFDArmor_armor_turret_01_plate8_8",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate8_8",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 14,
+      "material": "PZIVAUSFDArmor_gun_01_mask_turret_01_plate14s_14",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate14s_14",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 30,
+      "material": "PZIVAUSFDArmor_gun_01_mask_turret_01_plate30s_30",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate30s_30",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 56,
+      "vertices": 168
+    },
+    {
+      "armor": 14,
+      "material": "PZIVAUSFDArmor_gun_02_mask_turret_01_plate14s_14",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate14s_14",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 30,
+      "material": "PZIVAUSFDArmor_gun_02_mask_turret_01_plate30s_30",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate30s_30",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 56,
+      "vertices": 168
+    },
+    {
+      "armor": 14,
+      "material": "PZIVAUSFDArmor_gun_03_mask_turret_01_plate14s_14",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate14s_14",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 30,
+      "material": "PZIVAUSFDArmor_gun_03_mask_turret_01_plate30s_30",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate30s_30",
+      "screen": true,
+      "submesh": 18,
+      "triangles": 52,
+      "vertices": 156
+    },
+    {
+      "armor": 0,
+      "material": "PZIVAUSFDArmor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 19,
+      "triangles": 17,
+      "vertices": 51
+    },
+    {
+      "armor": 10,
+      "material": "PZIVAUSFDArmor_armor_turret_02_plate10_10",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate10_10",
+      "screen": false,
+      "submesh": 20,
+      "triangles": 37,
+      "vertices": 111
+    },
+    {
+      "armor": 20,
+      "material": "PZIVAUSFDArmor_armor_turret_02_plate20_20",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate20_20",
+      "screen": false,
+      "submesh": 21,
+      "triangles": 102,
+      "vertices": 306
+    },
+    {
+      "armor": 30,
+      "material": "PZIVAUSFDArmor_armor_turret_02_plate30_30",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate30_30",
+      "screen": false,
+      "submesh": 22,
+      "triangles": 172,
+      "vertices": 516
+    },
+    {
+      "armor": 8,
+      "material": "PZIVAUSFDArmor_armor_turret_02_plate8_8",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate8_8",
+      "screen": false,
+      "submesh": 23,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 0,
+      "material": "PZIVAUSFDArmor_gun_04_mask_turret_02_plate0s_0",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate0s_0",
+      "screen": true,
+      "submesh": 24,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 14,
+      "material": "PZIVAUSFDArmor_gun_04_mask_turret_02_plate14s_14",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate14s_14",
+      "screen": true,
+      "submesh": 25,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 17,
+      "material": "PZIVAUSFDArmor_gun_04_mask_turret_02_plate17s_17",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate17s_17",
+      "screen": true,
+      "submesh": 26,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 35,
+      "material": "PZIVAUSFDArmor_gun_04_mask_turret_02_plate35s_35",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate35s_35",
+      "screen": true,
+      "submesh": 27,
+      "triangles": 56,
+      "vertices": 168
+    },
+    {
+      "armor": 0,
+      "material": "PZIVAUSFDArmor_gun_05_mask_turret_02_plate0s_0",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate0s_0",
+      "screen": true,
+      "submesh": 28,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 14,
+      "material": "PZIVAUSFDArmor_gun_05_mask_turret_02_plate14s_14",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate14s_14",
+      "screen": true,
+      "submesh": 29,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 17,
+      "material": "PZIVAUSFDArmor_gun_05_mask_turret_02_plate17s_17",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate17s_17",
+      "screen": true,
+      "submesh": 30,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 35,
+      "material": "PZIVAUSFDArmor_gun_05_mask_turret_02_plate35s_35",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate35s_35",
+      "screen": true,
+      "submesh": 31,
+      "triangles": 58,
+      "vertices": 174
+    },
+    {
+      "armor": 0,
+      "material": "PZIVAUSFDArmor_gun_06_mask_turret_02_plate0s_0",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate0s_0",
+      "screen": true,
+      "submesh": 32,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 14,
+      "material": "PZIVAUSFDArmor_gun_06_mask_turret_02_plate14s_14",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate14s_14",
+      "screen": true,
+      "submesh": 33,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 17,
+      "material": "PZIVAUSFDArmor_gun_06_mask_turret_02_plate17s_17",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate17s_17",
+      "screen": true,
+      "submesh": 34,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 35,
+      "material": "PZIVAUSFDArmor_gun_06_mask_turret_02_plate35s_35",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate35s_35",
+      "screen": true,
+      "submesh": 35,
+      "triangles": 52,
+      "vertices": 156
+    },
+    {
+      "armor": 0,
+      "material": "PZIVAUSFDArmor_gun_07_mask_turret_02_plate0s_0",
+      "mount": "gun_07",
+      "name": "gun_07_mask_turret_02_plate0s_0",
+      "screen": true,
+      "submesh": 36,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 14,
+      "material": "PZIVAUSFDArmor_gun_07_mask_turret_02_plate14s_14",
+      "mount": "gun_07",
+      "name": "gun_07_mask_turret_02_plate14s_14",
+      "screen": true,
+      "submesh": 37,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 17,
+      "material": "PZIVAUSFDArmor_gun_07_mask_turret_02_plate17s_17",
+      "mount": "gun_07",
+      "name": "gun_07_mask_turret_02_plate17s_17",
+      "screen": true,
+      "submesh": 38,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 35,
+      "material": "PZIVAUSFDArmor_gun_07_mask_turret_02_plate35s_35",
+      "mount": "gun_07",
+      "name": "gun_07_mask_turret_02_plate35s_35",
+      "screen": true,
+      "submesh": 39,
+      "triangles": 40,
+      "vertices": 120
+    }
+  ]
+}

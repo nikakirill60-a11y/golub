@@ -1,0 +1,232 @@
+# Source-backed material bindings; runtime recreates URP materials.
+
+newmtl M8A1Armor_module_tracks_20
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_armor_hull_plate0_0
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_armor_hull_plate10_10
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_armor_hull_plate13_13
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_armor_hull_plate25_25
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_armor_hull_plate29_29
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_armor_hull_plate44_44
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_armor_turret_01_plate0_0
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_armor_turret_01_plate13_13
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_armor_turret_01_plate25_25
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_armor_turret_01_plate38_38
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_01_mask_turret_01_plate13s_13
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_01_mask_turret_01_plate25s_25
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_01_mask_turret_01_plate38s_38
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_02_mask_turret_01_plate13s_13
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_02_mask_turret_01_plate25s_25
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_02_mask_turret_01_plate38s_38
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_03_mask_turret_01_plate13s_13
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_03_mask_turret_01_plate25s_25
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_03_mask_turret_01_plate38s_38
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_armor_turret_02_plate0_0
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_armor_turret_02_plate10_10
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_armor_turret_02_plate13_13
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_armor_turret_02_plate25_25
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_armor_turret_02_plate38_38
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_04_mask_turret_02_plate19s_19
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_04_mask_turret_02_plate38s_38
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_05_mask_turret_02_plate19s_19
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_05_mask_turret_02_plate38s_38
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_06_mask_turret_02_plate19s_19
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_06_mask_turret_02_plate38s_38
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_07_mask_turret_02_plate19s_19
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png
+
+newmtl M8A1Armor_gun_07_mask_turret_02_plate38s_38
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/M8A1.png

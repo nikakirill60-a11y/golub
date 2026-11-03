@@ -1,0 +1,21 @@
+<Project>
+  <!--
+    Shared by the SDK projects. The package code itself lives in the game
+    (Assets/Blitz/Core) and is compiled into the CLI from there, so the SDK and
+    the game can never disagree about what a valid package is. Those sources
+    stay C# 9 for Unity, and so does the SDK.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Deterministic>true</Deterministic>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <GameRoot>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..'))</GameRoot>
+    <GameCore>$(GameRoot)/Assets/Blitz/Core</GameCore>
+    <GameTests>$(GameRoot)/Assets/Blitz/Tests</GameTests>
+  </PropertyGroup>
+</Project>

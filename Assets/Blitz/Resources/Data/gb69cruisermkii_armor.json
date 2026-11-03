@@ -1,0 +1,265 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GB69CRUISERMKIIArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 544,
+      "vertices": 576
+    },
+    {
+      "armor": 0,
+      "material": "GB69CRUISERMKIIArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 12,
+      "material": "GB69CRUISERMKIIArmor_armor_hull_plate12_12",
+      "mount": "hull",
+      "name": "armor_hull_plate12_12",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 20,
+      "material": "GB69CRUISERMKIIArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 22,
+      "material": "GB69CRUISERMKIIArmor_armor_hull_plate22_22",
+      "mount": "hull",
+      "name": "armor_hull_plate22_22",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 133,
+      "vertices": 399
+    },
+    {
+      "armor": 24,
+      "material": "GB69CRUISERMKIIArmor_armor_hull_plate24s_24",
+      "mount": "hull",
+      "name": "armor_hull_plate24s_24",
+      "screen": true,
+      "submesh": 5,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 29,
+      "material": "GB69CRUISERMKIIArmor_armor_hull_plate29s_29",
+      "mount": "hull",
+      "name": "armor_hull_plate29s_29",
+      "screen": true,
+      "submesh": 6,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 30,
+      "material": "GB69CRUISERMKIIArmor_armor_hull_plate30_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30_30",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 13,
+      "vertices": 39
+    },
+    {
+      "armor": 7,
+      "material": "GB69CRUISERMKIIArmor_armor_hull_plate7_7",
+      "mount": "hull",
+      "name": "armor_hull_plate7_7",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 46,
+      "vertices": 138
+    },
+    {
+      "armor": 7,
+      "material": "GB69CRUISERMKIIArmor_armor_hull_plate7s_7",
+      "mount": "hull",
+      "name": "armor_hull_plate7s_7",
+      "screen": true,
+      "submesh": 9,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 0,
+      "material": "GB69CRUISERMKIIArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 7,
+      "vertices": 21
+    },
+    {
+      "armor": 20,
+      "material": "GB69CRUISERMKIIArmor_armor_turret_01_plate20_20",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate20_20",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 26,
+      "material": "GB69CRUISERMKIIArmor_armor_turret_01_plate26_26",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate26_26",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 30,
+      "material": "GB69CRUISERMKIIArmor_armor_turret_01_plate30_30",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate30_30",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 7,
+      "material": "GB69CRUISERMKIIArmor_armor_turret_01_plate7_7",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate7_7",
+      "screen": false,
+      "submesh": 14,
+      "triangles": 56,
+      "vertices": 168
+    },
+    {
+      "armor": 30,
+      "material": "GB69CRUISERMKIIArmor_gun_01_mask_turret_01_plate30s_30",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate30s_30",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 90,
+      "vertices": 270
+    },
+    {
+      "armor": 30,
+      "material": "GB69CRUISERMKIIArmor_gun_02_mask_turret_01_plate30s_30",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate30s_30",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 90,
+      "vertices": 270
+    },
+    {
+      "armor": 0,
+      "material": "GB69CRUISERMKIIArmor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 17,
+      "triangles": 7,
+      "vertices": 21
+    },
+    {
+      "armor": 20,
+      "material": "GB69CRUISERMKIIArmor_armor_turret_02_plate20_20",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate20_20",
+      "screen": false,
+      "submesh": 18,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 26,
+      "material": "GB69CRUISERMKIIArmor_armor_turret_02_plate26_26",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate26_26",
+      "screen": false,
+      "submesh": 19,
+      "triangles": 70,
+      "vertices": 210
+    },
+    {
+      "armor": 30,
+      "material": "GB69CRUISERMKIIArmor_armor_turret_02_plate30_30",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate30_30",
+      "screen": false,
+      "submesh": 20,
+      "triangles": 35,
+      "vertices": 105
+    },
+    {
+      "armor": 7,
+      "material": "GB69CRUISERMKIIArmor_armor_turret_02_plate7_7",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate7_7",
+      "screen": false,
+      "submesh": 21,
+      "triangles": 48,
+      "vertices": 144
+    },
+    {
+      "armor": 30,
+      "material": "GB69CRUISERMKIIArmor_gun_03_mask_turret_02_plate30s_30",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_02_plate30s_30",
+      "screen": true,
+      "submesh": 22,
+      "triangles": 50,
+      "vertices": 150
+    },
+    {
+      "armor": 30,
+      "material": "GB69CRUISERMKIIArmor_gun_04_mask_turret_02_plate30s_30",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate30s_30",
+      "screen": true,
+      "submesh": 23,
+      "triangles": 50,
+      "vertices": 150
+    },
+    {
+      "armor": 15,
+      "material": "GB69CRUISERMKIIArmor_gun_05_mask_turret_02_plate15s_15",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate15s_15",
+      "screen": true,
+      "submesh": 24,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 30,
+      "material": "GB69CRUISERMKIIArmor_gun_05_mask_turret_02_plate30s_30",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate30s_30",
+      "screen": true,
+      "submesh": 25,
+      "triangles": 70,
+      "vertices": 210
+    }
+  ]
+}

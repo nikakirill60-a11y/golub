@@ -1,0 +1,32 @@
+{
+    "name": "BlitzLegacy.Runtime",
+    "rootNamespace": "BlitzLegacy.Runtime",
+    "references": [
+        "BlitzLegacy.Core",
+        "Unity.InputSystem",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "UnityEngine.AIModule",
+        "UnityEngine.AndroidJNIModule",
+        "UnityEngine.ImageConversionModule",
+        "UnityEngine.ParticleSystemModule",
+        "UnityEngine.UI",
+        "UnityEngine.UnityWebRequestAudioModule",
+        "UnityEngine.UnityWebRequestModule"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "io.sentry.unity",
+            "expression": "4.10.3",
+            "define": "BLITZ_SENTRY"
+        }
+    ],
+    "noEngineReferences": false
+}

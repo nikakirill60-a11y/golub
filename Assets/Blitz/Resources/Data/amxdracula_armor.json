@@ -1,0 +1,185 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "AMXDRACULAArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 256,
+      "vertices": 304
+    },
+    {
+      "armor": 10,
+      "material": "AMXDRACULAArmor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 28,
+      "vertices": 84
+    },
+    {
+      "armor": 15,
+      "material": "AMXDRACULAArmor_armor_hull_plate15s_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15s_15",
+      "screen": true,
+      "submesh": 2,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 20,
+      "material": "AMXDRACULAArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 25,
+      "material": "AMXDRACULAArmor_armor_hull_plate25s_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25s_25",
+      "screen": true,
+      "submesh": 4,
+      "triangles": 26,
+      "vertices": 78
+    },
+    {
+      "armor": 30,
+      "material": "AMXDRACULAArmor_armor_hull_plate30_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30_30",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 44,
+      "vertices": 132
+    },
+    {
+      "armor": 5,
+      "material": "AMXDRACULAArmor_armor_hull_plate5s_5",
+      "mount": "hull",
+      "name": "armor_hull_plate5s_5",
+      "screen": true,
+      "submesh": 6,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 7,
+      "material": "AMXDRACULAArmor_armor_hull_plate7s_7",
+      "mount": "hull",
+      "name": "armor_hull_plate7s_7",
+      "screen": true,
+      "submesh": 7,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 0,
+      "material": "AMXDRACULAArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 10,
+      "material": "AMXDRACULAArmor_armor_turret_01_plate10_10",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate10_10",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 78,
+      "vertices": 234
+    },
+    {
+      "armor": 15,
+      "material": "AMXDRACULAArmor_armor_turret_01_plate15_15",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate15_15",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 15,
+      "material": "AMXDRACULAArmor_armor_turret_01_plate15s_15",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate15s_15",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 18,
+      "material": "AMXDRACULAArmor_armor_turret_01_plate18s_18",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate18s_18",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 20,
+      "material": "AMXDRACULAArmor_armor_turret_01_plate20_20",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate20_20",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 30,
+      "material": "AMXDRACULAArmor_armor_turret_01_plate30_30",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate30_30",
+      "screen": false,
+      "submesh": 14,
+      "triangles": 62,
+      "vertices": 186
+    },
+    {
+      "armor": 0,
+      "material": "AMXDRACULAArmor_gun_01_mask_turret_01_plate0s_0",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate0s_0",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 53,
+      "vertices": 159
+    },
+    {
+      "armor": 30,
+      "material": "AMXDRACULAArmor_gun_01_mask_turret_01_plate30s_30",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate30s_30",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 104,
+      "vertices": 312
+    },
+    {
+      "armor": 70,
+      "material": "AMXDRACULAArmor_gun_01_mask_turret_01_plate70s_70",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate70s_70",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 10,
+      "vertices": 30
+    }
+  ]
+}

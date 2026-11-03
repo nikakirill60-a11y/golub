@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Rempack.Cli/Rempack.Cli.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Rempack.Sdk.Tests/Rempack.Sdk.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,18 @@
+{
+  "version": "11.20",
+  "policy": "authored Parameters icon paths; exact alpha crop; no resampling",
+  "icons": [
+    {
+      "name": "j20_type_2605",
+      "source": "Gfx/UI/BigTankIcons/japan-J20_Type_2605@2x.packed.webp.dvpl",
+      "sha256": "e979b910b5908640bdbbc910f94e73cc1800d3b990884500b128c3af80a09ca9",
+      "crop": [
+        0,
+        0,
+        282,
+        201
+      ],
+      "output_sha256": "833436ac6f86a04e368c8cf38f71015ebfb1592540c28e876bcd491f5c5e57c1"
+    }
+  ]
+}

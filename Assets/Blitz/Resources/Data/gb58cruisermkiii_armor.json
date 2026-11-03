@@ -1,0 +1,235 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GB58CRUISERMKIIIArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 264,
+      "vertices": 292
+    },
+    {
+      "armor": 0,
+      "material": "GB58CRUISERMKIIIArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 10,
+      "material": "GB58CRUISERMKIIIArmor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 14,
+      "material": "GB58CRUISERMKIIIArmor_armor_hull_plate14_14",
+      "mount": "hull",
+      "name": "armor_hull_plate14_14",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 142,
+      "vertices": 426
+    },
+    {
+      "armor": 6,
+      "material": "GB58CRUISERMKIIIArmor_armor_hull_plate6_6",
+      "mount": "hull",
+      "name": "armor_hull_plate6_6",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 0,
+      "material": "GB58CRUISERMKIIIArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 10,
+      "material": "GB58CRUISERMKIIIArmor_armor_turret_01_plate10_10",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate10_10",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 14,
+      "material": "GB58CRUISERMKIIIArmor_armor_turret_01_plate14_14",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate14_14",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 134,
+      "vertices": 402
+    },
+    {
+      "armor": 6,
+      "material": "GB58CRUISERMKIIIArmor_armor_turret_01_plate6_6",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate6_6",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 14,
+      "material": "GB58CRUISERMKIIIArmor_gun_02_mask_turret_01_plate14s_14",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate14s_14",
+      "screen": true,
+      "submesh": 9,
+      "triangles": 52,
+      "vertices": 156
+    },
+    {
+      "armor": 14,
+      "material": "GB58CRUISERMKIIIArmor_gun_05_mask_turret_01_plate14s_14",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_01_plate14s_14",
+      "screen": true,
+      "submesh": 10,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 0,
+      "material": "GB58CRUISERMKIIIArmor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 10,
+      "material": "GB58CRUISERMKIIIArmor_armor_turret_02_plate10_10",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate10_10",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 11,
+      "material": "GB58CRUISERMKIIIArmor_armor_turret_02_plate11s_11",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate11s_11",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 12,
+      "material": "GB58CRUISERMKIIIArmor_armor_turret_02_plate12_12",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate12_12",
+      "screen": false,
+      "submesh": 14,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 14,
+      "material": "GB58CRUISERMKIIIArmor_armor_turret_02_plate14_14",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate14_14",
+      "screen": false,
+      "submesh": 15,
+      "triangles": 124,
+      "vertices": 372
+    },
+    {
+      "armor": 15,
+      "material": "GB58CRUISERMKIIIArmor_armor_turret_02_plate15s_15",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate15s_15",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 16,
+      "material": "GB58CRUISERMKIIIArmor_armor_turret_02_plate16s_16",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate16s_16",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 18,
+      "material": "GB58CRUISERMKIIIArmor_armor_turret_02_plate18s_18",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate18s_18",
+      "screen": true,
+      "submesh": 18,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 4,
+      "material": "GB58CRUISERMKIIIArmor_armor_turret_02_plate4s_4",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate4s_4",
+      "screen": true,
+      "submesh": 19,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 6,
+      "material": "GB58CRUISERMKIIIArmor_armor_turret_02_plate6_6",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate6_6",
+      "screen": false,
+      "submesh": 20,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 14,
+      "material": "GB58CRUISERMKIIIArmor_gun_02_mask_turret_02_plate14s_14",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_02_plate14s_14",
+      "screen": true,
+      "submesh": 21,
+      "triangles": 52,
+      "vertices": 156
+    },
+    {
+      "armor": 14,
+      "material": "GB58CRUISERMKIIIArmor_gun_05_mask_turret_02_plate14s_14",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate14s_14",
+      "screen": true,
+      "submesh": 22,
+      "triangles": 36,
+      "vertices": 108
+    }
+  ]
+}

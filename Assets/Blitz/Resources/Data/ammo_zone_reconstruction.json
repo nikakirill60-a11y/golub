@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "geometrySource": "Reconstructed part-relative stowage boxes; NOT original 4.8.0 hitboxes",
+  "evidence": "Client 4.8 SC2 and public Inspector blitz4.8 collision archives contain no ammoBay material. Inspector explicitly reports unavailable internal modules.",
+  "reference": "https://armor.wotinspector.com/en/blitz4.8/6929-maus/",
+  "policy": "Never treat the entire hull as an ammo rack. Fractions refer to installed collision-part bounds, and are replaceable independently of damage rules.",
+  "traceDepthCalibres": 10,
+  "traceDepthPolicy": "Finite internal trace reconstruction: maximum ten shell calibres after armour entry; not recovered from 4.8 server code.",
+  "profiles": {
+    "default": [
+      {"part":"hull","centre":[-0.34,-0.10,0.02],"size":[0.16,0.30,0.32]},
+      {"part":"hull","centre":[0.34,-0.10,0.02],"size":[0.16,0.30,0.32]},
+      {"part":"turret","centre":[0,-0.10,-0.30],"size":[0.48,0.32,0.22]}
+    ],
+    "casemate": [
+      {"part":"hull","centre":[-0.34,-0.02,0.16],"size":[0.16,0.30,0.34]},
+      {"part":"hull","centre":[0.34,-0.02,0.16],"size":[0.16,0.30,0.34]}
+    ],
+    "maus": [
+      {"part":"hull","centre":[-0.34,-0.05,-0.04],"size":[0.16,0.30,0.36]},
+      {"part":"hull","centre":[0.34,-0.05,-0.04],"size":[0.16,0.30,0.36]},
+      {"part":"turret","centre":[0,-0.08,-0.30],"size":[0.54,0.34,0.22]}
+    ]
+  }
+}

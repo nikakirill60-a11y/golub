@@ -1,0 +1,190 @@
+# Source-backed material bindings; runtime recreates URP materials.
+
+newmtl KV1SArmor_module_tracks_20
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_hull_plate0_0
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_hull_plate118_118
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_hull_plate32_32
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_hull_plate43_43
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_hull_plate54_54
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_hull_plate64_64
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_hull_plate81_81
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_turret_01_plate0_0
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_turret_01_plate28_28
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_turret_01_plate38_38
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_turret_01_plate47_47
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_turret_01_plate71_71
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_turret_01_plate77_77
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_gun_03_mask_turret_01_plate60s_60
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_gun_03_mask_turret_01_plate82s_82
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_turret_02_plate0_0
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_turret_02_plate28_28
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_turret_02_plate57_57
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_turret_02_plate85_85
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_armor_turret_02_plate95_95
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_gun_07_mask_turret_02_plate40s_40
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_gun_07_mask_turret_02_plate60s_60
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_gun_09_mask_turret_02_plate40s_40
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_gun_09_mask_turret_02_plate60s_60
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_gun_10_mask_turret_02_plate40s_40
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png
+
+newmtl KV1SArmor_gun_10_mask_turret_02_plate60s_60
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/KV1S.png

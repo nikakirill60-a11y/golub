@@ -1,0 +1,185 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "SEGAEDELWEISSArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 384,
+      "vertices": 424
+    },
+    {
+      "armor": 104,
+      "material": "SEGAEDELWEISSArmor_armor_hull_plate104_104",
+      "mount": "hull",
+      "name": "armor_hull_plate104_104",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 20,
+      "material": "SEGAEDELWEISSArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 84,
+      "vertices": 252
+    },
+    {
+      "armor": 25,
+      "material": "SEGAEDELWEISSArmor_armor_hull_plate25s_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25s_25",
+      "screen": true,
+      "submesh": 3,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 41,
+      "material": "SEGAEDELWEISSArmor_armor_hull_plate41_41",
+      "mount": "hull",
+      "name": "armor_hull_plate41_41",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 27,
+      "vertices": 81
+    },
+    {
+      "armor": 46,
+      "material": "SEGAEDELWEISSArmor_armor_hull_plate46s_46",
+      "mount": "hull",
+      "name": "armor_hull_plate46s_46",
+      "screen": true,
+      "submesh": 5,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 56,
+      "material": "SEGAEDELWEISSArmor_armor_hull_plate56s_56",
+      "mount": "hull",
+      "name": "armor_hull_plate56s_56",
+      "screen": true,
+      "submesh": 6,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 5,
+      "material": "SEGAEDELWEISSArmor_armor_hull_plate5s_5",
+      "mount": "hull",
+      "name": "armor_hull_plate5s_5",
+      "screen": true,
+      "submesh": 7,
+      "triangles": 46,
+      "vertices": 138
+    },
+    {
+      "armor": 62,
+      "material": "SEGAEDELWEISSArmor_armor_hull_plate62_62",
+      "mount": "hull",
+      "name": "armor_hull_plate62_62",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 8,
+      "material": "SEGAEDELWEISSArmor_armor_hull_plate8s_8",
+      "mount": "hull",
+      "name": "armor_hull_plate8s_8",
+      "screen": true,
+      "submesh": 9,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 93,
+      "material": "SEGAEDELWEISSArmor_armor_hull_plate93_93",
+      "mount": "hull",
+      "name": "armor_hull_plate93_93",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 15,
+      "vertices": 45
+    },
+    {
+      "armor": 108,
+      "material": "SEGAEDELWEISSArmor_armor_turret_01_plate108_108",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate108_108",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 21,
+      "material": "SEGAEDELWEISSArmor_armor_turret_01_plate21_21",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate21_21",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 77,
+      "vertices": 231
+    },
+    {
+      "armor": 43,
+      "material": "SEGAEDELWEISSArmor_armor_turret_01_plate43_43",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate43_43",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 108,
+      "vertices": 324
+    },
+    {
+      "armor": 64,
+      "material": "SEGAEDELWEISSArmor_armor_turret_01_plate64_64",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate64_64",
+      "screen": false,
+      "submesh": 14,
+      "triangles": 28,
+      "vertices": 84
+    },
+    {
+      "armor": 86,
+      "material": "SEGAEDELWEISSArmor_armor_turret_01_plate86_86",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate86_86",
+      "screen": false,
+      "submesh": 15,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 97,
+      "material": "SEGAEDELWEISSArmor_armor_turret_01_plate97_97",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate97_97",
+      "screen": false,
+      "submesh": 16,
+      "triangles": 101,
+      "vertices": 303
+    },
+    {
+      "armor": 100,
+      "material": "SEGAEDELWEISSArmor_gun_01_mask_turret_01_plate100s_100",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate100s_100",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 138,
+      "vertices": 414
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "INDIENPANZERArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 280,
+      "vertices": 328
+    },
+    {
+      "armor": 0,
+      "material": "INDIENPANZERArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 10,
+      "material": "INDIENPANZERArmor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 15,
+      "material": "INDIENPANZERArmor_armor_hull_plate15_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15_15",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 13,
+      "vertices": 39
+    },
+    {
+      "armor": 30,
+      "material": "INDIENPANZERArmor_armor_hull_plate30_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30_30",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 45,
+      "material": "INDIENPANZERArmor_armor_hull_plate45_45",
+      "mount": "hull",
+      "name": "armor_hull_plate45_45",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 60,
+      "material": "INDIENPANZERArmor_armor_hull_plate60_60",
+      "mount": "hull",
+      "name": "armor_hull_plate60_60",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 31,
+      "vertices": 93
+    },
+    {
+      "armor": 70,
+      "material": "INDIENPANZERArmor_armor_hull_plate70_70",
+      "mount": "hull",
+      "name": "armor_hull_plate70_70",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 90,
+      "material": "INDIENPANZERArmor_armor_hull_plate90_90",
+      "mount": "hull",
+      "name": "armor_hull_plate90_90",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 20,
+      "material": "INDIENPANZERArmor_armor_turret_02_plate20_20",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate20_20",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 21,
+      "vertices": 63
+    },
+    {
+      "armor": 35,
+      "material": "INDIENPANZERArmor_armor_turret_02_plate35_35",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate35_35",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 76,
+      "vertices": 228
+    },
+    {
+      "armor": 45,
+      "material": "INDIENPANZERArmor_armor_turret_02_plate45_45",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate45_45",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 65,
+      "vertices": 195
+    },
+    {
+      "armor": 60,
+      "material": "INDIENPANZERArmor_armor_turret_02_plate60_60",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate60_60",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 90,
+      "material": "INDIENPANZERArmor_armor_turret_02_plate90_90",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate90_90",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 132,
+      "vertices": 396
+    },
+    {
+      "armor": 0,
+      "material": "INDIENPANZERArmor_gun_01_mask_turret_02_plate0s_0",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_02_plate0s_0",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 100,
+      "material": "INDIENPANZERArmor_gun_01_mask_turret_02_plate100s_100",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_02_plate100s_100",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 130,
+      "material": "INDIENPANZERArmor_gun_01_mask_turret_02_plate130s_130",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_02_plate130s_130",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 55,
+      "material": "INDIENPANZERArmor_gun_01_mask_turret_02_plate55s_55",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_02_plate55s_55",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 0,
+      "material": "INDIENPANZERArmor_gun_02_mask_turret_02_plate0s_0",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_02_plate0s_0",
+      "screen": true,
+      "submesh": 18,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 100,
+      "material": "INDIENPANZERArmor_gun_02_mask_turret_02_plate100s_100",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_02_plate100s_100",
+      "screen": true,
+      "submesh": 19,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 130,
+      "material": "INDIENPANZERArmor_gun_02_mask_turret_02_plate130s_130",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_02_plate130s_130",
+      "screen": true,
+      "submesh": 20,
+      "triangles": 35,
+      "vertices": 105
+    },
+    {
+      "armor": 55,
+      "material": "INDIENPANZERArmor_gun_02_mask_turret_02_plate55s_55",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_02_plate55s_55",
+      "screen": true,
+      "submesh": 21,
+      "triangles": 29,
+      "vertices": 87
+    },
+    {
+      "armor": 0,
+      "material": "INDIENPANZERArmor_gun_04_mask_turret_02_plate0s_0",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate0s_0",
+      "screen": true,
+      "submesh": 22,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 100,
+      "material": "INDIENPANZERArmor_gun_04_mask_turret_02_plate100s_100",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate100s_100",
+      "screen": true,
+      "submesh": 23,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 130,
+      "material": "INDIENPANZERArmor_gun_04_mask_turret_02_plate130s_130",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate130s_130",
+      "screen": true,
+      "submesh": 24,
+      "triangles": 35,
+      "vertices": 105
+    },
+    {
+      "armor": 55,
+      "material": "INDIENPANZERArmor_gun_04_mask_turret_02_plate55s_55",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate55s_55",
+      "screen": true,
+      "submesh": 25,
+      "triangles": 29,
+      "vertices": 87
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.0,
+      0.18,
+      0.0
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GB44ARCHERCUSTOMArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 276,
+      "vertices": 436
+    },
+    {
+      "armor": 10,
+      "material": "GB44ARCHERCUSTOMArmor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 52,
+      "vertices": 156
+    },
+    {
+      "armor": 14,
+      "material": "GB44ARCHERCUSTOMArmor_armor_hull_plate14_14",
+      "mount": "hull",
+      "name": "armor_hull_plate14_14",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 20,
+      "material": "GB44ARCHERCUSTOMArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 104,
+      "vertices": 312
+    },
+    {
+      "armor": 0,
+      "material": "GB44ARCHERCUSTOMArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 10,
+      "material": "GB44ARCHERCUSTOMArmor_armor_turret_01_plate10_10",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate10_10",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 13,
+      "vertices": 39
+    },
+    {
+      "armor": 20,
+      "material": "GB44ARCHERCUSTOMArmor_armor_turret_01_plate20_20",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate20_20",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 36,
+      "vertices": 108
+    }
+  ]
+}

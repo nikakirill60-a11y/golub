@@ -1,0 +1,265 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "T95Armor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 656,
+      "vertices": 704
+    },
+    {
+      "armor": 0,
+      "material": "T95Armor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 115,
+      "material": "T95Armor_armor_hull_plate115s_115",
+      "mount": "hull",
+      "name": "armor_hull_plate115s_115",
+      "screen": true,
+      "submesh": 2,
+      "triangles": 7,
+      "vertices": 21
+    },
+    {
+      "armor": 130,
+      "material": "T95Armor_armor_hull_plate130_130",
+      "mount": "hull",
+      "name": "armor_hull_plate130_130",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 133,
+      "material": "T95Armor_armor_hull_plate133_133",
+      "mount": "hull",
+      "name": "armor_hull_plate133_133",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 152,
+      "vertices": 456
+    },
+    {
+      "armor": 197,
+      "material": "T95Armor_armor_hull_plate197s_197",
+      "mount": "hull",
+      "name": "armor_hull_plate197s_197",
+      "screen": true,
+      "submesh": 5,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 25,
+      "material": "T95Armor_armor_hull_plate25_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25_25",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 25,
+      "material": "T95Armor_armor_hull_plate25s_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25s_25",
+      "screen": true,
+      "submesh": 7,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 305,
+      "material": "T95Armor_armor_hull_plate305_305",
+      "mount": "hull",
+      "name": "armor_hull_plate305_305",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 73,
+      "vertices": 219
+    },
+    {
+      "armor": 30,
+      "material": "T95Armor_armor_hull_plate30_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30_30",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 38,
+      "material": "T95Armor_armor_hull_plate38_38",
+      "mount": "hull",
+      "name": "armor_hull_plate38_38",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 69,
+      "vertices": 207
+    },
+    {
+      "armor": 38,
+      "material": "T95Armor_armor_hull_plate38s_38",
+      "mount": "hull",
+      "name": "armor_hull_plate38s_38",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 51,
+      "material": "T95Armor_armor_hull_plate51_51",
+      "mount": "hull",
+      "name": "armor_hull_plate51_51",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 65,
+      "vertices": 195
+    },
+    {
+      "armor": 51,
+      "material": "T95Armor_armor_hull_plate51s_51",
+      "mount": "hull",
+      "name": "armor_hull_plate51s_51",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 15,
+      "vertices": 45
+    },
+    {
+      "armor": 64,
+      "material": "T95Armor_armor_hull_plate64_64",
+      "mount": "hull",
+      "name": "armor_hull_plate64_64",
+      "screen": false,
+      "submesh": 14,
+      "triangles": 7,
+      "vertices": 21
+    },
+    {
+      "armor": 82,
+      "material": "T95Armor_armor_hull_plate82s_82",
+      "mount": "hull",
+      "name": "armor_hull_plate82s_82",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 5,
+      "vertices": 15
+    },
+    {
+      "armor": 89,
+      "material": "T95Armor_armor_hull_plate89s_89",
+      "mount": "hull",
+      "name": "armor_hull_plate89s_89",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 0,
+      "material": "T95Armor_gun_01_mask_turret_01_plate0s_0",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate0s_0",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 26,
+      "vertices": 78
+    },
+    {
+      "armor": 146,
+      "material": "T95Armor_gun_01_mask_turret_01_plate146s_146",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate146s_146",
+      "screen": true,
+      "submesh": 18,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 292,
+      "material": "T95Armor_gun_01_mask_turret_01_plate292s_292",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate292s_292",
+      "screen": true,
+      "submesh": 19,
+      "triangles": 48,
+      "vertices": 144
+    },
+    {
+      "armor": 0,
+      "material": "T95Armor_gun_02_mask_turret_01_plate0s_0",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate0s_0",
+      "screen": true,
+      "submesh": 20,
+      "triangles": 27,
+      "vertices": 81
+    },
+    {
+      "armor": 146,
+      "material": "T95Armor_gun_02_mask_turret_01_plate146s_146",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate146s_146",
+      "screen": true,
+      "submesh": 21,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 292,
+      "material": "T95Armor_gun_02_mask_turret_01_plate292s_292",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate292s_292",
+      "screen": true,
+      "submesh": 22,
+      "triangles": 47,
+      "vertices": 141
+    },
+    {
+      "armor": 0,
+      "material": "T95Armor_gun_03_mask_turret_01_plate0s_0",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate0s_0",
+      "screen": true,
+      "submesh": 23,
+      "triangles": 26,
+      "vertices": 78
+    },
+    {
+      "armor": 146,
+      "material": "T95Armor_gun_03_mask_turret_01_plate146s_146",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate146s_146",
+      "screen": true,
+      "submesh": 24,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 292,
+      "material": "T95Armor_gun_03_mask_turret_01_plate292s_292",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate292s_292",
+      "screen": true,
+      "submesh": 25,
+      "triangles": 48,
+      "vertices": 144
+    }
+  ]
+}

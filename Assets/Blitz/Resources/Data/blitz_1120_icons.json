@@ -1,0 +1,171 @@
+{
+  "version": "11.20",
+  "policy": "source pixels, alpha-bounds crop, no resampling",
+  "icons": [
+    {
+      "name": "f01_vickers_mkf",
+      "source": "Gfx/UI/BigTankIcons/european-F01_Vickers_MkF@2x.packed.webp.dvpl",
+      "sha256": "0a4716b725a7cacd186fe0334c301ef3b3bb9bfd294cd1205582dfaa413927ce",
+      "crop": [
+        0,
+        0,
+        211,
+        179
+      ]
+    },
+    {
+      "name": "pl06_10tp",
+      "source": "Gfx/UI/BigTankIcons/european-Pl06_10TP@2x.packed.webp.dvpl",
+      "sha256": "bc681380ba4f2718828f7b56f36827948c4a546fb8d6b67ee2c9bcd39a48f567",
+      "crop": [
+        0,
+        0,
+        232,
+        191
+      ]
+    },
+    {
+      "name": "pl07_14tp",
+      "source": "Gfx/UI/BigTankIcons/european-Pl07_14TP@2x.packed.webp.dvpl",
+      "sha256": "6fe097ad8808c53eacb5b9077321192e9eac51ec2bbb965d94434a1d31c1968f",
+      "crop": [
+        0,
+        0,
+        240,
+        198
+      ]
+    },
+    {
+      "name": "s04_lago-i",
+      "source": "Gfx/UI/BigTankIcons/european-S04_Lago_I@2x.packed.webp.dvpl",
+      "sha256": "ba53510cac90bc30fea83e82313d07598475b891e76cb8c98accde93317cc4fa",
+      "crop": [
+        0,
+        0,
+        220,
+        189
+      ]
+    },
+    {
+      "name": "s02_strvm42",
+      "source": "Gfx/UI/BigTankIcons/european-S02_StrvM42@2x.packed.webp.dvpl",
+      "sha256": "cae48d7d2acdc3ff3e8e5494cc5368c3a9af48c72caedfed94fb3f8a30b95fab",
+      "crop": [
+        0,
+        0,
+        237,
+        201
+      ]
+    },
+    {
+      "name": "s07_strv_74",
+      "source": "Gfx/UI/BigTankIcons/european-S07_Strv_74@2x.packed.webp.dvpl",
+      "sha256": "fff44de2b87bf091e19fe1143ccafc93a977f4948771b1941559bc46df746dfc",
+      "crop": [
+        0,
+        0,
+        255,
+        201
+      ]
+    },
+    {
+      "name": "s13_leo",
+      "source": "Gfx/UI/BigTankIcons/european-S13_Leo@2x.packed.webp.dvpl",
+      "sha256": "53251c3a8a62c0bbf5cded517c32ca26686d896b23c173508b45439886151211",
+      "crop": [
+        0,
+        0,
+        245,
+        201
+      ]
+    },
+    {
+      "name": "s18_emil_1951e1",
+      "source": "Gfx/UI/BigTankIcons/european-S18_EMIL_1951E1@2x.packed.webp.dvpl",
+      "sha256": "7250963cbb370840ea9817651a5a2ec0f267d0d9868e2a5587cb3eb595c31eb2",
+      "crop": [
+        0,
+        0,
+        275,
+        201
+      ]
+    },
+    {
+      "name": "s17_emil_1952e2",
+      "source": "Gfx/UI/BigTankIcons/european-S17_EMIL_1952E2@2x.packed.webp.dvpl",
+      "sha256": "b6f5929f65b6bb4e6f8ee9799c4dfc79f5ae85177634901021a9cc7f0e3af8b7",
+      "crop": [
+        0,
+        0,
+        281,
+        201
+      ]
+    },
+    {
+      "name": "s16_kranvagn",
+      "source": "Gfx/UI/BigTankIcons/european-S16_Kranvagn@2x.packed.webp.dvpl",
+      "sha256": "eda9fed55784987610b117206274928ad73ff8bb2d99965c9e327357cd084454",
+      "crop": [
+        0,
+        0,
+        288,
+        201
+      ]
+    },
+    {
+      "name": "f126_amx_13_m24",
+      "source": "Gfx/UI/BigTankIcons/france-F126_AMX_13_M24@2x.packed.webp.dvpl",
+      "sha256": "eb6ae17c6f19133d338a87b77a9bdbab129468a19405c5d70e2d402b0da44b6d",
+      "crop": [
+        0,
+        0,
+        243,
+        201
+      ]
+    },
+    {
+      "name": "f123_erac_105_proto",
+      "source": "Gfx/UI/BigTankIcons/france-F123_ERAC_105_Proto@2x.packed.webp.dvpl",
+      "sha256": "ac5eef45717e20aff5887d5740c903d681f55dcf3c298247ff68b0f229b3571d",
+      "crop": [
+        0,
+        0,
+        204,
+        200
+      ]
+    },
+    {
+      "name": "f120_project_louis",
+      "source": "Gfx/UI/BigTankIcons/france-F120_Project_Louis@2x.packed.webp.dvpl",
+      "sha256": "e9283adb12a9b11f07c93d9193aaa4bb27ed67c49a854f3f9be112a96ba4f7cf",
+      "crop": [
+        0,
+        0,
+        230,
+        201
+      ]
+    },
+    {
+      "name": "f119_projet_murat",
+      "source": "Gfx/UI/BigTankIcons/france-F119_Projet_Murat@2x.packed.webp.dvpl",
+      "sha256": "ee757b0ebd1a3c4f3450743c24d83253626f497301d5a0534c1f5e406652808b",
+      "crop": [
+        0,
+        0,
+        284,
+        201
+      ]
+    },
+    {
+      "name": "ch57_bzt_70",
+      "source": "Gfx/UI/BigTankIcons/china-Ch57_BZT_70@2x.packed.webp.dvpl",
+      "sha256": "14ebf58422515f8b75d4cd5092965adcb7fa5bce12a5642670dd468b287b0e78",
+      "crop": [
+        0,
+        0,
+        298,
+        201
+      ]
+    }
+  ]
+}

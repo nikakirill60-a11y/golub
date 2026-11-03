@@ -1,0 +1,43 @@
+Header:
+    version: 138
+StyleSheets:
+-   selectors:
+    - ".color-red_boss"
+    properties:
+        bg-color: [1.000000, 0.000000, 0.000000, 1.000000]
+-   selectors:
+    - ".color-blue_graviton"
+    properties:
+        bg-color: [0.156863, 0.568627, 0.772549, 1.000000]
+-   selectors:
+    - ".color-green_healer"
+    properties:
+        bg-color: [0.239216, 0.600000, 0.058824, 1.000000]
+-   selectors:
+    - ".color-orange_kamikaze"
+    properties:
+        bg-color: [1.000000, 0.615686, 0.000000, 1.000000]
+-   selectors:
+    - ".color-purple_killer"
+    properties:
+        bg-color: [0.600000, 0.541176, 0.901961, 1.000000]
+-   selectors:
+    - ".icon-link_boss"
+    properties:
+        bg-sprite: "~res:/Gfx/Shared/HUD/bossmode/icon_role-boss_s"
+-   selectors:
+    - ".icon-link_graviton"
+    properties:
+        bg-sprite: "~res:/Gfx/Shared/HUD/bossmode/icon_role-graviton_s"
+-   selectors:
+    - ".icon-link_healer"
+    properties:
+        bg-sprite: "~res:/Gfx/Shared/HUD/bossmode/icon_role-healer_s"
+-   selectors:
+    - ".icon-link_kamikaze"
+    properties:
+        bg-sprite: "~res:/Gfx/Shared/HUD/bossmode/icon_role-kamikaze_s"
+-   selectors:
+    - ".icon-link_killer"
+    properties:
+        bg-sprite: "~res:/Gfx/Shared/HUD/bossmode/icon_role-killer_s"

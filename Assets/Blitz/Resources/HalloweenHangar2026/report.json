@@ -1,0 +1,288 @@
+{
+ "counts": {
+  "nodes": 2352,
+  "renderers": 420,
+  "meshes": 234,
+  "vertices": 223371,
+  "triangles": 150739,
+  "materials": 479,
+  "textures": 358,
+  "lights": 43,
+  "clips": 18,
+  "animations": 38,
+  "states": 5,
+  "sounds": 17,
+  "effects": 16,
+  "emitters": 50,
+  "layers": 108,
+  "particleMeshes": 8,
+  "sprites": 26
+ },
+ "maxWorldError": 0.08665271347003368,
+ "maxBindError": 8.743436268332516e-06,
+ "rebrand": [
+  {
+   "name": "sign",
+   "path": "/prop_icon_metal.sc2",
+   "renderer": 419,
+   "mesh": 225,
+   "textures": [
+    354,
+    355,
+    356,
+    357
+   ],
+   "client": "WoT Blitz shield-and-bolt emblem",
+   "port": "Roman numeral VI",
+   "vertices": [
+    48,
+    243
+   ],
+   "triangles": [
+    50,
+    131
+   ],
+   "view": {
+    "position": [
+     0.2387,
+     4.4719,
+     -11.0526
+    ],
+    "forward": [
+     -0.0,
+     0.13216,
+     -0.99123
+    ],
+    "fov": 40.0
+   }
+  },
+  {
+   "name": "screen",
+   "path": "/env_hg_board.sc2",
+   "renderer": 52,
+   "mesh": 46,
+   "textures": [
+    72
+   ],
+   "client": "WORLD of TANKS BLITZ logo on the billboard screen",
+   "port": "Tools/HalloweenHangarArt/screen.jpg",
+   "view": {
+    "position": [
+     -3.8992,
+     2.953,
+     -8.1802
+    ],
+    "forward": [
+     -0.90631,
+     0.0,
+     -0.42262
+    ],
+    "fov": 50.0
+   }
+  }
+ ],
+ "notes": {
+  "skinned binormal off cross(normal, tangent) x1000": 1353,
+  "shared meshes": 194,
+  "batches of farther LODs / switch states": 30,
+  "socket pose error x1000": 250,
+  "pruned nodes": 61
+ },
+ "skipped": [
+  "/babiny_anim.sc2/radio_base/Klick",
+  "/Sound/Sound_counters",
+  "/glory_corner",
+  "/parking_place"
+ ],
+ "warnings": [
+  "/halloweenanimationspawner.sc2/halloweenanimationspawner.sc2/mechanicevents/scene2/mechanic.sc2/Socket_node-Prop_R/knife.sc2: composed world differs from the stored one by 0.087"
+ ],
+ "stats": {
+  "visibility": {
+   "0": 563,
+   "2": 83
+  },
+  "ro.flags": {
+   "0": 1,
+   "1": 158,
+   "1025": 1,
+   "8192": 61,
+   "8193": 199
+  },
+  "samplers": {
+   "2103616": 2160
+  },
+  "defines": {
+   "PBR:ALPHABLEND=1": 4,
+   "PBR:ALPHATEST=1": 24,
+   "PBR:ALPHATESTVALUE=1": 24,
+   "PBR:EMISSIVE_COLOR=1": 81,
+   "PBR:FLATALBEDO=1": 45,
+   "PBR:FLATCOLOR=1": 3,
+   "PBR:HARD_SKINNING=1": 17,
+   "PBR:MATERIAL_LIGHTMAP=1": 362,
+   "PBR:MATERIAL_TEXTURE=1": 435,
+   "PBR:PBR_LIGHTMAP=1": 376,
+   "PBR:PBR_SHADING=1": 435,
+   "PBR:PBR_TEXTURE_SET=1": 435,
+   "PBR:SHADOW_RECEIVER=1": 435,
+   "PBR:SOFT_SKINNING=2": 2,
+   "PBR:SOFT_SKINNING=3": 5,
+   "PBR:SOFT_SKINNING=4": 15,
+   "Sky:FLATCOLOR=1": 1,
+   "Sky:FLOWMAP=1": 1,
+   "Sky:MATERIAL_TEXTURE=1": 1,
+   "Textured:ALPHABLEND=1": 10,
+   "Textured:ALPHATEST=1": 1,
+   "Textured:BLENDING=2": 1,
+   "Textured:EMISSIVE_COLOR=1": 1,
+   "Textured:FLATCOLOR=1": 6,
+   "Textured:MATERIAL_LIGHTMAP=1": 4,
+   "Textured:MATERIAL_TEXTURE=1": 43,
+   "Textured:PBR_LIGHTMAP=1": 4,
+   "Textured:SHADOW_RECEIVER=1": 14,
+   "Textured:SOFT_SKINNING=4": 10
+  },
+  "material kinds": {
+   "PBR PBR.material  layer=OpaqueRenderLayer": 407,
+   "PBR PBR.material AlphaBlend layer=TransclucentRenderLayer": 4,
+   "PBR PBR.material AlphaTest layer=AlphaTestRenderLayer": 24,
+   "Sky Skyobject.material FlowMap layer=AfterOpaqueRenderLayer": 1,
+   "Textured TextureLightmap.material  layer=OpaqueRenderLayer": 3,
+   "Textured Textured.material  layer=OpaqueRenderLayer": 30,
+   "Textured Textured.material AlphaBlend layer=TransclucentRenderLayer": 9,
+   "Textured Textured.material AlphaTest+Additive layer=TransclucentRenderLayer": 1
+  },
+  "vertex formats": {
+   "395": 2,
+   "399": 1,
+   "411": 413,
+   "415": 4,
+   "443": 8,
+   "49563": 42,
+   "49567": 30,
+   "507": 2,
+   "923": 17
+  },
+  "texture slots unused by shader": {
+   "PBR:albedo": 435,
+   "PBR:lightmap": 362,
+   "PBR:normalmap": 54,
+   "Textured:baseColorMap": 3,
+   "Textured:baseNormalMap": 3,
+   "Textured:baseRMMap": 3,
+   "Textured:miscMap": 3,
+   "Textured:pbrLightmap": 2
+  },
+  "skinning modes": {
+   "hard": 17,
+   "soft2": 2,
+   "soft3": 5,
+   "soft4": 65
+  },
+  "soft skinning weight sums": {
+   "n=2 S=1.0": 2488,
+   "n=3 S=0.5": 40,
+   "n=3 S=0.6": 8,
+   "n=3 S=1.0": 96,
+   "n=4 S=0.5": 233,
+   "n=4 S=0.6": 9,
+   "n=4 S=0.7": 18,
+   "n=4 S=0.8": 13,
+   "n=4 S=0.9": 6,
+   "n=4 S=1.0": 10439
+  },
+  "clip channel interpolation": {
+   "rotation:1": 577,
+   "scale:0": 50,
+   "translation:0": 164
+  },
+  "presets without effect": {
+   "PBR.material:Additive": 1
+  },
+  "particle layers": {
+   "mesh blending=1 orientation=2": 4,
+   "mesh blending=1 orientation=4": 4,
+   "mesh blending=3 orientation=2": 5,
+   "mesh blending=3 orientation=4": 26,
+   "mesh blending=3 orientation=8": 40,
+   "particles blending=1 orientation=1": 2,
+   "particles blending=1 orientation=8": 4,
+   "particles blending=2 orientation=0": 1,
+   "particles blending=3 orientation=1": 5,
+   "particles blending=3 orientation=2": 6,
+   "particles blending=3 orientation=8": 6,
+   "particles blending=8 orientation=4": 3,
+   "particles blending=8 orientation=6": 1,
+   "particles blending=8 orientation=8": 1
+  },
+  "particle effects": {
+   "autoplay=True": 16
+  },
+  "packed particle colours": {
+   "colorOverLife": 12,
+   "colorRandom": 5
+  },
+  "point light candidates": {
+   "0": 38,
+   "1": 121,
+   "10": 2,
+   "11": 1,
+   "12": 1,
+   "13": 1,
+   "14": 1,
+   "16": 1,
+   "17": 1,
+   "18": 1,
+   "2": 111,
+   "26": 1,
+   "3": 55,
+   "32": 2,
+   "34": 1,
+   "36": 1,
+   "4": 41,
+   "40": 2,
+   "41": 1,
+   "42": 2,
+   "5": 15,
+   "6": 6,
+   "7": 7,
+   "8": 2,
+   "9": 5
+  },
+  "shadow casting": {
+   "0": 156,
+   "1": 260,
+   "3": 4
+  },
+  "texture formats": {
+   "ASTC 10x10 srgb=False": 9,
+   "ASTC 10x10 srgb=True": 3,
+   "ASTC 10x5 srgb=False": 13,
+   "ASTC 10x5 srgb=True": 6,
+   "ASTC 10x6 srgb=False": 9,
+   "ASTC 10x6 srgb=True": 7,
+   "ASTC 10x8 srgb=False": 20,
+   "ASTC 10x8 srgb=True": 6,
+   "ASTC 12x10 srgb=False": 26,
+   "ASTC 12x10 srgb=True": 9,
+   "ASTC 12x12 srgb=False": 103,
+   "ASTC 12x12 srgb=True": 29,
+   "ASTC 4x4 srgb=False": 5,
+   "ASTC 4x4 srgb=True": 2,
+   "ASTC 5x4 srgb=False": 6,
+   "ASTC 5x5 srgb=False": 15,
+   "ASTC 5x5 srgb=True": 3,
+   "ASTC 6x5 srgb=False": 9,
+   "ASTC 6x5 srgb=True": 3,
+   "ASTC 6x6 srgb=False": 21,
+   "ASTC 6x6 srgb=True": 6,
+   "ASTC 8x5 srgb=False": 10,
+   "ASTC 8x5 srgb=True": 5,
+   "ASTC 8x6 srgb=False": 13,
+   "ASTC 8x6 srgb=True": 4,
+   "ASTC 8x8 srgb=False": 10,
+   "ASTC 8x8 srgb=True": 6
+  }
+ }
+}

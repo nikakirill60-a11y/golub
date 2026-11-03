@@ -1,0 +1,59 @@
+{
+  "regions": 55,
+  "sources": [
+    {
+      "path": "Gfx2/UI/DamagedModules/texture0.mali.webp",
+      "sha256": "7ee1bd07a866ffa3a11fdb07543b54f72a689cecd70fc3ce0d50da878b8838a0"
+    },
+    {
+      "path": "Gfx2/UI/DamagedModules/DamagedModulesDamageTankIcon.txt",
+      "sha256": "fea933eb9cd0ca7259c758d65b3061e75dfe274a0d5a30b87a92c1409153590c"
+    },
+    {
+      "path": "Gfx2/UI/DamagedModules/DamagedModulesDamageCrew.txt",
+      "sha256": "7d2cb69a68dd675d2bd38945dae674b0fdb49d4455a4e030050676899ff9a21f"
+    },
+    {
+      "path": "Gfx2/UI/BattleScreenHUD/texture0.mali.webp",
+      "sha256": "e06f2e0cd7017ed8e6c5f312f48c36c56d6b1a125697488f74bf2c0e495a0298"
+    },
+    {
+      "path": "Gfx2/UI/BattleScreenHUD/ModuleDamaged.txt",
+      "sha256": "b47094f20944cf0d5882b4a34432007c1d5ff023b7bc6fe9d6d9954c45190648"
+    },
+    {
+      "path": "Gfx2/UI/BattleScreenHUD/DamagedModulesDamageTankBg.txt",
+      "sha256": "f6c51e5adda87c92867fd97a34101603f833b156857d3856ff94878fff31609a"
+    },
+    {
+      "path": "Gfx2/UI/BattleScreenHUD/DamagedModulesDamageCrewBg.txt",
+      "sha256": "4e726179b4ce9a4ecd4d1399a8b235637534c180222caea579e8c5b0cdd1a8b3"
+    },
+    {
+      "path": "Gfx2/UI/BattleScreenHUD/DamagedModulesdmFire.txt",
+      "sha256": "3d180cf3a91983aaccaeefc97006134a841e667b0e73b6c9eb32b3c5e6135294"
+    },
+    {
+      "path": "Gfx2/UI/BattleScreenHUD/DamagedModulesExtinguisher.txt",
+      "sha256": "7cd4f6e3d89ee055ec645b232b1f01f5a65e8339e0e3470c33a27dbedbec1757"
+    },
+    {
+      "path": "Gfx2/UI/BattleScreenHUD/WaterIndicator.txt",
+      "sha256": "905183e1809ecef78a727fdcee3431192b03063811890eb6ee1ffed285c388b9"
+    },
+    {
+      "path": "from_apk/Data/Strings/en.yaml",
+      "sha256": "912cc9e8960dab29709a6224be917d0fa10b29dc0b639dbfde84e5182b64f0a8"
+    },
+    {
+      "path": "from_apk/Data/Strings/ru.yaml",
+      "sha256": "a4a26e86b276117e867a186d4f2b94f67013f2319d04933c1c94bf1e6a830195"
+    }
+  ],
+  "strings": 39,
+  "texture": {
+    "height": 1024,
+    "name": "damaged_modules",
+    "width": 1024
+  }
+}

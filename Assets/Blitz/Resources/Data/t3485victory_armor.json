@@ -1,0 +1,145 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "T3485VICTORYArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 360,
+      "vertices": 400
+    },
+    {
+      "armor": 0,
+      "material": "T3485VICTORYArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 20,
+      "material": "T3485VICTORYArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 28,
+      "vertices": 84
+    },
+    {
+      "armor": 40,
+      "material": "T3485VICTORYArmor_armor_hull_plate40_40",
+      "mount": "hull",
+      "name": "armor_hull_plate40_40",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 96,
+      "vertices": 288
+    },
+    {
+      "armor": 45,
+      "material": "T3485VICTORYArmor_armor_hull_plate45_45",
+      "mount": "hull",
+      "name": "armor_hull_plate45_45",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 112,
+      "vertices": 336
+    },
+    {
+      "armor": 90,
+      "material": "T3485VICTORYArmor_armor_hull_plate90_90",
+      "mount": "hull",
+      "name": "armor_hull_plate90_90",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 0,
+      "material": "T3485VICTORYArmor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 19,
+      "material": "T3485VICTORYArmor_armor_turret_02_plate19_19",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate19_19",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 91,
+      "vertices": 273
+    },
+    {
+      "armor": 49,
+      "material": "T3485VICTORYArmor_armor_turret_02_plate49_49",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate49_49",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 57,
+      "material": "T3485VICTORYArmor_armor_turret_02_plate57_57",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate57_57",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 71,
+      "material": "T3485VICTORYArmor_armor_turret_02_plate71_71",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate71_71",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 117,
+      "vertices": 351
+    },
+    {
+      "armor": 85,
+      "material": "T3485VICTORYArmor_armor_turret_02_plate85_85",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate85_85",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 84,
+      "vertices": 252
+    },
+    {
+      "armor": 45,
+      "material": "T3485VICTORYArmor_gun_07_mask_turret_02_plate45s_45",
+      "mount": "gun_07",
+      "name": "gun_07_mask_turret_02_plate45s_45",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 90,
+      "material": "T3485VICTORYArmor_gun_07_mask_turret_02_plate90s_90",
+      "mount": "gun_07",
+      "name": "gun_07_mask_turret_02_plate90s_90",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 98,
+      "vertices": 294
+    }
+  ]
+}

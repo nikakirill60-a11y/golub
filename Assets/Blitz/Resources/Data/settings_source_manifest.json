@@ -1,0 +1,2553 @@
+{
+	"atlas": {
+		"added": {
+			"settings_back_icon": {
+				"h": 62,
+				"texture": "lobbyCommon_Out",
+				"w": 66,
+				"x": 1520,
+				"y": 980
+			},
+			"settings_checkbox_checked": {
+				"h": 16,
+				"texture": "ui_checkbox_checked",
+				"w": 16,
+				"x": 0,
+				"y": 0
+			},
+			"settings_checkbox_unchecked": {
+				"h": 16,
+				"texture": "ui_checkbox_unchecked",
+				"w": 16,
+				"x": 0,
+				"y": 0
+			},
+			"settings_row_bg": {
+				"border": [
+					7,
+					7,
+					7,
+					7
+				],
+				"h": 39,
+				"texture": "flow_battle_result",
+				"w": 40,
+				"x": 444,
+				"y": 295
+			}
+		},
+		"destination": "atlas_regions.json",
+		"regions": 277,
+		"textures": 32
+	},
+	"dump": {
+		"note": "Anchors, offsets and scale are resolution independent, so the headless window size does not leak into the port.",
+		"script": "godot_settings_dump.gd",
+		"uiSize": [
+			1386.6666259765625,
+			1386.6666259765625
+		]
+	},
+	"generator": "port_godot_settings.py",
+	"localization": {
+		"added": {
+			"0%": {
+				"en": "0%",
+				"ru": "0%"
+			},
+			"10x10": {
+				"en": "10x10",
+				"ru": "10x10"
+			},
+			"120": {
+				"en": "120",
+				"ru": "120"
+			},
+			"15": {
+				"en": "15",
+				"ru": "15"
+			},
+			"15%": {
+				"en": "15%",
+				"ru": "15%"
+			},
+			"1x1": {
+				"en": "1x1",
+				"ru": "1x1"
+			},
+			"25%": {
+				"en": "25%",
+				"ru": "25%"
+			},
+			"2x2": {
+				"en": "2x2",
+				"ru": "2x2"
+			},
+			"30": {
+				"en": "30",
+				"ru": "30"
+			},
+			"5": {
+				"en": "5",
+				"ru": "5"
+			},
+			"5%": {
+				"en": "5%",
+				"ru": "5%"
+			},
+			"5x5": {
+				"en": "5x5",
+				"ru": "5x5"
+			},
+			"60": {
+				"en": "60",
+				"ru": "60"
+			},
+			"7": {
+				"en": "7",
+				"ru": "7"
+			},
+			"7x7": {
+				"en": "7x7",
+				"ru": "7x7"
+			},
+			"90": {
+				"en": "90",
+				"ru": "90"
+			},
+			"AUTO AIM CAMERA STICK": {
+				"en": "AUTO AIM CAMERA STICK",
+				"ru": "КАМЕРА СЛЕДИТ ЗА ЦЕЛЬЮ"
+			},
+			"AUTO AIM COVER GRACE": {
+				"en": "AUTO AIM COVER GRACE",
+				"ru": "СБРОС ЗА УКРЫТИЕМ"
+			},
+			"AUTO AIM LEAD": {
+				"en": "AUTO AIM LEAD",
+				"ru": "ОПЕРЕЖЕНИЕ ЦЕЛИ"
+			},
+			"AUTO AIM RECAPTURE DELAY": {
+				"en": "AUTO AIM RECAPTURE DELAY",
+				"ru": "ПАУЗА ПОСЛЕ СБРОСА"
+			},
+			"AUTO AIM RELEASE ANGLE": {
+				"en": "AUTO AIM RELEASE ANGLE",
+				"ru": "УГОЛ СБРОСА ЗАХВАТА"
+			},
+			"AUTO AIM SENS MUL": {
+				"en": "AUTO AIM SENS MUL",
+				"ru": "СЕНСА НА ЗАХВАЧЕННОЙ ЦЕЛИ"
+			},
+			"AUTO AIM SNIPER STRENGTH": {
+				"en": "AUTO AIM SNIPER STRENGTH",
+				"ru": "СИЛА СЛЕЖЕНИЯ В СНАЙПЕРЕ"
+			},
+			"AUTO AIM STICK STRENGTH": {
+				"en": "AUTO AIM STICK STRENGTH",
+				"ru": "СИЛА СЛЕЖЕНИЯ КАМЕРЫ"
+			},
+			"AUTO CAPTURE TARGET": {
+				"en": "AUTO CAPTURE TARGET",
+				"ru": "АВТОЗАХВАТ ЦЕЛИ"
+			},
+			"BATTLE UI SCALE": {
+				"en": "BATTLE UI SCALE",
+				"ru": "МАСШТАБ ИНТЕРФЕЙСА В БОЮ"
+			},
+			"BOTS HOLD POSITION": {
+				"en": "BOTS HOLD POSITION",
+				"ru": "БОТЫ СТОЯТ НА МЕСТЕ"
+			},
+			"CAMERA HEIGHT": {
+				"en": "CAMERA HEIGHT",
+				"ru": "ВЫСОТА КАМЕРЫ"
+			},
+			"CAMERA SENSETIVITY": {
+				"en": "CAMERA SENSETIVITY",
+				"ru": "ЧУВСТВИТЕЛЬНОСТЬ КАМЕРЫ"
+			},
+			"CAMERA SENSETIVITY SNIPER": {
+				"en": "CAMERA SENSETIVITY SNIPER",
+				"ru": "ЧУВСТВИТЕЛЬНОСТЬ В СНАЙПЕРЕ"
+			},
+			"CAMERA SMOOTHING": {
+				"en": "CAMERA SMOOTHING",
+				"ru": "СГЛАЖИВАНИЕ КАМЕРЫ"
+			},
+			"CAMERA START DISTANCE": {
+				"en": "CAMERA START DISTANCE",
+				"ru": "НАЧАЛЬНОЕ ОТДАЛЕНИЕ КАМЕРЫ"
+			},
+			"DMG DEVIATION": {
+				"en": "DMG DEVIATION",
+				"ru": "РАЗБРОС УРОНА"
+			},
+			"EN": {
+				"en": "EN",
+				"ru": "EN"
+			},
+			"FPS LIMIT": {
+				"en": "FPS LIMIT",
+				"ru": "ЛИМИТ FPS"
+			},
+			"FULLSCREEN": {
+				"en": "FULLSCREEN",
+				"ru": "ПОЛНЫЙ ЭКРАН"
+			},
+			"GAMEPLAY": {
+				"en": "GAMEPLAY",
+				"ru": "ГЕЙМПЛЕЙ"
+			},
+			"HARMLESS BOTS": {
+				"en": "HARMLESS BOTS",
+				"ru": "БЕЗОБИДНЫЕ БОТЫ"
+			},
+			"INF": {
+				"en": "INF",
+				"ru": "∞"
+			},
+			"LANGUAGE": {
+				"en": "LANGUAGE",
+				"ru": "ЯЗЫК"
+			},
+			"MAIN": {
+				"en": "MAIN",
+				"ru": "ОСНОВНОЕ"
+			},
+			"MAP INTRO TIME MUL": {
+				"en": "MAP INTRO TIME MUL",
+				"ru": "ДЛИТЕЛЬНОСТЬ ЗАСТАВКИ КАРТЫ"
+			},
+			"MATCHMAKER": {
+				"en": "MATCHMAKER",
+				"ru": "ПОДБОР БОЯ"
+			},
+			"MAX BATTLE TIME": {
+				"en": "MAX BATTLE TIME",
+				"ru": "МАКС. ВРЕМЯ БОЯ"
+			},
+			"MAX TEAM SIZE": {
+				"en": "MAX TEAM SIZE",
+				"ru": "РАЗМЕР КОМАНДЫ"
+			},
+			"MENU UI SCALE": {
+				"en": "MENU UI SCALE",
+				"ru": "МАСШТАБ ИНТЕРФЕЙСА В МЕНЮ"
+			},
+			"NO AIM TIME": {
+				"en": "NO AIM TIME",
+				"ru": "БЕЗ СВЕДЕНИЯ"
+			},
+			"NO SHOT DISPERSION": {
+				"en": "NO SHOT DISPERSION",
+				"ru": "БЕЗ РАЗБРОСА"
+			},
+			"PEN DEVIATION": {
+				"en": "PEN DEVIATION",
+				"ru": "РАЗБРОС ПРОБИТИЯ"
+			},
+			"RU": {
+				"en": "RU",
+				"ru": "RU"
+			},
+			"SHELL GRAVITY MUL": {
+				"en": "SHELL GRAVITY MUL",
+				"ru": "ГРАВИТАЦИЯ СНАРЯДОВ"
+			},
+			"SKIP LOGIN SCREEN": {
+				"en": "SKIP LOGIN SCREEN",
+				"ru": "ПРОПУСКАТЬ ЭКРАН ВХОДА"
+			},
+			"SNIPER AUTO ZOOM": {
+				"en": "SNIPER AUTO ZOOM",
+				"ru": "АВТОЗУМ В СНАЙПЕРЕ"
+			},
+			"SPOTTING DELAY": {
+				"en": "SPOTTING DELAY",
+				"ru": "ЗАДЕРЖКА ЗАСВЕТА"
+			},
+			"∞": {
+				"en": "∞",
+				"ru": "∞"
+			}
+		},
+		"destination": "lang.json",
+		"keys": 290,
+		"languages": 2,
+		"literal": [
+			"EN",
+			"RU",
+			"∞",
+			"30",
+			"60",
+			"90",
+			"120",
+			"5",
+			"7",
+			"15",
+			"1x1",
+			"2x2",
+			"5x5",
+			"7x7",
+			"10x10",
+			"0%",
+			"5%",
+			"15%",
+			"25%"
+		],
+		"required": [
+			"SETTINGS"
+		],
+		"sources": [
+			{
+				"bytes": 6507,
+				"sha256": "ba9727f8304072e42054e3ac78d20b1483c5aef4026564722055867e4ee4d988",
+				"source": "lang_dump.csv"
+			},
+			{
+				"bytes": 40539,
+				"sha256": "c791be3631dbc3243fadcff35204e303cf6f07677d611bd0a42b4378d9067abd",
+				"source": "lang_extra.csv"
+			},
+			{
+				"bytes": 25225,
+				"sha256": "6767a3d7a63279f54868921ef878228f27562ea047c3b50357e602e2405c2cd7",
+				"source": ".assets/lang.csv"
+			}
+		]
+	},
+	"policy": "Source geometry, styles and captions only. The layout comes from a headless Godot dump of ui_settings.tscn and the row list is transcribed from ui_settings.gd; nothing is measured by eye and no art is redrawn.",
+	"regions": {
+		"backIcon": "settings_back_icon",
+		"buttonSmallGeneric": "button_small_generic",
+		"checkbox": {
+			"checked": {
+				"region": "settings_checkbox_checked",
+				"size": [
+					16,
+					16
+				],
+				"texture": "Textures/ui_checkbox_checked.png"
+			},
+			"unchecked": {
+				"region": "settings_checkbox_unchecked",
+				"size": [
+					16,
+					16
+				],
+				"texture": "Textures/ui_checkbox_unchecked.png"
+			}
+		},
+		"header": "hangar_header",
+		"rowBackground": "settings_row_bg",
+		"sliderFrame": "slider_frame",
+		"sliderThumb": "slider_thumb",
+		"thinRedLine": "hangar_thin_red_line"
+	},
+	"screen": {
+		"backButton": {
+			"anchors": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"class": "Button",
+			"fontColor": [
+				0.8745099902153015,
+				0.8745099902153015,
+				0.8745099902153015,
+				1.0
+			],
+			"fontSize": 16,
+			"iconMaxWidth": 50,
+			"minimumSize": [
+				0.0,
+				0.0
+			],
+			"mouseFilter": 0,
+			"offsets": [
+				5.0,
+				4.0,
+				99.0,
+				81.0
+			],
+			"path": "btn_menu",
+			"rect": [
+				5.0,
+				4.0,
+				94.0,
+				77.0
+			],
+			"scale": [
+				1.0,
+				1.0
+			],
+			"size": [
+				94.0,
+				77.0
+			],
+			"sizeFlags": [
+				1,
+				1
+			],
+			"sndVar": 1,
+			"text": "",
+			"variation": "ButtonSmallGeneric",
+			"visible": true,
+			"volume": 0.7
+		},
+		"behaviour": {
+			"closeAction": "menu",
+			"controlsTabDesktopOnly": true,
+			"debugTabRequiresFeature": "sentry_qa",
+			"hidesHangarUi": true,
+			"restoresHangarUiOnClose": true,
+			"savesOnClose": true
+		},
+		"blur": {
+			"anchors": [
+				0.0,
+				0.0,
+				1.0,
+				1.0
+			],
+			"class": "ColorRect",
+			"minimumSize": [
+				0.0,
+				0.0
+			],
+			"mouseFilter": 2,
+			"offsets": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"path": "blur",
+			"rect": [
+				0.0,
+				0.0,
+				1386.6666,
+				1386.6666
+			],
+			"scale": [
+				1.0,
+				1.0
+			],
+			"size": [
+				1386.6666,
+				1386.6666
+			],
+			"sizeFlags": [
+				1,
+				1
+			],
+			"visible": true
+		},
+		"checkboxScale": 3.0,
+		"content": {
+			"column": {
+				"alignment": 0,
+				"anchors": [
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"class": "VBoxContainer",
+				"minimumSize": [
+					0.0,
+					0.0
+				],
+				"mouseFilter": 1,
+				"offsets": [
+					0.0,
+					0.0,
+					691.0,
+					0.0
+				],
+				"path": "tabs/main/ScrollContainer/VBoxContainer/HBoxContainer/vbox_main_left",
+				"rect": [
+					0.0,
+					354.0,
+					691.0,
+					0.0
+				],
+				"scale": [
+					1.0,
+					1.0
+				],
+				"separation": 4,
+				"size": [
+					691.0,
+					0.0
+				],
+				"sizeFlags": [
+					3,
+					1
+				],
+				"visible": true
+			},
+			"hbox": {
+				"alignment": 0,
+				"anchors": [
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"class": "HBoxContainer",
+				"minimumSize": [
+					0.0,
+					0.0
+				],
+				"mouseFilter": 1,
+				"offsets": [
+					0.0,
+					190.0,
+					1386.0,
+					190.0
+				],
+				"path": "tabs/main/ScrollContainer/VBoxContainer/HBoxContainer",
+				"rect": [
+					0.0,
+					354.0,
+					1386.0,
+					0.0
+				],
+				"scale": [
+					1.0,
+					1.0
+				],
+				"separation": 4,
+				"size": [
+					1386.0,
+					0.0
+				],
+				"sizeFlags": [
+					1,
+					1
+				],
+				"visible": true
+			},
+			"scroll": {
+				"anchors": [
+					0.0,
+					0.0,
+					1.0,
+					1.0
+				],
+				"class": "ScrollContainer",
+				"minimumSize": [
+					0.0,
+					0.0
+				],
+				"mouseFilter": 1,
+				"offsets": [
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"path": "tabs/main/ScrollContainer",
+				"rect": [
+					0.0,
+					164.0,
+					1386.6666,
+					1222.6666
+				],
+				"scale": [
+					1.0,
+					1.0
+				],
+				"size": [
+					1386.6666,
+					1222.6666
+				],
+				"sizeFlags": [
+					1,
+					1
+				],
+				"visible": true
+			},
+			"tab": {
+				"anchors": [
+					0.0,
+					0.0,
+					1.0,
+					1.0
+				],
+				"class": "Control",
+				"minimumSize": [
+					0.0,
+					0.0
+				],
+				"mouseFilter": 0,
+				"offsets": [
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"path": "tabs/main",
+				"rect": [
+					0.0,
+					164.0,
+					1386.6666,
+					1222.6666
+				],
+				"scale": [
+					1.0,
+					1.0
+				],
+				"size": [
+					1386.6666,
+					1222.6666
+				],
+				"sizeFlags": [
+					1,
+					1
+				],
+				"visible": true
+			},
+			"vbox": {
+				"alignment": 0,
+				"anchors": [
+					0.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"class": "VBoxContainer",
+				"minimumSize": [
+					0.0,
+					0.0
+				],
+				"mouseFilter": 1,
+				"offsets": [
+					0.0,
+					0.0,
+					1386.6666,
+					190.0
+				],
+				"path": "tabs/main/ScrollContainer/VBoxContainer",
+				"rect": [
+					0.0,
+					164.0,
+					1386.6666,
+					190.0
+				],
+				"scale": [
+					1.0,
+					1.0
+				],
+				"separation": 4,
+				"size": [
+					1386.6666,
+					190.0
+				],
+				"sizeFlags": [
+					3,
+					1
+				],
+				"visible": true
+			}
+		},
+		"header": {
+			"anchors": [
+				0.0,
+				0.0,
+				1.0,
+				0.0
+			],
+			"class": "TextureRect",
+			"minimumSize": [
+				0.0,
+				0.0
+			],
+			"mouseFilter": 2,
+			"offsets": [
+				-68.0,
+				-74.0,
+				97.2084,
+				94.0417
+			],
+			"path": "panel_main_background",
+			"rect": [
+				-68.0,
+				-74.0,
+				1489.7999,
+				161.32
+			],
+			"scale": [
+				0.9599999785423279,
+				0.9599999785423279
+			],
+			"size": [
+				1551.875,
+				168.0417
+			],
+			"sizeFlags": [
+				1,
+				1
+			],
+			"visible": true
+		},
+		"root": {
+			"anchors": [
+				0.0,
+				0.0,
+				1.0,
+				1.0
+			],
+			"class": "Control",
+			"minimumSize": [
+				0.0,
+				0.0
+			],
+			"mouseFilter": 0,
+			"offsets": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"path": ".",
+			"rect": [
+				0.0,
+				0.0,
+				1386.6666,
+				1386.6666
+			],
+			"scale": [
+				1.0,
+				1.0
+			],
+			"size": [
+				1386.6666,
+				1386.6666
+			],
+			"sizeFlags": [
+				1,
+				1
+			],
+			"visible": true
+		},
+		"rows": [
+			{
+				"column": "right",
+				"kind": "boolean",
+				"labelKey": "SKIP LOGIN SCREEN",
+				"setting": "skip_login",
+				"tab": "main"
+			},
+			{
+				"column": "right",
+				"kind": "boolean",
+				"labelKey": "FULLSCREEN",
+				"setting": "fullscreen",
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "enum",
+				"labelKey": "LANGUAGE",
+				"options": [
+					{
+						"textKey": "EN",
+						"value": "en"
+					},
+					{
+						"textKey": "RU",
+						"value": "ru"
+					}
+				],
+				"setting": "language",
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "enum",
+				"labelKey": "ANTI-ALIASING",
+				"options": [
+					{
+						"textKey": "OFF",
+						"value": 0
+					},
+					{
+						"textKey": "2X",
+						"value": 2
+					},
+					{
+						"textKey": "4X",
+						"value": 4
+					},
+					{
+						"textKey": "8X",
+						"value": 8
+					}
+				],
+				"setting": "graphics_msaa",
+				"tab": "graphics"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "RENDER SCALE",
+				"max": 2,
+				"min": 0.5,
+				"setting": "graphics_render_scale",
+				"step": 0.05,
+				"tab": "graphics"
+			},
+			{
+				"column": "left",
+				"kind": "enum",
+				"labelKey": "TEXTURE QUALITY",
+				"options": [
+					{
+						"textKey": "FULL",
+						"value": 0
+					},
+					{
+						"textKey": "HALF",
+						"value": 1
+					},
+					{
+						"textKey": "QUARTER",
+						"value": 2
+					}
+				],
+				"setting": "graphics_texture_quality",
+				"tab": "graphics"
+			},
+			{
+				"column": "left",
+				"kind": "enum",
+				"labelKey": "ANISOTROPIC",
+				"options": [
+					{
+						"textKey": "OFF",
+						"value": 0
+					},
+					{
+						"textKey": "PER-TEX",
+						"value": 1
+					},
+					{
+						"textKey": "FORCED",
+						"value": 2
+					}
+				],
+				"setting": "graphics_aniso",
+				"tab": "graphics"
+			},
+			{
+				"column": "left",
+				"kind": "enum",
+				"labelKey": "SHADOWS",
+				"options": [
+					{
+						"textKey": "OFF",
+						"value": 0
+					},
+					{
+						"textKey": "HARD",
+						"value": 1
+					},
+					{
+						"textKey": "SOFT",
+						"value": 2
+					}
+				],
+				"setting": "graphics_shadows",
+				"tab": "graphics"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "SHADOW DISTANCE",
+				"max": 400,
+				"min": 20,
+				"setting": "graphics_shadow_distance",
+				"step": 10,
+				"tab": "graphics"
+			},
+			{
+				"column": "right",
+				"kind": "slider",
+				"labelKey": "DRAW DISTANCE",
+				"max": 10000,
+				"min": 250,
+				"setting": "graphics_draw_distance",
+				"step": 250,
+				"tab": "graphics"
+			},
+			{
+				"column": "right",
+				"kind": "boolean",
+				"labelKey": "FOG",
+				"setting": "graphics_fog",
+				"tab": "graphics"
+			},
+			{
+				"column": "right",
+				"kind": "boolean",
+				"labelKey": "HDR",
+				"setting": "graphics_hdr",
+				"tab": "graphics"
+			},
+			{
+				"column": "right",
+				"kind": "boolean",
+				"labelKey": "TRACK TRACES",
+				"setting": "graphics_tank_treads",
+				"tab": "graphics"
+			},
+			{
+				"column": "right",
+				"kind": "enum",
+				"labelKey": "#settings:Graphics/Camouflage/Title",
+				"options": [
+					{
+						"textKey": "#settings:Graphics/Camouflage/Off",
+						"value": 0
+					},
+					{
+						"textKey": "#settings:Graphics/Camouflage/ForPlayer",
+						"value": 1
+					},
+					{
+						"textKey": "#settings:Graphics/Camouflage/ForAll",
+						"value": 2
+					}
+				],
+				"setting": "graphics_camouflage",
+				"tab": "graphics"
+			},
+			{
+				"column": "right",
+				"kind": "boolean",
+				"labelKey": "VSYNC",
+				"setting": "graphics_vsync",
+				"tab": "graphics"
+			},
+			{
+				"column": "right",
+				"kind": "enum",
+				"labelKey": "FPS LIMIT",
+				"options": [
+					{
+						"textKey": "∞",
+						"value": 0
+					},
+					{
+						"textKey": "30",
+						"value": 30
+					},
+					{
+						"textKey": "60",
+						"value": 60
+					},
+					{
+						"textKey": "90",
+						"value": 90
+					},
+					{
+						"textKey": "120",
+						"value": 120
+					}
+				],
+				"setting": "fps_limit",
+				"tab": "graphics"
+			},
+			{
+				"column": "right",
+				"kind": "enum",
+				"labelKey": "BATTLE CHAT",
+				"options": [
+					{
+						"textKey": "ON",
+						"value": 0
+					},
+					{
+						"textKey": "CHAT TEAM ONLY",
+						"value": 1
+					},
+					{
+						"textKey": "OFF",
+						"value": 2
+					}
+				],
+				"setting": "battle_chat",
+				"tab": "main"
+			},
+			{
+				"column": "right",
+				"kind": "enum",
+				"labelKey": "ONLINE SERVER",
+				"options": [
+					{
+						"textKey": "ONLINE SERVER OWN",
+						"value": 0
+					},
+					{
+						"textKey": "ONLINE SERVER PHOTON",
+						"value": 1
+					}
+				],
+				"setting": "online_server",
+				"tab": "main"
+			},
+			{
+				"column": "right",
+				"kind": "enum",
+				"labelKey": "ui:settings/style",
+				"options": [
+					{
+						"textKey": "ui:style/classic",
+						"value": 1
+					},
+					{
+						"textKey": "ui:style/modern",
+						"value": 2
+					}
+				],
+				"setting": "ui_style",
+				"tab": "main"
+			},
+			{
+				"column": "right",
+				"kind": "enum",
+				"labelKey": "ui:settings/carousel_size",
+				"options": [
+					{
+						"textKey": "ui:carousel/compact",
+						"value": 0
+					},
+					{
+						"textKey": "ui:carousel/normal",
+						"value": 1
+					},
+					{
+						"textKey": "ui:carousel/large",
+						"value": 2
+					}
+				],
+				"setting": "ui_carousel_size",
+				"tab": "main"
+			},
+			{
+				"column": "right",
+				"kind": "hangar",
+				"labelKey": "ui:settings/hangar",
+				"setting": "hangar",
+				"tab": "main"
+			},
+			{
+				"column": "right",
+				"kind": "hangar_music",
+				"labelKey": "ui:settings/hangar_music",
+				"setting": "hangar_music_player",
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "CAMERA SENSETIVITY",
+				"max": 10,
+				"min": 0.01,
+				"setting": "mouse_sens",
+				"step": 0.01,
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "CAMERA SENSETIVITY SNIPER",
+				"max": 10,
+				"min": 0.01,
+				"setting": "mouse_sens_sniper",
+				"step": 0.01,
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "MAP INTRO TIME MUL",
+				"max": 3,
+				"min": 0.2,
+				"setting": "map_loading_screen_timer_mul",
+				"step": 0.1,
+				"tab": "main"
+			},
+			{
+				"column": "right",
+				"kind": "boolean",
+				"labelKey": "CAMERA SMOOTHING",
+				"setting": "camera_smoothing",
+				"tab": "main"
+			},
+			{
+				"column": "right",
+				"kind": "boolean",
+				"labelKey": "AUTO CAPTURE TARGET",
+				"setting": "auto_capture_target",
+				"tab": "main"
+			},
+			{
+				"column": "right",
+				"kind": "boolean",
+				"labelKey": "SNIPER AUTO ZOOM",
+				"setting": "sniper_auto_zoom",
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "CAMERA START DISTANCE",
+				"max": 30,
+				"min": 1,
+				"setting": "camera_len_start",
+				"step": 0.5,
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "BATTLE UI SCALE",
+				"max": 2,
+				"min": 0.5,
+				"setting": "ui_scale_battle",
+				"step": 0.05,
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "MENU UI SCALE",
+				"max": 2,
+				"min": 0.5,
+				"setting": "ui_scale_menu",
+				"step": 0.05,
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "CAMERA HEIGHT",
+				"max": 2,
+				"min": 0.2,
+				"setting": "camera_height_mul",
+				"step": 0.05,
+				"tab": "main"
+			},
+			{
+				"column": "right",
+				"kind": "boolean",
+				"labelKey": "AUTO AIM CAMERA STICK",
+				"setting": "auto_aim_soft",
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "AUTO AIM STICK STRENGTH",
+				"max": 20,
+				"min": 0,
+				"setting": "auto_aim_stick_strength",
+				"step": 0.5,
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "AUTO AIM SENS MUL",
+				"max": 1,
+				"min": 0.1,
+				"setting": "auto_aim_sens_mul",
+				"step": 0.05,
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "AUTO AIM RELEASE ANGLE",
+				"max": 90,
+				"min": 5,
+				"setting": "auto_aim_release_angle",
+				"step": 1,
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "AUTO AIM SNIPER STRENGTH",
+				"max": 20,
+				"min": 0,
+				"setting": "auto_aim_stick_strength_sniper",
+				"step": 0.5,
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "AUTO AIM LEAD",
+				"max": 3,
+				"min": 0,
+				"setting": "auto_aim_lead_mul",
+				"step": 0.05,
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "AUTO AIM RECAPTURE DELAY",
+				"max": 3,
+				"min": 0,
+				"setting": "auto_aim_recapture_delay",
+				"step": 0.1,
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "AUTO AIM COVER GRACE",
+				"max": 5,
+				"min": 0,
+				"setting": "auto_aim_cover_grace",
+				"step": 0.1,
+				"tab": "main"
+			},
+			{
+				"column": "left",
+				"kind": "enum",
+				"labelKey": "MAX BATTLE TIME",
+				"options": [
+					{
+						"textKey": "5",
+						"value": 12
+					},
+					{
+						"textKey": "7",
+						"value": 13
+					},
+					{
+						"textKey": "15",
+						"value": 14
+					},
+					{
+						"textKey": "INF",
+						"value": 15
+					}
+				],
+				"setting": "battle_max_time",
+				"tab": "matchmaker"
+			},
+			{
+				"column": "left",
+				"kind": "enum",
+				"labelKey": "MAX TEAM SIZE",
+				"options": [
+					{
+						"textKey": "1x1",
+						"value": 7
+					},
+					{
+						"textKey": "2x2",
+						"value": 8
+					},
+					{
+						"textKey": "5x5",
+						"value": 9
+					},
+					{
+						"textKey": "7x7",
+						"value": 10
+					},
+					{
+						"textKey": "10x10",
+						"value": 11
+					}
+				],
+				"setting": "matchmaker_team_size",
+				"tab": "matchmaker"
+			},
+			{
+				"column": "right",
+				"kind": "enum",
+				"labelKey": "DMG DEVIATION",
+				"options": [
+					{
+						"textKey": "0%",
+						"value": 19
+					},
+					{
+						"textKey": "5%",
+						"value": 18
+					},
+					{
+						"textKey": "15%",
+						"value": 17
+					},
+					{
+						"textKey": "25%",
+						"value": 16
+					}
+				],
+				"setting": "dmg_deviation",
+				"tab": "matchmaker"
+			},
+			{
+				"column": "right",
+				"kind": "enum",
+				"labelKey": "PEN DEVIATION",
+				"options": [
+					{
+						"textKey": "0%",
+						"value": 19
+					},
+					{
+						"textKey": "5%",
+						"value": 18
+					},
+					{
+						"textKey": "15%",
+						"value": 17
+					},
+					{
+						"textKey": "25%",
+						"value": 16
+					}
+				],
+				"setting": "pen_deviation",
+				"tab": "matchmaker"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "SPOTTING DELAY",
+				"max": 0.5,
+				"min": 0.1,
+				"setting": "battle_spotting_delay",
+				"step": 0.1,
+				"tab": "gameplay"
+			},
+			{
+				"column": "left",
+				"kind": "slider",
+				"labelKey": "SHELL GRAVITY MUL",
+				"max": 5,
+				"min": 0,
+				"setting": "battle_mechanics_projectiles_gravity_mul",
+				"step": 0.1,
+				"tab": "gameplay"
+			},
+			{
+				"column": "right",
+				"kind": "boolean",
+				"labelKey": "NO AIM TIME",
+				"setting": "battle_mechanics_no_aim_time",
+				"tab": "gameplay"
+			},
+			{
+				"column": "right",
+				"kind": "boolean",
+				"labelKey": "NO SHOT DISPERSION",
+				"setting": "battle_mechanics_no_disp",
+				"tab": "gameplay"
+			},
+			{
+				"column": "right",
+				"kind": "boolean",
+				"labelKey": "HARMLESS BOTS",
+				"setting": "battle_bots_harmless",
+				"tab": "gameplay"
+			},
+			{
+				"column": "right",
+				"kind": "boolean",
+				"labelKey": "BOTS HOLD POSITION",
+				"setting": "battle_bots_stationary",
+				"tab": "gameplay"
+			}
+		],
+		"tabBar": {
+			"alignment": 0,
+			"anchors": [
+				0.0,
+				0.0,
+				1.0,
+				0.0
+			],
+			"class": "HBoxContainer",
+			"minimumSize": [
+				0.0,
+				0.0
+			],
+			"mouseFilter": 1,
+			"offsets": [
+				0.0,
+				92.0,
+				0.0,
+				158.0
+			],
+			"path": "HBoxContainer",
+			"rect": [
+				0.0,
+				92.0,
+				1386.6666,
+				66.0
+			],
+			"scale": [
+				1.0,
+				1.0
+			],
+			"separation": 4,
+			"size": [
+				1386.6666,
+				66.0
+			],
+			"sizeFlags": [
+				1,
+				1
+			],
+			"visible": true
+		},
+		"tabButton": {
+			"anchors": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"class": "Button",
+			"fontColor": [
+				0.875,
+				0.875,
+				0.875,
+				1.0
+			],
+			"fontSize": 25,
+			"iconMaxWidth": 32,
+			"minimumSize": [
+				0.0,
+				0.0
+			],
+			"mouseFilter": 0,
+			"offsets": [
+				0.0,
+				0.0,
+				274.0,
+				66.0
+			],
+			"path": "HBoxContainer/btn_MAIN",
+			"rect": [
+				0.0,
+				92.0,
+				274.0,
+				66.0
+			],
+			"scale": [
+				1.0,
+				1.0
+			],
+			"size": [
+				274.0,
+				66.0
+			],
+			"sizeFlags": [
+				3,
+				1
+			],
+			"sndVar": 0,
+			"text": "MAIN",
+			"variation": "Button",
+			"visible": true,
+			"volume": 0.7
+		},
+		"tabs": [
+			{
+				"button": "btn_MAIN",
+				"name": "main",
+				"textKey": "MAIN"
+			},
+			{
+				"button": "btn_matchmaker",
+				"name": "matchmaker",
+				"textKey": "MATCHMAKER"
+			},
+			{
+				"button": "btn_gameplay",
+				"name": "gameplay",
+				"textKey": "GAMEPLAY"
+			}
+		],
+		"tabsVisible": false,
+		"templates": {
+			"boolean": {
+				"background": {
+					"anchors": [
+						0.0,
+						0.0,
+						1.0,
+						1.0
+					],
+					"class": "NinePatchRect",
+					"minimumSize": [
+						0.0,
+						0.0
+					],
+					"mouseFilter": 2,
+					"offsets": [
+						-2.0,
+						0.0,
+						2.0,
+						0.0
+					],
+					"patchMargins": [
+						7,
+						7,
+						7,
+						7
+					],
+					"path": "tabs/main/ScrollContainer/VBoxContainer/templates/boolean_template/NinePatchRect",
+					"rect": [
+						-2.0,
+						164.0,
+						695.0,
+						91.625
+					],
+					"scale": [
+						1.0,
+						1.0
+					],
+					"size": [
+						695.0,
+						91.625
+					],
+					"sizeFlags": [
+						1,
+						1
+					],
+					"visible": true
+				},
+				"checkbox": {
+					"anchors": [
+						1.0,
+						0.5,
+						1.0,
+						0.5
+					],
+					"class": "CheckBox",
+					"fontColor": [
+						0.875,
+						0.875,
+						0.875,
+						1.0
+					],
+					"fontSize": 15,
+					"iconMaxWidth": 32,
+					"minimumSize": [
+						0.0,
+						0.0
+					],
+					"mouseFilter": 0,
+					"offsets": [
+						-50.9999,
+						-11.0,
+						-34.9999,
+						5.0
+					],
+					"path": "tabs/main/ScrollContainer/VBoxContainer/templates/boolean_template/checkbox",
+					"rect": [
+						624.0001,
+						182.8125,
+						48.0,
+						48.0
+					],
+					"scale": [
+						3.0,
+						3.0
+					],
+					"size": [
+						16.0,
+						16.0
+					],
+					"sizeFlags": [
+						1,
+						1
+					],
+					"text": "",
+					"variation": "CheckBox",
+					"visible": true
+				},
+				"label": {
+					"anchors": [
+						0.0,
+						0.5,
+						0.0,
+						0.5
+					],
+					"class": "Label",
+					"fontColor": [
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"fontSize": 21,
+					"horizontalAlignment": 0,
+					"minimumSize": [
+						0.0,
+						0.0
+					],
+					"mouseFilter": 2,
+					"offsets": [
+						16.0,
+						-16.0,
+						95.0,
+						16.0
+					],
+					"path": "tabs/main/ScrollContainer/VBoxContainer/templates/boolean_template/name",
+					"rect": [
+						16.0,
+						193.8125,
+						79.0,
+						32.0
+					],
+					"scale": [
+						1.0,
+						1.0
+					],
+					"size": [
+						79.0,
+						32.0
+					],
+					"sizeFlags": [
+						1,
+						4
+					],
+					"text": "EBALO",
+					"variation": "LabelBold",
+					"verticalAlignment": 1,
+					"visible": true
+				},
+				"root": {
+					"anchors": [
+						0.0,
+						0.0,
+						0.0,
+						0.0
+					],
+					"class": "Control",
+					"minimumSize": [
+						500.0,
+						91.625
+					],
+					"mouseFilter": 2,
+					"offsets": [
+						0.0,
+						0.0,
+						691.0,
+						91.0
+					],
+					"path": "tabs/main/ScrollContainer/VBoxContainer/templates/boolean_template",
+					"rect": [
+						0.0,
+						164.0,
+						691.0,
+						91.625
+					],
+					"scale": [
+						1.0,
+						1.0
+					],
+					"size": [
+						691.0,
+						91.625
+					],
+					"sizeFlags": [
+						3,
+						1
+					],
+					"visible": true
+				}
+			},
+			"enum": {
+				"background": {
+					"anchors": [
+						0.0,
+						0.0,
+						1.0,
+						1.0
+					],
+					"class": "NinePatchRect",
+					"minimumSize": [
+						0.0,
+						0.0
+					],
+					"mouseFilter": 2,
+					"offsets": [
+						-2.0,
+						0.0,
+						2.0,
+						0.0
+					],
+					"patchMargins": [
+						7,
+						7,
+						7,
+						7
+					],
+					"path": "tabs/main/ScrollContainer/VBoxContainer/templates/enum_template/NinePatchRect",
+					"rect": [
+						693.0,
+						164.0,
+						695.0,
+						91.625
+					],
+					"scale": [
+						1.0,
+						1.0
+					],
+					"size": [
+						695.0,
+						91.625
+					],
+					"sizeFlags": [
+						1,
+						1
+					],
+					"visible": true
+				},
+				"button": {
+					"anchors": [
+						0.0,
+						0.0,
+						0.0,
+						0.0
+					],
+					"class": "Button",
+					"fontColor": [
+						0.875,
+						0.875,
+						0.875,
+						1.0
+					],
+					"fontSize": 25,
+					"iconMaxWidth": 32,
+					"minimumSize": [
+						77.29000091552734,
+						71.625
+					],
+					"mouseFilter": 0,
+					"offsets": [
+						403.0,
+						0.0,
+						481.0,
+						72.0
+					],
+					"path": "tabs/main/ScrollContainer/VBoxContainer/templates/enum_template/btns/btn2",
+					"rect": [
+						1302.0,
+						174.0,
+						78.0,
+						72.0
+					],
+					"scale": [
+						1.0,
+						1.0
+					],
+					"size": [
+						78.0,
+						72.0
+					],
+					"sizeFlags": [
+						1,
+						1
+					],
+					"sndVar": 0,
+					"text": "MATCH",
+					"variation": "Button",
+					"visible": true,
+					"volume": 0.7
+				},
+				"buttonStyles": {
+					"normal": [
+						0.0941176488995552,
+						0.12941177189350128,
+						0.16078431904315948,
+						0.3490196168422699
+					],
+					"pressed": [
+						0.29019609093666077,
+						0.3960784375667572,
+						0.4901960790157318,
+						0.9215686321258545
+					]
+				},
+				"buttons": {
+					"alignment": 2,
+					"anchors": [
+						1.0,
+						0.0,
+						1.0,
+						1.0
+					],
+					"class": "HBoxContainer",
+					"minimumSize": [
+						0.0,
+						0.0
+					],
+					"mouseFilter": 1,
+					"offsets": [
+						-487.0,
+						10.0,
+						-6.0,
+						-9.625
+					],
+					"path": "tabs/main/ScrollContainer/VBoxContainer/templates/enum_template/btns",
+					"rect": [
+						899.0,
+						174.0,
+						481.0,
+						72.0
+					],
+					"scale": [
+						1.0,
+						1.0
+					],
+					"separation": 4,
+					"size": [
+						481.0,
+						72.0
+					],
+					"sizeFlags": [
+						1,
+						1
+					],
+					"visible": true
+				},
+				"label": {
+					"anchors": [
+						0.0,
+						0.5,
+						0.0,
+						0.5
+					],
+					"class": "Label",
+					"fontColor": [
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"fontSize": 21,
+					"horizontalAlignment": 0,
+					"minimumSize": [
+						0.0,
+						0.0
+					],
+					"mouseFilter": 2,
+					"offsets": [
+						16.0,
+						-16.0,
+						95.0,
+						16.0
+					],
+					"path": "tabs/main/ScrollContainer/VBoxContainer/templates/enum_template/name",
+					"rect": [
+						711.0,
+						193.8125,
+						79.0,
+						32.0
+					],
+					"scale": [
+						1.0,
+						1.0
+					],
+					"size": [
+						79.0,
+						32.0
+					],
+					"sizeFlags": [
+						1,
+						4
+					],
+					"text": "EBALO",
+					"variation": "LabelBold",
+					"verticalAlignment": 1,
+					"visible": true
+				},
+				"root": {
+					"anchors": [
+						0.0,
+						0.0,
+						0.0,
+						0.0
+					],
+					"class": "Control",
+					"minimumSize": [
+						500.0,
+						91.625
+					],
+					"mouseFilter": 2,
+					"offsets": [
+						695.0,
+						0.0,
+						1386.0,
+						91.0
+					],
+					"path": "tabs/main/ScrollContainer/VBoxContainer/templates/enum_template",
+					"rect": [
+						695.0,
+						164.0,
+						691.0,
+						91.625
+					],
+					"scale": [
+						1.0,
+						1.0
+					],
+					"size": [
+						691.0,
+						91.625
+					],
+					"sizeFlags": [
+						3,
+						1
+					],
+					"visible": true
+				}
+			},
+			"slider": {
+				"background": {
+					"anchors": [
+						0.0,
+						0.0,
+						1.0,
+						1.0
+					],
+					"class": "NinePatchRect",
+					"minimumSize": [
+						0.0,
+						0.0
+					],
+					"mouseFilter": 2,
+					"offsets": [
+						-2.0,
+						0.0,
+						2.0,
+						0.0
+					],
+					"patchMargins": [
+						7,
+						7,
+						7,
+						7
+					],
+					"path": "tabs/main/ScrollContainer/VBoxContainer/templates/slider_template/NinePatchRect",
+					"rect": [
+						-2.0,
+						259.0,
+						695.0,
+						91.625
+					],
+					"scale": [
+						1.0,
+						1.0
+					],
+					"size": [
+						695.0,
+						91.625
+					],
+					"sizeFlags": [
+						1,
+						1
+					],
+					"visible": true
+				},
+				"frame": {
+					"anchors": [
+						1.0,
+						0.5,
+						1.0,
+						0.5
+					],
+					"class": "NinePatchRect",
+					"minimumSize": [
+						0.0,
+						0.0
+					],
+					"mouseFilter": 2,
+					"offsets": [
+						-328.0,
+						-37.8125,
+						653.8177,
+						180.3694
+					],
+					"patchMargins": [
+						24,
+						24,
+						24,
+						24
+					],
+					"path": "tabs/main/ScrollContainer/VBoxContainer/templates/slider_template/slider_bg",
+					"rect": [
+						363.0,
+						267.0,
+						323.9999,
+						72.0
+					],
+					"scale": [
+						0.33000001311302185,
+						0.33000001311302185
+					],
+					"size": [
+						981.8177,
+						218.1819
+					],
+					"sizeFlags": [
+						1,
+						1
+					],
+					"visible": true
+				},
+				"label": {
+					"anchors": [
+						0.0,
+						0.5,
+						0.0,
+						0.5
+					],
+					"class": "Label",
+					"fontColor": [
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"fontSize": 21,
+					"horizontalAlignment": 0,
+					"minimumSize": [
+						0.0,
+						0.0
+					],
+					"mouseFilter": 2,
+					"offsets": [
+						16.0,
+						-16.0,
+						95.0,
+						16.0
+					],
+					"path": "tabs/main/ScrollContainer/VBoxContainer/templates/slider_template/name",
+					"rect": [
+						16.0,
+						288.8125,
+						79.0,
+						32.0
+					],
+					"scale": [
+						1.0,
+						1.0
+					],
+					"size": [
+						79.0,
+						32.0
+					],
+					"sizeFlags": [
+						1,
+						4
+					],
+					"text": "EBALO",
+					"variation": "LabelBold",
+					"verticalAlignment": 1,
+					"visible": true
+				},
+				"root": {
+					"anchors": [
+						0.0,
+						0.0,
+						0.0,
+						0.0
+					],
+					"class": "Control",
+					"minimumSize": [
+						500.0,
+						91.625
+					],
+					"mouseFilter": 2,
+					"offsets": [
+						0.0,
+						95.0,
+						691.0,
+						186.0
+					],
+					"path": "tabs/main/ScrollContainer/VBoxContainer/templates/slider_template",
+					"rect": [
+						0.0,
+						259.0,
+						691.0,
+						91.625
+					],
+					"scale": [
+						1.0,
+						1.0
+					],
+					"size": [
+						691.0,
+						91.625
+					],
+					"sizeFlags": [
+						3,
+						1
+					],
+					"visible": true
+				},
+				"slider": {
+					"anchors": [
+						1.0,
+						0.5,
+						1.0,
+						0.5
+					],
+					"class": "HSlider",
+					"minimumSize": [
+						0.0,
+						0.0
+					],
+					"mouseFilter": 0,
+					"offsets": [
+						-324.0,
+						-34.8125,
+						308.0,
+						97.1875
+					],
+					"path": "tabs/main/ScrollContainer/VBoxContainer/templates/slider_template/slider",
+					"rect": [
+						367.0,
+						270.0,
+						316.0,
+						66.0
+					],
+					"scale": [
+						0.5,
+						0.5
+					],
+					"size": [
+						632.0,
+						132.0
+					],
+					"sizeFlags": [
+						1,
+						0
+					],
+					"visible": true
+				},
+				"theme": {
+					"grabber": {
+						"atlas": {
+							"class": "CompressedTexture2D",
+							"resource_path": "res://assets/gfx/ui/common/commonUiElements_Out.png",
+							"size": [
+								512,
+								1024
+							]
+						},
+						"class": "AtlasTexture",
+						"filter_clip": false,
+						"margin": [
+							0.0,
+							0.0,
+							0.0,
+							0.0
+						],
+						"region": [
+							1.0,
+							423.0,
+							132.0,
+							132.0
+						],
+						"resource_path": "res://assets/gfx/ui/common/SliderThumb.tres",
+						"size": [
+							132,
+							132
+						]
+					},
+					"grabber_highlight": {
+						"atlas": {
+							"class": "CompressedTexture2D",
+							"resource_path": "res://assets/gfx/ui/common/commonUiElements_Out.png",
+							"size": [
+								512,
+								1024
+							]
+						},
+						"class": "AtlasTexture",
+						"filter_clip": false,
+						"margin": [
+							0.0,
+							0.0,
+							0.0,
+							0.0
+						],
+						"region": [
+							1.0,
+							423.0,
+							132.0,
+							132.0
+						],
+						"resource_path": "res://assets/gfx/ui/common/SliderThumb.tres",
+						"size": [
+							132,
+							132
+						]
+					},
+					"max_value": 100.0,
+					"min_value": 0.0,
+					"rounded": true,
+					"step": 1.0,
+					"styles": {
+						"grabber_area": {
+							"bg_color": [
+								0.21176470816135406,
+								0.21176470816135406,
+								0.21176470816135406,
+								1.0
+							],
+							"border_color": [
+								0.800000011920929,
+								0.800000011920929,
+								0.800000011920929,
+								1.0
+							],
+							"border_width": [
+								0,
+								0,
+								0,
+								0
+							],
+							"class": "StyleBoxFlat",
+							"content_margins": [
+								-1.0,
+								-1.0,
+								-1.0,
+								-1.0
+							],
+							"corner_radius": [
+								0,
+								0,
+								0,
+								0
+							],
+							"resource_path": "res://assets/gfx/ui/ui_settings.tscn::StyleBoxFlat_de1jb"
+						},
+						"grabber_area_highlight": {
+							"bg_color": [
+								0.21176470816135406,
+								0.21176470816135406,
+								0.21176470816135406,
+								1.0
+							],
+							"border_color": [
+								0.800000011920929,
+								0.800000011920929,
+								0.800000011920929,
+								1.0
+							],
+							"border_width": [
+								0,
+								0,
+								0,
+								0
+							],
+							"class": "StyleBoxFlat",
+							"content_margins": [
+								-1.0,
+								-1.0,
+								-1.0,
+								-1.0
+							],
+							"corner_radius": [
+								0,
+								0,
+								0,
+								0
+							],
+							"resource_path": "res://assets/gfx/ui/ui_settings.tscn::StyleBoxFlat_de1jb"
+						},
+						"slider": {
+							"bg_color": [
+								0.15294118225574493,
+								0.16862745583057404,
+								0.16862745583057404,
+								1.0
+							],
+							"border_color": [
+								0.19445326924324036,
+								0.2149161398410797,
+								0.2149171531200409,
+								1.0
+							],
+							"border_width": [
+								0,
+								12,
+								0,
+								12
+							],
+							"class": "StyleBoxFlat",
+							"content_margins": [
+								-1.0,
+								-1.0,
+								-1.0,
+								-1.0
+							],
+							"corner_radius": [
+								0,
+								0,
+								0,
+								0
+							],
+							"resource_path": "res://assets/gfx/ui/ui_settings.tscn::StyleBoxFlat_uuqtk"
+						}
+					}
+				},
+				"value": {
+					"anchors": [
+						1.0,
+						0.5,
+						1.0,
+						0.5
+					],
+					"class": "Label",
+					"fontColor": [
+						1.0,
+						0.8039215803146362,
+						0.5098039507865906,
+						1.0
+					],
+					"fontSize": 20,
+					"horizontalAlignment": 0,
+					"minimumSize": [
+						0.0,
+						0.0
+					],
+					"mouseFilter": 2,
+					"offsets": [
+						8.0,
+						-10.5,
+						48.0,
+						10.5
+					],
+					"path": "tabs/main/ScrollContainer/VBoxContainer/templates/slider_template/name/value",
+					"rect": [
+						103.0,
+						294.3125,
+						40.0,
+						21.0
+					],
+					"scale": [
+						1.0,
+						1.0
+					],
+					"size": [
+						40.0,
+						21.0
+					],
+					"sizeFlags": [
+						1,
+						4
+					],
+					"text": "12",
+					"variation": "LabelBold",
+					"verticalAlignment": 0,
+					"visible": true
+				}
+			}
+		},
+		"thinRedLine": {
+			"anchors": [
+				0.0,
+				0.0,
+				1.0,
+				0.0
+			],
+			"class": "TextureRect",
+			"minimumSize": [
+				0.0,
+				0.0
+			],
+			"mouseFilter": 1,
+			"offsets": [
+				70.8333,
+				167.7083,
+				-5.9027,
+				170.9636
+			],
+			"path": "panel_main_background/ThinRedLine",
+			"rect": [
+				-0.0,
+				87.0,
+				1359.488,
+				3.0
+			],
+			"scale": [
+				0.9599999785423279,
+				0.9599999785423279
+			],
+			"size": [
+				1475.1389,
+				3.2552
+			],
+			"sizeFlags": [
+				1,
+				1
+			],
+			"visible": true
+		},
+		"title": {
+			"anchors": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"class": "Label",
+			"fontColor": [
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"fontSize": 30,
+			"horizontalAlignment": 0,
+			"minimumSize": [
+				0.0,
+				0.0
+			],
+			"mouseFilter": 2,
+			"offsets": [
+				128.0,
+				29.0,
+				457.0,
+				69.0
+			],
+			"path": "tank_name",
+			"rect": [
+				128.0,
+				29.0,
+				329.0,
+				40.0
+			],
+			"scale": [
+				1.0,
+				1.0
+			],
+			"size": [
+				329.0,
+				40.0
+			],
+			"sizeFlags": [
+				1,
+				4
+			],
+			"text": "SETTINGS",
+			"variation": "LabelBold",
+			"verticalAlignment": 0,
+			"visible": true
+		}
+	},
+	"sources": [
+		{
+			"bytes": 22378,
+			"sha256": "2b3df34059596066416f0f77f82653b22c344a4256b82b488b67d2e9709f54f9",
+			"source": "assets/gfx/ui/ui_settings.tscn"
+		},
+		{
+			"bytes": 10689,
+			"sha256": "98521a4665c90b642d74172936db524146920694ec642522cdaffd694dfdd505",
+			"source": "assets/gfx/ui/ui_settings.gd"
+		},
+		{
+			"bytes": 17030,
+			"sha256": "424a45542b9ac35482db0bd8fa4a38548c24cbf1fcf21fd50bcddaeedf7684a0",
+			"source": "assets/data/save_settings.gd"
+		},
+		{
+			"bytes": 20057,
+			"sha256": "2f0efc7bd27f03da51f57368eef2ddf94bac48b883bc149aed5ac036d1c29453",
+			"source": "assets/fonts/ui_theme_blitz.tres"
+		},
+		{
+			"bytes": 880,
+			"sha256": "2e55646b117ea312fd8c36eb62ea38c07901044d327961e2763d5f3cb83d500a",
+			"source": "scripts/ui_elements/tab_container_custom.gd"
+		},
+		{
+			"bytes": 1346,
+			"sha256": "28622246b98e6f9f9ef89be93b2e1c0637c21fab215be2fb84c7ab8f5ce88373",
+			"source": "scripts/ui_elements/button_generic.gd"
+		}
+	],
+	"theme": {
+		"defaultFontSize": 15,
+		"separations": {
+			"BoxContainer": {
+				"themed": false,
+				"value": 4
+			},
+			"GridContainer": {
+				"themed": false,
+				"value": 0
+			},
+			"HBoxContainer": {
+				"themed": false,
+				"value": 4
+			},
+			"VBoxContainer": {
+				"themed": false,
+				"value": 4
+			}
+		},
+		"types": {
+			"Button": {
+				"fontColor": [
+					0.875,
+					0.875,
+					0.875,
+					1.0
+				],
+				"fontSize": 16,
+				"iconMaxWidth": 32
+			},
+			"ButtonSmallGeneric": {
+				"fontColor": null,
+				"fontSize": 15,
+				"iconMaxWidth": null
+			},
+			"Label": {
+				"fontColor": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"fontSize": 15,
+				"iconMaxWidth": null
+			},
+			"LabelBold": {
+				"fontColor": [
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"fontSize": 15,
+				"iconMaxWidth": null
+			}
+		}
+	}
+}

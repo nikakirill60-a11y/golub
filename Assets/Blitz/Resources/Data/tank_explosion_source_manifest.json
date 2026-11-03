@@ -1,0 +1,1601 @@
+{
+  "generator": "port_godot_particles.py",
+  "policy": "Emitter counts, lifetimes, curves, gradients and sprite sheets come from a headless Godot dump of explosion1.tscn. Nothing is redrawn, retimed or measured by eye.",
+  "dump": {
+    "script": "godot_particles_dump.gd",
+    "scene": "res://assets/particles/tanks/explosion1.tscn"
+  },
+  "sources": [
+    {
+      "source": "assets/particles/tanks/explosion1.tscn",
+      "bytes": 197224,
+      "sha256": "693faac99ddc2d0b66a15d8ad6ef6f397372e6e2d3f500b64edb9d4c52f58c47"
+    },
+    {
+      "source": "assets/tanks/base/tank_particles_manager.gd",
+      "bytes": 2921,
+      "sha256": "fd0f868830c91eb1ec1b2ab4da7d34058108b95b88d7f0c65f3068f40a9d860b"
+    },
+    {
+      "source": "scripts/particle_starter.gd",
+      "bytes": 1480,
+      "sha256": "fb4e1efa3ac1a06606e1cce7af6f707ef4b921e2aeca51815ed5130a4d2cb3ae"
+    },
+    {
+      "source": "assets/tanks/base/base_tank.gd",
+      "bytes": 83262,
+      "sha256": "055860103e2b536d30275c2752842e6eafc7735037cde6722ef00977b328ce92"
+    }
+  ],
+  "textures": [
+    {
+      "source": "assets/particles/resources/Iskr_one_stitched.png",
+      "bytes": 3346,
+      "sha256": "7315bc16ef9e2f4e450352c8d07096c2dae5e061d96ba0f70fdc905aa230124d",
+      "resource": "Particles/Tanks/Iskr_one_stitched"
+    },
+    {
+      "source": "assets/particles/resources/exp_anim_L_stitched.png",
+      "bytes": 362890,
+      "sha256": "a11e3053dab5b6004b57de7d33d3d56ac3f807f7cfddfd2822a511ed4f7bd7c2",
+      "resource": "Particles/Tanks/exp_anim_L_stitched"
+    },
+    {
+      "source": "assets/particles/resources/expq_stitched.png",
+      "bytes": 46332,
+      "sha256": "f9a54e37009c5a699697745619051ffa4cee7c47b625f4609e3ca5e62b26f590",
+      "resource": "Particles/Tanks/expq_stitched"
+    },
+    {
+      "source": "assets/particles/resources/hit_anim_07_stitched.png",
+      "bytes": 10717,
+      "sha256": "19d2ffc3e8b4c3a00115b4482f49f2bf3ebb241d591be239a4704209990531a4",
+      "resource": "Particles/Tanks/hit_anim_07_stitched"
+    },
+    {
+      "source": "assets/particles/resources/o2SMOKEB_stitched.png",
+      "bytes": 15883,
+      "sha256": "768233449eec142f5d83a5d08276236680dcb15db52aae584ece5771ea06d94e",
+      "resource": "Particles/Tanks/o2SMOKEB_stitched"
+    },
+    {
+      "source": "assets/particles/resources/o2_fire_anim_stitched.png",
+      "bytes": 79377,
+      "sha256": "53e9c2dea28a63804bfacf08d853e923085e3095621d3c849280a47cf57d60f9",
+      "resource": "Particles/Tanks/o2_fire_anim_stitched"
+    }
+  ],
+  "root": {
+    "name": "ParticleStarter",
+    "scale": [
+      2.0,
+      2.0,
+      2.0
+    ]
+  },
+  "emitters": [
+    {
+      "name": "shot",
+      "position": [
+        -1.22834598048627e-09,
+        0.0,
+        -0.0281012803316116
+      ],
+      "rotationDegrees": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emitting": false,
+      "amount": 2,
+      "amountRatio": 0.800000011920929,
+      "lifetime": 1.0,
+      "oneShot": true,
+      "preprocess": 0.0,
+      "speedScale": 1.0,
+      "explosiveness": 1.0,
+      "randomness": 0.0,
+      "fixedFps": 30,
+      "interpolate": true,
+      "fractDelta": true,
+      "localCoords": true,
+      "drawOrder": 0,
+      "transformAlign": 0,
+      "subEmitter": "",
+      "process": {
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "spread": 45.0,
+        "flatness": 0.0,
+        "initialVelocityMin": 0.0,
+        "initialVelocityMax": 0.0,
+        "angularVelocityMin": 0.0,
+        "angularVelocityMax": 0.0,
+        "radialVelocityMin": 0.0,
+        "radialVelocityMax": 0.0,
+        "gravity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "linearAccelMin": 0.0,
+        "linearAccelMax": 0.0,
+        "radialAccelMin": 0.0,
+        "radialAccelMax": 0.0,
+        "tangentialAccelMin": 0.0,
+        "tangentialAccelMax": 0.0,
+        "dampingMin": 0.0,
+        "dampingMax": 0.0,
+        "angleMin": 180.000015258789,
+        "angleMax": 180.000015258789,
+        "scaleMin": 1.0,
+        "scaleMax": 1.0,
+        "lifetimeRandomness": 0.0,
+        "animSpeedMin": -1.0,
+        "animSpeedMax": -1.0,
+        "animOffsetMin": 0.0,
+        "animOffsetMax": 0.0,
+        "hueVariationMin": 0.0,
+        "hueVariationMax": 0.0,
+        "emissionShape": 0,
+        "emissionSphereRadius": 1.0,
+        "emissionBoxExtents": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alignY": false,
+        "rotateY": true,
+        "disableZ": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "subEmitterMode": 0,
+        "subEmitterFrequency": 4.0,
+        "subEmitterAmountAtEnd": 1,
+        "collisionMode": 0,
+        "alphaCurve": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "mesh": {
+        "class": "QuadMesh",
+        "size": [
+          12.0,
+          12.0
+        ],
+        "centerOffset": [
+          -0.0750000029802322,
+          0.0,
+          0.0
+        ],
+        "material": {
+          "transparency": 0,
+          "blendMode": 1,
+          "cullMode": 0,
+          "shadingMode": 0,
+          "specularMode": 2,
+          "disableAmbientLight": true,
+          "disableFog": true,
+          "vertexColorUseAsAlbedo": false,
+          "albedoColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "albedoTexture": "res://assets/particles/resources/exp_anim_L_stitched.png",
+          "billboardMode": 3,
+          "animHFrames": 29,
+          "animVFrames": 1,
+          "animLoop": true,
+          "texture": "exp_anim_L_stitched"
+        }
+      }
+    },
+    {
+      "name": "debris",
+      "position": [
+        8.80297523764284e-09,
+        0.0,
+        0.150087356567383
+      ],
+      "rotationDegrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emitting": false,
+      "amount": 2,
+      "amountRatio": 1.0,
+      "lifetime": 5.0,
+      "oneShot": true,
+      "preprocess": 0.0,
+      "speedScale": 1.0,
+      "explosiveness": 1.0,
+      "randomness": 0.0,
+      "fixedFps": 30,
+      "interpolate": true,
+      "fractDelta": true,
+      "localCoords": false,
+      "drawOrder": 0,
+      "transformAlign": 0,
+      "subEmitter": "../smoke3_trail",
+      "process": {
+        "direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "spread": 34.0530014038086,
+        "flatness": 0.0,
+        "initialVelocityMin": 3.0,
+        "initialVelocityMax": 6.0,
+        "angularVelocityMin": 0.0,
+        "angularVelocityMax": 0.0,
+        "radialVelocityMin": 0.999977648258209,
+        "radialVelocityMax": 2.99997758865356,
+        "gravity": [
+          0.0,
+          -7.0,
+          0.0
+        ],
+        "linearAccelMin": 0.0,
+        "linearAccelMax": 0.0,
+        "radialAccelMin": 0.0,
+        "radialAccelMax": 0.0,
+        "tangentialAccelMin": 0.0,
+        "tangentialAccelMax": 0.0,
+        "dampingMin": 0.0,
+        "dampingMax": 0.0,
+        "angleMin": 0.0,
+        "angleMax": 0.0,
+        "scaleMin": 0.199999988079071,
+        "scaleMax": 1.0,
+        "lifetimeRandomness": 0.0,
+        "animSpeedMin": 0.0,
+        "animSpeedMax": 0.0,
+        "animOffsetMin": 0.0,
+        "animOffsetMax": 0.0,
+        "hueVariationMin": 0.0,
+        "hueVariationMax": 0.0,
+        "emissionShape": 0,
+        "emissionSphereRadius": 1.0,
+        "emissionBoxExtents": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alignY": true,
+        "rotateY": false,
+        "disableZ": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "subEmitterMode": 1,
+        "subEmitterFrequency": 20.66,
+        "subEmitterAmountAtEnd": 1,
+        "collisionMode": 2
+      },
+      "mesh": {
+        "class": "QuadMesh",
+        "size": [
+          0.5,
+          0.5
+        ],
+        "centerOffset": [
+          0.0,
+          0.0299999993294477,
+          0.0
+        ],
+        "material": {
+          "transparency": 0,
+          "blendMode": 1,
+          "cullMode": 2,
+          "shadingMode": 0,
+          "specularMode": 2,
+          "disableAmbientLight": true,
+          "disableFog": true,
+          "vertexColorUseAsAlbedo": false,
+          "albedoColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "albedoTexture": "res://assets/particles/resources/Iskr_one_stitched.png",
+          "billboardMode": 3,
+          "animHFrames": 1,
+          "animVFrames": 1,
+          "animLoop": false,
+          "texture": "Iskr_one_stitched"
+        }
+      }
+    },
+    {
+      "name": "smoke3_trail",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotationDegrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emitting": true,
+      "amount": 256,
+      "amountRatio": 1.0,
+      "lifetime": 3.0,
+      "oneShot": false,
+      "preprocess": 0.28,
+      "speedScale": 1.0,
+      "explosiveness": 0.0,
+      "randomness": 0.0,
+      "fixedFps": 30,
+      "interpolate": true,
+      "fractDelta": true,
+      "localCoords": false,
+      "drawOrder": 0,
+      "transformAlign": 0,
+      "subEmitter": "",
+      "process": {
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "spread": 0.0,
+        "flatness": 0.0,
+        "initialVelocityMin": 0.0,
+        "initialVelocityMax": 0.0,
+        "angularVelocityMin": 0.0,
+        "angularVelocityMax": 0.0,
+        "radialVelocityMin": 0.0,
+        "radialVelocityMax": 0.0,
+        "gravity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "linearAccelMin": 0.0,
+        "linearAccelMax": 0.0,
+        "radialAccelMin": 0.0,
+        "radialAccelMax": 0.0,
+        "tangentialAccelMin": 0.0,
+        "tangentialAccelMax": 0.0,
+        "dampingMin": 0.0,
+        "dampingMax": 0.0,
+        "angleMin": -164.799987792969,
+        "angleMax": 138.800018310547,
+        "scaleMin": 0.799999952316284,
+        "scaleMax": 1.0,
+        "lifetimeRandomness": 0.0,
+        "animSpeedMin": 0.0,
+        "animSpeedMax": 0.0,
+        "animOffsetMin": 0.0,
+        "animOffsetMax": 0.0,
+        "hueVariationMin": 0.0,
+        "hueVariationMax": 0.0,
+        "emissionShape": 0,
+        "emissionSphereRadius": 1.0,
+        "emissionBoxExtents": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alignY": false,
+        "rotateY": false,
+        "disableZ": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "subEmitterMode": 0,
+        "subEmitterFrequency": 4.0,
+        "subEmitterAmountAtEnd": 1,
+        "collisionMode": 0,
+        "scaleCurve": [
+          0.0,
+          0.0112710753455758,
+          0.0430224351584911,
+          0.0923323035240173,
+          0.156278893351555,
+          0.231940418481827,
+          0.316414445638657,
+          0.406746327877045,
+          0.5,
+          0.593253612518311,
+          0.683585524559021,
+          0.768059492111206,
+          0.843721091747284,
+          0.907667696475983,
+          0.956977546215057,
+          0.988728880882263,
+          1.0
+        ],
+        "colorRamp": [
+          {
+            "offset": 0.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          }
+        ]
+      },
+      "mesh": {
+        "class": "QuadMesh",
+        "size": [
+          0.75,
+          0.75
+        ],
+        "centerOffset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": {
+          "transparency": 1,
+          "blendMode": 1,
+          "cullMode": 2,
+          "shadingMode": 0,
+          "specularMode": 2,
+          "disableAmbientLight": true,
+          "disableFog": true,
+          "vertexColorUseAsAlbedo": true,
+          "albedoColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "albedoTexture": "res://assets/particles/resources/expq_stitched.png",
+          "billboardMode": 3,
+          "animHFrames": 1,
+          "animVFrames": 1,
+          "animLoop": false,
+          "texture": "expq_stitched"
+        }
+      }
+    },
+    {
+      "name": "iskr",
+      "position": [
+        4.40148761882142e-09,
+        0.0,
+        0.0750436782836914
+      ],
+      "rotationDegrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emitting": false,
+      "amount": 256,
+      "amountRatio": 1.0,
+      "lifetime": 1.5,
+      "oneShot": true,
+      "preprocess": 0.0,
+      "speedScale": 1.0,
+      "explosiveness": 1.0,
+      "randomness": 0.0,
+      "fixedFps": 30,
+      "interpolate": true,
+      "fractDelta": true,
+      "localCoords": false,
+      "drawOrder": 0,
+      "transformAlign": 0,
+      "subEmitter": "",
+      "process": {
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "spread": 15.6850004196167,
+        "flatness": 0.0,
+        "initialVelocityMin": 0.0,
+        "initialVelocityMax": 0.0,
+        "angularVelocityMin": 0.0,
+        "angularVelocityMax": 0.0,
+        "radialVelocityMin": 9.99997711181641,
+        "radialVelocityMax": 49.9999771118164,
+        "gravity": [
+          0.0,
+          -9.80000019073486,
+          0.0
+        ],
+        "linearAccelMin": 0.0,
+        "linearAccelMax": 0.0,
+        "radialAccelMin": 0.0,
+        "radialAccelMax": 0.0,
+        "tangentialAccelMin": 0.0,
+        "tangentialAccelMax": 0.0,
+        "dampingMin": 0.0,
+        "dampingMax": 0.0,
+        "angleMin": 0.0,
+        "angleMax": 0.0,
+        "scaleMin": 0.399999976158142,
+        "scaleMax": 1.0,
+        "lifetimeRandomness": 0.0,
+        "animSpeedMin": 0.0,
+        "animSpeedMax": 0.0,
+        "animOffsetMin": 0.0,
+        "animOffsetMax": 0.0,
+        "hueVariationMin": 0.0,
+        "hueVariationMax": 0.0,
+        "emissionShape": 0,
+        "emissionSphereRadius": 1.0,
+        "emissionBoxExtents": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alignY": true,
+        "rotateY": false,
+        "disableZ": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "subEmitterMode": 0,
+        "subEmitterFrequency": 4.0,
+        "subEmitterAmountAtEnd": 1,
+        "collisionMode": 0
+      },
+      "mesh": {
+        "class": "QuadMesh",
+        "size": [
+          0.0199999995529652,
+          0.5
+        ],
+        "centerOffset": [
+          0.0,
+          0.0299999993294477,
+          0.0
+        ],
+        "material": {
+          "transparency": 0,
+          "blendMode": 1,
+          "cullMode": 2,
+          "shadingMode": 0,
+          "specularMode": 2,
+          "disableAmbientLight": true,
+          "disableFog": true,
+          "vertexColorUseAsAlbedo": false,
+          "albedoColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "albedoTexture": "res://assets/particles/resources/Iskr_one_stitched.png",
+          "billboardMode": 0,
+          "animHFrames": 1,
+          "animVFrames": 1,
+          "animLoop": false,
+          "texture": "Iskr_one_stitched"
+        }
+      }
+    },
+    {
+      "name": "smoke",
+      "position": [
+        -2.09691997099526e-09,
+        0.0,
+        -0.0479719340801239
+      ],
+      "rotationDegrees": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emitting": false,
+      "amount": 8,
+      "amountRatio": 1.0,
+      "lifetime": 4.0,
+      "oneShot": true,
+      "preprocess": 0.0,
+      "speedScale": 1.0,
+      "explosiveness": 0.879999995231628,
+      "randomness": 0.400000005960464,
+      "fixedFps": 30,
+      "interpolate": true,
+      "fractDelta": true,
+      "localCoords": false,
+      "drawOrder": 0,
+      "transformAlign": 3,
+      "subEmitter": "",
+      "process": {
+        "direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "spread": 32.2249984741211,
+        "flatness": 0.0,
+        "initialVelocityMin": 0.0999999940395355,
+        "initialVelocityMax": 1.0,
+        "angularVelocityMin": -114.390014648438,
+        "angularVelocityMax": 272.459991455078,
+        "radialVelocityMin": 0.0,
+        "radialVelocityMax": 0.0,
+        "gravity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "linearAccelMin": 0.0,
+        "linearAccelMax": 0.0,
+        "radialAccelMin": 0.0,
+        "radialAccelMax": 0.0,
+        "tangentialAccelMin": 0.0,
+        "tangentialAccelMax": 0.0,
+        "dampingMin": 0.0,
+        "dampingMax": 0.0,
+        "angleMin": -112.799987792969,
+        "angleMax": 147.500015258789,
+        "scaleMin": 1.0,
+        "scaleMax": 1.29999995231628,
+        "lifetimeRandomness": 0.0,
+        "animSpeedMin": 0.0,
+        "animSpeedMax": 0.0,
+        "animOffsetMin": 0.0,
+        "animOffsetMax": 0.0,
+        "hueVariationMin": 0.0,
+        "hueVariationMax": 0.0,
+        "emissionShape": 1,
+        "emissionSphereRadius": 1.0,
+        "emissionBoxExtents": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alignY": false,
+        "rotateY": false,
+        "disableZ": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "subEmitterMode": 0,
+        "subEmitterFrequency": 4.0,
+        "subEmitterAmountAtEnd": 1,
+        "collisionMode": 0,
+        "colorRamp": [
+          {
+            "offset": 0.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "mesh": {
+        "class": "QuadMesh",
+        "size": [
+          5.0,
+          5.0
+        ],
+        "centerOffset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": {
+          "transparency": 1,
+          "blendMode": 1,
+          "cullMode": 0,
+          "shadingMode": 0,
+          "specularMode": 2,
+          "disableAmbientLight": true,
+          "disableFog": true,
+          "vertexColorUseAsAlbedo": true,
+          "albedoColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "albedoTexture": "res://assets/particles/resources/expq_stitched.png",
+          "billboardMode": 0,
+          "animHFrames": 1,
+          "animVFrames": 1,
+          "animLoop": false,
+          "texture": "expq_stitched"
+        }
+      }
+    },
+    {
+      "name": "smoke2",
+      "position": [
+        -2.09691997099526e-09,
+        0.0,
+        -0.0479719340801239
+      ],
+      "rotationDegrees": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emitting": false,
+      "amount": 4,
+      "amountRatio": 1.0,
+      "lifetime": 5.0,
+      "oneShot": true,
+      "preprocess": 0.0,
+      "speedScale": 1.0,
+      "explosiveness": 0.879999995231628,
+      "randomness": 0.400000005960464,
+      "fixedFps": 30,
+      "interpolate": true,
+      "fractDelta": true,
+      "localCoords": false,
+      "drawOrder": 0,
+      "transformAlign": 0,
+      "subEmitter": "",
+      "process": {
+        "direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "spread": 32.2249984741211,
+        "flatness": 0.0,
+        "initialVelocityMin": 0.0999999940395355,
+        "initialVelocityMax": 1.0,
+        "angularVelocityMin": -114.390014648438,
+        "angularVelocityMax": 272.459991455078,
+        "radialVelocityMin": -0.300022333860397,
+        "radialVelocityMax": 0.299977630376816,
+        "gravity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "linearAccelMin": 0.0,
+        "linearAccelMax": 0.0,
+        "radialAccelMin": 0.0,
+        "radialAccelMax": 0.0,
+        "tangentialAccelMin": 0.0,
+        "tangentialAccelMax": 0.0,
+        "dampingMin": 0.0,
+        "dampingMax": 0.0,
+        "angleMin": -112.799987792969,
+        "angleMax": 147.500015258789,
+        "scaleMin": 1.0,
+        "scaleMax": 1.29999995231628,
+        "lifetimeRandomness": 0.0,
+        "animSpeedMin": -1.0,
+        "animSpeedMax": -1.0,
+        "animOffsetMin": 0.0,
+        "animOffsetMax": 0.0,
+        "hueVariationMin": 0.0,
+        "hueVariationMax": 0.0,
+        "emissionShape": 1,
+        "emissionSphereRadius": 1.0,
+        "emissionBoxExtents": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alignY": false,
+        "rotateY": false,
+        "disableZ": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "subEmitterMode": 0,
+        "subEmitterFrequency": 4.0,
+        "subEmitterAmountAtEnd": 1,
+        "collisionMode": 0,
+        "scaleCurve": [
+          0.0,
+          0.0112710753455758,
+          0.0430224351584911,
+          0.0923323035240173,
+          0.156278893351555,
+          0.231940418481827,
+          0.316414445638657,
+          0.406746327877045,
+          0.5,
+          0.593253612518311,
+          0.683585524559021,
+          0.768059492111206,
+          0.843721091747284,
+          0.907667696475983,
+          0.956977546215057,
+          0.988728880882263,
+          1.0
+        ],
+        "colorRamp": [
+          {
+            "offset": 0.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "mesh": {
+        "class": "QuadMesh",
+        "size": [
+          3.0,
+          3.0
+        ],
+        "centerOffset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": {
+          "transparency": 1,
+          "blendMode": 1,
+          "cullMode": 0,
+          "shadingMode": 0,
+          "specularMode": 2,
+          "disableAmbientLight": true,
+          "disableFog": true,
+          "vertexColorUseAsAlbedo": true,
+          "albedoColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.219607844948769
+          ],
+          "albedoTexture": "res://assets/particles/resources/exp_anim_L_stitched.png",
+          "billboardMode": 3,
+          "animHFrames": 29,
+          "animVFrames": 1,
+          "animLoop": true,
+          "texture": "exp_anim_L_stitched"
+        }
+      }
+    },
+    {
+      "name": "smoke_loop",
+      "position": [
+        -2.09691997099526e-09,
+        0.583299279212952,
+        -0.0479719340801239
+      ],
+      "rotationDegrees": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emitting": true,
+      "amount": 16,
+      "amountRatio": 1.0,
+      "lifetime": 3.0,
+      "oneShot": false,
+      "preprocess": 0.0,
+      "speedScale": 1.0,
+      "explosiveness": 0.0,
+      "randomness": 0.400000005960464,
+      "fixedFps": 30,
+      "interpolate": true,
+      "fractDelta": true,
+      "localCoords": false,
+      "drawOrder": 0,
+      "transformAlign": 0,
+      "subEmitter": "",
+      "process": {
+        "direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "spread": 32.2249984741211,
+        "flatness": 0.0,
+        "initialVelocityMin": 0.0999999940395355,
+        "initialVelocityMax": 1.0,
+        "angularVelocityMin": -30.0000152587891,
+        "angularVelocityMax": 29.9999828338623,
+        "radialVelocityMin": -0.300022333860397,
+        "radialVelocityMax": 0.299977630376816,
+        "gravity": [
+          0.0,
+          2.0,
+          0.0
+        ],
+        "linearAccelMin": 0.0,
+        "linearAccelMax": 0.0,
+        "radialAccelMin": 0.0,
+        "radialAccelMax": 0.0,
+        "tangentialAccelMin": 0.0,
+        "tangentialAccelMax": 0.0,
+        "dampingMin": 0.0,
+        "dampingMax": 0.0,
+        "angleMin": -112.799987792969,
+        "angleMax": 147.500015258789,
+        "scaleMin": 1.0,
+        "scaleMax": 1.29999995231628,
+        "lifetimeRandomness": 0.0,
+        "animSpeedMin": -1.0,
+        "animSpeedMax": -1.0,
+        "animOffsetMin": 0.0,
+        "animOffsetMax": 0.0,
+        "hueVariationMin": 0.0,
+        "hueVariationMax": 0.0,
+        "emissionShape": 1,
+        "emissionSphereRadius": 1.00999999046326,
+        "emissionBoxExtents": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alignY": false,
+        "rotateY": false,
+        "disableZ": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "subEmitterMode": 0,
+        "subEmitterFrequency": 4.0,
+        "subEmitterAmountAtEnd": 1,
+        "collisionMode": 0,
+        "scaleCurve": [
+          0.0,
+          0.0112710753455758,
+          0.0430224351584911,
+          0.0923323035240173,
+          0.156278893351555,
+          0.231940418481827,
+          0.316414445638657,
+          0.406746327877045,
+          0.5,
+          0.593253612518311,
+          0.683585524559021,
+          0.768059492111206,
+          0.843721091747284,
+          0.907667696475983,
+          0.956977546215057,
+          0.988728880882263,
+          1.0
+        ],
+        "colorRamp": [
+          {
+            "offset": 0.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "mesh": {
+        "class": "QuadMesh",
+        "size": [
+          3.0,
+          3.0
+        ],
+        "centerOffset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": {
+          "transparency": 1,
+          "blendMode": 0,
+          "cullMode": 0,
+          "shadingMode": 0,
+          "specularMode": 2,
+          "disableAmbientLight": true,
+          "disableFog": true,
+          "vertexColorUseAsAlbedo": true,
+          "albedoColor": [
+            0.122252278029919,
+            0.122252218425274,
+            0.122252233326435,
+            1.0
+          ],
+          "albedoTexture": "res://assets/particles/resources/o2SMOKEB_stitched.png",
+          "billboardMode": 3,
+          "animHFrames": 1,
+          "animVFrames": 1,
+          "animLoop": true,
+          "texture": "o2SMOKEB_stitched"
+        }
+      }
+    },
+    {
+      "name": "fire_loop",
+      "position": [
+        -2.09691997099526e-09,
+        0.245496034622192,
+        -0.0479719340801239
+      ],
+      "rotationDegrees": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emitting": true,
+      "amount": 4,
+      "amountRatio": 1.0,
+      "lifetime": 1.0,
+      "oneShot": false,
+      "preprocess": 0.0,
+      "speedScale": 1.0,
+      "explosiveness": 0.0,
+      "randomness": 0.400000005960464,
+      "fixedFps": 30,
+      "interpolate": true,
+      "fractDelta": true,
+      "localCoords": false,
+      "drawOrder": 0,
+      "transformAlign": 0,
+      "subEmitter": "",
+      "process": {
+        "direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "spread": 32.2249984741211,
+        "flatness": 0.0,
+        "initialVelocityMin": 0.0999999940395355,
+        "initialVelocityMax": 1.0,
+        "angularVelocityMin": -30.0000152587891,
+        "angularVelocityMax": 29.9999828338623,
+        "radialVelocityMin": -0.300022333860397,
+        "radialVelocityMax": 0.299977630376816,
+        "gravity": [
+          0.0,
+          2.0,
+          0.0
+        ],
+        "linearAccelMin": 0.0,
+        "linearAccelMax": 0.0,
+        "radialAccelMin": 0.0,
+        "radialAccelMax": 0.0,
+        "tangentialAccelMin": 0.0,
+        "tangentialAccelMax": 0.0,
+        "dampingMin": 0.0,
+        "dampingMax": 0.0,
+        "angleMin": -112.799987792969,
+        "angleMax": 147.500015258789,
+        "scaleMin": 1.0,
+        "scaleMax": 1.29999995231628,
+        "lifetimeRandomness": 0.0,
+        "animSpeedMin": -1.0,
+        "animSpeedMax": -1.0,
+        "animOffsetMin": 0.0,
+        "animOffsetMax": 0.0,
+        "hueVariationMin": 0.0,
+        "hueVariationMax": 0.0,
+        "emissionShape": 1,
+        "emissionSphereRadius": 0.649999976158142,
+        "emissionBoxExtents": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alignY": false,
+        "rotateY": false,
+        "disableZ": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "subEmitterMode": 0,
+        "subEmitterFrequency": 4.0,
+        "subEmitterAmountAtEnd": 1,
+        "collisionMode": 0,
+        "scaleCurve": [
+          0.0,
+          0.0112710753455758,
+          0.0430224351584911,
+          0.0923323035240173,
+          0.156278893351555,
+          0.231940418481827,
+          0.316414445638657,
+          0.406746327877045,
+          0.5,
+          0.593253612518311,
+          0.683585524559021,
+          0.768059492111206,
+          0.843721091747284,
+          0.907667696475983,
+          0.956977546215057,
+          0.988728880882263,
+          1.0
+        ],
+        "colorRamp": [
+          {
+            "offset": 0.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "mesh": {
+        "class": "QuadMesh",
+        "size": [
+          3.0,
+          3.0
+        ],
+        "centerOffset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": {
+          "transparency": 1,
+          "blendMode": 1,
+          "cullMode": 0,
+          "shadingMode": 0,
+          "specularMode": 2,
+          "disableAmbientLight": true,
+          "disableFog": true,
+          "vertexColorUseAsAlbedo": true,
+          "albedoColor": [
+            1.0,
+            1.0,
+            1.0,
+            0.364705890417099
+          ],
+          "albedoTexture": "res://assets/particles/resources/hit_anim_07_stitched.png",
+          "billboardMode": 3,
+          "animHFrames": 1,
+          "animVFrames": 1,
+          "animLoop": true,
+          "texture": "hit_anim_07_stitched"
+        }
+      }
+    },
+    {
+      "name": "fire2_loop",
+      "position": [
+        -2.09691997099526e-09,
+        0.0,
+        -0.0479719340801239
+      ],
+      "rotationDegrees": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emitting": true,
+      "amount": 4,
+      "amountRatio": 1.0,
+      "lifetime": 1.0,
+      "oneShot": false,
+      "preprocess": 0.0,
+      "speedScale": 1.0,
+      "explosiveness": 0.0,
+      "randomness": 0.400000005960464,
+      "fixedFps": 30,
+      "interpolate": true,
+      "fractDelta": true,
+      "localCoords": false,
+      "drawOrder": 0,
+      "transformAlign": 0,
+      "subEmitter": "",
+      "process": {
+        "direction": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "spread": 32.2249984741211,
+        "flatness": 0.0,
+        "initialVelocityMin": 0.0999999940395355,
+        "initialVelocityMax": 1.0,
+        "angularVelocityMin": -30.0000152587891,
+        "angularVelocityMax": 29.9999828338623,
+        "radialVelocityMin": -0.300022333860397,
+        "radialVelocityMax": 0.299977630376816,
+        "gravity": [
+          0.0,
+          2.0,
+          0.0
+        ],
+        "linearAccelMin": 0.0,
+        "linearAccelMax": 0.0,
+        "radialAccelMin": 0.0,
+        "radialAccelMax": 0.0,
+        "tangentialAccelMin": 0.0,
+        "tangentialAccelMax": 0.0,
+        "dampingMin": 0.0,
+        "dampingMax": 0.0,
+        "angleMin": -112.799987792969,
+        "angleMax": 147.500015258789,
+        "scaleMin": 1.0,
+        "scaleMax": 1.29999995231628,
+        "lifetimeRandomness": 0.0,
+        "animSpeedMin": -1.0,
+        "animSpeedMax": -1.0,
+        "animOffsetMin": 0.0,
+        "animOffsetMax": 0.0,
+        "hueVariationMin": 0.0,
+        "hueVariationMax": 0.0,
+        "emissionShape": 1,
+        "emissionSphereRadius": 0.699999988079071,
+        "emissionBoxExtents": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alignY": false,
+        "rotateY": false,
+        "disableZ": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "subEmitterMode": 0,
+        "subEmitterFrequency": 4.0,
+        "subEmitterAmountAtEnd": 1,
+        "collisionMode": 0,
+        "scaleCurve": [
+          0.0,
+          0.0112710753455758,
+          0.0430224351584911,
+          0.0923323035240173,
+          0.156278893351555,
+          0.231940418481827,
+          0.316414445638657,
+          0.406746327877045,
+          0.5,
+          0.593253612518311,
+          0.683585524559021,
+          0.768059492111206,
+          0.843721091747284,
+          0.907667696475983,
+          0.956977546215057,
+          0.988728880882263,
+          1.0
+        ],
+        "colorRamp": [
+          {
+            "offset": 0.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "offset": 1.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          }
+        ]
+      },
+      "mesh": {
+        "class": "QuadMesh",
+        "size": [
+          3.0,
+          3.0
+        ],
+        "centerOffset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "material": {
+          "transparency": 1,
+          "blendMode": 1,
+          "cullMode": 0,
+          "shadingMode": 0,
+          "specularMode": 2,
+          "disableAmbientLight": true,
+          "disableFog": true,
+          "vertexColorUseAsAlbedo": true,
+          "albedoColor": [
+            0.796265006065369,
+            0.422435373067856,
+            0.0,
+            1.0
+          ],
+          "albedoTexture": "res://assets/particles/resources/o2_fire_anim_stitched.png",
+          "billboardMode": 3,
+          "animHFrames": 15,
+          "animVFrames": 1,
+          "animLoop": true,
+          "texture": "o2_fire_anim_stitched"
+        }
+      }
+    },
+    {
+      "name": "iskr_loop",
+      "position": [
+        4.40148761882142e-09,
+        0.0,
+        0.0750436782836914
+      ],
+      "rotationDegrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emitting": true,
+      "amount": 32,
+      "amountRatio": 1.0,
+      "lifetime": 1.5,
+      "oneShot": false,
+      "preprocess": 0.0,
+      "speedScale": 1.0,
+      "explosiveness": 0.0,
+      "randomness": 0.0,
+      "fixedFps": 30,
+      "interpolate": true,
+      "fractDelta": true,
+      "localCoords": false,
+      "drawOrder": 0,
+      "transformAlign": 0,
+      "subEmitter": "",
+      "process": {
+        "direction": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "spread": 15.6850004196167,
+        "flatness": 0.0,
+        "initialVelocityMin": 0.0,
+        "initialVelocityMax": 0.0,
+        "angularVelocityMin": 0.0,
+        "angularVelocityMax": 0.0,
+        "radialVelocityMin": 4.99997758865356,
+        "radialVelocityMax": 9.99997711181641,
+        "gravity": [
+          0.0,
+          -9.80000019073486,
+          0.0
+        ],
+        "linearAccelMin": 0.0,
+        "linearAccelMax": 0.0,
+        "radialAccelMin": 0.0,
+        "radialAccelMax": 0.0,
+        "tangentialAccelMin": 0.0,
+        "tangentialAccelMax": 0.0,
+        "dampingMin": 1.0,
+        "dampingMax": 1.0,
+        "angleMin": 0.0,
+        "angleMax": 0.0,
+        "scaleMin": 0.399999976158142,
+        "scaleMax": 1.0,
+        "lifetimeRandomness": 0.0,
+        "animSpeedMin": 0.0,
+        "animSpeedMax": 0.0,
+        "animOffsetMin": 0.0,
+        "animOffsetMax": 0.0,
+        "hueVariationMin": 0.0,
+        "hueVariationMax": 0.0,
+        "emissionShape": 0,
+        "emissionSphereRadius": 1.0,
+        "emissionBoxExtents": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alignY": true,
+        "rotateY": false,
+        "disableZ": false,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "subEmitterMode": 0,
+        "subEmitterFrequency": 4.0,
+        "subEmitterAmountAtEnd": 1,
+        "collisionMode": 0
+      },
+      "mesh": {
+        "class": "QuadMesh",
+        "size": [
+          0.0199999995529652,
+          0.5
+        ],
+        "centerOffset": [
+          0.0,
+          0.0299999993294477,
+          0.0
+        ],
+        "material": {
+          "transparency": 0,
+          "blendMode": 1,
+          "cullMode": 2,
+          "shadingMode": 0,
+          "specularMode": 2,
+          "disableAmbientLight": true,
+          "disableFog": true,
+          "vertexColorUseAsAlbedo": false,
+          "albedoColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "albedoTexture": "res://assets/particles/resources/Iskr_one_stitched.png",
+          "billboardMode": 0,
+          "animHFrames": 1,
+          "animVFrames": 1,
+          "animLoop": false,
+          "texture": "Iskr_one_stitched"
+        }
+      }
+    }
+  ],
+  "placement": {
+    "parent": "tank",
+    "name": "wreck_effect",
+    "scaleFactor": 0.0005,
+    "scaleFormula": "height * length * width * 0.0005",
+    "positionZ": "length * 0.2",
+    "positionY": "height * 0.5",
+    "startsHidden": true,
+    "startedBy": "health_component.on_death"
+  },
+  "death": {
+    "outlineOff": true,
+    "previewArmorOff": true,
+    "crashedShaderFlag": "crashed",
+    "blocked": true,
+    "spotted": true,
+    "refreshesTracks": true,
+    "plateCollisionLayerBit": 7
+  }
+}

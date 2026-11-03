@@ -1,0 +1,310 @@
+{
+  "sourceVersion": "11.20.0",
+  "profile": "blitz1120_marker",
+  "policy": "Modern ATGM shell icon atgm_heat; legacy T49 Rocket hc/he_premium retain their 4.8 trail",
+  "marker": {
+    "resource": "Atgm1120/Textures/aim_rocket_marker",
+    "logical_size": [
+      46.0,
+      34.0
+    ],
+    "native_pivot": [
+      0.5,
+      0.4
+    ],
+    "pixel_size": [
+      92,
+      68
+    ],
+    "pixel_sha256": "0c385d8c32b5ede2e0ba9f471535fe531a7df0f765f9eaed087a558c30c2fa0e",
+    "explosion": {
+      "seconds": 0.75,
+      "scale_to": 1.75,
+      "alpha_from": 1,
+      "alpha_to": 0
+    }
+  },
+  "effects": {
+    "AGTM_raketa": {
+      "resource": "Atgm1120/Sources/AGTM_raketa",
+      "layers": 7,
+      "types": [
+        "particles"
+      ]
+    },
+    "AGTM_Tracer_trail": {
+      "resource": "Atgm1120/Sources/AGTM_Tracer_trail",
+      "layers": 1,
+      "types": [
+        "particlesStripe"
+      ]
+    },
+    "AGTM_Explosion": {
+      "resource": "Atgm1120/Sources/AGTM_Explosion",
+      "layers": 14,
+      "types": [
+        "particles"
+      ]
+    }
+  },
+  "textures": {
+    "~res:/Gfx/Particles/AGTM/Shot_top_64": {
+      "resource": "Atgm1120/Textures/Shot_top_64_35e26b2f6d",
+      "width": 128,
+      "height": 128,
+      "frames": 4,
+      "cols": 2,
+      "rows": 2,
+      "pixel_sha256": "0488540fc949a2c72a31aef09234a6e0e36cc4e7be003ddeed5c36a42934d82a"
+    },
+    "~res:/Gfx/Particles/gun_effects_high/Shot_top_64": {
+      "resource": "Atgm1120/Textures/Shot_top_64_037c281930",
+      "width": 128,
+      "height": 128,
+      "frames": 4,
+      "cols": 2,
+      "rows": 2,
+      "pixel_sha256": "0488540fc949a2c72a31aef09234a6e0e36cc4e7be003ddeed5c36a42934d82a"
+    },
+    "~res:/Gfx/Particles/additive/Glow": {
+      "resource": "Atgm1120/Textures/Glow_7613236edf",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "pixel_sha256": "da628a83428f8fe29ccd4428436df72318450a38132ae12e5d884f6b562eb575"
+    },
+    "~res:/Gfx/Particles/AGTM/Shot_gun_medium_64": {
+      "resource": "Atgm1120/Textures/Shot_gun_medium_64_9ce4a90d7d",
+      "width": 128,
+      "height": 128,
+      "frames": 4,
+      "cols": 2,
+      "rows": 2,
+      "pixel_sha256": "ce55d1942a082484eeb269be471358f6e6e959c816ec65f03e9eee80c9961bce"
+    },
+    "~res:/Gfx/Particles/gun_effects_high/Shot_gun_medium_64": {
+      "resource": "Atgm1120/Textures/Shot_gun_medium_64_32d5d20f33",
+      "width": 128,
+      "height": 128,
+      "frames": 4,
+      "cols": 2,
+      "rows": 2,
+      "pixel_sha256": "ce55d1942a082484eeb269be471358f6e6e959c816ec65f03e9eee80c9961bce"
+    },
+    "~res:/Gfx/Particles/AGTM/Spark": {
+      "resource": "Atgm1120/Textures/Spark_749cc208c8",
+      "width": 92,
+      "height": 92,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "pixel_sha256": "54886221902b963e3127fc958753f18d73bac3b08b9bb641390d1d55848c6153"
+    },
+    "~res:/Gfx/Particles/ExplosionHigh/Fire_6x6_Blured/Spark": {
+      "resource": "Atgm1120/Textures/Spark_5801860516",
+      "width": 158,
+      "height": 158,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "pixel_sha256": "d82ead73351fe6c1d57bf57e6ea6e926f0aa631cdc5d7addc0740e59682da203"
+    },
+    "~res:/Gfx/Particles/AGTM/AGTM_trail/AGTM_trail": {
+      "resource": "Atgm1120/Textures/AGTM_trail_e06fb5bce1",
+      "width": 82,
+      "height": 256,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "pixel_sha256": "52f417a56c1f400fd0d670dcbaf3e51f822aed01929e5650c17c832f2037fe11"
+    },
+    "~res:/Gfx/Particles/alpha/explosion_smoke_b": {
+      "resource": "Atgm1120/Textures/explosion_smoke_b_fde6b470a0",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "pixel_sha256": "3fa7f24fecbcdeae18f31dfcc14337b8c2c5e04de79aaafd3bb80e3a0d4f607c"
+    },
+    "~res:/Gfx/Particles/gun_effects_high/smoke_dust_2/smoke_dust": {
+      "resource": "Atgm1120/Textures/smoke_dust_dfdaafbf69",
+      "width": 1280,
+      "height": 1280,
+      "frames": 24,
+      "cols": 5,
+      "rows": 5,
+      "pixel_sha256": "d2e48a3d23f55a016aa2b81198a1aa898a6f5ba60a3c1dd9fe44561e5da77c57"
+    },
+    "~res:/Gfx/Particles/alpha/tank_element_one": {
+      "resource": "Atgm1120/Textures/tank_element_one_e69316c6b2",
+      "width": 192,
+      "height": 192,
+      "frames": 9,
+      "cols": 3,
+      "rows": 3,
+      "pixel_sha256": "ae7bf48022b53d8e62ffa93a0a821b13f8b50902c1b935ff5b8632e6b20eec47"
+    },
+    "~res:/Gfx/Particles/ExplosionHigh/Fire_6x6_Blured/Debris_new": {
+      "resource": "Atgm1120/Textures/Debris_new_c07c581498",
+      "width": 128,
+      "height": 64,
+      "frames": 2,
+      "cols": 2,
+      "rows": 1,
+      "pixel_sha256": "878eb8feee57b15c744c5eabd79845a06b8456590863e2ebc9efa8ed4663b3ba"
+    },
+    "~res:/Gfx/Particles/additive/exp_anim_fire": {
+      "resource": "Atgm1120/Textures/exp_anim_fire_e3edead5ad",
+      "width": 640,
+      "height": 640,
+      "frames": 22,
+      "cols": 5,
+      "rows": 5,
+      "pixel_sha256": "9a345b2fcbcb67f8560b0911c42b2554f0206424d578a196e0638c32e053f8b6"
+    },
+    "~res:/Gfx/Particles/burning_effects_high/fireball_1/fireball_1": {
+      "resource": "Atgm1120/Textures/fireball_1_474ded6de9",
+      "width": 512,
+      "height": 512,
+      "frames": 16,
+      "cols": 4,
+      "rows": 4,
+      "pixel_sha256": "46edf4d756c54128d0300b382c5c2918e2e273db315aa6d616f5b045a61d1553"
+    }
+  },
+  "sources": [
+    {
+      "source": "Gfx/UI/BattleScreenHUD/texture0@2x.packed.webp.dvpl",
+      "role": "original-atlas",
+      "sha256": "76a7989b8d29910d4631c09d202d499fce66db699fa895fba74f2635d8708f1b"
+    },
+    {
+      "source": "Gfx/UI/BattleScreenHUD/aim_rocket_marker@2x.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "5bb9a0273b886e70e1609b78598fdeab7e0289d23f9f7457a06d50fe93989312"
+    },
+    {
+      "source": "from_apk/UI/Screens/Battle/AtgmMarker.yaml",
+      "role": "original-marker-layout",
+      "sha256": "9bb867de1cc47dcdd4c8847ddbdaaa744ced20f74da4dc961fe6f39e23134be5"
+    },
+    {
+      "source": "from_apk/UI/Screens/Battle/AtgmMarkerExplosionAnimation.animation",
+      "role": "original-marker-animation",
+      "sha256": "183ec842a6f39b84e517b72be3d6f2c5e4ba117d2a4f4bd46aaf8752315445e9"
+    },
+    {
+      "source": "from_apk/3d/FX/ATGM_fx/AGTM_raketa.sc2",
+      "role": "original-atgm-fx",
+      "sha256": "8e196206aa8c8dbe52fbd74c8ba3d96cc16ace34dfa8e5e5f7d78725236fffa8"
+    },
+    {
+      "source": "Gfx/Particles/AGTM/texture0.packed.webp.dvpl",
+      "role": "original-atlas",
+      "sha256": "d551abe46bb08ed664d1f8243c6a8aaa12a2afdee3becd7f975921a7092925e5"
+    },
+    {
+      "source": "Gfx/Particles/AGTM/Shot_top_64.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "93dfa670ec5066db9d51a685fb4983f27f5bdf10e4da33bcfc428e69a0aee435"
+    },
+    {
+      "source": "Gfx/Particles/gun_effects_high/texture0.packed.webp.dvpl",
+      "role": "original-atlas",
+      "sha256": "a499ea64f9acef981b51accd3ebc65439363e30bba1403251db0427f68320002"
+    },
+    {
+      "source": "Gfx/Particles/gun_effects_high/Shot_top_64.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "9529cce31c6e045f882145a3d335a13575cfc5450f190804ce01588a11501a3a"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/additive/texture0.packed.webp",
+      "role": "original-atlas",
+      "sha256": "b3cbe16b7cbc43894d745a1827465f342963bcab8fda55cf15b88eef8f0a7124"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/additive/Glow.txt",
+      "role": "original-sprite-descriptor",
+      "sha256": "d8577d94cce5b3a7d187d1d4d8183b5b43a003c6c4a30739c8cb9c8ae8b074f5"
+    },
+    {
+      "source": "Gfx/Particles/AGTM/Shot_gun_medium_64.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "9e288abc156692bc6bac01886f27e74261bf794fbdde51da18ba63b744122050"
+    },
+    {
+      "source": "Gfx/Particles/gun_effects_high/Shot_gun_medium_64.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "c2f4538b8ca1a06b063407030a5f637e1f31295efa3e5facbc048fdc0fee10e5"
+    },
+    {
+      "source": "Gfx/Particles/AGTM/Spark.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "21614a0e7bcdd21269ffa117b0a01e5ba808c8937472f540c0dce81ac7912500"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/ExplosionHigh/Fire_6x6_Blured/texture0.packed.webp",
+      "role": "original-atlas",
+      "sha256": "4afb2169823b7e731e5371ecfc5156fc6349b1cdc536c8a83b0a162de1bbbb82"
+    },
+    {
+      "source": "Gfx/Particles/ExplosionHigh/Fire_6x6_Blured/Spark.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "fa0219127109fca52fc8cfa7ce13ec43bb9bb8d7a3ffe24078ff2b4f35226f61"
+    },
+    {
+      "source": "from_apk/3d/FX/ATGM_fx/AGTM_Tracer_trail.sc2",
+      "role": "original-atgm-fx",
+      "sha256": "cbe29677a22845e3ad687fb2511ee6f0536d65036bbe9e9bc0996a9ccdbe9f5a"
+    },
+    {
+      "source": "Gfx/Particles/AGTM/AGTM_trail/AGTM_trail.packed.webp.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "34bb1b0630c6d54e63053e71acdbadb24a28533ea9d838ac4db2806a64ef6017"
+    },
+    {
+      "source": "from_apk/3d/FX/ATGM_fx/AGTM_Explosion.sc2",
+      "role": "original-atgm-fx",
+      "sha256": "8f1ec51d4ccb9673dafe6dda3f1dec0f534d47e7ddf46bf64cbf62cc901399b7"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/alpha/texture0.packed.webp",
+      "role": "original-atlas",
+      "sha256": "6c6bd30c584aac0722a7e4085ed6fb173b318e8432b5571df98d13165fbf4cf5"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/alpha/explosion_smoke_b.txt",
+      "role": "original-sprite-descriptor",
+      "sha256": "37c8b381622662a796107ad6377de631196b650a338e3fa6d66e40c9d6c97e56"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/gun_effects_high/smoke_dust_2/smoke_dust.packed.webp",
+      "role": "original-sprite-descriptor",
+      "sha256": "5be834cd3952890a777b4761805bee4dc6f64623d891ca1a15e743b836c6a0ee"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/alpha/tank_element_one.txt",
+      "role": "original-sprite-descriptor",
+      "sha256": "efd9809a64529172f4da2f0f0639f3411c9b52878e9a47dd31a969525b544510"
+    },
+    {
+      "source": "Gfx/Particles/ExplosionHigh/Fire_6x6_Blured/Debris_new.txt.dvpl",
+      "role": "original-sprite-descriptor",
+      "sha256": "f096154281f038cda8d6402885e8e9b9b42e880d88d0cd89e8a7590ae5f10129"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/additive/exp_anim_fire.txt",
+      "role": "original-sprite-descriptor",
+      "sha256": "f1eea7d6ae020bfb9a091cc3ef0c78a0d7dddceeef9f0ee5cd79b0be088bd126"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/burning_effects_high/fireball_1/fireball_1.packed.webp",
+      "role": "original-sprite-descriptor",
+      "sha256": "3b954b18c43afd52ef6775ca93b6d727dc91569efdee21401e2c5dc01b647224"
+    }
+  ]
+}

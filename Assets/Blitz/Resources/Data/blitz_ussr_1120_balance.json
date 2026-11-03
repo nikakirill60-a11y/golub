@@ -1,0 +1,639 @@
+{
+  "baseline": "520 preserved Unity cards; same-tier/class researchable competitors",
+  "policy": "Keep the 11.20 armour/projectiles/HP/handling; tune only reload and mobility ceilings.\n\nDPM is capped at the median of CURRENT researchable single-shot tier X mediums,\nusing each tank's final turret/gun and standard shell. Magazine/autoreload guns\nstay in the mobility comparison but not in this single-shot firepower budget.\nReload rounds upward to 0.1 s, never making the source gun faster. Forward/reverse\nspeed and installed specific power cannot exceed the best current tier X medium.\nThe source's lower 1800 HP, 248 mm standard penetration and 0.12 movement bloom\nremain trade-offs for its accurate gun and mobility; no armour or shell is edited.",
+  "limitations": "Static equipped-stock comparisons without equipment or crew modifiers; not live PvP win-rate validation. Source armour and projectile geometry unchanged.",
+  "tanks": [
+    {
+      "name": "object_907",
+      "level": 10,
+      "class": 1,
+      "competitors": [
+        "ch19_121",
+        "e50_ausf_m",
+        "f119_projet_murat",
+        "gb70_fv4202_105",
+        "it08_progetto_m40_mod65",
+        "leopard1",
+        "m48a1",
+        "object_140",
+        "st_b1",
+        "t62a"
+      ],
+      "single_shot_competitors": [
+        "ch19_121",
+        "e50_ausf_m",
+        "gb70_fv4202_105",
+        "leopard1",
+        "m48a1",
+        "object_140",
+        "st_b1",
+        "t62a"
+      ],
+      "peer_observations": [
+        {
+          "name": "ch19_121",
+          "single_shot": true,
+          "alpha": 400,
+          "reload": 11.5,
+          "dispersion": 0.37,
+          "aim_time": 1.0,
+          "total_health": 1800.0,
+          "max_sustained_dpm": 2086.9565217391305,
+          "speed_forward": 56.0,
+          "speed_backward": 20.0,
+          "power_per_ton": 14.987080103359174,
+          "view_range": 260.0
+        },
+        {
+          "name": "e50_ausf_m",
+          "single_shot": true,
+          "alpha": 350,
+          "reload": 8.48,
+          "dispersion": 0.3,
+          "aim_time": 2.1,
+          "total_health": 1900.0,
+          "max_sustained_dpm": 2476.4150943396226,
+          "speed_forward": 60.0,
+          "speed_backward": 20.0,
+          "power_per_ton": 19.351717464925013,
+          "view_range": 260.0
+        },
+        {
+          "name": "f119_projet_murat",
+          "single_shot": false,
+          "alpha": 390,
+          "reload": 16.5,
+          "dispersion": 0.365,
+          "aim_time": 1.92,
+          "total_health": 1800.0,
+          "max_sustained_dpm": 2529.7297297297296,
+          "speed_forward": 62.0,
+          "speed_backward": 21.0,
+          "power_per_ton": 20.311341734618235,
+          "view_range": 260.0
+        },
+        {
+          "name": "gb70_fv4202_105",
+          "single_shot": true,
+          "alpha": 350,
+          "reload": 8.2,
+          "dispersion": 0.32,
+          "aim_time": 2.1,
+          "total_health": 1800.0,
+          "max_sustained_dpm": 2560.9756097560976,
+          "speed_forward": 50.0,
+          "speed_backward": 20.0,
+          "power_per_ton": 20.403022670025187,
+          "view_range": 265.0
+        },
+        {
+          "name": "it08_progetto_m40_mod65",
+          "single_shot": false,
+          "alpha": 350,
+          "reload": 20.200037,
+          "dispersion": 0.36,
+          "aim_time": 1.83,
+          "total_health": 1800,
+          "max_sustained_dpm": 2194.7153553468856,
+          "speed_forward": 56.0,
+          "speed_backward": 23.0,
+          "power_per_ton": 19.862996256589167,
+          "view_range": 260.0
+        },
+        {
+          "name": "leopard1",
+          "single_shot": true,
+          "alpha": 350,
+          "reload": 7.0,
+          "dispersion": 0.3,
+          "aim_time": 2.0,
+          "total_health": 1850.0,
+          "max_sustained_dpm": 3000.0,
+          "speed_forward": 65.0,
+          "speed_backward": 23.0,
+          "power_per_ton": 20.906801007556677,
+          "view_range": 265.0
+        },
+        {
+          "name": "m48a1",
+          "single_shot": true,
+          "alpha": 350,
+          "reload": 7.780397,
+          "dispersion": 0.36,
+          "aim_time": 2.0,
+          "total_health": 1850.0,
+          "max_sustained_dpm": 2699.091061805715,
+          "speed_forward": 48.0,
+          "speed_backward": 20.0,
+          "power_per_ton": 17.081760475758664,
+          "view_range": 270.0
+        },
+        {
+          "name": "object_140",
+          "single_shot": true,
+          "alpha": 310,
+          "reload": 6.15,
+          "dispersion": 0.35,
+          "aim_time": 2.0,
+          "total_health": 1850.0,
+          "max_sustained_dpm": 3024.3902439024387,
+          "speed_forward": 55.0,
+          "speed_backward": 20.0,
+          "power_per_ton": 16.24649859943978,
+          "view_range": 260.0
+        },
+        {
+          "name": "st_b1",
+          "single_shot": true,
+          "alpha": 350,
+          "reload": 7.7,
+          "dispersion": 0.36,
+          "aim_time": 2.1,
+          "total_health": 1850.0,
+          "max_sustained_dpm": 2727.272727272727,
+          "speed_forward": 53.0,
+          "speed_backward": 20.0,
+          "power_per_ton": 20.21563342318059,
+          "view_range": 270.0
+        },
+        {
+          "name": "t62a",
+          "single_shot": true,
+          "alpha": 310,
+          "reload": 6.15,
+          "dispersion": 0.3,
+          "aim_time": 1.5,
+          "total_health": 1900.0,
+          "max_sustained_dpm": 3024.3902439024387,
+          "speed_forward": 50.0,
+          "speed_backward": 20.0,
+          "power_per_ton": 15.80381471389646,
+          "view_range": 260.0
+        }
+      ],
+      "limits": {
+        "single_shot_dpm_median": 2713.181894539221,
+        "max_power_per_ton": 20.906801007556677,
+        "speed_limits": {
+          "x": 65.0,
+          "y": 23.0
+        },
+        "reload_step_seconds": 0.1
+      },
+      "original_metrics": {
+        "total_health": 1800.0,
+        "max_sustained_dpm": 2865.6716417910447,
+        "speed_forward": 60.0,
+        "speed_backward": 25.0,
+        "power_per_ton": 22.296918767507,
+        "view_range": 260.0
+      },
+      "balanced_metrics": {
+        "total_health": 1800.0,
+        "max_sustained_dpm": 2704.2253521126763,
+        "speed_forward": 60.0,
+        "speed_backward": 23.0,
+        "power_per_ton": 20.896358543417367,
+        "view_range": 260.0
+      },
+      "original": {
+        "name": "object_907",
+        "display_name": "Объект 907",
+        "display_name_short": "Об. 907",
+        "health": 1440,
+        "lvl": 10,
+        "tank_class": 1,
+        "nation": 1,
+        "spot_radius": 260.0,
+        "speed_limits": {
+          "x": 60.0,
+          "y": 25.0
+        },
+        "turret_rot_speed": 48.0,
+        "turret_health": 360.0,
+        "repair_cost": 0.0,
+        "ammo_bay": {
+          "health": 210.0,
+          "max_regen_health": 140.0,
+          "repair_cost": 0.0
+        },
+        "fuel_tank": {
+          "health": 200.0,
+          "max_regen_health": 80.0,
+          "repair_cost": 0.0
+        },
+        "crew": [
+          "commander",
+          "driver",
+          "gunner",
+          "radioman",
+          "loader"
+        ],
+        "crew_xp_factor": 1.0,
+        "farm_coeff": 1.0,
+        "tree_tank": false,
+        "cost": 0,
+        "cost_xp": 0,
+        "hull_weight": 17363.0,
+        "model_path": "Tanks/USSR/Object_907.sc2",
+        "source": "from_apk/XML/item_defs/vehicles/ussr/Object_907.xml",
+        "source_sha256": "c294bb8cd4aae2c9b42207787659ba068f87c883fca7e0c4a9c3a8d96c7964b0",
+        "unlock_tanks": {},
+        "guns": [
+          {
+            "kind": "gun",
+            "name": "_100mm_D54_M1",
+            "display_name": "D54 M1",
+            "level": 10,
+            "cost_xp": 0,
+            "health": 194.0,
+            "weight": 2557.0,
+            "reload": 6.7,
+            "aim_time": 1.8,
+            "disp": 0.3,
+            "rot_speed": 33.25,
+            "max_ammo": 55,
+            "caliber": 100,
+            "deviation_up": {
+              "x": 16.0,
+              "y": 7.0
+            },
+            "deviation_r": {
+              "x": 180.0,
+              "y": 180.0
+            },
+            "disp_factors": {
+              "x": 0.06,
+              "y": 4.0,
+              "z": 2.0
+            },
+            "impulse_mul": 0.44,
+            "fire_mode": 0,
+            "burst_info": {
+              "kind": "burst"
+            },
+            "shot_sound": 3,
+            "shells": [
+              {
+                "kind": "shell",
+                "name": "100 мм УБР 412Б2 907",
+                "caliber": 100,
+                "dmg": 320,
+                "dmg_devices": 135,
+                "pen": 248,
+                "speed": 1400,
+                "cost": 0,
+                "type": 1,
+                "ricochet_angle": 70.0
+              },
+              {
+                "kind": "shell",
+                "name": "100 мм 3УБК4М 907",
+                "caliber": 100,
+                "dmg": 270,
+                "dmg_devices": 135,
+                "pen": 300,
+                "speed": 790,
+                "cost": 4000,
+                "type": 2,
+                "ricochet_angle": 85.0,
+                "premium": true
+              },
+              {
+                "kind": "shell",
+                "name": "100 мм 3УОФ10 907",
+                "caliber": 100,
+                "dmg": 420,
+                "dmg_devices": 135,
+                "pen": 50,
+                "speed": 710,
+                "cost": 0,
+                "type": 3,
+                "explosion_radius": 1.76
+              }
+            ],
+            "unlocks": {},
+            "max_regen_health": 97.0,
+            "repair_cost": 0.0
+          }
+        ],
+        "turrets": [
+          {
+            "kind": "turret",
+            "name": "Turret_1_Object_907",
+            "display_name": "Объект 907",
+            "level": 10,
+            "cost_xp": 0,
+            "health": 360.0,
+            "weight": 8000.0,
+            "rot_speed": 48.0,
+            "spot_radius": 260.0,
+            "yaw_limits": {
+              "x": 180.0,
+              "y": 180.0
+            },
+            "turret_rotator": {
+              "health": 170.0,
+              "max_regen_health": 85.0,
+              "repair_cost": 0.0
+            },
+            "surveying_device": {
+              "health": 120.0,
+              "max_regen_health": 60.0,
+              "repair_cost": 0.0
+            },
+            "mesh": "turret_01",
+            "unlocks": {},
+            "guns": [
+              {
+                "name": "_100mm_D54_M1",
+                "reload": 6.7,
+                "max_ammo": 55,
+                "mesh": "gun_01",
+                "unlocks": {}
+              }
+            ]
+          }
+        ],
+        "tracks": [
+          {
+            "kind": "tracks",
+            "name": "Chassis_Object_907",
+            "display_name": "Объект 907",
+            "level": 10,
+            "cost_xp": 0,
+            "health": 250.0,
+            "weight": 7000.0,
+            "rot_speed": 45.0,
+            "disp_move_mul": 0.12,
+            "disp_rotation_mul": 0.12,
+            "max_regen_health": 190.0,
+            "repair_cost": 0.0,
+            "bulk_health_factor": 3.0,
+            "unlocks": {},
+            "armor": 20
+          }
+        ],
+        "engines": [
+          {
+            "kind": "engine",
+            "name": "V-12-5U",
+            "display_name": "В-12-5У",
+            "level": 10,
+            "cost_xp": 0,
+            "health": 360.0,
+            "weight": 700.0,
+            "power": 796.0,
+            "fireStartingChance": 0.1,
+            "max_regen_health": 180.0,
+            "repair_cost": 0.0,
+            "unlocks": {}
+          }
+        ],
+        "radios": [
+          {
+            "kind": "radio",
+            "name": "R123A",
+            "display_name": "R123A",
+            "level": 10,
+            "cost_xp": 0,
+            "health": 250.0,
+            "weight": 80.0,
+            "distance": 500.0,
+            "unlocks": {},
+            "max_regen_health": 75.0,
+            "repair_cost": 0.0
+          }
+        ],
+        "source_version": "11.20",
+        "source_overlay": "ussr_1120",
+        "acquisition": "collectible",
+        "prem": true,
+        "collector": true,
+        "shop_tank": false,
+        "tree_branch": 0,
+        "cost_gold": 15000,
+        "collector_sell_gold": 7500
+      },
+      "balanced": {
+        "name": "object_907",
+        "display_name": "Объект 907",
+        "display_name_short": "Об. 907",
+        "health": 1440,
+        "lvl": 10,
+        "tank_class": 1,
+        "nation": 1,
+        "spot_radius": 260.0,
+        "speed_limits": {
+          "x": 60.0,
+          "y": 23.0
+        },
+        "turret_rot_speed": 48.0,
+        "turret_health": 360.0,
+        "repair_cost": 0.0,
+        "ammo_bay": {
+          "health": 210.0,
+          "max_regen_health": 140.0,
+          "repair_cost": 0.0
+        },
+        "fuel_tank": {
+          "health": 200.0,
+          "max_regen_health": 80.0,
+          "repair_cost": 0.0
+        },
+        "crew": [
+          "commander",
+          "driver",
+          "gunner",
+          "radioman",
+          "loader"
+        ],
+        "crew_xp_factor": 1.0,
+        "farm_coeff": 1.0,
+        "tree_tank": false,
+        "cost": 0,
+        "cost_xp": 0,
+        "hull_weight": 17363.0,
+        "model_path": "Tanks/USSR/Object_907.sc2",
+        "source": "from_apk/XML/item_defs/vehicles/ussr/Object_907.xml",
+        "source_sha256": "c294bb8cd4aae2c9b42207787659ba068f87c883fca7e0c4a9c3a8d96c7964b0",
+        "unlock_tanks": {},
+        "guns": [
+          {
+            "kind": "gun",
+            "name": "_100mm_D54_M1",
+            "display_name": "D54 M1",
+            "level": 10,
+            "cost_xp": 0,
+            "health": 194.0,
+            "weight": 2557.0,
+            "reload": 7.1,
+            "aim_time": 1.8,
+            "disp": 0.3,
+            "rot_speed": 33.25,
+            "max_ammo": 55,
+            "caliber": 100,
+            "deviation_up": {
+              "x": 16.0,
+              "y": 7.0
+            },
+            "deviation_r": {
+              "x": 180.0,
+              "y": 180.0
+            },
+            "disp_factors": {
+              "x": 0.06,
+              "y": 4.0,
+              "z": 2.0
+            },
+            "impulse_mul": 0.44,
+            "fire_mode": 0,
+            "burst_info": {
+              "kind": "burst"
+            },
+            "shot_sound": 3,
+            "shells": [
+              {
+                "kind": "shell",
+                "name": "100 мм УБР 412Б2 907",
+                "caliber": 100,
+                "dmg": 320,
+                "dmg_devices": 135,
+                "pen": 248,
+                "speed": 1400,
+                "cost": 0,
+                "type": 1,
+                "ricochet_angle": 70.0
+              },
+              {
+                "kind": "shell",
+                "name": "100 мм 3УБК4М 907",
+                "caliber": 100,
+                "dmg": 270,
+                "dmg_devices": 135,
+                "pen": 300,
+                "speed": 790,
+                "cost": 4000,
+                "type": 2,
+                "ricochet_angle": 85.0,
+                "premium": true
+              },
+              {
+                "kind": "shell",
+                "name": "100 мм 3УОФ10 907",
+                "caliber": 100,
+                "dmg": 420,
+                "dmg_devices": 135,
+                "pen": 50,
+                "speed": 710,
+                "cost": 0,
+                "type": 3,
+                "explosion_radius": 1.76
+              }
+            ],
+            "unlocks": {},
+            "max_regen_health": 97.0,
+            "repair_cost": 0.0
+          }
+        ],
+        "turrets": [
+          {
+            "kind": "turret",
+            "name": "Turret_1_Object_907",
+            "display_name": "Объект 907",
+            "level": 10,
+            "cost_xp": 0,
+            "health": 360.0,
+            "weight": 8000.0,
+            "rot_speed": 48.0,
+            "spot_radius": 260.0,
+            "yaw_limits": {
+              "x": 180.0,
+              "y": 180.0
+            },
+            "turret_rotator": {
+              "health": 170.0,
+              "max_regen_health": 85.0,
+              "repair_cost": 0.0
+            },
+            "surveying_device": {
+              "health": 120.0,
+              "max_regen_health": 60.0,
+              "repair_cost": 0.0
+            },
+            "mesh": "turret_01",
+            "unlocks": {},
+            "guns": [
+              {
+                "name": "_100mm_D54_M1",
+                "reload": 7.1,
+                "max_ammo": 55,
+                "mesh": "gun_01",
+                "unlocks": {}
+              }
+            ]
+          }
+        ],
+        "tracks": [
+          {
+            "kind": "tracks",
+            "name": "Chassis_Object_907",
+            "display_name": "Объект 907",
+            "level": 10,
+            "cost_xp": 0,
+            "health": 250.0,
+            "weight": 7000.0,
+            "rot_speed": 45.0,
+            "disp_move_mul": 0.12,
+            "disp_rotation_mul": 0.12,
+            "max_regen_health": 190.0,
+            "repair_cost": 0.0,
+            "bulk_health_factor": 3.0,
+            "unlocks": {},
+            "armor": 20
+          }
+        ],
+        "engines": [
+          {
+            "kind": "engine",
+            "name": "V-12-5U",
+            "display_name": "В-12-5У",
+            "level": 10,
+            "cost_xp": 0,
+            "health": 360.0,
+            "weight": 700.0,
+            "power": 746,
+            "fireStartingChance": 0.1,
+            "max_regen_health": 180.0,
+            "repair_cost": 0.0,
+            "unlocks": {}
+          }
+        ],
+        "radios": [
+          {
+            "kind": "radio",
+            "name": "R123A",
+            "display_name": "R123A",
+            "level": 10,
+            "cost_xp": 0,
+            "health": 250.0,
+            "weight": 80.0,
+            "distance": 500.0,
+            "unlocks": {},
+            "max_regen_health": 75.0,
+            "repair_cost": 0.0
+          }
+        ],
+        "source_version": "11.20",
+        "source_overlay": "ussr_1120",
+        "acquisition": "collectible",
+        "prem": true,
+        "collector": true,
+        "shop_tank": false,
+        "tree_branch": 0,
+        "cost_gold": 15000,
+        "collector_sell_gold": 7500
+      }
+    }
+  ]
+}

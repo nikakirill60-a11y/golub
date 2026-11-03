@@ -1,0 +1,155 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "PANTHERM10Armor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 344,
+      "vertices": 368
+    },
+    {
+      "armor": 0,
+      "material": "PANTHERM10Armor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 3,
+      "vertices": 9
+    },
+    {
+      "armor": 17,
+      "material": "PANTHERM10Armor_armor_hull_plate17_17",
+      "mount": "hull",
+      "name": "armor_hull_plate17_17",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 31,
+      "vertices": 93
+    },
+    {
+      "armor": 41,
+      "material": "PANTHERM10Armor_armor_hull_plate41_41",
+      "mount": "hull",
+      "name": "armor_hull_plate41_41",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 52,
+      "material": "PANTHERM10Armor_armor_hull_plate52_52",
+      "mount": "hull",
+      "name": "armor_hull_plate52_52",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 67,
+      "material": "PANTHERM10Armor_armor_hull_plate67_67",
+      "mount": "hull",
+      "name": "armor_hull_plate67_67",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 88,
+      "material": "PANTHERM10Armor_armor_hull_plate88_88",
+      "mount": "hull",
+      "name": "armor_hull_plate88_88",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 0,
+      "material": "PANTHERM10Armor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 9,
+      "vertices": 27
+    },
+    {
+      "armor": 104,
+      "material": "PANTHERM10Armor_armor_turret_01_plate104_104",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate104_104",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 17,
+      "material": "PANTHERM10Armor_armor_turret_01_plate17_17",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate17_17",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 25,
+      "vertices": 75
+    },
+    {
+      "armor": 42,
+      "material": "PANTHERM10Armor_armor_turret_01_plate42_42",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate42_42",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 47,
+      "material": "PANTHERM10Armor_armor_turret_01_plate47_47",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate47_47",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 44,
+      "vertices": 132
+    },
+    {
+      "armor": 100,
+      "material": "PANTHERM10Armor_gun_01_mask_turret_01_plate100s_100",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate100s_100",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 20,
+      "material": "PANTHERM10Armor_gun_01_mask_turret_01_plate20s_20",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate20s_20",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 44,
+      "vertices": 132
+    },
+    {
+      "armor": 50,
+      "material": "PANTHERM10Armor_gun_01_mask_turret_01_plate50s_50",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate50s_50",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 12,
+      "vertices": 36
+    }
+  ]
+}

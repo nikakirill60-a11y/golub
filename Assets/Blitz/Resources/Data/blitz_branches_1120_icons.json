@@ -1,0 +1,114 @@
+{
+  "version": "11.20",
+  "policy": "authored Parameters icon paths; exact alpha crop; no resampling",
+  "icons": [
+    {
+      "name": "gb41_challenger",
+      "source": "Gfx/UI/BigTankIcons/british-Challenger@2x.packed.webp.dvpl",
+      "sha256": "1e8861ef9526aac6609693be9f5ffa23ef49f4d5f32c19697774e2fb15debb32",
+      "crop": [
+        0,
+        0,
+        321,
+        201
+      ],
+      "output_sha256": "dd45f922a1ff07dc0f235e8bbfe4d822049aac81e87bdcc26782ff84d42545dc"
+    },
+    {
+      "name": "gb80_charioteer",
+      "source": "Gfx/UI/BigTankIcons/british-Charioteer@2x.packed.webp.dvpl",
+      "sha256": "334c6dc6723a55e38315114693cdf2189712dc3a8b7e94e0318ab897477fbc9d",
+      "crop": [
+        0,
+        0,
+        264,
+        201
+      ],
+      "output_sha256": "ee5290a12a654b240718b69fb8556a24f3d3a0043f3925ee05907ef0e16881f9"
+    },
+    {
+      "name": "gb81_fv4004",
+      "source": "Gfx/UI/BigTankIcons/british-GB81_FV4004_Conway@2x.packed.webp.dvpl",
+      "sha256": "47d0ed2e236cf5c9da985541e974973bdcaa6ba45dbd9f817a9b23544e7e6dfa",
+      "crop": [
+        0,
+        0,
+        273,
+        201
+      ],
+      "output_sha256": "d2c6c0345173ac1877f8c65b61d39d83cdda7e598f6ab99dcdee2409f154928b"
+    },
+    {
+      "name": "gb83_4005",
+      "source": "Gfx/UI/BigTankIcons/british-4005@2x.packed.webp.dvpl",
+      "sha256": "57fb3c3133e4a30acb3d6401b864446c09ea4b90549ae6077177a006b06350b8",
+      "crop": [
+        0,
+        0,
+        289,
+        201
+      ],
+      "output_sha256": "a7df1613617865d9205944a3ab752960615657772bd92345fcc11d7b156f65d5"
+    },
+    {
+      "name": "it10_p43_bis",
+      "source": "Gfx/UI/BigTankIcons/european-It10_P43_bis@2x.packed.webp.dvpl",
+      "sha256": "32801b17495d9cca0ef9d7ecf3d1c2aa5f765dc31ff596646bc5d130ba3574f5",
+      "crop": [
+        0,
+        0,
+        256,
+        194
+      ],
+      "output_sha256": "4b4ac34516f1e22ceb8e0619efef8093887d8aed1fc73ab206faa33ab263d50a"
+    },
+    {
+      "name": "it09_p43_ter",
+      "source": "Gfx/UI/BigTankIcons/european-P43_ter@2x.packed.webp.dvpl",
+      "sha256": "e717a06d2b55a6ac3f2263f66bb47c46908678845b19dfbe40028f842165f21e",
+      "crop": [
+        0,
+        0,
+        285,
+        200
+      ],
+      "output_sha256": "0d634b0097ad0fde7ea7941e3245f17fec07f2e63c8b1440e4b1b1c9c8e1eed2"
+    },
+    {
+      "name": "it14_p44_pantera",
+      "source": "Gfx/UI/BigTankIcons/european-It14_P44_Pantera@2x.packed.webp.dvpl",
+      "sha256": "e3116ec5a2945689222f9e12f89d9621d897957aba313ecbbe9f135adf49c0d7",
+      "crop": [
+        0,
+        0,
+        273,
+        201
+      ],
+      "output_sha256": "34caa78fcbc157c394ff0fc6413097a7737c31aa7694fc066c8854405b73032c"
+    },
+    {
+      "name": "it12_prototipo_standard_b",
+      "source": "Gfx/UI/BigTankIcons/european-It12_Prototipo_Standard_B@2x.packed.webp.dvpl",
+      "sha256": "fd3b9e2a3b13327e8c49d30002b4b7b12c856a0b4b456e501dea147a0ef30a7d",
+      "crop": [
+        0,
+        0,
+        260,
+        198
+      ],
+      "output_sha256": "8c2a047d301aad9c690823734f9d98ec881480c3766162ecff1978b090233c36"
+    },
+    {
+      "name": "it08_progetto_m40_mod65",
+      "source": "Gfx/UI/BigTankIcons/european-It08_Progetto_M40_mod65@2x.packed.webp.dvpl",
+      "sha256": "2970172f2ef3166befd0f9cd2f86ed5471351c5fb2a18746a640064589cb8c32",
+      "crop": [
+        0,
+        0,
+        263,
+        201
+      ],
+      "output_sha256": "7a3f70dae2f22e41e7951a798280416d6f3caa437f5d166dc1a2c9acd866c6c3"
+    }
+  ]
+}

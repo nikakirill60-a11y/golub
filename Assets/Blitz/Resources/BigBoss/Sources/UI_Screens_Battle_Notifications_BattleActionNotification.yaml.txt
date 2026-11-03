@@ -1,0 +1,96 @@
+Header:
+    version: 130
+StyleSheets:
+-   selectors:
+    - ".capture.positive #Label"
+    properties:
+        text-color: [0.596078, 0.901961, 0.207843, 1.000000]
+-   selectors:
+    - ".capture.negative #Label"
+    properties:
+        text-color: [1.000000, 0.262745, 0.262745, 1.000000]
+-   selectors:
+    - ".capture.positive.observer #Label"
+    properties:
+        text-color: [1.000000, 0.109804, 0.278431, 1.000000]
+-   selectors:
+    - ".capture.negative.observer #Label"
+    properties:
+        text-color: [0.145098, 0.415686, 0.976471, 1.000000]
+Prototypes:
+-   class: "UIControl"
+    name: "ChatNotificationStyledText"
+    size: [125.000000, 32.000000]
+    input: false
+    classes: "t-old-header5"
+    components:
+        UITextComponent:
+            text: "Some text"
+            shadowOffset: [1.000000, 1.000000]
+            shadowColor: [0.000000, 0.000000, 0.000000, 0.750000]
+        SizePolicy:
+            horizontalPolicy: "PercentOfContent"
+        StyleSheet:
+            styles: "~res:/UI/Screens/Battle/Notifications/BattleActionNotification.yaml;~res:/UI/Screens3/OldFont.style.yaml"
+-   class: "UIControl"
+    name: "ChatNotificationContainer"
+    input: false
+    components:
+        Background: {}
+        Anchor:
+            hCenterAnchorEnabled: true
+        SizePolicy:
+            horizontalPolicy: "PercentOfParent"
+            verticalPolicy: "FixedSize"
+            verticalValue: 20.000000
+        StyleSheet:
+            styles: "~res:/UI/Screens/Battle/Notifications/BattleActionNotification.yaml;~res:/UI/Screens/Fonts.yaml"
+-   prototype: "ChatNotificationContainer"
+    name: "PlainTextNotification"
+    size: [550.000000, 20.000000]
+    components:
+        StyleSheet:
+            styles: "~res:/UI/Screens/Battle/Notifications/BattleActionNotification.yaml;~res:/UI/Screens/Fonts.yaml"
+    children:
+    -   prototype: "ChatNotificationStyledText"
+        name: "Label"
+        components:
+            UITextComponent:
+                text: "Right text"
+                multiline: "MULTILINE_ENABLED"
+            Anchor:
+                leftAnchorEnabled: true
+                leftAnchor: 50.000000
+                rightAnchorEnabled: true
+                rightAnchor: 50.000000
+                topAnchorEnabled: true
+                bottomAnchorEnabled: true
+Controls:
+-   prototype: "PlainTextNotification"
+    customClass: "UICaptureStartedNotification"
+    name: "CaptureStartedNotification"
+    classes: "capture capture=positive"
+    components:
+        StyleSheet:
+            styles: "~res:/UI/Screens/Battle/Notifications/BattleActionNotification.yaml;~res:/UI/Screens/Fonts.yaml"
+-   prototype: "PlainTextNotification"
+    customClass: "UICaptureFinishedNotification"
+    name: "CaptureFinishedNotification"
+    classes: "capture capture=negative"
+    components:
+        StyleSheet:
+            styles: "~res:/UI/Screens/Battle/Notifications/BattleActionNotification.yaml;~res:/UI/Screens/Fonts.yaml"
+-   prototype: "PlainTextNotification"
+    customClass: "UITeamCloseToVictoryNotification"
+    name: "TeamCloseToVictoryNotification"
+    classes: "capture"
+    components:
+        StyleSheet:
+            styles: "~res:/UI/Screens/Battle/Notifications/BattleActionNotification.yaml;~res:/UI/Screens/Fonts.yaml"
+-   prototype: "PlainTextNotification"
+    customClass: "UIBossModeTeamCloseToVictoryNotification"
+    name: "BossModeTeamCloseToVictoryNotification"
+    classes: "capture"
+    components:
+        StyleSheet:
+            styles: "~res:/UI/Screens/Battle/Notifications/BattleActionNotification.yaml;~res:/UI/Screens/Fonts.yaml"

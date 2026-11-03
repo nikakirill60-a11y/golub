@@ -1,0 +1,285 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "M18HELLCATArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 248,
+      "vertices": 300
+    },
+    {
+      "armor": 13,
+      "material": "M18HELLCATArmor_armor_hull_plate13_13",
+      "mount": "hull",
+      "name": "armor_hull_plate13_13",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 59,
+      "vertices": 177
+    },
+    {
+      "armor": 14,
+      "material": "M18HELLCATArmor_armor_hull_plate14s_14",
+      "mount": "hull",
+      "name": "armor_hull_plate14s_14",
+      "screen": true,
+      "submesh": 2,
+      "triangles": 28,
+      "vertices": 84
+    },
+    {
+      "armor": 4,
+      "material": "M18HELLCATArmor_armor_hull_plate4_4",
+      "mount": "hull",
+      "name": "armor_hull_plate4_4",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 44,
+      "vertices": 132
+    },
+    {
+      "armor": 7,
+      "material": "M18HELLCATArmor_armor_hull_plate7_7",
+      "mount": "hull",
+      "name": "armor_hull_plate7_7",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 68,
+      "vertices": 204
+    },
+    {
+      "armor": 0,
+      "material": "M18HELLCATArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 13,
+      "material": "M18HELLCATArmor_armor_turret_01_plate13_13",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate13_13",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 47,
+      "vertices": 141
+    },
+    {
+      "armor": 19,
+      "material": "M18HELLCATArmor_armor_turret_01_plate19_19",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate19_19",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 112,
+      "vertices": 336
+    },
+    {
+      "armor": 25,
+      "material": "M18HELLCATArmor_armor_turret_01_plate25_25",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate25_25",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 53,
+      "vertices": 159
+    },
+    {
+      "armor": 4,
+      "material": "M18HELLCATArmor_armor_turret_01_plate4_4",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate4_4",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 7,
+      "material": "M18HELLCATArmor_armor_turret_01_plate7_7",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate7_7",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 13,
+      "material": "M18HELLCATArmor_gun_02_mask_turret_01_plate13s_13",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate13s_13",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 19,
+      "material": "M18HELLCATArmor_gun_02_mask_turret_01_plate19s_19",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate19s_19",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 53,
+      "vertices": 159
+    },
+    {
+      "armor": 13,
+      "material": "M18HELLCATArmor_gun_03_mask_turret_01_plate13s_13",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate13s_13",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 19,
+      "material": "M18HELLCATArmor_gun_03_mask_turret_01_plate19s_19",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate19s_19",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 53,
+      "vertices": 159
+    },
+    {
+      "armor": 0,
+      "material": "M18HELLCATArmor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 15,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 13,
+      "material": "M18HELLCATArmor_armor_turret_02_plate13_13",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate13_13",
+      "screen": false,
+      "submesh": 16,
+      "triangles": 25,
+      "vertices": 75
+    },
+    {
+      "armor": 19,
+      "material": "M18HELLCATArmor_armor_turret_02_plate19_19",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate19_19",
+      "screen": false,
+      "submesh": 17,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 25,
+      "material": "M18HELLCATArmor_armor_turret_02_plate25_25",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate25_25",
+      "screen": false,
+      "submesh": 18,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 31,
+      "material": "M18HELLCATArmor_armor_turret_02_plate31_31",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate31_31",
+      "screen": false,
+      "submesh": 19,
+      "triangles": 100,
+      "vertices": 300
+    },
+    {
+      "armor": 44,
+      "material": "M18HELLCATArmor_armor_turret_02_plate44_44",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate44_44",
+      "screen": false,
+      "submesh": 20,
+      "triangles": 26,
+      "vertices": 78
+    },
+    {
+      "armor": 76,
+      "material": "M18HELLCATArmor_armor_turret_02_plate76_76",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate76_76",
+      "screen": false,
+      "submesh": 21,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 44,
+      "material": "M18HELLCATArmor_gun_05_mask_turret_02_plate44s_44",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate44s_44",
+      "screen": true,
+      "submesh": 22,
+      "triangles": 105,
+      "vertices": 315
+    },
+    {
+      "armor": 75,
+      "material": "M18HELLCATArmor_gun_05_mask_turret_02_plate75s_75",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate75s_75",
+      "screen": true,
+      "submesh": 23,
+      "triangles": 53,
+      "vertices": 159
+    },
+    {
+      "armor": 44,
+      "material": "M18HELLCATArmor_gun_06_mask_turret_02_plate44s_44",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate44s_44",
+      "screen": true,
+      "submesh": 24,
+      "triangles": 105,
+      "vertices": 315
+    },
+    {
+      "armor": 75,
+      "material": "M18HELLCATArmor_gun_06_mask_turret_02_plate75s_75",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate75s_75",
+      "screen": true,
+      "submesh": 25,
+      "triangles": 53,
+      "vertices": 159
+    },
+    {
+      "armor": 44,
+      "material": "M18HELLCATArmor_gun_07_mask_turret_02_plate44s_44",
+      "mount": "gun_07",
+      "name": "gun_07_mask_turret_02_plate44s_44",
+      "screen": true,
+      "submesh": 26,
+      "triangles": 105,
+      "vertices": 315
+    },
+    {
+      "armor": 75,
+      "material": "M18HELLCATArmor_gun_07_mask_turret_02_plate75s_75",
+      "mount": "gun_07",
+      "name": "gun_07_mask_turret_02_plate75s_75",
+      "screen": true,
+      "submesh": 27,
+      "triangles": 53,
+      "vertices": 159
+    }
+  ]
+}

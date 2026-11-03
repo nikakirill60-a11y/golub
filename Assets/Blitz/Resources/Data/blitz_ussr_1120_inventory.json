@@ -1,0 +1,167 @@
+{
+  "version": "11.20",
+  "source": "/home/smh01/projects/wotblitz11.20.0files",
+  "generator": "Tools/port_blitz_ussr_1120.py",
+  "vehicles": [
+    "Object_907"
+  ],
+  "records": [
+    {
+      "nation": "ussr",
+      "vehicle_id": "Object_907",
+      "name": "object_907",
+      "model_stem": "Object_907",
+      "scene": "3d/Tanks/USSR/Object_907.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/ussr-Object_907.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/ussr/Object_907.xml",
+      "xml_sha256": "c294bb8cd4aae2c9b42207787659ba068f87c883fca7e0c4a9c3a8d96c7964b0",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/Object_907_CM.tex",
+          "source": "3d/Tanks/USSR/CamouflageMasks/Object_907_CM.astc.pvr.dvpl",
+          "sha256": "1868a578aab9e7a66f79135704f3d36e79117cc2d283277e973bf8cecef34ca4"
+        },
+        {
+          "reference": "images/Object_907.tex",
+          "source": "3d/Tanks/USSR/images/Object_907.astc.pvr.dvpl",
+          "sha256": "2a67a303eb32cde4facdea35c178475411a5345f3b496e2debc7e449d3719e87"
+        },
+        {
+          "reference": "images/Object_907_NM.tex",
+          "source": "3d/Tanks/USSR/images/Object_907_NM.astc.pvr.dvpl",
+          "sha256": "7134efb68a274196f0639a99104b3b5a606a32bf3def1172ad7943568979e922"
+        },
+        {
+          "reference": "images/Object_907_new_track.tex",
+          "source": "3d/Tanks/USSR/images/Object_907_new_track.astc.pvr.dvpl",
+          "sha256": "f50aed282801d9c9be5dd4bd89932f46167a1a18b7283f8f6490e63675a8233d"
+        },
+        {
+          "reference": "images/Object_907_new_track_NM.tex",
+          "source": "3d/Tanks/USSR/images/Object_907_new_track_NM.astc.pvr.dvpl",
+          "sha256": "69d141108f772521f0ddac2698cacd24a2056cb3fe34e30fbf282183921c9529"
+        },
+        {
+          "reference": "images_pbr/Object_907_new_track_BC.tex",
+          "source": "3d/Tanks/USSR/images_pbr/Object_907_new_track_BC.astc.pvr.dvpl",
+          "sha256": "49a5578f5eb10df1274202d3f2722ebbc059cfc99ee37cf0b8b0a0934824b54a"
+        },
+        {
+          "reference": "images_pbr/Object_907_new_track_MASK.tex",
+          "source": "3d/Tanks/USSR/images_pbr/Object_907_new_track_MASK.astc.pvr.dvpl",
+          "sha256": "034967aa57b30c9a6f7a6ff8c87a59233fb67ff8232fc865cdf54d6ca839ea90"
+        },
+        {
+          "reference": "images_pbr/Object_907_new_track_MISC.tex",
+          "source": "3d/Tanks/USSR/images_pbr/Object_907_new_track_MISC.astc.pvr.dvpl",
+          "sha256": "d58378edcb49fc41ab18546553a47c9a96a5d96aed1b23c7af3a688ec6651d0e"
+        },
+        {
+          "reference": "images_pbr/Object_907_new_track_NM.tex",
+          "source": "3d/Tanks/USSR/images_pbr/Object_907_new_track_NM.astc.pvr.dvpl",
+          "sha256": "3bdd5867c2ee2f54fee01757e39bdce3815d6791137d3ca1819e7ed38d02bdd4"
+        },
+        {
+          "reference": "images_pbr/Object_907_new_track_RM.tex",
+          "source": "3d/Tanks/USSR/images_pbr/Object_907_new_track_RM.astc.pvr.dvpl",
+          "sha256": "57ba1413854d07c814e51a27dc229e6204fa24e3b170c6325b6bdc77094929a9"
+        },
+        {
+          "reference": "images_pbr/R95_Object_907_BC.tex",
+          "source": "3d/Tanks/USSR/images_pbr/R95_Object_907_BC.astc.pvr.dvpl",
+          "sha256": "da0ba36d5903a7813d1712f4e1e64a347fa4be616203431a5390a6e3e7445da3"
+        },
+        {
+          "reference": "images_pbr/R95_Object_907_MASK.tex",
+          "source": "3d/Tanks/USSR/images_pbr/R95_Object_907_MASK.astc.pvr.dvpl",
+          "sha256": "579c28db5a605c735cb2f82599ea107df59eeed0ee951ae7ce2fabf038a8c341"
+        },
+        {
+          "reference": "images_pbr/R95_Object_907_MISC.tex",
+          "source": "3d/Tanks/USSR/images_pbr/R95_Object_907_MISC.astc.pvr.dvpl",
+          "sha256": "b6b61f6f6d0a597860ff682ddfe2a0ffe5c3611a2dca61ddd29494d076f2baf4"
+        },
+        {
+          "reference": "images_pbr/R95_Object_907_NM.tex",
+          "source": "3d/Tanks/USSR/images_pbr/R95_Object_907_NM.astc.pvr.dvpl",
+          "sha256": "bf212a85066a483c9e230dc6c4f5002a639c49735f9e9c4441e97e2936026507"
+        },
+        {
+          "reference": "images_pbr/R95_Object_907_RM.tex",
+          "source": "3d/Tanks/USSR/images_pbr/R95_Object_907_RM.astc.pvr.dvpl",
+          "sha256": "3af9934b4969026db9364d1da54216718c48c5c5ce2814c10a85f3726b46e8b4"
+        }
+      ],
+      "parameter_source": "from_apk/3d/Tanks/Parameters/ussr/Object_907.yaml",
+      "parameter_sha256": "d429aee12733fcf23cd3315cead0295ff428b3477bb5c61b3dead7d922f55955",
+      "resources": {
+        "smallIconPath": "~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/ussr-Object_907",
+        "bigIconPath": "~res:/Gfx/UI/BigTankIcons/ussr-Object_907",
+        "carouselBackgroundImagePath": "",
+        "statisticBackgroundImagePath": "",
+        "favoriteBackgroundImagePath": "",
+        "blitzModelPath": "Tanks/USSR/Object_907.sc2",
+        "collisionMesh": "CollisionMeshes/ussr-Object_907.sc2",
+        "smokeEffectPath": "FX/smoke_tank_type_black_new_2.sc2",
+        "fireEffectPathAlive": "FX/SmokeFire_tank_movement_new.sc2",
+        "fireEffectPathDead": "FX/Fire_and_Smoke.sc2",
+        "engineSoundPC": "tanks/pc/engine/ussr/mt",
+        "engineSoundNPC": "tanks/npc/engine/ussr/mt",
+        "chassisSoundPC": "tanks/pc/treads/mt",
+        "chassisSoundNPC": "tanks/npc/treads/mt"
+      },
+      "scene_source": "3d/Tanks/USSR/Object_907.sc2.dvpl",
+      "scene_sha256": "7b7f1981d08460f2291ebbb672e15bfad53cb59f84c1983dbfa9ae657c6822d6",
+      "geometry_source": "3d/Tanks/USSR/Object_907.scg.dvpl",
+      "geometry_sha256": "fcd7b48114f2e774d6a51af9969157a3eee14701a8764f3c00108df43d6d8318",
+      "collision_source": "3d/Tanks/CollisionMeshes/ussr-Object_907.sc2.dvpl",
+      "collision_sha256": "cac18707561debb314bf278e097a667b509690f5eb88c27cc38a4d8be6381137",
+      "collision_geometry_source": "3d/Tanks/CollisionMeshes/ussr-Object_907.scg.dvpl",
+      "collision_geometry_sha256": "d7ce10344713dbece3f3bba43c147455ee23851ec03f482755846651771bffe3",
+      "modules": {
+        "turrets": [
+          "Turret_1_Object_907"
+        ],
+        "guns": [
+          "_100mm_D54_M1"
+        ],
+        "tracks": [
+          "Chassis_Object_907"
+        ],
+        "engines": [
+          "V-12-5U"
+        ],
+        "radios": [
+          "R123A"
+        ]
+      },
+      "configurations": [
+        {
+          "turret": "Turret_1_Object_907",
+          "gun": "_100mm_D54_M1",
+          "turret_mesh": "turret_01",
+          "gun_mesh": "gun_01"
+        }
+      ],
+      "listing": {
+        "id": 61,
+        "level": 10,
+        "tags": [
+          "mediumTank",
+          "collectible"
+        ],
+        "not_in_shop": true,
+        "price_gold": 15000,
+        "sell_price_gold": 7500
+      }
+    }
+  ],
+  "totals": {
+    "turrets": 1,
+    "guns": 1,
+    "tracks": 1,
+    "engines": 1,
+    "radios": 1
+  },
+  "configurations": 1
+}

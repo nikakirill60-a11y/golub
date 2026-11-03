@@ -1,0 +1,717 @@
+{
+  "atlas": {
+    "regions": 747,
+    "regions_added": 62,
+    "regions_total": 718,
+    "textures": 395,
+    "textures_total": 395
+  },
+  "external_scene": {
+    "bytes": 6897,
+    "sha256": "5638e593dbe537b22f3ad4c0c2129d6ea884c47404321d4238c9e34753fd0081",
+    "source": "assets/gfx/ui/ui_external.tscn"
+  },
+  "external_script": {
+    "bytes": 4289,
+    "sha256": "cfd3fad97a2d6b3cfa0d0bab94da510e40b047df1244303e47caaae5856afe1d",
+    "source": "assets/gfx/ui/battle/ui_tank_external.gd"
+  },
+  "regions": {
+    "battle_ammo_type": {
+      "bytes": 275,
+      "rect": [
+        2018,
+        147,
+        27,
+        82
+      ],
+      "sha256": "23b22847642777a74906515b282341c90f5d3586042c86f7fb157206f4bdb924",
+      "source": "assets/gfx/ui/battle/parsed/AmmoType.tres"
+    },
+    "battle_autoaim_button": {
+      "bytes": 277,
+      "rect": [
+        131,
+        1406,
+        126,
+        126
+      ],
+      "sha256": "8f490a2924b9ddf91979aa9991be7d37f56aa64851f2e54bb8ad9256bf90f1fd",
+      "source": "assets/gfx/ui/battle/parsed/FollowAim03.tres"
+    },
+    "battle_burst_bullet": {
+      "bytes": 275,
+      "rect": [
+        2029,
+        340,
+        18,
+        68
+      ],
+      "sha256": "ba700e4bdbabacdfd1319e11bb03e4a1351ae3faac7b161ec686eca5dd1a515e",
+      "source": "assets/gfx/ui/battle/parsed/BulletBig02.tres"
+    },
+    "battle_burst_bullet_empty": {
+      "bytes": 275,
+      "rect": [
+        2029,
+        270,
+        18,
+        68
+      ],
+      "sha256": "006c47ac335de6c15c767682d6d8c50f4a55faf4dc3cefabd0a1c27da6e7880b",
+      "source": "assets/gfx/ui/battle/parsed/BulletBig.tres"
+    },
+    "battle_clock_bg": {
+      "bytes": 276,
+      "rect": [
+        1899,
+        613,
+        128,
+        70
+      ],
+      "sha256": "4032552fe029b701fbbea036b04232b5eab6b16e697ced45bbfba3f3306dd010",
+      "source": "assets/gfx/ui/battle/parsed/ClockBG.tres"
+    },
+    "battle_countdown_bg": {
+      "bytes": 277,
+      "rect": [
+        1613,
+        270,
+        318,
+        132
+      ],
+      "sha256": "8aaa74fb65b3e79c40f373b90b5cfc8ec3911743734cbe8876ba7f808f857e71",
+      "source": "assets/gfx/ui/battle/parsed/CountdownBeforeBattleBg.tres"
+    },
+    "battle_countdown_glow": {
+      "bytes": 274,
+      "rect": [
+        859,
+        1,
+        390,
+        412
+      ],
+      "sha256": "73b1865c7e87730234e6bc156de4e5868b1fe47653f70c51d0b55ea95e0157ed",
+      "source": "assets/gfx/ui/battle/parsed/CountdownBeforeBattleGlow.tres"
+    },
+    "battle_crosshair_dyn": {
+      "bytes": 276,
+      "rect": [
+        1786,
+        1144,
+        43,
+        37
+      ],
+      "sha256": "be0d5a69cdffbcdf4897d9e0c21f822f7b0ee943cff90f3f6929f0be33e50dee",
+      "source": "assets/gfx/ui/battle/crosshair_dyn_unlit.tres"
+    },
+    "battle_crosshair_dyn_lit": {
+      "bytes": 275,
+      "rect": [
+        1741,
+        1144,
+        43,
+        37
+      ],
+      "sha256": "ea9f7a869d1d93d471a9e6b755b487c16edbbf70fede1ca4ee4b35f8f6f9fde7",
+      "source": "assets/gfx/ui/battle/crosshair_dyn_lit.tres"
+    },
+    "battle_crosshair_static": {
+      "bytes": 282,
+      "rect": [
+        429.875,
+        0,
+        429.875,
+        424
+      ],
+      "sha256": "d663cf516c6636a7f9932c3149ba965368f5771f938237a69ea1b424f27bd303",
+      "source": "assets/gfx/ui/battle/crosshair_static.tres"
+    },
+    "battle_crosshair_static_lit": {
+      "bytes": 276,
+      "rect": [
+        0,
+        0,
+        429.875,
+        424
+      ],
+      "sha256": "68e6f6c9c136796eb8ac33144ea0d32c50009e9fee9cc55339c598f949bd87bc",
+      "source": "assets/gfx/ui/battle/crosshair_static_lit.tres"
+    },
+    "battle_damage_ind": {
+      "bytes": 274,
+      "rect": [
+        1,
+        431,
+        678,
+        180
+      ],
+      "sha256": "de7d9131cde70c80984874ae547474744a50ff040d73b387cb72ab87a7587871",
+      "source": "assets/gfx/ui/battle/parsed/DamageInd.tres"
+    },
+    "battle_dot_green": {
+      "bytes": 274,
+      "rect": [
+        858,
+        414,
+        10,
+        10
+      ],
+      "sha256": "7a70a36209d0aa46cceaf96e48f9108b89390d77026215ef15815e0bfda24d48",
+      "source": "assets/gfx/ui/battle/crosshair_dyn_dot_grn.tres"
+    },
+    "battle_dot_red": {
+      "bytes": 273,
+      "rect": [
+        878,
+        414,
+        10,
+        10
+      ],
+      "sha256": "64a9882f8f79652e26f552b73f2c3b36621859fe1511b5ac509bd0cd9f4b2a2c",
+      "source": "assets/gfx/ui/battle/crosshair_dyn_dot_red.tres"
+    },
+    "battle_dot_yellow": {
+      "bytes": 273,
+      "rect": [
+        868,
+        414,
+        10,
+        10
+      ],
+      "sha256": "2cef0cf23cf579b2cdc567ce00cbcf1c9d63759eaa1bdfda63e8e657008737dc",
+      "source": "assets/gfx/ui/battle/crosshair_dyn_dot_ylw.tres"
+    },
+    "battle_enemy_marker": {
+      "bytes": 275,
+      "rect": [
+        131,
+        1534,
+        91,
+        45
+      ],
+      "sha256": "3b1f52b9f64378c9748fa58d2a6df42f73cc186714de82d3f8c25fa01228eca5",
+      "source": "assets/gfx/ui/battle/parsed/EnemyMarker.tres"
+    },
+    "battle_fire_button": {
+      "bytes": 276,
+      "rect": [
+        260,
+        975,
+        200,
+        200
+      ],
+      "sha256": "fb1b5287fd07c7251560ec517355f6a571e67f304b69f90c1dc4c461bd401941",
+      "source": "assets/gfx/ui/battle/parsed/FireButton02.tres"
+    },
+    "battle_health_icon": {
+      "bytes": 275,
+      "rect": [
+        742,
+        829,
+        508,
+        32
+      ],
+      "sha256": "42354f773acc4a8c146c788aee53ca024677edcdd054a5facf0f7d47569285a1",
+      "source": "assets/gfx/ui/battle/parsed/Health.tres"
+    },
+    "battle_hp_back": {
+      "bytes": 276,
+      "rect": [
+        1251,
+        828,
+        502,
+        26
+      ],
+      "sha256": "eaea47b10de74dd2804708ebdf700334f97ad687105a02199fce13982fc00836",
+      "source": "assets/gfx/ui/battle/hp_bar_background.tres"
+    },
+    "battle_hp_bar": {
+      "bytes": 274,
+      "rect": [
+        741,
+        828,
+        510,
+        34
+      ],
+      "sha256": "d5a3f1385b7f69cdb1a517cc7f464992acc1639a932532f3e51ada84b137be8e",
+      "source": "assets/gfx/ui/battle/hp_bar.tres"
+    },
+    "battle_joypad_base": {
+      "bytes": 275,
+      "rect": [
+        1251,
+        1,
+        360,
+        360
+      ],
+      "sha256": "39afe9c9858d9519cb9e73f1b0666d36f2105a171970f9494058b2b6ec32ddc1",
+      "source": "assets/gfx/ui/battle/parsed/Joypad.tres"
+    },
+    "battle_joypad_knob": {
+      "bytes": 275,
+      "rect": [
+        1,
+        1808,
+        206,
+        206
+      ],
+      "sha256": "fb94d8dccbbf8717460df61f6d3eed8404c4cfc3eed546a628b85497e0079898",
+      "source": "assets/gfx/ui/battle/parsed/Joypad02.tres"
+    },
+    "battle_killfeed_bg": {
+      "bytes": 276,
+      "rect": [
+        443,
+        1329,
+        104,
+        26
+      ],
+      "sha256": "60406be228bee1ce0c3e438533706a7acde063be6043aa44e2100d27e0af527e",
+      "source": "assets/gfx/ui/battle/parsed/ChatKills.tres"
+    },
+    "battle_otm_class_heavy": {
+      "bytes": 275,
+      "rect": [
+        209,
+        1929,
+        47,
+        55
+      ],
+      "sha256": "dc2747d22b9a30cbe6e0d2550f0a3b9554efec9f1f40c40d53a184611ad03242",
+      "source": "assets/gfx/ui/battle/parsed/OTM_IconHeavy.tres"
+    },
+    "battle_otm_class_light": {
+      "bytes": 276,
+      "rect": [
+        1183,
+        1928,
+        28,
+        36
+      ],
+      "sha256": "25fc6db8b0871b8e866a130598d8309576d2f934db1675bc3ee254c776a32708",
+      "source": "assets/gfx/ui/battle/parsed/OTM_IconLight.tres"
+    },
+    "battle_otm_class_medium": {
+      "bytes": 274,
+      "rect": [
+        217,
+        1746,
+        38,
+        44
+      ],
+      "sha256": "4e439e1d99d434773688b8758bc7e5a3e42ab11b94bc824dfc4e05b59030d694",
+      "source": "assets/gfx/ui/battle/parsed/OTM_IconMedium.tres"
+    },
+    "battle_otm_class_shadow": {
+      "bytes": 277,
+      "rect": [
+        1902,
+        147,
+        114,
+        114
+      ],
+      "sha256": "735102c85599d483085777289dafb861b921b7ba03d9f4acebb67795ce2b5cc2",
+      "source": "assets/gfx/ui/battle/parsed/OTM_IconShadow.tres"
+    },
+    "battle_otm_class_td": {
+      "bytes": 276,
+      "rect": [
+        1183,
+        1278,
+        37,
+        37
+      ],
+      "sha256": "6047a08649227a80694095c8ac77b1e9408ec882b0f10263c45dda9d138b3db4",
+      "source": "assets/gfx/ui/battle/parsed/OTM_IconAtSPG.tres"
+    },
+    "battle_otm_hp_back": {
+      "bytes": 274,
+      "rect": [
+        0,
+        2015,
+        114,
+        30
+      ],
+      "sha256": "0a5ce06596d6fbe155a834b19e54e20efdd7d4c53650c137e493ca7d907614cc",
+      "source": "assets/gfx/ui/tank_external/hp_bar_back.tres"
+    },
+    "battle_otm_hp_top": {
+      "bytes": 276,
+      "rect": [
+        1613,
+        404,
+        108,
+        24
+      ],
+      "sha256": "076b4756f8b148d6988a820852e7b6a0404ba1da9c6a4bb67569fc3bf9471053",
+      "source": "assets/gfx/ui/battle/parsed/OTM_HealthBar02.tres"
+    },
+    "battle_otm_hp_under": {
+      "bytes": 276,
+      "rect": [
+        1723,
+        404,
+        108,
+        24
+      ],
+      "sha256": "02485727d94473e6fe1c5a9028d30d58ee786457a1f9f7d32ca85ed8aefa025c",
+      "source": "assets/gfx/ui/battle/parsed/OTM_HealthBar03.tres"
+    },
+    "battle_otm_level_1": {
+      "bytes": 274,
+      "rect": [
+        246,
+        1638,
+        8,
+        21
+      ],
+      "sha256": "621438efe7ff71cb4248428e4113f64acc12363561377dfc57c7e4bcdbf5323a",
+      "source": "assets/gfx/ui/battle/parsed/Levels.tres"
+    },
+    "battle_otm_level_10": {
+      "bytes": 275,
+      "rect": [
+        2029,
+        613,
+        17,
+        21
+      ],
+      "sha256": "4b9e67aa67bfe8afab37edf937e3bb4c41f795fe259685bbc94b4f42220d9b82",
+      "source": "assets/gfx/ui/battle/parsed/Levels019.tres"
+    },
+    "battle_otm_level_2": {
+      "bytes": 275,
+      "rect": [
+        496,
+        1979,
+        14,
+        21
+      ],
+      "sha256": "bdad9a16d82a1fbc6241c5c71fc6d53ddee8e5a8dca8bd59a8c288be67fd8469",
+      "source": "assets/gfx/ui/battle/parsed/Levels03.tres"
+    },
+    "battle_otm_level_3": {
+      "bytes": 276,
+      "rect": [
+        1222,
+        1234,
+        20,
+        21
+      ],
+      "sha256": "7aac8adda925924ddd5c5d75162286fcf4f4bae1d161ba08e13505d7da03c6e7",
+      "source": "assets/gfx/ui/battle/parsed/Levels05.tres"
+    },
+    "battle_otm_level_4": {
+      "bytes": 275,
+      "rect": [
+        1955,
+        1194,
+        21,
+        21
+      ],
+      "sha256": "78e27d2b3abf48fc745ec47856ebae62e2195af3557e8721f30f41976ea3148c",
+      "source": "assets/gfx/ui/battle/parsed/Levels07.tres"
+    },
+    "battle_otm_level_5": {
+      "bytes": 275,
+      "rect": [
+        496,
+        1933,
+        16,
+        21
+      ],
+      "sha256": "a43ba07a3532495440dc134c71aadd72592af44277c1607f7250423c76beab04",
+      "source": "assets/gfx/ui/battle/parsed/Levels09.tres"
+    },
+    "battle_otm_level_6": {
+      "bytes": 276,
+      "rect": [
+        2001,
+        1194,
+        21,
+        21
+      ],
+      "sha256": "3cb354812246dfbb8965ab0b63051f1197d25fb5512a732ae372e4e3c3b562d0",
+      "source": "assets/gfx/ui/battle/parsed/Levels011.tres"
+    },
+    "battle_otm_level_7": {
+      "bytes": 276,
+      "rect": [
+        1183,
+        2026,
+        27,
+        21
+      ],
+      "sha256": "d224a76bd95db89e7f8fb82f23a0d5f9c78935746345e4b9ce0b8661005d049e",
+      "source": "assets/gfx/ui/battle/parsed/Levels013.tres"
+    },
+    "battle_otm_level_8": {
+      "bytes": 275,
+      "rect": [
+        1833,
+        404,
+        33,
+        21
+      ],
+      "sha256": "e75f694dee2a31cebf51dcae374cc4b67dc637795faa7fef64efb9cdc697a41b",
+      "source": "assets/gfx/ui/battle/parsed/Levels015.tres"
+    },
+    "battle_otm_level_9": {
+      "bytes": 275,
+      "rect": [
+        1931,
+        1194,
+        22,
+        21
+      ],
+      "sha256": "32eb613ffd06fb2b1f911e819424906d23781366e4ebef8db3b75becc87a5a13",
+      "source": "assets/gfx/ui/battle/parsed/Levels017.tres"
+    },
+    "battle_otm_name_shadow": {
+      "bytes": 276,
+      "rect": [
+        1820,
+        685,
+        164,
+        44
+      ],
+      "sha256": "9e1adcac16815ebb0094e2cd21824848dd96ee384721aa8d114ba4f5553c04e0",
+      "source": "assets/gfx/ui/battle/parsed/OTM_NameShadow.tres"
+    },
+    "battle_six_sense": {
+      "bytes": 276,
+      "rect": [
+        462,
+        773,
+        200,
+        200
+      ],
+      "sha256": "fc035f9c3f90b0cd66c8512997ca47d71d4c020cf4e68a2f9fab4ac19754cd92",
+      "source": "assets/gfx/ui/battle/parsed/SixSense.tres"
+    },
+    "battle_six_sense_glow": {
+      "bytes": 276,
+      "rect": [
+        1054,
+        1147,
+        58,
+        82
+      ],
+      "sha256": "7d1c6afbf8df7605a254f0a78281dd22f8aea9aee34543b02cd078f506bcb804",
+      "source": "assets/gfx/ui/battle/parsed/SixSense02.tres"
+    },
+    "battle_sniper_button": {
+      "bytes": 275,
+      "rect": [
+        1902,
+        1,
+        144,
+        144
+      ],
+      "sha256": "9a432a532f55ef8e679c686ca87a153a289fd063ef6da38aa7758f9b5ec44fce",
+      "source": "assets/gfx/ui/battle/parsed/SmartZoomButton.tres"
+    },
+    "battle_tank_icon": {
+      "bytes": 276,
+      "rect": [
+        1222,
+        1343,
+        19,
+        19
+      ],
+      "sha256": "a6cb5c1bb11bcacd649c444362ef17681a40227065306442e82a9e5c38bae2fd",
+      "source": "assets/gfx/ui/battle/parsed/CountingTank.tres"
+    },
+    "battle_tank_icon_013": {
+      "bytes": 274,
+      "rect": [
+        988,
+        2028,
+        19,
+        19
+      ],
+      "sha256": "89be586b9a69d426f998cc671dc3033362006b42b63ed83786a0b05c7a4558ce",
+      "source": "assets/gfx/ui/battle/parsed/CountingTank013.tres"
+    },
+    "battle_tank_icon_014": {
+      "bytes": 276,
+      "rect": [
+        1836,
+        1194,
+        21,
+        26
+      ],
+      "sha256": "ea850f5ef3647604bc56c6933808d13aed2bb118bcc5f1fd9f138d0043f15dd9",
+      "source": "assets/gfx/ui/battle/parsed/CountingTank014.tres"
+    },
+    "battle_tank_icon_015": {
+      "bytes": 275,
+      "rect": [
+        1572,
+        1194,
+        23,
+        30
+      ],
+      "sha256": "3e378f72a64c9f641bc3440f10d832c4fd3a2e2f8c98cb8a18a33c9f086449a1",
+      "source": "assets/gfx/ui/battle/parsed/CountingTank015.tres"
+    },
+    "battle_tank_icon_016": {
+      "bytes": 275,
+      "rect": [
+        1183,
+        1744,
+        30,
+        35
+      ],
+      "sha256": "33ff961ff7b9b404ede3a8f75819c8440f71cf87d0e6945893a085851cebb776",
+      "source": "assets/gfx/ui/battle/parsed/CountingTank016.tres"
+    },
+    "battle_tank_icon_02": {
+      "bytes": 276,
+      "rect": [
+        1744,
+        1194,
+        21,
+        26
+      ],
+      "sha256": "a414ea6f796f5bb66153ca5a794673bdbd1d8c5873a099e7a0a6bc4cb73cbfa0",
+      "source": "assets/gfx/ui/battle/parsed/CountingTank02.tres"
+    },
+    "battle_tank_icon_03": {
+      "bytes": 276,
+      "rect": [
+        1447,
+        1194,
+        23,
+        30
+      ],
+      "sha256": "c8dc14d688754d5f34bb680d44ec2ddf81e4595fbec7d8ea3f0ec9ed7ac2896d",
+      "source": "assets/gfx/ui/battle/parsed/CountingTank03.tres"
+    },
+    "battle_tank_icon_04": {
+      "bytes": 276,
+      "rect": [
+        1183,
+        1855,
+        30,
+        35
+      ],
+      "sha256": "a36e87c09d05c39bb8dedb44d9238e1a19100b0a47923375e38a720a72f1675c",
+      "source": "assets/gfx/ui/battle/parsed/CountingTank04.tres"
+    },
+    "battle_tank_icon_05": {
+      "bytes": 275,
+      "rect": [
+        1222,
+        1322,
+        19,
+        19
+      ],
+      "sha256": "853ee4a6ee30fa37ce3936af4a402037d9c050f3deddbd66331927c2de8e8d1c",
+      "source": "assets/gfx/ui/battle/parsed/CountingTank05.tres"
+    },
+    "battle_tank_icon_06": {
+      "bytes": 276,
+      "rect": [
+        1698,
+        1194,
+        21,
+        26
+      ],
+      "sha256": "0660dcfd19b8a4d55ffdc045e9b6eb89a9fd2f597952062616f25d9f6bafc1dd",
+      "source": "assets/gfx/ui/battle/parsed/CountingTank06.tres"
+    },
+    "battle_tank_icon_07": {
+      "bytes": 275,
+      "rect": [
+        1422,
+        1194,
+        23,
+        30
+      ],
+      "sha256": "94806bad3bc399c1e85274a748241170c6c00fb5276b260abc0fbadae668cf72",
+      "source": "assets/gfx/ui/battle/parsed/CountingTank07.tres"
+    },
+    "battle_tank_icon_08": {
+      "bytes": 275,
+      "rect": [
+        1183,
+        1781,
+        30,
+        35
+      ],
+      "sha256": "a8b6c31ceb19e88102f35c298a829bc8528725dcacb53483b5e19dc91823a6b5",
+      "source": "assets/gfx/ui/battle/parsed/CountingTank08.tres"
+    },
+    "battle_tanks_bg": {
+      "bytes": 276,
+      "rect": [
+        260,
+        1755,
+        352,
+        48
+      ],
+      "sha256": "b1bb1a4244da8f88571e1f05555029be29268dd6601f9ea64e120575928a12b4",
+      "source": "assets/gfx/ui/battle/parsed/TanksBackground.tres"
+    },
+    "battle_touch": {
+      "bytes": 276,
+      "rect": [
+        592,
+        1359,
+        140,
+        140
+      ],
+      "sha256": "b9d5e8d3fab9e0ce90c449dc49b0d49f01a53f92af3eca085d5808dea7f881ca",
+      "source": "assets/gfx/ui/battle/parsed/Touch.tres"
+    },
+    "battle_tube": {
+      "bytes": 274,
+      "rect": [
+        1,
+        613,
+        257,
+        289
+      ],
+      "sha256": "29bed0f3a4f539b0e216e12054e79d5e858c6c0fd5cbfcd5de8e6280bae9a432",
+      "source": "assets/gfx/ui/battle/parsed/tube.tres"
+    }
+  },
+  "scene": {
+    "bytes": 76490,
+    "sha256": "add8cf1839110f379c4425bae2ce25d1129cd94181f5d451668d1790fe0c0645",
+    "source": "assets/gfx/ui/ui_player.tscn"
+  },
+  "script": {
+    "bytes": 41051,
+    "sha256": "94e9ed93c8580e6d345116a9e89c61489c30af2beb3dc6917ceefe03891bc4dc",
+    "source": "assets/gfx/ui/battle/ui_player_battle.gd"
+  },
+  "sheet": {
+    "bytes": 2344597,
+    "destination": "battleScreen.png",
+    "height": 2048,
+    "sha256": "2e81906f3ebfa45f4c87413d256a5b9d48583d044df37b3e6be0a200c76570f2",
+    "source": "assets/gfx/ui/battle/battleScreen.png",
+    "width": 2048
+  },
+  "standalone_textures": {
+    "battle_dmg": {
+      "bytes": 3226,
+      "destination": "battle_dmg.png",
+      "height": 52,
+      "sha256": "c0ff6e3fcd7e3a804225c469273723b9977e4f6bd17b9c7a23de41942f435994",
+      "source": "assets/gfx/ui/battle/dmg.png",
+      "width": 52
+    },
+    "battle_dmg_block": {
+      "bytes": 4160,
+      "destination": "battle_dmg_block.png",
+      "height": 52,
+      "sha256": "6294986863d070d2f4e4c72a60d79464fd8d24492cd4b33552889af536df83f1",
+      "source": "assets/gfx/ui/battle/dmg_block.png",
+      "width": 68
+    }
+  }
+}

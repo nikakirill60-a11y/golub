@@ -1,0 +1,300 @@
+#define _PI         3.141592654
+#define _PI_05      1.570796327
+#define _PI_20      6.283185308
+#define _PI_25      7.853981635
+#define _INVERSE_PI 0.31830988618
+#define MAX_JOINTS  32
+
+////////////////////////////////////////////////////////////////////////////////
+// defines
+#ensuredefined ALPHATEST    0
+
+#ensuredefined ALPHA_EROSION    0
+
+#ensuredefined TEXTURED     0
+
+#ensuredefined ALPHA8       0
+#ensuredefined RED8_TO_ALPHA 0
+
+#ensuredefined CLAMP       0
+
+#ensuredefined GRAYSCALE    0
+
+#ensuredefined VERTEX_LIT 0
+
+#ensuredefined PIXEL_LIT 0
+
+#ensuredefined SIMPLE_BLINN_PHONG 0
+
+#ensuredefined NORMALIZED_BLINN_PHONG 0
+
+#ensuredefined DIELECTRIC 0
+
+#ensuredefined ALPHA_MASK 0
+
+#ensuredefined ALPHASTEPVALUE 0
+
+#ensuredefined MATERIAL_TEXTURE 0
+
+#ensuredefined MATERIAL_DETAIL 0
+
+#ensuredefined MATERIAL_DECAL 0
+
+#ensuredefined TILED_DECAL_MASK 0
+
+#ensuredefined TILED_DECAL_TRANSFORM 0
+
+#ensuredefined TILED_DECAL_ANIMATED_EMISSION 0
+
+#ensuredefined TILED_DECAL_BLEND_NORMAL 0
+
+#ensuredefined TILED_DECAL_OVERRIDE_ROUGHNESS_METALLIC 0
+
+#ensuredefined ALBEDO_TRANSFORM 0
+
+#ensuredefined PBR_LIGHTMAP 0
+
+#ensuredefined MATERIAL_LIGHTMAP 0
+
+#ensuredefined FRAME_BLEND 0
+
+#ensuredefined VERTEX_COLOR 0
+
+#ensuredefined FLATCOLOR 0
+
+#ensuredefined FLATALBEDO 0
+
+#ensuredefined VERTEX_FOG 0
+
+#ensuredefined FOG_LINEAR 0
+
+#ensuredefined FOG_ATMOSPHERE 0
+
+#ensuredefined ENABLE_FOG 0
+#ensuredefined ENABLE_HIGH_QUALITY_FOG 0
+
+#ensuredefined FOG_HALFSPACE 0
+
+#ensuredefined FOG_HALFSPACE_LINEAR 0
+
+#ensuredefined DISTANCE_ATTENUATION 0
+
+#ensuredefined SPHERICAL_LIT 0
+
+#ensuredefined SPHERICAL_HARMONICS_9 0
+#ensuredefined SPHERICAL_HARMONICS_4 0
+
+#ensuredefined HARD_SKINNING 0
+#ensuredefined SOFT_SKINNING 0
+
+#ensuredefined SPEED_TREE_LEAF 0
+#ensuredefined CUT_LEAF 0
+#ensuredefined BILLBOARD_FACE_MAIN_CAMERA 0
+
+#ensuredefined WIND_ANIMATION 0
+#ensuredefined WAVE_ANIMATION 0
+
+#ensuredefined SETUP_LIGHTMAP 0
+
+#ensuredefined TEXTURE0_SHIFT_ENABLED 0
+
+#ensuredefined TEXTURE0_ANIMATION_SHIFT 0
+
+#ensuredefined VIEW_MODE_OVERDRAW_HEAT 0
+#ensuredefined DEBUG_UNLIT 0
+#ensuredefined ALPHABLEND 0
+#ensuredefined ALPHATEST 0
+#ensuredefined ALPHATESTVALUE 0
+
+//water flags
+#ensuredefined SOFT_COASTLINE 0
+#ensuredefined REAL_REFLECTION 0
+#ensuredefined REAL_REFRACTION 0
+#ensuredefined SPECULAR 0
+
+#ensuredefined FORCE_2D_MODE 0
+
+#ensuredefined VIEW_AMBIENT 0
+#ensuredefined VIEW_DIFFUSE 0
+#ensuredefined VIEW_SPECULAR 0
+#ensuredefined VIEW_ALBEDO 0
+#ensuredefined VIEW_NORMAL 0
+#ensuredefined VIEW_NORMAL_FINAL 0
+#ensuredefined VIEW_ROUGHNESS 0
+#ensuredefined VIEW_METALLIC 0
+#ensuredefined VIEW_AMBIENTOCCLUSION 0
+
+#ensuredefined PARTICLES_MASK 0
+#ensuredefined PARTICLES_FLOWMAP 0
+#ensuredefined PARTICLES_NOISE 0
+#ensuredefined PARTICLES_NOISE_AFFECT_FLOW 0
+#ensuredefined PARTICLES_FRESNEL_TO_ALPHA 0
+#ensuredefined PARTICLES_FLOWMAP_ANIMATION 0
+#ensuredefined PARTICLES_ALPHA_REMAP 0
+#ensuredefined PARTICLES_PERSPECTIVE_MAPPING 0
+#ensuredefined PARTICLES_THREE_POINT_GRADIENT 0
+#ensuredefined PARTICLES_VERTEX_ANIMATION 0
+#ensuredefined PARTICLES_VERTEX_ANIMATION_MASK 0
+
+#ensuredefined VERTEX_SHADER_TEXTURE_FETCH_SUPPORTED 0
+
+#ensuredefined FLOWMAP 0
+
+#ensuredefined VIEW_ALL 0
+
+#if !VIEW_AMBIENT && !VIEW_DIFFUSE && !VIEW_SPECULAR && !VIEW_ALBEDO
+    #define VIEW_AMBIENT 1
+    #define VIEW_DIFFUSE 1
+    #define VIEW_SPECULAR 1
+    #define VIEW_ALBEDO 1
+    #define VIEW_ALL 1
+#endif
+
+#ensuredefined TEST_OCCLUSION 0
+
+#ensuredefined HEIGHTMAP_FLOAT_TEXTURE 0
+#ensuredefined LANDSCAPE_RELAXMAP 0
+#ensuredefined LANDSCAPE_USE_RELAXMAP 0
+#ensuredefined LANDSCAPE_HEIGHT_BLEND_ALLOWED 0
+#ensuredefined LANDSCAPE_HEIGHT_BLEND 0
+#ensuredefined LANDSCAPE_PBR 0
+#ensuredefined LANDSCAPE_HAS_METALLIC_AND_EMISSION 0
+#ensuredefined LANDSCAPE_SCALED_TILES_NON_PBR 0
+#ensuredefined LANDSCAPE_SEPARATE_LIGHTMAP_CHANNEL 0
+#ensuredefined LANDSCAPE_MORPHING_COLOR 0
+#ensuredefined LANDSCAPE_USE_INSTANCING 0
+#ensuredefined LANDSCAPE_LOD_MORPHING 0
+#ensuredefined LANDSCAPE_MORPHING_COLOR 0
+#ensuredefined LANDSCAPE_TOOL 0
+#ensuredefined LANDSCAPE_TOOL_MIX 0
+#ensuredefined LANDSCAPE_CURSOR 0
+
+#ensuredefined CURSOR 0
+#ensuredefined DEBUG_2D 0
+
+#ensuredefined FRESNEL_TO_ALPHA 0
+#ensuredefined LOD_COLOR 0
+
+#ensuredefined PARTICLE_DEBUG_SHOW_ALPHA 0
+#ensuredefined PARTICLE_DEBUG_SHOW_OVERDRAW 0
+
+#ensuredefined FORCED_SHADOW_DIRECTION 0
+
+#ensuredefined PASS_NAME 0
+#ensuredefined SOFT_PARTICLES 0
+#ensuredefined VEGETATION_BEND 0
+
+#ensuredefined POINT_LIGHT_AFFECTS_UNLIT 0
+#ensuredefined ALLOW_POINT_LIGHTS 0
+#ensuredefined FORCE_POINT_LIGHTS_ENABLED 0
+#ensuredefined DEVICE_TIER 0
+#ensuredefined DEVICE_TIER_LOW 0
+#ensuredefined BLEND_BY_ANGLE 0
+
+#ensuredefined SHADOW_PCF 0
+#ensuredefined SHADOW_CASCADES_COUNT 0
+#ensuredefined SHADOW_CASCADES_BLEND 0
+#ensuredefined DEBUG_SHADOW_CASCADES 0
+#ensuredefined SHADOW_RECEIVER 0
+#ensuredefined USE_SHADOW_MAP 0 // don't use this in your shaders
+#ensuredefined POINT_LIGHTS_OVERRIDE_SHADOW 0
+
+#ensuredefined DEPTH_TARGET_IS_FRAMEBUFFER 0
+#ensuredefined DISTANCE_FADE_OUT 0
+#ensuredefined DEPTH_PREPASS_ENABLED 0
+#ensuredefined FEATURE_ENABLED_ARM_DEPTH_STENCIL_FETCH 0
+#ensuredefined FEATURE_ENABLED_ARM_COLOR_FETCH 0
+#ensuredefined FEATURE_ENABLED_EXT_COLOR_FETCH 0
+#ensuredefined FEATURE_ENABLED_METAL_COLOR_FETCH 0
+#ensuredefined VERTEX_DISPLACEMENT 0
+
+#define RETRIEVE_FRAG_DEPTH_AVAILABLE (DEPTH_PREPASS_ENABLED || FEATURE_ENABLED_ARM_DEPTH_STENCIL_FETCH || FEATURE_ENABLED_METAL_COLOR_FETCH)
+#define RETRIEVE_FRAG_COLOR_AVAILABLE (FEATURE_ENABLED_ARM_COLOR_FETCH || FEATURE_ENABLED_EXT_COLOR_FETCH || FEATURE_ENABLED_METAL_COLOR_FETCH)
+
+#define RECEIVE_SHADOW (USE_SHADOW_MAP && SHADOW_RECEIVER)
+#define DRAW_DEPTH_ONLY ((PASS_NAME == PASS_DEPTHONLY) || (PASS_NAME == PASS_SHADOWMAP))
+#define USE_VERTEX_FOG (ENABLE_FOG && VERTEX_FOG && !DRAW_DEPTH_ONLY)
+#define USE_FOG_HALFSPACE (USE_VERTEX_FOG && FOG_HALFSPACE && ENABLE_HIGH_QUALITY_FOG)
+#define USE_VERTEX_DISPLACEMENT (VERTEX_SHADER_TEXTURE_FETCH_SUPPORTED && VERTEX_DISPLACEMENT)
+
+#ensuredefined ENVIRONMENT_MAPPING 0
+#ensuredefined ENVIRONMENT_MAPPING_NORMALMAP 0
+
+#ensuredefined DECAL_ALBEDO 0
+#ensuredefined DECAL_NORMAL 0
+#ensuredefined DECAL_DEBUG 0
+#ensuredefined DECAL_TREAD 0
+#ensuredefined FADE_OUT_WITH_TIME 0
+#ensuredefined BLEND_WITH_CONST_ALPHA 0
+
+#ensuredefined DECAL_TEXTURE_COUNT 1
+#define MULTIPLE_DECAL_TEXTURES (HARD_SKINNING && TILED_DECAL_MASK && DECAL_TEXTURE_COUNT > 1)
+
+#ensuredefined COLORBLIND_MODE 0
+
+#ensuredefined INSTANCED_CHAIN 0
+#ensuredefined AMBIENT_ATTENUATION_BOX 0
+#ensuredefined DIRT_COVERAGE 0
+#ensuredefined WETNESS_MULTILEVEL 0
+#ensuredefined WETNESS_SIMPLIFIED 0
+
+#ensuredefined PBR_SHADING 0
+#ensuredefined PBR_TEXTURE_SET 0
+#ensuredefined PBR_SPEEDTREE 0
+
+#ensuredefined SHADER_ULTRA 0
+#ensuredefined EMISSIVE_COLOR 0
+#ensuredefined TILED_DECAL_EMISSIVE_COLOR 0
+#ensuredefined TILED_DECAL_ANIM_MASK 0
+
+#ensuredefined EMISSIVE_ALBEDO 0
+#ensuredefined TILED_DECAL_EMISSIVE_ALBEDO 0
+
+#ensuredefined VERTEX_VERTICAL_OFFSET 0
+
+#ensuredefined TILED_DECAL_NOISE_SPREADING 0
+#ensuredefined TILED_DECAL_SPATIAL_SPREADING 0
+
+#define TILED_DECAL_SPREADING (TILED_DECAL_NOISE_SPREADING || TILED_DECAL_SPATIAL_SPREADING)
+
+#define NEEDS_LOCAL_POSITION (WETNESS_MULTILEVEL || AMBIENT_ATTENUATION_BOX || (TILED_DECAL_MASK && TILED_DECAL_SPATIAL_SPREADING))
+
+#ensuredefined SPEEDTREE_JOINT_TRANSFORM 0
+
+#if (DEVICE_TIER == DEVICE_TIER_ULTRA_LOW)
+    #define MAX_POINT_LIGHTS 0
+#elif (ALLOW_POINT_LIGHTS && FORCE_POINT_LIGHTS_ENABLED)
+    #define MAX_POINT_LIGHTS 2
+#elif (ALLOW_POINT_LIGHTS && (DEVICE_TIER != DEVICE_TIER_LOW))
+    #if (PIXEL_LIT || PBR_SHADING)
+        #define MAX_POINT_LIGHTS 2
+    #else
+        #define MAX_POINT_LIGHTS 1
+    #endif
+#else
+    #define MAX_POINT_LIGHTS 0
+#endif
+
+#ensuredefined PUSH_TO_NEAR_PLANE_HACK 0
+
+#ensuredefined LOD_TRANSITION 0
+
+#ensuredefined WATER_RIPPLES_ENABLED 0
+#ensuredefined WATER_RIPPLES_ALLOWED 0
+
+#define WATER_RIPPLES (WATER_RIPPLES_ENABLED && WATER_RIPPLES_ALLOWED)
+
+#ensuredefined GLOBAL_TINT 0
+#ensuredefined GLOBAL_PBR_TINT 0
+
+#ensuredefined IGNORE_GLOBAL_FLAT_COLOR 0
+#ensuredefined IGNORE_LIGHTMAP_ADJUSTMENT 0
+#ensuredefined IGNORE_BASE_COLOR_PBR_TINT 0
+#ensuredefined IGNORE_ROUGHNESS_PBR_TINT 0
+
+#define COMMON_INCLUDED 1
+
+float DefaultFirstStatement()
+{
+    return 1.0;
+}

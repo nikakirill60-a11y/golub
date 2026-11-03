@@ -1,0 +1,175 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "TETRARCHLLArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 448,
+      "vertices": 484
+    },
+    {
+      "armor": 0,
+      "material": "TETRARCHLLArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 10,
+      "material": "TETRARCHLLArmor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 13,
+      "vertices": 39
+    },
+    {
+      "armor": 14,
+      "material": "TETRARCHLLArmor_armor_hull_plate14_14",
+      "mount": "hull",
+      "name": "armor_hull_plate14_14",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 139,
+      "vertices": 417
+    },
+    {
+      "armor": 16,
+      "material": "TETRARCHLLArmor_armor_hull_plate16_16",
+      "mount": "hull",
+      "name": "armor_hull_plate16_16",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 16,
+      "material": "TETRARCHLLArmor_armor_hull_plate16s_16",
+      "mount": "hull",
+      "name": "armor_hull_plate16s_16",
+      "screen": true,
+      "submesh": 5,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 30,
+      "material": "TETRARCHLLArmor_armor_hull_plate30s_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30s_30",
+      "screen": true,
+      "submesh": 6,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 7,
+      "material": "TETRARCHLLArmor_armor_hull_plate7_7",
+      "mount": "hull",
+      "name": "armor_hull_plate7_7",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 0,
+      "material": "TETRARCHLLArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 10,
+      "material": "TETRARCHLLArmor_armor_turret_01_plate10_10",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate10_10",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 14,
+      "material": "TETRARCHLLArmor_armor_turret_01_plate14_14",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate14_14",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 16,
+      "material": "TETRARCHLLArmor_armor_turret_01_plate16_16",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate16_16",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 66,
+      "vertices": 198
+    },
+    {
+      "armor": 4,
+      "material": "TETRARCHLLArmor_armor_turret_01_plate4_4",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate4_4",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 19,
+      "vertices": 57
+    },
+    {
+      "armor": 7,
+      "material": "TETRARCHLLArmor_armor_turret_01_plate7_7",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate7_7",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 29,
+      "vertices": 87
+    },
+    {
+      "armor": 10,
+      "material": "TETRARCHLLArmor_gun_01_mask_turret_01_plate10s_10",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate10s_10",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 103,
+      "vertices": 309
+    },
+    {
+      "armor": 16,
+      "material": "TETRARCHLLArmor_gun_01_mask_turret_01_plate16s_16",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate16s_16",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 85,
+      "vertices": 255
+    },
+    {
+      "armor": 7,
+      "material": "TETRARCHLLArmor_gun_01_mask_turret_01_plate7s_7",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate7s_7",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 6,
+      "vertices": 18
+    }
+  ]
+}

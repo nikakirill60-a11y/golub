@@ -1,0 +1,498 @@
+{
+  "version": "11.20",
+  "policy": "authored Parameters icon paths; exact alpha crop; no resampling",
+  "icons": [
+    {
+      "name": "vk7201",
+      "source": "Gfx/UI/BigTankIcons/germany-VK7201@2x.packed.webp.dvpl",
+      "sha256": "38df33388a3bd34e89cb529d425b087e6d0bff98ff91ce590cda3f7e82d585f2",
+      "crop": [
+        0,
+        0,
+        265,
+        201
+      ],
+      "output_sha256": "43ff423844f13d93224f841c8b5303cdd2a230f06c169ab839983b193210f9d5"
+    },
+    {
+      "name": "g136_tiger_131",
+      "source": "Gfx/UI/BigTankIcons/germany_Tiger_131@2x.packed.webp.dvpl",
+      "sha256": "8727add9c01bfe49cf32c780f10b0d6c28e4f1d34eba371c53e8430634eb9bf6",
+      "crop": [
+        0,
+        0,
+        289,
+        197
+      ],
+      "output_sha256": "40154db8288d0989dffa29ba219a0c1a1c7f091d0753cf01c183bdfef26eaa22"
+    },
+    {
+      "name": "g114_rheinmetall_scorpion",
+      "source": "Gfx/UI/BigTankIcons/germany-Skorpion@2x.packed.webp.dvpl",
+      "sha256": "a9d29c6e1d61b528b7fce042f40480bc0204d65427229eaa30c6b70ddd94814c",
+      "crop": [
+        0,
+        0,
+        290,
+        201
+      ],
+      "output_sha256": "7e8ec3d8a86dbbdf482c1b6b33c268ea4d7cee2d9b7f5f7bef648db3a029cf13"
+    },
+    {
+      "name": "g115_vk10001p",
+      "source": "Gfx/UI/BigTankIcons/germany-VK10001P@2x.packed.webp.dvpl",
+      "sha256": "7eae61acd7f4660d8fc397a9247587a7be02f5881db19c4174fcbb65652e3a2d",
+      "crop": [
+        0,
+        0,
+        300,
+        201
+      ],
+      "output_sha256": "76b228056ff993aaaf425abf72d3780f745618a117766bf06f1498e826ca24d5"
+    },
+    {
+      "name": "g110_mauschen",
+      "source": "Gfx/UI/BigTankIcons/germany-Mauschen@2x.packed.webp.dvpl",
+      "sha256": "57b8819c8a8eea43cbf0fc9fe091b1ce842edaa90046a9d60e3ebafa73ce2886",
+      "crop": [
+        0,
+        0,
+        289,
+        201
+      ],
+      "output_sha256": "3ba86c4fe625933291acee6974996e48aafd2511b470e037c79743c02c77b60a"
+    },
+    {
+      "name": "g119_pz58_mutz",
+      "source": "Gfx/UI/BigTankIcons/germany-Pz58@2x.packed.webp.dvpl",
+      "sha256": "62c81c48a117e721b74bc66eec69dc9df51d4b7f1d798d2881ac620280b6e618",
+      "crop": [
+        0,
+        0,
+        321,
+        201
+      ],
+      "output_sha256": "f37d5bc1e3a36402213ff08620dead57b444d518bb8111513ff7184566c69067"
+    },
+    {
+      "name": "g138_vk16801p",
+      "source": "Gfx/UI/BigTankIcons/germany-VK16801P@2x.packed.webp.dvpl",
+      "sha256": "6310e79e782b2a904af17ec90f72ab536265227d480d277125bcb7a088277ebe",
+      "crop": [
+        0,
+        0,
+        293,
+        201
+      ],
+      "output_sha256": "6a2e02629d71a080f3d85c061d43289b23c8aca818182c31365aa972beb163f9"
+    },
+    {
+      "name": "g_e-75ts",
+      "source": "Gfx/UI/BigTankIcons/germany-G_E-75TS@2x.packed.webp.dvpl",
+      "sha256": "0cb912dc2ce552200b54affc1895751ca85b0e5cd607e896187e066137221674",
+      "crop": [
+        0,
+        0,
+        307,
+        201
+      ],
+      "output_sha256": "95049bff61abb0ae3ef3b7e62a75eb2e9b527bd08f3644eb928e3a4795b8d202"
+    },
+    {
+      "name": "g_vk9001p",
+      "source": "Gfx/UI/BigTankIcons/germany-G-VK9001P@2x.packed.webp.dvpl",
+      "sha256": "6ff538b3fa22fb23dbbac879051098e7bcda303126325f5d5fadf60b29826c80",
+      "crop": [
+        0,
+        0,
+        283,
+        201
+      ],
+      "output_sha256": "8e27166571054014adfc5a4d0e0c126e71bbc4b729a96357f4c8d4978a2660fc"
+    },
+    {
+      "name": "vk2801_bp",
+      "source": "Gfx/UI/BigTankIcons/germany-VK2801_BP@2x.packed.webp.dvpl",
+      "sha256": "d2329811af10ca0dd5ee5c8c28b21117913bd296128ab98c110efcc4cb197df9",
+      "crop": [
+        0,
+        0,
+        259,
+        200
+      ],
+      "output_sha256": "7a3cf8856761c64c424878d418dcb35b7379c0e893df43ffc763917644a14ff0"
+    },
+    {
+      "name": "pzvi_ausftu",
+      "source": "Gfx/UI/BigTankIcons/germany-PzVI_AusfTU@2x.packed.webp.dvpl",
+      "sha256": "0978251eb2f86080e0dc145e53e2ad8c0152ede522be3dcc47a5559dc7a48858",
+      "crop": [
+        0,
+        0,
+        274,
+        201
+      ],
+      "output_sha256": "61a4be77c02de009a5a5394438b6071a69fc51bb90f5c5b4f800e0c1d257621f"
+    },
+    {
+      "name": "g112_jagdpanzer_105",
+      "source": "Gfx/UI/BigTankIcons/germany-G112_JagdPanzer_105@2x.packed.webp.dvpl",
+      "sha256": "327402c8823d14156d843513959f822374ee17d5a6756caa72828930ab32686b",
+      "crop": [
+        0,
+        0,
+        256,
+        201
+      ],
+      "output_sha256": "7dda813f5860534a71047a7aa1ae9cad4ead9e2fc000a63af456f6845b92367b"
+    },
+    {
+      "name": "pzvi_ausfbp",
+      "source": "Gfx/UI/BigTankIcons/germany-PzVI_AusfBP@2x.packed.webp.dvpl",
+      "sha256": "e2637ebae52531245d8147b5640fb3e1194a954976778304955e7e88863e004c",
+      "crop": [
+        0,
+        0,
+        280,
+        201
+      ],
+      "output_sha256": "1541df91e9c21440a5c1cace1b5e06c99fc0f6da92ce68654b1d33180e1e9720"
+    },
+    {
+      "name": "g147_mpanzer_64",
+      "source": "Gfx/UI/BigTankIcons/germany-G147_mPanzer_64@2x.packed.webp.dvpl",
+      "sha256": "52021ef2075d922d212a2862c2f7732c183cdefec76a4a77b25d3f2b9b28feba",
+      "crop": [
+        0,
+        0,
+        240,
+        197
+      ],
+      "output_sha256": "4784c07be9da0e17e1901382bff7f44b7d9dcecc0acc8994467df33c08cc5b31"
+    },
+    {
+      "name": "g144_kpz_50t",
+      "source": "Gfx/UI/BigTankIcons/germany-G144_Kpz_50t@2x.packed.webp.dvpl",
+      "sha256": "1b3ad2221ba6b1260530001fb43c12712436a4269b7c0def9607a9b8656f7ba6",
+      "crop": [
+        0,
+        0,
+        288,
+        201
+      ],
+      "output_sha256": "e0ec368089e4cff849c52d986c3ff44c5edc1586ede000828eef0aacb7ffc531"
+    },
+    {
+      "name": "pz_iv_ausfbt",
+      "source": "Gfx/UI/BigTankIcons/germany-Pz_IV_AusfBT@2x.packed.webp.dvpl",
+      "sha256": "536115e00cd506237c033257492a50fd7599c0396d8f095f465898c0d34ad8d3",
+      "crop": [
+        0,
+        0,
+        254,
+        201
+      ],
+      "output_sha256": "5635e813cf0723e0ea09b0fa71d6a987f6cf11d3ef286d5852085d42b6b5ba36"
+    },
+    {
+      "name": "g109_steyr_wt",
+      "source": "Gfx/UI/BigTankIcons/germany-G109_Steyr_WT@2x.packed.webp.dvpl",
+      "sha256": "64a4896d678a066602700858da9ed3fa313a63f94d01e91033084ee2d26b2e86",
+      "crop": [
+        0,
+        0,
+        276,
+        201
+      ],
+      "output_sha256": "45c746f8f3cd735b88e091e02194cafeeb2d0914548600a43b2ce418cc43e99b"
+    },
+    {
+      "name": "vk3002db_bp",
+      "source": "Gfx/UI/BigTankIcons/germany-VK3002DB_BP@2x.packed.webp.dvpl",
+      "sha256": "989ae276abb3d85c9996512f06e9ee44d8b7bbecb5d19fdd66627bf7f6cccb3e",
+      "crop": [
+        0,
+        0,
+        287,
+        201
+      ],
+      "output_sha256": "79126f504fdb0e6830b8d84f497fc9ebbc4b86bd008a14fa0ee17ad2eb0e1c8d"
+    },
+    {
+      "name": "g142_m48rpz",
+      "source": "Gfx/UI/BigTankIcons/germany-G142_M48RPz@2x.packed.webp.dvpl",
+      "sha256": "ef2b9e9555eafeaab420a70c512e2e97ab0a17386daae55db48b560a456ab672",
+      "crop": [
+        0,
+        0,
+        287,
+        201
+      ],
+      "output_sha256": "e7ccf5cc1a2c7c9e5058afef5769ae8205b80ae8b025f61ab6d2eff8c2742b91"
+    },
+    {
+      "name": "g_e-75rt",
+      "source": "Gfx/UI/BigTankIcons/germany-G_E-75RT@2x.packed.webp.dvpl",
+      "sha256": "92ae17a1fa8113fb4d6b9d67eb44636496c132016fd8d56caed84aae1d54e3bf",
+      "crop": [
+        0,
+        0,
+        318,
+        201
+      ],
+      "output_sha256": "52c6f78c9867ccefcd1acc2937cc5b0b9d7354b16a322ff240228a592a818105"
+    },
+    {
+      "name": "jagdpziv_ausfbp",
+      "source": "Gfx/UI/BigTankIcons/germany-JagdPzIV_AusfBP@2x.packed.webp.dvpl",
+      "sha256": "1dd112ce2e1523c0777a40d109247271d525a5801cd09e8b252e16e02f5fa8aa",
+      "crop": [
+        0,
+        0,
+        244,
+        196
+      ],
+      "output_sha256": "d9ddd5d1fc45018da422ed6d0240c096573ad7b246866dc8737ea4b7214f5b65"
+    },
+    {
+      "name": "g_vk3502_bp",
+      "source": "Gfx/UI/BigTankIcons/germany-G_VK3502H_BP@2x.packed.webp.dvpl",
+      "sha256": "1200b170cfd12ddf0d819494ed08f8519aab7b9db6ee2a7b099f32571c1a28e2",
+      "crop": [
+        0,
+        0,
+        273,
+        201
+      ],
+      "output_sha256": "33d426eaa73d42ce29732e42be99fa7eb014eb4da9a2ca34eb94727b4b69ad12"
+    },
+    {
+      "name": "waffentrager_iv_cl",
+      "source": "Gfx/UI/BigTankIcons/germany-Waffentrager_IV_CL@2x.packed.webp.dvpl",
+      "sha256": "215dd42579a553db5f6d59989f59a9c2642ce1f01bb85dbadba51bb23af848ce",
+      "crop": [
+        0,
+        0,
+        279,
+        200
+      ],
+      "output_sha256": "ae2046ecbc2a93f699a227abe57ca1daad95397b4a260afcb919e8aea632e015"
+    },
+    {
+      "name": "g140_hwk_30",
+      "source": "Gfx/UI/BigTankIcons/germany-G140_HWK_30@2x.packed.webp.dvpl",
+      "sha256": "4ca9915881b34b98b0df8708fe24674197c8fe76404b10a064a9d5d8a8bc2d71",
+      "crop": [
+        0,
+        0,
+        263,
+        201
+      ],
+      "output_sha256": "8313cb29439a28e29ff5488648ae89e030717a4aa52e8668c12781872089c0f2"
+    },
+    {
+      "name": "g148_elephant",
+      "source": "Gfx/UI/BigTankIcons/germany-G148_Elephant@2x.packed.webp.dvpl",
+      "sha256": "09abe3b5cd1b601258a6fd499ada53a273e428467c16400f536cbd8b70863f2d",
+      "crop": [
+        0,
+        0,
+        256,
+        201
+      ],
+      "output_sha256": "62ebc7c3d86ba0cbf148026a049e50411f2f6d13a49288e80cfbd06aa353bb11"
+    },
+    {
+      "name": "nashorn_bp",
+      "source": "Gfx/UI/BigTankIcons/germany-Nashorn_BP@2x.packed.webp.dvpl",
+      "sha256": "24a7f14a2d333b134a0bf57370eeba91e0b9295daebb17c44749628a5707d84a",
+      "crop": [
+        0,
+        0,
+        232,
+        201
+      ],
+      "output_sha256": "83b691350fe6e2122da3470d2798dd3e0c84db86e588c400e46587e586dae3de"
+    },
+    {
+      "name": "pzvi_ausftur",
+      "source": "Gfx/UI/BigTankIcons/germany-PzVI_AusfTUR@2x.packed.webp.dvpl",
+      "sha256": "0978251eb2f86080e0dc145e53e2ad8c0152ede522be3dcc47a5559dc7a48858",
+      "crop": [
+        0,
+        0,
+        274,
+        201
+      ],
+      "output_sha256": "61a4be77c02de009a5a5394438b6071a69fc51bb90f5c5b4f800e0c1d257621f"
+    },
+    {
+      "name": "g154_kpz_07_rh",
+      "source": "Gfx/UI/BigTankIcons/germany-G154_Kpz_07_RH@2x.packed.webp.dvpl",
+      "sha256": "26c025eba19b761d42073bf20d3d134c6cc693869f8cf44c48b5e275aee5e7ff",
+      "crop": [
+        0,
+        0,
+        295,
+        201
+      ],
+      "output_sha256": "a37cd1a94e31c0e66af8ccd1e153a7b28bb5a666d3c49c403699f508ceab5d73"
+    },
+    {
+      "name": "g164_kpz_pr_68_p",
+      "source": "Gfx/UI/BigTankIcons/germany-G164_Kpz_Pr_68_P@2x.packed.webp.dvpl",
+      "sha256": "2f1271d0a39a6d1b7fd783064f7d1a34b003d89a1c69db2fba924fc1fbdfb3a7",
+      "crop": [
+        0,
+        0,
+        279,
+        201
+      ],
+      "output_sha256": "a5cecaa1816392d1f5fd32d46957da2abb072744d61e1042e51267074b200f5b"
+    },
+    {
+      "name": "g85_auf_panther",
+      "source": "Gfx/UI/BigTankIcons/germany-G85_Auf_Panther@2x.packed.webp.dvpl",
+      "sha256": "db1ad725d5f773f5d277ce100c13cb4b33483f304f95b2bff618425befc1fa86",
+      "crop": [
+        0,
+        0,
+        261,
+        201
+      ],
+      "output_sha256": "b4e41f6c52b1a9c483e4ecfb7dd14f698cde442ed98c8000c1e4d99b461927bb"
+    },
+    {
+      "name": "g162_project_kpz_07p_e",
+      "source": "Gfx/UI/BigTankIcons/germany-G162_Project_Kpz_07P_E@2x.packed.webp.dvpl",
+      "sha256": "1017396e2a02cb21f951869c49038e7752c7d0c95d9be3b64803dabb5c82fe47",
+      "crop": [
+        0,
+        0,
+        297,
+        201
+      ],
+      "output_sha256": "21b2e3de177f87f31656717c9f2e95bad4e56be87657c642437197873019e44a"
+    },
+    {
+      "name": "g119_panzer58_sh",
+      "source": "Gfx/UI/BigTankIcons/germany-G119_Panzer58_SH@2x.packed.webp.dvpl",
+      "sha256": "cfec0d3b7598e143b98ae4e51bda285b76190fbce5e913ae98d16d374ee4f394",
+      "crop": [
+        0,
+        0,
+        268,
+        201
+      ],
+      "output_sha256": "94d6c3f9ac45ed37a9b0e63ca971d27b85b28f66355ee01d55fba6d62d002ebc"
+    },
+    {
+      "name": "g165_erich_koncept",
+      "source": "Gfx/UI/BigTankIcons/germany-ErichKoncept@2x.packed.webp.dvpl",
+      "sha256": "11e4ba8f25917dfad82371c23689078251cf1a7441ea04c12c30305b61ebece6",
+      "crop": [
+        0,
+        0,
+        280,
+        201
+      ],
+      "output_sha256": "aba09a08e56028ef5773ca71277dd27d9b2ca79c00583459fab1c2352b23f328"
+    },
+    {
+      "name": "g166_lkpz_70_k",
+      "source": "Gfx/UI/BigTankIcons/germany-G166_LKpz_70_K@2x.packed.webp.dvpl",
+      "sha256": "e7f83c352a182460470becdd40a65e5fb993d30abf65b82c5ed8e253f0b85da4",
+      "crop": [
+        0,
+        0,
+        273,
+        201
+      ],
+      "output_sha256": "0794ced53708f6c8cebed6b7467f70b9884b95950386c8a35fa3109fe39a4fc2"
+    },
+    {
+      "name": "g126_hwk_12",
+      "source": "Gfx/UI/BigTankIcons/germany-G126_HWK_12@2x.packed.webp.dvpl",
+      "sha256": "4db0b92c29a6b15c8a315cf4b0c335fcca92111e7ed54aa29f1c438292e39452",
+      "crop": [
+        0,
+        0,
+        201,
+        201
+      ],
+      "output_sha256": "a0ea1a0347269e3031102076339e37095bd6db12097515d1eaa65973c4ab0f0d"
+    },
+    {
+      "name": "g125_spz_57_rh",
+      "source": "Gfx/UI/BigTankIcons/germany-G125_Spz_57_Rh@2x.packed.webp.dvpl",
+      "sha256": "f999dee3538eaf996878d50187d54efecf6346fefc1bc3cba35ce9bb9a7d09b8",
+      "crop": [
+        0,
+        0,
+        258,
+        201
+      ],
+      "output_sha256": "66edd44c4d2dc88f11e982c554410c4d8f153b0bdf13ad039f6d66244b5e98bd"
+    },
+    {
+      "name": "g98_waffentrager_e100",
+      "source": "Gfx/UI/BigTankIcons/germany-G98_Waffentrager_E100@2x.packed.webp.dvpl",
+      "sha256": "b1e734a946261288b34bae9eefda6a3a3ab7b4e0c6b45a2a6dd49edb6d2a687c",
+      "crop": [
+        0,
+        0,
+        272,
+        201
+      ],
+      "output_sha256": "5f9801edfdbb31fb7f19d7aa7e093c4c2bafb950c9de66c5327482ffc7804ab1"
+    },
+    {
+      "name": "g167_tiger_maus",
+      "source": "Gfx/UI/BigTankIcons/germany-G167_Tiger_Maus@2x.packed.webp.dvpl",
+      "sha256": "18e8d9c1b95ea32f135ade65f6886e42fca5cde25068111e03266c24ebc84bba",
+      "crop": [
+        0,
+        0,
+        268,
+        201
+      ],
+      "output_sha256": "3cc8c9963bdfbbf3e07ef153ff87f1bc4ca505e9c2596c8dd1c70684b3d5111a"
+    },
+    {
+      "name": "g190_vk_1602_quby",
+      "source": "Gfx/UI/BigTankIcons/germany-G190_VK_1602_Quby@2x.packed.webp.dvpl",
+      "sha256": "6044b23d92e1e46198a98baebfa1cbaafe8074d788dfbb9292a1bba3570b3e95",
+      "crop": [
+        0,
+        0,
+        229,
+        201
+      ],
+      "output_sha256": "9a7871cb74fded2702d57a0b75fec302aa769f12c4d9a5ea8a7240403e54478f"
+    },
+    {
+      "name": "g168_kjpz_t_iii",
+      "source": "Gfx/UI/BigTankIcons/germany-G168_KJpz_T_III@2x.packed.webp.dvpl",
+      "sha256": "f54eefd4c1f5cf2851b674e5afd919724b9ef136b0e80f4a419583a4326475aa",
+      "crop": [
+        0,
+        0,
+        306,
+        201
+      ],
+      "output_sha256": "982d3fa8d20e40250eee2cfcab108cade019ca6108f5fbd7831eed9c392fecb4"
+    },
+    {
+      "name": "g14_kpfpz_70r",
+      "source": "Gfx/UI/BigTankIcons/germany-G14_KpfPz_70R@2x.packed.webp.dvpl",
+      "sha256": "1561f824dce679a4e9929a32755b43abf743aa9c98f01e5847a4ab4d1d083df5",
+      "crop": [
+        0,
+        0,
+        288,
+        201
+      ],
+      "output_sha256": "d8da7145c12037ff4ab845a780a5a0fa52e1bf1a4e170a5a0c018a80f1c5b88a"
+    }
+  ]
+}

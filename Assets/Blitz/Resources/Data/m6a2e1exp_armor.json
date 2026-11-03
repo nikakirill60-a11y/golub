@@ -1,0 +1,162 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.06,
+      0.04,
+      0.08
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "M6A2E1EXPArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 232,
+      "vertices": 284
+    },
+    {
+      "armor": 0,
+      "material": "M6A2E1EXPArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 198,
+      "material": "M6A2E1EXPArmor_armor_hull_plate198_198",
+      "mount": "hull",
+      "name": "armor_hull_plate198_198",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 26,
+      "material": "M6A2E1EXPArmor_armor_hull_plate26_26",
+      "mount": "hull",
+      "name": "armor_hull_plate26_26",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 33,
+      "material": "M6A2E1EXPArmor_armor_hull_plate33s_33",
+      "mount": "hull",
+      "name": "armor_hull_plate33s_33",
+      "screen": true,
+      "submesh": 4,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 42,
+      "material": "M6A2E1EXPArmor_armor_hull_plate42_42",
+      "mount": "hull",
+      "name": "armor_hull_plate42_42",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 59,
+      "vertices": 177
+    },
+    {
+      "armor": 45,
+      "material": "M6A2E1EXPArmor_armor_hull_plate45_45",
+      "mount": "hull",
+      "name": "armor_hull_plate45_45",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 17,
+      "vertices": 51
+    },
+    {
+      "armor": 91,
+      "material": "M6A2E1EXPArmor_armor_hull_plate91_91",
+      "mount": "hull",
+      "name": "armor_hull_plate91_91",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 198,
+      "material": "M6A2E1EXPArmor_armor_turret_01_plate198_198",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate198_198",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 49,
+      "vertices": 147
+    },
+    {
+      "armor": 216,
+      "material": "M6A2E1EXPArmor_armor_turret_01_plate216_216",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate216_216",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 26,
+      "vertices": 78
+    },
+    {
+      "armor": 42,
+      "material": "M6A2E1EXPArmor_armor_turret_01_plate42_42",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate42_42",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 92,
+      "material": "M6A2E1EXPArmor_armor_turret_01_plate92_92",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate92_92",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 70,
+      "vertices": 210
+    },
+    {
+      "armor": 93,
+      "material": "M6A2E1EXPArmor_armor_turret_01_plate93_93",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate93_93",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 59,
+      "vertices": 177
+    },
+    {
+      "armor": 229,
+      "material": "M6A2E1EXPArmor_gun_01_mask_turret_01_plate229s_229",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate229s_229",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 66,
+      "vertices": 198
+    },
+    {
+      "armor": 89,
+      "material": "M6A2E1EXPArmor_gun_01_mask_turret_01_plate89s_89",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate89s_89",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 2,
+      "vertices": 6
+    }
+  ]
+}

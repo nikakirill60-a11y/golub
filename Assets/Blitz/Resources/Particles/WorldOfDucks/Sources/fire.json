@@ -1,0 +1,422 @@
+{
+ "legacyEmitters": [
+  {
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "emitter": {
+    "name": "fire",
+    "emissionVector": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "type": 3,
+    "size": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "shortEffect": false,
+    "radius": 0.4,
+    "emissionRange": 0.0,
+    "emissionVectorInverted": true,
+    "emissionAngle": 0,
+    "layers": [
+     {
+      "life": 1.7,
+      "stripeLifetime": 0.0,
+      "endTime": 100.0,
+      "scaleVelocityBase": 1.0,
+      "stripeVertexSpawnStep": 1.0,
+      "stripeStartSize": 0.0,
+      "type": "layer",
+      "stripeUScrollSpeed": 0.0,
+      "enableFlow": false,
+      "stripeVScrollSpeed": 0.0,
+      "colorOverLife": [
+       1.0,
+       0.5039290470588235,
+       0.09803921568627451,
+       1.0
+      ],
+      "stripeFadeDistanceFromTop": 0.0,
+      "name": "fire1",
+      "layerType": "particles",
+      "degradeStrategy": 0,
+      "particleOrientation": 1,
+      "inheritPosition": false,
+      "isLong": false,
+      "randomSpinDirection": false,
+      "pivotPoint": [
+       0.0,
+       0.0
+      ],
+      "effectFormat": 1,
+      "useFresToAlpha": false,
+      "fresToAlphaBias": 0.0,
+      "fresToAlphaPower": 0.0,
+      "alphaRemapLoopCount": 1.0,
+      "size": [
+       1.0,
+       1.0
+      ],
+      "sprite": "../../../../../Data/Gfx/Particles/alpha/fog_white",
+      "alphaOverLife": [
+       2,
+       [
+        [
+         1,
+         0.0,
+         0.0
+        ],
+        [
+         1,
+         0.3,
+         0.48
+        ],
+        [
+         1,
+         0.0,
+         0.9967
+        ]
+       ]
+      ],
+      "enableAlphaRemap": false,
+      "blending": 3,
+      "deltaTime": 0.0,
+      "enableFlowAnimation": false,
+      "enableNoise": false,
+      "useNoiseScroll": false,
+      "useThreePointGradient": false,
+      "stripeInheritPositionForBase": false,
+      "enableFog": false,
+      "enableFrameBlend": true,
+      "loopEndTime": 100.0,
+      "scaleVelocityFactor": 0.0,
+      "startTime": 0.0,
+      "gradientMiddlePoint": 0.5,
+      "applyGlobalForces": false,
+      "loopVariation": 0.0,
+      "loopSpriteAnimation": true,
+      "number": 10.0,
+      "velocity": 0.2,
+      "frameOverLifeEnabled": true,
+      "frameOverLifeFPS": 20.0,
+      "randomFrameOnStart": false,
+      "isLooped": false,
+      "deltaVariation": 0.0,
+      "usePerspectiveMapping": false,
+      "activeLODS": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "legacyLod": 1,
+      "legacyPivot": [
+       0.0,
+       0.0
+      ],
+      "legacySpinDirection": true,
+      "size3d": [
+       1.0,
+       1.0,
+       1
+      ],
+      "legacyForces": [],
+      "forces": [],
+      "spritePath": "../../../../../Data/Gfx/Particles/alpha/fog_white"
+     },
+     {
+      "life": 1.0,
+      "stripeLifetime": 0.0,
+      "endTime": 100.0,
+      "scaleVelocityBase": 1.0,
+      "stripeVertexSpawnStep": 1.0,
+      "stripeStartSize": 0.0,
+      "type": "layer",
+      "stripeUScrollSpeed": 0.0,
+      "enableFlow": false,
+      "stripeVScrollSpeed": 0.0,
+      "stripeFadeDistanceFromTop": 0.0,
+      "name": "fire",
+      "layerType": "particles",
+      "degradeStrategy": 0,
+      "particleOrientation": 6,
+      "inheritPosition": false,
+      "isLong": false,
+      "randomSpinDirection": false,
+      "pivotPoint": [
+       0.0,
+       0.0
+      ],
+      "effectFormat": 1,
+      "useFresToAlpha": false,
+      "fresToAlphaBias": 0.0,
+      "fresToAlphaPower": 0.0,
+      "alphaRemapLoopCount": 1.0,
+      "size": [
+       1.0,
+       1.4
+      ],
+      "sprite": "../../../../../Data/Gfx/Particles/additive/fire",
+      "alphaOverLife": [
+       2,
+       [
+        [
+         1,
+         0.0,
+         0.0
+        ],
+        [
+         1,
+         0.5131,
+         0.1977
+        ],
+        [
+         1,
+         0.5,
+         0.48
+        ],
+        [
+         1,
+         0.5029,
+         0.71
+        ],
+        [
+         1,
+         0.0,
+         0.9967
+        ]
+       ]
+      ],
+      "enableAlphaRemap": false,
+      "blending": 3,
+      "deltaTime": 0.0,
+      "enableFlowAnimation": false,
+      "enableNoise": false,
+      "useNoiseScroll": false,
+      "useThreePointGradient": false,
+      "stripeInheritPositionForBase": false,
+      "enableFog": false,
+      "enableFrameBlend": true,
+      "loopEndTime": 100.0,
+      "scaleVelocityFactor": 0.0,
+      "startTime": 0.0,
+      "gradientMiddlePoint": 0.5,
+      "applyGlobalForces": false,
+      "loopVariation": 0.0,
+      "loopSpriteAnimation": true,
+      "number": 40.0,
+      "velocity": 0.2,
+      "frameOverLifeEnabled": true,
+      "frameOverLifeFPS": 15.0,
+      "randomFrameOnStart": false,
+      "isLooped": false,
+      "deltaVariation": 0.0,
+      "usePerspectiveMapping": false,
+      "activeLODS": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "legacyLod": 1,
+      "legacyPivot": [
+       0.0,
+       0.0
+      ],
+      "legacySpinDirection": true,
+      "size3d": [
+       1.0,
+       1.4,
+       1
+      ],
+      "legacyForces": [],
+      "forces": [],
+      "spritePath": "../../../../../Data/Gfx/Particles/additive/fire"
+     },
+     {
+      "life": 2.0,
+      "stripeLifetime": 0.0,
+      "endTime": 100.0,
+      "scaleVelocityBase": 1.0,
+      "stripeVertexSpawnStep": 1.0,
+      "stripeStartSize": 0.0,
+      "type": "layer",
+      "stripeUScrollSpeed": 0.0,
+      "enableFlow": false,
+      "stripeVScrollSpeed": 0.0,
+      "colorOverLife": [
+       0.3586329450980392,
+       0.3622643254901961,
+       0.43137254901960786,
+       1.0
+      ],
+      "stripeFadeDistanceFromTop": 0.0,
+      "name": "smoke",
+      "layerType": "particles",
+      "degradeStrategy": 0,
+      "particleOrientation": 1,
+      "inheritPosition": false,
+      "isLong": false,
+      "randomSpinDirection": false,
+      "pivotPoint": [
+       0.0,
+       0.0
+      ],
+      "effectFormat": 1,
+      "useFresToAlpha": false,
+      "numberVariation": 3.0,
+      "fresToAlphaBias": 0.0,
+      "fresToAlphaPower": 0.0,
+      "alphaRemapLoopCount": 1.0,
+      "size": [
+       1.0,
+       1.0
+      ],
+      "sprite": "../../../../../Data/Gfx/Particles/alpha/fog_white",
+      "alphaOverLife": [
+       2,
+       [
+        [
+         1,
+         0.0,
+         0.0
+        ],
+        [
+         1,
+         0.2912,
+         0.1236
+        ],
+        [
+         1,
+         0.212555,
+         0.661585
+        ],
+        [
+         1,
+         0.0,
+         0.99
+        ]
+       ]
+      ],
+      "enableAlphaRemap": false,
+      "blending": 1,
+      "deltaTime": 0.5,
+      "enableFlowAnimation": false,
+      "enableNoise": false,
+      "useNoiseScroll": false,
+      "useThreePointGradient": false,
+      "stripeInheritPositionForBase": false,
+      "enableFog": true,
+      "enableFrameBlend": false,
+      "loopEndTime": 200.0,
+      "scaleVelocityFactor": 0.0,
+      "startTime": 0.0,
+      "gradientMiddlePoint": 0.5,
+      "lifeVariation": 2.0,
+      "applyGlobalForces": false,
+      "loopVariation": 0.5,
+      "loopSpriteAnimation": false,
+      "number": 3.0,
+      "sizeOverLifeXY": [
+       0.0,
+       [
+        0.2,
+        0.2
+       ],
+       0.99,
+       [
+        2.0,
+        2.0
+       ]
+      ],
+      "velocity": 0.5,
+      "frameOverLifeEnabled": false,
+      "velocityVariation": 0.009,
+      "angle": 120.0,
+      "angleVariation": 120.0,
+      "frameOverLifeFPS": 10.0,
+      "randomFrameOnStart": false,
+      "isLooped": false,
+      "deltaVariation": 0.5,
+      "usePerspectiveMapping": false,
+      "activeLODS": [
+       1,
+       1,
+       1,
+       1
+      ],
+      "legacyLod": 1,
+      "legacyPivot": [
+       0.0,
+       0.0
+      ],
+      "legacySpinDirection": true,
+      "size3d": [
+       1.0,
+       1.0,
+       1
+      ],
+      "sizeOverLife3ds": [
+       2,
+       [
+        [
+         1,
+         0.2,
+         0.0
+        ],
+        [
+         1,
+         2.0,
+         0.99
+        ]
+       ],
+       [
+        [
+         1,
+         0.2,
+         0.0
+        ],
+        [
+         1,
+         2.0,
+         0.99
+        ]
+       ],
+       [
+        [
+         1,
+         1,
+         0.0
+        ],
+        [
+         1,
+         1,
+         0.99
+        ]
+       ]
+      ],
+      "angle3d": [
+       0,
+       0,
+       120.0
+      ],
+      "angleVariation3d": [
+       0,
+       0,
+       120.0
+      ],
+      "legacyForces": [],
+      "forces": [],
+      "spritePath": "../../../../../Data/Gfx/Particles/alpha/fog_white"
+     }
+    ]
+   }
+  }
+ ]
+}

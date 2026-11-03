@@ -1,0 +1,162 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.0,
+      0.08,
+      -0.02
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GB19SHERMANFIREFLYArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 404,
+      "vertices": 440
+    },
+    {
+      "armor": 0,
+      "material": "GB19SHERMANFIREFLYArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 12,
+      "material": "GB19SHERMANFIREFLYArmor_armor_hull_plate12_12",
+      "mount": "hull",
+      "name": "armor_hull_plate12_12",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 97,
+      "vertices": 291
+    },
+    {
+      "armor": 25,
+      "material": "GB19SHERMANFIREFLYArmor_armor_hull_plate25_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25_25",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 31,
+      "vertices": 93
+    },
+    {
+      "armor": 38,
+      "material": "GB19SHERMANFIREFLYArmor_armor_hull_plate38_38",
+      "mount": "hull",
+      "name": "armor_hull_plate38_38",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 47,
+      "vertices": 141
+    },
+    {
+      "armor": 44,
+      "material": "GB19SHERMANFIREFLYArmor_armor_hull_plate44_44",
+      "mount": "hull",
+      "name": "armor_hull_plate44_44",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 50,
+      "material": "GB19SHERMANFIREFLYArmor_armor_hull_plate50_50",
+      "mount": "hull",
+      "name": "armor_hull_plate50_50",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 205,
+      "vertices": 615
+    },
+    {
+      "armor": 63,
+      "material": "GB19SHERMANFIREFLYArmor_armor_hull_plate63_63",
+      "mount": "hull",
+      "name": "armor_hull_plate63_63",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 76,
+      "material": "GB19SHERMANFIREFLYArmor_armor_hull_plate76_76",
+      "mount": "hull",
+      "name": "armor_hull_plate76_76",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 110,
+      "vertices": 330
+    },
+    {
+      "armor": 25,
+      "material": "GB19SHERMANFIREFLYArmor_armor_turret_02_plate25_25",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate25_25",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 23,
+      "vertices": 69
+    },
+    {
+      "armor": 38,
+      "material": "GB19SHERMANFIREFLYArmor_armor_turret_02_plate38_38",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate38_38",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 58,
+      "vertices": 174
+    },
+    {
+      "armor": 50,
+      "material": "GB19SHERMANFIREFLYArmor_armor_turret_02_plate50_50",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate50_50",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 95,
+      "vertices": 285
+    },
+    {
+      "armor": 76,
+      "material": "GB19SHERMANFIREFLYArmor_armor_turret_02_plate76_76",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate76_76",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 85,
+      "vertices": 255
+    },
+    {
+      "armor": 88,
+      "material": "GB19SHERMANFIREFLYArmor_armor_turret_02_plate88_88",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate88_88",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 33,
+      "vertices": 99
+    },
+    {
+      "armor": 25,
+      "material": "GB19SHERMANFIREFLYArmor_gun_05_mask_turret_02_plate25s_25",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate25s_25",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 182,
+      "vertices": 546
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "S35CAPTUREDArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 208,
+      "vertices": 224
+    },
+    {
+      "armor": 0,
+      "material": "S35CAPTUREDArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 16,
+      "material": "S35CAPTUREDArmor_armor_hull_plate16s_16",
+      "mount": "hull",
+      "name": "armor_hull_plate16s_16",
+      "screen": true,
+      "submesh": 2,
+      "triangles": 56,
+      "vertices": 168
+    },
+    {
+      "armor": 21,
+      "material": "S35CAPTUREDArmor_armor_hull_plate21_21",
+      "mount": "hull",
+      "name": "armor_hull_plate21_21",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 25,
+      "material": "S35CAPTUREDArmor_armor_hull_plate25s_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25s_25",
+      "screen": true,
+      "submesh": 4,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 27,
+      "material": "S35CAPTUREDArmor_armor_hull_plate27_27",
+      "mount": "hull",
+      "name": "armor_hull_plate27_27",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 17,
+      "vertices": 51
+    },
+    {
+      "armor": 37,
+      "material": "S35CAPTUREDArmor_armor_hull_plate37_37",
+      "mount": "hull",
+      "name": "armor_hull_plate37_37",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 38,
+      "material": "S35CAPTUREDArmor_armor_hull_plate38_38",
+      "mount": "hull",
+      "name": "armor_hull_plate38_38",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 119,
+      "vertices": 357
+    },
+    {
+      "armor": 38,
+      "material": "S35CAPTUREDArmor_armor_hull_plate38s_38",
+      "mount": "hull",
+      "name": "armor_hull_plate38s_38",
+      "screen": true,
+      "submesh": 8,
+      "triangles": 5,
+      "vertices": 15
+    },
+    {
+      "armor": 43,
+      "material": "S35CAPTUREDArmor_armor_hull_plate43s_43",
+      "mount": "hull",
+      "name": "armor_hull_plate43s_43",
+      "screen": true,
+      "submesh": 9,
+      "triangles": 49,
+      "vertices": 147
+    },
+    {
+      "armor": 0,
+      "material": "S35CAPTUREDArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 13,
+      "vertices": 39
+    },
+    {
+      "armor": 32,
+      "material": "S35CAPTUREDArmor_armor_turret_01_plate32_32",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate32_32",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 29,
+      "vertices": 87
+    },
+    {
+      "armor": 49,
+      "material": "S35CAPTUREDArmor_armor_turret_01_plate49_49",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate49_49",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 98,
+      "vertices": 294
+    },
+    {
+      "armor": 60,
+      "material": "S35CAPTUREDArmor_armor_turret_01_plate60_60",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate60_60",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 48,
+      "vertices": 144
+    },
+    {
+      "armor": 46,
+      "material": "S35CAPTUREDArmor_gun_01_mask_turret_01_plate46s_46",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate46s_46",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 56,
+      "material": "S35CAPTUREDArmor_gun_01_mask_turret_01_plate56s_56",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate56s_56",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 160,
+      "vertices": 480
+    }
+  ]
+}

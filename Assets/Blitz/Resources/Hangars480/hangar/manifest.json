@@ -1,0 +1,66 @@
+{
+  "id": "hangar",
+  "sources": {
+    "3d/Maps/hangar/hv1.sc2": "41cf0cbe06ddafee8b777a9c94b8d7b8030145d1c1462eb502b4ac468bcc1a71",
+    "3d/Maps/hangar/heightmap_hangar.heightmap": "e195bf06df078f56513fb8d4f1a7e53702e8bd258d80038cbcec540cc0b4b5c8",
+    "3d/Maps/hangar/images/1Lan.mali.pvr": "af848768604bf0b7d9796993603fdc1207f0a1b6bcff4b5c1ca352de418ddbf0",
+    "3d/Maps/hangar/d_Cubemap_skybox.mali.pvr": "f8cad6f79ba695d88f90fd933dd397113dc0cca4a3da502e31212b531193c8c0",
+    "3d/Maps/hangar/images/Garage_1.mali.pvr": "41a443fb714735964432e8be4fd0f286c53d886feb434bd8211e5f4cfad7d562",
+    "3d/Maps/hangar/images/L_1.mali.pvr": "ed066358a66fbee55e4388d03587838fb2da998d5fd908c7783af9a5d30a0ab7",
+    "3d/Maps/hangar/images/Garage_2.mali.pvr": "4f28a6da47d502ae9df3858f025ed81ea26e9878e3279e64ffcd81e03ceaadb4",
+    "3d/Maps/hangar/images/L_2.mali.pvr": "2542352ac1f6b524c869eeddf198c83b2467ca32ed915f494bdba826e8ae1f7f",
+    "3d/Maps/hangar/images/L_3.mali.pvr": "a68b53ba364fc7bde47bfe5b0f9e78cc0154f15e8b8f9d9d52c3f2ee485d29ed",
+    "3d/Maps/hangar/images/L_4.mali.pvr": "a2914f722df72927ec76c94b251f83151645b37de0bd4878131d6f6f048099f0",
+    "3d/Maps/hangar/images/T62A.mali.pvr": "a2c0eab839c7275eb220c3177f36e8570620e109262c60c929ca7037edcb6252",
+    "3d/Maps/hangar/images/L_5.mali.pvr": "c22fd9d6096efc9d68932a0c69a9f2c45433a4cf56b93cc004db2d0b765f4ea3",
+    "3d/Maps/hangar/images/Garage_3.mali.pvr": "ae6ee502e7f7cae5d9250c67d16ca111793c146b2f34efddaf55b39ea79b76f2",
+    "3d/Maps/hangar/images/L_6.mali.pvr": "2dd1d0491daabceb7a012105184b6e4a74fc87b335eebfd2eef34839513d3d1d",
+    "3d/Configs/Particles/hangar/glow.yaml": "f5d1f7f465ce642cbcff7be3c62ed098aa3fe0dbc4c302e6805ec0d9776487c4",
+    "Gfx/Particles/hangar/glow_anim.txt": "19ad64d9555167b52540fdd14cff2916e99921847e5b5086ed030808d9570964",
+    "Gfx/Particles/hangar/texture0.mali.webp": "6ad9384413b0b57c72ab09ab615c9678bf60fe1568d318f4129f42e5206e0dbc",
+    "3d/Configs/Particles/hangar/glow1.yaml": "1ce172c25a8a8e3e9f240a3fb9851581324efe22bc71c3d86c78807566f203cd",
+    "3d/Configs/Particles/hangar/glow2.yaml": "49133da3bc5f63bd628cc682ce7f65761e6ce5b5ff031ca7523e829411ed4f82",
+    "Gfx/Particles/hangar/glow_two.txt": "1e822db67c1226c3a1ef40b26348fb302f814ece5b8a4111f0144af28c2b1f23",
+    "Gfx/Particles/hangar/glow_lamp.txt": "e59e28bbf228dc7b56d2b101ea9af3fae381cf6301de66ff929bdf0417d14c31",
+    "3d/Configs/Particles/hangar/glow_exp.yaml": "d817b35ad4a1a4a2a060c5f0a3f8bd70ca67fd0fd4a286c926131c79b0edada3",
+    "Gfx/Particles/hangar/expGlow.txt": "265254b905134314c3004568f89d97aba3838d55b0f179398a4f7a02ff44c9a9",
+    "3d/Configs/Particles/hangar/glow_exp1.yaml": "80fa63a83c9d496411fde7cedf58c625ba53352d2214d1d9fbe7cec355a419aa",
+    "Gfx/Particles/hangar/Iskr.txt": "55b7d096ec0f276143c2c0e4b9cc899df04efbc785bd283a62d8f476b1532c5d",
+    "3d/Configs/Particles/hangar/smoke.yaml": "7651d135c8bcf6ee83e404789ffab4119eb46e9bb3686b36412daba41b00d9b0",
+    "Gfx/Particles/hangar/explosion_smoke_white.txt": "6094bed8941a61a053b2ccae5aee5653e32bd4f42e35d5426018e83e29491062",
+    "3d/Configs/Particles/hangar/sparkls.yaml": "dbefe8a741800e61a15951a5ca2d7a9f642050287b2d4ec2b6ba6df0586abf56",
+    "Gfx/Particles/hangar/fog.txt": "4a3259f318b64255da8bbffc73226dce01b2e929a27c5090629ac210acaae565",
+    "3d/Configs/Particles/glow_hangar.yaml": "b43e5b126815424f432cc55eb32fe584b81281d84140f4b47137a661c7f253b5",
+    "Gfx/Particles/hangar/glow_low.txt": "f781219cca54ef2a7608594b2bbb8c3807a5e27f272f47043ade4e4765760754",
+    "Gfx/Particles/hangar/glow_low2.txt": "1dec806d7af31ac62a277a503b92c46ab129f8be2ddfa6410f14824c1dfbab29",
+    "3d/Maps/hangar/images/0_1.mali.pvr": "b50a34a6a3935d49c9871cbd029252e2f9d244288bd3ad078fbbef81085ace1f",
+    "3d/Configs/Particles/Event/Banner_hangar/baner_big_1_baner.yaml": "a99338206580348c92457ab25b8360c3e22e52bbd9d48a2c5344383e0cb52ff4",
+    "3d/Configs/Particles/Event/Banner_hangar/baner_lit_1_baner.yaml": "a99338206580348c92457ab25b8360c3e22e52bbd9d48a2c5344383e0cb52ff4"
+  },
+  "sourceScene": "3d/Maps/hangar/hv1.sc2",
+  "batches": 28,
+  "vertices": 167701,
+  "triangles": 96869,
+  "materials": 28,
+  "effects": 37,
+  "layers": 66,
+  "animations": 0,
+  "omissions": [
+    {
+      "entity": "g_a_shadow",
+      "reason": "DAVA stencil-only shadow volume, not visible geometry"
+    },
+    {
+      "entity": "g_b_shadow",
+      "reason": "DAVA stencil-only shadow volume, not visible geometry"
+    },
+    {
+      "entity": "g_d_shadow",
+      "reason": "DAVA stencil-only shadow volume, not visible geometry"
+    },
+    {
+      "entity": "g_e_shadow",
+      "reason": "DAVA stencil-only shadow volume, not visible geometry"
+    }
+  ]
+}

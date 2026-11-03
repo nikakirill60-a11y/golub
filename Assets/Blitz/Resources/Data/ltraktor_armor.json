@@ -1,0 +1,275 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "LTRAKTORArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 284,
+      "vertices": 786
+    },
+    {
+      "armor": 0,
+      "material": "LTRAKTORArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 12,
+      "material": "LTRAKTORArmor_armor_hull_plate12_12",
+      "mount": "hull",
+      "name": "armor_hull_plate12_12",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 84,
+      "vertices": 252
+    },
+    {
+      "armor": 15,
+      "material": "LTRAKTORArmor_armor_hull_plate15_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15_15",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 5,
+      "material": "LTRAKTORArmor_armor_hull_plate5_5",
+      "mount": "hull",
+      "name": "armor_hull_plate5_5",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 8,
+      "material": "LTRAKTORArmor_armor_hull_plate8_8",
+      "mount": "hull",
+      "name": "armor_hull_plate8_8",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 0,
+      "material": "LTRAKTORArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 12,
+      "material": "LTRAKTORArmor_armor_turret_01_plate12_12",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate12_12",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 56,
+      "vertices": 168
+    },
+    {
+      "armor": 15,
+      "material": "LTRAKTORArmor_armor_turret_01_plate15_15",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate15_15",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 5,
+      "material": "LTRAKTORArmor_armor_turret_01_plate5_5",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate5_5",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 6,
+      "material": "LTRAKTORArmor_armor_turret_01_plate6_6",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate6_6",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 48,
+      "vertices": 144
+    },
+    {
+      "armor": 8,
+      "material": "LTRAKTORArmor_armor_turret_01_plate8_8",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate8_8",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 10,
+      "material": "LTRAKTORArmor_gun_02_mask_turret_01_plate10s_10",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate10s_10",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 12,
+      "material": "LTRAKTORArmor_gun_02_mask_turret_01_plate12s_12",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate12s_12",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 44,
+      "vertices": 132
+    },
+    {
+      "armor": 14,
+      "material": "LTRAKTORArmor_gun_02_mask_turret_01_plate14s_14",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate14s_14",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 5,
+      "material": "LTRAKTORArmor_gun_02_mask_turret_01_plate5s_5",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate5s_5",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 0,
+      "material": "LTRAKTORArmor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 16,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 10,
+      "material": "LTRAKTORArmor_armor_turret_02_plate10_10",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate10_10",
+      "screen": false,
+      "submesh": 17,
+      "triangles": 70,
+      "vertices": 210
+    },
+    {
+      "armor": 15,
+      "material": "LTRAKTORArmor_armor_turret_02_plate15_15",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate15_15",
+      "screen": false,
+      "submesh": 18,
+      "triangles": 116,
+      "vertices": 348
+    },
+    {
+      "armor": 30,
+      "material": "LTRAKTORArmor_armor_turret_02_plate30_30",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate30_30",
+      "screen": false,
+      "submesh": 19,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 5,
+      "material": "LTRAKTORArmor_armor_turret_02_plate5_5",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate5_5",
+      "screen": false,
+      "submesh": 20,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 10,
+      "material": "LTRAKTORArmor_gun_05_mask_turret_02_plate10s_10",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate10s_10",
+      "screen": true,
+      "submesh": 21,
+      "triangles": 25,
+      "vertices": 75
+    },
+    {
+      "armor": 12,
+      "material": "LTRAKTORArmor_gun_05_mask_turret_02_plate12s_12",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate12s_12",
+      "screen": true,
+      "submesh": 22,
+      "triangles": 31,
+      "vertices": 93
+    },
+    {
+      "armor": 14,
+      "material": "LTRAKTORArmor_gun_05_mask_turret_02_plate14s_14",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate14s_14",
+      "screen": true,
+      "submesh": 23,
+      "triangles": 28,
+      "vertices": 84
+    },
+    {
+      "armor": 12,
+      "material": "LTRAKTORArmor_gun_04_mask_turret_02_plate12s_12",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate12s_12",
+      "screen": true,
+      "submesh": 24,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 14,
+      "material": "LTRAKTORArmor_gun_04_mask_turret_02_plate14s_14",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate14s_14",
+      "screen": true,
+      "submesh": 25,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 5,
+      "material": "LTRAKTORArmor_gun_04_mask_turret_02_plate5s_5",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate5s_5",
+      "screen": true,
+      "submesh": 26,
+      "triangles": 10,
+      "vertices": 30
+    }
+  ]
+}

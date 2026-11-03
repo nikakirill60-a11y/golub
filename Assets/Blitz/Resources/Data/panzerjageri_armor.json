@@ -1,0 +1,65 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "PANZERJAGERIArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 340,
+      "vertices": 360
+    },
+    {
+      "armor": 0,
+      "material": "PANZERJAGERIArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 13,
+      "material": "PANZERJAGERIArmor_armor_hull_plate13_13",
+      "mount": "hull",
+      "name": "armor_hull_plate13_13",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 100,
+      "vertices": 300
+    },
+    {
+      "armor": 15,
+      "material": "PANZERJAGERIArmor_armor_hull_plate15_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15_15",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 6,
+      "material": "PANZERJAGERIArmor_armor_hull_plate6_6",
+      "mount": "hull",
+      "name": "armor_hull_plate6_6",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 0,
+      "material": "PANZERJAGERIArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 2,
+      "vertices": 6
+    }
+  ]
+}

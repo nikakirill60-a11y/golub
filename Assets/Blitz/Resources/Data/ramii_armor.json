@@ -1,0 +1,165 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "RAMIIArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 332,
+      "vertices": 372
+    },
+    {
+      "armor": 0,
+      "material": "RAMIIArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 5,
+      "vertices": 15
+    },
+    {
+      "armor": 12,
+      "material": "RAMIIArmor_armor_hull_plate12_12",
+      "mount": "hull",
+      "name": "armor_hull_plate12_12",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 25,
+      "vertices": 75
+    },
+    {
+      "armor": 25,
+      "material": "RAMIIArmor_armor_hull_plate25_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25_25",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 30,
+      "material": "RAMIIArmor_armor_hull_plate30_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30_30",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 38,
+      "material": "RAMIIArmor_armor_hull_plate38_38",
+      "mount": "hull",
+      "name": "armor_hull_plate38_38",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 134,
+      "vertices": 402
+    },
+    {
+      "armor": 51,
+      "material": "RAMIIArmor_armor_hull_plate51_51",
+      "mount": "hull",
+      "name": "armor_hull_plate51_51",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 113,
+      "vertices": 339
+    },
+    {
+      "armor": 63,
+      "material": "RAMIIArmor_armor_hull_plate63_63",
+      "mount": "hull",
+      "name": "armor_hull_plate63_63",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 84,
+      "vertices": 252
+    },
+    {
+      "armor": 76,
+      "material": "RAMIIArmor_armor_hull_plate76_76",
+      "mount": "hull",
+      "name": "armor_hull_plate76_76",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 23,
+      "vertices": 69
+    },
+    {
+      "armor": 0,
+      "material": "RAMIIArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 114,
+      "material": "RAMIIArmor_armor_turret_01_plate114_114",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate114_114",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 39,
+      "vertices": 117
+    },
+    {
+      "armor": 25,
+      "material": "RAMIIArmor_armor_turret_01_plate25_25",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate25_25",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 46,
+      "vertices": 138
+    },
+    {
+      "armor": 51,
+      "material": "RAMIIArmor_armor_turret_01_plate51_51",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate51_51",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 27,
+      "vertices": 81
+    },
+    {
+      "armor": 70,
+      "material": "RAMIIArmor_armor_turret_01_plate70_70",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate70_70",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 28,
+      "vertices": 84
+    },
+    {
+      "armor": 76,
+      "material": "RAMIIArmor_armor_turret_01_plate76_76",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate76_76",
+      "screen": false,
+      "submesh": 14,
+      "triangles": 64,
+      "vertices": 192
+    },
+    {
+      "armor": 38,
+      "material": "RAMIIArmor_gun_01_mask_turret_01_plate38s_38",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate38s_38",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 22,
+      "vertices": 66
+    }
+  ]
+}

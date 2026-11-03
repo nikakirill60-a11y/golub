@@ -1,0 +1,237 @@
+{
+  "#dataNodes": [
+    {
+      "##name": "ParticleEmitterNode",
+      "#id": {
+        "hex": "0100000000000000"
+      },
+      "emissionRange": 0.0,
+      "emissionVector": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "generateOnSurface": false,
+      "innerRadius": 0.0,
+      "layers": [
+        {
+          "activeLODS": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "alphaOverLife": [
+            2,
+            [
+              [
+                1,
+                1.0,
+                0.0
+              ],
+              [
+                2,
+                1.0,
+                0.6001613736152649,
+                0.0,
+                0.0
+              ],
+              [
+                1,
+                0.0,
+                1.0
+              ]
+            ]
+          ],
+          "alphaRemapLoopCount": 1.0,
+          "alphaRemapSampler": 2101589,
+          "applyGlobalForces": false,
+          "autoFPS": true,
+          "blending": 3,
+          "cullMode": 0,
+          "degradeStrategy": 0,
+          "deltaTime": 0.0,
+          "deltaVariation": 0.0,
+          "depthDifferenceSlope": 2.0,
+          "enableAlphaRemap": false,
+          "enableFlow": false,
+          "enableFlowAnimation": false,
+          "enableFog": false,
+          "enableFrameBlend": true,
+          "enableMask": false,
+          "enableMaskUvScale": false,
+          "enableMaskUvScroll": false,
+          "enableNoise": false,
+          "enableNoiseScroll": false,
+          "enableUvScale": false,
+          "enableUvScroll": false,
+          "enableVertexAnimation": false,
+          "enableVertexAnimationMask": false,
+          "endTime": 0.10000000149011612,
+          "flowmapSampler": 2101589,
+          "forces": [],
+          "frameOverLifeEnabled": false,
+          "frameOverLifeFPS": 1.0,
+          "fresToAlphaBias": 0.0,
+          "fresToAlphaPower": 0.0,
+          "fuseBlendAddEdges": [
+            0.0,
+            1.0
+          ],
+          "gradientMiddlePoint": 0.5,
+          "inheritChangesRotation": true,
+          "inheritChangesScale": false,
+          "inheritPosition": true,
+          "isLong": false,
+          "isLooped": false,
+          "isSingle": false,
+          "layerType": "particles",
+          "life": 1.2000000476837158,
+          "loopEndTime": 100.0,
+          "loopSpriteAnimation": false,
+          "loopVariation": 0.0,
+          "maskSampler": 2101589,
+          "name": "Layer",
+          "noiseSampler": 2101589,
+          "number": 20.0,
+          "particleOrientation": 1,
+          "pivotPoint3d": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "randomFrameOnStart": false,
+          "randomOffsetOnStart": false,
+          "randomSpinDirection": false,
+          "scaleVelocityBase": 1.0,
+          "scaleVelocityFactor": 0.0,
+          "simplifiedForces": [],
+          "size3d": [
+            275.0,
+            275.0,
+            1.0
+          ],
+          "softParticles": false,
+          "spritePath": "~res:/Gfx/Particles/UI/Bossmode/1/Level_up",
+          "spriteSampler": 2101589,
+          "startTime": 0.0,
+          "stripeFadeDistanceFromBack": 0.0,
+          "stripeFadeDistanceFromFront": 0.0,
+          "stripeLifetime": 20.0,
+          "stripeStartSize": 1.0,
+          "stripeUScrollSpeed": 0.0,
+          "stripeVScrollSpeed": -0.009999999776482582,
+          "stripeVertexSpawnStep": 1.0,
+          "useFresToAlpha": false,
+          "usePerspectiveMapping": false,
+          "useThreePointGradient": false,
+          "useVertexColor": false,
+          "vertexAnimationSampler": 2101589
+        }
+      ],
+      "life": 100.0,
+      "name": "Glow",
+      "radius": 1.0,
+      "shockwaveMode": 0,
+      "shortEffect": false,
+      "type": 0
+    }
+  ],
+  "#hierarchy": [
+    {
+      "##name": "Entity",
+      "components": {
+        "0000": {
+          "comp.typename": "LodComponent",
+          "lc.loddist": {
+            "distance0": 300.0,
+            "distance1": 600.0,
+            "distance2": 900.0,
+            "distance3": 1000.0
+          }
+        },
+        "0001": {
+          "comp.typename": "ParticleEffectComponent",
+          "pe.clearOnRestart": true,
+          "pe.effectDuration": 3.0,
+          "pe.emitters": [
+            {
+              "##name": "<Unknown class>",
+              "emitter.data": [
+                {
+                  "emitter.id": 1,
+                  "emitter.quality": "Default"
+                }
+              ],
+              "emitter.position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "emitter.rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "emitter.scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ],
+          "pe.inheritScale": false,
+          "pe.nestedEmitters": true,
+          "pe.repeatsCount": 1,
+          "pe.startFromTime": 0.0,
+          "pe.stopWhenEmpty": false,
+          "pe.version": 1,
+          "ro.flags": 1
+        },
+        "0002": {
+          "comp.typename": "TransformComponent",
+          "tc.localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tc.localScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "tc.localTranslation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tc.worldRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tc.worldScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "tc.worldTranslation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "count": 3
+      },
+      "flags": 2,
+      "id": 3,
+      "name": "WidgetGlow"
+    }
+  ],
+  "#sceneComponents": {
+    "count": 0
+  }
+}

@@ -1,0 +1,21 @@
+# systemd unit of the own dedicated battle server (installed by
+# Tools/direct_deploy.sh; @USER@, @HOME@ and @PORT@ are filled in there).
+[Unit]
+Description=Blitz Legacy dedicated battle server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=@USER@
+WorkingDirectory=@HOME@/blitz-server
+Environment=XDG_CONFIG_HOME=@HOME@/blitz-server-profile
+Environment=BLITZ_SKIP_SHADER_WARMUP=1
+ExecStart=@HOME@/blitz-server/BlitzLegacy -batchmode -nographics -logFile - -blitzServer -blitzServerPort @PORT@
+Restart=always
+RestartSec=5
+# Below the VPN that shares the machine: the battle yields first under load.
+Nice=5
+
+[Install]
+WantedBy=multi-user.target

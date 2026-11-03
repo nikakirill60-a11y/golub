@@ -1,0 +1,1827 @@
+{
+  "id": "world_of_ducks",
+  "map": "sea_of_ducks",
+  "teamSize": 7,
+  "timeLimitSeconds": 420,
+  "friendlyFire": false,
+  "baseCapture": false,
+  "card": {
+    "name": "wod_warduck",
+    "display_name": "WarDuck",
+    "display_name_short": "WarDuck",
+    "health": 240,
+    "lvl": 1,
+    "tank_class": 1,
+    "nation": 8,
+    "spot_radius": 250.0,
+    "speed_limits": {
+      "x": 50.0,
+      "y": 25.0
+    },
+    "turret_rot_speed": 60.0,
+    "turret_health": 60.0,
+    "repair_cost": 0.0,
+    "ammo_bay": {
+      "health": 90.0,
+      "max_regen_health": 50.0,
+      "repair_cost": 1.0
+    },
+    "fuel_tank": {
+      "health": 200.0,
+      "max_regen_health": 70.0,
+      "repair_cost": 1.0
+    },
+    "crew": [
+      "commander",
+      "driver",
+      "gunner",
+      "radioman",
+      "loader"
+    ],
+    "crew_xp_factor": 1.0,
+    "farm_coeff": 1.0,
+    "tree_tank": false,
+    "cost": 0,
+    "cost_xp": 0,
+    "hull_weight": 350.0,
+    "model_path": "Tanks/Other/Oth_10_war_duck.sc2",
+    "source": "XML/item_defs/vehicles/other/Oth10_WarDuck.xml",
+    "source_sha256": "31ab255d97fd0c84f2d667400288d2fcbacbbe6720f83b7f1ca3e5f13c98da9b",
+    "unlock_tanks": {},
+    "guns": [
+      {
+        "kind": "gun",
+        "name": "_Duck_Watergun_1",
+        "display_name": "Duck Watergun",
+        "level": 1,
+        "cost_xp": 0,
+        "health": 200.0,
+        "weight": 1.0,
+        "reload": 6.0,
+        "aim_time": 1.2,
+        "disp": 0.5,
+        "rot_speed": 50.0,
+        "max_ammo": 250,
+        "caliber": 30,
+        "deviation_up": {
+          "x": 15.0,
+          "y": 10.0
+        },
+        "deviation_r": {
+          "x": 90.0,
+          "y": 90.0
+        },
+        "disp_factors": {
+          "x": 0.08,
+          "y": 1.0,
+          "z": 2.0
+        },
+        "impulse_mul": 0.1,
+        "fire_mode": 1,
+        "burst_info": {
+          "kind": "burst",
+          "bursts": [
+            10
+          ],
+          "intraclip": 0.1,
+          "intraburst": 0.1
+        },
+        "shot_sound": 0,
+        "shells": [
+          {
+            "kind": "shell",
+            "name": "Waterspit",
+            "caliber": 30,
+            "dmg": 5,
+            "dmg_devices": 1,
+            "pen": 45,
+            "speed": 300,
+            "cost": 0,
+            "type": 3,
+            "max_dist": 400.0,
+            "explosion_radius": 0.21,
+            "source_shot": "Waterspit_1",
+            "gravity": 4.07747197
+          }
+        ]
+      },
+      {
+        "kind": "gun",
+        "name": "_Duck_Watergun_2",
+        "display_name": "Duck Watergun",
+        "level": 1,
+        "cost_xp": 0,
+        "health": 200.0,
+        "weight": 1.0,
+        "reload": 6.0,
+        "aim_time": 1.2,
+        "disp": 0.5,
+        "rot_speed": 50.0,
+        "max_ammo": 60,
+        "caliber": 30,
+        "deviation_up": {
+          "x": 15.0,
+          "y": 10.0
+        },
+        "deviation_r": {
+          "x": 90.0,
+          "y": 90.0
+        },
+        "disp_factors": {
+          "x": 0.08,
+          "y": 1.0,
+          "z": 2.0
+        },
+        "impulse_mul": 0.1,
+        "fire_mode": 0,
+        "burst_info": {
+          "kind": "burst"
+        },
+        "shot_sound": 1,
+        "shells": [
+          {
+            "kind": "shell",
+            "name": "Waterspit",
+            "caliber": 30,
+            "dmg": 50,
+            "dmg_devices": 1,
+            "pen": 45,
+            "speed": 250,
+            "cost": 0,
+            "type": 3,
+            "max_dist": 400.0,
+            "explosion_radius": 0.21,
+            "source_shot": "Waterspit_3",
+            "gravity": 6.11620795
+          }
+        ]
+      },
+      {
+        "kind": "gun",
+        "name": "_Duck_Watergun_3",
+        "display_name": "Duck Watergun",
+        "level": 1,
+        "cost_xp": 0,
+        "health": 200.0,
+        "weight": 1.0,
+        "reload": 6.0,
+        "aim_time": 1.2,
+        "disp": 0.1,
+        "rot_speed": 50.0,
+        "max_ammo": 40,
+        "caliber": 30,
+        "deviation_up": {
+          "x": 0.1,
+          "y": 0.1
+        },
+        "deviation_r": {
+          "x": 90.0,
+          "y": 90.0
+        },
+        "disp_factors": {
+          "x": 0.08,
+          "y": 1.0,
+          "z": 2.0
+        },
+        "impulse_mul": 0.1,
+        "fire_mode": 0,
+        "burst_info": {
+          "kind": "burst"
+        },
+        "shot_sound": 1,
+        "shells": [
+          {
+            "kind": "shell",
+            "name": "Waterspit",
+            "caliber": 30,
+            "dmg": 90,
+            "dmg_devices": 1,
+            "pen": 100,
+            "speed": 50,
+            "cost": 0,
+            "type": 3,
+            "max_dist": 400.0,
+            "explosion_radius": 0.21,
+            "source_shot": "Waterspit_2",
+            "gravity": 0.00010194
+          }
+        ]
+      }
+    ],
+    "turrets": [
+      {
+        "kind": "turret",
+        "name": "Turret_1_WarDuck",
+        "display_name": "#other_vehicles:Turret_1_WarDuck",
+        "level": 1,
+        "cost_xp": 0,
+        "health": 60.0,
+        "weight": 100.0,
+        "rot_speed": 60.0,
+        "spot_radius": 250.0,
+        "yaw_limits": {
+          "x": 90.0,
+          "y": 90.0
+        },
+        "turret_rotator": {
+          "health": 80.0,
+          "max_regen_health": 40.0,
+          "repair_cost": 1.0
+        },
+        "surveying_device": {
+          "health": 60.0,
+          "max_regen_health": 30.0,
+          "repair_cost": 1.0
+        },
+        "mesh": "turret_01",
+        "unlocks": {},
+        "guns": [
+          {
+            "name": "_Duck_Watergun_1",
+            "reload": 6.0,
+            "max_ammo": 250,
+            "mesh": "gun_01",
+            "unlocks": {}
+          },
+          {
+            "name": "_Duck_Watergun_2",
+            "reload": 6.0,
+            "max_ammo": 60,
+            "mesh": "gun_02",
+            "unlocks": {}
+          },
+          {
+            "name": "_Duck_Watergun_3",
+            "reload": 6.0,
+            "max_ammo": 40,
+            "mesh": "gun_03",
+            "unlocks": {}
+          }
+        ]
+      }
+    ],
+    "tracks": [
+      {
+        "kind": "tracks",
+        "name": "Chassis_WarDuck",
+        "display_name": "#other_vehicles:Chassis_WarDuck",
+        "level": 1,
+        "cost_xp": 0,
+        "health": 70.0,
+        "weight": 70.0,
+        "rot_speed": 45.0,
+        "disp_move_mul": 0.06,
+        "disp_rotation_mul": 0.06,
+        "max_regen_health": 55.0,
+        "repair_cost": 5.0,
+        "bulk_health_factor": 3.0,
+        "unlocks": {}
+      }
+    ],
+    "engines": [
+      {
+        "kind": "engine",
+        "name": "DuckHeart",
+        "display_name": "DuckHeart",
+        "level": 1,
+        "cost_xp": 0,
+        "health": 200.0,
+        "weight": 20.0,
+        "power": 25.0,
+        "fireStartingChance": 0.0001,
+        "max_regen_health": 200.0,
+        "repair_cost": 1.0,
+        "unlocks": {}
+      }
+    ],
+    "radios": [
+      {
+        "kind": "radio",
+        "name": "DuckPhone",
+        "display_name": "DuckPhone",
+        "level": 1,
+        "cost_xp": 0,
+        "health": 1.0,
+        "weight": 1.0,
+        "distance": 500.0,
+        "unlocks": {}
+      }
+    ],
+    "acquisition": "event",
+    "prem": true,
+    "shop_tank": false,
+    "collector": false,
+    "cost_gold": 0,
+    "tree_branch": 0,
+    "source_tags": [
+      "mediumTank",
+      "secret",
+      "InGame"
+    ]
+  },
+  "model": {
+    "resource": "Models/Tanks/WODWARDUCK",
+    "source": "3d/Tanks/Other/Oth_10_war_duck.sc2",
+    "source_sha256": "a1ddcd7cd5a0ecfc253134789c10346003b495794a4904c710b44719a4dcdc85",
+    "collision": "3d/Tanks/CollisionMeshes/other-Oth10_WarDuck.sc2",
+    "collision_sha256": "88ffb03f2d42adb956c30afb5299c5eb732a7a3715d7b1c211ef6e6e20ea6275"
+  },
+  "sounds": {
+    "decoder": "vgmstream-cli (FSB5 IMA ADPCM)",
+    "banks": {
+      "Sfx/world_of_ducks_bank.fsb": "11996dcb20a8440400847327be8d3a4fe893259b14acac0559f978ca15a0d259",
+      "Sfx/ambient_river.fsb": "3a54baacc9021eb9f4d1f23ce2c2d9cb88ac0fea4047572769228ff36198e289",
+      "Sfx/ambient_lake.fsb": "f6e9ad52945477ef677421285a08ca20da3f66b2a22bc40ba57659caf8655d64",
+      "Sfx/ambient_birds.fsb": "c5f4c177639797ac41da86cb1763dbc892a77412f92fd326d7fcd38133e6794a"
+    },
+    "fev": {
+      "Sfx/world_of_ducks.fev": "d3956b0f7541157b08fad6146a164a990ef6b99fb66cd6827533d3dce42b6543",
+      "Sfx/ambient.fev": "8a8c3e382aff74c4ec2a95158751307f8784f03d897fdaa8bdcf99c531a683d4"
+    },
+    "samples": {
+      "duck_collision_01": {
+        "clip": "Audio/world_of_ducks/duck_collision_01",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 1,
+        "frames": 7552,
+        "sha256": "5d889e3fa076d1bf72503c46ed711c8d5594136b1aa36f0c27188ca52cbbc682",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9948,
+          "rmsRatio": 1.0002
+        }
+      },
+      "duck_collision_02": {
+        "clip": "Audio/world_of_ducks/duck_collision_02",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 1,
+        "frames": 8192,
+        "sha256": "51f23b9a933f3a8e67386371378657733aeac42026ffe34288c5444b2740f2d1",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9969,
+          "rmsRatio": 0.9997
+        }
+      },
+      "duck_collision_03": {
+        "clip": "Audio/world_of_ducks/duck_collision_03",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 1,
+        "frames": 8192,
+        "sha256": "b77cc1c2cd09672667d5e6824f02a52abc6cc05988173177dfaa328d43e4bd0c",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9964,
+          "rmsRatio": 1.0
+        }
+      },
+      "duck_death_01": {
+        "clip": "Audio/world_of_ducks/duck_death_01",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 97152,
+        "sha256": "f531a9655d3027dfd3342ee2b846370933634daaa1a699abf9d5450981a20d95",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9077,
+          "rmsRatio": 1.0004
+        }
+      },
+      "duck_death_02": {
+        "clip": "Audio/world_of_ducks/duck_death_02",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 111872,
+        "sha256": "ec8b4352315dd7f017d8e130ba43819ee47eacb87a76ce6136ba9baa3098fac4",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.8802,
+          "rmsRatio": 0.9997
+        }
+      },
+      "duck_death_03": {
+        "clip": "Audio/world_of_ducks/duck_death_03",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 120128,
+        "sha256": "93fa41cfbdbad715baae439d4233ef1665ea19960324e09b995eeac1d73ab39f",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9583,
+          "rmsRatio": 1.0001
+        }
+      },
+      "duck_death_04": {
+        "clip": "Audio/world_of_ducks/duck_death_04",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 107328,
+        "sha256": "75e3e6f3b9094f843a3437ecc4fdf1d4a4f85e9eda79b6650082bf7f99ff410b",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.906,
+          "rmsRatio": 1.0004
+        }
+      },
+      "duck_gui_01": {
+        "clip": "Audio/world_of_ducks/duck_gui_01",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 18688,
+        "sha256": "f6d1eff99b75ffa39428754e627affea04eb6d587d3a5a1a5911d13ea303a019",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.8122,
+          "rmsRatio": 1.0014
+        }
+      },
+      "duck_gui_02": {
+        "clip": "Audio/world_of_ducks/duck_gui_02",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 10944,
+        "sha256": "5a5a012bee54fb0460a0b2407ad3732dbfb726308340b461f378a0964a4a3830",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.8703,
+          "rmsRatio": 1.0002
+        }
+      },
+      "duck_gui_03": {
+        "clip": "Audio/world_of_ducks/duck_gui_03",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 22272,
+        "sha256": "4cd5dda6de1d3d944c590255ec5f43a3a0239a5159ec252a9daf4c3733eb0eb7",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.7171,
+          "rmsRatio": 1.0004
+        }
+      },
+      "duck_gui_04": {
+        "clip": "Audio/world_of_ducks/duck_gui_04",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 12992,
+        "sha256": "b8d2904f93a55a743ebbc343483c31140bae050e8638a96cb377e7a7023129ae",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.8211,
+          "rmsRatio": 1.0013
+        }
+      },
+      "duck_gun_01": {
+        "clip": "Audio/world_of_ducks/duck_gun_01",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 13888,
+        "sha256": "ce11d1bef9de52bd93aaffc034ec63eb3d5c883297f32b2d4ce15171e5055f1d",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9337,
+          "rmsRatio": 1.0034
+        }
+      },
+      "duck_gun_02": {
+        "clip": "Audio/world_of_ducks/duck_gun_02",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 16896,
+        "sha256": "2d966acdd097e52e140e76220e7a81e0ded18f4e67a1785743e895f37a89f7db",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9264,
+          "rmsRatio": 0.9965
+        }
+      },
+      "duck_gun_03": {
+        "clip": "Audio/world_of_ducks/duck_gun_03",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 17600,
+        "sha256": "74aa2f115c7d1ca9cc003223c8202c93890ccc05053da6a1c861b6fd20601cb9",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9397,
+          "rmsRatio": 1.0008
+        }
+      },
+      "duck_gun_04": {
+        "clip": "Audio/world_of_ducks/duck_gun_04",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 16960,
+        "sha256": "6115933c955e726a0263c596e46186add1569e67ea5afccf7ce717a10bd1a9b9",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9272,
+          "rmsRatio": 1.0006
+        }
+      },
+      "duck_hits_01": {
+        "clip": "Audio/world_of_ducks/duck_hits_01",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 11648,
+        "sha256": "f8d3e994f0a323eb578bf6c7aea47d834b503aaaf416b2091d7e034f9d7e07a8",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9877,
+          "rmsRatio": 1.0004
+        }
+      },
+      "duck_hits_02": {
+        "clip": "Audio/world_of_ducks/duck_hits_02",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 10816,
+        "sha256": "477499a7922073073437e57c42ce6badf42f478c421116a1a500e919576f9722",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.99,
+          "rmsRatio": 1.0001
+        }
+      },
+      "duck_hits_03": {
+        "clip": "Audio/world_of_ducks/duck_hits_03",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 10816,
+        "sha256": "5f5219eee595d049976bbb0d3cfa2443239ac30df8feef8b441466416e4608e5",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.973,
+          "rmsRatio": 1.0
+        }
+      },
+      "duck_hits_04": {
+        "clip": "Audio/world_of_ducks/duck_hits_04",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 10176,
+        "sha256": "aaee964c0df31183ce1b13f9fcf9e7e08ccfb740cd9cb8c001d205443509506c",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9718,
+          "rmsRatio": 0.9997
+        }
+      },
+      "duck_hits_05": {
+        "clip": "Audio/world_of_ducks/duck_hits_05",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 11392,
+        "sha256": "f6a7c84891cacf1080d9eda4f0a2fb949be62bc13e2d3f7222550e8ff2ee87e0",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9941,
+          "rmsRatio": 1.0004
+        }
+      },
+      "duck_hits_squek_01": {
+        "clip": "Audio/world_of_ducks/duck_hits_squek_01",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 6336,
+        "sha256": "e070a4dc12a80a916b18d148a00049751113d4692cddaff0457e9fa9c47df303",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.6118,
+          "rmsRatio": 0.9987
+        }
+      },
+      "duck_hits_squek_02": {
+        "clip": "Audio/world_of_ducks/duck_hits_squek_02",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 6720,
+        "sha256": "68e0a23190d079b72b2e52db6224b2cc646b7e6727146be3021cdd83195a310d",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.0096,
+          "rmsRatio": 0.9984
+        }
+      },
+      "duck_hits_squek_03": {
+        "clip": "Audio/world_of_ducks/duck_hits_squek_03",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 10752,
+        "sha256": "7b9acd23dfb5becdf99537b3ec188d3e312c2621f6f61e3f67c9b74561cf13c3",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.4986,
+          "rmsRatio": 1.0042
+        }
+      },
+      "duck_hits_water_01": {
+        "clip": "Audio/world_of_ducks/duck_hits_water_01",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 19072,
+        "sha256": "71ff1e04ff4109efea908a2cf754f34f763e53a31af5c0467d0565a262d617b2",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.7733,
+          "rmsRatio": 1.0001
+        }
+      },
+      "duck_hits_water_02": {
+        "clip": "Audio/world_of_ducks/duck_hits_water_02",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 22464,
+        "sha256": "9179ee41d47e7bb3d22e2545afc5c92f0379e21a56aef5d8dcc5e76d471bb6f0",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.6489,
+          "rmsRatio": 0.9976
+        }
+      },
+      "duck_hits_water_03": {
+        "clip": "Audio/world_of_ducks/duck_hits_water_03",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 20480,
+        "sha256": "a40fc22a3e55b2fb644a689708a8ee9cbac704b24bde6344029aef2e2403ac83",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.7624,
+          "rmsRatio": 0.9995
+        }
+      },
+      "duck_hits_water_04": {
+        "clip": "Audio/world_of_ducks/duck_hits_water_04",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 21056,
+        "sha256": "f5963f320f4dd21bf15d6d0553fd729a367fb40dec599ffae925059849757ac3",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.6787,
+          "rmsRatio": 0.9979
+        }
+      },
+      "duck_hits_water_05": {
+        "clip": "Audio/world_of_ducks/duck_hits_water_05",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 18880,
+        "sha256": "2377fd4fed19be3bd3021e606982430acfdf4d8209d526aaeb297c9b5f5e03aa",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.775,
+          "rmsRatio": 0.9989
+        }
+      },
+      "duck_impacts_oneshort_01": {
+        "clip": "Audio/world_of_ducks/duck_impacts_oneshort_01",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 3584,
+        "sha256": "fc145d5b6c2d81f234ab395e225eda6be04d0a6caedbbd367aecda7aa4f3f2b7",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9776,
+          "rmsRatio": 1.0008
+        }
+      },
+      "duck_impacts_oneshort_02": {
+        "clip": "Audio/world_of_ducks/duck_impacts_oneshort_02",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 4544,
+        "sha256": "79407be776f92f642f8e7246e9fc16045054d4d1f821004ab9e6295aa10bb57b",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9943,
+          "rmsRatio": 1.0004
+        }
+      },
+      "duck_impacts_oneshort_03": {
+        "clip": "Audio/world_of_ducks/duck_impacts_oneshort_03",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 4736,
+        "sha256": "5a96c3893eafe703b0d1e019299c00efa373752d27f1814ec77865cecb12a0d5",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9955,
+          "rmsRatio": 0.9984
+        }
+      },
+      "duck_impacts_sand_01": {
+        "clip": "Audio/world_of_ducks/duck_impacts_sand_01",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 39424,
+        "sha256": "bbe88423ca99cbd1f8857b85b8ad25a00afa851c701b07623a767ee12f3520e4",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.8872,
+          "rmsRatio": 1.0
+        }
+      },
+      "duck_impacts_sand_02": {
+        "clip": "Audio/world_of_ducks/duck_impacts_sand_02",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 39360,
+        "sha256": "2ae0182827aa7626a3a85675c904cd3d37bf8ed7e2ccd4d1a3910c0f31e061a2",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9356,
+          "rmsRatio": 1.0003
+        }
+      },
+      "duck_impacts_sand_03": {
+        "clip": "Audio/world_of_ducks/duck_impacts_sand_03",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 37056,
+        "sha256": "21bf70c4ca36795073269a210919ded87fe3c26bd11547fbc80d5cc88abdbcae",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9416,
+          "rmsRatio": 1.0007
+        }
+      },
+      "duck_impacts_water_01": {
+        "clip": "Audio/world_of_ducks/duck_impacts_water_01",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 1,
+        "frames": 20928,
+        "sha256": "6c23a60f4bc352a3603331d3a45baae94a580c2d51bc2f0c184ef6bf75c59992",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9873,
+          "rmsRatio": 1.0007
+        }
+      },
+      "duck_impacts_water_02": {
+        "clip": "Audio/world_of_ducks/duck_impacts_water_02",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 1,
+        "frames": 25024,
+        "sha256": "44cdc447d39129107d538f565fe535758f0e63d1a65f290c2d17e42c4e20bd44",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.982,
+          "rmsRatio": 0.9991
+        }
+      },
+      "duck_impacts_water_03": {
+        "clip": "Audio/world_of_ducks/duck_impacts_water_03",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 1,
+        "frames": 25024,
+        "sha256": "1f85459a5883cd3aa39426ef2fbb8d16f0331edb477b681eaa4ec983169f647d",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9928,
+          "rmsRatio": 0.9995
+        }
+      },
+      "duck_impacts_water_fall_01": {
+        "clip": "Audio/world_of_ducks/duck_impacts_water_fall_01",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 61504,
+        "sha256": "9e0bbe0b35fc77e4f9b66de1fb110bf36137778e9c1ae2cc33feb1786e47a35d",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.7311,
+          "rmsRatio": 0.9992
+        }
+      },
+      "duck_impacts_water_fall_02": {
+        "clip": "Audio/world_of_ducks/duck_impacts_water_fall_02",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 58112,
+        "sha256": "317ef3e4797b01b0cb870c279699f1f032ee2cf703ba9b495228e3a57ca30b32",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.8357,
+          "rmsRatio": 1.0005
+        }
+      },
+      "duck_impacts_water_fall_03": {
+        "clip": "Audio/world_of_ducks/duck_impacts_water_fall_03",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 55040,
+        "sha256": "96944dccd044b9fc700774c41fb1c91c49150c9f542824c3f015727db7aa9cd2",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.7622,
+          "rmsRatio": 0.9995
+        }
+      },
+      "duck_not_pierce_01": {
+        "clip": "Audio/world_of_ducks/duck_not_pierce_01",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 3840,
+        "sha256": "e3ca232d284190739fe902f6e27d676123a0df29065624d9c3baeafe83e3e98a",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9714,
+          "rmsRatio": 0.9993
+        }
+      },
+      "duck_not_pierce_02": {
+        "clip": "Audio/world_of_ducks/duck_not_pierce_02",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 4032,
+        "sha256": "15d227a348584ffce9b3950592001ecc052e0e31719ae79520accc7c87758a3e",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9863,
+          "rmsRatio": 1.0001
+        }
+      },
+      "duck_not_pierce_03": {
+        "clip": "Audio/world_of_ducks/duck_not_pierce_03",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 5120,
+        "sha256": "11da7ef268cb97e011eb3e13723bd8cccc4ccee3739cda4ea03c96f11985b588",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9814,
+          "rmsRatio": 1.0007
+        }
+      },
+      "duck_surfaces_water_moving": {
+        "clip": "Audio/world_of_ducks/duck_surfaces_water_moving",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 72832,
+        "sha256": "3bb11e4315b305dc7e21f74363485dfb3b8e1fe6deeebfbc0b4d402db3ed2dff",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.8847,
+          "rmsRatio": 1.0002
+        }
+      },
+      "duck_torpedo_01": {
+        "clip": "Audio/world_of_ducks/duck_torpedo_01",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 96896,
+        "sha256": "f8b2fd743ccbd61b3f0ce4f68c9f5146e235fad20b425a1e0d9ddd3d038706e1",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9857,
+          "rmsRatio": 1.0001
+        }
+      },
+      "duck_torpedo_02": {
+        "clip": "Audio/world_of_ducks/duck_torpedo_02",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 118208,
+        "sha256": "9d0c365ddf2e8f4050874a35c15a77ace26e63d73ce73c4155758bb083a98faa",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.968,
+          "rmsRatio": 0.9998
+        }
+      },
+      "duck_torpedo_03": {
+        "clip": "Audio/world_of_ducks/duck_torpedo_03",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 96000,
+        "sha256": "9c9ea383f205972802cf28d9e9fd7efd6e3d663350f5854bd5478db094fc1cde",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9451,
+          "rmsRatio": 0.9999
+        }
+      },
+      "duck_water_gun_01": {
+        "clip": "Audio/world_of_ducks/duck_water_gun_01",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 16640,
+        "sha256": "e09c1f01955030688347e6c2ff39768f7541871e95dbeabc3e6dc79662fed0c7",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.4524,
+          "rmsRatio": 1.0001
+        }
+      },
+      "duck_water_gun_02": {
+        "clip": "Audio/world_of_ducks/duck_water_gun_02",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 16640,
+        "sha256": "fe533daa43bc7ed62e9253cc2c65085a7130a9d6dfdc35254aa080ff5fbc5690",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.5887,
+          "rmsRatio": 1.0
+        }
+      },
+      "duck_water_gun_03": {
+        "clip": "Audio/world_of_ducks/duck_water_gun_03",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 19008,
+        "sha256": "4f91a14bd149c497eb83f8c8e9ad5a6d285095a0ceec5e33ea269e55ca02b2e6",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.7549,
+          "rmsRatio": 0.9996
+        }
+      },
+      "duck_water_gun_04": {
+        "clip": "Audio/world_of_ducks/duck_water_gun_04",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 16704,
+        "sha256": "58aafb9f684771b37c07f172a7ede0996cdc558ad89dfb468fc679c0b4f13fb4",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.597,
+          "rmsRatio": 0.9942
+        }
+      },
+      "duck_water_gun_05": {
+        "clip": "Audio/world_of_ducks/duck_water_gun_05",
+        "bank": "Sfx/world_of_ducks_bank.fsb",
+        "frequency": 22050,
+        "channels": 2,
+        "frames": 17728,
+        "sha256": "2bdfc386279f3791e4377f637d4b5d867169639264f22e1035b8a16ef1ceb920",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.5391,
+          "rmsRatio": 1.0004
+        }
+      },
+      "lake_01": {
+        "clip": "Audio/world_of_ducks/lake_01",
+        "bank": "Sfx/ambient_lake.fsb",
+        "frequency": 44100,
+        "channels": 2,
+        "frames": 346112,
+        "sha256": "7bd5517f041095ee644aec55c9f2bfe16e057273f9028bfcecaec9a13a84e1c5",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9216,
+          "rmsRatio": 0.9999
+        }
+      },
+      "river_01": {
+        "clip": "Audio/world_of_ducks/river_01",
+        "bank": "Sfx/ambient_river.fsb",
+        "frequency": 44100,
+        "channels": 2,
+        "frames": 236352,
+        "sha256": "d1ee1837e4c2e4955eb44b6041a399ae43aaf796dd4adbbdb0802194321ece25",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9026,
+          "rmsRatio": 1.0004
+        }
+      },
+      "river_02": {
+        "clip": "Audio/world_of_ducks/river_02",
+        "bank": "Sfx/ambient_river.fsb",
+        "frequency": 44100,
+        "channels": 2,
+        "frames": 268800,
+        "sha256": "7ee511f656bdd9d1d080d167561f1d04cf7527d860bf2c8f11e6c6ef4e21b568",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9294,
+          "rmsRatio": 1.0002
+        }
+      },
+      "river_03": {
+        "clip": "Audio/world_of_ducks/river_03",
+        "bank": "Sfx/ambient_river.fsb",
+        "frequency": 44100,
+        "channels": 2,
+        "frames": 233664,
+        "sha256": "c59af70ae8071cb724f475ae8f69de4371b51a043c99bbccdaec46b8383862e5",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.9223,
+          "rmsRatio": 1.0002
+        }
+      },
+      "seagull_01": {
+        "clip": "Audio/world_of_ducks/seagull_01",
+        "bank": "Sfx/ambient_birds.fsb",
+        "frequency": 22050,
+        "channels": 1,
+        "frames": 16896,
+        "sha256": "ffa6006233d5a4b337913ba7170dcd8042c8a947ce231d4d9c43cdcdca84087f",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.4928,
+          "rmsRatio": 1.0018
+        }
+      },
+      "seagull_02": {
+        "clip": "Audio/world_of_ducks/seagull_02",
+        "bank": "Sfx/ambient_birds.fsb",
+        "frequency": 22050,
+        "channels": 1,
+        "frames": 30144,
+        "sha256": "c8b5dc7155326fa64ca1f154e39217024f02b6373a1e6125e15e433166557416",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.6097,
+          "rmsRatio": 0.9983
+        }
+      },
+      "seagull_03": {
+        "clip": "Audio/world_of_ducks/seagull_03",
+        "bank": "Sfx/ambient_birds.fsb",
+        "frequency": 22050,
+        "channels": 1,
+        "frames": 14144,
+        "sha256": "0adf00968cd43cd150b94493bc4b87ed4c6f74cf8fde5257007e37ccae9c52c2",
+        "godot": {
+          "present": true,
+          "pcmIdentical": false,
+          "correlation": 0.5046,
+          "rmsRatio": 1.0014
+        }
+      }
+    }
+  },
+  "fx": {
+    "manifest": "Data/world_of_ducks_fx_manifest",
+    "root": "Particles/WorldOfDucks",
+    "scenes": [
+      "Fire_and_Smoke",
+      "chassis_effects/dirt_water_m",
+      "chassis_effects/dust_water_m",
+      "collision",
+      "duck",
+      "explosion_tank_1",
+      "fire",
+      "fire_skull",
+      "fish",
+      "gun_effects/shot_auto",
+      "gun_effects/shot_main",
+      "gun_effects/shot_medium",
+      "gun_effects/shot_torpedo",
+      "hit_surface/DeepWaterHitMedium_HE2",
+      "hit_surface/DeepWaterHit_HE2",
+      "hit_surface/woodHit_HE4",
+      "hit_tank/armorHit_HE4",
+      "hit_tank/armorResisted",
+      "map/duck",
+      "map/fire",
+      "map/fish",
+      "map/seagull",
+      "ramming_effect",
+      "seagull",
+      "smoke_tank_type_black_new"
+    ]
+  },
+  "mapEffects": [
+    {
+      "name": "fish",
+      "source": "map/fish",
+      "position": [
+        -32.6569,
+        14.426,
+        72.0609
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "duration": 1000.0,
+      "repeats": -1,
+      "delay": 0.0,
+      "delayVariation": 0.0,
+      "clearOnRestart": false,
+      "startFromTime": 0.0
+    },
+    {
+      "name": "fish",
+      "source": "map/fish",
+      "position": [
+        -45.4195,
+        14.426,
+        17.7015
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "duration": 1000.0,
+      "repeats": -1,
+      "delay": 0.0,
+      "delayVariation": 0.0,
+      "clearOnRestart": false,
+      "startFromTime": 0.0
+    },
+    {
+      "name": "fish",
+      "source": "map/fish",
+      "position": [
+        -27.7094,
+        14.426,
+        -55.583
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "duration": 1000.0,
+      "repeats": -1,
+      "delay": 0.0,
+      "delayVariation": 0.0,
+      "clearOnRestart": false,
+      "startFromTime": 0.0
+    },
+    {
+      "name": "fish",
+      "source": "map/fish",
+      "position": [
+        -103.5419,
+        14.426,
+        -40.5223
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "duration": 1000.0,
+      "repeats": -1,
+      "delay": 0.0,
+      "delayVariation": 0.0,
+      "clearOnRestart": false,
+      "startFromTime": 0.0
+    },
+    {
+      "name": "fish",
+      "source": "map/fish",
+      "position": [
+        29.5059,
+        14.426,
+        47.2405
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "duration": 1000.0,
+      "repeats": -1,
+      "delay": 0.0,
+      "delayVariation": 0.0,
+      "clearOnRestart": false,
+      "startFromTime": 0.0
+    },
+    {
+      "name": "duck",
+      "source": "map/duck",
+      "position": [
+        -211.9923,
+        43.0059,
+        -33.809
+      ],
+      "forward": [
+        -0.14018,
+        0.0,
+        0.99013
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "duration": 200.0,
+      "repeats": 4,
+      "delay": 0.0,
+      "delayVariation": 0.0,
+      "clearOnRestart": true,
+      "startFromTime": 0.0
+    },
+    {
+      "name": "seagull",
+      "source": "map/seagull",
+      "position": [
+        -106.8443,
+        32.9315,
+        -12.7043
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "duration": 5.0,
+      "repeats": -1,
+      "delay": 0.0,
+      "delayVariation": 0.0,
+      "clearOnRestart": false,
+      "startFromTime": 0.0
+    },
+    {
+      "name": "fire",
+      "source": "map/fire",
+      "position": [
+        -9.1276,
+        16.4867,
+        108.9421
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "duration": 100.0,
+      "repeats": -1,
+      "delay": 0.0,
+      "delayVariation": 0.0,
+      "clearOnRestart": false,
+      "startFromTime": 0.0
+    },
+    {
+      "name": "fire",
+      "source": "map/fire",
+      "position": [
+        -88.2205,
+        16.29,
+        -12.8015
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "duration": 100.0,
+      "repeats": -1,
+      "delay": 0.0,
+      "delayVariation": 0.0,
+      "clearOnRestart": false,
+      "startFromTime": 0.0
+    }
+  ],
+  "mapSounds": [
+    {
+      "name": "ambient/birds/seagull",
+      "event": "ambient/birds/seagull",
+      "flags": 0,
+      "position": [
+        81.06,
+        40.4513,
+        -27.0867
+      ]
+    },
+    {
+      "name": "ambient/birds/seagull",
+      "event": "ambient/birds/seagull",
+      "flags": 0,
+      "position": [
+        -149.892,
+        40.4513,
+        88.0322
+      ]
+    },
+    {
+      "name": "ambient/birds/seagull",
+      "event": "ambient/birds/seagull",
+      "flags": 0,
+      "position": [
+        8.8122,
+        40.4513,
+        104.1629
+      ]
+    },
+    {
+      "name": "ambient/birds/seagull",
+      "event": "ambient/birds/seagull",
+      "flags": 0,
+      "position": [
+        -75.0605,
+        40.4513,
+        -94.4417
+      ]
+    },
+    {
+      "name": "ambient/water/sea_low",
+      "event": "ambient/water/lake_weak",
+      "flags": 1,
+      "position": [
+        -150.6774,
+        14.5445,
+        -4.3896
+      ]
+    },
+    {
+      "name": "ambient/water/sea",
+      "event": "ambient/water/river_weak",
+      "flags": 0,
+      "position": [
+        -153.7675,
+        15.7452,
+        122.027
+      ]
+    },
+    {
+      "name": "ambient/water/sea",
+      "event": "ambient/water/river_weak",
+      "flags": 0,
+      "position": [
+        -140.7634,
+        15.7452,
+        -122.0273
+      ]
+    },
+    {
+      "name": "ambient/water/sea_low",
+      "event": "ambient/water/lake_weak",
+      "flags": 1,
+      "position": [
+        127.922,
+        14.5445,
+        -4.3896
+      ]
+    },
+    {
+      "name": "ambient/water/sea",
+      "event": "ambient/water/river_weak",
+      "flags": 0,
+      "position": [
+        124.8319,
+        15.7452,
+        122.027
+      ]
+    },
+    {
+      "name": "ambient/water/sea",
+      "event": "ambient/water/river_weak",
+      "flags": 0,
+      "position": [
+        137.836,
+        15.7452,
+        -122.0273
+      ]
+    },
+    {
+      "name": "ambient/water/sea_low",
+      "event": "ambient/water/lake_weak",
+      "flags": 1,
+      "position": [
+        -5.574,
+        14.5445,
+        -4.3896
+      ]
+    },
+    {
+      "name": "ambient/water/sea",
+      "event": "ambient/water/river_weak",
+      "flags": 0,
+      "position": [
+        -8.6641,
+        15.7452,
+        122.027
+      ]
+    },
+    {
+      "name": "ambient/water/sea",
+      "event": "ambient/water/river_weak",
+      "flags": 0,
+      "position": [
+        4.34,
+        15.7452,
+        -122.0273
+      ]
+    }
+  ],
+  "effects": {
+    "guns": {
+      "_Duck_Watergun_1": {
+        "effects": "shot_watergun_auto",
+        "shot": "gun_effects/shot_auto",
+        "soundPC": "world_of_ducks/guns_pc/duck_guns_automatics_pc",
+        "soundNPC": "world_of_ducks/guns_npc/duck_guns_automatic_npc",
+        "shell": "Waterspit_1"
+      },
+      "_Duck_Watergun_2": {
+        "effects": "shot_watergun_main",
+        "shot": "gun_effects/shot_main",
+        "soundPC": "world_of_ducks/guns_pc/duck_water_gun_pc",
+        "soundNPC": "world_of_ducks/guns_npc/duck_water_gun_npc",
+        "shell": "Waterspit_3"
+      },
+      "_Duck_Watergun_3": {
+        "effects": "shot_torpedo",
+        "shot": "gun_effects/shot_medium",
+        "soundPC": "world_of_ducks/guns_pc/duck_torpedo_pc",
+        "soundNPC": "world_of_ducks/guns_npc/duck_torpedo_npc",
+        "shell": "Waterspit_2"
+      }
+    },
+    "shells": {
+      "Waterspit_1": {
+        "effects": "WaterGun1Charge",
+        "hits": {
+          "groundHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "sandHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "snowHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "armorResisted": {
+            "effect": "hit_tank/armorResisted",
+            "soundPC": "world_of_ducks/hits_duck_pc/notpierce_duck_pc",
+            "soundNPC": "world_of_ducks/hits_duck_npc/notpierce_duck_npc"
+          },
+          "armorRicochet": {
+            "effect": "hit_tank/armorResisted",
+            "soundPC": "world_of_ducks/hits_duck_pc/notpierce_duck_pc",
+            "soundNPC": "world_of_ducks/hits_duck_npc/notpierce_duck_npc"
+          },
+          "armorHit": {
+            "effect": "hit_tank/armorHit_HE4",
+            "soundPC": "world_of_ducks/hits_duck_pc/hits_duck_pc",
+            "soundNPC": "world_of_ducks/hits_duck_npc/hits_duck_npc"
+          },
+          "armorCriticalHit": {
+            "effect": "hit_tank/armorHit_HE4",
+            "soundPC": "world_of_ducks/hits_duck_pc/hits_duck_pc",
+            "soundNPC": "world_of_ducks/hits_duck_npc/hits_duck_npc"
+          },
+          "woodHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "stoneHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "objectEffect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "metalHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "shallowWaterHit": {
+            "effect": "hit_surface/DeepWaterHit_HE2",
+            "sound": "world_of_ducks/impact_surface/impact_water"
+          },
+          "deepWaterHit": {
+            "effect": "hit_surface/DeepWaterHit_HE2",
+            "sound": "world_of_ducks/impact_surface/impact_water"
+          }
+        }
+      },
+      "Waterspit_2": {
+        "effects": "WaterGun2Charge",
+        "hits": {
+          "groundHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "sandHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "snowHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "armorResisted": {
+            "effect": "hit_tank/armorResisted",
+            "soundPC": "world_of_ducks/hits_duck_pc/notpierce_duck_pc",
+            "soundNPC": "world_of_ducks/hits_duck_npc/notpierce_duck_npc"
+          },
+          "armorRicochet": {
+            "effect": "hit_tank/armorResisted",
+            "soundPC": "world_of_ducks/hits_duck_pc/notpierce_duck_pc",
+            "soundNPC": "world_of_ducks/hits_duck_npc/notpierce_duck_npc"
+          },
+          "armorHit": {
+            "effect": "hit_tank/armorHit_HE4",
+            "soundPC": "world_of_ducks/hits_duck_pc/hits_duck_pc",
+            "soundNPC": "world_of_ducks/hits_duck_npc/hits_duck_npc"
+          },
+          "armorCriticalHit": {
+            "effect": "hit_tank/armorHit_HE4",
+            "soundPC": "world_of_ducks/hits_duck_pc/hits_duck_pc",
+            "soundNPC": "world_of_ducks/hits_duck_npc/hits_duck_npc"
+          },
+          "woodHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "stoneHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "objectEffect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "metalHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "shallowWaterHit": {
+            "effect": "hit_surface/DeepWaterHitMedium_HE2",
+            "sound": "world_of_ducks/impact_surface/impact_water"
+          },
+          "deepWaterHit": {
+            "effect": "hit_surface/DeepWaterHitMedium_HE2",
+            "sound": "world_of_ducks/impact_surface/impact_water"
+          }
+        }
+      },
+      "Waterspit_3": {
+        "effects": "WaterGun3Charge",
+        "hits": {
+          "groundHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "sandHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "snowHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "armorResisted": {
+            "effect": "hit_tank/armorResisted",
+            "soundPC": "world_of_ducks/hits_duck_pc/notpierce_duck_pc",
+            "soundNPC": "world_of_ducks/hits_duck_npc/notpierce_duck_npc"
+          },
+          "armorRicochet": {
+            "effect": "hit_tank/armorResisted",
+            "soundPC": "world_of_ducks/hits_duck_pc/notpierce_duck_pc",
+            "soundNPC": "world_of_ducks/hits_duck_npc/notpierce_duck_npc"
+          },
+          "armorHit": {
+            "effect": "hit_tank/armorHit_HE4",
+            "soundPC": "world_of_ducks/hits_duck_pc/hits_duck_pc",
+            "soundNPC": "world_of_ducks/hits_duck_npc/hits_duck_npc"
+          },
+          "armorCriticalHit": {
+            "effect": "hit_tank/armorHit_HE4",
+            "soundPC": "world_of_ducks/hits_duck_pc/hits_duck_pc",
+            "soundNPC": "world_of_ducks/hits_duck_npc/hits_duck_npc"
+          },
+          "woodHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "stoneHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "objectEffect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "metalHit": {
+            "effect": "hit_surface/woodHit_HE4",
+            "sound": "world_of_ducks/impact_surface/hit_sand_small"
+          },
+          "shallowWaterHit": {
+            "effect": "hit_surface/DeepWaterHit_HE2",
+            "sound": "world_of_ducks/impact_surface/impact_water"
+          },
+          "deepWaterHit": {
+            "effect": "hit_surface/DeepWaterHit_HE2",
+            "sound": "world_of_ducks/impact_surface/impact_water"
+          }
+        }
+      }
+    },
+    "smoke": "smoke_tank_type_black_new",
+    "flamingDead": "Fire_and_Smoke",
+    "flamingAlive": null,
+    "explosion": "explosion_tank_1",
+    "collision": "collision",
+    "ramming": "ramming_effect",
+    "chassisMud": "chassis_effects/dirt_water_m",
+    "chassisDust": "chassis_effects/dust_water_m",
+    "chassisSound": "world_of_ducks/treds_surf/treds_surf"
+  },
+  "ui": {
+    "hangar_btn": {
+      "texture": "Textures/WorldOfDucks/hangar_btn",
+      "source": "Gfx/UI/Story/world_of_ducks/hangar_btn.txt",
+      "source_sha256": "47f33e021a995f6b1c0d400764db88f4c0088dd90ca63a140299a7d20f5c5f85",
+      "atlas": "Gfx/UI/Story/world_of_ducks/texture0.mali.webp",
+      "atlas_sha256": "fa00438e07bce9b3834c7d828867698af6267d30552c56753bacbd983d9a19d1",
+      "width": 140,
+      "height": 23
+    },
+    "btn_back": {
+      "texture": "Textures/WorldOfDucks/btn_back",
+      "source": "Gfx/UI/Story/world_of_ducks/btn_back.txt",
+      "source_sha256": "4c59c486b18e6d42c9998182b9589da20b1ca092bcfc804a39af01ae42e58aa8",
+      "atlas": "Gfx/UI/Story/world_of_ducks/texture0.mali.webp",
+      "atlas_sha256": "fa00438e07bce9b3834c7d828867698af6267d30552c56753bacbd983d9a19d1",
+      "width": 231,
+      "height": 74
+    },
+    "warduck_big": {
+      "texture": "Textures/WorldOfDucks/warduck_big",
+      "source": "Gfx2/UI/BigTankIcons/WarDuck.txt",
+      "source_sha256": "285b21c8a12b265dedc4922ddb6bb6361414873d33301514c5a7bbe85af3ed82",
+      "atlas": "Gfx2/UI/BigTankIcons/WarDuck0.mali.webp",
+      "atlas_sha256": "d3cbaa8094e3141320a3ddc793d6ef244b5b14a80a5cbcb12aac23d6104ae37b",
+      "width": 161,
+      "height": 194
+    },
+    "warduck_small": {
+      "texture": "Textures/WorldOfDucks/warduck_small",
+      "source": "Gfx2/UI/BattleScreenHUD/SmallTankIcons/WarDuck.txt",
+      "source_sha256": "366c583ccb27bb9bfe35b8ca0f801b6daf0010a4bb5484cdc1c8ae273ae58a39",
+      "atlas": "Gfx2/UI/BattleScreenHUD/SmallTankIcons/texture0.mali.webp",
+      "atlas_sha256": "e44a96dfb0a073a3f4ef1d9d2eb86812bd45b6b0cc92d84075de6b0eaf22c4f6",
+      "width": 47,
+      "height": 47
+    },
+    "warduck_storage": {
+      "texture": "Textures/WorldOfDucks/warduck_storage",
+      "source": "Gfx2/UI/StorageItemIcons/WarDuck/WarDuck.txt",
+      "source_sha256": "9f44a66cba766668d954cce2d93ed6d6b4e0188e03f79167dcf2bbd06eab241b",
+      "atlas": "Gfx2/UI/StorageItemIcons/WarDuck/texture0.mali.webp",
+      "atlas_sha256": "54348ed53e5356ba6130b6f9737785d628444cb33d6f2c784566d59326a83bc2",
+      "width": 170,
+      "height": 167
+    },
+    "mode_card": {
+      "texture": "Textures/WorldOfDucks/mode_card",
+      "composedFrom": [
+        "Maps/SeaOfDucks/loading_screen",
+        "Textures/WorldOfDucks/warduck_big"
+      ],
+      "loading_screen_sha256": "478d066bf9044c3c1d5ca5017dc5cf7a4319430cba860ca6c7a444c53811b0f2",
+      "width": 512,
+      "height": 1024
+    }
+  }
+}

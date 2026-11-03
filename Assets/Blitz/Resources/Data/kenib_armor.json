@@ -1,0 +1,125 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "KENIBArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 304,
+      "vertices": 340
+    },
+    {
+      "armor": 0,
+      "material": "KENIBArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 10,
+      "material": "KENIBArmor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 9,
+      "vertices": 27
+    },
+    {
+      "armor": 12,
+      "material": "KENIBArmor_armor_hull_plate12_12",
+      "mount": "hull",
+      "name": "armor_hull_plate12_12",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 39,
+      "vertices": 117
+    },
+    {
+      "armor": 16,
+      "material": "KENIBArmor_armor_hull_plate16_16",
+      "mount": "hull",
+      "name": "armor_hull_plate16_16",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 6,
+      "material": "KENIBArmor_armor_hull_plate6_6",
+      "mount": "hull",
+      "name": "armor_hull_plate6_6",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 0,
+      "material": "KENIBArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 30,
+      "vertices": 90
+    },
+    {
+      "armor": 16,
+      "material": "KENIBArmor_armor_turret_01_plate16_16",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate16_16",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 73,
+      "vertices": 219
+    },
+    {
+      "armor": 30,
+      "material": "KENIBArmor_armor_turret_01_plate30_30",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate30_30",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 68,
+      "vertices": 204
+    },
+    {
+      "armor": 6,
+      "material": "KENIBArmor_armor_turret_01_plate6_6",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate6_6",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 53,
+      "vertices": 159
+    },
+    {
+      "armor": 10,
+      "material": "KENIBArmor_gun_01_mask_turret_01_plate10s_10",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate10s_10",
+      "screen": true,
+      "submesh": 10,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 30,
+      "material": "KENIBArmor_gun_01_mask_turret_01_plate30s_30",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate30s_30",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 24,
+      "vertices": 72
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "format": "godot",
+  "scene": "res://maps/rudniki/_rudniki.tscn",
+  "godot": "4.7.2-stable (arch_linux)",
+  "nodes": 1503,
+  "roles": {
+    "decoration": 10,
+    "intact": 251,
+    "leaves": 264,
+    "lod": 376,
+    "sky": 5,
+    "static": 224,
+    "trunk": 121,
+    "water": 1,
+    "wreck": 251
+  },
+  "materials": 128,
+  "textures": 48,
+  "lightmapSlices": 16,
+  "lightmapUsers": 478,
+  "vertices": 382464,
+  "triangles": 208024,
+  "billboards": 18476,
+  "sprites": 376,
+  "skipped": 1
+}

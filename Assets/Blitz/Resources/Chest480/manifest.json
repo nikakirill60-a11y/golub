@@ -1,0 +1,177 @@
+{
+  "id": "chest",
+  "sourceScene": "3d/Maps/chest/Box_anim.sc2",
+  "sources": {
+    "3d/Configs/Particles/chest/dust.yaml": "7eeb2149ebacefe92960f3217843d7f4ff7916840c2bf1fc0f1fb0f922c3b068",
+    "3d/Configs/Particles/chest/dust1.yaml": "b741c9c6de17a28db72084876b597e13ca041ae0ad309d37e30ca03f9d11546e",
+    "3d/Configs/Particles/chest/fireworks1.yaml": "91a42969733ce43cf7a4bdae8b45470da76b9b3d7845516b127ddf70286bd54e",
+    "3d/Configs/Particles/chest/fireworks2.yaml": "3a81f24c17eb1b0a4a9bc21452ebc4549106354d80d93f04bc87c6b9403ffd6c",
+    "3d/Configs/Particles/chest/glow_box.yaml": "7450cde2761b020f64ba5216cc2f4163d928fa079d17cf0859c95b15a58c6224",
+    "3d/Configs/Particles/chest/glow_box_l.yaml": "5bec2213dfd8ced168e1a953dd67451c67154fa5bdb8e5cf926a02c1644b0997",
+    "3d/Configs/Particles/chest/glow_flow.yaml": "56a0c3623a038673eddb49656c7764b66d94d97075e8224ad70fe489b7b79dd7",
+    "3d/Configs/Particles/chest/glow_ground.yaml": "6581dcba08b10eadec08b9c0f8cd1d8256458a3dc71c81cf817503c1e47c3c36",
+    "3d/Configs/Particles/chest/glow_spot.yaml": "50a6234c9ed845e9de096fdabef73473b7d543b4e56ff48ddbfd6957e8910386",
+    "3d/Configs/Particles/chest/glow_spot1.yaml": "6cd1390359cff06e1598e84bada4d102709f95a3ba199f163402cf10de0a27c8",
+    "3d/Configs/Particles/chest/glow_spot_t.yaml": "ef5f5d7fe14020944d3be4b8f99768fb369bf5c29055705d452fee45da9d04de",
+    "3d/Configs/Particles/chest/glow_unlock.yaml": "42d4373e64ef8299691a0883c943dec0594bad3ae7f9eac681c5eaa145e77dd7",
+    "3d/Configs/Particles/chest/pul.yaml": "8e8b3c37bff508086d3ead3b3257b73d9ee048560413c5308aeb2396c65f78b2",
+    "3d/Configs/Particles/chest/pul_spot.yaml": "a6b52b5ef06888456d7a78eaf8669c59ee1a13ee3a96c96e4c5dc5f9307ff9c6",
+    "3d/Configs/Particles/chest/shadow.yaml": "163e76bb031b4e71e5e7e6a207b1318f4612e9534faeb2377802bc801c990ae7",
+    "3d/Configs/Particles/chest/sparks.yaml": "547757c3bec9ef5c053b659f4001103130ca20a3e9e5c20ff01104e4f0ab2307",
+    "3d/Configs/Particles/chest/sparks0.yaml": "4dfe27084cc3c725c65bc8c5ba2bbabaff9d23cc299b89fa1ac0e340c7ffd7d8",
+    "3d/Configs/Particles/chest/sparks1.yaml": "e7bef70d9ba8f7f5499a18f5614177e523d0086be2025481173dd9cd346aeb8e",
+    "3d/Configs/Particles/chest/sparks2.yaml": "ac20a397c1dda8dd7d02367ce72d5e800ffa0751015aa1ce3cc6a909eaf55702",
+    "3d/Maps/chest/Box_anim.sc2": "e37597f642fa51aa501c3faa5d3ecb66f0960dbb46854f50fec665f528aae96f",
+    "3d/Maps/chest/Box_map2_1024.mali.pvr": "9a2ec3b45908b8542de028372ede154fc5f3da1d897de8eeed425c572f8e3fc2",
+    "3d/Maps/chest/Box_map2_1024.tex": "96fcd46667f850269b342b75f1b90006772b920aa99d6c9bac6c9192dd4ce95b",
+    "3d/Maps/chest/X2.mali.pvr": "5ea840ddaddcd1240cebac6a64caa6c82820d4f43caff69f8df1560eb4c4f396",
+    "3d/Maps/chest/X2.tex": "a9c933308dc0c698fc44bed6dece9fd7577849716b53a528eeac6cec7355c153",
+    "3d/Maps/chest/background2.mali.pvr": "a9f80970ff74976b8cd2448a6d42c80dd4f565d6ae748d425a4e29beaf5856c4",
+    "3d/Maps/chest/background2.tex": "a9c933308dc0c698fc44bed6dece9fd7577849716b53a528eeac6cec7355c153",
+    "Gfx/Particles/UI/explosion_smoke_white.txt": "612a167a12516ef2e2897acf59d502b42e0c5167caf7a53e086970e6ce8fd774",
+    "Gfx/Particles/UI/fog_white.txt": "642ba116220b3e3e91ecc2c811e8be5417088dfd5fe334e6566137d79f0ea230",
+    "Gfx/Particles/UI/glow_white_min.txt": "9dae91e1a857b110df1d4d9daf330919aace5f0b19a80a21573c9c004611697d",
+    "Gfx/Particles/UI/o2_expGlowB.txt": "014bf18981a51d230f9c3ffa7e2e742229138fd84e6e53397deb581b4ac9fa9c",
+    "Gfx/Particles/UI/texture0.mali.webp": "8fe774c8ed227deaf6b1eaf93ca27adcf34c49c6c6444215af1cb938e93db5e0",
+    "Gfx/Particles/UI/texture0.tex": "bc5da11506341bb15a3bc6cf1fcec68e0f97c42a32acda51ce7ddd071bef444a",
+    "Gfx/Particles/UI/treil.txt": "ffbaefe152436a5232597a1c381a0903b3916bd029c8566e3008c28ef9f92c1b",
+    "Gfx/Particles/chest/box_light.txt": "8ebdf262e2f433dbfd8ab08757dacc9b72cf06402ff5df3434771cab10f23ade",
+    "Gfx/Particles/chest/camm.txt": "85f409f1affffdb867c785e134e8be58eb6a412498224eabcc7bc183d0630d22",
+    "Gfx/Particles/chest/glow_anim_low.txt": "2763bcf86560da15f9b2c506fbb501bd83f99ed2af9f1c3c3d2fae2682f7e582",
+    "Gfx/Particles/chest/shadow1.txt": "8f41453f40eb41af777cbb598091796d006ba411197346464512e04f07243e5a",
+    "Gfx/Particles/chest/sparks1.txt": "c98af6d5f861e509a8b7e82cc4637e8d848d3d57976c5d8763e52d2d5d5b42a1",
+    "Gfx/Particles/chest/spot_light.txt": "ad8ecccba8c1bf0dfdd60f918816310514538e94e08502a7068e1562c79fc3c6",
+    "Gfx/Particles/chest/texture0.mali.webp": "980ff1c25c97c4493d915398a1ff125bfc69bcec1649ab63a2ee176d5a6dbae6",
+    "Gfx/Particles/chest/texture0.tex": "bc5da11506341bb15a3bc6cf1fcec68e0f97c42a32acda51ce7ddd071bef444a",
+    "Gfx/Particles/hangar/fog.txt": "4a3259f318b64255da8bbffc73226dce01b2e929a27c5090629ac210acaae565",
+    "Gfx/Particles/hangar/texture0.mali.webp": "6ad9384413b0b57c72ab09ab615c9678bf60fe1568d318f4129f42e5206e0dbc",
+    "Gfx/Particles/hangar/texture0.tex": "bc5da11506341bb15a3bc6cf1fcec68e0f97c42a32acda51ce7ddd071bef444a",
+    "blitz-legacy-godot/maps/components/chest/box_prize.wav": "f15bf0c0c3bb0b70e34120e388f18bf21bb78355fc3af05f0a10464c6ed31d6f",
+    "blitz-legacy-godot/maps/components/chest/whoosh_prize.wav": "0dfa1c98896c7082c2714368f5fdfb52860f6fa17bb49f79879ce12298da7751"
+  },
+  "meshes": [
+    {
+      "name": "background",
+      "vertices": 4,
+      "triangles": 2,
+      "min": [
+        19.982255935668945,
+        -48.80512237548828,
+        -51.02667999267578
+      ],
+      "max": [
+        59.370880126953125,
+        45.16423034667969,
+        50.62627410888672
+      ]
+    },
+    {
+      "name": "box01",
+      "vertices": 1494,
+      "triangles": 832,
+      "min": [
+        -0.8516960740089417,
+        -1.6294337511062622,
+        3.484441041946411
+      ],
+      "max": [
+        1.8658599853515625,
+        1.8001654148101807,
+        5.059556007385254
+      ]
+    },
+    {
+      "name": "box02",
+      "vertices": 704,
+      "triangles": 524,
+      "min": [
+        -0.805715799331665,
+        -1.4422874450683594,
+        5.060448169708252
+      ],
+      "max": [
+        1.8585319519042969,
+        1.6183969974517822,
+        5.26121711730957
+      ]
+    },
+    {
+      "name": "box03",
+      "vertices": 126,
+      "triangles": 200,
+      "min": [
+        -0.19285956025123596,
+        0.8854112029075623,
+        4.926412582397461
+      ],
+      "max": [
+        -0.0891338661313057,
+        1.0796492099761963,
+        5.119021892547607
+      ]
+    },
+    {
+      "name": "box04",
+      "vertices": 98,
+      "triangles": 72,
+      "min": [
+        -0.20173923671245575,
+        0.9020942449569702,
+        4.582870006561279
+      ],
+      "max": [
+        -0.07040844857692719,
+        1.0570690631866455,
+        5.0098161697387695
+      ]
+    },
+    {
+      "name": "box05",
+      "vertices": 98,
+      "triangles": 72,
+      "min": [
+        -0.6429092884063721,
+        -0.12541773915290833,
+        4.582870006561279
+      ],
+      "max": [
+        -0.5115785002708435,
+        0.02955707162618637,
+        5.0098161697387695
+      ]
+    },
+    {
+      "name": "box06",
+      "vertices": 126,
+      "triangles": 200,
+      "min": [
+        -0.6340295672416687,
+        -0.1420997530221939,
+        4.926412582397461
+      ],
+      "max": [
+        -0.5303038954734802,
+        0.052138276398181915,
+        5.119021892547607
+      ]
+    }
+  ],
+  "effects": 19,
+  "emitters": 19,
+  "layers": 29,
+  "sprites": 12,
+  "audio": [
+    "box_prize.wav",
+    "whoosh_prize.wav"
+  ],
+  "omissions": [
+    {
+      "entity": "HP_gui",
+      "reason": "reward spawn locator; exported as the hardpoint, not drawn"
+    },
+    {
+      "entity": "animation_inclusion",
+      "reason": "hidden effect copies (render object flags 0)"
+    }
+  ]
+}

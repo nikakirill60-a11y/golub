@@ -1,0 +1,31 @@
+{
+ "legacyEmitters": [
+  {
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "emitter": {
+    "name": "emitter",
+    "emissionVector": [
+     -0.0,
+     -0.1,
+     0.01
+    ],
+    "emissionAngle": 0.0,
+    "type": 0,
+    "size": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "shortEffect": false,
+    "emissionRange": 38.133999,
+    "emissionVectorInverted": true,
+    "radius": 0,
+    "layers": []
+   }
+  }
+ ]
+}

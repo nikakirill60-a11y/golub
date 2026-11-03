@@ -1,0 +1,345 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "MAUSArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 216,
+      "vertices": 264
+    },
+    {
+      "armor": 0,
+      "material": "MAUSArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 100,
+      "material": "MAUSArmor_armor_hull_plate100s_100",
+      "mount": "hull",
+      "name": "armor_hull_plate100s_100",
+      "screen": true,
+      "submesh": 2,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 105,
+      "material": "MAUSArmor_armor_hull_plate105_105",
+      "mount": "hull",
+      "name": "armor_hull_plate105_105",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 105,
+      "material": "MAUSArmor_armor_hull_plate105s_105",
+      "mount": "hull",
+      "name": "armor_hull_plate105s_105",
+      "screen": true,
+      "submesh": 4,
+      "triangles": 9,
+      "vertices": 27
+    },
+    {
+      "armor": 120,
+      "material": "MAUSArmor_armor_hull_plate120s_120",
+      "mount": "hull",
+      "name": "armor_hull_plate120s_120",
+      "screen": true,
+      "submesh": 5,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 137,
+      "material": "MAUSArmor_armor_hull_plate137s_137",
+      "mount": "hull",
+      "name": "armor_hull_plate137s_137",
+      "screen": true,
+      "submesh": 6,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 160,
+      "material": "MAUSArmor_armor_hull_plate160_160",
+      "mount": "hull",
+      "name": "armor_hull_plate160_160",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 11,
+      "vertices": 33
+    },
+    {
+      "armor": 174,
+      "material": "MAUSArmor_armor_hull_plate174s_174",
+      "mount": "hull",
+      "name": "armor_hull_plate174s_174",
+      "screen": true,
+      "submesh": 8,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 185,
+      "material": "MAUSArmor_armor_hull_plate185_185",
+      "mount": "hull",
+      "name": "armor_hull_plate185_185",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 39,
+      "vertices": 117
+    },
+    {
+      "armor": 185,
+      "material": "MAUSArmor_armor_hull_plate185s_185",
+      "mount": "hull",
+      "name": "armor_hull_plate185s_185",
+      "screen": true,
+      "submesh": 10,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 193,
+      "material": "MAUSArmor_armor_hull_plate193s_193",
+      "mount": "hull",
+      "name": "armor_hull_plate193s_193",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 200,
+      "material": "MAUSArmor_armor_hull_plate200_200",
+      "mount": "hull",
+      "name": "armor_hull_plate200_200",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 213,
+      "material": "MAUSArmor_armor_hull_plate213s_213",
+      "mount": "hull",
+      "name": "armor_hull_plate213s_213",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 3,
+      "vertices": 9
+    },
+    {
+      "armor": 220,
+      "material": "MAUSArmor_armor_hull_plate220s_220",
+      "mount": "hull",
+      "name": "armor_hull_plate220s_220",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 240,
+      "material": "MAUSArmor_armor_hull_plate240s_240",
+      "mount": "hull",
+      "name": "armor_hull_plate240s_240",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 5,
+      "vertices": 15
+    },
+    {
+      "armor": 280,
+      "material": "MAUSArmor_armor_hull_plate280s_280",
+      "mount": "hull",
+      "name": "armor_hull_plate280s_280",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 300,
+      "material": "MAUSArmor_armor_hull_plate300s_300",
+      "mount": "hull",
+      "name": "armor_hull_plate300s_300",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 40,
+      "material": "MAUSArmor_armor_hull_plate40_40",
+      "mount": "hull",
+      "name": "armor_hull_plate40_40",
+      "screen": false,
+      "submesh": 18,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 50,
+      "material": "MAUSArmor_armor_hull_plate50_50",
+      "mount": "hull",
+      "name": "armor_hull_plate50_50",
+      "screen": false,
+      "submesh": 19,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 55,
+      "material": "MAUSArmor_armor_hull_plate55_55",
+      "mount": "hull",
+      "name": "armor_hull_plate55_55",
+      "screen": false,
+      "submesh": 20,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 60,
+      "material": "MAUSArmor_armor_hull_plate60s_60",
+      "mount": "hull",
+      "name": "armor_hull_plate60s_60",
+      "screen": true,
+      "submesh": 21,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 80,
+      "material": "MAUSArmor_armor_hull_plate80_80",
+      "mount": "hull",
+      "name": "armor_hull_plate80_80",
+      "screen": false,
+      "submesh": 22,
+      "triangles": 30,
+      "vertices": 90
+    },
+    {
+      "armor": 90,
+      "material": "MAUSArmor_armor_hull_plate90_90",
+      "mount": "hull",
+      "name": "armor_hull_plate90_90",
+      "screen": false,
+      "submesh": 23,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 0,
+      "material": "MAUSArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 24,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 100,
+      "material": "MAUSArmor_armor_turret_01_plate100_100",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate100_100",
+      "screen": false,
+      "submesh": 25,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 210,
+      "material": "MAUSArmor_armor_turret_01_plate210_210",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate210_210",
+      "screen": false,
+      "submesh": 26,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 240,
+      "material": "MAUSArmor_armor_turret_01_plate240_240",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate240_240",
+      "screen": false,
+      "submesh": 27,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 30,
+      "material": "MAUSArmor_armor_turret_01_plate30_30",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate30_30",
+      "screen": false,
+      "submesh": 28,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 50,
+      "material": "MAUSArmor_armor_turret_01_plate50_50",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate50_50",
+      "screen": false,
+      "submesh": 29,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 55,
+      "material": "MAUSArmor_armor_turret_01_plate55_55",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate55_55",
+      "screen": false,
+      "submesh": 30,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 65,
+      "material": "MAUSArmor_armor_turret_01_plate65_65",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate65_65",
+      "screen": false,
+      "submesh": 31,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 160,
+      "material": "MAUSArmor_gun_01_mask_turret_01_plate160s_160",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate160s_160",
+      "screen": true,
+      "submesh": 32,
+      "triangles": 35,
+      "vertices": 105
+    },
+    {
+      "armor": 240,
+      "material": "MAUSArmor_gun_01_mask_turret_01_plate240s_240",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate240s_240",
+      "screen": true,
+      "submesh": 33,
+      "triangles": 39,
+      "vertices": 117
+    }
+  ]
+}

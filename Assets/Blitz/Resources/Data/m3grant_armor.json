@@ -1,0 +1,125 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "M3GRANTArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 380,
+      "vertices": 420
+    },
+    {
+      "armor": 0,
+      "material": "M3GRANTArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 3,
+      "vertices": 9
+    },
+    {
+      "armor": 12,
+      "material": "M3GRANTArmor_armor_hull_plate12_12",
+      "mount": "hull",
+      "name": "armor_hull_plate12_12",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 31,
+      "vertices": 93
+    },
+    {
+      "armor": 19,
+      "material": "M3GRANTArmor_armor_hull_plate19_19",
+      "mount": "hull",
+      "name": "armor_hull_plate19_19",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 11,
+      "vertices": 33
+    },
+    {
+      "armor": 25,
+      "material": "M3GRANTArmor_armor_hull_plate25_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25_25",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 30,
+      "material": "M3GRANTArmor_armor_hull_plate30_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30_30",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 38,
+      "material": "M3GRANTArmor_armor_hull_plate38_38",
+      "mount": "hull",
+      "name": "armor_hull_plate38_38",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 162,
+      "vertices": 486
+    },
+    {
+      "armor": 51,
+      "material": "M3GRANTArmor_armor_hull_plate51_51",
+      "mount": "hull",
+      "name": "armor_hull_plate51_51",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 233,
+      "vertices": 699
+    },
+    {
+      "armor": 0,
+      "material": "M3GRANTArmor_armor_turret_03_plate0_0",
+      "mount": "turret_03",
+      "name": "armor_turret_03_plate0_0",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 51,
+      "material": "M3GRANTArmor_armor_turret_03_plate51_51",
+      "mount": "turret_03",
+      "name": "armor_turret_03_plate51_51",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 51,
+      "material": "M3GRANTArmor_gun_02_mask_turret_03_plate51s_51",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_03_plate51s_51",
+      "screen": true,
+      "submesh": 10,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 51,
+      "material": "M3GRANTArmor_gun_06_mask_turret_03_plate51s_51",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_03_plate51s_51",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 18,
+      "vertices": 54
+    }
+  ]
+}

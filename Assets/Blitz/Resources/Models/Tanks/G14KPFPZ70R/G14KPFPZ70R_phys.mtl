@@ -1,0 +1,8 @@
+# Source-backed material bindings; runtime recreates URP materials.
+
+newmtl G14KPFPZ70RBody
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 1.000000
+map_Kd Textures/G14KPFPZ70R.png

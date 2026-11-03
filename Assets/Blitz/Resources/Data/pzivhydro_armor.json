@@ -1,0 +1,185 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "PZIVHYDROArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 300,
+      "vertices": 328
+    },
+    {
+      "armor": 0,
+      "material": "PZIVHYDROArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 10,
+      "material": "PZIVHYDROArmor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 19,
+      "vertices": 57
+    },
+    {
+      "armor": 21,
+      "material": "PZIVHYDROArmor_armor_hull_plate21_21",
+      "mount": "hull",
+      "name": "armor_hull_plate21_21",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 32,
+      "material": "PZIVHYDROArmor_armor_hull_plate32_32",
+      "mount": "hull",
+      "name": "armor_hull_plate32_32",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 61,
+      "vertices": 183
+    },
+    {
+      "armor": 54,
+      "material": "PZIVHYDROArmor_armor_hull_plate54_54",
+      "mount": "hull",
+      "name": "armor_hull_plate54_54",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 8,
+      "material": "PZIVHYDROArmor_armor_hull_plate8_8",
+      "mount": "hull",
+      "name": "armor_hull_plate8_8",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 0,
+      "material": "PZIVHYDROArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 102,
+      "material": "PZIVHYDROArmor_armor_turret_01_plate102_102",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate102_102",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 80,
+      "vertices": 240
+    },
+    {
+      "armor": 10,
+      "material": "PZIVHYDROArmor_armor_turret_01_plate10_10",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate10_10",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 32,
+      "material": "PZIVHYDROArmor_armor_turret_01_plate32_32",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate32_32",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 72,
+      "vertices": 216
+    },
+    {
+      "armor": 40,
+      "material": "PZIVHYDROArmor_armor_turret_01_plate40s_40",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate40s_40",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 49,
+      "material": "PZIVHYDROArmor_armor_turret_01_plate49s_49",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate49s_49",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 54,
+      "material": "PZIVHYDROArmor_armor_turret_01_plate54_54",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate54_54",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 8,
+      "material": "PZIVHYDROArmor_armor_turret_01_plate8_8",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate8_8",
+      "screen": false,
+      "submesh": 14,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 0,
+      "material": "PZIVHYDROArmor_gun_01_mask_turret_01_plate0s_0",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate0s_0",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 20,
+      "material": "PZIVHYDROArmor_gun_01_mask_turret_01_plate20s_20",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate20s_20",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 50,
+      "material": "PZIVHYDROArmor_gun_01_mask_turret_01_plate50s_50",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate50s_50",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 44,
+      "vertices": 132
+    }
+  ]
+}

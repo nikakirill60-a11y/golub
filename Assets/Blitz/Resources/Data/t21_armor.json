@@ -1,0 +1,205 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "T21Armor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 336,
+      "vertices": 372
+    },
+    {
+      "armor": 0,
+      "material": "T21Armor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 12,
+      "material": "T21Armor_armor_hull_plate12_12",
+      "mount": "hull",
+      "name": "armor_hull_plate12_12",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 88,
+      "vertices": 264
+    },
+    {
+      "armor": 22,
+      "material": "T21Armor_armor_hull_plate22_22",
+      "mount": "hull",
+      "name": "armor_hull_plate22_22",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 88,
+      "vertices": 264
+    },
+    {
+      "armor": 25,
+      "material": "T21Armor_armor_hull_plate25_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25_25",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 108,
+      "vertices": 324
+    },
+    {
+      "armor": 28,
+      "material": "T21Armor_armor_hull_plate28_28",
+      "mount": "hull",
+      "name": "armor_hull_plate28_28",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 46,
+      "vertices": 138
+    },
+    {
+      "armor": 0,
+      "material": "T21Armor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 12,
+      "material": "T21Armor_armor_turret_02_plate12_12",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate12_12",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 85,
+      "vertices": 255
+    },
+    {
+      "armor": 22,
+      "material": "T21Armor_armor_turret_02_plate22_22",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate22_22",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 25,
+      "material": "T21Armor_armor_turret_02_plate25_25",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate25_25",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 96,
+      "vertices": 288
+    },
+    {
+      "armor": 28,
+      "material": "T21Armor_armor_turret_02_plate28_28",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate28_28",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 47,
+      "vertices": 141
+    },
+    {
+      "armor": 0,
+      "material": "T21Armor_gun_03_mask_turret_02_plate0s_0",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_02_plate0s_0",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 25,
+      "material": "T21Armor_gun_03_mask_turret_02_plate25s_25",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_02_plate25s_25",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 28,
+      "material": "T21Armor_gun_03_mask_turret_02_plate28s_28",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_02_plate28s_28",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 0,
+      "material": "T21Armor_gun_05_mask_turret_02_plate0s_0",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate0s_0",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 25,
+      "material": "T21Armor_gun_05_mask_turret_02_plate25s_25",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate25s_25",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 28,
+      "material": "T21Armor_gun_05_mask_turret_02_plate28s_28",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate28s_28",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 0,
+      "material": "T21Armor_gun_06_mask_turret_02_plate0s_0",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate0s_0",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 25,
+      "material": "T21Armor_gun_06_mask_turret_02_plate25s_25",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate25s_25",
+      "screen": true,
+      "submesh": 18,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 28,
+      "material": "T21Armor_gun_06_mask_turret_02_plate28s_28",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate28s_28",
+      "screen": true,
+      "submesh": 19,
+      "triangles": 38,
+      "vertices": 114
+    }
+  ]
+}

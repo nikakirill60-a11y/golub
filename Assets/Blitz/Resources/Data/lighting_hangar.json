@@ -1,0 +1,3754 @@
+{
+  "entries": [
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/2.tres",
+      "meshes": [
+        "hangar_low_batch_1_0_sc2#0"
+      ],
+      "name": "1_0_sc2",
+      "path": "hangars/low/hangar_low_batch/new/1_0_sc2",
+      "rect": [
+        0.814453125,
+        0.001953125,
+        0.12109375,
+        0.07421875
+      ],
+      "slice": 5,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_1_0_sc2_001#0"
+      ],
+      "name": "1_0_sc2_001",
+      "path": "hangars/low/hangar_low_batch/new/1_0_sc2_001",
+      "rect": [
+        0.306640625,
+        0.001953125,
+        0.27734375,
+        0.27734375
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/2.tres",
+      "meshes": [
+        "hangar_low_batch_1_1_sc2#0"
+      ],
+      "name": "1_1_sc2",
+      "path": "hangars/low/hangar_low_batch/new/1_1_sc2",
+      "rect": [
+        0.345703125,
+        0.642578125,
+        0.12890625,
+        0.13671875
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_1_2_sc2#0"
+      ],
+      "name": "1_2_sc2",
+      "path": "hangars/low/hangar_low_batch/new/1_2_sc2",
+      "rect": [
+        0.001953125,
+        0.478515625,
+        0.44140625,
+        0.43359375
+      ],
+      "slice": 1,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_1_3_sc2#0"
+      ],
+      "name": "1_3_sc2",
+      "path": "hangars/low/hangar_low_batch/new/1_3_sc2",
+      "rect": [
+        0.830078125,
+        0.509765625,
+        0.13671875,
+        0.13671875
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_1_4_sc2#0"
+      ],
+      "name": "1_4_sc2",
+      "path": "hangars/low/hangar_low_batch/new/1_4_sc2",
+      "rect": [
+        0.603515625,
+        0.001953125,
+        0.23828125,
+        0.23828125
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/2.tres",
+      "meshes": [
+        "hangar_low_batch_2_0_sc2#0"
+      ],
+      "name": "2_0_sc2",
+      "path": "hangars/low/hangar_low_batch/new/2_0_sc2",
+      "rect": [
+        0.673828125,
+        0.001953125,
+        0.12109375,
+        0.07421875
+      ],
+      "slice": 5,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_2_0_sc2_001#0"
+      ],
+      "name": "2_0_sc2_001",
+      "path": "hangars/low/hangar_low_batch/new/2_0_sc2_001",
+      "rect": [
+        0.619140625,
+        0.712890625,
+        0.26953125,
+        0.26171875
+      ],
+      "slice": 0,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_2_1_sc2#0"
+      ],
+      "name": "2_1_sc2",
+      "path": "hangars/low/hangar_low_batch/new/2_1_sc2",
+      "rect": [
+        0.408203125,
+        0.001953125,
+        0.36328125,
+        0.37109375
+      ],
+      "slice": 3,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_2_2_sc2#0"
+      ],
+      "name": "2_2_sc2",
+      "path": "hangars/low/hangar_low_batch/new/2_2_sc2",
+      "rect": [
+        0.001953125,
+        0.306640625,
+        0.16796875,
+        0.15234375
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_2_3_sc2#0"
+      ],
+      "name": "2_3_sc2",
+      "path": "hangars/low/hangar_low_batch/new/2_3_sc2",
+      "rect": [
+        0.791015625,
+        0.798828125,
+        0.09765625,
+        0.09765625
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_2_4_sc2#0"
+      ],
+      "name": "2_4_sc2",
+      "path": "hangars/low/hangar_low_batch/new/2_4_sc2",
+      "rect": [
+        0.509765625,
+        0.509765625,
+        0.14453125,
+        0.13671875
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_2_5_sc2#0"
+      ],
+      "name": "2_5_sc2",
+      "path": "hangars/low/hangar_low_batch/new/2_5_sc2",
+      "rect": [
+        0.142578125,
+        0.869140625,
+        0.12109375,
+        0.11328125
+      ],
+      "slice": 2,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_2_6_sc2#0"
+      ],
+      "name": "2_6_sc2",
+      "path": "hangars/low/hangar_low_batch/new/2_6_sc2",
+      "rect": [
+        0.001953125,
+        0.650390625,
+        0.12109375,
+        0.12109375
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_2_7_sc2#0"
+      ],
+      "name": "2_7_sc2",
+      "path": "hangars/low/hangar_low_batch/new/2_7_sc2",
+      "rect": [
+        0.666015625,
+        0.798828125,
+        0.10546875,
+        0.09765625
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/2.tres",
+      "meshes": [
+        "hangar_low_batch_3_01_sc2#0"
+      ],
+      "name": "3_01_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_01_sc2",
+      "rect": [
+        0.314453125,
+        0.931640625,
+        0.12109375,
+        0.04296875
+      ],
+      "slice": 0,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_01_sc2_001#0"
+      ],
+      "name": "3_01_sc2_001",
+      "path": "hangars/low/hangar_low_batch/new/3_01_sc2_001",
+      "rect": [
+        0.001953125,
+        0.478515625,
+        0.15234375,
+        0.15234375
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_02_sc2#0"
+      ],
+      "name": "3_02_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_02_sc2",
+      "rect": [
+        0.376953125,
+        0.775390625,
+        0.21484375,
+        0.20703125
+      ],
+      "slice": 3,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_03_sc2#0"
+      ],
+      "name": "3_03_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_03_sc2",
+      "rect": [
+        0.791015625,
+        0.416015625,
+        0.18359375,
+        0.18359375
+      ],
+      "slice": 3,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_04_sc2#0"
+      ],
+      "name": "3_04_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_04_sc2",
+      "rect": [
+        0.142578125,
+        0.783203125,
+        0.12109375,
+        0.11328125
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/2.tres",
+      "meshes": [
+        "hangar_low_batch_3_05_sc2#0"
+      ],
+      "name": "3_05_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_05_sc2",
+      "rect": [
+        0.212890625,
+        0.791015625,
+        0.14453125,
+        0.14453125
+      ],
+      "slice": 3,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_05_sc2_001#0"
+      ],
+      "name": "3_05_sc2_001",
+      "path": "hangars/low/hangar_low_batch/new/3_05_sc2_001",
+      "rect": [
+        0.353515625,
+        0.001953125,
+        0.08984375,
+        0.08984375
+      ],
+      "slice": 5,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_06_sc2#0"
+      ],
+      "name": "3_06_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_06_sc2",
+      "rect": [
+        0.306640625,
+        0.298828125,
+        0.16015625,
+        0.16015625
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_07_sc2#0"
+      ],
+      "name": "3_07_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_07_sc2",
+      "rect": [
+        0.142578125,
+        0.650390625,
+        0.12109375,
+        0.11328125
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_08_sc2#0"
+      ],
+      "name": "3_08_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_08_sc2",
+      "rect": [
+        0.533203125,
+        0.798828125,
+        0.11328125,
+        0.10546875
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_09_sc2#0"
+      ],
+      "name": "3_09_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_09_sc2",
+      "rect": [
+        0.634765625,
+        0.666015625,
+        0.12109375,
+        0.11328125
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_10_sc2#0"
+      ],
+      "name": "3_10_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_10_sc2",
+      "rect": [
+        0.283203125,
+        0.869140625,
+        0.09765625,
+        0.11328125
+      ],
+      "slice": 2,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_11_sc2#0"
+      ],
+      "name": "3_11_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_11_sc2",
+      "rect": [
+        0.416015625,
+        0.798828125,
+        0.09765625,
+        0.11328125
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/2.tres",
+      "meshes": [
+        "hangar_low_batch_3_12_sc2#0"
+      ],
+      "name": "3_12_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_12_sc2",
+      "rect": [
+        0.455078125,
+        0.931640625,
+        0.12109375,
+        0.04296875
+      ],
+      "slice": 0,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_12_sc2_001#0"
+      ],
+      "name": "3_12_sc2_001",
+      "path": "hangars/low/hangar_low_batch/new/3_12_sc2_001",
+      "rect": [
+        0.173828125,
+        0.478515625,
+        0.15234375,
+        0.15234375
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_13_sc2#0"
+      ],
+      "name": "3_13_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_13_sc2",
+      "rect": [
+        0.705078125,
+        0.853515625,
+        0.23828125,
+        0.12109375
+      ],
+      "slice": 2,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_14_sc2#0"
+      ],
+      "name": "3_14_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_14_sc2",
+      "rect": [
+        0.634765625,
+        0.001953125,
+        0.33203125,
+        0.33984375
+      ],
+      "slice": 0,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/2.tres",
+      "meshes": [
+        "hangar_low_batch_3_14_sc2_001#0"
+      ],
+      "name": "3_14_sc2_001",
+      "path": "hangars/low/hangar_low_batch/new/3_14_sc2_001",
+      "rect": [
+        0.345703125,
+        0.478515625,
+        0.14453125,
+        0.14453125
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_15_sc2#0"
+      ],
+      "name": "3_15_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_15_sc2",
+      "rect": [
+        0.634765625,
+        0.361328125,
+        0.33984375,
+        0.33203125
+      ],
+      "slice": 0,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_16_sc2#0"
+      ],
+      "name": "3_16_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_16_sc2",
+      "rect": [
+        0.908203125,
+        0.712890625,
+        0.07421875,
+        0.05859375
+      ],
+      "slice": 0,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_17_sc2#0"
+      ],
+      "name": "3_17_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_17_sc2",
+      "rect": [
+        0.791015625,
+        0.822265625,
+        0.16015625,
+        0.16015625
+      ],
+      "slice": 3,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_18_sc2#0"
+      ],
+      "name": "3_18_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_18_sc2",
+      "rect": [
+        0.673828125,
+        0.509765625,
+        0.13671875,
+        0.13671875
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/2.tres",
+      "meshes": [
+        "hangar_low_batch_3_21_sc2#0"
+      ],
+      "name": "3_21_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_21_sc2",
+      "rect": [
+        0.611328125,
+        0.775390625,
+        0.16015625,
+        0.16796875
+      ],
+      "slice": 3,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_22_sc2#0"
+      ],
+      "name": "3_22_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_22_sc2",
+      "rect": [
+        0.791015625,
+        0.001953125,
+        0.19140625,
+        0.19140625
+      ],
+      "slice": 3,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_23_sc2#0"
+      ],
+      "name": "3_23_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_23_sc2",
+      "rect": [
+        0.791015625,
+        0.212890625,
+        0.18359375,
+        0.18359375
+      ],
+      "slice": 3,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_24_sc2#0"
+      ],
+      "name": "3_24_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_24_sc2",
+      "rect": [
+        0.572265625,
+        0.001953125,
+        0.08203125,
+        0.08984375
+      ],
+      "slice": 5,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_25_sc2#0"
+      ],
+      "name": "3_25_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_25_sc2",
+      "rect": [
+        0.001953125,
+        0.001953125,
+        0.28515625,
+        0.28515625
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_26_sc2#0"
+      ],
+      "name": "3_26_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_26_sc2",
+      "rect": [
+        0.001953125,
+        0.626953125,
+        0.29296875,
+        0.29296875
+      ],
+      "slice": 0,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_27_sc2#0"
+      ],
+      "name": "3_27_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_27_sc2",
+      "rect": [
+        0.001953125,
+        0.869140625,
+        0.12109375,
+        0.11328125
+      ],
+      "slice": 2,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_28_sc2#0"
+      ],
+      "name": "3_28_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_28_sc2",
+      "rect": [
+        0.408203125,
+        0.853515625,
+        0.12890625,
+        0.12890625
+      ],
+      "slice": 2,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_29_sc2#0"
+      ],
+      "name": "3_29_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_29_sc2",
+      "rect": [
+        0.775390625,
+        0.666015625,
+        0.12109375,
+        0.11328125
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_30_sc2#0"
+      ],
+      "name": "3_30_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_30_sc2",
+      "rect": [
+        0.494140625,
+        0.666015625,
+        0.12109375,
+        0.11328125
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_31_sc2#0"
+      ],
+      "name": "3_31_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_31_sc2",
+      "rect": [
+        0.556640625,
+        0.853515625,
+        0.12890625,
+        0.12890625
+      ],
+      "slice": 2,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/2.tres",
+      "meshes": [
+        "hangar_low_batch_3_32_sc2#0"
+      ],
+      "name": "3_32_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_32_sc2",
+      "rect": [
+        0.603515625,
+        0.259765625,
+        0.23046875,
+        0.23046875
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_33_sc2#0"
+      ],
+      "name": "3_33_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_33_sc2",
+      "rect": [
+        0.001953125,
+        0.001953125,
+        0.09765625,
+        0.09765625
+      ],
+      "slice": 5,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_3_34_sc2#0"
+      ],
+      "name": "3_34_sc2",
+      "path": "hangars/low/hangar_low_batch/new/3_34_sc2",
+      "rect": [
+        0.119140625,
+        0.001953125,
+        0.09765625,
+        0.08984375
+      ],
+      "slice": 5,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/2.tres",
+      "meshes": [
+        "hangar_low_batch_3_34_sc2_001#0"
+      ],
+      "name": "3_34_sc2_001",
+      "path": "hangars/low/hangar_low_batch/new/3_34_sc2_001",
+      "rect": [
+        0.236328125,
+        0.001953125,
+        0.09765625,
+        0.08984375
+      ],
+      "slice": 5,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_4_1_sc2#0"
+      ],
+      "name": "4_1_sc2",
+      "path": "hangars/low/hangar_low_batch/new/4_1_sc2",
+      "rect": [
+        0.001953125,
+        0.001953125,
+        0.61328125,
+        0.60546875
+      ],
+      "slice": 0,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/2.tres",
+      "meshes": [
+        "hangar_low_batch_4_1_sc2_001#0"
+      ],
+      "name": "4_1_sc2_001",
+      "path": "hangars/low/hangar_low_batch/new/4_1_sc2_001",
+      "rect": [
+        0.001953125,
+        0.791015625,
+        0.19140625,
+        0.16796875
+      ],
+      "slice": 3,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/2.tres",
+      "meshes": [
+        "hangar_low_batch_5_0_sc2#0"
+      ],
+      "name": "5_0_sc2",
+      "path": "hangars/low/hangar_low_batch/new/5_0_sc2",
+      "rect": [
+        0.314453125,
+        0.626953125,
+        0.28515625,
+        0.28515625
+      ],
+      "slice": 0,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/2.tres",
+      "meshes": [
+        "hangar_low_batch_5_1_sc2#0"
+      ],
+      "name": "5_1_sc2",
+      "path": "hangars/low/hangar_low_batch/new/5_1_sc2",
+      "rect": [
+        0.462890625,
+        0.001953125,
+        0.08984375,
+        0.08984375
+      ],
+      "slice": 5,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_6_10_sc2#0"
+      ],
+      "name": "6_10_sc2",
+      "path": "hangars/low/hangar_low_batch/new/6_10_sc2",
+      "rect": [
+        0.001953125,
+        0.455078125,
+        0.38671875,
+        0.39453125
+      ],
+      "slice": 2,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_6_1_sc2#0"
+      ],
+      "name": "6_1_sc2",
+      "path": "hangars/low/hangar_low_batch/new/6_1_sc2",
+      "rect": [
+        0.470703125,
+        0.001953125,
+        0.44921875,
+        0.44140625
+      ],
+      "slice": 1,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_6_2_sc2#0"
+      ],
+      "name": "6_2_sc2",
+      "path": "hangars/low/hangar_low_batch/new/6_2_sc2",
+      "rect": [
+        0.001953125,
+        0.001953125,
+        0.44921875,
+        0.45703125
+      ],
+      "slice": 1,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_6_3_sc2#0"
+      ],
+      "name": "6_3_sc2",
+      "path": "hangars/low/hangar_low_batch/new/6_3_sc2",
+      "rect": [
+        0.408203125,
+        0.392578125,
+        0.36328125,
+        0.36328125
+      ],
+      "slice": 3,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_6_4_sc2#0"
+      ],
+      "name": "6_4_sc2",
+      "path": "hangars/low/hangar_low_batch/new/6_4_sc2",
+      "rect": [
+        0.001953125,
+        0.408203125,
+        0.35546875,
+        0.36328125
+      ],
+      "slice": 3,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_6_5_sc2#0"
+      ],
+      "name": "6_5_sc2",
+      "path": "hangars/low/hangar_low_batch/new/6_5_sc2",
+      "rect": [
+        0.001953125,
+        0.001953125,
+        0.43359375,
+        0.43359375
+      ],
+      "slice": 2,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_6_6_sc2#0"
+      ],
+      "name": "6_6_sc2",
+      "path": "hangars/low/hangar_low_batch/new/6_6_sc2",
+      "rect": [
+        0.470703125,
+        0.462890625,
+        0.44140625,
+        0.43359375
+      ],
+      "slice": 1,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_6_7_sc2#0"
+      ],
+      "name": "6_7_sc2",
+      "path": "hangars/low/hangar_low_batch/new/6_7_sc2",
+      "rect": [
+        0.455078125,
+        0.431640625,
+        0.41015625,
+        0.40234375
+      ],
+      "slice": 2,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_6_8_sc2#0"
+      ],
+      "name": "6_8_sc2",
+      "path": "hangars/low/hangar_low_batch/new/6_8_sc2",
+      "rect": [
+        0.455078125,
+        0.001953125,
+        0.40234375,
+        0.41015625
+      ],
+      "slice": 2,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_6_9_sc2#0"
+      ],
+      "name": "6_9_sc2",
+      "path": "hangars/low/hangar_low_batch/new/6_9_sc2",
+      "rect": [
+        0.001953125,
+        0.001953125,
+        0.38671875,
+        0.38671875
+      ],
+      "slice": 3,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch___19#0"
+      ],
+      "name": "__19",
+      "path": "hangars/low/hangar_low_batch/new/__19",
+      "rect": [
+        0.283203125,
+        0.798828125,
+        0.11328125,
+        0.11328125
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch___20#0"
+      ],
+      "name": "__20",
+      "path": "hangars/low/hangar_low_batch/new/__20",
+      "rect": [
+        0.001953125,
+        0.791015625,
+        0.11328125,
+        0.11328125
+      ],
+      "slice": 4,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch___l#0"
+      ],
+      "name": "__l",
+      "path": "hangars/low/hangar_low_batch/new/__l",
+      "rect": [
+        0.072265625,
+        0.939453125,
+        0.05078125,
+        0.04296875
+      ],
+      "slice": 0,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch___l1#0"
+      ],
+      "name": "__l1",
+      "path": "hangars/low/hangar_low_batch/new/__l1",
+      "rect": [
+        0.001953125,
+        0.939453125,
+        0.05078125,
+        0.04296875
+      ],
+      "slice": 0,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch___l2#0"
+      ],
+      "name": "__l2",
+      "path": "hangars/low/hangar_low_batch/new/__l2",
+      "rect": [
+        0.908203125,
+        0.791015625,
+        0.05078125,
+        0.04296875
+      ],
+      "slice": 0,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch___l3#0"
+      ],
+      "name": "__l3",
+      "path": "hangars/low/hangar_low_batch/new/__l3",
+      "rect": [
+        0.908203125,
+        0.853515625,
+        0.05078125,
+        0.04296875
+      ],
+      "slice": 0,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch___l_1#0"
+      ],
+      "name": "__l_1",
+      "path": "hangars/low/hangar_low_batch/new/__l_1",
+      "rect": [
+        0.908203125,
+        0.916015625,
+        0.05078125,
+        0.04296875
+      ],
+      "slice": 0,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_obj1_sc2#0"
+      ],
+      "name": "obj1_sc2",
+      "path": "hangars/low/hangar_low_batch/new/obj1_sc2",
+      "rect": [
+        0.462890625,
+        0.916015625,
+        0.11328125,
+        0.02734375
+      ],
+      "slice": 1,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/hangar_low_batch.tscn::ShaderMaterial_petxa",
+      "meshes": [
+        "hangar_low_batch_obj_sc2#0"
+      ],
+      "name": "obj_sc2",
+      "path": "hangars/low/hangar_low_batch/new/obj_sc2",
+      "rect": [
+        0.791015625,
+        0.619140625,
+        0.17578125,
+        0.18359375
+      ],
+      "slice": 3,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "castShadow": 1,
+      "giMode": 1,
+      "layers": 1,
+      "material": "res://maps/hangar_low/1.tres",
+      "meshes": [
+        "hangar_low_batch_proj#0"
+      ],
+      "name": "proj",
+      "path": "hangars/low/hangar_low_batch/new/proj",
+      "rect": [
+        0.142578125,
+        0.939453125,
+        0.04296875,
+        0.04296875
+      ],
+      "slice": 0,
+      "transform": {
+        "basis": [
+          -4.37113897078234e-07,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          0.0,
+          -10.0,
+          0.0,
+          -4.37113897078234e-07
+        ],
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "environment": {
+    "adjustmentBrightness": 1.0,
+    "adjustmentColorCorrection": null,
+    "adjustmentContrast": 1.0,
+    "adjustmentEnabled": false,
+    "adjustmentSaturation": 1.0,
+    "ambientLightColor": [
+      0.290965586900711,
+      0.290965586900711,
+      0.290965557098389,
+      1.0
+    ],
+    "ambientLightEnergy": 1.0,
+    "ambientLightSkyContribution": 1.0,
+    "ambientLightSource": 0,
+    "backgroundCameraFeedId": 1,
+    "backgroundCanvasMaxLayer": 0,
+    "backgroundColor": [
+      0.753936767578125,
+      0.650749027729034,
+      0.465780079364777,
+      1.0
+    ],
+    "backgroundEnergyMultiplier": 0.660000026226044,
+    "backgroundIntensity": 30000.0,
+    "backgroundMode": 1,
+    "cameraAttributes": null,
+    "fogAerialPerspective": 0.0,
+    "fogDensity": 1.0,
+    "fogDepthBegin": 10.0,
+    "fogDepthCurve": 1.0,
+    "fogDepthEnd": 90.0,
+    "fogEnabled": true,
+    "fogHeight": 0.0,
+    "fogHeightDensity": 0.0,
+    "fogLightColor": [
+      0.56048309803009,
+      0.385815501213074,
+      0.159562945365906,
+      1.0
+    ],
+    "fogLightEnergy": 1.23000001907349,
+    "fogMode": 1,
+    "fogSkyAffect": 1.0,
+    "fogSunScatter": 0.0,
+    "glowBlendMode": 1,
+    "glowBloom": 0.0,
+    "glowEnabled": false,
+    "glowHdrLuminanceCap": 12.0,
+    "glowHdrScale": 2.0,
+    "glowHdrThreshold": 1.0,
+    "glowIntensity": 8.0,
+    "glowLevels/1": 0.0,
+    "glowLevels/2": 0.800000011920929,
+    "glowLevels/3": 0.400000005960464,
+    "glowLevels/4": 0.100000001490116,
+    "glowLevels/5": 0.0,
+    "glowLevels/6": 0.0,
+    "glowLevels/7": 0.0,
+    "glowMap": null,
+    "glowMapStrength": 0.800000011920929,
+    "glowMix": 0.0500000007450581,
+    "glowNormalized": false,
+    "glowStrength": 1.0,
+    "path": "hangars/low/WorldEnvironment",
+    "reflectedLightSource": 0,
+    "resource": "res://maps/hangar_low/WE_low.tres",
+    "resourceLocalToScene": false,
+    "resourceName": "",
+    "sdfgiBounceFeedback": 0.5,
+    "sdfgiCascades": 4,
+    "sdfgiEnabled": false,
+    "sdfgiEnergy": 1.0,
+    "sdfgiMinCellSize": 0.200000002980232,
+    "sdfgiNormalBias": 1.10000002384186,
+    "sdfgiProbeBias": 1.10000002384186,
+    "sdfgiReadSkyLight": true,
+    "sdfgiUseOcclusion": false,
+    "sdfgiYScale": 1,
+    "sky": null,
+    "skyCustomFov": 0.0,
+    "skyRotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "ssaoAoChannelAffect": 0.0,
+    "ssaoDetail": 0.5,
+    "ssaoEnabled": false,
+    "ssaoHorizon": 0.0599999986588955,
+    "ssaoIntensity": 2.0,
+    "ssaoLightAffect": 0.0,
+    "ssaoPower": 1.5,
+    "ssaoRadius": 1.0,
+    "ssaoSharpness": 0.980000019073486,
+    "ssilEnabled": false,
+    "ssilIntensity": 1.0,
+    "ssilNormalRejection": 1.0,
+    "ssilRadius": 5.0,
+    "ssilSharpness": 0.980000019073486,
+    "ssrDepthTolerance": 0.5,
+    "ssrEnabled": false,
+    "ssrFadeIn": 0.150000005960464,
+    "ssrFadeOut": 2.0,
+    "ssrMaxSteps": 64,
+    "tonemapAgxContrast": 1.25,
+    "tonemapAgxWhite": 16.2900009155273,
+    "tonemapExposure": 2.32999992370605,
+    "tonemapMode": 0,
+    "tonemapWhite": 1.0,
+    "volumetricFogAlbedo": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "volumetricFogAmbientInject": 0.0,
+    "volumetricFogAnisotropy": 0.200000002980232,
+    "volumetricFogDensity": 0.0500000007450581,
+    "volumetricFogDetailSpread": 2.0,
+    "volumetricFogEmission": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "volumetricFogEmissionEnergy": 1.0,
+    "volumetricFogEnabled": false,
+    "volumetricFogGiInject": 1.0,
+    "volumetricFogLength": 64.0,
+    "volumetricFogSkyAffect": 1.0,
+    "volumetricFogTemporalReprojectionAmount": 0.899999976158142,
+    "volumetricFogTemporalReprojectionEnabled": true
+  },
+  "id": "hangar",
+  "lightmap": {
+    "atlas": "Models/Hangar/Lightmaps/hangar_low",
+    "bakedExposure": 1.0,
+    "bias": 0.000500000023748726,
+    "bounces": 2,
+    "bytes": 3791859,
+    "interior": false,
+    "layout": {
+      "horizontal": 6,
+      "vertical": 1
+    },
+    "path": "hangars/low/hangar_low_batch/LightmapGI",
+    "probes": 0,
+    "resource": "res://maps/hangar_low/hangar_low.lmbake",
+    "sha256": "27876effd0c7dfd03d915898ccff3e3efdefe70664b44db64106638b5361c66d",
+    "sliceHeight": 512,
+    "sliceWidth": 512,
+    "slices": 6,
+    "usesSphericalHarmonics": false
+  },
+  "lights": [
+    {
+      "distanceFadeBegin": 40.0,
+      "distanceFadeEnabled": false,
+      "distanceFadeLength": 10.0,
+      "distanceFadeShadow": 50.0,
+      "lightBakeMode": 1,
+      "lightColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "lightCullMask": 4294967295,
+      "lightEnergy": 10.5459995269775,
+      "lightIndirectEnergy": 1.0,
+      "lightNegative": false,
+      "lightProjector": null,
+      "lightSize": 0.0,
+      "lightSpecular": 0.5,
+      "lightVolumetricFogEnergy": 1.0,
+      "path": "hangars/low/hangar_low_batch/SpotLight3D",
+      "shadowBias": 0.0299999993294477,
+      "shadowBlur": 1.0,
+      "shadowCasterMask": 4294967295,
+      "shadowEnabled": true,
+      "shadowNormalBias": 1.0,
+      "shadowOpacity": 1.0,
+      "shadowReverseCullFace": false,
+      "shadowTransmittanceBias": 0.0500000007450581,
+      "spotAngle": 24.4838008880615,
+      "spotAngleAttenuation": 0.901251971721649,
+      "spotAttenuation": 1.0,
+      "spotRange": 61.9877014160156,
+      "transform": {
+        "basis": [
+          -0.0417188182473183,
+          -0.0973591059446335,
+          -0.994374632835388,
+          4.65661204041012e-10,
+          0.995241045951843,
+          -0.0974439457058907,
+          0.999129414558411,
+          -0.00406524632126093,
+          -0.041520282626152
+        ],
+        "origin": [
+          -37.0425987243652,
+          3.02988004684448,
+          -0.485385000705719
+        ]
+      },
+      "type": "SpotLight3D",
+      "visible": true
+    },
+    {
+      "distanceFadeBegin": 40.0,
+      "distanceFadeEnabled": false,
+      "distanceFadeLength": 10.0,
+      "distanceFadeShadow": 50.0,
+      "lightBakeMode": 1,
+      "lightColor": [
+        0.999993622303009,
+        0.719131767749786,
+        0.404642820358276,
+        1.0
+      ],
+      "lightCullMask": 4294967295,
+      "lightEnergy": 4.0,
+      "lightIndirectEnergy": 1.0,
+      "lightNegative": false,
+      "lightProjector": null,
+      "lightSize": 0.0,
+      "lightSpecular": 0.5,
+      "lightVolumetricFogEnergy": 1.0,
+      "omniAttenuation": 1.0,
+      "omniRange": 28.8559455871582,
+      "omniShadowMode": 1,
+      "path": "hangars/low/hangar_low_batch/OmniLight3D",
+      "shadowBias": 0.100000001490116,
+      "shadowBlur": 1.0,
+      "shadowCasterMask": 4294967295,
+      "shadowEnabled": true,
+      "shadowNormalBias": 1.0,
+      "shadowOpacity": 1.0,
+      "shadowReverseCullFace": false,
+      "shadowTransmittanceBias": 0.0500000007450581,
+      "transform": {
+        "basis": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          -22.42919921875,
+          3.64614009857178,
+          0.0
+        ]
+      },
+      "type": "OmniLight3D",
+      "visible": true
+    },
+    {
+      "distanceFadeBegin": 40.0,
+      "distanceFadeEnabled": false,
+      "distanceFadeLength": 10.0,
+      "distanceFadeShadow": 50.0,
+      "lightBakeMode": 1,
+      "lightColor": [
+        1.0,
+        0.857260882854462,
+        0.712169647216797,
+        1.0
+      ],
+      "lightCullMask": 4294967295,
+      "lightEnergy": 2.23000001907349,
+      "lightIndirectEnergy": 1.0,
+      "lightNegative": false,
+      "lightProjector": null,
+      "lightSize": 0.0,
+      "lightSpecular": 0.5,
+      "lightVolumetricFogEnergy": 1.0,
+      "omniAttenuation": 1.0,
+      "omniRange": 28.8559455871582,
+      "omniShadowMode": 1,
+      "path": "hangars/low/hangar_low_batch/OmniLight3D4",
+      "shadowBias": 0.100000001490116,
+      "shadowBlur": 1.0,
+      "shadowCasterMask": 4294967295,
+      "shadowEnabled": true,
+      "shadowNormalBias": 1.0,
+      "shadowOpacity": 1.0,
+      "shadowReverseCullFace": false,
+      "shadowTransmittanceBias": 0.0500000007450581,
+      "transform": {
+        "basis": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          -0.514293551445007,
+          6.37295389175415,
+          0.0
+        ]
+      },
+      "type": "OmniLight3D",
+      "visible": true
+    },
+    {
+      "distanceFadeBegin": 40.0,
+      "distanceFadeEnabled": false,
+      "distanceFadeLength": 10.0,
+      "distanceFadeShadow": 50.0,
+      "lightBakeMode": 1,
+      "lightColor": [
+        1.0,
+        0.953386008739471,
+        0.906044006347656,
+        1.0
+      ],
+      "lightCullMask": 4294967295,
+      "lightEnergy": 0.257999986410141,
+      "lightIndirectEnergy": 1.0,
+      "lightNegative": false,
+      "lightProjector": null,
+      "lightSize": 0.0,
+      "lightSpecular": 0.5,
+      "lightVolumetricFogEnergy": 1.0,
+      "omniAttenuation": 1.0,
+      "omniRange": 12.2818775177002,
+      "omniShadowMode": 1,
+      "path": "hangars/low/hangar_low_batch/OmniLight3D2",
+      "shadowBias": 0.100000001490116,
+      "shadowBlur": 1.0,
+      "shadowCasterMask": 4294967295,
+      "shadowEnabled": true,
+      "shadowNormalBias": 1.0,
+      "shadowOpacity": 1.0,
+      "shadowReverseCullFace": false,
+      "shadowTransmittanceBias": 0.0500000007450581,
+      "transform": {
+        "basis": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          12.6119976043701,
+          1.95818567276001,
+          6.4117431640625
+        ]
+      },
+      "type": "OmniLight3D",
+      "visible": true
+    },
+    {
+      "distanceFadeBegin": 40.0,
+      "distanceFadeEnabled": false,
+      "distanceFadeLength": 10.0,
+      "distanceFadeShadow": 50.0,
+      "lightBakeMode": 1,
+      "lightColor": [
+        0.999997556209564,
+        0.788910686969757,
+        0.565932095050812,
+        1.0
+      ],
+      "lightCullMask": 4294967295,
+      "lightEnergy": 0.257999986410141,
+      "lightIndirectEnergy": 1.0,
+      "lightNegative": false,
+      "lightProjector": null,
+      "lightSize": 0.0,
+      "lightSpecular": 0.5,
+      "lightVolumetricFogEnergy": 1.0,
+      "omniAttenuation": 1.0,
+      "omniRange": 12.2818775177002,
+      "omniShadowMode": 1,
+      "path": "hangars/low/hangar_low_batch/OmniLight3D3",
+      "shadowBias": 0.100000001490116,
+      "shadowBlur": 1.0,
+      "shadowCasterMask": 4294967295,
+      "shadowEnabled": true,
+      "shadowNormalBias": 1.0,
+      "shadowOpacity": 1.0,
+      "shadowReverseCullFace": false,
+      "shadowTransmittanceBias": 0.0500000007450581,
+      "transform": {
+        "basis": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          10.7213306427002,
+          2.30477523803711,
+          -0.0781917572021484
+        ]
+      },
+      "type": "OmniLight3D",
+      "visible": true
+    },
+    {
+      "distanceFadeBegin": 40.0,
+      "distanceFadeEnabled": false,
+      "distanceFadeLength": 10.0,
+      "distanceFadeShadow": 50.0,
+      "lightBakeMode": 1,
+      "lightColor": [
+        0.99999862909317,
+        0.782993912696838,
+        0.553943812847137,
+        1.0
+      ],
+      "lightCullMask": 4294967295,
+      "lightEnergy": 0.330000013113022,
+      "lightIndirectEnergy": 1.0,
+      "lightNegative": false,
+      "lightProjector": null,
+      "lightSize": 0.0,
+      "lightSpecular": 0.5,
+      "lightVolumetricFogEnergy": 1.0,
+      "omniAttenuation": 1.0,
+      "omniRange": 11.2282390594482,
+      "omniShadowMode": 1,
+      "path": "hangars/low/hangar_low_batch/OmniLight3D6",
+      "shadowBias": 0.100000001490116,
+      "shadowBlur": 1.0,
+      "shadowCasterMask": 4294967295,
+      "shadowEnabled": true,
+      "shadowNormalBias": 1.0,
+      "shadowOpacity": 1.0,
+      "shadowReverseCullFace": false,
+      "shadowTransmittanceBias": 0.0500000007450581,
+      "transform": {
+        "basis": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "origin": [
+          2.25957989692688,
+          3.83411002159119,
+          -9.79932022094727
+        ]
+      },
+      "type": "OmniLight3D",
+      "visible": true
+    },
+    {
+      "distanceFadeBegin": 40.0,
+      "distanceFadeEnabled": false,
+      "distanceFadeLength": 10.0,
+      "distanceFadeShadow": 50.0,
+      "lightBakeMode": 1,
+      "lightColor": [
+        1.0,
+        0.953386008739471,
+        0.906044006347656,
+        1.0
+      ],
+      "lightCullMask": 4294967295,
+      "lightEnergy": 1.67200005054474,
+      "lightIndirectEnergy": 1.0,
+      "lightNegative": false,
+      "lightProjector": null,
+      "lightSize": 0.0,
+      "lightSpecular": 0.5,
+      "lightVolumetricFogEnergy": 1.0,
+      "path": "hangars/low/hangar_low_batch/light_lamp1",
+      "shadowBias": 0.0299999993294477,
+      "shadowBlur": 1.0,
+      "shadowCasterMask": 4294967295,
+      "shadowEnabled": true,
+      "shadowNormalBias": 1.0,
+      "shadowOpacity": 1.0,
+      "shadowReverseCullFace": false,
+      "shadowTransmittanceBias": 0.0500000007450581,
+      "spotAngle": 49.2844009399414,
+      "spotAngleAttenuation": 1.23114001750946,
+      "spotAttenuation": 1.0,
+      "spotRange": 13.4568004608154,
+      "transform": {
+        "basis": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          -4.3711398944879e-08,
+          1.0,
+          0.0,
+          -1.0,
+          -4.3711398944879e-08
+        ],
+        "origin": [
+          -10.7404003143311,
+          5.01004981994629,
+          4.74852991104126
+        ]
+      },
+      "type": "SpotLight3D",
+      "visible": true
+    },
+    {
+      "distanceFadeBegin": 40.0,
+      "distanceFadeEnabled": false,
+      "distanceFadeLength": 10.0,
+      "distanceFadeShadow": 50.0,
+      "lightBakeMode": 1,
+      "lightColor": [
+        1.0,
+        0.953386008739471,
+        0.906044006347656,
+        1.0
+      ],
+      "lightCullMask": 4294967295,
+      "lightEnergy": 1.67200005054474,
+      "lightIndirectEnergy": 1.0,
+      "lightNegative": false,
+      "lightProjector": null,
+      "lightSize": 0.0,
+      "lightSpecular": 0.5,
+      "lightVolumetricFogEnergy": 1.0,
+      "path": "hangars/low/hangar_low_batch/light_lamp2",
+      "shadowBias": 0.0299999993294477,
+      "shadowBlur": 1.0,
+      "shadowCasterMask": 4294967295,
+      "shadowEnabled": true,
+      "shadowNormalBias": 1.0,
+      "shadowOpacity": 1.0,
+      "shadowReverseCullFace": false,
+      "shadowTransmittanceBias": 0.0500000007450581,
+      "spotAngle": 49.2844009399414,
+      "spotAngleAttenuation": 1.23114001750946,
+      "spotAttenuation": 1.0,
+      "spotRange": 13.4568004608154,
+      "transform": {
+        "basis": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          -4.3711398944879e-08,
+          1.0,
+          0.0,
+          -1.0,
+          -4.3711398944879e-08
+        ],
+        "origin": [
+          -10.7404003143311,
+          5.01004981994629,
+          -4.37781000137329
+        ]
+      },
+      "type": "SpotLight3D",
+      "visible": true
+    },
+    {
+      "distanceFadeBegin": 40.0,
+      "distanceFadeEnabled": false,
+      "distanceFadeLength": 10.0,
+      "distanceFadeShadow": 50.0,
+      "lightBakeMode": 1,
+      "lightColor": [
+        0.999999821186066,
+        0.851757228374481,
+        0.699663281440735,
+        1.0
+      ],
+      "lightCullMask": 4294967295,
+      "lightEnergy": 12.4209995269775,
+      "lightIndirectEnergy": 1.0,
+      "lightNegative": false,
+      "lightProjector": null,
+      "lightSize": 0.0,
+      "lightSpecular": 0.5,
+      "lightVolumetricFogEnergy": 1.0,
+      "path": "hangars/low/hangar_low_batch/light_lamp9",
+      "shadowBias": 0.0299999993294477,
+      "shadowBlur": 1.0,
+      "shadowCasterMask": 4294967295,
+      "shadowEnabled": true,
+      "shadowNormalBias": 1.0,
+      "shadowOpacity": 1.0,
+      "shadowReverseCullFace": false,
+      "shadowTransmittanceBias": 0.0500000007450581,
+      "spotAngle": 33.198600769043,
+      "spotAngleAttenuation": 1.23114001750946,
+      "spotAttenuation": 1.0,
+      "spotRange": 33.5074996948242,
+      "transform": {
+        "basis": [
+          0.781566202640533,
+          0.442331433296204,
+          -0.439883232116699,
+          0.619480073451996,
+          -0.467270046472549,
+          0.63079571723938,
+          0.0734765157103539,
+          -0.765507459640503,
+          -0.639217972755432
+        ],
+        "origin": [
+          -8.8025598526001,
+          7.67749977111816,
+          -9.38593006134033
+        ]
+      },
+      "type": "SpotLight3D",
+      "visible": true
+    },
+    {
+      "distanceFadeBegin": 40.0,
+      "distanceFadeEnabled": false,
+      "distanceFadeLength": 10.0,
+      "distanceFadeShadow": 50.0,
+      "lightBakeMode": 1,
+      "lightColor": [
+        1.0,
+        0.953386008739471,
+        0.906044006347656,
+        1.0
+      ],
+      "lightCullMask": 4294967295,
+      "lightEnergy": 5.0,
+      "lightIndirectEnergy": 1.0,
+      "lightNegative": false,
+      "lightProjector": null,
+      "lightSize": 0.0,
+      "lightSpecular": 0.5,
+      "lightVolumetricFogEnergy": 1.0,
+      "path": "hangars/low/hangar_low_batch/light_lamp8",
+      "shadowBias": 0.0299999993294477,
+      "shadowBlur": 1.0,
+      "shadowCasterMask": 4294967295,
+      "shadowEnabled": true,
+      "shadowNormalBias": 1.0,
+      "shadowOpacity": 1.0,
+      "shadowReverseCullFace": false,
+      "shadowTransmittanceBias": 0.0500000007450581,
+      "spotAngle": 67.730598449707,
+      "spotAngleAttenuation": 4.43828010559082,
+      "spotAttenuation": 1.0,
+      "spotRange": 35.3819007873535,
+      "transform": {
+        "basis": [
+          -4.47034764761156e-08,
+          -0.776981472969055,
+          0.629523575305939,
+          -0.0901806503534317,
+          0.626958549022675,
+          0.77381557226181,
+          -0.995925426483154,
+          -0.0567708164453506,
+          -0.0700687170028687
+        ],
+        "origin": [
+          9.62874984741211,
+          1.82115995883942,
+          8.60033988952637
+        ]
+      },
+      "type": "SpotLight3D",
+      "visible": true
+    },
+    {
+      "distanceFadeBegin": 40.0,
+      "distanceFadeEnabled": false,
+      "distanceFadeLength": 10.0,
+      "distanceFadeShadow": 50.0,
+      "lightBakeMode": 1,
+      "lightColor": [
+        0.999998271465302,
+        0.844273924827576,
+        0.68393462896347,
+        1.0
+      ],
+      "lightCullMask": 4294967295,
+      "lightEnergy": 6.68400001525879,
+      "lightIndirectEnergy": 1.0,
+      "lightNegative": false,
+      "lightProjector": null,
+      "lightSize": 0.0,
+      "lightSpecular": 0.5,
+      "lightVolumetricFogEnergy": 1.0,
+      "path": "hangars/low/hangar_low_batch/light_lamp6",
+      "shadowBias": 0.0299999993294477,
+      "shadowBlur": 1.0,
+      "shadowCasterMask": 4294967295,
+      "shadowEnabled": true,
+      "shadowNormalBias": 1.0,
+      "shadowOpacity": 1.0,
+      "shadowReverseCullFace": false,
+      "shadowTransmittanceBias": 0.0500000007450581,
+      "spotAngle": 60.1224555969238,
+      "spotAngleAttenuation": 4.43828010559082,
+      "spotAttenuation": 1.0,
+      "spotRange": 35.3819007873535,
+      "transform": {
+        "basis": [
+          0.998635053634644,
+          -2.43915673249495e-15,
+          -0.0522314049303532,
+          0.0522314049303532,
+          -4.3711398944879e-08,
+          0.998635053634644,
+          -2.28311014538463e-09,
+          -1.0,
+          -4.36517346713572e-08
+        ],
+        "origin": [
+          11.3509998321533,
+          4.52115345001221,
+          0.200615257024765
+        ]
+      },
+      "type": "SpotLight3D",
+      "visible": true
+    },
+    {
+      "distanceFadeBegin": 40.0,
+      "distanceFadeEnabled": false,
+      "distanceFadeLength": 10.0,
+      "distanceFadeShadow": 50.0,
+      "lightBakeMode": 1,
+      "lightColor": [
+        1.0,
+        0.953386008739471,
+        0.906044006347656,
+        1.0
+      ],
+      "lightCullMask": 4294967295,
+      "lightEnergy": 1.67200005054474,
+      "lightIndirectEnergy": 1.0,
+      "lightNegative": false,
+      "lightProjector": null,
+      "lightSize": 0.0,
+      "lightSpecular": 0.5,
+      "lightVolumetricFogEnergy": 1.0,
+      "path": "hangars/low/hangar_low_batch/light_lamp3",
+      "shadowBias": 0.0299999993294477,
+      "shadowBlur": 1.0,
+      "shadowCasterMask": 4294967295,
+      "shadowEnabled": true,
+      "shadowNormalBias": 1.0,
+      "shadowOpacity": 1.0,
+      "shadowReverseCullFace": false,
+      "shadowTransmittanceBias": 0.0500000007450581,
+      "spotAngle": 49.2844009399414,
+      "spotAngleAttenuation": 1.23114001750946,
+      "spotAttenuation": 1.0,
+      "spotRange": 13.4568004608154,
+      "transform": {
+        "basis": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          -4.3711398944879e-08,
+          1.0,
+          0.0,
+          -1.0,
+          -4.3711398944879e-08
+        ],
+        "origin": [
+          -21.9465007781982,
+          5.01004981994629,
+          4.74852991104126
+        ]
+      },
+      "type": "SpotLight3D",
+      "visible": true
+    },
+    {
+      "distanceFadeBegin": 40.0,
+      "distanceFadeEnabled": false,
+      "distanceFadeLength": 10.0,
+      "distanceFadeShadow": 50.0,
+      "lightBakeMode": 1,
+      "lightColor": [
+        1.0,
+        0.953386008739471,
+        0.906044006347656,
+        1.0
+      ],
+      "lightCullMask": 4294967295,
+      "lightEnergy": 1.67200005054474,
+      "lightIndirectEnergy": 1.0,
+      "lightNegative": false,
+      "lightProjector": null,
+      "lightSize": 0.0,
+      "lightSpecular": 0.5,
+      "lightVolumetricFogEnergy": 1.0,
+      "path": "hangars/low/hangar_low_batch/light_lamp4",
+      "shadowBias": 0.0299999993294477,
+      "shadowBlur": 1.0,
+      "shadowCasterMask": 4294967295,
+      "shadowEnabled": true,
+      "shadowNormalBias": 1.0,
+      "shadowOpacity": 1.0,
+      "shadowReverseCullFace": false,
+      "shadowTransmittanceBias": 0.0500000007450581,
+      "spotAngle": 49.2844009399414,
+      "spotAngleAttenuation": 1.23114001750946,
+      "spotAttenuation": 1.0,
+      "spotRange": 13.4568004608154,
+      "transform": {
+        "basis": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          -4.3711398944879e-08,
+          1.0,
+          0.0,
+          -1.0,
+          -4.3711398944879e-08
+        ],
+        "origin": [
+          -21.9465007781982,
+          5.01004981994629,
+          -4.37781000137329
+        ]
+      },
+      "type": "SpotLight3D",
+      "visible": true
+    },
+    {
+      "distanceFadeBegin": 40.0,
+      "distanceFadeEnabled": false,
+      "distanceFadeLength": 10.0,
+      "distanceFadeShadow": 50.0,
+      "lightBakeMode": 2,
+      "lightColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "lightCullMask": 4294967295,
+      "lightEnergy": 2.61700010299683,
+      "lightIndirectEnergy": 1.0,
+      "lightNegative": false,
+      "lightProjector": null,
+      "lightSize": 0.0,
+      "lightSpecular": 0.5,
+      "lightVolumetricFogEnergy": 1.0,
+      "path": "chest/SpotLight3D",
+      "shadowBias": 0.0299999993294477,
+      "shadowBlur": 1.0,
+      "shadowCasterMask": 4294967295,
+      "shadowEnabled": false,
+      "shadowNormalBias": 1.0,
+      "shadowOpacity": 1.0,
+      "shadowReverseCullFace": false,
+      "shadowTransmittanceBias": 0.0500000007450581,
+      "spotAngle": 25.6944179534912,
+      "spotAngleAttenuation": 1.0,
+      "spotAttenuation": 1.0,
+      "spotRange": 5.0,
+      "transform": {
+        "basis": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          -4.37113882867379e-08,
+          1.0,
+          0.0,
+          -1.0,
+          -4.37113882867379e-08
+        ],
+        "origin": [
+          9.5367431640625e-07,
+          98.4594802856445,
+          0.0931532382965088
+        ]
+      },
+      "type": "SpotLight3D",
+      "visible": true
+    }
+  ],
+  "materials": [
+    {
+      "albedo": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "class": "ShaderMaterial",
+      "contrast": 1.0,
+      "emissive": true,
+      "emissiveTexture": "Models/Hangar/Textures/Hangar1Emission",
+      "key": "res://maps/hangar_low/1.tres",
+      "resource": "res://maps/hangar_low/1.tres",
+      "shader": "res://maps/components/map_object.gdshader",
+      "texture": "Models/Hangar/Textures/Hangar1",
+      "uv1Offset": [
+        0.0,
+        0.0
+      ],
+      "uv1Scale": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "albedo": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "class": "ShaderMaterial",
+      "contrast": 1.0,
+      "emissive": false,
+      "emissiveTexture": null,
+      "key": "res://maps/hangar_low/2.tres",
+      "resource": "res://maps/hangar_low/2.tres",
+      "shader": "res://maps/components/map_object.gdshader",
+      "texture": "Models/Hangar/Textures/Hangar2",
+      "uv1Offset": [
+        0.0,
+        0.0
+      ],
+      "uv1Scale": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "albedo": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "class": "ShaderMaterial",
+      "contrast": 1.0,
+      "emissive": true,
+      "emissiveTexture": "Models/Hangar/Textures/Hangar3",
+      "key": "res://maps/hangar_low/hangar_low_batch.tscn::ShaderMaterial_petxa",
+      "resource": "res://maps/hangar_low/hangar_low_batch.tscn::ShaderMaterial_petxa",
+      "shader": "res://maps/components/map_object.gdshader",
+      "texture": "Models/Hangar/Textures/Hangar3",
+      "uv1Offset": [
+        0.0,
+        0.0
+      ],
+      "uv1Scale": [
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "meshes": {
+    "bytes": 6835111,
+    "count": 76,
+    "resource": "Models/Hangar/lightmap_meshes",
+    "sha256": "1f1c508692a958ac377cc89a21c355b4b235315728d8718bd9265e147776cfc8",
+    "triangles": 74987,
+    "vertices": 148308
+  },
+  "scene": "maps/hangar_low.tscn",
+  "sources": [
+    {
+      "path": "maps/hangar_low.tscn",
+      "sha256": "1194290bd3470470cbaafde34d6fa1c638d604c28717a6d007c483559ff653df"
+    },
+    {
+      "path": "maps/hangar_low/hangar_low.exr",
+      "sha256": "27876effd0c7dfd03d915898ccff3e3efdefe70664b44db64106638b5361c66d"
+    },
+    {
+      "path": "maps/hangar_low/hangar_low.exr.import",
+      "sha256": "8ee98079048c933b4fed7f94c2a91b084fdb86f710b5d59a2f9cf8fb4ea285a7"
+    },
+    {
+      "path": "maps/hangar_low/hangar_low.lmbake",
+      "sha256": "9e3500d7d54c2748237c7a388df804c1bdccf2d70093aaae03d83db888f0fcea"
+    },
+    {
+      "path": "maps/hangar_low/WE_low.tres",
+      "sha256": "f8bf6c98e8592c162ef43dcb5c15aff94de66adc9d6e05a4cdfcc12e5716ea58"
+    }
+  ],
+  "staleEntries": []
+}

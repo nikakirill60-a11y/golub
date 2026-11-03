@@ -1,0 +1,1714 @@
+{
+  "generator": "port_godot_battle_menu.py",
+  "policy": "Source geometry, styles and captions only. The layout comes from a headless Godot dump of ui_player.tscn and popup_generic.tscn; nothing is measured by eye and no art is redrawn.",
+  "dump": {
+    "script": "godot_battle_menu_dump.gd",
+    "uiSize": [
+      1386.6666259765625,
+      1386.6666259765625
+    ],
+    "note": "Anchors, offsets and scale are resolution independent, so the headless window size does not leak into the port."
+  },
+  "sources": [
+    {
+      "source": "assets/gfx/ui/ui_player.tscn",
+      "bytes": 76490,
+      "sha256": "add8cf1839110f379c4425bae2ce25d1129cd94181f5d451668d1790fe0c0645"
+    },
+    {
+      "source": "assets/gfx/ui/battle/ui_player_battle.gd",
+      "bytes": 41051,
+      "sha256": "94e9ed93c8580e6d345116a9e89c61489c30af2beb3dc6917ceefe03891bc4dc"
+    },
+    {
+      "source": "assets/gfx/ui/popup_generic.tscn",
+      "bytes": 5657,
+      "sha256": "9c602fbb016730d4630128fb1467d6dc6c2e973909336ad2f1011b090d465119"
+    },
+    {
+      "source": "assets/gfx/ui/grey_panel.tscn",
+      "bytes": 1198,
+      "sha256": "bd3fc98492a6d53a513d4670140c0be30ca3cc34b6b511c930f810d7021ce68a"
+    },
+    {
+      "source": "assets/gfx/ui/ui_player_scoreboard_team.tscn",
+      "bytes": 6834,
+      "sha256": "7938df4db18f7f90191b8352bc07336757b9f26f219cba4c1bf2b2b74920992a"
+    },
+    {
+      "source": "assets/gfx/ui/ui_player_scoreboard_team.gd",
+      "bytes": 3187,
+      "sha256": "91a4df610bff988782e387e0cce72ae57c7e7b8c64c1bc96e9238f2c7707f0f4"
+    },
+    {
+      "source": "assets/tanks/base/base_tank.tscn",
+      "bytes": 384129,
+      "sha256": "1ebc151e88f2216f990a97219863d922c1c0677a9a4b5f46d9b577ea87f0a87f"
+    },
+    {
+      "source": "assets/fonts/ui_theme_blitz.tres",
+      "bytes": 20057,
+      "sha256": "2f0efc7bd27f03da51f57368eef2ddf94bac48b883bc149aed5ac036d1c29453"
+    },
+    {
+      "source": "scripts/ui_elements/button_generic.gd",
+      "bytes": 1346,
+      "sha256": "28622246b98e6f9f9ef89be93b2e1c0637c21fab215be2fb84c7ab8f5ce88373"
+    },
+    {
+      "source": "scripts/_global.gd",
+      "bytes": 34283,
+      "sha256": "9a46ce3dd33294493957e18f8b34e28a8b8053bb0a4472c08d13b37ed3588809"
+    },
+    {
+      "source": "scripts/_util.gd",
+      "bytes": 20648,
+      "sha256": "596bd9cebe5bb512de83c674ae0fd2e5894fcc2a50d09229029528bd41c7938d"
+    }
+  ],
+  "menu": {
+    "background": {
+      "path": "menu_bg",
+      "class": "Control",
+      "anchors": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "offsets": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "size": [
+        1386.6666,
+        1386.6666
+      ],
+      "mouseFilter": 2,
+      "visible": false,
+      "minimumSize": [
+        0.0,
+        0.0
+      ]
+    },
+    "panel": {
+      "path": "menu_bg/menu",
+      "class": "NinePatchRect",
+      "anchors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "offsets": [
+        -119.0001,
+        -132.0001,
+        353.0001,
+        414.0001
+      ],
+      "scale": [
+        0.5,
+        0.5
+      ],
+      "size": [
+        472.0001,
+        546.0001
+      ],
+      "mouseFilter": 2,
+      "visible": true,
+      "minimumSize": [
+        0.0,
+        0.0
+      ]
+    },
+    "header": {
+      "path": "menu_bg/menu/header",
+      "class": "NinePatchRect",
+      "anchors": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "offsets": [
+        0.0,
+        -84.0,
+        0.0,
+        2.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "size": [
+        472.0001,
+        86.0
+      ],
+      "mouseFilter": 2,
+      "visible": true,
+      "minimumSize": [
+        0.0,
+        0.0
+      ]
+    },
+    "title": {
+      "path": "menu_bg/menu/header2",
+      "class": "Label",
+      "anchors": [
+        0.5,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "offsets": [
+        -40.4999,
+        -52.0,
+        40.5001,
+        -16.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "size": [
+        116.0,
+        46.0
+      ],
+      "mouseFilter": 2,
+      "visible": true,
+      "text": "MENU",
+      "fontSize": 45,
+      "horizontalAlignment": 1,
+      "verticalAlignment": 0,
+      "minimumSize": [
+        0.0,
+        0.0
+      ]
+    },
+    "buttons": {
+      "hangar": {
+        "path": "menu_bg/menu/btn_hangar",
+        "class": "Button",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          20.0001,
+          26.0001,
+          451.0001,
+          154.0001
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          431.0,
+          128.0
+        ],
+        "mouseFilter": 0,
+        "visible": true,
+        "text": "TO HANGAR",
+        "fontSize": 50,
+        "minimumSize": [
+          400.0,
+          128.0
+        ],
+        "variation": "ButtonRed",
+        "sndVar": 0,
+        "volume": 0.7
+      },
+      "settings": {
+        "path": "menu_bg/menu/btn_settings",
+        "class": "Button",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          20.0001,
+          166.0001,
+          451.0001,
+          294.0001
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          431.0,
+          128.0
+        ],
+        "mouseFilter": 0,
+        "visible": true,
+        "text": "SETTINGS",
+        "fontSize": 50,
+        "minimumSize": [
+          400.0,
+          128.0
+        ],
+        "variation": "Button",
+        "sndVar": 0,
+        "volume": 0.7
+      },
+      "resume": {
+        "path": "menu_bg/menu/btn_resume",
+        "class": "Button",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          20.0001,
+          382.0001,
+          451.0001,
+          510.0001
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          431.0,
+          128.0
+        ],
+        "mouseFilter": 0,
+        "visible": true,
+        "text": "RESUME",
+        "fontSize": 50,
+        "minimumSize": [
+          400.0,
+          128.0
+        ],
+        "variation": "ButtonOrange",
+        "sndVar": 0,
+        "volume": 0.7
+      }
+    },
+    "behaviour": {
+      "action": "menu",
+      "togglesVisibility": true,
+      "releasesMouseWhileOpen": true,
+      "closesOpenPopup": true,
+      "pausesTree": false,
+      "resumeRelocksMouse": true,
+      "hangarConfirms": true
+    }
+  },
+  "scoreboard": {
+    "ally": {
+      "path": "team_ally",
+      "class": "Control",
+      "anchors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offsets": [
+        -101.0,
+        0.0,
+        -80.0,
+        24.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "size": [
+        21.0,
+        24.0
+      ],
+      "mouseFilter": 0,
+      "visible": true,
+      "minimumSize": [
+        0.0,
+        0.0
+      ]
+    },
+    "allyBox": {
+      "path": "team_ally/team_box",
+      "class": "VBoxContainer",
+      "anchors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offsets": [
+        -152.0,
+        0.0,
+        356.0,
+        46.0
+      ],
+      "scale": [
+        0.6000000238418579,
+        0.6000000238418579
+      ],
+      "size": [
+        508.0,
+        96.0
+      ],
+      "mouseFilter": 1,
+      "visible": true,
+      "minimumSize": [
+        0.0,
+        0.0
+      ]
+    },
+    "allyButton": {
+      "path": "team_ally/ButtonCustom",
+      "class": "Button",
+      "anchors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offsets": [
+        -208.0,
+        0.0,
+        228.0,
+        138.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "size": [
+        436.0,
+        138.0
+      ],
+      "mouseFilter": 0,
+      "visible": true,
+      "text": "",
+      "fontSize": 16,
+      "minimumSize": [
+        0.0,
+        0.0
+      ],
+      "variation": "Button",
+      "sndVar": 0,
+      "volume": 0.7
+    },
+    "enemyHandle": {
+      "path": "team_enemy_handle",
+      "class": "Control",
+      "anchors": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "offsets": [
+        -40.0,
+        0.0,
+        0.0,
+        40.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "size": [
+        40.0,
+        40.0
+      ],
+      "mouseFilter": 0,
+      "visible": true,
+      "minimumSize": [
+        0.0,
+        0.0
+      ]
+    },
+    "enemy": {
+      "path": "team_enemy_handle/team_enemy",
+      "class": "Control",
+      "anchors": [
+        1.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "offsets": [
+        97.0,
+        0.0,
+        117.9994,
+        24.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "size": [
+        20.9994,
+        24.0
+      ],
+      "mouseFilter": 0,
+      "visible": true,
+      "minimumSize": [
+        0.0,
+        0.0
+      ]
+    },
+    "enemyBox": {
+      "path": "team_enemy_handle/team_enemy/team_box",
+      "class": "VBoxContainer",
+      "anchors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offsets": [
+        -152.0,
+        0.0,
+        356.0,
+        46.0
+      ],
+      "scale": [
+        0.6000000238418579,
+        0.6000000238418579
+      ],
+      "size": [
+        508.0,
+        96.0
+      ],
+      "mouseFilter": 1,
+      "visible": true,
+      "minimumSize": [
+        0.0,
+        0.0
+      ]
+    },
+    "enemyButton": {
+      "path": "team_enemy_handle/team_enemy/ButtonCustom",
+      "class": "Button",
+      "anchors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offsets": [
+        -208.0,
+        0.0,
+        228.0,
+        138.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "size": [
+        436.0,
+        138.0
+      ],
+      "mouseFilter": 0,
+      "visible": true,
+      "text": "",
+      "fontSize": 16,
+      "minimumSize": [
+        0.0,
+        0.0
+      ],
+      "variation": "Button",
+      "sndVar": 0,
+      "volume": 0.7
+    },
+    "row": {
+      "root": {
+        "path": "team_ally/team_box/scoreboard_tank_template",
+        "class": "TextureRect",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          508.0,
+          46.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          508.0,
+          46.0
+        ],
+        "mouseFilter": 1,
+        "visible": true,
+        "minimumSize": [
+          287.1300048828125,
+          26.0
+        ]
+      },
+      "vbox": {
+        "path": "team_ally/team_box/scoreboard_tank_template/vbox",
+        "class": "VBoxContainer",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          471.6665,
+          -3.3333,
+          608.6665,
+          47.6667
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          137.0,
+          51.0
+        ],
+        "mouseFilter": 1,
+        "visible": true,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      },
+      "hbox": {
+        "path": "team_ally/team_box/scoreboard_tank_template/vbox/hbox",
+        "class": "HBoxContainer",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          0.0,
+          2.0,
+          137.0,
+          47.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          137.0,
+          45.0
+        ],
+        "mouseFilter": 1,
+        "visible": true,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      },
+      "spacer": {
+        "path": "team_ally/team_box/scoreboard_tank_template/vbox/hbox/Control",
+        "class": "Control",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          0.0,
+          45.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          0.0,
+          45.0
+        ],
+        "mouseFilter": 0,
+        "visible": true,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      },
+      "class": {
+        "path": "team_ally/team_box/scoreboard_tank_template/vbox/hbox/class",
+        "class": "TextureRect",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          4.0,
+          0.0,
+          137.0,
+          45.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          133.0,
+          45.0
+        ],
+        "mouseFilter": 1,
+        "visible": true,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      },
+      "level": {
+        "path": "team_ally/team_box/scoreboard_tank_template/lvl",
+        "class": "TextureRect",
+        "anchors": [
+          1.0,
+          0.5,
+          1.0,
+          0.5
+        ],
+        "offsets": [
+          -29.6667,
+          -24.6667,
+          -6.3336,
+          3.1111
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          23.3332,
+          27.7778
+        ],
+        "mouseFilter": 1,
+        "visible": true,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      },
+      "player": {
+        "path": "team_ally/team_box/scoreboard_tank_template/name_ply",
+        "class": "Label",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          61.6667,
+          10.0,
+          136.6667,
+          36.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          75.0,
+          26.0
+        ],
+        "mouseFilter": 2,
+        "visible": true,
+        "text": "dimmzy",
+        "fontSize": 25,
+        "horizontalAlignment": 0,
+        "verticalAlignment": 0,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      },
+      "tank": {
+        "path": "team_ally/team_box/scoreboard_tank_template/name_tank",
+        "class": "Label",
+        "anchors": [
+          1.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "offsets": [
+          -350.6666,
+          11.6667,
+          -40.0,
+          37.6667
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          310.6666,
+          26.0
+        ],
+        "mouseFilter": 2,
+        "visible": true,
+        "text": "Pz. IV",
+        "fontSize": 25,
+        "horizontalAlignment": 1,
+        "verticalAlignment": 0,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      },
+      "kills": {
+        "path": "team_ally/team_box/scoreboard_tank_template/kills",
+        "class": "Label",
+        "anchors": [
+          1.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "offsets": [
+          -89.6669,
+          10.0,
+          -18.0003,
+          41.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          71.6667,
+          31.0
+        ],
+        "mouseFilter": 2,
+        "visible": true,
+        "text": "0",
+        "fontSize": 30,
+        "horizontalAlignment": 1,
+        "verticalAlignment": 0,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "rowReversed": {
+      "root": {
+        "path": "team_ally/team_box/scoreboard_tank_template_re",
+        "class": "TextureRect",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          0.0,
+          50.0,
+          508.0,
+          96.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          508.0,
+          46.0
+        ],
+        "mouseFilter": 1,
+        "visible": true,
+        "minimumSize": [
+          287.1300048828125,
+          26.0
+        ]
+      },
+      "vbox": {
+        "path": "team_ally/team_box/scoreboard_tank_template_re/vbox",
+        "class": "VBoxContainer",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          -88.3333,
+          0.0,
+          48.6667,
+          49.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          137.0,
+          49.0
+        ],
+        "mouseFilter": 1,
+        "visible": true,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      },
+      "hbox": {
+        "path": "team_ally/team_box/scoreboard_tank_template_re/vbox/hbox",
+        "class": "HBoxContainer",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          137.0,
+          45.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          137.0,
+          45.0
+        ],
+        "mouseFilter": 1,
+        "visible": true,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      },
+      "spacer": {
+        "path": "team_ally/team_box/scoreboard_tank_template_re/vbox/hbox/Control",
+        "class": "Control",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          0.0,
+          45.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          0.0,
+          45.0
+        ],
+        "mouseFilter": 0,
+        "visible": true,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      },
+      "class": {
+        "path": "team_ally/team_box/scoreboard_tank_template_re/vbox/hbox/class",
+        "class": "TextureRect",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          4.0,
+          0.0,
+          137.0,
+          45.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          133.0,
+          45.0
+        ],
+        "mouseFilter": 1,
+        "visible": true,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      },
+      "level": {
+        "path": "team_ally/team_box/scoreboard_tank_template_re/lvl",
+        "class": "TextureRect",
+        "anchors": [
+          0.0,
+          0.5,
+          0.0,
+          0.5
+        ],
+        "offsets": [
+          23.3333,
+          -24.6667,
+          46.6665,
+          3.1111
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          23.3332,
+          27.7778
+        ],
+        "mouseFilter": 1,
+        "visible": true,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      },
+      "player": {
+        "path": "team_ally/team_box/scoreboard_tank_template_re/name_ply",
+        "class": "Label",
+        "anchors": [
+          1.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "offsets": [
+          -134.6668,
+          10.0,
+          -59.6668,
+          36.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          75.0,
+          26.0
+        ],
+        "mouseFilter": 2,
+        "visible": true,
+        "text": "dimmzy",
+        "fontSize": 25,
+        "horizontalAlignment": 0,
+        "verticalAlignment": 0,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      },
+      "tank": {
+        "path": "team_ally/team_box/scoreboard_tank_template_re/name_tank",
+        "class": "Label",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          34.0,
+          11.6667,
+          344.6666,
+          37.6667
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          310.6666,
+          26.0
+        ],
+        "mouseFilter": 2,
+        "visible": true,
+        "text": "Pz. IV",
+        "fontSize": 25,
+        "horizontalAlignment": 1,
+        "verticalAlignment": 0,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      },
+      "kills": {
+        "path": "team_ally/team_box/scoreboard_tank_template_re/kills",
+        "class": "Label",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          26.6667,
+          10.0,
+          98.3333,
+          41.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          71.6667,
+          31.0
+        ],
+        "mouseFilter": 2,
+        "visible": true,
+        "text": "1",
+        "fontSize": 30,
+        "horizontalAlignment": 1,
+        "verticalAlignment": 0,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "textures": {
+      "battle_scoreboard_row": {
+        "texture": "res://assets/gfx/ui/battle/parsed/TankIconBG02.tres",
+        "sheet": "battleScreen",
+        "region": [
+          742,
+          733,
+          508,
+          46
+        ]
+      },
+      "battle_scoreboard_row_me": {
+        "texture": "res://assets/gfx/ui/battle/parsed/TankIconBG.tres",
+        "sheet": "battleScreen",
+        "region": [
+          1310,
+          685,
+          508,
+          46
+        ]
+      }
+    },
+    "animation": {
+      "name": "anims/scoreboard_slide",
+      "length": 0.6600000262260437,
+      "step": 0.03333333507180214,
+      "tracks": {
+        "team_ally:position": {
+          "interpolation": 1,
+          "keys": [
+            {
+              "time": 0.0,
+              "transition": 1.1095701456069946,
+              "value": [
+                -109.0,
+                0.0
+              ]
+            },
+            {
+              "time": 0.6600000262260437,
+              "transition": 1.1095701456069946,
+              "value": [
+                152.0,
+                0.0
+              ]
+            }
+          ]
+        },
+        "team_enemy_handle/team_enemy:position": {
+          "interpolation": 1,
+          "keys": [
+            {
+              "time": 0.0,
+              "transition": 1.1095701456069946,
+              "value": [
+                145.0,
+                0.0
+              ]
+            },
+            {
+              "time": 0.6600000262260437,
+              "transition": 1.1095701456069946,
+              "value": [
+                -113.0,
+                0.0
+              ]
+            }
+          ]
+        },
+        "minimap_handle:position": {
+          "interpolation": 1,
+          "keys": [
+            {
+              "time": 0.0,
+              "transition": 1.8025012016296387,
+              "value": [
+                126.0,
+                0.0
+              ]
+            },
+            {
+              "time": 0.2666666805744171,
+              "transition": 1.8025012016296387,
+              "value": [
+                126.0,
+                -216.0
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "reset": {
+      "name": "RESET",
+      "length": 0.001,
+      "step": 0.03333333507180214,
+      "tracks": {
+        "team_enemy_handle/team_enemy:position": {
+          "interpolation": 1,
+          "keys": [
+            {
+              "time": 0.0,
+              "transition": 1.0,
+              "value": [
+                137.0,
+                0.0
+              ]
+            }
+          ]
+        },
+        "team_ally:position": {
+          "interpolation": 1,
+          "keys": [
+            {
+              "time": 0.0,
+              "transition": 1.0,
+              "value": [
+                -101.0,
+                0.0
+              ]
+            }
+          ]
+        },
+        "minimap_handle:position": {
+          "interpolation": 1,
+          "keys": [
+            {
+              "time": 0.0,
+              "transition": 1.0,
+              "value": [
+                126.0,
+                -216.0
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "behaviour": {
+      "action": "scoreboard",
+      "toggledByTeamButtons": true,
+      "toggledOnceDuringSetup": true,
+      "deadRowAlpha": 0.5,
+      "deadRowMovesLast": true,
+      "killsHiddenUntilFirst": true,
+      "nameLimit": 15
+    }
+  },
+  "spectator": {
+    "path": "mobile_shit/spectator_controls",
+    "class": "HBoxContainer",
+    "preset": "PRESET_CENTER_BOTTOM",
+    "anchors": [
+      0.5,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "offsets": [
+      -66.0,
+      -78.0,
+      66.0,
+      -22.0
+    ],
+    "separation": 16,
+    "button": {
+      "minimumSize": [
+        56.0,
+        52.0
+      ],
+      "fontSize": 24,
+      "sizeFlagsHorizontal": "SIZE_EXPAND_FILL"
+    },
+    "buttons": [
+      {
+        "name": "previous",
+        "direction": -1,
+        "textKey": "spectator:previous/short",
+        "hintKey": "spectator:previous/hint"
+      },
+      {
+        "name": "next",
+        "direction": 1,
+        "textKey": "spectator:next/short",
+        "hintKey": "spectator:next/hint"
+      }
+    ],
+    "behaviour": {
+      "visibleWhileCombatHudHidden": true,
+      "touchLayerOnly": true,
+      "requiresDeadTank": true,
+      "startIndex": -1,
+      "wrap": "posmod",
+      "skipsDeadCandidates": true,
+      "attack1Direction": 1,
+      "blockTurretDirection": -1,
+      "hiddenNodes": [
+        "crosshair_dynamic",
+        "crosshair_static_handle",
+        "hp",
+        "shells_equipment",
+        "ui_speed",
+        "ui_dist",
+        "reload",
+        "virtual_joystick",
+        "btn_fire",
+        "btn_sniper",
+        "btn_autttoaim"
+      ]
+    }
+  },
+  "popup": {
+    "root": {
+      "path": ".",
+      "class": "Control",
+      "anchors": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "offsets": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "size": [
+        1386.6666,
+        1386.6666
+      ],
+      "mouseFilter": 0,
+      "visible": true,
+      "minimumSize": [
+        0.0,
+        0.0
+      ]
+    },
+    "panel": {
+      "path": "panel",
+      "class": "NinePatchRect",
+      "anchors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "offsets": [
+        -194.0,
+        -102.0,
+        576.0,
+        338.0
+      ],
+      "scale": [
+        0.5,
+        0.5
+      ],
+      "size": [
+        770.0,
+        439.9999
+      ],
+      "mouseFilter": 2,
+      "visible": true,
+      "minimumSize": [
+        0.0,
+        0.0
+      ]
+    },
+    "header": {
+      "path": "header",
+      "class": "Label",
+      "anchors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "offsets": [
+        -24.0,
+        -131.0,
+        24.0,
+        -115.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "size": [
+        64.0,
+        21.0
+      ],
+      "mouseFilter": 2,
+      "visible": true,
+      "text": "HEADER",
+      "fontSize": 20,
+      "horizontalAlignment": 1,
+      "verticalAlignment": 0,
+      "minimumSize": [
+        0.0,
+        0.0
+      ]
+    },
+    "text": {
+      "path": "main_text",
+      "class": "Label",
+      "anchors": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "offsets": [
+        -104.5,
+        -51.0,
+        104.5,
+        3.0
+      ],
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "size": [
+        250.0,
+        63.0
+      ],
+      "mouseFilter": 2,
+      "visible": true,
+      "text": "Sample text.\nOh no not enough bitcheees maaaan\nWKoJIbHuKu cocuTe",
+      "fontSize": 18,
+      "horizontalAlignment": 1,
+      "verticalAlignment": 1,
+      "minimumSize": [
+        0.0,
+        0.0
+      ]
+    },
+    "buttons": {
+      "row": {
+        "path": "HBoxContainer",
+        "class": "HBoxContainer",
+        "anchors": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "offsets": [
+          -172.0,
+          46.0,
+          172.0,
+          106.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          344.0,
+          60.0
+        ],
+        "mouseFilter": 1,
+        "visible": true,
+        "minimumSize": [
+          0.0,
+          0.0
+        ]
+      },
+      "ok": {
+        "path": "HBoxContainer/btn_ok",
+        "class": "Button",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          0.0,
+          0.0,
+          170.0,
+          60.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          170.0,
+          60.0
+        ],
+        "mouseFilter": 0,
+        "visible": true,
+        "text": "OK",
+        "fontSize": 16,
+        "minimumSize": [
+          170.0,
+          60.0
+        ],
+        "variation": "ButtonGreen",
+        "sndVar": 0,
+        "volume": 0.7
+      },
+      "cancel": {
+        "path": "HBoxContainer/btn_cancel",
+        "class": "Button",
+        "anchors": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offsets": [
+          174.0,
+          0.0,
+          344.0,
+          60.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "size": [
+          170.0,
+          60.0
+        ],
+        "mouseFilter": 0,
+        "visible": true,
+        "text": "CANCEL",
+        "fontSize": 16,
+        "minimumSize": [
+          170.0,
+          60.0
+        ],
+        "variation": "Button",
+        "sndVar": 0,
+        "volume": 0.7
+      }
+    },
+    "behaviour": {
+      "acceptClosesPopup": true,
+      "cancelKeyCloses": true,
+      "acceptKeyPressesOk": true,
+      "headerText": "CONFIRM",
+      "bodyKey": "popup:to_hangar"
+    }
+  },
+  "styles": {
+    "Button": {
+      "stylebox": "res://assets/gfx/ui/common/style_button_generic.stylebox",
+      "texture": "res://assets/gfx/ui/lobby_common/WiderButton.tres",
+      "sheet": "lobbyCommon_Out",
+      "region": [
+        1,
+        1546,
+        354,
+        134
+      ],
+      "textureMargins": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fontSize": 16
+    },
+    "ButtonRed": {
+      "stylebox": "res://assets/gfx/ui/common/style_button_red.stylebox",
+      "texture": "res://assets/gfx/ui/lobby_common/WiderButton02.tres",
+      "sheet": "lobbyCommon_Out",
+      "region": [
+        1,
+        1682,
+        354,
+        134
+      ],
+      "textureMargins": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fontSize": 15
+    },
+    "ButtonOrange": {
+      "stylebox": "res://assets/gfx/ui/common/style_button_orange.tres",
+      "texture": "res://assets/gfx/ui/lobby_common/WiderButton04.tres",
+      "sheet": "lobbyCommon_Out",
+      "region": [
+        721,
+        515,
+        354,
+        134
+      ],
+      "textureMargins": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fontSize": 15
+    },
+    "ButtonGreen": {
+      "stylebox": "res://assets/gfx/ui/common/style_button_grn.stylebox",
+      "texture": "res://assets/gfx/ui/lobby_common/WiderButton03.tres",
+      "sheet": "lobbyCommon_Out",
+      "region": [
+        1,
+        1818,
+        354,
+        134
+      ],
+      "textureMargins": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fontSize": 15
+    }
+  },
+  "atlas": {
+    "destination": "atlas_regions.json",
+    "added": {
+      "button_orange": {
+        "texture": "lobbyCommon_Out",
+        "x": 721,
+        "y": 515,
+        "w": 354,
+        "h": 134
+      },
+      "battle_scoreboard_row": {
+        "texture": "battleScreen",
+        "x": 742,
+        "y": 733,
+        "w": 508,
+        "h": 46
+      },
+      "battle_scoreboard_row_me": {
+        "texture": "battleScreen",
+        "x": 1310,
+        "y": 685,
+        "w": 508,
+        "h": 46
+      }
+    },
+    "regions": 277,
+    "textures": 32
+  },
+  "localization": {
+    "destination": "lang.json",
+    "sources": [
+      {
+        "source": "lang_dump.csv",
+        "bytes": 6507,
+        "sha256": "ba9727f8304072e42054e3ac78d20b1483c5aef4026564722055867e4ee4d988"
+      },
+      {
+        "source": "lang_extra.csv",
+        "bytes": 40539,
+        "sha256": "c791be3631dbc3243fadcff35204e303cf6f07677d611bd0a42b4378d9067abd"
+      },
+      {
+        "source": ".assets/lang.csv",
+        "bytes": 25225,
+        "sha256": "6767a3d7a63279f54868921ef878228f27562ea047c3b50357e602e2405c2cd7"
+      }
+    ],
+    "added": {
+      "popup:to_hangar": {
+        "en": "Leave to hangar?",
+        "ru": "Выйти в ангар?"
+      },
+      "CANCEL": {
+        "en": "CANCEL",
+        "ru": "ОТМЕНА"
+      },
+      "CONFIRM": {
+        "en": "CONFIRM",
+        "ru": "ПОДТВЕРЖДЕНИЕ"
+      },
+      "spectator:previous/short": {
+        "en": "<",
+        "ru": "<"
+      },
+      "spectator:next/short": {
+        "en": ">",
+        "ru": ">"
+      },
+      "spectator:previous/hint": {
+        "en": "Spectate previous ally",
+        "ru": "Наблюдать за предыдущим союзником"
+      },
+      "spectator:next/hint": {
+        "en": "Spectate next ally",
+        "ru": "Наблюдать за следующим союзником"
+      },
+      "OK": {
+        "en": "OK",
+        "ru": "OK"
+      }
+    },
+    "required": [
+      "MENU",
+      "RESUME",
+      "SETTINGS",
+      "TO HANGAR"
+    ],
+    "keys": 290,
+    "languages": 2
+  }
+}

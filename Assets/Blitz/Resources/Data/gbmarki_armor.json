@@ -1,0 +1,95 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GBMARKIArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 336,
+      "vertices": 352
+    },
+    {
+      "armor": 10,
+      "material": "GBMARKIArmor_armor_hull_plate10s_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10s_10",
+      "screen": true,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 12,
+      "material": "GBMARKIArmor_armor_hull_plate12_12",
+      "mount": "hull",
+      "name": "armor_hull_plate12_12",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 362,
+      "vertices": 1086
+    },
+    {
+      "armor": 15,
+      "material": "GBMARKIArmor_armor_hull_plate15_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15_15",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 64,
+      "vertices": 192
+    },
+    {
+      "armor": 5,
+      "material": "GBMARKIArmor_armor_hull_plate5_5",
+      "mount": "hull",
+      "name": "armor_hull_plate5_5",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 5,
+      "material": "GBMARKIArmor_armor_hull_plate5s_5",
+      "mount": "hull",
+      "name": "armor_hull_plate5s_5",
+      "screen": true,
+      "submesh": 5,
+      "triangles": 226,
+      "vertices": 678
+    },
+    {
+      "armor": 8,
+      "material": "GBMARKIArmor_armor_hull_plate8s_8",
+      "mount": "hull",
+      "name": "armor_hull_plate8s_8",
+      "screen": true,
+      "submesh": 6,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 15,
+      "material": "GBMARKIArmor_armor_turret_01_plate15_15",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate15_15",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 65,
+      "material": "GBMARKIArmor_gun_01_mask_turret_01_plate65s_65",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate65s_65",
+      "screen": true,
+      "submesh": 8,
+      "triangles": 8,
+      "vertices": 24
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "generator": "Tools/port_hangar_status_badges.py",
+  "policy": "Derived from the premium badge by a luminance gradient map; alpha unchanged; no hand-painted art.",
+  "source": {
+    "region": "hangar_premium",
+    "texture": "lobbyCommon_Out.png",
+    "rect": [
+      1187,
+      849,
+      127,
+      106
+    ],
+    "sha256": "ce0ed1103cecad054cd5bfd4433ac1345182b1acb5196121edcf8d0148dcb98c",
+    "anchor": [
+      1.0,
+      0.777,
+      0.103
+    ]
+  },
+  "badges": [
+    {
+      "region": "hangar_regular_badge",
+      "destination": "hangar_regular_badge.png",
+      "colour": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "sha256": "197e65f05fda6f7dcffef0b5cd4791db52da486a31392b3eaad22f0719fa89ec"
+    },
+    {
+      "region": "hangar_collector_badge",
+      "destination": "hangar_collector_badge.png",
+      "colour": [
+        0.309,
+        0.765,
+        0.969
+      ],
+      "sha256": "56a2cc595030b5c3135c49b84abce6951645841f8358bab1600fff12df9489ab"
+    },
+    {
+      "region": "hangar_mod_badge",
+      "destination": "hangar_mod_badge.png",
+      "colour": [
+        0.639,
+        0.89,
+        0.608
+      ],
+      "sha256": "1c916304a83c65396ee8eb79e0f9c7f117c3fce448704c671bcf011cfbf42488"
+    }
+  ]
+}

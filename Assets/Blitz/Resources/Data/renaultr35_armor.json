@@ -1,0 +1,255 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "RENAULTR35Armor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 360,
+      "vertices": 384
+    },
+    {
+      "armor": 0,
+      "material": "RENAULTR35Armor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 10,
+      "material": "RENAULTR35Armor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 15,
+      "material": "RENAULTR35Armor_armor_hull_plate15_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15_15",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 25,
+      "material": "RENAULTR35Armor_armor_hull_plate25_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25_25",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 58,
+      "vertices": 174
+    },
+    {
+      "armor": 32,
+      "material": "RENAULTR35Armor_armor_hull_plate32_32",
+      "mount": "hull",
+      "name": "armor_hull_plate32_32",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 40,
+      "material": "RENAULTR35Armor_armor_hull_plate40_40",
+      "mount": "hull",
+      "name": "armor_hull_plate40_40",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 164,
+      "vertices": 492
+    },
+    {
+      "armor": 0,
+      "material": "RENAULTR35Armor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 25,
+      "material": "RENAULTR35Armor_armor_turret_01_plate25_25",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate25_25",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 68,
+      "vertices": 204
+    },
+    {
+      "armor": 40,
+      "material": "RENAULTR35Armor_armor_turret_01_plate40_40",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate40_40",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 318,
+      "vertices": 954
+    },
+    {
+      "armor": 10,
+      "material": "RENAULTR35Armor_gun_01_mask_turret_01_plate10s_10",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate10s_10",
+      "screen": true,
+      "submesh": 10,
+      "triangles": 58,
+      "vertices": 174
+    },
+    {
+      "armor": 25,
+      "material": "RENAULTR35Armor_gun_01_mask_turret_01_plate25s_25",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate25s_25",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 45,
+      "vertices": 135
+    },
+    {
+      "armor": 10,
+      "material": "RENAULTR35Armor_gun_02_mask_turret_01_plate10s_10",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate10s_10",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 25,
+      "material": "RENAULTR35Armor_gun_02_mask_turret_01_plate25s_25",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate25s_25",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 10,
+      "material": "RENAULTR35Armor_gun_03_mask_turret_01_plate10s_10",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate10s_10",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 59,
+      "vertices": 177
+    },
+    {
+      "armor": 25,
+      "material": "RENAULTR35Armor_gun_03_mask_turret_01_plate25s_25",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate25s_25",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 44,
+      "vertices": 132
+    },
+    {
+      "armor": 0,
+      "material": "RENAULTR35Armor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 16,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 25,
+      "material": "RENAULTR35Armor_armor_turret_02_plate25_25",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate25_25",
+      "screen": false,
+      "submesh": 17,
+      "triangles": 69,
+      "vertices": 207
+    },
+    {
+      "armor": 40,
+      "material": "RENAULTR35Armor_armor_turret_02_plate40_40",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate40_40",
+      "screen": false,
+      "submesh": 18,
+      "triangles": 297,
+      "vertices": 891
+    },
+    {
+      "armor": 10,
+      "material": "RENAULTR35Armor_gun_01_mask_turret_02_plate10s_10",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_02_plate10s_10",
+      "screen": true,
+      "submesh": 19,
+      "triangles": 58,
+      "vertices": 174
+    },
+    {
+      "armor": 25,
+      "material": "RENAULTR35Armor_gun_01_mask_turret_02_plate25s_25",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_02_plate25s_25",
+      "screen": true,
+      "submesh": 20,
+      "triangles": 45,
+      "vertices": 135
+    },
+    {
+      "armor": 10,
+      "material": "RENAULTR35Armor_gun_02_mask_turret_02_plate10s_10",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_02_plate10s_10",
+      "screen": true,
+      "submesh": 21,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 25,
+      "material": "RENAULTR35Armor_gun_02_mask_turret_02_plate25s_25",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_02_plate25s_25",
+      "screen": true,
+      "submesh": 22,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 10,
+      "material": "RENAULTR35Armor_gun_03_mask_turret_02_plate10s_10",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_02_plate10s_10",
+      "screen": true,
+      "submesh": 23,
+      "triangles": 59,
+      "vertices": 177
+    },
+    {
+      "armor": 25,
+      "material": "RENAULTR35Armor_gun_03_mask_turret_02_plate25s_25",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_02_plate25s_25",
+      "screen": true,
+      "submesh": 24,
+      "triangles": 44,
+      "vertices": 132
+    }
+  ]
+}

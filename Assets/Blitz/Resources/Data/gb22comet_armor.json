@@ -1,0 +1,305 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GB22COMETArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 304,
+      "vertices": 352
+    },
+    {
+      "armor": 0,
+      "material": "GB22COMETArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 12,
+      "material": "GB22COMETArmor_armor_hull_plate12_12",
+      "mount": "hull",
+      "name": "armor_hull_plate12_12",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 12,
+      "material": "GB22COMETArmor_armor_hull_plate12s_12",
+      "mount": "hull",
+      "name": "armor_hull_plate12s_12",
+      "screen": true,
+      "submesh": 3,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 14,
+      "material": "GB22COMETArmor_armor_hull_plate14_14",
+      "mount": "hull",
+      "name": "armor_hull_plate14_14",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 20,
+      "material": "GB22COMETArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 9,
+      "vertices": 27
+    },
+    {
+      "armor": 24,
+      "material": "GB22COMETArmor_armor_hull_plate24s_24",
+      "mount": "hull",
+      "name": "armor_hull_plate24s_24",
+      "screen": true,
+      "submesh": 6,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 25,
+      "material": "GB22COMETArmor_armor_hull_plate25_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25_25",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 41,
+      "vertices": 123
+    },
+    {
+      "armor": 32,
+      "material": "GB22COMETArmor_armor_hull_plate32_32",
+      "mount": "hull",
+      "name": "armor_hull_plate32_32",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 43,
+      "material": "GB22COMETArmor_armor_hull_plate43_43",
+      "mount": "hull",
+      "name": "armor_hull_plate43_43",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 70,
+      "vertices": 210
+    },
+    {
+      "armor": 63,
+      "material": "GB22COMETArmor_armor_hull_plate63_63",
+      "mount": "hull",
+      "name": "armor_hull_plate63_63",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 48,
+      "vertices": 144
+    },
+    {
+      "armor": 76,
+      "material": "GB22COMETArmor_armor_hull_plate76_76",
+      "mount": "hull",
+      "name": "armor_hull_plate76_76",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 28,
+      "vertices": 84
+    },
+    {
+      "armor": 0,
+      "material": "GB22COMETArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 15,
+      "vertices": 45
+    },
+    {
+      "armor": 19,
+      "material": "GB22COMETArmor_armor_turret_01_plate19_19",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate19_19",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 20,
+      "material": "GB22COMETArmor_armor_turret_01_plate20_20",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate20_20",
+      "screen": false,
+      "submesh": 14,
+      "triangles": 48,
+      "vertices": 144
+    },
+    {
+      "armor": 57,
+      "material": "GB22COMETArmor_armor_turret_01_plate57_57",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate57_57",
+      "screen": false,
+      "submesh": 15,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 63,
+      "material": "GB22COMETArmor_armor_turret_01_plate63_63",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate63_63",
+      "screen": false,
+      "submesh": 16,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 76,
+      "material": "GB22COMETArmor_armor_turret_01_plate76_76",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate76_76",
+      "screen": false,
+      "submesh": 17,
+      "triangles": 51,
+      "vertices": 153
+    },
+    {
+      "armor": 76,
+      "material": "GB22COMETArmor_armor_turret_01_plate76s_76",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate76s_76",
+      "screen": true,
+      "submesh": 18,
+      "triangles": 11,
+      "vertices": 33
+    },
+    {
+      "armor": 0,
+      "material": "GB22COMETArmor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 19,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 111,
+      "material": "GB22COMETArmor_armor_turret_02_plate111_111",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate111_111",
+      "screen": false,
+      "submesh": 20,
+      "triangles": 84,
+      "vertices": 252
+    },
+    {
+      "armor": 25,
+      "material": "GB22COMETArmor_armor_turret_02_plate25_25",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate25_25",
+      "screen": false,
+      "submesh": 21,
+      "triangles": 90,
+      "vertices": 270
+    },
+    {
+      "armor": 30,
+      "material": "GB22COMETArmor_armor_turret_02_plate30_30",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate30_30",
+      "screen": false,
+      "submesh": 22,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 51,
+      "material": "GB22COMETArmor_armor_turret_02_plate51_51",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate51_51",
+      "screen": false,
+      "submesh": 23,
+      "triangles": 62,
+      "vertices": 186
+    },
+    {
+      "armor": 57,
+      "material": "GB22COMETArmor_armor_turret_02_plate57_57",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate57_57",
+      "screen": false,
+      "submesh": 24,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 63,
+      "material": "GB22COMETArmor_armor_turret_02_plate63_63",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate63_63",
+      "screen": false,
+      "submesh": 25,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 110,
+      "material": "GB22COMETArmor_gun_08_mask_turret_02_plate110s_110",
+      "mount": "gun_08",
+      "name": "gun_08_mask_turret_02_plate110s_110",
+      "screen": true,
+      "submesh": 26,
+      "triangles": 59,
+      "vertices": 177
+    },
+    {
+      "armor": 55,
+      "material": "GB22COMETArmor_gun_08_mask_turret_02_plate55s_55",
+      "mount": "gun_08",
+      "name": "gun_08_mask_turret_02_plate55s_55",
+      "screen": true,
+      "submesh": 27,
+      "triangles": 43,
+      "vertices": 129
+    },
+    {
+      "armor": 110,
+      "material": "GB22COMETArmor_gun_05_mask_turret_02_plate110s_110",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate110s_110",
+      "screen": true,
+      "submesh": 28,
+      "triangles": 59,
+      "vertices": 177
+    },
+    {
+      "armor": 55,
+      "material": "GB22COMETArmor_gun_05_mask_turret_02_plate55s_55",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate55s_55",
+      "screen": true,
+      "submesh": 29,
+      "triangles": 43,
+      "vertices": 129
+    }
+  ]
+}

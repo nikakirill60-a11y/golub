@@ -1,0 +1,67 @@
+{
+  "albedos": {
+    "gun_01": "OTH10_VINDICATOR_GUN"
+  },
+  "nodes": {
+    "gun_01": {
+      "local": [
+        0.025838,
+        -0.176383,
+        0.08215
+      ],
+      "parent": "turret_01",
+      "world": [
+        -0.294971,
+        1.785768,
+        -1.951164
+      ]
+    },
+    "gun_01_shoot_pos": {
+      "local": [
+        1e-06,
+        1e-06,
+        -1.812777
+      ],
+      "parent": "gun_01",
+      "world": [
+        -0.29497,
+        1.785769,
+        -3.763941
+      ]
+    },
+    "turret_01": {
+      "local": [
+        -0.320809,
+        1.962151,
+        -2.033314
+      ],
+      "parent": "",
+      "world": [
+        -0.320809,
+        1.962151,
+        -2.033314
+      ]
+    }
+  },
+  "rig": {
+    "gun": "gun_01",
+    "guns": [
+      "gun_01"
+    ],
+    "muzzle": "gun_01_shoot_pos",
+    "muzzles": {
+      "gun_01": "gun_01_shoot_pos"
+    },
+    "turret": "turret_01",
+    "turrets": {
+      "turret_01": {
+        "guns": [
+          "gun_01"
+        ],
+        "muzzles": {
+          "gun_01": "gun_01_shoot_pos"
+        }
+      }
+    }
+  }
+}

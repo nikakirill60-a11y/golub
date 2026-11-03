@@ -1,0 +1,69 @@
+{
+  "albedos": {
+    "gun_01_sheet1": "OTH85_GHOUL_MSET",
+    "hull_vis_sheet1": "OTH85_GHOUL_MSET",
+    "turret_01_sheet1": "OTH85_GHOUL_MSET"
+  },
+  "nodes": {
+    "gun_01": {
+      "local": [
+        -0.000741,
+        0.517253,
+        -1.153099
+      ],
+      "parent": "turret_01",
+      "world": [
+        -0.000742,
+        2.197484,
+        -1.357457
+      ]
+    },
+    "gun_01_shoot_pos": {
+      "local": [
+        -2.9e-05,
+        -0.000244,
+        -4.918071
+      ],
+      "parent": "gun_01",
+      "world": [
+        -0.000771,
+        2.19724,
+        -6.275528
+      ]
+    },
+    "turret_01": {
+      "local": [
+        -1e-06,
+        1.680231,
+        -0.204358
+      ],
+      "parent": "",
+      "world": [
+        -1e-06,
+        1.680231,
+        -0.204358
+      ]
+    }
+  },
+  "rig": {
+    "gun": "gun_01",
+    "guns": [
+      "gun_01"
+    ],
+    "muzzle": "gun_01_shoot_pos",
+    "muzzles": {
+      "gun_01": "gun_01_shoot_pos"
+    },
+    "turret": "turret_01",
+    "turrets": {
+      "turret_01": {
+        "guns": [
+          "gun_01"
+        ],
+        "muzzles": {
+          "gun_01": "gun_01_shoot_pos"
+        }
+      }
+    }
+  }
+}

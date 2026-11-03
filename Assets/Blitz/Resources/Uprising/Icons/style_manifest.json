@@ -1,0 +1,56 @@
+{
+	"card": {
+		"borders": [
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		]
+	},
+	"close": {
+		"focus": {
+			"borders": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"type": "texture"
+		},
+		"hover": {
+			"borders": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"type": "texture"
+		},
+		"normal": {
+			"borders": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"type": "texture"
+		},
+		"pressed": {
+			"borders": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"type": "texture"
+		}
+	},
+	"selected": {
+		"borders": [
+			12.0,
+			12.0,
+			12.0,
+			12.0
+		]
+	}
+}

@@ -1,0 +1,21 @@
+#if !defined(COMMON_INCLUDED)
+#error "Include common.slh"
+#endif
+
+inline float FresnelShlick(float NdotL, float Cspec)
+{
+    float expf = 5.0;
+    return Cspec + (1.0 - Cspec) * pow(1.0 - NdotL, expf);
+}
+
+inline float3 FresnelShlickVec3(float NdotL, float3 Cspec)
+{
+    float fresnelExponent = 5.0;
+    return (1.0 - Cspec) * (pow(1.0 - NdotL, fresnelExponent)) + Cspec;
+}
+
+// for water
+inline float FresnelShlickCustom(float NdotL, float bias, float expf)
+{
+    return bias + (1.0 - bias) * pow(1.0 - NdotL, expf);
+}

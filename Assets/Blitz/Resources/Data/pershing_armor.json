@@ -1,0 +1,325 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "PERSHINGArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 312,
+      "vertices": 374
+    },
+    {
+      "armor": 0,
+      "material": "PERSHINGArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 5,
+      "vertices": 15
+    },
+    {
+      "armor": 106,
+      "material": "PERSHINGArmor_armor_hull_plate106_106",
+      "mount": "hull",
+      "name": "armor_hull_plate106_106",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 69,
+      "vertices": 207
+    },
+    {
+      "armor": 13,
+      "material": "PERSHINGArmor_armor_hull_plate13_13",
+      "mount": "hull",
+      "name": "armor_hull_plate13_13",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 20,
+      "material": "PERSHINGArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 44,
+      "vertices": 132
+    },
+    {
+      "armor": 23,
+      "material": "PERSHINGArmor_armor_hull_plate23_23",
+      "mount": "hull",
+      "name": "armor_hull_plate23_23",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 35,
+      "vertices": 105
+    },
+    {
+      "armor": 26,
+      "material": "PERSHINGArmor_armor_hull_plate26_26",
+      "mount": "hull",
+      "name": "armor_hull_plate26_26",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 53,
+      "material": "PERSHINGArmor_armor_hull_plate53_53",
+      "mount": "hull",
+      "name": "armor_hull_plate53_53",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 30,
+      "vertices": 90
+    },
+    {
+      "armor": 80,
+      "material": "PERSHINGArmor_armor_hull_plate80_80",
+      "mount": "hull",
+      "name": "armor_hull_plate80_80",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 97,
+      "vertices": 291
+    },
+    {
+      "armor": 0,
+      "material": "PERSHINGArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 19,
+      "vertices": 57
+    },
+    {
+      "armor": 106,
+      "material": "PERSHINGArmor_armor_turret_01_plate106_106",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate106_106",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 48,
+      "vertices": 144
+    },
+    {
+      "armor": 26,
+      "material": "PERSHINGArmor_armor_turret_01_plate26_26",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate26_26",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 47,
+      "vertices": 141
+    },
+    {
+      "armor": 80,
+      "material": "PERSHINGArmor_armor_turret_01_plate80_80",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate80_80",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 94,
+      "vertices": 282
+    },
+    {
+      "armor": 101,
+      "material": "PERSHINGArmor_gun_09_mask_turret_01_plate101s_101",
+      "mount": "gun_09",
+      "name": "gun_09_mask_turret_01_plate101s_101",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 79,
+      "vertices": 237
+    },
+    {
+      "armor": 114,
+      "material": "PERSHINGArmor_gun_09_mask_turret_01_plate114s_114",
+      "mount": "gun_09",
+      "name": "gun_09_mask_turret_01_plate114s_114",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 35,
+      "vertices": 105
+    },
+    {
+      "armor": 101,
+      "material": "PERSHINGArmor_gun_01_mask_turret_01_plate101s_101",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate101s_101",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 79,
+      "vertices": 237
+    },
+    {
+      "armor": 114,
+      "material": "PERSHINGArmor_gun_01_mask_turret_01_plate114s_114",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate114s_114",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 35,
+      "vertices": 105
+    },
+    {
+      "armor": 101,
+      "material": "PERSHINGArmor_gun_02_mask_turret_01_plate101s_101",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate101s_101",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 79,
+      "vertices": 237
+    },
+    {
+      "armor": 114,
+      "material": "PERSHINGArmor_gun_02_mask_turret_01_plate114s_114",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate114s_114",
+      "screen": true,
+      "submesh": 18,
+      "triangles": 35,
+      "vertices": 105
+    },
+    {
+      "armor": 0,
+      "material": "PERSHINGArmor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 19,
+      "triangles": 17,
+      "vertices": 51
+    },
+    {
+      "armor": 133,
+      "material": "PERSHINGArmor_armor_turret_02_plate133_133",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate133_133",
+      "screen": false,
+      "submesh": 20,
+      "triangles": 51,
+      "vertices": 153
+    },
+    {
+      "armor": 26,
+      "material": "PERSHINGArmor_armor_turret_02_plate26_26",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate26_26",
+      "screen": false,
+      "submesh": 21,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 66,
+      "material": "PERSHINGArmor_armor_turret_02_plate66_66",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate66_66",
+      "screen": false,
+      "submesh": 22,
+      "triangles": 23,
+      "vertices": 69
+    },
+    {
+      "armor": 80,
+      "material": "PERSHINGArmor_armor_turret_02_plate80_80",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate80_80",
+      "screen": false,
+      "submesh": 23,
+      "triangles": 73,
+      "vertices": 219
+    },
+    {
+      "armor": 101,
+      "material": "PERSHINGArmor_gun_11_mask_turret_02_plate101s_101",
+      "mount": "gun_11",
+      "name": "gun_11_mask_turret_02_plate101s_101",
+      "screen": true,
+      "submesh": 24,
+      "triangles": 111,
+      "vertices": 333
+    },
+    {
+      "armor": 203,
+      "material": "PERSHINGArmor_gun_11_mask_turret_02_plate203s_203",
+      "mount": "gun_11",
+      "name": "gun_11_mask_turret_02_plate203s_203",
+      "screen": true,
+      "submesh": 25,
+      "triangles": 47,
+      "vertices": 141
+    },
+    {
+      "armor": 101,
+      "material": "PERSHINGArmor_gun_05_mask_turret_02_plate101s_101",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate101s_101",
+      "screen": true,
+      "submesh": 26,
+      "triangles": 111,
+      "vertices": 333
+    },
+    {
+      "armor": 203,
+      "material": "PERSHINGArmor_gun_05_mask_turret_02_plate203s_203",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate203s_203",
+      "screen": true,
+      "submesh": 27,
+      "triangles": 47,
+      "vertices": 141
+    },
+    {
+      "armor": 101,
+      "material": "PERSHINGArmor_gun_06_mask_turret_02_plate101s_101",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate101s_101",
+      "screen": true,
+      "submesh": 28,
+      "triangles": 111,
+      "vertices": 333
+    },
+    {
+      "armor": 203,
+      "material": "PERSHINGArmor_gun_06_mask_turret_02_plate203s_203",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate203s_203",
+      "screen": true,
+      "submesh": 29,
+      "triangles": 47,
+      "vertices": 141
+    },
+    {
+      "armor": 101,
+      "material": "PERSHINGArmor_gun_04_mask_turret_02_plate101s_101",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate101s_101",
+      "screen": true,
+      "submesh": 30,
+      "triangles": 111,
+      "vertices": 333
+    },
+    {
+      "armor": 203,
+      "material": "PERSHINGArmor_gun_04_mask_turret_02_plate203s_203",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate203s_203",
+      "screen": true,
+      "submesh": 31,
+      "triangles": 47,
+      "vertices": 141
+    }
+  ]
+}

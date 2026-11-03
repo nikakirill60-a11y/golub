@@ -1,0 +1,62 @@
+{
+  "banks": [
+    "ability_halloween_2018",
+    "ability_halloween_2019",
+    "Init"
+  ],
+  "events": {
+    "moonwalk": "GUI_halloween_2018_perk_moonwalk",
+    "returnInTime": "GUI_halloween_2019_halloween_2019_perk_return",
+    "berserk_on": "play_hlwn_2022_abl_berserk_on",
+    "berserk_off": "play_hlwn_2022_abl_berserk_off",
+    "splash": "GUI_halloween_2019_halloween_2019_perk_splash",
+    "lightning": "GUI_halloween_2019_halloween_2019_perk_lightning"
+  },
+  "media": {
+    "moonwalk": {
+      "id": 876515218,
+      "source_sha256": "6c1b7387769d00e34237691de457b91693235511884bf3df638f7198ff936437",
+      "output_sha256": "f991ca56c8c676aff8acb83c28a59018ea88c70ef51b62a617aa46ca534f76c2"
+    },
+    "returnInTime": {
+      "id": 757968036,
+      "source_sha256": "0d16685cfd895a4bcf4ecab117333e09d9be111db29a80ae8f1d06b2e6780034",
+      "output_sha256": "de29ab8217a55deed28ecacc86b90731609bc5c784a54b7d14007e65239fad1f"
+    },
+    "berserk_on_1": {
+      "id": 50062707,
+      "source_sha256": "b14e40344ea47e85202995e164e6657731f7467fbace68330e29a903e8f2610a",
+      "output_sha256": "f6f17cdde40281fa0f0565cfb0041ebfa39db6e38821d22c6bcf5406176374e1"
+    },
+    "berserk_on_2": {
+      "id": 1010001552,
+      "source_sha256": "4357eb472f9099f9920c2dfa8b4a61896a017fa93d30f683fd3acd54e6c7f515",
+      "output_sha256": "0ec8a2cc5b3eefde1ebf35d32a1067711828b575618a0ea69087d79509214466"
+    },
+    "berserk_on_3": {
+      "id": 682701141,
+      "source_sha256": "e1b9d4f2401e46486c82e1698e67d019e0df8fbadd2902fecad78fa96251de6b",
+      "output_sha256": "b549ac4abcd7b564d40e56e9f57292b53de685dee74b50f204acc2b81f6e7bd0"
+    },
+    "berserk_loop": {
+      "id": 761004108,
+      "source_sha256": "bea582212fb92419d4458a0e686b435dbb7954c136fd181af74240b2674ec7ef",
+      "output_sha256": "ba1f10f83d15b91a72d161d6396e41f8e18b31b092e86ed7f34fec6d1e7283a5"
+    },
+    "berserk_off": {
+      "id": 893571615,
+      "source_sha256": "58d490e356497f071130b2efdd8a5a76c79e4281d7daf749a79f4909ce0ad09f",
+      "output_sha256": "450fa4fc36fa17404239d9e342087114e42f5afb9b08e0d639d78430d0b6da15"
+    },
+    "splash": {
+      "id": 84453696,
+      "source_sha256": "c53e94f704991f2020f4357542335b056c605819bcb1264ce65a5ebeeb7eecf8",
+      "output_sha256": "e41333c96a62b0b2dc1c2acc8266ef5c84ac41e32865c84e985880d8f962147f"
+    },
+    "lightning": {
+      "id": 996591242,
+      "source_sha256": "0990f4f1979ea127963f79a419295d0fc66d460baef1f9823c5c56f2d5e44bae",
+      "output_sha256": "03853e67655dc764fae679310a31496209c52035b3dd26d6525e9316b91216e0"
+    }
+  }
+}

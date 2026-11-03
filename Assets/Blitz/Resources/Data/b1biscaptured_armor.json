@@ -1,0 +1,175 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "B1BISCAPTUREDArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 376,
+      "vertices": 416
+    },
+    {
+      "armor": 0,
+      "material": "B1BISCAPTUREDArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 10,
+      "material": "B1BISCAPTUREDArmor_armor_hull_plate10s_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10s_10",
+      "screen": true,
+      "submesh": 2,
+      "triangles": 21,
+      "vertices": 63
+    },
+    {
+      "armor": 21,
+      "material": "B1BISCAPTUREDArmor_armor_hull_plate21_21",
+      "mount": "hull",
+      "name": "armor_hull_plate21_21",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 11,
+      "vertices": 33
+    },
+    {
+      "armor": 27,
+      "material": "B1BISCAPTUREDArmor_armor_hull_plate27_27",
+      "mount": "hull",
+      "name": "armor_hull_plate27_27",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 55,
+      "vertices": 165
+    },
+    {
+      "armor": 32,
+      "material": "B1BISCAPTUREDArmor_armor_hull_plate32_32",
+      "mount": "hull",
+      "name": "armor_hull_plate32_32",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 42,
+      "material": "B1BISCAPTUREDArmor_armor_hull_plate42s_42",
+      "mount": "hull",
+      "name": "armor_hull_plate42s_42",
+      "screen": true,
+      "submesh": 6,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 48,
+      "material": "B1BISCAPTUREDArmor_armor_hull_plate48_48",
+      "mount": "hull",
+      "name": "armor_hull_plate48_48",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 67,
+      "vertices": 201
+    },
+    {
+      "armor": 59,
+      "material": "B1BISCAPTUREDArmor_armor_hull_plate59_59",
+      "mount": "hull",
+      "name": "armor_hull_plate59_59",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 64,
+      "material": "B1BISCAPTUREDArmor_armor_hull_plate64_64",
+      "mount": "hull",
+      "name": "armor_hull_plate64_64",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 72,
+      "vertices": 216
+    },
+    {
+      "armor": 97,
+      "material": "B1BISCAPTUREDArmor_armor_hull_plate97_97",
+      "mount": "hull",
+      "name": "armor_hull_plate97_97",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 21,
+      "vertices": 63
+    },
+    {
+      "armor": 0,
+      "material": "B1BISCAPTUREDArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 32,
+      "material": "B1BISCAPTUREDArmor_armor_turret_01_plate32_32",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate32_32",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 37,
+      "material": "B1BISCAPTUREDArmor_armor_turret_01_plate37_37",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate37_37",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 49,
+      "material": "B1BISCAPTUREDArmor_armor_turret_01_plate49_49",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate49_49",
+      "screen": false,
+      "submesh": 14,
+      "triangles": 186,
+      "vertices": 558
+    },
+    {
+      "armor": 20,
+      "material": "B1BISCAPTUREDArmor_gun_01_mask_turret_01_plate20s_20",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate20s_20",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 116,
+      "vertices": 348
+    },
+    {
+      "armor": 30,
+      "material": "B1BISCAPTUREDArmor_gun_01_mask_turret_01_plate30s_30",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate30s_30",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 52,
+      "vertices": 156
+    }
+  ]
+}

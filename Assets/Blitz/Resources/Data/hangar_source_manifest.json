@@ -1,0 +1,117 @@
+{
+  "atlas": {
+    "regions": 1540,
+    "textures": 1100
+  },
+  "generator": "Tools/port_godot_hangar.py",
+  "localization": {
+    "keys": 2940,
+    "languages": 2,
+    "scriptSha256": "f66b9ac2988b168a2e596398603601f98f86c80b913917f967b52f33c29dd4c4",
+    "scriptSource": "scripts/_lang.gd",
+    "sha256": "8b9f35fc962b836dc50e0932dcbf930d5a0f23c757db55ae41ae1658ada3484b",
+    "source": "lang_dump.csv"
+  },
+  "models": {
+    "hangar": {
+      "objects": 76,
+      "sha256": "b640b4904dde0f3802d536e2864da7146eeec4ca7e229286b362df14336301e9",
+      "source": "maps/hangar_low/hangar_low_batch.glb",
+      "triangles": 74987,
+      "vertices": 148308
+    }
+  },
+  "policy": "Original Godot geometry and PNG bytes only; no authored replacement art.",
+  "sources": [
+    {
+      "bytes": 5676079,
+      "destination": "Hangar1.png",
+      "sha256": "e285efeda33cb1ee5cb56eb70fa66d7f0630436a6310956439107ae264b4fc2f",
+      "source": "maps/hangar_low/1.mali_Out.png"
+    },
+    {
+      "bytes": 23259,
+      "destination": "Hangar1Emission.png",
+      "sha256": "ab9a2bea306827638e530eba02600a93e4a08b7398d49091950ee70d6bb57805",
+      "source": "maps/hangar_low/1.emissive.png"
+    },
+    {
+      "bytes": 1556599,
+      "destination": "Hangar2.png",
+      "sha256": "7b6434d01011052ff5b3a37c81e2e97bd01c82afdb8f16b8ce07d2b335c74aca",
+      "source": "maps/hangar_low/2.mali_Out.png"
+    },
+    {
+      "bytes": 78424,
+      "destination": "Hangar3.png",
+      "sha256": "e98733a93ffd0281b440a32eb59d773d236ffd1a4f3a8464869175a20c10bac0",
+      "source": "maps/hangar_low/3.mali_Out.png"
+    },
+    {
+      "bytes": 49841,
+      "destination": "Smoke.png",
+      "sha256": "299bc38776c5e2e296323cab6e4ab4e190f73873d3ab3166577b67070beaa0b8",
+      "source": "assets/particles/resources/explosion_smoke_white_stitched.png"
+    },
+    {
+      "bytes": 974807,
+      "destination": "MS1.png",
+      "sha256": "34008025e2ac454d354ddfe8950f92c91377f0795fce4cd7bdd9fceb0251939f",
+      "source": "assets/tanks/ussr1-MS-1.png"
+    },
+    {
+      "bytes": 5128435,
+      "destination": "bigTankIcons1.png",
+      "sha256": "4f146c3b2b84ebcff337659d99582245ec810e0e38aa37a1223d66f41770b41b",
+      "source": "assets/tanks/icons/bigTankIcons1.png"
+    },
+    {
+      "bytes": 428639,
+      "destination": "hangar_Out.png",
+      "sha256": "c4c4ae07f554aca6f5b73e49e5572c22355c6308c208aa3614c0cdb1e9c940c9",
+      "source": "assets/gfx/ui/hangar/hangar_Out.png"
+    },
+    {
+      "bytes": 290,
+      "destination": "blackGradTile.png",
+      "sha256": "ea4094447899171b83eae12b51ee5b3d30a011af55989d714ac04569d2acf685",
+      "source": "assets/gfx/ui/hangar/blackGradTile.png"
+    },
+    {
+      "bytes": 1967,
+      "destination": "thinRedLine.png",
+      "sha256": "145c8941380d8f1bf40148b15bd6de25b671b31644cfd11c09dcdea7c024a70b",
+      "source": "assets/gfx/ui/lobby_common/thinRedLine.png"
+    },
+    {
+      "bytes": 1639621,
+      "destination": "flags.png",
+      "sha256": "b21f6c7fb6ff55113537af80479a2596a25b5378449518f1ad82d26265ac0c4f",
+      "source": "assets/gfx/ui/lobby_common/flags.png"
+    },
+    {
+      "bytes": 5748345,
+      "destination": "bigTankIcons0.png",
+      "sha256": "c7025cb72042a2faeb30141e8685b52207d769cc35b8c8cd8f6f21b4504a2754",
+      "source": "assets/tanks/icons/bigTankIcons0.png"
+    },
+    {
+      "bytes": 717826,
+      "destination": "modulesTechTree_Out.png",
+      "sha256": "fab228f250a7fdc33e0658a2a035020440a7725ec2a8cfec6bfa5a5d289f7b91",
+      "source": "assets/gfx/ui/hangar/tech_tree/modules/modulesTechTree_Out.png"
+    },
+    {
+      "bytes": 233667,
+      "destination": "tankTechTree_Out.png",
+      "sha256": "951648f3af52081c05427831a6de65bc2fdb1dbbb4cad18f75a3ec6b9df2dc31",
+      "source": "assets/gfx/ui/hangar/tech_tree/tank/tankTechTree_Out.png"
+    },
+    {
+      "bytes": 1604,
+      "destination": "hangar_collector.png",
+      "sha256": "bdb929456fd1d5614d61404922894d219a2ed55b6e650fd6bbf62cf844d8241a",
+      "source": "assets/gfx/ui/hangar/icon_tank-collectible.webp"
+    }
+  ]
+}

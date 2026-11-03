@@ -1,0 +1,404 @@
+Header:
+    version: 161
+Prototypes:
+-   class: "UIControl"
+    name: "RoleProgressBar"
+    input: false
+    components:
+        UIOpacityComponent:
+            opacity: 1.000000
+        Anchor:
+            enabled: true
+            leftAnchorEnabled: true
+            leftAnchor: 25.000000
+        SizePolicy:
+            horizontalPolicy: "FixedSize"
+            horizontalValue: 205.000000
+            verticalPolicy: "FixedSize"
+            verticalValue: 96.000000
+        StyleSheet:
+            styles: "~res:/UI/Screens3/Color.style.yaml;~res:/UI/Screens3/OldFont.style.yaml;~res:/UI/Screens3/Battle/HUD/GameModes/RoleProgressBar.style.yaml"
+    children:
+    -   class: "UIControl"
+        name: "ProgressBar"
+        position: [54.000000, 72.000000]
+        size: [32.000000, 32.000000]
+        visible: true
+        input: false
+        components:
+            Anchor: {}
+            SizePolicy:
+                horizontalPolicy: "FixedSize"
+                horizontalValue: 136.000000
+                verticalPolicy: "FixedSize"
+                verticalValue: 4.000000
+        children:
+        -   class: "UIControl"
+            name: "Background"
+            size: [32.000000, 32.000000]
+            input: false
+            components:
+                Anchor:
+                    hCenterAnchorEnabled: true
+                    vCenterAnchorEnabled: true
+                LinearLayout: {}
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                    verticalPolicy: "PercentOfParent"
+            children:
+            -   class: "UIControl"
+                name: "Line"
+                size: [32.000000, 32.000000]
+                input: false
+                classes: "grey-shark-bg"
+                components:
+                    Background: {}
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                        verticalPolicy: "PercentOfParent"
+            -   class: "UIControl"
+                name: "Triangle"
+                size: [32.000000, 32.000000]
+                input: false
+                classes: "grey-shark-bg"
+                components:
+                    Background:
+                        drawType: "DRAW_ALIGNED"
+                        sprite: "~res:/Gfx/Battle/HUD/bossmode/bg_triangle"
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfContent"
+                        verticalPolicy: "PercentOfContent"
+        -   class: "UIControl"
+            name: "ProgressBarFill"
+            input: false
+            components:
+                Anchor:
+                    hCenterAnchorEnabled: true
+                    vCenterAnchorEnabled: true
+                LinearLayout: {}
+                SizePolicy:
+                    horizontalPolicy: "PercentOfParent"
+                    verticalPolicy: "PercentOfParent"
+            children:
+            -   class: "UIControl"
+                name: "Fill"
+                input: false
+                classes: "color-red_boss"
+                components:
+                    Background:
+                        drawType: "DRAW_FILL"
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                        horizontalValue: 88.000000
+                        verticalPolicy: "PercentOfParent"
+            -   class: "UIControl"
+                name: "Triangle"
+                input: false
+                classes: "color-red_boss"
+                components:
+                    Background:
+                        drawType: "DRAW_ALIGNED"
+                        sprite: "~res:/Gfx/Battle/HUD/bossmode/bg_triangle"
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfContent"
+                        verticalPolicy: "PercentOfContent"
+    -   class: "UIControl"
+        name: "Content"
+        size: [32.000000, 32.000000]
+        input: false
+        components:
+            LinearLayout:
+                orientation: "RightToLeft"
+                spacing: -48.000000
+            SizePolicy:
+                horizontalPolicy: "FixedSize"
+                horizontalValue: 205.000000
+                verticalPolicy: "FixedSize"
+                verticalValue: 96.000000
+        children:
+        -   class: "UIControl"
+            name: "RoleName"
+            position: [33.000000, 33.000000]
+            input: false
+            components:
+                Anchor:
+                    vCenterAnchorEnabled: true
+                    vCenterAnchor: 9.000000
+                SizePolicy:
+                    horizontalPolicy: "FixedSize"
+                    horizontalValue: 157.000000
+                    verticalPolicy: "FixedSize"
+                    verticalValue: 30.000000
+            children:
+            -   class: "UIControl"
+                name: "BackgroundWrapper"
+                input: false
+                components:
+                    Anchor: {}
+                    LinearLayout: {}
+                    SizePolicy:
+                        horizontalPolicy: "FixedSize"
+                        horizontalValue: 157.000000
+                        verticalPolicy: "FixedSize"
+                        verticalValue: 30.000000
+                children:
+                -   class: "UIControl"
+                    name: "Rectangle"
+                    size: [32.000000, 32.000000]
+                    input: false
+                    classes: "grey-shark-70-bg"
+                    components:
+                        Background: {}
+                        SizePolicy:
+                            horizontalPolicy: "FixedSize"
+                            horizontalValue: 142.000000
+                            verticalPolicy: "FixedSize"
+                            verticalValue: 30.000000
+                -   class: "UIControl"
+                    name: "Triangle"
+                    input: false
+                    components:
+                        Background:
+                            drawType: "DRAW_ALIGNED"
+                            sprite: "~res:/Gfx/Battle/HUD/bossmode/role-bg"
+                        Anchor:
+                            vCenterAnchorEnabled: true
+                        SizePolicy:
+                            horizontalPolicy: "FixedSize"
+                            horizontalValue: 15.000000
+                            verticalPolicy: "FixedSize"
+                            verticalValue: 30.000000
+            -   class: "UIControl"
+                name: "Name"
+                position: [0.000000, 0.000000]
+                size: [32.000000, 32.000000]
+                input: false
+                classes: "t-old-header6 white-wild-sand-text"
+                components:
+                    UITextComponent:
+                        text: "Rolerolerolerole"
+                    Anchor:
+                        leftAnchorEnabled: true
+                        leftAnchor: 38.000000
+                        vCenterAnchorEnabled: true
+                    SizePolicy:
+                        horizontalPolicy: "FixedSize"
+                        horizontalValue: 104.000000
+                        verticalPolicy: "FixedSize"
+                        verticalValue: 20.000000
+        -   class: "UIControl"
+            name: "RoleIcon"
+            pivot: [0.500000, 0.500000]
+            input: false
+            components:
+                Anchor:
+                    vCenterAnchorEnabled: true
+                SizePolicy:
+                    horizontalPolicy: "FixedSize"
+                    horizontalValue: 96.000000
+                    verticalPolicy: "FixedSize"
+                    verticalValue: 96.000000
+            children:
+            -   class: "UIControl"
+                name: "Icon"
+                pivot: [0.500000, 0.500000]
+                input: false
+                classes: "icon-link_boss"
+                components:
+                    Background:
+                        drawType: "DRAW_ALIGNED"
+                    Anchor:
+                        vCenterAnchorEnabled: true
+                    SizePolicy:
+                        horizontalPolicy: "FixedSize"
+                        horizontalValue: 96.000000
+                        verticalPolicy: "FixedSize"
+                        verticalValue: 96.000000
+            -   class: "UIControl"
+                name: "LevelWrapper"
+                input: false
+                components:
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                        hCenterAnchor: 2.000000
+                        bottomAnchorEnabled: true
+                        bottomAnchor: 6.000000
+                    SizePolicy:
+                        horizontalPolicy: "FixedSize"
+                        horizontalValue: 32.000000
+                        verticalPolicy: "FixedSize"
+                        verticalValue: 32.000000
+                children:
+                -   class: "UIControl"
+                    name: "Background"
+                    position: [0.000000, 0.000000]
+                    size: [32.000000, 32.000000]
+                    input: false
+                    components:
+                        Background:
+                            sprite: "~res:/Gfx/Battle/HUD/bossmode/bg_level"
+                        Anchor:
+                            hCenterAnchorEnabled: true
+                            vCenterAnchorEnabled: true
+                        SizePolicy:
+                            horizontalPolicy: "PercentOfContent"
+                            verticalPolicy: "PercentOfContent"
+                -   class: "UIControl"
+                    name: "Wings"
+                    input: false
+                    components:
+                        Background:
+                            sprite: "~res:/Gfx/Battle/HUD/bossmode/icon_wings"
+                        UIOpacityComponent: {}
+                        Anchor:
+                            hCenterAnchorEnabled: true
+                            vCenterAnchorEnabled: true
+                        SizePolicy:
+                            horizontalPolicy: "PercentOfContent"
+                            verticalPolicy: "PercentOfContent"
+                -   class: "UIControl"
+                    name: "Level"
+                    position: [5.500000, 1.000000]
+                    size: [32.000000, 32.000000]
+                    input: false
+                    classes: "t-old-header5 white-wild-sand-text"
+                    components:
+                        UITextComponent:
+                            text: "5"
+                        Anchor:
+                            hCenterAnchorEnabled: true
+                            vCenterAnchorEnabled: true
+                            vCenterAnchor: 0.000000
+                        SizePolicy:
+                            horizontalPolicy: "FixedSize"
+                            horizontalValue: 9.000000
+                            verticalPolicy: "FixedSize"
+                            verticalValue: 20.000000
+                -   class: "UIParticles"
+                    name: "Level_up"
+                    position: [16.000000, 17.000000]
+                    size: [32.000000, 32.000000]
+                    scale: [0.450000, 0.450000]
+                    pivot: [0.500000, 0.500000]
+                    input: false
+                    effectPath: "~res:/3d/FX/UI/Bossmode/Level_up.sc2"
+    -   class: "UIControl"
+        name: "BossLives"
+        position: [86.000000, 72.000000]
+        input: false
+        components:
+            Background: {}
+            Anchor:
+                hCenterAnchorEnabled: true
+                hCenterAnchor: 20.000000
+                bottomAnchorEnabled: true
+            LinearLayout: {}
+            SizePolicy:
+                horizontalPolicy: "FixedSize"
+                horizontalValue: 72.000000
+                verticalPolicy: "FixedSize"
+                verticalValue: 24.000000
+        children:
+        -   class: "UIControl"
+            name: "LifeBGWrapper"
+            position: [0.000000, 0.000000]
+            input: false
+            components:
+                LinearLayout: {}
+                IgnoreLayout: {}
+                SizePolicy:
+                    horizontalPolicy: "PercentOfChildrenSum"
+                    verticalPolicy: "PercentOfMaxChild"
+            children:
+            -   class: "UIControl"
+                name: "LifeBG_1"
+                input: false
+                components:
+                    Background:
+                        sprite: "~res:/Gfx/Battle/HUD/bossmode/icon_live-bg"
+                        perPixelAccuracy: "PER_PIXEL_ACCURACY_ENABLED"
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                        vCenterAnchorEnabled: true
+                    SizePolicy:
+                        horizontalPolicy: "FixedSize"
+                        horizontalValue: 24.000000
+                        verticalPolicy: "FixedSize"
+                        verticalValue: 24.000000
+            -   class: "UIControl"
+                name: "LifeBG_2"
+                position: [0.000000, 0.000000]
+                input: false
+                components:
+                    Background:
+                        sprite: "~res:/Gfx/Battle/HUD/bossmode/icon_live-bg"
+                        perPixelAccuracy: "PER_PIXEL_ACCURACY_ENABLED"
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                        vCenterAnchorEnabled: true
+                    SizePolicy:
+                        horizontalPolicy: "FixedSize"
+                        horizontalValue: 24.000000
+                        verticalPolicy: "FixedSize"
+                        verticalValue: 24.000000
+            -   class: "UIControl"
+                name: "LifeBG_3"
+                position: [0.000000, 0.000000]
+                input: false
+                components:
+                    Background:
+                        sprite: "~res:/Gfx/Battle/HUD/bossmode/icon_live-bg"
+                        perPixelAccuracy: "PER_PIXEL_ACCURACY_ENABLED"
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                        vCenterAnchorEnabled: true
+                    SizePolicy:
+                        horizontalPolicy: "FixedSize"
+                        horizontalValue: 24.000000
+                        verticalPolicy: "FixedSize"
+                        verticalValue: 24.000000
+        -   class: "UIControl"
+            name: "Life_1"
+            input: false
+            components:
+                Background:
+                    sprite: "~res:/Gfx/Battle/HUD/bossmode/icon_live"
+                    perPixelAccuracy: "PER_PIXEL_ACCURACY_ENABLED"
+                Anchor:
+                    hCenterAnchorEnabled: true
+                    vCenterAnchorEnabled: true
+                SizePolicy:
+                    horizontalPolicy: "FixedSize"
+                    horizontalValue: 24.000000
+                    verticalPolicy: "FixedSize"
+                    verticalValue: 24.000000
+        -   class: "UIControl"
+            name: "Life_2"
+            input: false
+            components:
+                Background:
+                    sprite: "~res:/Gfx/Battle/HUD/bossmode/icon_live"
+                    perPixelAccuracy: "PER_PIXEL_ACCURACY_ENABLED"
+                Anchor:
+                    hCenterAnchorEnabled: true
+                    vCenterAnchorEnabled: true
+                SizePolicy:
+                    horizontalPolicy: "FixedSize"
+                    horizontalValue: 24.000000
+                    verticalPolicy: "FixedSize"
+                    verticalValue: 24.000000
+        -   class: "UIControl"
+            name: "Life_3"
+            input: false
+            components:
+                Background:
+                    sprite: "~res:/Gfx/Battle/HUD/bossmode/icon_live"
+                    perPixelAccuracy: "PER_PIXEL_ACCURACY_ENABLED"
+                Anchor:
+                    hCenterAnchorEnabled: true
+                    vCenterAnchorEnabled: true
+                SizePolicy:
+                    horizontalPolicy: "FixedSize"
+                    horizontalValue: 24.000000
+                    verticalPolicy: "FixedSize"
+                    verticalValue: 24.000000

@@ -1,0 +1,16 @@
+animation AtgmMarkerExplosion
+{
+  ChangeProperty("MarkerContent", "UIOpacityComponent", "opacity", 1.0);
+
+  parallel
+  {
+    Opacity("MarkerContent", 0.0, 0.75);
+    ChangeProperty("MarkerContent","SizePolicy","horizontalValue", 175, 0.75);
+    ChangeProperty("MarkerContent","SizePolicy","verticalValue", 175, 0.75);
+  }
+
+  ChangeProperty("MarkerContent","SizePolicy","horizontalValue", 100);
+  ChangeProperty("MarkerContent","SizePolicy","verticalValue", 100);
+
+  Event("ATGM_MARKER_EXPLOSION_COMPLETE");
+}

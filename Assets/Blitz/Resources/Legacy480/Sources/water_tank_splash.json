@@ -1,0 +1,708 @@
+{
+  "legacyEmitters": [
+    {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emitter": {
+        "emissionAngle": 0.0,
+        "emissionRange": 30.0,
+        "emissionVector": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "emissionVectorInverted": true,
+        "name": "water_tank_splash",
+        "shortEffect": false,
+        "size": [
+          2.0,
+          0.1,
+          0.0
+        ],
+        "type": 1,
+        "radius": 0,
+        "layers": [
+          {
+            "activeLODS": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "alphaOverLife": [
+              2,
+              [
+                [
+                  1,
+                  0.5957,
+                  0.0
+                ],
+                [
+                  1,
+                  0.0584,
+                  0.6764
+                ],
+                [
+                  1,
+                  0.0,
+                  0.814
+                ],
+                [
+                  1,
+                  0.0,
+                  1.0
+                ]
+              ]
+            ],
+            "blending": 1,
+            "degradeStrategy": 2,
+            "deltaTime": 0.0,
+            "deltaVariation": 0.0,
+            "effectFormat": 1,
+            "enableFog": true,
+            "enableFrameBlend": false,
+            "endTime": 0.1,
+            "force0": [
+              0.0,
+              0.0,
+              -10.0
+            ],
+            "forceCount": 1,
+            "frameOverLifeEnabled": true,
+            "frameOverLifeFPS": 25.0,
+            "inheritPosition": false,
+            "isLong": false,
+            "isLooped": false,
+            "layerType": "particles",
+            "life": {
+              "externalVariable": "velocity",
+              "modification_line": [
+                0.0,
+                0.3,
+                0.994,
+                1.0
+              ],
+              "value_line": 3.0
+            },
+            "loopEndTime": 4.0,
+            "loopSpriteAnimation": false,
+            "loopVariation": 0.0,
+            "name": "water1",
+            "number": 300.0,
+            "particleOrientation": 1,
+            "pivotPoint": [
+              0.0,
+              0.0
+            ],
+            "randomFrameOnStart": false,
+            "randomSpinDirection": true,
+            "scaleVelocityBase": 0.0,
+            "scaleVelocityFactor": 0.0,
+            "size": [
+              1.5,
+              1.5
+            ],
+            "sizeOverLifeXY": [
+              0.0,
+              [
+                1.0,
+                1.0
+              ],
+              0.99,
+              [
+                5.0,
+                5.0
+              ]
+            ],
+            "spin": 5.0,
+            "spinVariation": 5.0,
+            "sprite": "../../../../Data/Gfx/Particles/alpha/dust_water",
+            "startTime": 0.0,
+            "type": "layer",
+            "velocity": 2.0,
+            "velocityOverLife": [
+              2,
+              [
+                [
+                  1,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1,
+                  0.2,
+                  0.99
+                ]
+              ]
+            ],
+            "velocityVariation": {
+              "externalVariable": "velocity",
+              "modification_line": [
+                0.0,
+                0.2,
+                0.99,
+                1.0
+              ],
+              "value_line": 7.0
+            },
+            "legacyLod": 1,
+            "legacyPivot": [
+              0.0,
+              0.0
+            ],
+            "legacySpinDirection": true,
+            "size3d": [
+              1.5,
+              1.5,
+              1
+            ],
+            "sizeOverLife3ds": [
+              2,
+              [
+                [
+                  1,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1,
+                  5.0,
+                  0.99
+                ]
+              ],
+              [
+                [
+                  1,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1,
+                  5.0,
+                  0.99
+                ]
+              ],
+              [
+                [
+                  1,
+                  1,
+                  0.0
+                ],
+                [
+                  1,
+                  1,
+                  0.99
+                ]
+              ]
+            ],
+            "spin3d": [
+              0,
+              0,
+              5.0
+            ],
+            "spinVariation3d": [
+              0,
+              0,
+              5.0
+            ],
+            "legacyForces": [
+              {
+                "force": [
+                  0.0,
+                  0.0,
+                  -10.0
+                ],
+                "overLife": 1
+              }
+            ],
+            "spritePath": "../../../../Data/Gfx/Particles/alpha/dust_water"
+          },
+          {
+            "activeLODS": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "alphaOverLife": [
+              2,
+              [
+                [
+                  1,
+                  0.3431,
+                  0.0
+                ],
+                [
+                  1,
+                  0.0,
+                  0.814
+                ],
+                [
+                  1,
+                  0.0,
+                  1.0
+                ]
+              ]
+            ],
+            "blending": 1,
+            "degradeStrategy": 2,
+            "deltaTime": 0.0,
+            "deltaVariation": 0.0,
+            "effectFormat": 1,
+            "enableFog": true,
+            "enableFrameBlend": false,
+            "endTime": 0.1,
+            "force0": [
+              0.0,
+              0.0,
+              -10.0
+            ],
+            "forceCount": 1,
+            "frameOverLifeEnabled": true,
+            "frameOverLifeFPS": 25.0,
+            "inheritPosition": false,
+            "isLong": false,
+            "isLooped": false,
+            "layerType": "particles",
+            "life": {
+              "externalVariable": "velocity",
+              "modification_line": [
+                0.0,
+                0.3,
+                0.988,
+                1.0
+              ],
+              "value_line": 3.0
+            },
+            "loopEndTime": 4.0,
+            "loopSpriteAnimation": false,
+            "loopVariation": 0.0,
+            "name": "water2",
+            "number": 300.0,
+            "particleOrientation": 1,
+            "pivotPoint": [
+              0.0,
+              0.0
+            ],
+            "randomFrameOnStart": false,
+            "randomSpinDirection": true,
+            "scaleVelocityBase": 0.0,
+            "scaleVelocityFactor": 0.0,
+            "size": [
+              1.5,
+              1.5
+            ],
+            "sizeOverLifeXY": [
+              0.0,
+              [
+                1.0,
+                1.0
+              ],
+              0.99,
+              [
+                5.0,
+                5.0
+              ]
+            ],
+            "spin": 5.0,
+            "spinVariation": 5.0,
+            "sprite": "../../../../Data/Gfx/Particles/alpha/water",
+            "startTime": 0.0,
+            "type": "layer",
+            "velocity": 2.0,
+            "velocityOverLife": [
+              2,
+              [
+                [
+                  1,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1,
+                  0.2,
+                  0.99
+                ]
+              ]
+            ],
+            "velocityVariation": {
+              "externalVariable": "velocity",
+              "modification_line": [
+                0.0,
+                0.2,
+                1.0,
+                1.0
+              ],
+              "value_line": 7.0
+            },
+            "legacyLod": 1,
+            "legacyPivot": [
+              0.0,
+              0.0
+            ],
+            "legacySpinDirection": true,
+            "size3d": [
+              1.5,
+              1.5,
+              1
+            ],
+            "sizeOverLife3ds": [
+              2,
+              [
+                [
+                  1,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1,
+                  5.0,
+                  0.99
+                ]
+              ],
+              [
+                [
+                  1,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1,
+                  5.0,
+                  0.99
+                ]
+              ],
+              [
+                [
+                  1,
+                  1,
+                  0.0
+                ],
+                [
+                  1,
+                  1,
+                  0.99
+                ]
+              ]
+            ],
+            "spin3d": [
+              0,
+              0,
+              5.0
+            ],
+            "spinVariation3d": [
+              0,
+              0,
+              5.0
+            ],
+            "legacyForces": [
+              {
+                "force": [
+                  0.0,
+                  0.0,
+                  -10.0
+                ],
+                "overLife": 1
+              }
+            ],
+            "spritePath": "../../../../Data/Gfx/Particles/alpha/water"
+          }
+        ]
+      }
+    },
+    {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emitter": {
+        "emissionAngle": 0.0,
+        "emissionRange": 0.0,
+        "emissionVector": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "emissionVectorInverted": true,
+        "name": "water2",
+        "radius": 1.0,
+        "shortEffect": false,
+        "size": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 0,
+        "layers": [
+          {
+            "activeLODS": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "alphaOverLife": [
+              2,
+              [
+                [
+                  1,
+                  0.0,
+                  0.0
+                ],
+                [
+                  1,
+                  0.2736,
+                  0.3101
+                ],
+                [
+                  1,
+                  0.1885,
+                  0.4729
+                ],
+                [
+                  1,
+                  0.0388,
+                  0.7907
+                ],
+                [
+                  1,
+                  0.0,
+                  0.99
+                ]
+              ]
+            ],
+            "angle": 90.0,
+            "angleVariation": 90.0,
+            "blending": 1,
+            "colorOverLife": [
+              0.9215686274509803,
+              0.9921568627450981,
+              1.0,
+              1.0
+            ],
+            "degradeStrategy": 2,
+            "deltaTime": 0.0,
+            "deltaVariation": 0.0,
+            "effectFormat": 1,
+            "enableFog": true,
+            "enableFrameBlend": false,
+            "endTime": 0.1,
+            "force0": [
+              0.0,
+              0.0,
+              0.1
+            ],
+            "forceCount": 1,
+            "forceOverLife0": [
+              0.0,
+              1.0,
+              0.99,
+              0.0
+            ],
+            "frameOverLifeEnabled": false,
+            "frameOverLifeFPS": 6.0,
+            "inheritPosition": false,
+            "isLong": false,
+            "isLooped": false,
+            "layerType": "particles",
+            "life": 4.0,
+            "lifeVariation": 1.0,
+            "loopEndTime": 4.0,
+            "loopSpriteAnimation": false,
+            "loopVariation": 0.0,
+            "name": "water3",
+            "number": 200.0,
+            "particleOrientation": 8,
+            "pivotPoint": [
+              0.0,
+              0.0
+            ],
+            "randomFrameOnStart": false,
+            "randomSpinDirection": true,
+            "scaleVelocityBase": 0.0,
+            "scaleVelocityFactor": 0.0,
+            "size": {
+              "externalVariable": "velocity",
+              "modification_line": [
+                0.0,
+                [
+                  0.5,
+                  0.5
+                ],
+                1.0,
+                [
+                  1.0,
+                  1.0
+                ]
+              ],
+              "value_line": [
+                3.0,
+                3.0
+              ]
+            },
+            "sizeOverLifeXY": [
+              0.0,
+              [
+                1.0,
+                1.0
+              ],
+              1.0,
+              [
+                4.0,
+                4.0
+              ]
+            ],
+            "spin": 5.0,
+            "spinVariation": 5.0,
+            "sprite": "../../../../Data/Gfx/Particles/alpha/water",
+            "startTime": 0.0,
+            "type": "layer",
+            "velocity": {
+              "externalVariable": "velocity",
+              "modification_line": [
+                0.0,
+                0.5,
+                0.994,
+                1.0
+              ],
+              "value_line": 10.0
+            },
+            "velocityOverLife": [
+              2,
+              [
+                [
+                  1,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1,
+                  0.04,
+                  0.02
+                ],
+                [
+                  1,
+                  0.0,
+                  0.3
+                ]
+              ]
+            ],
+            "legacyLod": 1,
+            "legacyPivot": [
+              0.0,
+              0.0
+            ],
+            "legacySpinDirection": true,
+            "size3d": {
+              "externalVariable": "velocity",
+              "modification_line": [
+                0.0,
+                [
+                  0.5,
+                  0.5
+                ],
+                1.0,
+                [
+                  1.0,
+                  1.0
+                ]
+              ],
+              "value_line": [
+                3.0,
+                3.0
+              ]
+            },
+            "sizeOverLife3ds": [
+              2,
+              [
+                [
+                  1,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1,
+                  4.0,
+                  1.0
+                ]
+              ],
+              [
+                [
+                  1,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1,
+                  4.0,
+                  1.0
+                ]
+              ],
+              [
+                [
+                  1,
+                  1,
+                  0.0
+                ],
+                [
+                  1,
+                  1,
+                  1.0
+                ]
+              ]
+            ],
+            "angle3d": [
+              0,
+              0,
+              90.0
+            ],
+            "angleVariation3d": [
+              0,
+              0,
+              90.0
+            ],
+            "spin3d": [
+              0,
+              0,
+              5.0
+            ],
+            "spinVariation3d": [
+              0,
+              0,
+              5.0
+            ],
+            "legacyForces": [
+              {
+                "force": [
+                  0.0,
+                  0.0,
+                  0.1
+                ],
+                "overLife": [
+                  2,
+                  [
+                    [
+                      1,
+                      1.0,
+                      0.0
+                    ],
+                    [
+                      1,
+                      0.0,
+                      0.99
+                    ]
+                  ]
+                ]
+              }
+            ],
+            "spritePath": "../../../../Data/Gfx/Particles/alpha/water"
+          }
+        ]
+      }
+    }
+  ]
+}

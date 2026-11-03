@@ -1,0 +1,120 @@
+{
+  "albedos": {},
+  "nodes": {
+    "gun_01": {
+      "local": [
+        0.0,
+        0.381027,
+        -1.412427
+      ],
+      "parent": "turret_02",
+      "world": [
+        0.0,
+        2.480839,
+        -0.890417
+      ]
+    },
+    "gun_01_shoot_pos": {
+      "local": [
+        -1e-05,
+        -0.000289,
+        -4.094131
+      ],
+      "parent": "gun_01",
+      "world": [
+        -1e-05,
+        2.48055,
+        -4.984548
+      ]
+    },
+    "gun_02": {
+      "local": [
+        0.0,
+        0.381027,
+        -1.412427
+      ],
+      "parent": "turret_02",
+      "world": [
+        0.0,
+        2.480839,
+        -0.890417
+      ]
+    },
+    "gun_02_shoot_pos": {
+      "local": [
+        -1e-06,
+        -0.000293,
+        -4.20584
+      ],
+      "parent": "gun_02",
+      "world": [
+        -1e-06,
+        2.480546,
+        -5.096257
+      ]
+    },
+    "turret_01": {
+      "local": [
+        0.0,
+        2.099812,
+        0.52201
+      ],
+      "parent": "",
+      "world": [
+        0.0,
+        2.099812,
+        0.52201
+      ]
+    },
+    "turret_02": {
+      "local": [
+        0.0,
+        2.099812,
+        0.52201
+      ],
+      "parent": "",
+      "world": [
+        0.0,
+        2.099812,
+        0.52201
+      ]
+    }
+  },
+  "rig": {
+    "gun": "gun_01",
+    "guns": [
+      "gun_01",
+      "gun_01",
+      "gun_01"
+    ],
+    "muzzle": "gun_01_shoot_pos",
+    "muzzles": {
+      "gun_01": "gun_01_shoot_pos"
+    },
+    "turret": "turret_01",
+    "turrets": {
+      "turret_01": {
+        "guns": [
+          "gun_01",
+          "gun_01",
+          "gun_01"
+        ],
+        "muzzles": {
+          "gun_01": "gun_01_shoot_pos"
+        }
+      },
+      "turret_02": {
+        "guns": [
+          "gun_01",
+          "gun_01",
+          "gun_01",
+          "gun_02"
+        ],
+        "muzzles": {
+          "gun_01": "gun_01_shoot_pos",
+          "gun_02": "gun_02_shoot_pos"
+        }
+      }
+    }
+  }
+}

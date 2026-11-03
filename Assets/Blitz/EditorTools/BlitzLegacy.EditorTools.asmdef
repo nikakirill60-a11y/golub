@@ -1,0 +1,32 @@
+{
+  "name": "BlitzLegacy.EditorTools",
+  "rootNamespace": "BlitzLegacy.EditorTools",
+  "references": [
+    "BlitzLegacy.Core",
+    "BlitzLegacy.Runtime",
+    "BlitzLegacy.Network",
+    "Fusion.Unity",
+    "Fusion.Unity.Editor",
+    "Unity.InputSystem",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.Collections",
+    "Obfuz.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [
+    {
+      "name": "io.sentry.unity",
+      "expression": "4.10.3",
+      "define": "BLITZ_SENTRY"
+    }
+  ],
+  "noEngineReferences": false
+}

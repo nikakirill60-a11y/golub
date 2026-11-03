@@ -1,0 +1,162 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.0,
+      0.06,
+      0.0
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "JAGDTIGERSDKFZ185SNOWSTORMArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 352,
+      "vertices": 440
+    },
+    {
+      "armor": 0,
+      "material": "JAGDTIGERSDKFZ185SNOWSTORMArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 125,
+      "material": "JAGDTIGERSDKFZ185SNOWSTORMArmor_armor_hull_plate125_125",
+      "mount": "hull",
+      "name": "armor_hull_plate125_125",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 157,
+      "material": "JAGDTIGERSDKFZ185SNOWSTORMArmor_armor_hull_plate157_157",
+      "mount": "hull",
+      "name": "armor_hull_plate157_157",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 52,
+      "vertices": 156
+    },
+    {
+      "armor": 262,
+      "material": "JAGDTIGERSDKFZ185SNOWSTORMArmor_armor_hull_plate262_262",
+      "mount": "hull",
+      "name": "armor_hull_plate262_262",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 48,
+      "vertices": 144
+    },
+    {
+      "armor": 26,
+      "material": "JAGDTIGERSDKFZ185SNOWSTORMArmor_armor_hull_plate26_26",
+      "mount": "hull",
+      "name": "armor_hull_plate26_26",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 31,
+      "material": "JAGDTIGERSDKFZ185SNOWSTORMArmor_armor_hull_plate31_31",
+      "mount": "hull",
+      "name": "armor_hull_plate31_31",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 42,
+      "material": "JAGDTIGERSDKFZ185SNOWSTORMArmor_armor_hull_plate42_42",
+      "mount": "hull",
+      "name": "armor_hull_plate42_42",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 84,
+      "material": "JAGDTIGERSDKFZ185SNOWSTORMArmor_armor_hull_plate84_84",
+      "mount": "hull",
+      "name": "armor_hull_plate84_84",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 72,
+      "vertices": 216
+    },
+    {
+      "armor": 0,
+      "material": "JAGDTIGERSDKFZ185SNOWSTORMArmor_gun_01_mask_turret_01_plate0s_0",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate0s_0",
+      "screen": true,
+      "submesh": 9,
+      "triangles": 17,
+      "vertices": 51
+    },
+    {
+      "armor": 150,
+      "material": "JAGDTIGERSDKFZ185SNOWSTORMArmor_gun_01_mask_turret_01_plate150s_150",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate150s_150",
+      "screen": true,
+      "submesh": 10,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 240,
+      "material": "JAGDTIGERSDKFZ185SNOWSTORMArmor_gun_01_mask_turret_01_plate240s_240",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate240s_240",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 41,
+      "vertices": 123
+    },
+    {
+      "armor": 100,
+      "material": "JAGDTIGERSDKFZ185SNOWSTORMArmor_gun_02_mask_turret_01_plate100s_100",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate100s_100",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 17,
+      "vertices": 51
+    },
+    {
+      "armor": 145,
+      "material": "JAGDTIGERSDKFZ185SNOWSTORMArmor_gun_02_mask_turret_01_plate145s_145",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate145s_145",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 25,
+      "vertices": 75
+    },
+    {
+      "armor": 150,
+      "material": "JAGDTIGERSDKFZ185SNOWSTORMArmor_gun_02_mask_turret_01_plate150s_150",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate150s_150",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 16,
+      "vertices": 48
+    }
+  ]
+}

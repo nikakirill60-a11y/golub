@@ -1,0 +1,207 @@
+{
+  "mountOffsets": {
+    "gun_04": [
+      0.0,
+      -0.0,
+      -0.13
+    ],
+    "hull": [
+      0.0,
+      0.06,
+      -0.02
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "JAGDPZE100Armor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 352,
+      "vertices": 354
+    },
+    {
+      "armor": 0,
+      "material": "JAGDPZE100Armor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 120,
+      "material": "JAGDPZE100Armor_armor_hull_plate120_120",
+      "mount": "hull",
+      "name": "armor_hull_plate120_120",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 150,
+      "material": "JAGDPZE100Armor_armor_hull_plate150_150",
+      "mount": "hull",
+      "name": "armor_hull_plate150_150",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 150,
+      "material": "JAGDPZE100Armor_armor_hull_plate150s_150",
+      "mount": "hull",
+      "name": "armor_hull_plate150s_150",
+      "screen": true,
+      "submesh": 4,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 160,
+      "material": "JAGDPZE100Armor_armor_hull_plate160_160",
+      "mount": "hull",
+      "name": "armor_hull_plate160_160",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 180,
+      "material": "JAGDPZE100Armor_armor_hull_plate180s_180",
+      "mount": "hull",
+      "name": "armor_hull_plate180s_180",
+      "screen": true,
+      "submesh": 6,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 200,
+      "material": "JAGDPZE100Armor_armor_hull_plate200_200",
+      "mount": "hull",
+      "name": "armor_hull_plate200_200",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 250,
+      "material": "JAGDPZE100Armor_armor_hull_plate250_250",
+      "mount": "hull",
+      "name": "armor_hull_plate250_250",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 72,
+      "vertices": 216
+    },
+    {
+      "armor": 300,
+      "material": "JAGDPZE100Armor_armor_hull_plate300_300",
+      "mount": "hull",
+      "name": "armor_hull_plate300_300",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 30,
+      "material": "JAGDPZE100Armor_armor_hull_plate30_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30_30",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 17,
+      "vertices": 51
+    },
+    {
+      "armor": 40,
+      "material": "JAGDPZE100Armor_armor_hull_plate40_40",
+      "mount": "hull",
+      "name": "armor_hull_plate40_40",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 60,
+      "material": "JAGDPZE100Armor_armor_hull_plate60s_60",
+      "mount": "hull",
+      "name": "armor_hull_plate60s_60",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 65,
+      "material": "JAGDPZE100Armor_armor_hull_plate65_65",
+      "mount": "hull",
+      "name": "armor_hull_plate65_65",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 53,
+      "vertices": 159
+    },
+    {
+      "armor": 80,
+      "material": "JAGDPZE100Armor_armor_hull_plate80_80",
+      "mount": "hull",
+      "name": "armor_hull_plate80_80",
+      "screen": false,
+      "submesh": 14,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 0,
+      "material": "JAGDPZE100Armor_gun_04_mask_turret_01_plate0s_0",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_01_plate0s_0",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 33,
+      "vertices": 99
+    },
+    {
+      "armor": 150,
+      "material": "JAGDPZE100Armor_gun_04_mask_turret_01_plate150s_150",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_01_plate150s_150",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 200,
+      "material": "JAGDPZE100Armor_gun_04_mask_turret_01_plate200s_200",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_01_plate200s_200",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 19,
+      "vertices": 57
+    },
+    {
+      "armor": 250,
+      "material": "JAGDPZE100Armor_gun_04_mask_turret_01_plate250s_250",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_01_plate250s_250",
+      "screen": true,
+      "submesh": 18,
+      "triangles": 42,
+      "vertices": 126
+    }
+  ]
+}

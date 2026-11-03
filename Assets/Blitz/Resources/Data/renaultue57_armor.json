@@ -1,0 +1,75 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "RENAULTUE57Armor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 360,
+      "vertices": 384
+    },
+    {
+      "armor": 0,
+      "material": "RENAULTUE57Armor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 6,
+      "material": "RENAULTUE57Armor_armor_hull_plate6_6",
+      "mount": "hull",
+      "name": "armor_hull_plate6_6",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 200,
+      "vertices": 600
+    },
+    {
+      "armor": 9,
+      "material": "RENAULTUE57Armor_armor_hull_plate9_9",
+      "mount": "hull",
+      "name": "armor_hull_plate9_9",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 216,
+      "vertices": 648
+    },
+    {
+      "armor": 0,
+      "material": "RENAULTUE57Armor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 6,
+      "material": "RENAULTUE57Armor_armor_turret_02_plate6_6",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate6_6",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 107,
+      "vertices": 321
+    },
+    {
+      "armor": 9,
+      "material": "RENAULTUE57Armor_armor_turret_02_plate9_9",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate9_9",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 39,
+      "vertices": 117
+    }
+  ]
+}

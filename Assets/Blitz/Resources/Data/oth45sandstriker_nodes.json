@@ -1,0 +1,69 @@
+{
+  "albedos": {
+    "gun_01": "OTH45_SANDSTRIKER_2",
+    "hull_vis_sheet1": "OTH45_SANDSTRIKER_2",
+    "turret_01_sheet1": "OTH45_SANDSTRIKER_2"
+  },
+  "nodes": {
+    "gun_01": {
+      "local": [
+        0.0,
+        0.66428,
+        -0.771312
+      ],
+      "parent": "turret_01",
+      "world": [
+        0.0,
+        2.040867,
+        -0.238314
+      ]
+    },
+    "gun_01_shoot_pos": {
+      "local": [
+        -2e-06,
+        -0.002043,
+        -6.384251
+      ],
+      "parent": "gun_01",
+      "world": [
+        -2e-06,
+        2.038824,
+        -6.622565
+      ]
+    },
+    "turret_01": {
+      "local": [
+        0.0,
+        1.376587,
+        0.532998
+      ],
+      "parent": "",
+      "world": [
+        0.0,
+        1.376587,
+        0.532998
+      ]
+    }
+  },
+  "rig": {
+    "gun": "gun_01",
+    "guns": [
+      "gun_01"
+    ],
+    "muzzle": "gun_01_shoot_pos",
+    "muzzles": {
+      "gun_01": "gun_01_shoot_pos"
+    },
+    "turret": "turret_01",
+    "turrets": {
+      "turret_01": {
+        "guns": [
+          "gun_01"
+        ],
+        "muzzles": {
+          "gun_01": "gun_01_shoot_pos"
+        }
+      }
+    }
+  }
+}

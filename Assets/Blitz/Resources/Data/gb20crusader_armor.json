@@ -1,0 +1,185 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GB20CRUSADERArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 300,
+      "vertices": 401
+    },
+    {
+      "armor": 0,
+      "material": "GB20CRUSADERArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 10,
+      "material": "GB20CRUSADERArmor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 14,
+      "material": "GB20CRUSADERArmor_armor_hull_plate14_14",
+      "mount": "hull",
+      "name": "armor_hull_plate14_14",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 78,
+      "vertices": 234
+    },
+    {
+      "armor": 22,
+      "material": "GB20CRUSADERArmor_armor_hull_plate22_22",
+      "mount": "hull",
+      "name": "armor_hull_plate22_22",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 27,
+      "material": "GB20CRUSADERArmor_armor_hull_plate27_27",
+      "mount": "hull",
+      "name": "armor_hull_plate27_27",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 46,
+      "vertices": 138
+    },
+    {
+      "armor": 32,
+      "material": "GB20CRUSADERArmor_armor_hull_plate32_32",
+      "mount": "hull",
+      "name": "armor_hull_plate32_32",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 7,
+      "material": "GB20CRUSADERArmor_armor_hull_plate7_7",
+      "mount": "hull",
+      "name": "armor_hull_plate7_7",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 0,
+      "material": "GB20CRUSADERArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 19,
+      "material": "GB20CRUSADERArmor_armor_turret_01_plate19_19",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate19_19",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 33,
+      "vertices": 99
+    },
+    {
+      "armor": 23,
+      "material": "GB20CRUSADERArmor_armor_turret_01_plate23_23",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate23_23",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 39,
+      "material": "GB20CRUSADERArmor_armor_turret_01_plate39_39",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate39_39",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 269,
+      "vertices": 807
+    },
+    {
+      "armor": 9,
+      "material": "GB20CRUSADERArmor_armor_turret_01_plate9_9",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate9_9",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 0,
+      "material": "GB20CRUSADERArmor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 19,
+      "vertices": 57
+    },
+    {
+      "armor": 12,
+      "material": "GB20CRUSADERArmor_armor_turret_02_plate12_12",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate12_12",
+      "screen": false,
+      "submesh": 14,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 23,
+      "material": "GB20CRUSADERArmor_armor_turret_02_plate23_23",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate23_23",
+      "screen": false,
+      "submesh": 15,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 28,
+      "material": "GB20CRUSADERArmor_armor_turret_02_plate28_28",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate28_28",
+      "screen": false,
+      "submesh": 16,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 51,
+      "material": "GB20CRUSADERArmor_armor_turret_02_plate51_51",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate51_51",
+      "screen": false,
+      "submesh": 17,
+      "triangles": 40,
+      "vertices": 120
+    }
+  ]
+}

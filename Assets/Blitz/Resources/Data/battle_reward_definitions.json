@@ -1,0 +1,331 @@
+{
+  "definitions": {
+    "armor_piercer": {
+      "descKey": "rewards:armor_piercer/desc",
+      "gold": 20,
+      "nameKey": "rewards:armor_piercer/name",
+      "oneTime": false,
+      "rare": false,
+      "rect": [
+        770.0,
+        1256.0,
+        123.0,
+        156.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "beta_tester": {
+      "descKey": "rewards:beta_tester/desc",
+      "gold": 500,
+      "nameKey": "rewards:beta_tester/name",
+      "oneTime": true,
+      "rare": true,
+      "rect": [
+        1383.0,
+        1.0,
+        158.0,
+        165.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "billotte": {
+      "descKey": "rewards:billotte/desc",
+      "gold": 750,
+      "nameKey": "rewards:billotte/name",
+      "oneTime": false,
+      "rare": true,
+      "rect": [
+        337.0,
+        1747.0,
+        137.0,
+        161.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "bombardier": {
+      "descKey": "rewards:bombardier/desc",
+      "gold": 350,
+      "nameKey": "rewards:bombardier/name",
+      "oneTime": false,
+      "rare": true,
+      "rect": [
+        770.0,
+        940.0,
+        123.0,
+        156.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "bruno_pietro": {
+      "descKey": "rewards:bruno_pietro/desc",
+      "gold": 1700,
+      "nameKey": "rewards:bruno_pietro/name",
+      "oneTime": false,
+      "rare": true,
+      "rect": [
+        501.0,
+        335.0,
+        148.0,
+        150.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "defender": {
+      "descKey": "rewards:defender/desc",
+      "gold": 300,
+      "nameKey": "rewards:defender/name",
+      "oneTime": false,
+      "rare": true,
+      "rect": [
+        337.0,
+        1584.0,
+        138.0,
+        161.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "fadin": {
+      "descKey": "rewards:fadin/desc",
+      "gold": 300,
+      "nameKey": "rewards:fadin/name",
+      "oneTime": false,
+      "rare": true,
+      "rect": [
+        337.0,
+        1277.0,
+        150.0,
+        151.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "first_blood": {
+      "descKey": "rewards:first_blood/desc",
+      "gold": 250,
+      "nameKey": "rewards:first_blood/name",
+      "oneTime": true,
+      "rare": true,
+      "rect": [
+        1.0,
+        1.0,
+        185.0,
+        183.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "first_victory": {
+      "descKey": "rewards:first_victory/desc",
+      "gold": 250,
+      "nameKey": "rewards:first_victory/name",
+      "oneTime": true,
+      "rare": true,
+      "rect": [
+        896.0,
+        1.0,
+        154.0,
+        174.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "kolobanov": {
+      "descKey": "rewards:kolobanov/desc",
+      "gold": 500,
+      "nameKey": "rewards:kolobanov/name",
+      "oneTime": false,
+      "rare": true,
+      "rect": [
+        175.0,
+        666.0,
+        153.0,
+        156.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "lafayette_pool": {
+      "descKey": "rewards:lafayette_pool/desc",
+      "gold": 200,
+      "nameKey": "rewards:lafayette_pool/name",
+      "oneTime": false,
+      "rare": true,
+      "rect": [
+        337.0,
+        642.0,
+        141.0,
+        163.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "lehvaslaiho": {
+      "descKey": "rewards:lehvaslaiho/desc",
+      "gold": 50,
+      "nameKey": "rewards:lehvaslaiho/name",
+      "oneTime": false,
+      "rare": false,
+      "rect": [
+        337.0,
+        186.0,
+        167.0,
+        147.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "mastery_mark_1": {
+      "descKey": "rewards:mastery_mark/desc",
+      "gold": 300,
+      "nameKey": "rewards:mastery_mark_1/name",
+      "oneTime": false,
+      "rare": true,
+      "rect": [
+        1795.0,
+        487.0,
+        140.0,
+        144.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "mastery_mark_2": {
+      "descKey": "rewards:mastery_mark/desc",
+      "gold": 200,
+      "nameKey": "rewards:mastery_mark_2/name",
+      "oneTime": false,
+      "rare": true,
+      "rect": [
+        1653.0,
+        487.0,
+        140.0,
+        144.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "mastery_mark_3": {
+      "descKey": "rewards:mastery_mark/desc",
+      "gold": 125,
+      "nameKey": "rewards:mastery_mark_3/name",
+      "oneTime": false,
+      "rare": true,
+      "rect": [
+        1511.0,
+        487.0,
+        140.0,
+        144.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "mastery_mark_m": {
+      "descKey": "rewards:mastery_mark/desc",
+      "gold": 400,
+      "nameKey": "rewards:mastery_mark_m/name",
+      "oneTime": false,
+      "rare": true,
+      "rect": [
+        629.0,
+        951.0,
+        139.0,
+        144.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "nikolas": {
+      "descKey": "rewards:nikolas/desc",
+      "gold": 150,
+      "nameKey": "rewards:nikolas/name",
+      "oneTime": false,
+      "rare": true,
+      "rect": [
+        681.0,
+        186.0,
+        152.0,
+        146.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "orlik": {
+      "descKey": "rewards:orlik/desc",
+      "gold": 100,
+      "nameKey": "rewards:orlik/name",
+      "oneTime": false,
+      "rare": false,
+      "rect": [
+        1.0,
+        1473.0,
+        156.0,
+        161.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "oskin": {
+      "descKey": "rewards:oskin/desc",
+      "gold": 75,
+      "nameKey": "rewards:oskin/name",
+      "oneTime": false,
+      "rare": false,
+      "rect": [
+        490.0,
+        1436.0,
+        137.0,
+        151.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "radley_walters": {
+      "descKey": "rewards:radley_walters/desc",
+      "gold": 150,
+      "nameKey": "rewards:radley_walters/name",
+      "oneTime": false,
+      "rare": true,
+      "rect": [
+        175.0,
+        986.0,
+        143.0,
+        166.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "rassenay": {
+      "descKey": "rewards:rassenay/desc",
+      "gold": 525,
+      "nameKey": "rewards:rassenay/name",
+      "oneTime": false,
+      "rare": true,
+      "rect": [
+        337.0,
+        335.0,
+        162.0,
+        150.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "tarzcay": {
+      "descKey": "rewards:tarzcay/desc",
+      "gold": 2500,
+      "nameKey": "rewards:tarzcay/name",
+      "oneTime": false,
+      "rare": true,
+      "rect": [
+        337.0,
+        964.0,
+        147.0,
+        156.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    },
+    "warrior": {
+      "descKey": "rewards:warrior/desc",
+      "gold": 150,
+      "nameKey": "rewards:warrior/name",
+      "oneTime": false,
+      "rare": false,
+      "rect": [
+        490.0,
+        487.0,
+        137.0,
+        161.0
+      ],
+      "sheet": "res://assets/gfx/ui/lobby_common/achievements/achievements.png"
+    }
+  },
+  "source": {
+    "bytes": 11245,
+    "sha256": "5751c07a531fe868c99e474285c15224b1f877be1345c35190169f7c46458e62",
+    "source": "scripts/_player_data.gd"
+  }
+}

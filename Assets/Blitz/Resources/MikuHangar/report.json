@@ -1,0 +1,322 @@
+{
+ "counts": {
+  "nodes": 184,
+  "renderers": 149,
+  "meshes": 57,
+  "vertices": 131187,
+  "triangles": 94616,
+  "materials": 149,
+  "textures": 53,
+  "lights": 2,
+  "scenarios": 15,
+  "polygonGroups": 57
+ },
+ "spawnPoints": {
+  "1": "/usernode.sc2/UserNode_main",
+  "2": "/usernode.sc2/UserNode_left",
+  "3": "/usernode.sc2/UserNode_right"
+ },
+ "spawn": "/usernode.sc2/UserNode_main",
+ "cameras": [
+  "/usernode.sc2/camera_camo_shop",
+  "/usernode.sc2/camera_3pl_camo_shop",
+  "/usernode.sc2/camera_3pl_default",
+  "/usernode.sc2/camera_default"
+ ],
+ "camera": "camera_default",
+ "scenarios": [
+  {
+   "path": "/Scene/ek/Disk1",
+   "scriptId": "6",
+   "targetPaths": [],
+   "rotations": [
+    "Y"
+   ],
+   "materialProperties": [],
+   "clock": false
+  },
+  {
+   "path": "/Scene/ek2/Earth",
+   "scriptId": "15",
+   "targetPaths": [],
+   "rotations": [],
+   "materialProperties": [
+    "flatColor"
+   ],
+   "clock": true
+  },
+  {
+   "path": "/Scene/Sky_Entity/ray",
+   "scriptId": "1",
+   "targetPaths": [],
+   "rotations": [
+    "Z"
+   ],
+   "materialProperties": [],
+   "clock": false
+  },
+  {
+   "path": "/DDMMYY/Day/Day_01",
+   "scriptId": "3",
+   "targetPaths": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "rotations": [],
+   "materialProperties": [],
+   "clock": true
+  },
+  {
+   "path": "/DDMMYY/Day/Day_02",
+   "scriptId": "2",
+   "targetPaths": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "rotations": [],
+   "materialProperties": [],
+   "clock": true
+  },
+  {
+   "path": "/DDMMYY/Month/Month_01",
+   "scriptId": "4",
+   "targetPaths": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "rotations": [],
+   "materialProperties": [],
+   "clock": true
+  },
+  {
+   "path": "/DDMMYY/Month/Month_02",
+   "scriptId": "5",
+   "targetPaths": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "rotations": [],
+   "materialProperties": [],
+   "clock": true
+  },
+  {
+   "path": "/DDMMYY/Year/Year_01",
+   "scriptId": "7",
+   "targetPaths": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "rotations": [],
+   "materialProperties": [],
+   "clock": true
+  },
+  {
+   "path": "/DDMMYY/Year/Year_02",
+   "scriptId": "8",
+   "targetPaths": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "rotations": [],
+   "materialProperties": [],
+   "clock": true
+  },
+  {
+   "path": "/HHMMSS/Hour/Hour_01",
+   "scriptId": "9",
+   "targetPaths": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "rotations": [],
+   "materialProperties": [],
+   "clock": true
+  },
+  {
+   "path": "/HHMMSS/Hour/Hour_02",
+   "scriptId": "10",
+   "targetPaths": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "rotations": [],
+   "materialProperties": [],
+   "clock": true
+  },
+  {
+   "path": "/HHMMSS/Minute/Minute_01",
+   "scriptId": "11",
+   "targetPaths": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "rotations": [],
+   "materialProperties": [],
+   "clock": true
+  },
+  {
+   "path": "/HHMMSS/Minute/Minute_02",
+   "scriptId": "12",
+   "targetPaths": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "rotations": [],
+   "materialProperties": [],
+   "clock": true
+  },
+  {
+   "path": "/HHMMSS/Second/Second_01",
+   "scriptId": "13",
+   "targetPaths": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "rotations": [],
+   "materialProperties": [],
+   "clock": true
+  },
+  {
+   "path": "/HHMMSS/Second/Second_02",
+   "scriptId": "14",
+   "targetPaths": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+   ],
+   "rotations": [],
+   "materialProperties": [],
+   "clock": true
+  }
+ ],
+ "replacedSounds": [
+  {
+   "path": "/sound.sc2",
+   "event": "play_music_hng_main",
+   "group": "FX"
+  }
+ ],
+ "maxWorldError": 9.229913248545856e-08,
+ "notes": {
+  "texture bindings with default sampler": 179,
+  "shared meshes": 92,
+  "pruned nodes": 2
+ },
+ "warnings": [],
+ "stats": {
+  "visibility": {
+   "0": 186
+  },
+  "ro.flags": {
+   "1": 92,
+   "8193": 57
+  },
+  "samplers": {
+   "2103616": 179
+  },
+  "defines": {
+   "Textured:ALPHABLEND=1": 21,
+   "Textured:BLENDING=2": 1,
+   "Textured:BLENDING=3": 20,
+   "Textured:FLATCOLOR=1": 92,
+   "Textured:MATERIAL_LIGHTMAP=1": 32,
+   "Textured:MATERIAL_TEXTURE=1": 149,
+   "Textured:SHADOW_RECEIVER=1": 3,
+   "Textured:TEXTURE0_ANIMATION_SHIFT=1": 6
+  },
+  "material kinds": {
+   "Textured TextureLightmap.material  layer=OpaqueRenderLayer": 32,
+   "Textured Textured.material  layer=OpaqueRenderLayer": 96,
+   "Textured Textured.material Additive layer=TransclucentRenderLayer": 1,
+   "Textured Textured.material AlphaBlendAdditive layer=TransclucentRenderLayer": 20
+  },
+  "custom cull modes": {
+   "0 (FACE_BACK -> NONE)": 106,
+   "1 (FACE_BACK -> FACE_FRONT)": 2,
+   "2 (FACE_BACK -> FACE_BACK)": 1
+  },
+  "vertex formats": {
+   "395": 115,
+   "411": 34
+  },
+  "scenario kinds": {
+   "clock": 12,
+   "material": 1,
+   "rotation": 2
+  },
+  "point light candidates": {
+   "1": 58,
+   "2": 91
+  },
+  "shadow casting": {
+   "0": 92,
+   "1": 57
+  },
+  "texture formats": {
+   "DXT5 alpha=False -> ASTC 5x5": 42,
+   "DXT5 alpha=True -> ASTC 4x4": 8,
+   "RGBA8 alpha=False -> ASTC 4x4": 2,
+   "RGBA8 alpha=True -> ASTC 4x4": 1
+  }
+ },
+ "sceneCopiesIdentical": true
+}

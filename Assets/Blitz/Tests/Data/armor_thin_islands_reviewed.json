@@ -1,0 +1,690 @@
+{
+  "tanks": {
+    "a111_t25_pilot": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate5_25"], "area": 0.022, "min": 25, "ref": 124, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "a117_t26e5": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate6_19"], "area": 0.04, "min": 26, "ref": 76, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate6_19"], "area": 0.033, "min": 26, "ref": 76, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "a121_t26e3": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate6_19"], "area": 0.04, "min": 26, "ref": 76, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate6_19"], "area": 0.033, "min": 26, "ref": 76, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "a125_aep_1": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate16_60"], "area": 0.025, "min": 60, "ref": 181, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate16_60"], "area": 0.028, "min": 60, "ref": 181, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "a132_t77": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate12_40"], "area": 0.09, "min": 40, "ref": 140, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate12_40"], "area": 0.09, "min": 40, "ref": 120, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "a141_m-4-y": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate4_53"], "area": 0.028, "min": 86, "ref": 267, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate4_53"], "area": 0.033, "min": 87, "ref": 267, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "a146_tl_7_120": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate16_50"], "area": 0.02, "min": 61, "ref": 230, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate16_50"], "area": 0.02, "min": 54, "ref": 230, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate16_50"], "area": 0.02, "min": 61, "ref": 230, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate4_45"], "area": 0.053, "min": 45, "ref": 180, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "a95_t95e6": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate7_76"], "area": 0.088, "min": 84, "ref": 280, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "amx50_foch": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate60_60"], "area": 0.148, "min": 62, "ref": 180, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate60_60"], "area": 0.025, "min": 60, "ref": 180, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "amx_50_100": [
+      {"config": "turret0", "dir": "right", "plates": ["gun_01_mask_turret_01_plate30_30"], "area": 0.198, "min": 30, "ref": 90, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["gun_01_mask_turret_01_plate30_30"], "area": 0.05, "min": 31, "ref": 90, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["gun_01_mask_turret_01_plate30_30"], "area": 0.362, "min": 30, "ref": 90, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "amx_50b": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate20_20"], "area": 0.225, "min": 59, "ref": 230, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate20_20"], "area": 0.225, "min": 59, "ref": 230, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "amx_50fosh_155": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate60_60"], "area": 0.022, "min": 60, "ref": 180, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "amx_ac_mle1946": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate30_30"], "area": 2.893, "min": 30, "ref": 100, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate30_30"], "area": 1.38, "min": 30, "ref": 100, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate30_30"], "area": 2.888, "min": 30, "ref": 100, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate30_30"], "area": 1.38, "min": 30, "ref": 100, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "amx_ac_mle1948": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate40_40"], "area": 0.12, "min": 41, "ref": 150, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "ch01_type59": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate30_30", "armor_turret_01_plate48_48"], "area": 0.058, "min": 56, "ref": 200, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate30_30", "armor_turret_01_plate48_48"], "area": 0.075, "min": 51, "ref": 200, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "ch18_wz-120": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate20_20"], "area": 0.953, "min": 25, "ref": 83, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate20_20"], "area": 0.953, "min": 25, "ref": 83, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "right", "plates": ["armor_hull_plate20_20"], "area": 0.953, "min": 25, "ref": 83, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "left", "plates": ["armor_hull_plate20_20"], "area": 0.953, "min": 25, "ref": 83, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "ch23_112": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate25_25"], "area": 0.022, "min": 55, "ref": 240, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate25_25"], "area": 0.02, "min": 54, "ref": 240, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "ch25_121_mod_1971b": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate30_30"], "area": 0.02, "min": 31, "ref": 185, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "ch26_59_patton": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate20_20"], "area": 0.855, "min": 24, "ref": 80, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate20_20"], "area": 0.858, "min": 24, "ref": 80, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "ch57_bzt_70": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate13_45"], "area": 0.022, "min": 48, "ref": 200, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "chi_nu": [
+      {"config": "turret1", "dir": "front", "plates": ["armor_turret_02_plate0_0"], "area": 0.028, "min": 0, "ref": 70, "reason": "authored 0 mm 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_turret_02_plate0_0"], "area": 0.022, "min": 0, "ref": 70, "reason": "authored 0 mm 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_turret_02_plate10_10"], "area": 0.045, "min": 12, "ref": 70, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "chi_nu_kai": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate20_20"], "area": 0.033, "min": 20, "ref": 95, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "chi_ri": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate20_20"], "area": 0.033, "min": 23, "ref": 95, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_turret_02_plate20_20"], "area": 0.05, "min": 20, "ref": 75, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "chi_to": [
+      {"config": "turret1", "dir": "front", "plates": ["armor_turret_02_plate20_20"], "area": 0.028, "min": 22, "ref": 95, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "right", "plates": ["armor_turret_02_plate20_20"], "area": 0.025, "min": 22, "ref": 75, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "left", "plates": ["armor_turret_02_plate20_20"], "area": 0.025, "min": 22, "ref": 75, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "churchill_ll": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate0_0"], "area": 0.12, "min": 16, "ref": 80, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate26_26"], "area": 0.025, "min": 26, "ref": 80, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate26_26"], "area": 0.022, "min": 26, "ref": 80, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "e-50": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate0_0"], "area": 0.022, "min": 44, "ref": 125, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "e-75": [
+      {"config": "turret1", "dir": "front", "plates": ["armor_turret_02_plate0_0"], "area": 0.028, "min": 88, "ref": 264, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_turret_02_plate0_0"], "area": 0.022, "min": 86, "ref": 264, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "e50_ausf_m": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate0_0"], "area": 0.02, "min": 63, "ref": 262, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "f71_amx_30_prototype": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate40_40"], "area": 0.053, "min": 40, "ref": 150, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate20_20", "armor_turret_01_plate30_30", "armor_turret_01_plate40_40"], "area": 0.042, "min": 38, "ref": 150, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate40_40"], "area": 0.24, "min": 40, "ref": 150, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate30_30", "armor_turret_01_plate40_40"], "area": 0.388, "min": 35, "ref": 150, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate40_40"], "area": 0.212, "min": 40, "ref": 150, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate30_30"], "area": 0.02, "min": 31, "ref": 150, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "ferdinand": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate25_25"], "area": 0.022, "min": 58, "ref": 200, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate25_25"], "area": 0.02, "min": 58, "ref": 200, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "g09_hetzer_gup": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate21_21"], "area": 0.042, "min": 21, "ref": 64, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate21_21"], "area": 0.053, "min": 21, "ref": 64, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "g119_pz58_mutz": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate9_30"], "area": 0.03, "min": 30, "ref": 90, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate9_30"], "area": 0.033, "min": 30, "ref": 90, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "g142_m48rpz": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate12_40", "armor_turret_01_plate9_65"], "area": 0.045, "min": 42, "ref": 234, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate12_40"], "area": 0.03, "min": 40, "ref": 122, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate12_40"], "area": 0.025, "min": 40, "ref": 122, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate12_40"], "area": 0.11, "min": 40, "ref": 122, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "g144_kpz_50t": [
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate5_30"], "area": 0.07, "min": 49, "ref": 190, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "g14_kpfpz_70r": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate7_16"], "area": 0.042, "min": 16, "ref": 104, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate10_21"], "area": 0.02, "min": 37, "ref": 215, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate10_21"], "area": 0.02, "min": 37, "ref": 215, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate10_21"], "area": 0.02, "min": 37, "ref": 215, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate10_21"], "area": 0.04, "min": 37, "ref": 215, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "g162_project_kpz_07p_e": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate2_50"], "area": 0.03, "min": 50, "ref": 180, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate2_50"], "area": 0.03, "min": 50, "ref": 180, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "g98_waffentrager_e100": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate6_18"], "area": 0.035, "min": 20, "ref": 82, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate6_18"], "area": 0.035, "min": 21, "ref": 82, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "g_kpfpz_70": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate21_21"], "area": 0.02, "min": 39, "ref": 209, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate21_21"], "area": 0.02, "min": 38, "ref": 209, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate21_21", "armor_turret_01_plate62_62"], "area": 0.035, "min": 42, "ref": 209, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "gb04_valentine": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate17_17"], "area": 0.06, "min": 18, "ref": 60, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate17_17"], "area": 0.06, "min": 18, "ref": 60, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate17_17", "armor_hull_plate7_7"], "area": 0.713, "min": 17, "ref": 60, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate17_17", "armor_hull_plate7_7"], "area": 0.71, "min": 17, "ref": 60, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate17_17"], "area": 0.06, "min": 18, "ref": 60, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate17_17"], "area": 0.06, "min": 18, "ref": 60, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "right", "plates": ["armor_hull_plate17_17", "armor_hull_plate7_7"], "area": 0.713, "min": 17, "ref": 60, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "left", "plates": ["armor_hull_plate17_17", "armor_hull_plate7_7"], "area": 0.71, "min": 17, "ref": 60, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "gb09_churchill_vii": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate0_0"], "area": 0.203, "min": 26, "ref": 95, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate25_25"], "area": 0.025, "min": 25, "ref": 95, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "right", "plates": ["armor_hull_plate0_0"], "area": 0.203, "min": 26, "ref": 95, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "left", "plates": ["armor_hull_plate25_25"], "area": 0.025, "min": 25, "ref": 95, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "gb10_black_prince": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_02_plate70_70"], "area": 0.02, "min": 70, "ref": 240, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "gb11_caernarvon": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate20_20"], "area": 0.105, "min": 20, "ref": 135, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate20_20"], "area": 0.105, "min": 20, "ref": 135, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate20_20"], "area": 0.105, "min": 20, "ref": 135, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate20_20"], "area": 0.105, "min": 20, "ref": 135, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "gb12_conqueror": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate20_20"], "area": 0.068, "min": 28, "ref": 135, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate20_20"], "area": 0.068, "min": 28, "ref": 135, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate20_20"], "area": 0.068, "min": 28, "ref": 135, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate20_20"], "area": 0.068, "min": 28, "ref": 135, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "gb19_sherman_firefly": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate12_12"], "area": 2.465, "min": 12, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate12_12"], "area": 0.242, "min": 12, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate12_12"], "area": 2.51, "min": 12, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate12_12"], "area": 0.242, "min": 12, "ref": 76, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "gb24_centurion_mk3": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate35_35"], "area": 0.033, "min": 35, "ref": 121, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate35_35"], "area": 0.035, "min": 35, "ref": 121, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate35_35"], "area": 0.033, "min": 35, "ref": 121, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate35_35"], "area": 0.035, "min": 35, "ref": 121, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "gb32_tortoise": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate0_0"], "area": 0.045, "min": 101, "ref": 406, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate101_101"], "area": 0.05, "min": 127, "ref": 406, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate101_101"], "area": 0.075, "min": 103, "ref": 406, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate101_101"], "area": 0.055, "min": 101, "ref": 406, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "gb42_valentine_at": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate17_17"], "area": 0.06, "min": 18, "ref": 60, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate17_17"], "area": 0.055, "min": 18, "ref": 60, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate0_0", "armor_hull_plate14_14"], "area": 0.272, "min": 0, "ref": 60, "reason": "authored 0 mm 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate17_17", "armor_hull_plate7_7"], "area": 0.868, "min": 17, "ref": 60, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate14_14"], "area": 0.975, "min": 14, "ref": 60, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate17_17", "armor_hull_plate7_7"], "area": 0.858, "min": 17, "ref": 60, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate14_14"], "area": 0.975, "min": 14, "ref": 60, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "gb70_fv4202_105": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate32_32"], "area": 0.105, "min": 34, "ref": 121, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate32_32"], "area": 0.113, "min": 34, "ref": 121, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "gb73_at2": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate19_19", "armor_hull_plate25_25"], "area": 4.65, "min": 19, "ref": 101, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate19_19", "armor_hull_plate25_25"], "area": 4.65, "min": 19, "ref": 101, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "gb81_fv4004": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate14_20"], "area": 0.075, "min": 37, "ref": 132, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate10_20"], "area": 0.048, "min": 25, "ref": 95, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate10_20"], "area": 0.02, "min": 29, "ref": 95, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate10_20", "armor_turret_01_plate16_17"], "area": 0.165, "min": 17, "ref": 95, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "gb84_chieftain_mk6": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate76_76"], "area": 0.05, "min": 76, "ref": 250, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate30_30"], "area": 0.053, "min": 52, "ref": 215, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate30_30"], "area": 0.055, "min": 53, "ref": 215, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "gb85_cromwell_berlin": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate14_14"], "area": 0.122, "min": 14, "ref": 63, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate14_14"], "area": 0.073, "min": 18, "ref": 63, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate20_20"], "area": 0.035, "min": 20, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate19_19"], "area": 0.02, "min": 19, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate20_20"], "area": 0.033, "min": 21, "ref": 63, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate20_20"], "area": 0.035, "min": 21, "ref": 63, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate19_19"], "area": 0.02, "min": 20, "ref": 63, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate20_20"], "area": 0.033, "min": 21, "ref": 63, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate20_20"], "area": 0.035, "min": 21, "ref": 63, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "gb87_chieftain_t95_turret": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate38_38", "armor_turret_01_plate50_50"], "area": 0.31, "min": 51, "ref": 355, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate50_50", "armor_turret_01_plate76_76"], "area": 0.073, "min": 60, "ref": 254, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate76_76"], "area": 0.225, "min": 87, "ref": 254, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate50_50", "armor_turret_01_plate76_76"], "area": 0.545, "min": 52, "ref": 254, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate38_38", "armor_turret_01_plate50_50"], "area": 0.29, "min": 51, "ref": 254, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate50_50"], "area": 0.04, "min": 50, "ref": 254, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate50_50"], "area": 0.02, "min": 60, "ref": 254, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate38_38", "armor_turret_01_plate50_50", "armor_turret_01_plate76_76"], "area": 1.195, "min": 50, "ref": 254, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate50_50"], "area": 0.065, "min": 51, "ref": 254, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "gb_churchill_mkvi": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate25_25"], "area": 0.028, "min": 25, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate0_0"], "area": 0.18, "min": 15, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate25_25"], "area": 0.03, "min": 25, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate25_25"], "area": 0.03, "min": 25, "ref": 76, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "hetzer": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate21_21"], "area": 0.04, "min": 21, "ref": 64, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate21_21"], "area": 0.048, "min": 21, "ref": 64, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "is-2sh": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate0_0"], "area": 0.062, "min": 0, "ref": 95, "reason": "authored 0 mm 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate0_0"], "area": 0.033, "min": 0, "ref": 95, "reason": "authored 0 mm 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate0_0"], "area": 0.04, "min": 0, "ref": 95, "reason": "authored 0 mm 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate0_0"], "area": 0.088, "min": 0, "ref": 95, "reason": "authored 0 mm 4.8.0 collision face"}
+    ],
+    "is8": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate16_16", "armor_hull_plate30_30"], "area": 0.185, "min": 16, "ref": 120, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate16_16", "armor_hull_plate30_30"], "area": 0.185, "min": 16, "ref": 120, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "it08_progetto_m40_mod65": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate4_30"], "area": 0.122, "min": 32, "ref": 100, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate4_30"], "area": 0.09, "min": 30, "ref": 100, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate4_30"], "area": 0.122, "min": 32, "ref": 100, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate4_30"], "area": 0.085, "min": 33, "ref": 100, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "it14_p44_pantera": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate5_25"], "area": 0.02, "min": 30, "ref": 120, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "jagdpanther": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate41_41"], "area": 0.04, "min": 43, "ref": 140, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "m-6-y": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate5_40"], "area": 0.022, "min": 49, "ref": 200, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate5_40"], "area": 0.025, "min": 49, "ref": 200, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["gun_01_mask_turret_01_plate4_45"], "area": 0.042, "min": 80, "ref": 245, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["gun_01_mask_turret_01_plate4_45"], "area": 0.053, "min": 72, "ref": 245, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["gun_01_mask_turret_01_plate7_50"], "area": 0.065, "min": 50, "ref": 245, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["gun_01_mask_turret_01_plate4_45"], "area": 0.08, "min": 80, "ref": 245, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["gun_01_mask_turret_01_plate4_45"], "area": 0.033, "min": 83, "ref": 245, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["gun_01_mask_turret_01_plate7_50"], "area": 0.035, "min": 50, "ref": 245, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "m103": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate44_44"], "area": 0.05, "min": 46, "ref": 203, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate44_44", "armor_hull_plate51_51"], "area": 0.06, "min": 46, "ref": 203, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate0_0"], "area": 0.05, "min": 40, "ref": 137, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate0_0"], "area": 0.048, "min": 40, "ref": 137, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate44_44"], "area": 0.05, "min": 46, "ref": 203, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate44_44", "armor_hull_plate51_51"], "area": 0.06, "min": 46, "ref": 203, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "right", "plates": ["armor_turret_02_plate0_0"], "area": 0.05, "min": 40, "ref": 137, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "left", "plates": ["armor_turret_02_plate0_0"], "area": 0.045, "min": 40, "ref": 137, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "m10_wolverine": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate19_19"], "area": 0.09, "min": 20, "ref": 114, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate19_19"], "area": 0.09, "min": 20, "ref": 114, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "m18_hellcat": [
+      {"config": "turret1", "dir": "right", "plates": ["armor_turret_02_plate13_13"], "area": 0.435, "min": 14, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "left", "plates": ["armor_turret_02_plate13_13"], "area": 0.43, "min": 14, "ref": 76, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "m36_bp": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate5_25"], "area": 0.065, "min": 25, "ref": 76, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "m36_slagger": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate20_20"], "area": 0.075, "min": 24, "ref": 114, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate25_25"], "area": 0.04, "min": 25, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate20_20"], "area": 0.075, "min": 24, "ref": 114, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_turret_02_plate25_25"], "area": 0.04, "min": 25, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_turret_02_plate19_19"], "area": 0.225, "min": 24, "ref": 76, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "m46_cl": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate10_20"], "area": 0.028, "min": 25, "ref": 100, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate10_20"], "area": 0.025, "min": 25, "ref": 100, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "m48a1": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate36_36"], "area": 0.255, "min": 36, "ref": 106, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate36_36"], "area": 0.042, "min": 36, "ref": 106, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate36_36"], "area": 0.245, "min": 36, "ref": 106, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "m60": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate0_0"], "area": 0.022, "min": 33, "ref": 186, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate53_53"], "area": 0.118, "min": 56, "ref": 186, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate0_0"], "area": 0.02, "min": 33, "ref": 186, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "m6a2e1": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate45_45"], "area": 0.055, "min": 49, "ref": 198, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate42_42"], "area": 0.095, "min": 56, "ref": 198, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "m6e2v2_bp": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate12_28"], "area": 0.022, "min": 28, "ref": 93, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate12_28"], "area": 0.02, "min": 28, "ref": 93, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate12_28"], "area": 0.502, "min": 28, "ref": 93, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate13_27"], "area": 0.175, "min": 27, "ref": 93, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate12_28"], "area": 0.022, "min": 28, "ref": 93, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate12_28"], "area": 0.502, "min": 28, "ref": 93, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate13_27"], "area": 0.175, "min": 27, "ref": 93, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "maus": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate30_30"], "area": 0.04, "min": 31, "ref": 240, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "object268": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate16_16"], "area": 0.13, "min": 43, "ref": 194, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "object_140": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate20_20"], "area": 0.02, "min": 20, "ref": 100, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate37_37"], "area": 0.025, "min": 37, "ref": 240, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate20_20"], "area": 0.982, "min": 26, "ref": 80, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate20_20"], "area": 0.978, "min": 26, "ref": 80, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "object_907": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate11_16"], "area": 0.022, "min": 19, "ref": 94, "reason": "Verified Object_907.xml hull/armor/armor_11=16 mm; exact 14-triangle native SCG plate. Two symmetric 0.022 m2 front projections are authored, not a roof-zone export guess"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate11_16"], "area": 0.022, "min": 19, "ref": 94, "reason": "Verified Object_907.xml hull/armor/armor_11=16 mm; exact 14-triangle native SCG plate. Two symmetric 0.022 m2 front projections are authored, not a roof-zone export guess"}
+    ],
+    "oth08_wh_vindicator": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate25_25"], "area": 0.398, "min": 25, "ref": 75, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate25_25"], "area": 0.383, "min": 25, "ref": 80, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "oth09_wh_predator": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate37_37"], "area": 0.185, "min": 38, "ref": 162, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate37_37", "armor_turret_01_plate48_48"], "area": 0.335, "min": 40, "ref": 162, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "oth11_t-55a": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate11_20"], "area": 0.512, "min": 26, "ref": 80, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate11_20"], "area": 0.512, "min": 26, "ref": 80, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth12_sega_hafen": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate12_25", "armor_hull_plate9_40"], "area": 0.143, "min": 25, "ref": 120, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate6_30"], "area": 0.022, "min": 39, "ref": 120, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate12_25", "armor_hull_plate9_40"], "area": 0.145, "min": 25, "ref": 120, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate6_30"], "area": 0.022, "min": 39, "ref": 120, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth14_mdm_ashknight": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate10_45"], "area": 0.06, "min": 59, "ref": 180, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate10_45"], "area": 0.058, "min": 59, "ref": 180, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate10_57"], "area": 0.04, "min": 57, "ref": 180, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate10_57"], "area": 0.09, "min": 57, "ref": 180, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth15_rustcrab": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate10_0"], "area": 0.05, "min": 0, "ref": 75, "reason": "authored 0 mm 11.20 XML plate"}
+    ],
+    "oth20_m4fl10": [
+      {"config": "turret0", "dir": "right", "plates": ["gun_01_mask_turret_01_plate6_12"], "area": 0.04, "min": 26, "ref": 76, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["gun_01_mask_turret_01_plate6_12"], "area": 0.04, "min": 25, "ref": 76, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth24_stuh_42hw": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate16_32"], "area": 0.025, "min": 33, "ref": 116, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth28_sturmfeur_hw": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate7_45"], "area": 0.02, "min": 50, "ref": 180, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth31_t150bp": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate5_30"], "area": 0.022, "min": 42, "ref": 150, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth41_centurion_mk3_s2": [
+      {"config": "turret3", "dir": "front", "plates": ["armor_turret_02_plate5_50"], "area": 0.022, "min": 56, "ref": 165, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth46_charioteer_s3": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate16_22"], "area": 0.053, "min": 22, "ref": 92, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret3", "dir": "front", "plates": ["armor_hull_plate16_22"], "area": 0.053, "min": 22, "ref": 92, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth51_fd_24": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate16_80", "armor_turret_01_plate9_35"], "area": 0.028, "min": 35, "ref": 254, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate7_60"], "area": 0.932, "min": 60, "ref": 254, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth64_pz_vlllk_set": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate10_63", "armor_turret_01_plate16_47"], "area": 0.03, "min": 49, "ref": 190, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_turret_02_plate10_67", "armor_turret_02_plate16_48"], "area": 0.03, "min": 52, "ref": 200, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth67_fv215b_183ann_s4": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate6_24"], "area": 0.028, "min": 25, "ref": 121, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate11_24"], "area": 0.02, "min": 25, "ref": 144, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret3", "dir": "front", "plates": ["armor_hull_plate6_24"], "area": 0.028, "min": 25, "ref": 121, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth68_kv2ann_s4": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate9_42"], "area": 0.038, "min": 42, "ref": 192, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate9_42"], "area": 0.038, "min": 65, "ref": 192, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth69_souleater": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate8_5"], "area": 0.033, "min": 35, "ref": 200, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth72_hazard_i": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate9_56"], "area": 0.02, "min": 56, "ref": 172, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate9_56"], "area": 0.02, "min": 56, "ref": 164, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate9_56"], "area": 0.02, "min": 56, "ref": 164, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth73_nemini": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate7_30"], "area": 0.022, "min": 37, "ref": 164, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret3", "dir": "front", "plates": ["armor_hull_plate7_30"], "area": 0.022, "min": 37, "ref": 164, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth74_argonaut": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate13_13"], "area": 0.178, "min": 14, "ref": 97, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate13_13"], "area": 0.038, "min": 14, "ref": 97, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate14_0"], "area": 0.605, "min": 0, "ref": 73, "reason": "authored 0 mm 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate14_0"], "area": 0.028, "min": 0, "ref": 73, "reason": "authored 0 mm 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate14_0"], "area": 0.595, "min": 0, "ref": 73, "reason": "authored 0 mm 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate14_0"], "area": 0.022, "min": 0, "ref": 73, "reason": "authored 0 mm 11.20 XML plate"}
+    ],
+    "oth75_braniaq_dm5": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate8_5"], "area": 0.03, "min": 10, "ref": 250, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth78_ac_17_p_sterope": [
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate7_65"], "area": 0.04, "min": 65, "ref": 280, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth83_ac_13_merope": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_02_plate10_60", "armor_turret_02_plate16_45"], "area": 0.025, "min": 51, "ref": 220, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_02_plate5_45"], "area": 0.1, "min": 51, "ref": 220, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_02_plate10_60", "armor_turret_02_plate16_45"], "area": 0.038, "min": 47, "ref": 220, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth84_fve_defender": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate5_65"], "area": 0.125, "min": 85, "ref": 270, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate5_65"], "area": 0.025, "min": 65, "ref": 270, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth86_survivalist": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate12_30"], "area": 0.035, "min": 56, "ref": 300, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate12_30"], "area": 0.025, "min": 56, "ref": 300, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "oth98_amx_50_100_titan": [
+      {"config": "turret0", "dir": "right", "plates": ["gun_01_mask_turret_01_plate5_20"], "area": 0.048, "min": 26, "ref": 110, "reason": "authored thin 11.20 XML plate"}
+    ],
+    "panther_ii": [
+      {"config": "turret1", "dir": "right", "plates": ["armor_turret_02_plate0_0"], "area": 0.025, "min": 50, "ref": 157, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "left", "plates": ["armor_turret_02_plate0_0"], "area": 0.02, "min": 50, "ref": 157, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "pershing": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate13_13", "armor_hull_plate20_20"], "area": 0.55, "min": 20, "ref": 80, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate23_23"], "area": 0.055, "min": 23, "ref": 80, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate13_13", "armor_hull_plate20_20"], "area": 0.545, "min": 20, "ref": 80, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "right", "plates": ["armor_hull_plate13_13", "armor_hull_plate20_20"], "area": 0.55, "min": 20, "ref": 80, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "right", "plates": ["armor_hull_plate23_23"], "area": 0.055, "min": 23, "ref": 80, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "left", "plates": ["armor_hull_plate13_13", "armor_hull_plate20_20"], "area": 0.545, "min": 20, "ref": 80, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "pz_iv_ausfh": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_02_plate30_30"], "area": 0.02, "min": 33, "ref": 95, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_02_plate30_30"], "area": 0.04, "min": 33, "ref": 95, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_02_plate30_30"], "area": 0.02, "min": 33, "ref": 95, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_02_plate30_30"], "area": 0.03, "min": 33, "ref": 95, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "pziv_hydro": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate0_0"], "area": 0.02, "min": 0, "ref": 102, "reason": "authored 0 mm 4.8.0 collision face"}
+    ],
+    "pzv": [
+      {"config": "turret1", "dir": "front", "plates": ["armor_turret_02_plate0_0"], "area": 0.025, "min": 42, "ref": 125, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_turret_02_plate0_0"], "area": 0.02, "min": 42, "ref": 125, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "pzv_pziv": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate0_0"], "area": 0.02, "min": 0, "ref": 102, "reason": "authored 0 mm 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate32_32"], "area": 0.02, "min": 35, "ref": 102, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate32_32"], "area": 0.058, "min": 35, "ref": 102, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate32_32"], "area": 0.045, "min": 36, "ref": 102, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate32_32"], "area": 0.028, "min": 35, "ref": 102, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate32_32"], "area": 0.025, "min": 36, "ref": 102, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "pzvi": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate0_0"], "area": 0.028, "min": 0, "ref": 88, "reason": "authored 0 mm 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate0_0"], "area": 0.025, "min": 0, "ref": 88, "reason": "authored 0 mm 4.8.0 collision face"}
+    ],
+    "pzvi_tiger_p": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate62_62"], "area": 0.02, "min": 65, "ref": 208, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate26_26"], "area": 0.02, "min": 56, "ref": 208, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate26_26"], "area": 0.02, "min": 57, "ref": 208, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate62_62"], "area": 0.02, "min": 65, "ref": 208, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate26_26"], "area": 0.02, "min": 56, "ref": 208, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_hull_plate26_26"], "area": 0.02, "min": 57, "ref": 208, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "r109_t54s": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate15_15"], "area": 0.022, "min": 15, "ref": 80, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate15_15"], "area": 0.025, "min": 15, "ref": 80, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate15_15"], "area": 1.003, "min": 15, "ref": 60, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate15_15"], "area": 1.008, "min": 15, "ref": 60, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "r113_object_730": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate45_45"], "area": 0.02, "min": 67, "ref": 201, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "r71_is_2b": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate30_30"], "area": 0.03, "min": 33, "ref": 100, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate30_30"], "area": 0.062, "min": 32, "ref": 100, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate30_30"], "area": 0.062, "min": 34, "ref": 100, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate30_30"], "area": 0.04, "min": 32, "ref": 100, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "ram-ii": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate0_0"], "area": 0.075, "min": 0, "ref": 76, "reason": "authored 0 mm 4.8.0 collision face"}
+    ],
+    "s01_frankentank": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate60_60"], "area": 0.02, "min": 63, "ref": 200, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate25_25"], "area": 0.205, "min": 26, "ref": 150, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate25_25"], "area": 0.092, "min": 25, "ref": 150, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "s16_kranvagn": [
+      {"config": "turret0", "dir": "front", "plates": ["gun_01_mask_turret_01_plate8_0"], "area": 0.135, "min": 0, "ref": 380, "reason": "authored 0 mm 11.20 XML plate"},
+      {"config": "turret0", "dir": "front", "plates": ["gun_01_mask_turret_01_plate7_70", "gun_01_mask_turret_01_plate8_0"], "area": 0.73, "min": 0, "ref": 380, "reason": "authored 0 mm 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate3_70"], "area": 0.065, "min": 77, "ref": 225, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate3_70"], "area": 0.238, "min": 70, "ref": 225, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["gun_01_mask_turret_01_plate8_0"], "area": 0.54, "min": 0, "ref": 100, "reason": "authored 0 mm 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate3_70"], "area": 0.312, "min": 70, "ref": 225, "reason": "authored thin 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["gun_01_mask_turret_01_plate8_0"], "area": 0.545, "min": 0, "ref": 100, "reason": "authored 0 mm 11.20 XML plate"}
+    ],
+    "s17_emil_1952e2": [
+      {"config": "turret0", "dir": "front", "plates": ["gun_01_mask_turret_01_plate8_0"], "area": 0.135, "min": 0, "ref": 270, "reason": "authored 0 mm 11.20 XML plate"},
+      {"config": "turret0", "dir": "front", "plates": ["gun_01_mask_turret_01_plate7_70", "gun_01_mask_turret_01_plate8_0"], "area": 0.71, "min": 0, "ref": 270, "reason": "authored 0 mm 11.20 XML plate"},
+      {"config": "turret0", "dir": "right", "plates": ["gun_01_mask_turret_01_plate8_0"], "area": 0.54, "min": 0, "ref": 100, "reason": "authored 0 mm 11.20 XML plate"},
+      {"config": "turret0", "dir": "left", "plates": ["gun_01_mask_turret_01_plate8_0"], "area": 0.545, "min": 0, "ref": 100, "reason": "authored 0 mm 11.20 XML plate"}
+    ],
+    "sega_nameless": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate27_27"], "area": 0.033, "min": 29, "ref": 129, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate27_27"], "area": 0.058, "min": 27, "ref": 86, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "st_b1": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate12_12"], "area": 0.042, "min": 12, "ref": 80, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate12_12"], "area": 0.048, "min": 12, "ref": 80, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate37_37"], "area": 0.022, "min": 40, "ref": 132, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "st_i": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate28_28"], "area": 0.028, "min": 37, "ref": 161, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate28_28"], "area": 0.058, "min": 39, "ref": 161, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate28_28"], "area": 0.06, "min": 39, "ref": 161, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "strv_74a2": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate12_12"], "area": 0.062, "min": 13, "ref": 63, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate12_12"], "area": 0.04, "min": 13, "ref": 63, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate12_12"], "area": 0.022, "min": 12, "ref": 63, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate12_12"], "area": 0.065, "min": 12, "ref": 63, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate12_12"], "area": 0.053, "min": 12, "ref": 63, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "su-101": [
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate20_20"], "area": 0.035, "min": 25, "ref": 90, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "su122_44": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate15_15"], "area": 0.03, "min": 15, "ref": 90, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate15_15"], "area": 0.025, "min": 15, "ref": 90, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t-25": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate10_10"], "area": 0.022, "min": 12, "ref": 60, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate10_10"], "area": 0.02, "min": 11, "ref": 60, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t-43": [
+      {"config": "turret1", "dir": "front", "plates": ["armor_turret_02_plate0_0"], "area": 0.13, "min": 0, "ref": 85, "reason": "authored 0 mm 4.8.0 collision face"}
+    ],
+    "t-54": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate20_20"], "area": 0.94, "min": 27, "ref": 83, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate20_20"], "area": 0.422, "min": 27, "ref": 83, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "right", "plates": ["armor_hull_plate20_20"], "area": 0.94, "min": 27, "ref": 83, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "left", "plates": ["armor_hull_plate20_20"], "area": 0.422, "min": 27, "ref": 83, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t110": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate44_44"], "area": 0.065, "min": 46, "ref": 254, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate44_44"], "area": 0.06, "min": 46, "ref": 254, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t110e3": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate75_75"], "area": 0.038, "min": 75, "ref": 305, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate44_44"], "area": 0.04, "min": 45, "ref": 229, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate44_44", "armor_hull_plate76_76"], "area": 2.46, "min": 44, "ref": 229, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate76_76"], "area": 0.04, "min": 76, "ref": 229, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate44_44", "armor_hull_plate76_76"], "area": 0.602, "min": 62, "ref": 229, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate44_44", "armor_hull_plate76_76"], "area": 2.445, "min": 44, "ref": 229, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate44_44"], "area": 0.038, "min": 45, "ref": 229, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate76_76"], "area": 0.038, "min": 76, "ref": 229, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate44_44", "armor_hull_plate76_76"], "area": 0.6, "min": 62, "ref": 229, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t1_hvy": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate27_27"], "area": 0.035, "min": 27, "ref": 89, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t20": [
+      {"config": "turret1", "dir": "left", "plates": ["armor_turret_02_plate24_24"], "area": 0.04, "min": 26, "ref": 84, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t23e3": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate0_0"], "area": 0.028, "min": 0, "ref": 76, "reason": "authored 0 mm 4.8.0 collision face"}
+    ],
+    "t25_2": [
+      {"config": "turret1", "dir": "front", "plates": ["armor_turret_02_plate0_0"], "area": 0.145, "min": 0, "ref": 76, "reason": "authored 0 mm 4.8.0 collision face"},
+      {"config": "turret1", "dir": "front", "plates": ["armor_turret_02_plate19_19"], "area": 0.068, "min": 26, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "right", "plates": ["armor_turret_02_plate25_25"], "area": 0.09, "min": 26, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "right", "plates": ["armor_turret_02_plate25_25"], "area": 0.255, "min": 26, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "left", "plates": ["armor_turret_02_plate25_25"], "area": 0.088, "min": 26, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "left", "plates": ["armor_turret_02_plate25_25"], "area": 0.253, "min": 26, "ref": 76, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t26_e4_superpershing": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate13_13"], "area": 0.428, "min": 21, "ref": 80, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate13_13"], "area": 0.433, "min": 20, "ref": 80, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t30": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate19_19"], "area": 0.305, "min": 19, "ref": 76, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate19_19"], "area": 0.315, "min": 19, "ref": 76, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t34_hvy": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_02_plate51_51"], "area": 0.025, "min": 58, "ref": 178, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t34_hvy_freedom": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_02_plate51_51"], "area": 0.025, "min": 58, "ref": 178, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t54e1": [
+      {"config": "turret0", "dir": "right", "plates": ["gun_01_mask_turret_01_plate0_0"], "area": 0.025, "min": 31, "ref": 127, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["gun_01_mask_turret_01_plate0_0"], "area": 0.025, "min": 32, "ref": 127, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t62a": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_hull_plate20_20"], "area": 0.085, "min": 35, "ref": 106, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t69": [
+      {"config": "turret0", "dir": "right", "plates": ["gun_01_mask_turret_01_plate0_0"], "area": 0.03, "min": 43, "ref": 139, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["gun_01_mask_turret_01_plate0_0"], "area": 0.028, "min": 43, "ref": 139, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t95": [
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate51_51"], "area": 0.035, "min": 51, "ref": 305, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate51_51"], "area": 1.01, "min": 100, "ref": 305, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "t95e2": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate25_25"], "area": 0.02, "min": 25, "ref": 127, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate25_25"], "area": 0.022, "min": 25, "ref": 127, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate25_25"], "area": 0.022, "min": 30, "ref": 95, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "type_61": [
+      {"config": "turret1", "dir": "right", "plates": ["armor_turret_02_plate0_0"], "area": 0.025, "min": 20, "ref": 60, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret1", "dir": "left", "plates": ["armor_turret_02_plate0_0"], "area": 0.025, "min": 20, "ref": 60, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "usa-t28": [
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate50_50"], "area": 2.24, "min": 50, "ref": 203, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "valentine_ll": [
+      {"config": "turret0", "dir": "right", "plates": ["armor_hull_plate7_7"], "area": 0.415, "min": 21, "ref": 62, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_hull_plate7_7"], "area": 0.415, "min": 21, "ref": 62, "reason": "authored thin 4.8.0 collision face"}
+    ],
+    "wz-135g_ft": [
+      {"config": "turret0", "dir": "front", "plates": ["armor_turret_01_plate21_21"], "area": 0.07, "min": 22, "ref": 81, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "right", "plates": ["armor_turret_01_plate21_21"], "area": 0.05, "min": 22, "ref": 81, "reason": "authored thin 4.8.0 collision face"},
+      {"config": "turret0", "dir": "left", "plates": ["armor_turret_01_plate21_21"], "area": 0.028, "min": 22, "ref": 81, "reason": "authored thin 4.8.0 collision face"}
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GB39UNIVERSALCARRIERQF2Armor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 326,
+      "vertices": 356
+    },
+    {
+      "armor": 0,
+      "material": "GB39UNIVERSALCARRIERQF2Armor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 39,
+      "vertices": 117
+    },
+    {
+      "armor": 10,
+      "material": "GB39UNIVERSALCARRIERQF2Armor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 35,
+      "vertices": 105
+    },
+    {
+      "armor": 3,
+      "material": "GB39UNIVERSALCARRIERQF2Armor_armor_hull_plate3_3",
+      "mount": "hull",
+      "name": "armor_hull_plate3_3",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 76,
+      "vertices": 228
+    },
+    {
+      "armor": 4,
+      "material": "GB39UNIVERSALCARRIERQF2Armor_armor_hull_plate4_4",
+      "mount": "hull",
+      "name": "armor_hull_plate4_4",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 81,
+      "vertices": 243
+    },
+    {
+      "armor": 5,
+      "material": "GB39UNIVERSALCARRIERQF2Armor_armor_hull_plate5_5",
+      "mount": "hull",
+      "name": "armor_hull_plate5_5",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 7,
+      "vertices": 21
+    },
+    {
+      "armor": 7,
+      "material": "GB39UNIVERSALCARRIERQF2Armor_armor_hull_plate7_7",
+      "mount": "hull",
+      "name": "armor_hull_plate7_7",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 23,
+      "vertices": 69
+    },
+    {
+      "armor": 0,
+      "material": "GB39UNIVERSALCARRIERQF2Armor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 29,
+      "vertices": 87
+    },
+    {
+      "armor": 5,
+      "material": "GB39UNIVERSALCARRIERQF2Armor_armor_turret_01_plate5_5",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate5_5",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 68,
+      "vertices": 204
+    }
+  ]
+}

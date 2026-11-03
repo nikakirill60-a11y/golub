@@ -1,0 +1,155 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GB76MKVICArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 408,
+      "vertices": 432
+    },
+    {
+      "armor": 0,
+      "material": "GB76MKVICArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 11,
+      "material": "GB76MKVICArmor_armor_hull_plate11_11",
+      "mount": "hull",
+      "name": "armor_hull_plate11_11",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 27,
+      "vertices": 81
+    },
+    {
+      "armor": 13,
+      "material": "GB76MKVICArmor_armor_hull_plate13_13",
+      "mount": "hull",
+      "name": "armor_hull_plate13_13",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 13,
+      "vertices": 39
+    },
+    {
+      "armor": 14,
+      "material": "GB76MKVICArmor_armor_hull_plate14_14",
+      "mount": "hull",
+      "name": "armor_hull_plate14_14",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 19,
+      "vertices": 57
+    },
+    {
+      "armor": 3,
+      "material": "GB76MKVICArmor_armor_hull_plate3_3",
+      "mount": "hull",
+      "name": "armor_hull_plate3_3",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 4,
+      "material": "GB76MKVICArmor_armor_hull_plate4_4",
+      "mount": "hull",
+      "name": "armor_hull_plate4_4",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 17,
+      "vertices": 51
+    },
+    {
+      "armor": 6,
+      "material": "GB76MKVICArmor_armor_hull_plate6_6",
+      "mount": "hull",
+      "name": "armor_hull_plate6_6",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 0,
+      "material": "GB76MKVICArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 11,
+      "material": "GB76MKVICArmor_armor_turret_01_plate11_11",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate11_11",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 81,
+      "vertices": 243
+    },
+    {
+      "armor": 14,
+      "material": "GB76MKVICArmor_armor_turret_01_plate14_14",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate14_14",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 96,
+      "vertices": 288
+    },
+    {
+      "armor": 3,
+      "material": "GB76MKVICArmor_armor_turret_01_plate3_3",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate3_3",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 77,
+      "vertices": 231
+    },
+    {
+      "armor": 0,
+      "material": "GB76MKVICArmor_gun_01_mask_turret_01_plate0s_0",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate0s_0",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 11,
+      "material": "GB76MKVICArmor_gun_01_mask_turret_01_plate11s_11",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate11s_11",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 14,
+      "material": "GB76MKVICArmor_gun_01_mask_turret_01_plate14s_14",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate14s_14",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 38,
+      "vertices": 114
+    }
+  ]
+}

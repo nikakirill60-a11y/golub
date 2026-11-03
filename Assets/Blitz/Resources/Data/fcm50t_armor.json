@@ -1,0 +1,182 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.0,
+      -0.12,
+      0.04
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "FCM50TArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 388,
+      "vertices": 372
+    },
+    {
+      "armor": 0,
+      "material": "FCM50TArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 110,
+      "material": "FCM50TArmor_armor_hull_plate110_110",
+      "mount": "hull",
+      "name": "armor_hull_plate110_110",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 120,
+      "material": "FCM50TArmor_armor_hull_plate120_120",
+      "mount": "hull",
+      "name": "armor_hull_plate120_120",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 29,
+      "vertices": 87
+    },
+    {
+      "armor": 20,
+      "material": "FCM50TArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 39,
+      "vertices": 117
+    },
+    {
+      "armor": 50,
+      "material": "FCM50TArmor_armor_hull_plate50_50",
+      "mount": "hull",
+      "name": "armor_hull_plate50_50",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 60,
+      "material": "FCM50TArmor_armor_hull_plate60_60",
+      "mount": "hull",
+      "name": "armor_hull_plate60_60",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 80,
+      "material": "FCM50TArmor_armor_hull_plate80_80",
+      "mount": "hull",
+      "name": "armor_hull_plate80_80",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 0,
+      "material": "FCM50TArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 120,
+      "material": "FCM50TArmor_armor_turret_01_plate120_120",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate120_120",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 20,
+      "material": "FCM50TArmor_armor_turret_01_plate20_20",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate20_20",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 40,
+      "material": "FCM50TArmor_armor_turret_01_plate40_40",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate40_40",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 60,
+      "material": "FCM50TArmor_armor_turret_01_plate60_60",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate60_60",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 80,
+      "material": "FCM50TArmor_armor_turret_01_plate80_80",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate80_80",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 158,
+      "vertices": 474
+    },
+    {
+      "armor": 0,
+      "material": "FCM50TArmor_gun_01_mask_turret_01_plate0s_0",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate0s_0",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 120,
+      "material": "FCM50TArmor_gun_01_mask_turret_01_plate120s_120",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate120s_120",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 80,
+      "material": "FCM50TArmor_gun_01_mask_turret_01_plate80s_80",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate80s_80",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 64,
+      "vertices": 192
+    }
+  ]
+}

@@ -1,0 +1,1393 @@
+{
+  "sourceVersion": "11.20.0",
+  "effects": {
+    "Boss_mode/BossAura": {
+      "resource": "BigBoss/Sources/Boss_mode_BossAura",
+      "layers": 16,
+      "types": [
+        "particles"
+      ]
+    },
+    "Boss_mode/Dissolve": {
+      "resource": "BigBoss/Sources/Boss_mode_Dissolve",
+      "layers": 15,
+      "types": [
+        "particles"
+      ]
+    },
+    "Boss_mode/Dissolve_gun": {
+      "resource": "BigBoss/Sources/Boss_mode_Dissolve_gun",
+      "layers": 12,
+      "types": [
+        "particles"
+      ]
+    },
+    "Boss_mode/Graviton": {
+      "resource": "BigBoss/Sources/Boss_mode_Graviton",
+      "layers": 42,
+      "types": [
+        "mesh",
+        "particles",
+        "particlesStripe",
+        "superEmitter"
+      ]
+    },
+    "Boss_mode/GravitonPassive": {
+      "resource": "BigBoss/Sources/Boss_mode_GravitonPassive",
+      "layers": 13,
+      "types": [
+        "mesh",
+        "particles"
+      ]
+    },
+    "Boss_mode/Graviton_red": {
+      "resource": "BigBoss/Sources/Boss_mode_Graviton_red",
+      "layers": 49,
+      "types": [
+        "mesh",
+        "particles",
+        "particlesStripe",
+        "superEmitter"
+      ]
+    },
+    "Boss_mode/HealerShield": {
+      "resource": "BigBoss/Sources/Boss_mode_HealerShield",
+      "layers": 11,
+      "types": [
+        "mesh",
+        "particles",
+        "particlesStripe",
+        "superEmitter"
+      ]
+    },
+    "Boss_mode/Kamikaze_Explosion": {
+      "resource": "BigBoss/Sources/Boss_mode_Kamikaze_Explosion",
+      "layers": 36,
+      "types": [
+        "particles",
+        "particlesStripe",
+        "superEmitter"
+      ]
+    },
+    "Boss_mode/Laser": {
+      "resource": "BigBoss/Sources/Boss_mode_Laser",
+      "layers": 13,
+      "types": [
+        "particles",
+        "particlesStripe",
+        "superEmitter"
+      ]
+    },
+    "Boss_mode/Laser_Ready": {
+      "resource": "BigBoss/Sources/Boss_mode_Laser_Ready",
+      "layers": 4,
+      "types": [
+        "particles"
+      ]
+    },
+    "Boss_mode/MassHealAura": {
+      "resource": "BigBoss/Sources/Boss_mode_MassHealAura",
+      "layers": 14,
+      "types": [
+        "mesh",
+        "particles",
+        "particlesStripe",
+        "superEmitter"
+      ]
+    },
+    "Boss_mode/Minion_LvlUP": {
+      "resource": "BigBoss/Sources/Boss_mode_Minion_LvlUP",
+      "layers": 25,
+      "types": [
+        "mesh",
+        "particles",
+        "particlesStripe",
+        "superEmitter"
+      ]
+    },
+    "Boss_mode/Repulsion_Explosion": {
+      "resource": "BigBoss/Sources/Boss_mode_Repulsion_Explosion",
+      "layers": 23,
+      "types": [
+        "particles",
+        "superEmitter"
+      ]
+    },
+    "UI/Bossmode/Level_up": {
+      "resource": "BigBoss/Sources/UI_Bossmode_Level_up",
+      "layers": 1,
+      "types": [
+        "particles"
+      ]
+    },
+    "halloween_skills/heal": {
+      "resource": "BigBoss/Sources/halloween_skills_heal",
+      "layers": 2,
+      "types": [
+        "particles"
+      ]
+    }
+  },
+  "textures": {
+    "~res:/Gfx/Particles/Boss_mode/BossAura/SmokeMagicRed": {
+      "resource": "BigBoss/Textures/SmokeMagicRed_3a41864985",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/BossAura/Glow": {
+      "resource": "BigBoss/Textures/Glow_30bd782112",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/BossAura/LightGlow_fence": {
+      "resource": "BigBoss/Textures/LightGlow_fence_66916d3e58",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/BossAura/Lightning/LightningRed": {
+      "resource": "BigBoss/Textures/LightningRed_8260e23ff4",
+      "width": 256,
+      "height": 128,
+      "frames": 4,
+      "cols": 2,
+      "rows": 2,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/BossAura/RedRays": {
+      "resource": "BigBoss/Textures/RedRays_e3f9960a40",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Dissolve/paper_burning/paper_burning_1": {
+      "resource": "BigBoss/Textures/paper_burning_1_c90210b0fe",
+      "width": 1536,
+      "height": 1536,
+      "frames": 32,
+      "cols": 6,
+      "rows": 6,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Repulsion_Explosion/smoke/smoke_dust": {
+      "resource": "BigBoss/Textures/smoke_dust_cb4f7de04b",
+      "width": 256,
+      "height": 256,
+      "frames": 16,
+      "cols": 4,
+      "rows": 4,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Dissolve/Iskr_one": {
+      "resource": "BigBoss/Textures/Iskr_one_27f22f6b62",
+      "width": 64,
+      "height": 64,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Graviton/Glow": {
+      "resource": "BigBoss/Textures/Glow_fdb56194c0",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Graviton/TrailGraviton/TrailGraviton": {
+      "resource": "BigBoss/Textures/TrailGraviton_6e7d8fde04",
+      "width": 64,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/alpha/o2SMOKEB_one": {
+      "resource": "BigBoss/Textures/o2SMOKEB_one_3a78c04e56",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Graviton/SmokeHigh/LoopSmoke": {
+      "resource": "BigBoss/Textures/LoopSmoke_67cf3a62af",
+      "width": 512,
+      "height": 512,
+      "frames": 64,
+      "cols": 8,
+      "rows": 8,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Graviton/Blink/Blink": {
+      "resource": "BigBoss/Textures/Blink_960f70f415",
+      "width": 256,
+      "height": 128,
+      "frames": 4,
+      "cols": 2,
+      "rows": 2,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Graviton/Black16x16": {
+      "resource": "BigBoss/Textures/Black16x16_229d1a70df",
+      "width": 16,
+      "height": 16,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/test/Noise/Noise": {
+      "missing": true,
+      "usage": [
+        "noisePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Graviton/Circle2d": {
+      "resource": "BigBoss/Textures/Circle2d_6acdd31a91",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Graviton/Sphere": {
+      "resource": "BigBoss/Textures/Sphere_567f4f8c82",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Graviton/StoneTexture": {
+      "resource": "BigBoss/Textures/StoneTexture_46334a9e4e",
+      "width": 32,
+      "height": 32,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Graviton/MainWaveHighMid/Waves": {
+      "resource": "BigBoss/Textures/Waves_8b487f8a53",
+      "width": 768,
+      "height": 768,
+      "frames": 32,
+      "cols": 6,
+      "rows": 6,
+      "usage": [
+        "spritePath",
+        "noisePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Graviton/MainWaveLow/Waves": {
+      "resource": "BigBoss/Textures/Waves_327e5ed8e5",
+      "width": 384,
+      "height": 384,
+      "frames": 32,
+      "cols": 6,
+      "rows": 6,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/alpha/Awood_chips_one": {
+      "resource": "BigBoss/Textures/Awood_chips_one_494b7fa6ed",
+      "width": 192,
+      "height": 128,
+      "frames": 6,
+      "cols": 3,
+      "rows": 2,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/additive/Spark": {
+      "resource": "BigBoss/Textures/Spark_ebebda4b65",
+      "width": 158,
+      "height": 158,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Graviton/Blink/Blink_red/Blink_red": {
+      "resource": "BigBoss/Textures/Blink_red_f69f2a48e8",
+      "width": 256,
+      "height": 128,
+      "frames": 4,
+      "cols": 2,
+      "rows": 2,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Graviton/Sphere_red": {
+      "resource": "BigBoss/Textures/Sphere_red_3776d242bf",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Graviton/MainWaveLow/Waves_red/Waves_red": {
+      "resource": "BigBoss/Textures/Waves_red_3b857530e9",
+      "width": 384,
+      "height": 384,
+      "frames": 32,
+      "cols": 6,
+      "rows": 6,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Graviton/MainWaveHighRed/Waves": {
+      "resource": "BigBoss/Textures/Waves_ef4120d2fb",
+      "width": 768,
+      "height": 768,
+      "frames": 32,
+      "cols": 6,
+      "rows": 6,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/HealerShield/MeshShield/MainTexture/Reverse": {
+      "resource": "BigBoss/Textures/Reverse_5c50be2b93",
+      "width": 384,
+      "height": 384,
+      "frames": 31,
+      "cols": 6,
+      "rows": 6,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/HealerShield/SmokeNoise/SmokeMain": {
+      "resource": "BigBoss/Textures/SmokeMain_62f2abe6f5",
+      "width": 384,
+      "height": 384,
+      "frames": 32,
+      "cols": 6,
+      "rows": 6,
+      "usage": [
+        "noisePath"
+      ]
+    },
+    "~res:/Gfx/Particles/33_neptune_nt/Flak/FM/Velocity": {
+      "resource": "BigBoss/Textures/Velocity_65982b333f",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "flowmapPath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/HealerShield/TrailSmoky/SmokeTrail": {
+      "resource": "BigBoss/Textures/SmokeTrail_8828a73722",
+      "width": 128,
+      "height": 256,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/HealerShield/Glow": {
+      "resource": "BigBoss/Textures/Glow_f01fb16896",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/HealerShield/MysticSmoke": {
+      "resource": "BigBoss/Textures/MysticSmoke_a7bc627192",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/test/MysticSmoke": {
+      "missing": true,
+      "usage": [
+        "noisePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Kamikaze_Explosion/Sand/sand_1": {
+      "resource": "BigBoss/Textures/sand_1_cdf0e48149",
+      "width": 384,
+      "height": 768,
+      "frames": 32,
+      "cols": 6,
+      "rows": 6,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Kamikaze_Explosion/Smoke/smoke_1": {
+      "resource": "BigBoss/Textures/smoke_1_a05b8f8344",
+      "width": 768,
+      "height": 768,
+      "frames": 32,
+      "cols": 6,
+      "rows": 6,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Kamikaze_Explosion/metal_debris/metal_debris_1": {
+      "resource": "BigBoss/Textures/metal_debris_1_9b980a2ee4",
+      "width": 128,
+      "height": 128,
+      "frames": 16,
+      "cols": 4,
+      "rows": 4,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Kamikaze_Explosion/metal_debris/metal_debris_2": {
+      "resource": "BigBoss/Textures/metal_debris_2_565a906015",
+      "width": 128,
+      "height": 128,
+      "frames": 16,
+      "cols": 4,
+      "rows": 4,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/alpha/metal_debris_1": {
+      "resource": "BigBoss/Textures/metal_debris_1_17db26bc81",
+      "width": 128,
+      "height": 128,
+      "frames": 16,
+      "cols": 4,
+      "rows": 4,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/alpha/metal_debris_2": {
+      "resource": "BigBoss/Textures/metal_debris_2_a701165c53",
+      "width": 128,
+      "height": 128,
+      "frames": 16,
+      "cols": 4,
+      "rows": 4,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Kamikaze_Explosion/Sparks/Spark": {
+      "resource": "BigBoss/Textures/Spark_15f529c8d0",
+      "width": 64,
+      "height": 64,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Laser_gun/Glow": {
+      "resource": "BigBoss/Textures/Glow_4b4dcbb9b0",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Kamikaze_Explosion/Trail/AGTM's_trail": {
+      "resource": "BigBoss/Textures/AGTM's_trail_0a1d1fac64",
+      "width": 64,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Kamikaze_Explosion/Explosions/1/explosion_1": {
+      "resource": "BigBoss/Textures/explosion_1_8cca29c885",
+      "width": 256,
+      "height": 256,
+      "frames": 16,
+      "cols": 4,
+      "rows": 4,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Kamikaze_Explosion/Explosions/2/exp_additive_1": {
+      "resource": "BigBoss/Textures/exp_additive_1_844e8dcb15",
+      "width": 512,
+      "height": 512,
+      "frames": 16,
+      "cols": 4,
+      "rows": 4,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Kamikaze_Explosion/exp_additive/exp_additive_1": {
+      "resource": "BigBoss/Textures/exp_additive_1_354c935fb4",
+      "width": 128,
+      "height": 128,
+      "frames": 4,
+      "cols": 2,
+      "rows": 2,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/additive/Glow": {
+      "resource": "BigBoss/Textures/Glow_7613236edf",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Laser_gun/Laser/Laser_5": {
+      "resource": "BigBoss/Textures/Laser_5_05a6ede5dc",
+      "width": 64,
+      "height": 64,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Laser_gun/Laser/Laser_1": {
+      "resource": "BigBoss/Textures/Laser_1_f932ec7f2e",
+      "width": 64,
+      "height": 64,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Laser_gun/Lightning_2/Lightning_2": {
+      "resource": "BigBoss/Textures/Lightning_2_d1edb894a0",
+      "width": 240,
+      "height": 512,
+      "frames": 4,
+      "cols": 2,
+      "rows": 2,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Laser_gun/Lightning_1/Lightning_1": {
+      "resource": "BigBoss/Textures/Lightning_1_0aeca6f41e",
+      "width": 256,
+      "height": 512,
+      "frames": 4,
+      "cols": 2,
+      "rows": 2,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/MassHeal/Cast_Shockwave_03": {
+      "resource": "BigBoss/Textures/Cast_Shockwave_03_78005fe1b5",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/MassHeal/AnimNoise/Noise": {
+      "resource": "BigBoss/Textures/Noise_370687b307",
+      "width": 192,
+      "height": 192,
+      "frames": 9,
+      "cols": 3,
+      "rows": 3,
+      "usage": [
+        "noisePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/MassHeal/Shockwave31_Short_01": {
+      "resource": "BigBoss/Textures/Shockwave31_Short_01_bf62097ddb",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/test/HealTile/Healtile": {
+      "missing": true,
+      "usage": [
+        "noisePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/MassHeal/Cast_Shockwave_01": {
+      "resource": "BigBoss/Textures/Cast_Shockwave_01_b584143a96",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/MassHeal/Trail/Trail_KV1": {
+      "resource": "BigBoss/Textures/Trail_KV1_b95ff25d9c",
+      "width": 64,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/MassHeal/HealCross": {
+      "resource": "BigBoss/Textures/HealCross_9f84dfd6ab",
+      "width": 100,
+      "height": 100,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/test/AnimNoise/Noise": {
+      "missing": true
+    },
+    "~res:/Gfx/Particles/Boss_mode/Minion_LvlUP/TrailGlow/TrailGlow": {
+      "resource": "BigBoss/Textures/TrailGlow_847d2a9560",
+      "width": 64,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Minion_LvlUP/GoldRays": {
+      "resource": "BigBoss/Textures/GoldRays_761a58a676",
+      "width": 128,
+      "height": 128,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Minion_LvlUP/Spark": {
+      "resource": "BigBoss/Textures/Spark_4e3b21f168",
+      "width": 64,
+      "height": 64,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Minion_LvlUP/GoldWaveTrail/GoldTrail": {
+      "resource": "BigBoss/Textures/GoldTrail_8ad8fa9ff8",
+      "width": 128,
+      "height": 256,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Minion_LvlUP/BluredLightTest": {
+      "resource": "BigBoss/Textures/BluredLightTest_2614bb1c01",
+      "width": 256,
+      "height": 256,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Minion_LvlUP/GlowDot": {
+      "resource": "BigBoss/Textures/GlowDot_7a20372e9d",
+      "width": 64,
+      "height": 64,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/gun_effects_high/smoke_dust_2/smoke_dust": {
+      "resource": "BigBoss/Textures/smoke_dust_dfdaafbf69",
+      "width": 1280,
+      "height": 1280,
+      "frames": 24,
+      "cols": 5,
+      "rows": 5,
+      "usage": [
+        "noisePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Repulsion_Explosion/concrete_debris_anim": {
+      "resource": "BigBoss/Textures/concrete_debris_anim_47483a9f7e",
+      "width": 128,
+      "height": 128,
+      "frames": 4,
+      "cols": 2,
+      "rows": 2,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/Boss_mode/Repulsion_Explosion/concrete_debris_anim_one": {
+      "resource": "BigBoss/Textures/concrete_debris_anim_one_49dd39e0f1",
+      "width": 128,
+      "height": 128,
+      "frames": 4,
+      "cols": 2,
+      "rows": 2,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/UI/Bossmode/1/Level_up": {
+      "resource": "BigBoss/Textures/Level_up_14d5944972",
+      "width": 512,
+      "height": 512,
+      "frames": 16,
+      "cols": 4,
+      "rows": 4,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/halloween_skills/heal": {
+      "resource": "BigBoss/Textures/heal_dc4ad830cf",
+      "width": 100,
+      "height": 100,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    },
+    "~res:/Gfx/Particles/alpha/treil": {
+      "resource": "BigBoss/Textures/treil_f2a7166395",
+      "width": 64,
+      "height": 64,
+      "frames": 1,
+      "cols": 1,
+      "rows": 1,
+      "usage": [
+        "spritePath"
+      ]
+    }
+  },
+  "layerTypes": {
+    "particles": 187,
+    "superEmitter": 26,
+    "particlesStripe": 41,
+    "mesh": 22
+  },
+  "features": {
+    "enableFog": 89,
+    "enableFrameBlend": 60,
+    "usePerspectiveMapping": 39,
+    "enableNoiseScroll": 8,
+    "enableNoise": 4,
+    "useFresToAlpha": 6
+  },
+  "sources": [
+    {
+      "source": "from_apk/3d/FX/Boss_mode/BossAura.sc2",
+      "role": "original-fx",
+      "sha256": "e8b59826481b7f70623e9581bdba64b9275bea6ea8db64a8be0ce9ef7124d838"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/BossAura/texture0.packed.webp.dvpl",
+      "role": "original-fx-atlas",
+      "sha256": "d6330e2ab9c3d7969c4e5fb0a76809a6a11573188f4a6cfc323542ac87c03478"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/BossAura/SmokeMagicRed.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "620410d7f6db17fe5565c587a91f2b4e0ba8b286fe27cb71abfa6e4b3905ac0c"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/BossAura/Glow.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "1432a3aa412cf44b57f731efd426031d059c0af7ea193cad6642132239715541"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/BossAura/LightGlow_fence.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "0b9c676c85bebc1481c3b8bb4e981149584508b29272d8ff55e709202b00ad5f"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/BossAura/Lightning/LightningRed.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "f2bff2ae20de38c8bb997d63c580974abf1a822ceb5cc3d57bb3f78ecc3294e2"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/BossAura/RedRays.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "fbb6b6121b67fbdda06315da7ae5f0fa18db0ce77b62780590bcbdfef2f8c213"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/Dissolve.sc2",
+      "role": "original-fx",
+      "sha256": "54a0e1c8318ddc540e6fac4bc53ddd7a92c53a2bc9852ddd06c462033857051d"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Dissolve/paper_burning/paper_burning_1.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "94731d5a8e9a25786ca345e93307c457b0849620352766e9da92c884310b8adf"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Repulsion_Explosion/smoke/smoke_dust.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "6c67d26956a771ebf231a3e848af88718943b7dac784691754fda072789bf0a3"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/Dissolve_gun.sc2",
+      "role": "original-fx",
+      "sha256": "c90d116774690f0200c72794c15d80c6c3b57763786d1245af2e1bcf02dfae1c"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Dissolve/Iskr_one.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "b7039ee0892e5a520e39d1cb96b8c4256967d0754adb9cfcfb49ae7123a5508f"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/Graviton.scg",
+      "role": "original-fx-geometry",
+      "sha256": "f2967ad47f9a9113a437cdea43e6fd4c0dad357b95442d9ac1d04dc553c87004"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/Graviton.sc2",
+      "role": "original-fx",
+      "sha256": "0c54129b4a8ad3406104c67243c461102a7e5f3259cc6591c8d702109fe655b8"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Graviton/texture0.packed.webp.dvpl",
+      "role": "original-fx-atlas",
+      "sha256": "184e03af4ecbce68411d912e6d398c88d24e10e12a3ebfdc01b7443a180ed4e0"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Graviton/Glow.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "608717a56d8e680373329636c72606175e5e2ca5d83f93d679ad803431ce0ffd"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Graviton/TrailGraviton/TrailGraviton.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "cc9911004b47c289d468b90fc58fbd85ccdf2d365c68fa80fba0ca980b5b87e4"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/alpha/texture0.packed.webp",
+      "role": "original-fx-atlas",
+      "sha256": "6c6bd30c584aac0722a7e4085ed6fb173b318e8432b5571df98d13165fbf4cf5"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/alpha/o2SMOKEB_one.txt",
+      "role": "original-fx-texture",
+      "sha256": "8a2da456551599dfe555ba31f6fde2fbde23f2e1c5b191d65b0a0a2f91f58ef4"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Graviton/SmokeHigh/LoopSmoke.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "9bb8718afb85d5c7e6d9c0ecc096b394dab878e500721265cb0719e1146e2f1c"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Graviton/Blink/Blink.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "3dbe9d72076e8c588058ae9f5235358706b56d40d4c17256a8865bd9eedcb29a"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Graviton/Black16x16.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "8802a1ea9752ed769f12ed862b6b1da6a467ca12bc3720776f5c1907f200ff1e"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Graviton/Circle2d.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "0b9c676c85bebc1481c3b8bb4e981149584508b29272d8ff55e709202b00ad5f"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Graviton/Sphere.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "ff52d4ad9d99151c9f8305ea79f9deff9f95753ca885fa883a63f150e6fb98f2"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Graviton/StoneTexture.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "ae0d74380c615aba9b0530f67a738593ae508a491e8974071eebc1d89fbd777c"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Graviton/MainWaveHighMid/Waves.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "0236c9c20754e34bdfef24482982f7e6e71be28007a8989bbbd021859ebb0a21"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Graviton/MainWaveLow/Waves.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "3e9032908c54ab387b5379786b9a1376805de11adca8e49e65fcc9e24e92cd92"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/alpha/Awood_chips_one.txt",
+      "role": "original-fx-texture",
+      "sha256": "a5190bfb824ceb1e24ec90be19f8aa5583bf12b4c1c44a066aa9d298cc187b17"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/GravitonPassive.scg",
+      "role": "original-fx-geometry",
+      "sha256": "9a9888373267dd742772ffa8e0c0203f7344d367aa70ef2f99626013b60bf279"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/GravitonPassive.sc2",
+      "role": "original-fx",
+      "sha256": "13fe180a03cadcd22afb4e4512549c4e446e8a788d93f99ee4cd9d09b2a0dece"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/additive/texture0.packed.webp",
+      "role": "original-fx-atlas",
+      "sha256": "b3cbe16b7cbc43894d745a1827465f342963bcab8fda55cf15b88eef8f0a7124"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/additive/Spark.txt",
+      "role": "original-fx-texture",
+      "sha256": "2c6c5d73207aa49431e158188339365e63e97f8bd92cdb6d27a10e82db3fbc3d"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/Graviton_red.scg",
+      "role": "original-fx-geometry",
+      "sha256": "ebe92fb6c6bfb9a251dd280d829d287500740b746000fe8c3f3ad505190772f7"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/Graviton_red.sc2",
+      "role": "original-fx",
+      "sha256": "ad64d3feccb3a6a2555efac65ada9f198b72222fe5cc3adbd243b6412f9b60d4"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Graviton/Blink/Blink_red/Blink_red.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "f62bb883276519b3ec3ace35f2f425abfc7e635a90d905f2012776c9d9994fac"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Graviton/Sphere_red.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "08f84ce0022d2729497944f0904e250b53564e7831e1e8beeaf694880ccb4a18"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Graviton/MainWaveLow/Waves_red/Waves_red.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "2efbeac9ec00cba8a67d6ea9722b1980644d4afee0620c3e04487f741020f69d"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Graviton/MainWaveHighRed/Waves.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "108566c83dd802d48ffbc41968dbb8d5fb01f143a6da54c5c8180099b9f94fc2"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/HealerShield.scg",
+      "role": "original-fx-geometry",
+      "sha256": "822bc81e7ff9311a283c0646c904e1e33cba344ba4d23d622860c85159e354be"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/HealerShield.sc2",
+      "role": "original-fx",
+      "sha256": "1592b748a88fd74a9f17e131dc46d8f0441064d9f3a4a9badbdab044b8b56444"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/HealerShield/MeshShield/MainTexture/Reverse.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "dd00e6a0f2af8fb5017e6b0c4e388aea7872b1e26e7ec8d2a73353f1fd2a058c"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/HealerShield/SmokeNoise/SmokeMain.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "85000ae71019c2234118e3c01d86826bb52cb9496f0e6ff106d7bc760f62a35e"
+    },
+    {
+      "source": "Gfx/Particles/33_neptune_nt/Flak/FM/Velocity.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "c5f4d8afcb303bff2c0601f893679d7a627d34f61ebada097d320874c9e43945"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/HealerShield/TrailSmoky/SmokeTrail.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "d4fe70c6bfefa2261236d37d580d5ec367daf6069fc2346d6f1181f47032e460"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/HealerShield/texture0.packed.webp.dvpl",
+      "role": "original-fx-atlas",
+      "sha256": "efd47cf12c5c7cc42186408b64139ee9c1038afd842ca7bd15d94af249337690"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/HealerShield/Glow.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "0b9c676c85bebc1481c3b8bb4e981149584508b29272d8ff55e709202b00ad5f"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/HealerShield/MysticSmoke.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "608717a56d8e680373329636c72606175e5e2ca5d83f93d679ad803431ce0ffd"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/Kamikaze_Explosion.sc2",
+      "role": "original-fx",
+      "sha256": "a9049e2893fe473b575fcf04c36d69c5278a2c861a186a63f22aa77c5db77034"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Kamikaze_Explosion/Sand/sand_1.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "cd38aad0f11be70ef1a438aff2f1a92e2921665be3d04fd2e8b248551ac6654d"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Kamikaze_Explosion/Smoke/smoke_1.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "714cf51202f821f64cc5caa7a545a95a8dccbeb36d741f972eaa863d7f78cb59"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Kamikaze_Explosion/metal_debris/texture0.packed.webp.dvpl",
+      "role": "original-fx-atlas",
+      "sha256": "270108601ebcd93226f6b378923307595f64b7614fd69c9c25b2eea6ff94015e"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Kamikaze_Explosion/metal_debris/metal_debris_1.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "7cf2df0a1711c14de8eca95379deddc5e94db405ee594cd8fa9dd076bf8877e6"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Kamikaze_Explosion/metal_debris/metal_debris_2.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "4ecff9101fefdfd7acee329d6da3dec483facc5f80468951f9b3630b68f76ee4"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/alpha/metal_debris_1.txt",
+      "role": "original-fx-texture",
+      "sha256": "d20eb6014af2f774662b86808154f8828b7b8356bb013f0964f84d6a3623e815"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/alpha/metal_debris_2.txt",
+      "role": "original-fx-texture",
+      "sha256": "091c3d7c90ee354c4e8a50506fbded12222ede3842b6044fca4ac4498a36b3ff"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Kamikaze_Explosion/Sparks/Spark.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "04a338e5c7277c66348dbf65d303f3dc6cfe812c89ebde0cd570981f520594d7"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Laser_gun/Glow.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "a0002a8b9c2d4bfd03475b3f9c0009d9a35f0336ae9259582528a73f906b51ed"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Kamikaze_Explosion/Trail/AGTM's_trail.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "4d2e66099771050c3bb30b452cb44958ac72bc505c0fcab9d93ba22f49ba07a3"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Kamikaze_Explosion/Explosions/1/explosion_1.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "67a42ccef689cc8a93bcdb0c9a76782d3eb7d82f29c4bf6d01a84998e67c0a42"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Kamikaze_Explosion/Explosions/2/exp_additive_1.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "ed33beec5099e3164c3d69a3c30afea5e36e5ea348959933ba54d653c2a97dbc"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Kamikaze_Explosion/exp_additive/exp_additive_1.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "98e5a7763748ebd8cbde2cd9cb81cd9efc0fc56d302ac8c60f555d1bd7fc1574"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/additive/Glow.txt",
+      "role": "original-fx-texture",
+      "sha256": "d8577d94cce5b3a7d187d1d4d8183b5b43a003c6c4a30739c8cb9c8ae8b074f5"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/Laser.sc2",
+      "role": "original-fx",
+      "sha256": "13245e265fad7f1405f6f3097eb06f3ceb2f8c25fd9828834bd25ed18bd391ea"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Laser_gun/Laser/texture0.packed.webp.dvpl",
+      "role": "original-fx-atlas",
+      "sha256": "b12a35c8d44b0af142ea8beee444d2d9d05c801a156df9dd305fb0b317e34c9e"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Laser_gun/Laser/Laser_5.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "84fecbfb360b448320ca7263c19a8240f427985dbb680ba8c70801e8512c7ab1"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Laser_gun/Laser/Laser_1.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "c30f30b40f3cfb52b0497d7e24103e2d45f917a7151d0544a98fe24d55b1fa3a"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Laser_gun/Lightning_2/Lightning_2.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "496b24e85c789a409ed02bf364e6df003154302612504bb3fd6387cb5d795dd5"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Laser_gun/Lightning_1/Lightning_1.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "9a3dc257ba9bd8afcc68c3b2d5eb07495f857b02357d3297a5eedc695f67b20f"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/Laser_Ready.sc2",
+      "role": "original-fx",
+      "sha256": "4c95faf98a8c87f5e8cf457cfd68b90830d700853c6e8b78364adbf60bb3baad"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/MassHealAura.scg",
+      "role": "original-fx-geometry",
+      "sha256": "de1dabc5bfe56e181433b0bd30cb4c99786214bf6dee4d6522ea3c7193161815"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/MassHealAura.sc2",
+      "role": "original-fx",
+      "sha256": "f6abba286cac6a40837115108bbff7030f6e6bdaf128aa35aa1a1fc7dcc47006"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/MassHeal/texture0.packed.webp.dvpl",
+      "role": "original-fx-atlas",
+      "sha256": "5bbc3dd16086dd74f30e32854ba97f15699d13ca444aed3f2a1c47a29b586764"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/MassHeal/Cast_Shockwave_03.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "0b9c676c85bebc1481c3b8bb4e981149584508b29272d8ff55e709202b00ad5f"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/MassHeal/AnimNoise/Noise.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "4b7c6859573490934c3d6c08205fba12d9d6ea4b13281ac7ff41cdb2911b694c"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/MassHeal/Shockwave31_Short_01.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "fd0f0ad77007d7763208de758d407928df94ad90de13d4456aed0510189642a1"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/MassHeal/Cast_Shockwave_01.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "7929bbc752813d33bff59253f6dc7845bcfd971068cfc23ed5e0d1f72136de8a"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/MassHeal/Trail/Trail_KV1.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "cc9911004b47c289d468b90fc58fbd85ccdf2d365c68fa80fba0ca980b5b87e4"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/MassHeal/HealCross.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "904c899b5f2daf3aaffa54f3892e55aa48ff103e8042ec25be913225d76a9f8f"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/Minion_LvlUP.scg",
+      "role": "original-fx-geometry",
+      "sha256": "cbb8f084c9118651d545905a20744d11017a631cc1e416bfbe80060241bdd38d"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/Minion_LvlUP.sc2",
+      "role": "original-fx",
+      "sha256": "66c897b6c14d1e2ec319f6bf5639ad0e530bcfa0e5542258b18a6627adbfd6ca"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Minion_LvlUP/TrailGlow/TrailGlow.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "3ae26e959036563079e46b311b44568fe02e874a7eb0359eff0266fbc5b0f277"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Minion_LvlUP/texture0.packed.webp.dvpl",
+      "role": "original-fx-atlas",
+      "sha256": "29eac1034a63e63b1c81ef2b3a7792296ae7a9512fb5b09e96e1ccb266e4c06e"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Minion_LvlUP/GoldRays.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "af9e38ac1e263fd2c96d8d1064d19c221e5daa0b6f0ff118c7bc9c281c4dd41a"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Minion_LvlUP/Spark.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "b8c689fcaf9c804478e2271da87b50fa482be57fa82a76f3994d3d0e56277129"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Minion_LvlUP/GoldWaveTrail/GoldTrail.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "7251ff5df5f141d2f1a445879d85b8240c1cf2ecda491f013e37993644166641"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Minion_LvlUP/BluredLightTest.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "2703e8a5f716eb4d5f9414a00ad942aaeea09faa161d281509d99fd097ef5f69"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Minion_LvlUP/GlowDot.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "d8b377dfd67dcde89f8cb6654ebd9f55d18aa73f221881d4444253915ac9976c"
+    },
+    {
+      "source": "from_apk/3d/FX/Boss_mode/Repulsion_Explosion.sc2",
+      "role": "original-fx",
+      "sha256": "e0c2c82f2a78a5cc997fe1ec901d233e2fbba0e509dc0408074578bc83a9fcc9"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/gun_effects_high/smoke_dust_2/smoke_dust.packed.webp",
+      "role": "original-fx-texture",
+      "sha256": "5be834cd3952890a777b4761805bee4dc6f64623d891ca1a15e743b836c6a0ee"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Repulsion_Explosion/texture0.packed.webp.dvpl",
+      "role": "original-fx-atlas",
+      "sha256": "a1b7407837b3096719e7dd0bbff1cb1a8d3ebd8f5369332382710a153311de70"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Repulsion_Explosion/concrete_debris_anim.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "1cd8bf074d18547526f7ec68b926bace0cc2dfe2d96c33831775d93513cf030d"
+    },
+    {
+      "source": "Gfx/Particles/Boss_mode/Repulsion_Explosion/concrete_debris_anim_one.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "4adf9a4bc34cb4f577417c86b1926d433bea41ac92567c298745c44670abf63c"
+    },
+    {
+      "source": "from_apk/3d/FX/UI/Bossmode/Level_up.sc2",
+      "role": "original-fx",
+      "sha256": "7326d15fa0e6dcf21b6db2063e3d751681e0daf945e6ef53d7a2bc57ff615fc8"
+    },
+    {
+      "source": "Gfx/Particles/UI/Bossmode/1/Level_up.packed.webp.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "3fbe5fe55934e9d6888328a5192a5220d89d24d9cb515cf2eeb7450f3a2c6f31"
+    },
+    {
+      "source": "from_apk/3d/FX/halloween_skills/heal.sc2",
+      "role": "original-fx",
+      "sha256": "7170e0a5d4c5f0af96e6e78a3cc75bd43e795cdd70b736c8360bc8b6175c1bd4"
+    },
+    {
+      "source": "Gfx/Particles/halloween_skills/texture0.packed.webp.dvpl",
+      "role": "original-fx-atlas",
+      "sha256": "d47a48b685550b670249ed99124176929c9059aa9c3a1e75fc88c33a3d54f568"
+    },
+    {
+      "source": "Gfx/Particles/halloween_skills/heal.txt.dvpl",
+      "role": "original-fx-texture",
+      "sha256": "29540ba9b68b4e477484700e38072c8c3ba7a8b76c778e12487a7c5f423745b1"
+    },
+    {
+      "source": "from_apk/Gfx/Particles/alpha/treil.txt",
+      "role": "original-fx-texture",
+      "sha256": "a12715d20d60f3f226880b41aa1544c8468a0769177191c4c1d099748b763a2c"
+    }
+  ],
+  "missing": [
+    "~res:/Gfx/Particles/test/Noise/Noise",
+    "~res:/Gfx/Particles/test/MysticSmoke",
+    "~res:/Gfx/Particles/test/HealTile/Healtile",
+    "~res:/Gfx/Particles/test/AnimNoise/Noise"
+  ]
+}

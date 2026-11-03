@@ -1,0 +1,155 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "KRUPP38DArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 376,
+      "vertices": 416
+    },
+    {
+      "armor": 15,
+      "material": "KRUPP38DArmor_armor_hull_plate15_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15_15",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 35,
+      "material": "KRUPP38DArmor_armor_hull_plate35_35",
+      "mount": "hull",
+      "name": "armor_hull_plate35_35",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 60,
+      "material": "KRUPP38DArmor_armor_hull_plate60_60",
+      "mount": "hull",
+      "name": "armor_hull_plate60_60",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 80,
+      "material": "KRUPP38DArmor_armor_hull_plate80_80",
+      "mount": "hull",
+      "name": "armor_hull_plate80_80",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 8,
+      "material": "KRUPP38DArmor_armor_hull_plate8_8",
+      "mount": "hull",
+      "name": "armor_hull_plate8_8",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 10,
+      "material": "KRUPP38DArmor_armor_turret_01_plate10_10",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate10_10",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 16,
+      "material": "KRUPP38DArmor_armor_turret_01_plate16_16",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate16_16",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 25,
+      "material": "KRUPP38DArmor_armor_turret_01_plate25_25",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate25_25",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 27,
+      "vertices": 81
+    },
+    {
+      "armor": 30,
+      "material": "KRUPP38DArmor_armor_turret_01_plate30_30",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate30_30",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 35,
+      "vertices": 105
+    },
+    {
+      "armor": 50,
+      "material": "KRUPP38DArmor_armor_turret_01_plate50_50",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate50_50",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 60,
+      "material": "KRUPP38DArmor_armor_turret_01_plate60_60",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate60_60",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 84,
+      "vertices": 252
+    },
+    {
+      "armor": 80,
+      "material": "KRUPP38DArmor_armor_turret_01_plate80_80",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate80_80",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 30,
+      "vertices": 90
+    },
+    {
+      "armor": 60,
+      "material": "KRUPP38DArmor_gun_01_mask_turret_01_plate60s_60",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate60s_60",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 90,
+      "vertices": 270
+    },
+    {
+      "armor": 80,
+      "material": "KRUPP38DArmor_gun_01_mask_turret_01_plate80s_80",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate80s_80",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 56,
+      "vertices": 168
+    }
+  ]
+}

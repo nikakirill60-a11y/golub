@@ -1,0 +1,175 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 268,
+      "vertices": 336
+    },
+    {
+      "armor": 10,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_armor_hull_plate10s_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10s_10",
+      "screen": true,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 14,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_armor_hull_plate14s_14",
+      "mount": "hull",
+      "name": "armor_hull_plate14s_14",
+      "screen": true,
+      "submesh": 2,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 6,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_armor_hull_plate6_6",
+      "mount": "hull",
+      "name": "armor_hull_plate6_6",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 137,
+      "vertices": 411
+    },
+    {
+      "armor": 6,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_armor_hull_plate6s_6",
+      "mount": "hull",
+      "name": "armor_hull_plate6s_6",
+      "screen": true,
+      "submesh": 4,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 7,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_armor_hull_plate7s_7",
+      "mount": "hull",
+      "name": "armor_hull_plate7s_7",
+      "screen": true,
+      "submesh": 5,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 8,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_armor_hull_plate8_8",
+      "mount": "hull",
+      "name": "armor_hull_plate8_8",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 185,
+      "vertices": 555
+    },
+    {
+      "armor": 0,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 30,
+      "vertices": 90
+    },
+    {
+      "armor": 6,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_armor_turret_01_plate6_6",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate6_6",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 112,
+      "vertices": 336
+    },
+    {
+      "armor": 8,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_armor_turret_01_plate8_8",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate8_8",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 112,
+      "vertices": 336
+    },
+    {
+      "armor": 8,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_gun_02_mask_turret_01_plate8s_8",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate8s_8",
+      "screen": true,
+      "submesh": 10,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 0,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 28,
+      "vertices": 84
+    },
+    {
+      "armor": 6,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_armor_turret_02_plate6_6",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate6_6",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 8,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_armor_turret_02_plate8_8",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate8_8",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 170,
+      "vertices": 510
+    },
+    {
+      "armor": 8,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_gun_04_mask_turret_02_plate8s_8",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate8s_8",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 8,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_gun_05_mask_turret_02_plate8s_8",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate8s_8",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 8,
+      "material": "GB05VICKERSMEDIUMMKIIArmor_gun_06_mask_turret_02_plate8s_8",
+      "mount": "gun_06",
+      "name": "gun_06_mask_turret_02_plate8s_8",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 16,
+      "vertices": 48
+    }
+  ]
+}

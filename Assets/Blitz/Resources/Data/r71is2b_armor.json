@@ -1,0 +1,175 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "R71IS2BArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 276,
+      "vertices": 320
+    },
+    {
+      "armor": 100,
+      "material": "R71IS2BArmor_armor_hull_plate100_100",
+      "mount": "hull",
+      "name": "armor_hull_plate100_100",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 108,
+      "vertices": 324
+    },
+    {
+      "armor": 120,
+      "material": "R71IS2BArmor_armor_hull_plate120_120",
+      "mount": "hull",
+      "name": "armor_hull_plate120_120",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 20,
+      "material": "R71IS2BArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 30,
+      "material": "R71IS2BArmor_armor_hull_plate30_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30_30",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 35,
+      "material": "R71IS2BArmor_armor_hull_plate35_35",
+      "mount": "hull",
+      "name": "armor_hull_plate35_35",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 60,
+      "material": "R71IS2BArmor_armor_hull_plate60_60",
+      "mount": "hull",
+      "name": "armor_hull_plate60_60",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 28,
+      "vertices": 84
+    },
+    {
+      "armor": 90,
+      "material": "R71IS2BArmor_armor_hull_plate90_90",
+      "mount": "hull",
+      "name": "armor_hull_plate90_90",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 44,
+      "vertices": 132
+    },
+    {
+      "armor": 0,
+      "material": "R71IS2BArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 100,
+      "material": "R71IS2BArmor_armor_turret_01_plate100_100",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate100_100",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 63,
+      "vertices": 189
+    },
+    {
+      "armor": 30,
+      "material": "R71IS2BArmor_armor_turret_01_plate30_30",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate30_30",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 49,
+      "vertices": 147
+    },
+    {
+      "armor": 35,
+      "material": "R71IS2BArmor_armor_turret_01_plate35_35",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate35_35",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 60,
+      "material": "R71IS2BArmor_armor_turret_01_plate60_60",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate60_60",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 27,
+      "vertices": 81
+    },
+    {
+      "armor": 90,
+      "material": "R71IS2BArmor_armor_turret_01_plate90_90",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate90_90",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 293,
+      "vertices": 879
+    },
+    {
+      "armor": 100,
+      "material": "R71IS2BArmor_gun_01_mask_turret_01_plate100s_100",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate100s_100",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 40,
+      "material": "R71IS2BArmor_gun_01_mask_turret_01_plate40s_40",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate40s_40",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 60,
+      "material": "R71IS2BArmor_gun_01_mask_turret_01_plate60s_60",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate60s_60",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 32,
+      "vertices": 96
+    }
+  ]
+}

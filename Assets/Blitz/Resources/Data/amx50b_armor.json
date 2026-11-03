@@ -1,0 +1,232 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.0,
+      0.0,
+      -0.1
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "AMX50BArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 264,
+      "vertices": 298
+    },
+    {
+      "armor": 0,
+      "material": "AMX50BArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 100,
+      "material": "AMX50BArmor_armor_hull_plate100_100",
+      "mount": "hull",
+      "name": "armor_hull_plate100_100",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 90,
+      "vertices": 270
+    },
+    {
+      "armor": 170,
+      "material": "AMX50BArmor_armor_hull_plate170_170",
+      "mount": "hull",
+      "name": "armor_hull_plate170_170",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 20,
+      "material": "AMX50BArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 31,
+      "vertices": 93
+    },
+    {
+      "armor": 230,
+      "material": "AMX50BArmor_armor_hull_plate230_230",
+      "mount": "hull",
+      "name": "armor_hull_plate230_230",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 19,
+      "vertices": 57
+    },
+    {
+      "armor": 30,
+      "material": "AMX50BArmor_armor_hull_plate30_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30_30",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 50,
+      "material": "AMX50BArmor_armor_hull_plate50_50",
+      "mount": "hull",
+      "name": "armor_hull_plate50_50",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 80,
+      "material": "AMX50BArmor_armor_hull_plate80_80",
+      "mount": "hull",
+      "name": "armor_hull_plate80_80",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 0,
+      "material": "AMX50BArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 31,
+      "vertices": 93
+    },
+    {
+      "armor": 100,
+      "material": "AMX50BArmor_armor_turret_01_plate100_100",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate100_100",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 30,
+      "material": "AMX50BArmor_armor_turret_01_plate30_30",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate30_30",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 21,
+      "vertices": 63
+    },
+    {
+      "armor": 50,
+      "material": "AMX50BArmor_armor_turret_01_plate50_50",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate50_50",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 0,
+      "material": "AMX50BArmor_gun_01_mask_turret_01_plate0_0",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 9,
+      "vertices": 27
+    },
+    {
+      "armor": 100,
+      "material": "AMX50BArmor_gun_01_mask_turret_01_plate100_100",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate100_100",
+      "screen": false,
+      "submesh": 14,
+      "triangles": 126,
+      "vertices": 378
+    },
+    {
+      "armor": 100,
+      "material": "AMX50BArmor_gun_01_mask_turret_01_plate100s_100",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate100s_100",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 17,
+      "vertices": 51
+    },
+    {
+      "armor": 10,
+      "material": "AMX50BArmor_gun_01_mask_turret_01_plate10_10",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate10_10",
+      "screen": false,
+      "submesh": 16,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 20,
+      "material": "AMX50BArmor_gun_01_mask_turret_01_plate20_20",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate20_20",
+      "screen": false,
+      "submesh": 17,
+      "triangles": 73,
+      "vertices": 219
+    },
+    {
+      "armor": 30,
+      "material": "AMX50BArmor_gun_01_mask_turret_01_plate30_30",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate30_30",
+      "screen": false,
+      "submesh": 18,
+      "triangles": 47,
+      "vertices": 141
+    },
+    {
+      "armor": 50,
+      "material": "AMX50BArmor_gun_01_mask_turret_01_plate50_50",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate50_50",
+      "screen": false,
+      "submesh": 19,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 80,
+      "material": "AMX50BArmor_gun_01_mask_turret_01_plate80_80",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate80_80",
+      "screen": false,
+      "submesh": 20,
+      "triangles": 185,
+      "vertices": 555
+    },
+    {
+      "armor": 80,
+      "material": "AMX50BArmor_gun_01_mask_turret_01_plate80s_80",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate80s_80",
+      "screen": true,
+      "submesh": 21,
+      "triangles": 14,
+      "vertices": 42
+    }
+  ]
+}

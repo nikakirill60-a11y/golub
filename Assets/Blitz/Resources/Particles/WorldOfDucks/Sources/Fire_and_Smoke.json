@@ -1,0 +1,496 @@
+{
+ "legacyEmitters": [
+  {
+   "position": [
+    0.0,
+    0.0,
+    -0.39694786071777344
+   ],
+   "emitter": {
+    "name": "foam",
+    "emissionVector": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "emissionAngle": 0.0,
+    "type": 3,
+    "size": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "shortEffect": false,
+    "radius": 3.3,
+    "emissionRange": 0.0,
+    "emissionVectorInverted": true,
+    "layers": [
+     {
+      "life": 6.0,
+      "stripeLifetime": 0.0,
+      "endTime": 1000.0,
+      "scaleVelocityBase": 0.0,
+      "stripeVertexSpawnStep": 1.0,
+      "stripeStartSize": 0.0,
+      "type": "layer",
+      "stripeUScrollSpeed": 0.0,
+      "enableFlow": false,
+      "stripeVScrollSpeed": 0.0,
+      "stripeFadeDistanceFromTop": 0.0,
+      "name": "water3",
+      "layerType": "particles",
+      "degradeStrategy": 2,
+      "particleOrientation": 1,
+      "inheritPosition": false,
+      "isLong": false,
+      "randomSpinDirection": true,
+      "pivotPoint": [
+       0.0,
+       0.0
+      ],
+      "useFresToAlpha": false,
+      "effectFormat": 1,
+      "fresToAlphaBias": 0.0,
+      "fresToAlphaPower": 0.0,
+      "alphaRemapLoopCount": 1.0,
+      "force0": [
+       0.0,
+       0.0,
+       0.1
+      ],
+      "size": [
+       0.1,
+       0.1
+      ],
+      "sprite": "../../../../../Data/Gfx/Particles/sea_of_ducks/bubbles",
+      "alphaOverLife": [
+       2,
+       [
+        [
+         1,
+         0.0,
+         0.0
+        ],
+        [
+         1,
+         1.0,
+         0.41
+        ],
+        [
+         1,
+         0.0,
+         0.99
+        ]
+       ]
+      ],
+      "enableAlphaRemap": false,
+      "blending": 1,
+      "deltaTime": 0.0,
+      "enableFlowAnimation": false,
+      "enableNoise": false,
+      "useNoiseScroll": false,
+      "useThreePointGradient": false,
+      "enableFog": true,
+      "stripeInheritPositionForBase": false,
+      "enableFrameBlend": false,
+      "loopEndTime": 4.0,
+      "scaleVelocityFactor": 0.0,
+      "startTime": 0.0,
+      "gradientMiddlePoint": 0.5,
+      "lifeVariation": 1.0,
+      "applyGlobalForces": false,
+      "number": 20.0,
+      "loopVariation": 0.0,
+      "loopSpriteAnimation": false,
+      "sizeVariation": [
+       0.15,
+       0.15
+      ],
+      "sizeOverLifeXY": [
+       0.0,
+       [
+        1.0,
+        1.0
+       ],
+       1.0,
+       [
+        2.0,
+        2.0
+       ]
+      ],
+      "velocity": 0.4,
+      "frameOverLifeEnabled": false,
+      "velocityVariation": 0.4,
+      "velocityOverLife": [
+       2,
+       [
+        [
+         1,
+         1.0,
+         0.0
+        ],
+        [
+         1,
+         0.5,
+         1.0
+        ]
+       ]
+      ],
+      "frameOverLifeFPS": 6.0,
+      "spin": 15.0,
+      "spinVariation": 5.0,
+      "angle": 1.0,
+      "angleVariation": 360.0,
+      "randomFrameOnStart": false,
+      "isLooped": false,
+      "deltaVariation": 0.0,
+      "usePerspectiveMapping": false,
+      "activeLODS": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "forceCount": 1,
+      "forceOverLife0": [
+       0.0,
+       1.0,
+       0.99,
+       0.0
+      ],
+      "legacyLod": 1,
+      "legacyPivot": [
+       0.0,
+       0.0
+      ],
+      "legacySpinDirection": true,
+      "size3d": [
+       0.1,
+       0.1,
+       1
+      ],
+      "sizeVariation3d": [
+       0.15,
+       0.15,
+       1
+      ],
+      "sizeOverLife3ds": [
+       2,
+       [
+        [
+         1,
+         1.0,
+         0.0
+        ],
+        [
+         1,
+         2.0,
+         1.0
+        ]
+       ],
+       [
+        [
+         1,
+         1.0,
+         0.0
+        ],
+        [
+         1,
+         2.0,
+         1.0
+        ]
+       ],
+       [
+        [
+         1,
+         1,
+         0.0
+        ],
+        [
+         1,
+         1,
+         1.0
+        ]
+       ]
+      ],
+      "angle3d": [
+       0,
+       0,
+       1.0
+      ],
+      "angleVariation3d": [
+       0,
+       0,
+       360.0
+      ],
+      "spin3d": [
+       0,
+       0,
+       15.0
+      ],
+      "spinVariation3d": [
+       0,
+       0,
+       5.0
+      ],
+      "legacyForces": [
+       {
+        "force": [
+         0.0,
+         0.0,
+         0.1
+        ],
+        "overLife": [
+         2,
+         [
+          [
+           1,
+           1.0,
+           0.0
+          ],
+          [
+           1,
+           0.0,
+           0.99
+          ]
+         ]
+        ]
+       }
+      ],
+      "forces": [],
+      "spritePath": "../../../../../Data/Gfx/Particles/sea_of_ducks/bubbles"
+     }
+    ]
+   }
+  },
+  {
+   "position": [
+    0.0,
+    0.0,
+    2.0
+   ],
+   "emitter": {
+    "name": "wave",
+    "emissionVector": [
+     0.0,
+     0.0,
+     0.01
+    ],
+    "emissionAngle": 0.0,
+    "type": 0,
+    "size": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "shortEffect": false,
+    "emissionRange": 1.0,
+    "emissionVectorInverted": true,
+    "radius": 0,
+    "layers": [
+     {
+      "life": 3.0,
+      "stripeLifetime": 0.0,
+      "endTime": 1000.0,
+      "scaleVelocityBase": 0.0,
+      "stripeVertexSpawnStep": 1.0,
+      "stripeStartSize": 0.0,
+      "type": "layer",
+      "stripeUScrollSpeed": 0.0,
+      "enableFlow": false,
+      "stripeVScrollSpeed": 0.0,
+      "stripeFadeDistanceFromTop": 0.0,
+      "name": "water4",
+      "layerType": "particles",
+      "degradeStrategy": 2,
+      "particleOrientation": 8,
+      "inheritPosition": false,
+      "isLong": false,
+      "randomSpinDirection": true,
+      "pivotPoint": [
+       0.0,
+       0.0
+      ],
+      "effectFormat": 1,
+      "useFresToAlpha": false,
+      "fresToAlphaBias": 0.0,
+      "fresToAlphaPower": 0.0,
+      "alphaRemapLoopCount": 1.0,
+      "force0": [
+       0.0,
+       0.0,
+       0.1
+      ],
+      "size": [
+       4.0,
+       4.0
+      ],
+      "sprite": "../../../../../Data/Gfx/Particles/sea_of_ducks/rich_water",
+      "alphaOverLife": [
+       2,
+       [
+        [
+         1,
+         0.0,
+         0.0
+        ],
+        [
+         1,
+         1.0,
+         0.19
+        ],
+        [
+         1,
+         1.0,
+         0.68
+        ],
+        [
+         1,
+         0.0,
+         0.99
+        ]
+       ]
+      ],
+      "enableAlphaRemap": false,
+      "blending": 1,
+      "deltaTime": 0.0,
+      "enableFlowAnimation": false,
+      "enableNoise": false,
+      "useNoiseScroll": false,
+      "useThreePointGradient": false,
+      "stripeInheritPositionForBase": false,
+      "enableFog": true,
+      "enableFrameBlend": false,
+      "loopEndTime": 4.0,
+      "scaleVelocityFactor": 0.0,
+      "startTime": 2.0,
+      "gradientMiddlePoint": 0.5,
+      "applyGlobalForces": false,
+      "loopVariation": 0.0,
+      "loopSpriteAnimation": false,
+      "number": 2.0,
+      "sizeOverLifeXY": [
+       0.0,
+       [
+        1.0,
+        1.0
+       ],
+       1.0,
+       [
+        2.0,
+        2.0
+       ]
+      ],
+      "frameOverLifeFPS": 6.0,
+      "spin": 5.0,
+      "spinVariation": 5.0,
+      "frameOverLifeEnabled": false,
+      "randomFrameOnStart": false,
+      "isLooped": false,
+      "deltaVariation": 0.0,
+      "usePerspectiveMapping": false,
+      "activeLODS": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "forceCount": 1,
+      "forceOverLife0": [
+       0.0,
+       1.0,
+       0.99,
+       0.0
+      ],
+      "legacyLod": 1,
+      "legacyPivot": [
+       0.0,
+       0.0
+      ],
+      "legacySpinDirection": true,
+      "size3d": [
+       4.0,
+       4.0,
+       1
+      ],
+      "sizeOverLife3ds": [
+       2,
+       [
+        [
+         1,
+         1.0,
+         0.0
+        ],
+        [
+         1,
+         2.0,
+         1.0
+        ]
+       ],
+       [
+        [
+         1,
+         1.0,
+         0.0
+        ],
+        [
+         1,
+         2.0,
+         1.0
+        ]
+       ],
+       [
+        [
+         1,
+         1,
+         0.0
+        ],
+        [
+         1,
+         1,
+         1.0
+        ]
+       ]
+      ],
+      "spin3d": [
+       0,
+       0,
+       5.0
+      ],
+      "spinVariation3d": [
+       0,
+       0,
+       5.0
+      ],
+      "legacyForces": [
+       {
+        "force": [
+         0.0,
+         0.0,
+         0.1
+        ],
+        "overLife": [
+         2,
+         [
+          [
+           1,
+           1.0,
+           0.0
+          ],
+          [
+           1,
+           0.0,
+           0.99
+          ]
+         ]
+        ]
+       }
+      ],
+      "forces": [],
+      "spritePath": "../../../../../Data/Gfx/Particles/sea_of_ducks/rich_water"
+     }
+    ]
+   }
+  }
+ ]
+}

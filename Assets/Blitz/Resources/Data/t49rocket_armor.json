@@ -1,0 +1,125 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "T49ROCKETArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 260,
+      "vertices": 292
+    },
+    {
+      "armor": 0,
+      "material": "T49ROCKETArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 11,
+      "vertices": 33
+    },
+    {
+      "armor": 12,
+      "material": "T49ROCKETArmor_armor_hull_plate12_12",
+      "mount": "hull",
+      "name": "armor_hull_plate12_12",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 19,
+      "material": "T49ROCKETArmor_armor_hull_plate19_19",
+      "mount": "hull",
+      "name": "armor_hull_plate19_19",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 141,
+      "vertices": 423
+    },
+    {
+      "armor": 25,
+      "material": "T49ROCKETArmor_armor_hull_plate25_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25_25",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 104,
+      "vertices": 312
+    },
+    {
+      "armor": 31,
+      "material": "T49ROCKETArmor_armor_hull_plate31_31",
+      "mount": "hull",
+      "name": "armor_hull_plate31_31",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 5,
+      "vertices": 15
+    },
+    {
+      "armor": 38,
+      "material": "T49ROCKETArmor_armor_hull_plate38_38",
+      "mount": "hull",
+      "name": "armor_hull_plate38_38",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 9,
+      "material": "T49ROCKETArmor_armor_hull_plate9_9",
+      "mount": "hull",
+      "name": "armor_hull_plate9_9",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 7,
+      "vertices": 21
+    },
+    {
+      "armor": 12,
+      "material": "T49ROCKETArmor_armor_turret_02_plate12_12",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate12_12",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 80,
+      "vertices": 240
+    },
+    {
+      "armor": 19,
+      "material": "T49ROCKETArmor_armor_turret_02_plate19_19",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate19_19",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 127,
+      "vertices": 381
+    },
+    {
+      "armor": 25,
+      "material": "T49ROCKETArmor_armor_turret_02_plate25_25",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate25_25",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 207,
+      "vertices": 621
+    },
+    {
+      "armor": 31,
+      "material": "T49ROCKETArmor_gun_05_mask_turret_02_plate31s_31",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate31s_31",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 185,
+      "vertices": 555
+    }
+  ]
+}

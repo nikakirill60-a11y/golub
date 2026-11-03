@@ -1,0 +1,5048 @@
+{
+	"#dataNodes": [
+		{
+			"##name": "ParticleEmitterNode",
+			"#id": {
+				"hex": "0100000000000000"
+			},
+			"emissionAngle": 0.0,
+			"emissionRange": 0.0,
+			"emissionVector": [
+				0.0,
+				0.0,
+				1.0
+			],
+			"generateOnSurface": false,
+			"innerRadius": 0.0,
+			"layers": [
+				{
+					"activeLODS": [
+						false,
+						true,
+						false,
+						true
+					],
+					"alphaOverLife": [
+						2,
+						[
+							[
+								1,
+								0.0,
+								0.0
+							],
+							[
+								1,
+								0.10993513464927673,
+								0.04323185980319977
+							],
+							[
+								1,
+								0.0,
+								0.08645430207252502
+							],
+							[
+								1,
+								0.1951441466808319,
+								0.12782829999923706
+							],
+							[
+								1,
+								0.01282904576510191,
+								0.19261573255062103
+							],
+							[
+								1,
+								0.27713775634765625,
+								0.21858614683151245
+							],
+							[
+								1,
+								0.0,
+								0.2895350158214569
+							],
+							[
+								1,
+								0.20157501101493835,
+								0.32351526618003845
+							],
+							[
+								1,
+								0.03212163224816322,
+								0.3476372957229614
+							],
+							[
+								1,
+								0.31893837451934814,
+								0.43707039952278137
+							],
+							[
+								1,
+								0.14626958966255188,
+								0.5209582448005676
+							],
+							[
+								1,
+								0.4025396704673767,
+								0.5419995188713074
+							],
+							[
+								1,
+								0.27649468183517456,
+								0.5759798288345337
+							],
+							[
+								1,
+								0.3372662663459778,
+								0.6302928328514099
+							],
+							[
+								1,
+								0.2321215569972992,
+								0.6599600911140442
+							],
+							[
+								1,
+								0.5028612017631531,
+								0.7155054211616516
+							],
+							[
+								1,
+								0.34787726402282715,
+								0.7673538327217102
+							],
+							[
+								1,
+								0.5044689774513245,
+								0.8327574133872986
+							],
+							[
+								1,
+								0.40897056460380554,
+								0.9006255269050598
+							],
+							[
+								1,
+								0.608970582485199,
+								0.9506255388259888
+							],
+							[
+								1,
+								0.5520573854446411,
+								0.998161792755127
+							]
+						]
+					],
+					"alphaRemapLoopCount": 1.0,
+					"alphaRemapSampler": 2101589,
+					"applyGlobalForces": false,
+					"autoFPS": false,
+					"blending": 3,
+					"colorOverLife": [
+						2,
+						[
+							[
+								1,
+								0.501960813999176,
+								0.0
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							]
+						],
+						[
+							[
+								1,
+								1.0,
+								0.0
+							]
+						]
+					],
+					"cullMode": 0,
+					"degradeStrategy": 2,
+					"deltaTime": 0.0,
+					"deltaVariation": 0.0,
+					"depthDifferenceSlope": 2.0,
+					"enableAlphaRemap": false,
+					"enableFlow": false,
+					"enableFlowAnimation": false,
+					"enableFog": false,
+					"enableFrameBlend": false,
+					"enableMask": false,
+					"enableMaskUvScale": false,
+					"enableMaskUvScroll": false,
+					"enableNoise": false,
+					"enableNoiseScroll": false,
+					"enableUvScale": false,
+					"enableUvScroll": false,
+					"enableVertexAnimation": false,
+					"enableVertexAnimationMask": false,
+					"endTime": 2.0,
+					"flowmapSampler": 2101589,
+					"forces": [],
+					"frameOverLifeEnabled": false,
+					"frameOverLifeFPS": 18.0,
+					"fresToAlphaBias": 0.0,
+					"fresToAlphaPower": 2.0,
+					"fuseBlendAddEdges": [
+						0.0,
+						1.0
+					],
+					"gradientMiddlePoint": 0.5,
+					"inheritChangesRotation": false,
+					"inheritChangesScale": false,
+					"inheritPosition": false,
+					"isLong": false,
+					"isLooped": false,
+					"isSingle": true,
+					"layerType": "particles",
+					"life": 2.0,
+					"loopEndTime": 100.0,
+					"loopSpriteAnimation": false,
+					"loopVariation": 0.0,
+					"maskSampler": 2101589,
+					"name": "glow",
+					"noiseSampler": 2101589,
+					"number": [
+						2,
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.0,
+								2.0
+							]
+						]
+					],
+					"particleOrientation": 1,
+					"pivotPoint3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"randomFrameOnStart": false,
+					"randomOffsetOnStart": false,
+					"randomSpinDirection": false,
+					"scaleVelocityBase": 0.5,
+					"scaleVelocityFactor": 1.0,
+					"simplifiedForces": [],
+					"size3d": [
+						10.0,
+						10.0,
+						10.0
+					],
+					"sizeOverLife3ds": [
+						2,
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.1482316255569458,
+								0.18340949714183807
+							],
+							[
+								1,
+								1.0839228630065918,
+								0.4155876934528351
+							],
+							[
+								1,
+								1.133922815322876,
+								0.49718770384788513
+							],
+							[
+								1,
+								1.2876206636428833,
+								0.6797643303871155
+							],
+							[
+								1,
+								1.2479099035263062,
+								0.8444410562515259
+							],
+							[
+								1,
+								1.3545016050338745,
+								1.0
+							]
+						],
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.1482316255569458,
+								0.18340949714183807
+							],
+							[
+								1,
+								1.0839228630065918,
+								0.4155876934528351
+							],
+							[
+								1,
+								1.133922815322876,
+								0.49718770384788513
+							],
+							[
+								1,
+								1.2876206636428833,
+								0.6797643303871155
+							],
+							[
+								1,
+								1.2479099035263062,
+								0.8444410562515259
+							],
+							[
+								1,
+								1.3545016050338745,
+								1.0
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							]
+						]
+					],
+					"softParticles": true,
+					"spritePath": "~res:/Gfx/Particles/Boss_mode/Reflection/Spark",
+					"spriteSampler": 2101589,
+					"startTime": 0.0,
+					"stripeFadeDistanceFromBack": 0.0,
+					"stripeLifetime": 20.0,
+					"stripeStartSize": 1.0,
+					"stripeUScrollSpeed": 0.0,
+					"stripeVScrollSpeed": -0.009999999776482582,
+					"stripeVertexSpawnStep": 1.0,
+					"useFresToAlpha": false,
+					"usePerspectiveMapping": false,
+					"useThreePointGradient": false,
+					"useVertexColor": false,
+					"vertexAnimationSampler": 2101589
+				},
+				{
+					"activeLODS": [
+						false,
+						true,
+						false,
+						true
+					],
+					"alphaOverLife": [
+						2,
+						[
+							[
+								2,
+								0.6000000238418579,
+								0.0,
+								0.17631064355373383,
+								-0.058909084647893906
+							],
+							[
+								2,
+								0.3983832597732544,
+								0.07580218464136124,
+								-0.05256231874227524,
+								-0.16852368414402008
+							],
+							[
+								2,
+								0.6404109001159668,
+								0.15716779232025146,
+								0.10299385339021683,
+								0.05033254623413086
+							],
+							[
+								2,
+								0.35736823081970215,
+								0.3499644100666046,
+								0.023714421316981316,
+								-0.09284459054470062
+							],
+							[
+								2,
+								0.6201905012130737,
+								0.4707270860671997,
+								0.09837096184492111,
+								-0.022707751020789146
+							],
+							[
+								2,
+								0.35083019733428955,
+								0.5749611854553223,
+								-0.012811959721148014,
+								-0.0911640152335167
+							],
+							[
+								2,
+								0.5461163520812988,
+								0.7122525572776794,
+								0.10215245932340622,
+								0.012269479222595692
+							],
+							[
+								2,
+								0.33043205738067627,
+								0.8330152630805969,
+								0.09673140197992325,
+								-0.09361478686332703
+							],
+							[
+								1,
+								0.6000000238418579,
+								1.0
+							]
+						]
+					],
+					"alphaRemapLoopCount": 1.0,
+					"alphaRemapSampler": 2101589,
+					"applyGlobalForces": false,
+					"autoFPS": false,
+					"blending": 3,
+					"colorOverLife": [
+						2,
+						[
+							[
+								1,
+								0.501960813999176,
+								0.0
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							]
+						],
+						[
+							[
+								1,
+								1.0,
+								0.0
+							]
+						]
+					],
+					"cullMode": 0,
+					"degradeStrategy": 2,
+					"deltaTime": 0.0,
+					"deltaVariation": 0.0,
+					"depthDifferenceSlope": 2.0,
+					"enableAlphaRemap": false,
+					"enableFlow": false,
+					"enableFlowAnimation": false,
+					"enableFog": false,
+					"enableFrameBlend": false,
+					"enableMask": false,
+					"enableMaskUvScale": false,
+					"enableMaskUvScroll": false,
+					"enableNoise": false,
+					"enableNoiseScroll": false,
+					"enableUvScale": false,
+					"enableUvScroll": false,
+					"enableVertexAnimation": false,
+					"enableVertexAnimationMask": false,
+					"endTime": 16.0,
+					"flowmapSampler": 2101589,
+					"forces": [],
+					"frameOverLifeEnabled": false,
+					"frameOverLifeFPS": 18.0,
+					"fresToAlphaBias": 0.0,
+					"fresToAlphaPower": 2.0,
+					"fuseBlendAddEdges": [
+						0.0,
+						1.0
+					],
+					"gradientMiddlePoint": 0.5,
+					"inheritChangesRotation": false,
+					"inheritChangesScale": false,
+					"inheritPosition": false,
+					"isLong": false,
+					"isLooped": false,
+					"isSingle": true,
+					"layerType": "particles",
+					"life": 1.0,
+					"loopEndTime": 100.0,
+					"loopSpriteAnimation": false,
+					"loopVariation": 0.0,
+					"maskSampler": 2101589,
+					"name": "glow (1)",
+					"noiseSampler": 2101589,
+					"number": [
+						2,
+						[
+							[
+								1,
+								1.0,
+								2.0
+							]
+						]
+					],
+					"particleOrientation": 1,
+					"pivotPoint3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"randomFrameOnStart": false,
+					"randomOffsetOnStart": false,
+					"randomSpinDirection": false,
+					"scaleVelocityBase": 0.5,
+					"scaleVelocityFactor": 1.0,
+					"simplifiedForces": [],
+					"size3d": [
+						10.0,
+						10.0,
+						10.0
+					],
+					"sizeOverLife3ds": [
+						2,
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.1482316255569458,
+								0.18340949714183807
+							],
+							[
+								1,
+								1.0839228630065918,
+								0.4155876934528351
+							],
+							[
+								1,
+								1.133922815322876,
+								0.49718770384788513
+							],
+							[
+								1,
+								1.2876206636428833,
+								0.6797643303871155
+							],
+							[
+								1,
+								1.2479099035263062,
+								0.8444410562515259
+							],
+							[
+								1,
+								1.3545016050338745,
+								1.0
+							]
+						],
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.1482316255569458,
+								0.18340949714183807
+							],
+							[
+								1,
+								1.0839228630065918,
+								0.4155876934528351
+							],
+							[
+								1,
+								1.133922815322876,
+								0.49718770384788513
+							],
+							[
+								1,
+								1.2876206636428833,
+								0.6797643303871155
+							],
+							[
+								1,
+								1.2479099035263062,
+								0.8444410562515259
+							],
+							[
+								1,
+								1.3545016050338745,
+								1.0
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							]
+						]
+					],
+					"softParticles": true,
+					"spritePath": "~res:/Gfx/Particles/Boss_mode/Reflection/Spark",
+					"spriteSampler": 2101589,
+					"startTime": 2.0,
+					"stripeFadeDistanceFromBack": 0.0,
+					"stripeLifetime": 20.0,
+					"stripeStartSize": 1.0,
+					"stripeUScrollSpeed": 0.0,
+					"stripeVScrollSpeed": -0.009999999776482582,
+					"stripeVertexSpawnStep": 1.0,
+					"useFresToAlpha": false,
+					"usePerspectiveMapping": false,
+					"useThreePointGradient": false,
+					"useVertexColor": false,
+					"vertexAnimationSampler": 2101589
+				}
+			],
+			"life": 100.0,
+			"name": "energy",
+			"radius": 1.0,
+			"shockwaveMode": 2,
+			"shortEffect": false,
+			"size": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"type": 0
+		},
+		{
+			"##name": "ParticleEmitterNode",
+			"#id": {
+				"hex": "0200000000000000"
+			},
+			"emissionRange": 30.0,
+			"emissionVector": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"generateOnSurface": false,
+			"innerRadius": 0.0,
+			"layers": [
+				{
+					"activeLODS": [
+						false,
+						true,
+						true,
+						true
+					],
+					"alphaOverLife": [
+						2,
+						[
+							[
+								2,
+								0.0,
+								0.0,
+								-0.0139368437230587,
+								-0.009285683743655682
+							],
+							[
+								1,
+								0.14586934447288513,
+								0.14752908051013947
+							]
+						]
+					],
+					"alphaRemapLoopCount": 1.0,
+					"alphaRemapSampler": 2101589,
+					"applyGlobalForces": false,
+					"autoFPS": false,
+					"blending": 1,
+					"colorRandom": [
+						2,
+						[
+							[
+								1,
+								1.0,
+								0.0
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							]
+						],
+						[
+							[
+								1,
+								1.0,
+								0.0
+							]
+						]
+					],
+					"cullMode": 2,
+					"degradeStrategy": 0,
+					"deltaTime": 0.0,
+					"deltaVariation": 0.0,
+					"depthDifferenceSlope": 0.5,
+					"enableAlphaRemap": false,
+					"enableFlow": false,
+					"enableFlowAnimation": false,
+					"enableFog": false,
+					"enableFrameBlend": false,
+					"enableMask": false,
+					"enableMaskUvScale": false,
+					"enableMaskUvScroll": false,
+					"enableNoise": true,
+					"enableNoiseScroll": true,
+					"enableUvScale": false,
+					"enableUvScroll": false,
+					"enableVertexAnimation": false,
+					"enableVertexAnimationMask": false,
+					"endTime": 0.10000000149011612,
+					"flowmapSampler": 2101589,
+					"forces": [],
+					"frameOverLifeEnabled": false,
+					"frameOverLifeFPS": 1.0,
+					"fresToAlphaBias": 0.0,
+					"fresToAlphaPower": 0.0,
+					"fuseBlendAddEdges": [
+						0.0,
+						1.0
+					],
+					"gradientMiddlePoint": 0.5,
+					"inheritChangesRotation": true,
+					"inheritChangesScale": true,
+					"inheritPosition": true,
+					"isLong": false,
+					"isLooped": false,
+					"isSingle": false,
+					"layerType": "mesh",
+					"life": 16.0,
+					"loopEndTime": 100.0,
+					"loopSpriteAnimation": false,
+					"loopVariation": 0.0,
+					"maskSampler": 2101589,
+					"meshGeometryId": 3,
+					"name": "noise_1",
+					"noisePath": "~res:/Gfx/Particles/Boss_mode/Reflection/shot_flowmap",
+					"noiseSampler": 2101584,
+					"noiseScale": 1.0,
+					"noiseUScrollSpeed": 1.0,
+					"noiseUScrollSpeedOverLife": 1.0,
+					"noiseVScrollSpeed": 1.0,
+					"noiseVScrollSpeedOverLife": 1.0,
+					"number": 20.0,
+					"particleOrientation": 4,
+					"pivotPoint3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"randomFrameOnStart": false,
+					"randomOffsetOnStart": false,
+					"randomSpinDirection": true,
+					"scaleVelocityBase": 1.0,
+					"scaleVelocityFactor": 0.10000000149011612,
+					"simplifiedForces": [],
+					"size3d": [
+						3.25,
+						3.25,
+						3.25
+					],
+					"softParticles": true,
+					"spin3d": [
+						50.0,
+						50.0,
+						0.0
+					],
+					"spinVariation3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"spritePath": "~res:/Gfx/Particles/Boss_mode/Reflection/glow_13",
+					"spriteSampler": 2101589,
+					"startTime": 0.0,
+					"useFresToAlpha": false,
+					"usePerspectiveMapping": false,
+					"useThreePointGradient": false,
+					"useVertexColor": false,
+					"vertexAnimationSampler": 2101589
+				},
+				{
+					"activeLODS": [
+						false,
+						true,
+						true,
+						true
+					],
+					"alphaOverLife": [
+						2,
+						[
+							[
+								2,
+								0.0,
+								0.0,
+								-0.01540016196668148,
+								31.336753845214844
+							],
+							[
+								1,
+								1.0,
+								0.10174418985843658
+							]
+						]
+					],
+					"alphaRemapLoopCount": 1.0,
+					"alphaRemapSampler": 2101589,
+					"angle3d": [
+						90.0,
+						0.0,
+						-90.0
+					],
+					"applyGlobalForces": false,
+					"autoFPS": false,
+					"blending": 3,
+					"colorOverLife": [
+						2,
+						[
+							[
+								1,
+								1.0,
+								0.0
+							]
+						],
+						[
+							[
+								1,
+								0.003906309604644775,
+								0.0
+							]
+						],
+						[
+							[
+								1,
+								0.003906309604644775,
+								0.0
+							]
+						],
+						[
+							[
+								1,
+								1.0,
+								0.0
+							]
+						]
+					],
+					"cullMode": 2,
+					"degradeStrategy": 0,
+					"deltaTime": 0.0,
+					"deltaVariation": 0.0,
+					"depthDifferenceSlope": 5.0,
+					"enableAlphaRemap": false,
+					"enableFlow": false,
+					"enableFlowAnimation": false,
+					"enableFog": false,
+					"enableFrameBlend": false,
+					"enableMask": false,
+					"enableMaskUvScale": false,
+					"enableMaskUvScroll": false,
+					"enableNoise": false,
+					"enableNoiseScroll": false,
+					"enableUvScale": false,
+					"enableUvScroll": false,
+					"enableVertexAnimation": false,
+					"enableVertexAnimationMask": false,
+					"endTime": 0.10000000149011612,
+					"flowmapSampler": 2101589,
+					"forces": [],
+					"frameOverLifeEnabled": false,
+					"frameOverLifeFPS": 1.0,
+					"fresToAlphaBias": 0.0,
+					"fresToAlphaPower": 0.0,
+					"fuseBlendAddEdges": [
+						0.0,
+						1.0
+					],
+					"gradientMiddlePoint": 0.5,
+					"inheritChangesRotation": true,
+					"inheritChangesScale": true,
+					"inheritPosition": true,
+					"isLong": false,
+					"isLooped": false,
+					"isSingle": false,
+					"layerType": "mesh",
+					"life": 16.0,
+					"loopEndTime": 100.0,
+					"loopSpriteAnimation": false,
+					"loopVariation": 0.0,
+					"maskSampler": 2101589,
+					"meshGeometryId": 4,
+					"name": "circle_mesh",
+					"noiseSampler": 2101589,
+					"number": 12.0,
+					"particleOrientation": 1,
+					"pivotPoint3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"randomFrameOnStart": false,
+					"randomOffsetOnStart": false,
+					"randomSpinDirection": false,
+					"scaleVelocityBase": 1.0,
+					"scaleVelocityFactor": 0.10000000149011612,
+					"simplifiedForces": [],
+					"size3d": [
+						3.25,
+						3.25,
+						3.25
+					],
+					"softParticles": true,
+					"spritePath": "~res:/Gfx/Particles/Boss_mode/Reflection/glow_4",
+					"spriteSampler": 2101589,
+					"startTime": 0.0,
+					"useFresToAlpha": false,
+					"usePerspectiveMapping": false,
+					"useThreePointGradient": false,
+					"useVertexColor": false,
+					"vertexAnimationSampler": 2101589
+				}
+			],
+			"life": 100.0,
+			"name": "Sphere",
+			"radius": 1.0,
+			"shockwaveMode": 0,
+			"shortEffect": false,
+			"type": 0
+		},
+		{
+			"##name": "ParticleEmitterNode",
+			"#id": {
+				"hex": "0500000000000000"
+			},
+			"emissionRange": 0.0,
+			"emissionVector": [
+				1.0,
+				0.0,
+				0.0
+			],
+			"generateOnSurface": false,
+			"innerRadius": 0.6000000238418579,
+			"layers": [
+				{
+					"activeLODS": [
+						true,
+						true,
+						true,
+						true
+					],
+					"alphaOverLife": [
+						2,
+						[
+							[
+								0,
+								0.0,
+								0.0
+							],
+							[
+								0,
+								1.0,
+								0.029497843235731125
+							],
+							[
+								0,
+								0.0,
+								0.0418207049369812
+							],
+							[
+								0,
+								0.9614148139953613,
+								0.28881701827049255
+							],
+							[
+								0,
+								0.0,
+								0.3183148503303528
+							],
+							[
+								0,
+								0.799035370349884,
+								0.345964252948761
+							],
+							[
+								0,
+								0.0,
+								0.3600585460662842
+							],
+							[
+								2,
+								0.057877812534570694,
+								0.4006469249725342,
+								-15.865814208984375,
+								9.338788032531738
+							],
+							[
+								0,
+								0.0,
+								0.4997689425945282
+							],
+							[
+								0,
+								0.6977491974830627,
+								0.691928505897522
+							],
+							[
+								0,
+								0.0,
+								0.7147258520126343
+							],
+							[
+								0,
+								1.0,
+								0.7430683970451355
+							],
+							[
+								1,
+								0.0,
+								0.7979051470756531
+							]
+						]
+					],
+					"alphaRemapLoopCount": 1.0,
+					"alphaRemapSampler": 2101589,
+					"angle3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"angleVariation3d": [
+						-360.0,
+						-360.0,
+						-360.0
+					],
+					"applyGlobalForces": false,
+					"autoFPS": false,
+					"blending": 3,
+					"colorRandom": [
+						2,
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.0,
+								0.49751242995262146
+							],
+							[
+								1,
+								0.501960813999176,
+								0.9983416199684143
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							],
+							[
+								1,
+								0.48627451062202454,
+								0.49751242995262146
+							],
+							[
+								1,
+								0.0,
+								0.9983416199684143
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							],
+							[
+								1,
+								0.48627451062202454,
+								0.49751242995262146
+							],
+							[
+								1,
+								0.0,
+								0.9983416199684143
+							]
+						],
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.0,
+								0.49751242995262146
+							],
+							[
+								1,
+								1.0,
+								0.9983416199684143
+							]
+						]
+					],
+					"cullMode": 2,
+					"degradeStrategy": 0,
+					"deltaTime": 0.5,
+					"deltaVariation": 0.5,
+					"depthDifferenceSlope": 5.0,
+					"enableAlphaRemap": false,
+					"enableFlow": false,
+					"enableFlowAnimation": false,
+					"enableFog": false,
+					"enableFrameBlend": false,
+					"enableMask": false,
+					"enableMaskUvScale": false,
+					"enableMaskUvScroll": false,
+					"enableNoise": false,
+					"enableNoiseScroll": false,
+					"enableUvScale": false,
+					"enableUvScroll": false,
+					"enableVertexAnimation": false,
+					"enableVertexAnimationMask": false,
+					"endTime": 1.100000023841858,
+					"flowmapSampler": 2101589,
+					"forces": [],
+					"frameOverLifeEnabled": false,
+					"frameOverLifeFPS": 1.0,
+					"fresToAlphaBias": 0.0,
+					"fresToAlphaPower": 0.0,
+					"fuseBlendAddEdges": [
+						0.0,
+						1.0
+					],
+					"gradientMiddlePoint": 0.5,
+					"inheritChangesRotation": false,
+					"inheritChangesScale": false,
+					"inheritPosition": false,
+					"isLong": false,
+					"isLooped": true,
+					"isSingle": false,
+					"layerType": "mesh",
+					"life": 0.15000000596046448,
+					"lifeVariation": 0.30000001192092896,
+					"loopEndTime": 16.0,
+					"loopSpriteAnimation": true,
+					"loopVariation": 0.0,
+					"maskSampler": 2101589,
+					"meshGeometryId": 6,
+					"name": "Lightnings_1",
+					"noiseSampler": 2101589,
+					"number": 15.0,
+					"numberVariation": 15.0,
+					"particleOrientation": 2,
+					"pivotPoint3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"randomFrameOnStart": false,
+					"randomOffsetOnStart": false,
+					"randomSpinDirection": true,
+					"scaleVelocityBase": 1.0,
+					"scaleVelocityFactor": 0.10000000149011612,
+					"simplifiedForces": [],
+					"size3d": [
+						3.0,
+						3.0,
+						3.0
+					],
+					"sizeOverLife3ds": [
+						2,
+						[
+							[
+								1,
+								1.616666555404663,
+								0.0
+							],
+							[
+								1,
+								1.6815111637115479,
+								0.01976528763771057
+							],
+							[
+								1,
+								1.4905143976211548,
+								0.03644224628806114
+							],
+							[
+								1,
+								1.6709002256393433,
+								0.061148859560489655
+							],
+							[
+								1,
+								1.4445337057113647,
+								0.07164916396141052
+							],
+							[
+								1,
+								1.6090030670166016,
+								0.08091414719820023
+							],
+							[
+								1,
+								1.486977458000183,
+								0.10870908200740814
+							],
+							[
+								1,
+								1.656752347946167,
+								0.11797405779361725
+							],
+							[
+								1,
+								1.5541800260543823,
+								0.13959234952926636
+							],
+							[
+								1,
+								1.4091639518737793,
+								0.15812230110168457
+							],
+							[
+								1,
+								1.6019291877746582,
+								0.17171092331409454
+							],
+							[
+								1,
+								1.511736273765564,
+								0.1883879005908966
+							],
+							[
+								1,
+								1.6691317558288574,
+								0.21000617742538452
+							],
+							[
+								1,
+								1.435396432876587,
+								0.23818710446357727
+							],
+							[
+								1,
+								1.616666555404663,
+								0.2699196934700012
+							],
+							[
+								1,
+								1.4339227676391602,
+								0.3051266074180603
+							],
+							[
+								1,
+								1.616666555404663,
+								0.3267448842525482
+							],
+							[
+								1,
+								1.4324489831924438,
+								0.3533044755458832
+							],
+							[
+								1,
+								1.616666555404663,
+								0.38171711564064026
+							],
+							[
+								1,
+								1.4383440017700195,
+								0.389129102230072
+							],
+							[
+								1,
+								1.575401782989502,
+								0.4126003682613373
+							],
+							[
+								1,
+								1.3749730587005615,
+								0.45151329040527344
+							],
+							[
+								1,
+								1.616666555404663,
+								0.47869056463241577
+							],
+							[
+								1,
+								1.392657995223999,
+								0.5003088116645813
+							],
+							[
+								1,
+								1.5503482818603516,
+								0.5126621127128601
+							],
+							[
+								1,
+								1.616666555404663,
+								0.5460160374641418
+							],
+							[
+								1,
+								1.4692925214767456,
+								0.554663360118866
+							],
+							[
+								1,
+								1.5739279985427856,
+								0.5904879570007324
+							],
+							[
+								1,
+								1.395605444908142,
+								0.6028412580490112
+							],
+							[
+								1,
+								1.5562431812286377,
+								0.6294008493423462
+							],
+							[
+								1,
+								1.4530813694000244,
+								0.6652254462242126
+							],
+							[
+								1,
+								1.616666555404663,
+								0.6744904518127441
+							],
+							[
+								1,
+								1.4972935914993286,
+								0.71772700548172
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7251389622688293
+							],
+							[
+								1,
+								1.5400320291519165,
+								0.749845564365387
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7683755159378052
+							],
+							[
+								1,
+								1.448660135269165,
+								0.7850525379180908
+							],
+							[
+								1,
+								1.616666555404663,
+								0.8079060912132263
+							],
+							[
+								1,
+								1.4781349897384644,
+								0.8443483710289001
+							],
+							[
+								1,
+								1.6679526567459106,
+								0.8672019243240356
+							],
+							[
+								1,
+								1.5435690879821777,
+								0.8869672417640686
+							],
+							[
+								1,
+								1.6372989416122437,
+								0.9190858006477356
+							],
+							[
+								1,
+								1.488745927810669,
+								0.9505867958068848
+							],
+							[
+								1,
+								1.5948551893234253,
+								0.975911021232605
+							],
+							[
+								1,
+								1.5028938055038452,
+								1.0
+							]
+						],
+						[
+							[
+								1,
+								1.616666555404663,
+								0.0
+							],
+							[
+								1,
+								1.6815111637115479,
+								0.01976528763771057
+							],
+							[
+								1,
+								1.4905143976211548,
+								0.03644224628806114
+							],
+							[
+								1,
+								1.6709002256393433,
+								0.061148859560489655
+							],
+							[
+								1,
+								1.4445337057113647,
+								0.07164916396141052
+							],
+							[
+								1,
+								1.6090030670166016,
+								0.08091414719820023
+							],
+							[
+								1,
+								1.486977458000183,
+								0.10870908200740814
+							],
+							[
+								1,
+								1.656752347946167,
+								0.11797405779361725
+							],
+							[
+								1,
+								1.5541800260543823,
+								0.13959234952926636
+							],
+							[
+								1,
+								1.4091639518737793,
+								0.15812230110168457
+							],
+							[
+								1,
+								1.6019291877746582,
+								0.17171092331409454
+							],
+							[
+								1,
+								1.511736273765564,
+								0.1883879005908966
+							],
+							[
+								1,
+								1.6691317558288574,
+								0.21000617742538452
+							],
+							[
+								1,
+								1.435396432876587,
+								0.23818710446357727
+							],
+							[
+								1,
+								1.616666555404663,
+								0.2699196934700012
+							],
+							[
+								1,
+								1.4339227676391602,
+								0.3051266074180603
+							],
+							[
+								1,
+								1.616666555404663,
+								0.3267448842525482
+							],
+							[
+								1,
+								1.4324489831924438,
+								0.3533044755458832
+							],
+							[
+								1,
+								1.616666555404663,
+								0.38171711564064026
+							],
+							[
+								1,
+								1.4383440017700195,
+								0.389129102230072
+							],
+							[
+								1,
+								1.575401782989502,
+								0.4126003682613373
+							],
+							[
+								1,
+								1.3749730587005615,
+								0.45151329040527344
+							],
+							[
+								1,
+								1.616666555404663,
+								0.47869056463241577
+							],
+							[
+								1,
+								1.392657995223999,
+								0.5003088116645813
+							],
+							[
+								1,
+								1.5503482818603516,
+								0.5126621127128601
+							],
+							[
+								1,
+								1.616666555404663,
+								0.5460160374641418
+							],
+							[
+								1,
+								1.4692925214767456,
+								0.554663360118866
+							],
+							[
+								1,
+								1.5739279985427856,
+								0.5904879570007324
+							],
+							[
+								1,
+								1.395605444908142,
+								0.6028412580490112
+							],
+							[
+								1,
+								1.5562431812286377,
+								0.6294008493423462
+							],
+							[
+								1,
+								1.4530813694000244,
+								0.6652254462242126
+							],
+							[
+								1,
+								1.616666555404663,
+								0.6744904518127441
+							],
+							[
+								1,
+								1.4972935914993286,
+								0.71772700548172
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7251389622688293
+							],
+							[
+								1,
+								1.5400320291519165,
+								0.749845564365387
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7683755159378052
+							],
+							[
+								1,
+								1.448660135269165,
+								0.7850525379180908
+							],
+							[
+								1,
+								1.616666555404663,
+								0.8079060912132263
+							],
+							[
+								1,
+								1.4781349897384644,
+								0.8443483710289001
+							],
+							[
+								1,
+								1.6679526567459106,
+								0.8672019243240356
+							],
+							[
+								1,
+								1.5435690879821777,
+								0.8869672417640686
+							],
+							[
+								1,
+								1.6372989416122437,
+								0.9190858006477356
+							],
+							[
+								1,
+								1.488745927810669,
+								0.9505867958068848
+							],
+							[
+								1,
+								1.5948551893234253,
+								0.975911021232605
+							],
+							[
+								1,
+								1.5028938055038452,
+								1.0
+							]
+						],
+						[
+							[
+								1,
+								1.616666555404663,
+								0.0
+							],
+							[
+								1,
+								1.6815111637115479,
+								0.01976528763771057
+							],
+							[
+								1,
+								1.4905143976211548,
+								0.03644224628806114
+							],
+							[
+								1,
+								1.6709002256393433,
+								0.061148859560489655
+							],
+							[
+								1,
+								1.4445337057113647,
+								0.07164916396141052
+							],
+							[
+								1,
+								1.6090030670166016,
+								0.08091414719820023
+							],
+							[
+								1,
+								1.486977458000183,
+								0.10870908200740814
+							],
+							[
+								1,
+								1.656752347946167,
+								0.11797405779361725
+							],
+							[
+								1,
+								1.5541800260543823,
+								0.13959234952926636
+							],
+							[
+								1,
+								1.4091639518737793,
+								0.15812230110168457
+							],
+							[
+								1,
+								1.6019291877746582,
+								0.17171092331409454
+							],
+							[
+								1,
+								1.511736273765564,
+								0.1883879005908966
+							],
+							[
+								1,
+								1.6691317558288574,
+								0.21000617742538452
+							],
+							[
+								1,
+								1.435396432876587,
+								0.23818710446357727
+							],
+							[
+								1,
+								1.616666555404663,
+								0.2699196934700012
+							],
+							[
+								1,
+								1.4339227676391602,
+								0.3051266074180603
+							],
+							[
+								1,
+								1.616666555404663,
+								0.3267448842525482
+							],
+							[
+								1,
+								1.4324489831924438,
+								0.3533044755458832
+							],
+							[
+								1,
+								1.616666555404663,
+								0.38171711564064026
+							],
+							[
+								1,
+								1.4383440017700195,
+								0.389129102230072
+							],
+							[
+								1,
+								1.575401782989502,
+								0.4126003682613373
+							],
+							[
+								1,
+								1.3749730587005615,
+								0.45151329040527344
+							],
+							[
+								1,
+								1.616666555404663,
+								0.47869056463241577
+							],
+							[
+								1,
+								1.392657995223999,
+								0.5003088116645813
+							],
+							[
+								1,
+								1.5503482818603516,
+								0.5126621127128601
+							],
+							[
+								1,
+								1.616666555404663,
+								0.5460160374641418
+							],
+							[
+								1,
+								1.4692925214767456,
+								0.554663360118866
+							],
+							[
+								1,
+								1.5739279985427856,
+								0.5904879570007324
+							],
+							[
+								1,
+								1.395605444908142,
+								0.6028412580490112
+							],
+							[
+								1,
+								1.5562431812286377,
+								0.6294008493423462
+							],
+							[
+								1,
+								1.4530813694000244,
+								0.6652254462242126
+							],
+							[
+								1,
+								1.616666555404663,
+								0.6744904518127441
+							],
+							[
+								1,
+								1.4972935914993286,
+								0.71772700548172
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7251389622688293
+							],
+							[
+								1,
+								1.5400320291519165,
+								0.749845564365387
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7683755159378052
+							],
+							[
+								1,
+								1.448660135269165,
+								0.7850525379180908
+							],
+							[
+								1,
+								1.616666555404663,
+								0.8079060912132263
+							],
+							[
+								1,
+								1.4781349897384644,
+								0.8443483710289001
+							],
+							[
+								1,
+								1.6679526567459106,
+								0.8672019243240356
+							],
+							[
+								1,
+								1.5435690879821777,
+								0.8869672417640686
+							],
+							[
+								1,
+								1.6372989416122437,
+								0.9190858006477356
+							],
+							[
+								1,
+								1.488745927810669,
+								0.9505867958068848
+							],
+							[
+								1,
+								1.5948551893234253,
+								0.975911021232605
+							],
+							[
+								1,
+								1.5028938055038452,
+								1.0
+							]
+						]
+					],
+					"sizeVariation3d": [
+						9.0,
+						9.0,
+						9.0
+					],
+					"softParticles": false,
+					"spin3d": [
+						50.0,
+						50.0,
+						50.0
+					],
+					"spinVariation3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"spritePath": "~res:/Gfx/Particles/Boss_mode/Reflection/glow_2",
+					"spriteSampler": 2101589,
+					"startTime": 1.0,
+					"useFresToAlpha": false,
+					"usePerspectiveMapping": false,
+					"useThreePointGradient": false,
+					"useVertexColor": false,
+					"vertexAnimationSampler": 2101589
+				},
+				{
+					"activeLODS": [
+						true,
+						true,
+						true,
+						true
+					],
+					"alphaOverLife": [
+						2,
+						[
+							[
+								0,
+								0.0,
+								0.0
+							],
+							[
+								0,
+								1.0,
+								0.029497843235731125
+							],
+							[
+								0,
+								0.0,
+								0.0418207049369812
+							],
+							[
+								0,
+								1.0,
+								0.10520641505718231
+							],
+							[
+								0,
+								0.0,
+								0.13470424711704254
+							],
+							[
+								0,
+								0.8376205563545227,
+								0.16235366463661194
+							],
+							[
+								0,
+								0.0,
+								0.17644794285297394
+							],
+							[
+								2,
+								1.0,
+								0.3106900751590729,
+								-0.0,
+								0.0
+							],
+							[
+								0,
+								0.0,
+								0.4523259103298187
+							],
+							[
+								0,
+								0.6881029009819031,
+								0.7911275029182434
+							],
+							[
+								0,
+								0.0,
+								0.8157732486724854
+							],
+							[
+								0,
+								1.0,
+								0.8348736763000488
+							],
+							[
+								1,
+								0.0,
+								0.8613678216934204
+							]
+						]
+					],
+					"alphaRemapLoopCount": 1.0,
+					"alphaRemapSampler": 2101589,
+					"angle3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"angleVariation3d": [
+						-360.0,
+						-360.0,
+						-360.0
+					],
+					"applyGlobalForces": false,
+					"autoFPS": false,
+					"blending": 3,
+					"colorRandom": [
+						2,
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.0,
+								0.4875621795654297
+							],
+							[
+								1,
+								0.501960813999176,
+								0.9981684684753418
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							],
+							[
+								1,
+								0.48438239097595215,
+								0.4875621795654297
+							],
+							[
+								1,
+								0.0,
+								0.9981684684753418
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							],
+							[
+								1,
+								0.48438239097595215,
+								0.4875621795654297
+							],
+							[
+								1,
+								0.0,
+								0.9981684684753418
+							]
+						],
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.0,
+								0.4875621795654297
+							],
+							[
+								1,
+								1.0,
+								0.9981684684753418
+							]
+						]
+					],
+					"cullMode": 2,
+					"degradeStrategy": 0,
+					"deltaTime": 0.5,
+					"deltaVariation": 0.5,
+					"depthDifferenceSlope": 5.0,
+					"enableAlphaRemap": false,
+					"enableFlow": false,
+					"enableFlowAnimation": false,
+					"enableFog": false,
+					"enableFrameBlend": false,
+					"enableMask": false,
+					"enableMaskUvScale": false,
+					"enableMaskUvScroll": false,
+					"enableNoise": false,
+					"enableNoiseScroll": false,
+					"enableUvScale": false,
+					"enableUvScroll": false,
+					"enableVertexAnimation": false,
+					"enableVertexAnimationMask": false,
+					"endTime": 0.5,
+					"flowmapSampler": 2101589,
+					"forces": [],
+					"frameOverLifeEnabled": false,
+					"frameOverLifeFPS": 1.0,
+					"fresToAlphaBias": 0.0,
+					"fresToAlphaPower": 0.0,
+					"fuseBlendAddEdges": [
+						0.0,
+						1.0
+					],
+					"gradientMiddlePoint": 0.5,
+					"inheritChangesRotation": false,
+					"inheritChangesScale": false,
+					"inheritPosition": false,
+					"isLong": false,
+					"isLooped": true,
+					"isSingle": false,
+					"layerType": "mesh",
+					"life": 0.15000000596046448,
+					"lifeVariation": 0.30000001192092896,
+					"loopEndTime": 16.0,
+					"loopSpriteAnimation": true,
+					"loopVariation": 0.0,
+					"maskSampler": 2101589,
+					"meshGeometryId": 7,
+					"name": "Lightnings_2",
+					"noiseSampler": 2101589,
+					"number": 15.0,
+					"numberVariation": 15.0,
+					"particleOrientation": 2,
+					"pivotPoint3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"randomFrameOnStart": false,
+					"randomOffsetOnStart": false,
+					"randomSpinDirection": true,
+					"scaleVelocityBase": 1.0,
+					"scaleVelocityFactor": 0.10000000149011612,
+					"simplifiedForces": [],
+					"size3d": [
+						3.0,
+						3.0,
+						3.0
+					],
+					"sizeOverLife3ds": [
+						2,
+						[
+							[
+								1,
+								1.616666555404663,
+								0.0
+							],
+							[
+								1,
+								1.6815111637115479,
+								0.01976528763771057
+							],
+							[
+								1,
+								1.4905143976211548,
+								0.03644224628806114
+							],
+							[
+								1,
+								1.6709002256393433,
+								0.061148859560489655
+							],
+							[
+								1,
+								1.4445337057113647,
+								0.07164916396141052
+							],
+							[
+								1,
+								1.6090030670166016,
+								0.08091414719820023
+							],
+							[
+								1,
+								1.486977458000183,
+								0.10870908200740814
+							],
+							[
+								1,
+								1.656752347946167,
+								0.11797405779361725
+							],
+							[
+								1,
+								1.5541800260543823,
+								0.13959234952926636
+							],
+							[
+								1,
+								1.4091639518737793,
+								0.15812230110168457
+							],
+							[
+								1,
+								1.6019291877746582,
+								0.17171092331409454
+							],
+							[
+								1,
+								1.511736273765564,
+								0.1883879005908966
+							],
+							[
+								1,
+								1.6691317558288574,
+								0.21000617742538452
+							],
+							[
+								1,
+								1.435396432876587,
+								0.23818710446357727
+							],
+							[
+								1,
+								1.616666555404663,
+								0.2699196934700012
+							],
+							[
+								1,
+								1.4339227676391602,
+								0.3051266074180603
+							],
+							[
+								1,
+								1.616666555404663,
+								0.3267448842525482
+							],
+							[
+								1,
+								1.4324489831924438,
+								0.3533044755458832
+							],
+							[
+								1,
+								1.616666555404663,
+								0.38171711564064026
+							],
+							[
+								1,
+								1.4383440017700195,
+								0.389129102230072
+							],
+							[
+								1,
+								1.575401782989502,
+								0.4126003682613373
+							],
+							[
+								1,
+								1.3749730587005615,
+								0.45151329040527344
+							],
+							[
+								1,
+								1.616666555404663,
+								0.47869056463241577
+							],
+							[
+								1,
+								1.392657995223999,
+								0.5003088116645813
+							],
+							[
+								1,
+								1.5503482818603516,
+								0.5126621127128601
+							],
+							[
+								1,
+								1.616666555404663,
+								0.5460160374641418
+							],
+							[
+								1,
+								1.4692925214767456,
+								0.554663360118866
+							],
+							[
+								1,
+								1.5739279985427856,
+								0.5904879570007324
+							],
+							[
+								1,
+								1.395605444908142,
+								0.6028412580490112
+							],
+							[
+								1,
+								1.5562431812286377,
+								0.6294008493423462
+							],
+							[
+								1,
+								1.4530813694000244,
+								0.6652254462242126
+							],
+							[
+								1,
+								1.616666555404663,
+								0.6744904518127441
+							],
+							[
+								1,
+								1.4972935914993286,
+								0.71772700548172
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7251389622688293
+							],
+							[
+								1,
+								1.5400320291519165,
+								0.749845564365387
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7683755159378052
+							],
+							[
+								1,
+								1.448660135269165,
+								0.7850525379180908
+							],
+							[
+								1,
+								1.616666555404663,
+								0.8079060912132263
+							],
+							[
+								1,
+								1.4781349897384644,
+								0.8443483710289001
+							],
+							[
+								1,
+								1.6679526567459106,
+								0.8672019243240356
+							],
+							[
+								1,
+								1.5435690879821777,
+								0.8869672417640686
+							],
+							[
+								1,
+								1.6372989416122437,
+								0.9190858006477356
+							],
+							[
+								1,
+								1.488745927810669,
+								0.9505867958068848
+							],
+							[
+								1,
+								1.5948551893234253,
+								0.975911021232605
+							],
+							[
+								1,
+								1.5028938055038452,
+								1.0
+							]
+						],
+						[
+							[
+								1,
+								1.616666555404663,
+								0.0
+							],
+							[
+								1,
+								1.6815111637115479,
+								0.01976528763771057
+							],
+							[
+								1,
+								1.4905143976211548,
+								0.03644224628806114
+							],
+							[
+								1,
+								1.6709002256393433,
+								0.061148859560489655
+							],
+							[
+								1,
+								1.4445337057113647,
+								0.07164916396141052
+							],
+							[
+								1,
+								1.6090030670166016,
+								0.08091414719820023
+							],
+							[
+								1,
+								1.486977458000183,
+								0.10870908200740814
+							],
+							[
+								1,
+								1.656752347946167,
+								0.11797405779361725
+							],
+							[
+								1,
+								1.5541800260543823,
+								0.13959234952926636
+							],
+							[
+								1,
+								1.4091639518737793,
+								0.15812230110168457
+							],
+							[
+								1,
+								1.6019291877746582,
+								0.17171092331409454
+							],
+							[
+								1,
+								1.511736273765564,
+								0.1883879005908966
+							],
+							[
+								1,
+								1.6691317558288574,
+								0.21000617742538452
+							],
+							[
+								1,
+								1.435396432876587,
+								0.23818710446357727
+							],
+							[
+								1,
+								1.616666555404663,
+								0.2699196934700012
+							],
+							[
+								1,
+								1.4339227676391602,
+								0.3051266074180603
+							],
+							[
+								1,
+								1.616666555404663,
+								0.3267448842525482
+							],
+							[
+								1,
+								1.4324489831924438,
+								0.3533044755458832
+							],
+							[
+								1,
+								1.616666555404663,
+								0.38171711564064026
+							],
+							[
+								1,
+								1.4383440017700195,
+								0.389129102230072
+							],
+							[
+								1,
+								1.575401782989502,
+								0.4126003682613373
+							],
+							[
+								1,
+								1.3749730587005615,
+								0.45151329040527344
+							],
+							[
+								1,
+								1.616666555404663,
+								0.47869056463241577
+							],
+							[
+								1,
+								1.392657995223999,
+								0.5003088116645813
+							],
+							[
+								1,
+								1.5503482818603516,
+								0.5126621127128601
+							],
+							[
+								1,
+								1.616666555404663,
+								0.5460160374641418
+							],
+							[
+								1,
+								1.4692925214767456,
+								0.554663360118866
+							],
+							[
+								1,
+								1.5739279985427856,
+								0.5904879570007324
+							],
+							[
+								1,
+								1.395605444908142,
+								0.6028412580490112
+							],
+							[
+								1,
+								1.5562431812286377,
+								0.6294008493423462
+							],
+							[
+								1,
+								1.4530813694000244,
+								0.6652254462242126
+							],
+							[
+								1,
+								1.616666555404663,
+								0.6744904518127441
+							],
+							[
+								1,
+								1.4972935914993286,
+								0.71772700548172
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7251389622688293
+							],
+							[
+								1,
+								1.5400320291519165,
+								0.749845564365387
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7683755159378052
+							],
+							[
+								1,
+								1.448660135269165,
+								0.7850525379180908
+							],
+							[
+								1,
+								1.616666555404663,
+								0.8079060912132263
+							],
+							[
+								1,
+								1.4781349897384644,
+								0.8443483710289001
+							],
+							[
+								1,
+								1.6679526567459106,
+								0.8672019243240356
+							],
+							[
+								1,
+								1.5435690879821777,
+								0.8869672417640686
+							],
+							[
+								1,
+								1.6372989416122437,
+								0.9190858006477356
+							],
+							[
+								1,
+								1.488745927810669,
+								0.9505867958068848
+							],
+							[
+								1,
+								1.5948551893234253,
+								0.975911021232605
+							],
+							[
+								1,
+								1.5028938055038452,
+								1.0
+							]
+						],
+						[
+							[
+								1,
+								1.616666555404663,
+								0.0
+							],
+							[
+								1,
+								1.6815111637115479,
+								0.01976528763771057
+							],
+							[
+								1,
+								1.4905143976211548,
+								0.03644224628806114
+							],
+							[
+								1,
+								1.6709002256393433,
+								0.061148859560489655
+							],
+							[
+								1,
+								1.4445337057113647,
+								0.07164916396141052
+							],
+							[
+								1,
+								1.6090030670166016,
+								0.08091414719820023
+							],
+							[
+								1,
+								1.486977458000183,
+								0.10870908200740814
+							],
+							[
+								1,
+								1.656752347946167,
+								0.11797405779361725
+							],
+							[
+								1,
+								1.5541800260543823,
+								0.13959234952926636
+							],
+							[
+								1,
+								1.4091639518737793,
+								0.15812230110168457
+							],
+							[
+								1,
+								1.6019291877746582,
+								0.17171092331409454
+							],
+							[
+								1,
+								1.511736273765564,
+								0.1883879005908966
+							],
+							[
+								1,
+								1.6691317558288574,
+								0.21000617742538452
+							],
+							[
+								1,
+								1.435396432876587,
+								0.23818710446357727
+							],
+							[
+								1,
+								1.616666555404663,
+								0.2699196934700012
+							],
+							[
+								1,
+								1.4339227676391602,
+								0.3051266074180603
+							],
+							[
+								1,
+								1.616666555404663,
+								0.3267448842525482
+							],
+							[
+								1,
+								1.4324489831924438,
+								0.3533044755458832
+							],
+							[
+								1,
+								1.616666555404663,
+								0.38171711564064026
+							],
+							[
+								1,
+								1.4383440017700195,
+								0.389129102230072
+							],
+							[
+								1,
+								1.575401782989502,
+								0.4126003682613373
+							],
+							[
+								1,
+								1.3749730587005615,
+								0.45151329040527344
+							],
+							[
+								1,
+								1.616666555404663,
+								0.47869056463241577
+							],
+							[
+								1,
+								1.392657995223999,
+								0.5003088116645813
+							],
+							[
+								1,
+								1.5503482818603516,
+								0.5126621127128601
+							],
+							[
+								1,
+								1.616666555404663,
+								0.5460160374641418
+							],
+							[
+								1,
+								1.4692925214767456,
+								0.554663360118866
+							],
+							[
+								1,
+								1.5739279985427856,
+								0.5904879570007324
+							],
+							[
+								1,
+								1.395605444908142,
+								0.6028412580490112
+							],
+							[
+								1,
+								1.5562431812286377,
+								0.6294008493423462
+							],
+							[
+								1,
+								1.4530813694000244,
+								0.6652254462242126
+							],
+							[
+								1,
+								1.616666555404663,
+								0.6744904518127441
+							],
+							[
+								1,
+								1.4972935914993286,
+								0.71772700548172
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7251389622688293
+							],
+							[
+								1,
+								1.5400320291519165,
+								0.749845564365387
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7683755159378052
+							],
+							[
+								1,
+								1.448660135269165,
+								0.7850525379180908
+							],
+							[
+								1,
+								1.616666555404663,
+								0.8079060912132263
+							],
+							[
+								1,
+								1.4781349897384644,
+								0.8443483710289001
+							],
+							[
+								1,
+								1.6679526567459106,
+								0.8672019243240356
+							],
+							[
+								1,
+								1.5435690879821777,
+								0.8869672417640686
+							],
+							[
+								1,
+								1.6372989416122437,
+								0.9190858006477356
+							],
+							[
+								1,
+								1.488745927810669,
+								0.9505867958068848
+							],
+							[
+								1,
+								1.5948551893234253,
+								0.975911021232605
+							],
+							[
+								1,
+								1.5028938055038452,
+								1.0
+							]
+						]
+					],
+					"sizeVariation3d": [
+						9.0,
+						9.0,
+						9.0
+					],
+					"softParticles": false,
+					"spin3d": [
+						50.0,
+						50.0,
+						50.0
+					],
+					"spinVariation3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"spritePath": "~res:/Gfx/Particles/Boss_mode/Reflection/glow_2",
+					"spriteSampler": 2101589,
+					"startTime": 0.4000000059604645,
+					"useFresToAlpha": false,
+					"usePerspectiveMapping": false,
+					"useThreePointGradient": false,
+					"useVertexColor": false,
+					"vertexAnimationSampler": 2101589
+				},
+				{
+					"activeLODS": [
+						true,
+						true,
+						true,
+						true
+					],
+					"alphaOverLife": [
+						2,
+						[
+							[
+								0,
+								0.0,
+								0.0
+							],
+							[
+								0,
+								1.0,
+								0.029497843235731125
+							],
+							[
+								0,
+								0.0,
+								0.0418207049369812
+							],
+							[
+								0,
+								0.34565916657447815,
+								0.23089955747127533
+							],
+							[
+								0,
+								0.0,
+								0.28134626150131226
+							],
+							[
+								0,
+								0.8376205563545227,
+								0.30899569392204285
+							],
+							[
+								0,
+								0.0,
+								0.32308995723724365
+							],
+							[
+								2,
+								1.0,
+								0.4012630879878998,
+								-0.0,
+								0.0
+							],
+							[
+								0,
+								0.0,
+								0.4597196578979492
+							],
+							[
+								0,
+								0.6977491974830627,
+								0.691928505897522
+							],
+							[
+								0,
+								0.0,
+								0.7165742516517639
+							],
+							[
+								0,
+								1.0,
+								0.8348736763000488
+							],
+							[
+								1,
+								0.0,
+								0.8767713904380798
+							]
+						]
+					],
+					"alphaRemapLoopCount": 1.0,
+					"alphaRemapSampler": 2101589,
+					"angle3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"angleVariation3d": [
+						-360.0,
+						-360.0,
+						-360.0
+					],
+					"applyGlobalForces": false,
+					"autoFPS": false,
+					"blending": 3,
+					"colorRandom": [
+						2,
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.0,
+								0.5008291602134705
+							],
+							[
+								1,
+								0.501960813999176,
+								0.9983416199684143
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							],
+							[
+								1,
+								0.48627451062202454,
+								0.5008291602134705
+							],
+							[
+								1,
+								0.0,
+								0.9983416199684143
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							],
+							[
+								1,
+								0.48627451062202454,
+								0.5008291602134705
+							],
+							[
+								1,
+								0.0,
+								0.9983416199684143
+							]
+						],
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.0,
+								0.5008291602134705
+							],
+							[
+								1,
+								1.0,
+								0.9983416199684143
+							]
+						]
+					],
+					"cullMode": 2,
+					"degradeStrategy": 0,
+					"deltaTime": 0.5,
+					"deltaVariation": 0.5,
+					"depthDifferenceSlope": 5.0,
+					"enableAlphaRemap": false,
+					"enableFlow": false,
+					"enableFlowAnimation": false,
+					"enableFog": false,
+					"enableFrameBlend": false,
+					"enableMask": false,
+					"enableMaskUvScale": false,
+					"enableMaskUvScroll": false,
+					"enableNoise": false,
+					"enableNoiseScroll": false,
+					"enableUvScale": false,
+					"enableUvScroll": false,
+					"enableVertexAnimation": false,
+					"enableVertexAnimationMask": false,
+					"endTime": 0.8999999761581421,
+					"flowmapSampler": 2101589,
+					"forces": [],
+					"frameOverLifeEnabled": false,
+					"frameOverLifeFPS": 1.0,
+					"fresToAlphaBias": 0.0,
+					"fresToAlphaPower": 0.0,
+					"fuseBlendAddEdges": [
+						0.0,
+						1.0
+					],
+					"gradientMiddlePoint": 0.5,
+					"inheritChangesRotation": false,
+					"inheritChangesScale": false,
+					"inheritPosition": false,
+					"isLong": false,
+					"isLooped": true,
+					"isSingle": false,
+					"layerType": "mesh",
+					"life": 0.15000000596046448,
+					"lifeVariation": 0.30000001192092896,
+					"loopEndTime": 16.0,
+					"loopSpriteAnimation": true,
+					"loopVariation": 0.0,
+					"maskSampler": 2101589,
+					"meshGeometryId": 8,
+					"name": "Lightnings_3",
+					"noiseSampler": 2101589,
+					"number": 15.0,
+					"numberVariation": 15.0,
+					"particleOrientation": 2,
+					"pivotPoint3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"randomFrameOnStart": false,
+					"randomOffsetOnStart": false,
+					"randomSpinDirection": true,
+					"scaleVelocityBase": 1.0,
+					"scaleVelocityFactor": 0.10000000149011612,
+					"simplifiedForces": [],
+					"size3d": [
+						3.0,
+						3.0,
+						3.0
+					],
+					"sizeOverLife3ds": [
+						2,
+						[
+							[
+								1,
+								1.616666555404663,
+								0.0
+							],
+							[
+								1,
+								1.6815111637115479,
+								0.01976528763771057
+							],
+							[
+								1,
+								1.4905143976211548,
+								0.03644224628806114
+							],
+							[
+								1,
+								1.6709002256393433,
+								0.061148859560489655
+							],
+							[
+								1,
+								1.4445337057113647,
+								0.07164916396141052
+							],
+							[
+								1,
+								1.6090030670166016,
+								0.08091414719820023
+							],
+							[
+								1,
+								1.486977458000183,
+								0.10870908200740814
+							],
+							[
+								1,
+								1.656752347946167,
+								0.11797405779361725
+							],
+							[
+								1,
+								1.5541800260543823,
+								0.13959234952926636
+							],
+							[
+								1,
+								1.4091639518737793,
+								0.15812230110168457
+							],
+							[
+								1,
+								1.6019291877746582,
+								0.17171092331409454
+							],
+							[
+								1,
+								1.511736273765564,
+								0.1883879005908966
+							],
+							[
+								1,
+								1.6691317558288574,
+								0.21000617742538452
+							],
+							[
+								1,
+								1.435396432876587,
+								0.23818710446357727
+							],
+							[
+								1,
+								1.616666555404663,
+								0.2699196934700012
+							],
+							[
+								1,
+								1.4339227676391602,
+								0.3051266074180603
+							],
+							[
+								1,
+								1.616666555404663,
+								0.3267448842525482
+							],
+							[
+								1,
+								1.4324489831924438,
+								0.3533044755458832
+							],
+							[
+								1,
+								1.616666555404663,
+								0.38171711564064026
+							],
+							[
+								1,
+								1.4383440017700195,
+								0.389129102230072
+							],
+							[
+								1,
+								1.575401782989502,
+								0.4126003682613373
+							],
+							[
+								1,
+								1.3749730587005615,
+								0.45151329040527344
+							],
+							[
+								1,
+								1.616666555404663,
+								0.47869056463241577
+							],
+							[
+								1,
+								1.392657995223999,
+								0.5003088116645813
+							],
+							[
+								1,
+								1.5503482818603516,
+								0.5126621127128601
+							],
+							[
+								1,
+								1.616666555404663,
+								0.5460160374641418
+							],
+							[
+								1,
+								1.4692925214767456,
+								0.554663360118866
+							],
+							[
+								1,
+								1.5739279985427856,
+								0.5904879570007324
+							],
+							[
+								1,
+								1.395605444908142,
+								0.6028412580490112
+							],
+							[
+								1,
+								1.5562431812286377,
+								0.6294008493423462
+							],
+							[
+								1,
+								1.4530813694000244,
+								0.6652254462242126
+							],
+							[
+								1,
+								1.616666555404663,
+								0.6744904518127441
+							],
+							[
+								1,
+								1.4972935914993286,
+								0.71772700548172
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7251389622688293
+							],
+							[
+								1,
+								1.5400320291519165,
+								0.749845564365387
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7683755159378052
+							],
+							[
+								1,
+								1.448660135269165,
+								0.7850525379180908
+							],
+							[
+								1,
+								1.616666555404663,
+								0.8079060912132263
+							],
+							[
+								1,
+								1.4781349897384644,
+								0.8443483710289001
+							],
+							[
+								1,
+								1.6679526567459106,
+								0.8672019243240356
+							],
+							[
+								1,
+								1.5435690879821777,
+								0.8869672417640686
+							],
+							[
+								1,
+								1.6372989416122437,
+								0.9190858006477356
+							],
+							[
+								1,
+								1.488745927810669,
+								0.9505867958068848
+							],
+							[
+								1,
+								1.5948551893234253,
+								0.975911021232605
+							],
+							[
+								1,
+								1.5028938055038452,
+								1.0
+							]
+						],
+						[
+							[
+								1,
+								1.616666555404663,
+								0.0
+							],
+							[
+								1,
+								1.6815111637115479,
+								0.01976528763771057
+							],
+							[
+								1,
+								1.4905143976211548,
+								0.03644224628806114
+							],
+							[
+								1,
+								1.6709002256393433,
+								0.061148859560489655
+							],
+							[
+								1,
+								1.4445337057113647,
+								0.07164916396141052
+							],
+							[
+								1,
+								1.6090030670166016,
+								0.08091414719820023
+							],
+							[
+								1,
+								1.486977458000183,
+								0.10870908200740814
+							],
+							[
+								1,
+								1.656752347946167,
+								0.11797405779361725
+							],
+							[
+								1,
+								1.5541800260543823,
+								0.13959234952926636
+							],
+							[
+								1,
+								1.4091639518737793,
+								0.15812230110168457
+							],
+							[
+								1,
+								1.6019291877746582,
+								0.17171092331409454
+							],
+							[
+								1,
+								1.511736273765564,
+								0.1883879005908966
+							],
+							[
+								1,
+								1.6691317558288574,
+								0.21000617742538452
+							],
+							[
+								1,
+								1.435396432876587,
+								0.23818710446357727
+							],
+							[
+								1,
+								1.616666555404663,
+								0.2699196934700012
+							],
+							[
+								1,
+								1.4339227676391602,
+								0.3051266074180603
+							],
+							[
+								1,
+								1.616666555404663,
+								0.3267448842525482
+							],
+							[
+								1,
+								1.4324489831924438,
+								0.3533044755458832
+							],
+							[
+								1,
+								1.616666555404663,
+								0.38171711564064026
+							],
+							[
+								1,
+								1.4383440017700195,
+								0.389129102230072
+							],
+							[
+								1,
+								1.575401782989502,
+								0.4126003682613373
+							],
+							[
+								1,
+								1.3749730587005615,
+								0.45151329040527344
+							],
+							[
+								1,
+								1.616666555404663,
+								0.47869056463241577
+							],
+							[
+								1,
+								1.392657995223999,
+								0.5003088116645813
+							],
+							[
+								1,
+								1.5503482818603516,
+								0.5126621127128601
+							],
+							[
+								1,
+								1.616666555404663,
+								0.5460160374641418
+							],
+							[
+								1,
+								1.4692925214767456,
+								0.554663360118866
+							],
+							[
+								1,
+								1.5739279985427856,
+								0.5904879570007324
+							],
+							[
+								1,
+								1.395605444908142,
+								0.6028412580490112
+							],
+							[
+								1,
+								1.5562431812286377,
+								0.6294008493423462
+							],
+							[
+								1,
+								1.4530813694000244,
+								0.6652254462242126
+							],
+							[
+								1,
+								1.616666555404663,
+								0.6744904518127441
+							],
+							[
+								1,
+								1.4972935914993286,
+								0.71772700548172
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7251389622688293
+							],
+							[
+								1,
+								1.5400320291519165,
+								0.749845564365387
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7683755159378052
+							],
+							[
+								1,
+								1.448660135269165,
+								0.7850525379180908
+							],
+							[
+								1,
+								1.616666555404663,
+								0.8079060912132263
+							],
+							[
+								1,
+								1.4781349897384644,
+								0.8443483710289001
+							],
+							[
+								1,
+								1.6679526567459106,
+								0.8672019243240356
+							],
+							[
+								1,
+								1.5435690879821777,
+								0.8869672417640686
+							],
+							[
+								1,
+								1.6372989416122437,
+								0.9190858006477356
+							],
+							[
+								1,
+								1.488745927810669,
+								0.9505867958068848
+							],
+							[
+								1,
+								1.5948551893234253,
+								0.975911021232605
+							],
+							[
+								1,
+								1.5028938055038452,
+								1.0
+							]
+						],
+						[
+							[
+								1,
+								1.616666555404663,
+								0.0
+							],
+							[
+								1,
+								1.6815111637115479,
+								0.01976528763771057
+							],
+							[
+								1,
+								1.4905143976211548,
+								0.03644224628806114
+							],
+							[
+								1,
+								1.6709002256393433,
+								0.061148859560489655
+							],
+							[
+								1,
+								1.4445337057113647,
+								0.07164916396141052
+							],
+							[
+								1,
+								1.6090030670166016,
+								0.08091414719820023
+							],
+							[
+								1,
+								1.486977458000183,
+								0.10870908200740814
+							],
+							[
+								1,
+								1.656752347946167,
+								0.11797405779361725
+							],
+							[
+								1,
+								1.5541800260543823,
+								0.13959234952926636
+							],
+							[
+								1,
+								1.4091639518737793,
+								0.15812230110168457
+							],
+							[
+								1,
+								1.6019291877746582,
+								0.17171092331409454
+							],
+							[
+								1,
+								1.511736273765564,
+								0.1883879005908966
+							],
+							[
+								1,
+								1.6691317558288574,
+								0.21000617742538452
+							],
+							[
+								1,
+								1.435396432876587,
+								0.23818710446357727
+							],
+							[
+								1,
+								1.616666555404663,
+								0.2699196934700012
+							],
+							[
+								1,
+								1.4339227676391602,
+								0.3051266074180603
+							],
+							[
+								1,
+								1.616666555404663,
+								0.3267448842525482
+							],
+							[
+								1,
+								1.4324489831924438,
+								0.3533044755458832
+							],
+							[
+								1,
+								1.616666555404663,
+								0.38171711564064026
+							],
+							[
+								1,
+								1.4383440017700195,
+								0.389129102230072
+							],
+							[
+								1,
+								1.575401782989502,
+								0.4126003682613373
+							],
+							[
+								1,
+								1.3749730587005615,
+								0.45151329040527344
+							],
+							[
+								1,
+								1.616666555404663,
+								0.47869056463241577
+							],
+							[
+								1,
+								1.392657995223999,
+								0.5003088116645813
+							],
+							[
+								1,
+								1.5503482818603516,
+								0.5126621127128601
+							],
+							[
+								1,
+								1.616666555404663,
+								0.5460160374641418
+							],
+							[
+								1,
+								1.4692925214767456,
+								0.554663360118866
+							],
+							[
+								1,
+								1.5739279985427856,
+								0.5904879570007324
+							],
+							[
+								1,
+								1.395605444908142,
+								0.6028412580490112
+							],
+							[
+								1,
+								1.5562431812286377,
+								0.6294008493423462
+							],
+							[
+								1,
+								1.4530813694000244,
+								0.6652254462242126
+							],
+							[
+								1,
+								1.616666555404663,
+								0.6744904518127441
+							],
+							[
+								1,
+								1.4972935914993286,
+								0.71772700548172
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7251389622688293
+							],
+							[
+								1,
+								1.5400320291519165,
+								0.749845564365387
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7683755159378052
+							],
+							[
+								1,
+								1.448660135269165,
+								0.7850525379180908
+							],
+							[
+								1,
+								1.616666555404663,
+								0.8079060912132263
+							],
+							[
+								1,
+								1.4781349897384644,
+								0.8443483710289001
+							],
+							[
+								1,
+								1.6679526567459106,
+								0.8672019243240356
+							],
+							[
+								1,
+								1.5435690879821777,
+								0.8869672417640686
+							],
+							[
+								1,
+								1.6372989416122437,
+								0.9190858006477356
+							],
+							[
+								1,
+								1.488745927810669,
+								0.9505867958068848
+							],
+							[
+								1,
+								1.5948551893234253,
+								0.975911021232605
+							],
+							[
+								1,
+								1.5028938055038452,
+								1.0
+							]
+						]
+					],
+					"sizeVariation3d": [
+						9.0,
+						9.0,
+						9.0
+					],
+					"softParticles": false,
+					"spin3d": [
+						50.0,
+						50.0,
+						50.0
+					],
+					"spinVariation3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"spritePath": "~res:/Gfx/Particles/Boss_mode/Reflection/glow_2",
+					"spriteSampler": 2101589,
+					"startTime": 0.800000011920929,
+					"useFresToAlpha": false,
+					"usePerspectiveMapping": false,
+					"useThreePointGradient": false,
+					"useVertexColor": false,
+					"vertexAnimationSampler": 2101589
+				},
+				{
+					"activeLODS": [
+						true,
+						true,
+						true,
+						true
+					],
+					"alphaOverLife": [
+						2,
+						[
+							[
+								0,
+								0.0,
+								0.0
+							],
+							[
+								0,
+								1.0,
+								0.15642330050468445
+							],
+							[
+								0,
+								0.0,
+								0.2081792950630188
+							],
+							[
+								0,
+								0.23794212937355042,
+								0.43484288454055786
+							],
+							[
+								0,
+								0.0,
+								0.44708871841430664
+							],
+							[
+								0,
+								0.827974259853363,
+								0.47473815083503723
+							],
+							[
+								0,
+								0.0,
+								0.48883241415023804
+							],
+							[
+								2,
+								0.946945309638977,
+								0.6674368381500244,
+								-0.0,
+								0.0
+							],
+							[
+								0,
+								0.0,
+								0.7111059427261353
+							],
+							[
+								0,
+								1.0,
+								0.8545902967453003
+							],
+							[
+								0,
+								0.0,
+								0.8810844421386719
+							],
+							[
+								0,
+								0.2170417755842209,
+								0.9051139950752258
+							],
+							[
+								1,
+								0.0,
+								0.9266790151596069
+							]
+						]
+					],
+					"alphaRemapLoopCount": 1.0,
+					"alphaRemapSampler": 2101589,
+					"angle3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"angleVariation3d": [
+						-360.0,
+						-360.0,
+						-360.0
+					],
+					"applyGlobalForces": false,
+					"autoFPS": false,
+					"blending": 3,
+					"colorRandom": [
+						2,
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.0,
+								0.49419569969177246
+							],
+							[
+								1,
+								0.501960813999176,
+								0.9983416199684143
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							],
+							[
+								1,
+								0.48627451062202454,
+								0.49419569969177246
+							],
+							[
+								1,
+								0.0,
+								0.9983416199684143
+							]
+						],
+						[
+							[
+								1,
+								0.0,
+								0.0
+							],
+							[
+								1,
+								0.48627451062202454,
+								0.49419569969177246
+							],
+							[
+								1,
+								0.0,
+								0.9983416199684143
+							]
+						],
+						[
+							[
+								1,
+								1.0,
+								0.0
+							],
+							[
+								1,
+								1.0,
+								0.49419569969177246
+							],
+							[
+								1,
+								1.0,
+								0.9983416199684143
+							]
+						]
+					],
+					"cullMode": 2,
+					"degradeStrategy": 0,
+					"deltaTime": 0.5,
+					"deltaVariation": 0.5,
+					"depthDifferenceSlope": 5.0,
+					"enableAlphaRemap": false,
+					"enableFlow": false,
+					"enableFlowAnimation": false,
+					"enableFog": false,
+					"enableFrameBlend": false,
+					"enableMask": false,
+					"enableMaskUvScale": false,
+					"enableMaskUvScroll": false,
+					"enableNoise": false,
+					"enableNoiseScroll": false,
+					"enableUvScale": false,
+					"enableUvScroll": false,
+					"enableVertexAnimation": false,
+					"enableVertexAnimationMask": false,
+					"endTime": 0.10000000149011612,
+					"flowmapSampler": 2101589,
+					"forces": [],
+					"frameOverLifeEnabled": false,
+					"frameOverLifeFPS": 1.0,
+					"fresToAlphaBias": 0.0,
+					"fresToAlphaPower": 0.0,
+					"fuseBlendAddEdges": [
+						0.0,
+						1.0
+					],
+					"gradientMiddlePoint": 0.5,
+					"inheritChangesRotation": false,
+					"inheritChangesScale": false,
+					"inheritPosition": false,
+					"isLong": false,
+					"isLooped": true,
+					"isSingle": false,
+					"layerType": "mesh",
+					"life": 0.15000000596046448,
+					"lifeVariation": 0.30000001192092896,
+					"loopEndTime": 16.0,
+					"loopSpriteAnimation": true,
+					"loopVariation": 0.0,
+					"maskSampler": 2101589,
+					"meshGeometryId": 9,
+					"name": "Lightnings_4",
+					"noiseSampler": 2101589,
+					"number": 15.0,
+					"numberVariation": 15.0,
+					"particleOrientation": 2,
+					"pivotPoint3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"randomFrameOnStart": false,
+					"randomOffsetOnStart": false,
+					"randomSpinDirection": true,
+					"scaleVelocityBase": 1.0,
+					"scaleVelocityFactor": 0.10000000149011612,
+					"simplifiedForces": [],
+					"size3d": [
+						3.0,
+						3.0,
+						3.0
+					],
+					"sizeOverLife3ds": [
+						2,
+						[
+							[
+								1,
+								1.616666555404663,
+								0.0
+							],
+							[
+								1,
+								1.6815111637115479,
+								0.01976528763771057
+							],
+							[
+								1,
+								1.4905143976211548,
+								0.03644224628806114
+							],
+							[
+								1,
+								1.6709002256393433,
+								0.061148859560489655
+							],
+							[
+								1,
+								1.4445337057113647,
+								0.07164916396141052
+							],
+							[
+								1,
+								1.6090030670166016,
+								0.08091414719820023
+							],
+							[
+								1,
+								1.486977458000183,
+								0.10870908200740814
+							],
+							[
+								1,
+								1.656752347946167,
+								0.11797405779361725
+							],
+							[
+								1,
+								1.5541800260543823,
+								0.13959234952926636
+							],
+							[
+								1,
+								1.4091639518737793,
+								0.15812230110168457
+							],
+							[
+								1,
+								1.6019291877746582,
+								0.17171092331409454
+							],
+							[
+								1,
+								1.511736273765564,
+								0.1883879005908966
+							],
+							[
+								1,
+								1.6691317558288574,
+								0.21000617742538452
+							],
+							[
+								1,
+								1.435396432876587,
+								0.23818710446357727
+							],
+							[
+								1,
+								1.616666555404663,
+								0.2699196934700012
+							],
+							[
+								1,
+								1.4339227676391602,
+								0.3051266074180603
+							],
+							[
+								1,
+								1.616666555404663,
+								0.3267448842525482
+							],
+							[
+								1,
+								1.4324489831924438,
+								0.3533044755458832
+							],
+							[
+								1,
+								1.616666555404663,
+								0.38171711564064026
+							],
+							[
+								1,
+								1.4383440017700195,
+								0.389129102230072
+							],
+							[
+								1,
+								1.575401782989502,
+								0.4126003682613373
+							],
+							[
+								1,
+								1.3749730587005615,
+								0.45151329040527344
+							],
+							[
+								1,
+								1.616666555404663,
+								0.47869056463241577
+							],
+							[
+								1,
+								1.392657995223999,
+								0.5003088116645813
+							],
+							[
+								1,
+								1.5503482818603516,
+								0.5126621127128601
+							],
+							[
+								1,
+								1.616666555404663,
+								0.5460160374641418
+							],
+							[
+								1,
+								1.4692925214767456,
+								0.554663360118866
+							],
+							[
+								1,
+								1.5739279985427856,
+								0.5904879570007324
+							],
+							[
+								1,
+								1.395605444908142,
+								0.6028412580490112
+							],
+							[
+								1,
+								1.5562431812286377,
+								0.6294008493423462
+							],
+							[
+								1,
+								1.4530813694000244,
+								0.6652254462242126
+							],
+							[
+								1,
+								1.616666555404663,
+								0.6744904518127441
+							],
+							[
+								1,
+								1.4972935914993286,
+								0.71772700548172
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7251389622688293
+							],
+							[
+								1,
+								1.5400320291519165,
+								0.749845564365387
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7683755159378052
+							],
+							[
+								1,
+								1.448660135269165,
+								0.7850525379180908
+							],
+							[
+								1,
+								1.616666555404663,
+								0.8079060912132263
+							],
+							[
+								1,
+								1.4781349897384644,
+								0.8443483710289001
+							],
+							[
+								1,
+								1.6679526567459106,
+								0.8672019243240356
+							],
+							[
+								1,
+								1.5435690879821777,
+								0.8869672417640686
+							],
+							[
+								1,
+								1.6372989416122437,
+								0.9190858006477356
+							],
+							[
+								1,
+								1.488745927810669,
+								0.9505867958068848
+							],
+							[
+								1,
+								1.5948551893234253,
+								0.975911021232605
+							],
+							[
+								1,
+								1.5028938055038452,
+								1.0
+							]
+						],
+						[
+							[
+								1,
+								1.616666555404663,
+								0.0
+							],
+							[
+								1,
+								1.6815111637115479,
+								0.01976528763771057
+							],
+							[
+								1,
+								1.4905143976211548,
+								0.03644224628806114
+							],
+							[
+								1,
+								1.6709002256393433,
+								0.061148859560489655
+							],
+							[
+								1,
+								1.4445337057113647,
+								0.07164916396141052
+							],
+							[
+								1,
+								1.6090030670166016,
+								0.08091414719820023
+							],
+							[
+								1,
+								1.486977458000183,
+								0.10870908200740814
+							],
+							[
+								1,
+								1.656752347946167,
+								0.11797405779361725
+							],
+							[
+								1,
+								1.5541800260543823,
+								0.13959234952926636
+							],
+							[
+								1,
+								1.4091639518737793,
+								0.15812230110168457
+							],
+							[
+								1,
+								1.6019291877746582,
+								0.17171092331409454
+							],
+							[
+								1,
+								1.511736273765564,
+								0.1883879005908966
+							],
+							[
+								1,
+								1.6691317558288574,
+								0.21000617742538452
+							],
+							[
+								1,
+								1.435396432876587,
+								0.23818710446357727
+							],
+							[
+								1,
+								1.616666555404663,
+								0.2699196934700012
+							],
+							[
+								1,
+								1.4339227676391602,
+								0.3051266074180603
+							],
+							[
+								1,
+								1.616666555404663,
+								0.3267448842525482
+							],
+							[
+								1,
+								1.4324489831924438,
+								0.3533044755458832
+							],
+							[
+								1,
+								1.616666555404663,
+								0.38171711564064026
+							],
+							[
+								1,
+								1.4383440017700195,
+								0.389129102230072
+							],
+							[
+								1,
+								1.575401782989502,
+								0.4126003682613373
+							],
+							[
+								1,
+								1.3749730587005615,
+								0.45151329040527344
+							],
+							[
+								1,
+								1.616666555404663,
+								0.47869056463241577
+							],
+							[
+								1,
+								1.392657995223999,
+								0.5003088116645813
+							],
+							[
+								1,
+								1.5503482818603516,
+								0.5126621127128601
+							],
+							[
+								1,
+								1.616666555404663,
+								0.5460160374641418
+							],
+							[
+								1,
+								1.4692925214767456,
+								0.554663360118866
+							],
+							[
+								1,
+								1.5739279985427856,
+								0.5904879570007324
+							],
+							[
+								1,
+								1.395605444908142,
+								0.6028412580490112
+							],
+							[
+								1,
+								1.5562431812286377,
+								0.6294008493423462
+							],
+							[
+								1,
+								1.4530813694000244,
+								0.6652254462242126
+							],
+							[
+								1,
+								1.616666555404663,
+								0.6744904518127441
+							],
+							[
+								1,
+								1.4972935914993286,
+								0.71772700548172
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7251389622688293
+							],
+							[
+								1,
+								1.5400320291519165,
+								0.749845564365387
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7683755159378052
+							],
+							[
+								1,
+								1.448660135269165,
+								0.7850525379180908
+							],
+							[
+								1,
+								1.616666555404663,
+								0.8079060912132263
+							],
+							[
+								1,
+								1.4781349897384644,
+								0.8443483710289001
+							],
+							[
+								1,
+								1.6679526567459106,
+								0.8672019243240356
+							],
+							[
+								1,
+								1.5435690879821777,
+								0.8869672417640686
+							],
+							[
+								1,
+								1.6372989416122437,
+								0.9190858006477356
+							],
+							[
+								1,
+								1.488745927810669,
+								0.9505867958068848
+							],
+							[
+								1,
+								1.5948551893234253,
+								0.975911021232605
+							],
+							[
+								1,
+								1.5028938055038452,
+								1.0
+							]
+						],
+						[
+							[
+								1,
+								1.616666555404663,
+								0.0
+							],
+							[
+								1,
+								1.6815111637115479,
+								0.01976528763771057
+							],
+							[
+								1,
+								1.4905143976211548,
+								0.03644224628806114
+							],
+							[
+								1,
+								1.6709002256393433,
+								0.061148859560489655
+							],
+							[
+								1,
+								1.4445337057113647,
+								0.07164916396141052
+							],
+							[
+								1,
+								1.6090030670166016,
+								0.08091414719820023
+							],
+							[
+								1,
+								1.486977458000183,
+								0.10870908200740814
+							],
+							[
+								1,
+								1.656752347946167,
+								0.11797405779361725
+							],
+							[
+								1,
+								1.5541800260543823,
+								0.13959234952926636
+							],
+							[
+								1,
+								1.4091639518737793,
+								0.15812230110168457
+							],
+							[
+								1,
+								1.6019291877746582,
+								0.17171092331409454
+							],
+							[
+								1,
+								1.511736273765564,
+								0.1883879005908966
+							],
+							[
+								1,
+								1.6691317558288574,
+								0.21000617742538452
+							],
+							[
+								1,
+								1.435396432876587,
+								0.23818710446357727
+							],
+							[
+								1,
+								1.616666555404663,
+								0.2699196934700012
+							],
+							[
+								1,
+								1.4339227676391602,
+								0.3051266074180603
+							],
+							[
+								1,
+								1.616666555404663,
+								0.3267448842525482
+							],
+							[
+								1,
+								1.4324489831924438,
+								0.3533044755458832
+							],
+							[
+								1,
+								1.616666555404663,
+								0.38171711564064026
+							],
+							[
+								1,
+								1.4383440017700195,
+								0.389129102230072
+							],
+							[
+								1,
+								1.575401782989502,
+								0.4126003682613373
+							],
+							[
+								1,
+								1.3749730587005615,
+								0.45151329040527344
+							],
+							[
+								1,
+								1.616666555404663,
+								0.47869056463241577
+							],
+							[
+								1,
+								1.392657995223999,
+								0.5003088116645813
+							],
+							[
+								1,
+								1.5503482818603516,
+								0.5126621127128601
+							],
+							[
+								1,
+								1.616666555404663,
+								0.5460160374641418
+							],
+							[
+								1,
+								1.4692925214767456,
+								0.554663360118866
+							],
+							[
+								1,
+								1.5739279985427856,
+								0.5904879570007324
+							],
+							[
+								1,
+								1.395605444908142,
+								0.6028412580490112
+							],
+							[
+								1,
+								1.5562431812286377,
+								0.6294008493423462
+							],
+							[
+								1,
+								1.4530813694000244,
+								0.6652254462242126
+							],
+							[
+								1,
+								1.616666555404663,
+								0.6744904518127441
+							],
+							[
+								1,
+								1.4972935914993286,
+								0.71772700548172
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7251389622688293
+							],
+							[
+								1,
+								1.5400320291519165,
+								0.749845564365387
+							],
+							[
+								1,
+								1.616666555404663,
+								0.7683755159378052
+							],
+							[
+								1,
+								1.448660135269165,
+								0.7850525379180908
+							],
+							[
+								1,
+								1.616666555404663,
+								0.8079060912132263
+							],
+							[
+								1,
+								1.4781349897384644,
+								0.8443483710289001
+							],
+							[
+								1,
+								1.6679526567459106,
+								0.8672019243240356
+							],
+							[
+								1,
+								1.5435690879821777,
+								0.8869672417640686
+							],
+							[
+								1,
+								1.6372989416122437,
+								0.9190858006477356
+							],
+							[
+								1,
+								1.488745927810669,
+								0.9505867958068848
+							],
+							[
+								1,
+								1.5948551893234253,
+								0.975911021232605
+							],
+							[
+								1,
+								1.5028938055038452,
+								1.0
+							]
+						]
+					],
+					"sizeVariation3d": [
+						9.0,
+						9.0,
+						9.0
+					],
+					"softParticles": false,
+					"spin3d": [
+						50.0,
+						50.0,
+						50.0
+					],
+					"spinVariation3d": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"spritePath": "~res:/Gfx/Particles/Boss_mode/Reflection/glow_2",
+					"spriteSampler": 2101589,
+					"startTime": 0.0,
+					"useFresToAlpha": false,
+					"usePerspectiveMapping": false,
+					"useThreePointGradient": false,
+					"useVertexColor": false,
+					"vertexAnimationSampler": 2101589
+				}
+			],
+			"life": 100.0,
+			"name": "Lightnings",
+			"radius": 0.5,
+			"shockwaveMode": 0,
+			"shortEffect": false,
+			"type": 4
+		}
+	],
+	"#hierarchy": [
+		{
+			"##name": "Entity",
+			"#hierarchy": [
+				{
+					"##name": "Entity",
+					"components": {
+						"0000": {
+							"0000": {
+								"sce.flags": 0,
+								"sce.localDirection": [
+									1.0,
+									0.0,
+									0.0
+								],
+								"wwise": {
+									"eventName": "play_hlwn_2022_abl_reflection_on",
+									"groupName": "FX"
+								}
+							},
+							"comp.typename": "SoundComponent",
+							"sc.eventCount": 1
+						},
+						"0001": {
+							"comp.typename": "TransformComponent",
+							"tc.localRotation": [
+								0.0,
+								0.0,
+								0.0,
+								1.0
+							],
+							"tc.localScale": [
+								1.0,
+								1.0,
+								1.0
+							],
+							"tc.localTranslation": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"tc.worldRotation": [
+								0.0,
+								0.0,
+								0.0,
+								1.0
+							],
+							"tc.worldScale": [
+								1.0,
+								1.0,
+								1.0
+							],
+							"tc.worldTranslation": [
+								0.0,
+								0.0,
+								1.25
+							]
+						},
+						"count": 2
+					},
+					"flags": 2,
+					"id": 6,
+					"name": "sound_on"
+				},
+				{
+					"##name": "Entity",
+					"components": {
+						"0000": {
+							"0000": {
+								"sce.flags": 0,
+								"sce.localDirection": [
+									1.0,
+									0.0,
+									0.0
+								],
+								"wwise": {
+									"eventName": "play_hlwn_2022_abl_reflection_off",
+									"groupName": "FX"
+								}
+							},
+							"comp.typename": "SoundComponent",
+							"sc.eventCount": 1
+						},
+						"0001": {
+							"comp.typename": "TransformComponent",
+							"tc.localRotation": [
+								0.0,
+								0.0,
+								0.0,
+								1.0
+							],
+							"tc.localScale": [
+								1.0,
+								1.0,
+								1.0
+							],
+							"tc.localTranslation": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"tc.worldRotation": [
+								0.0,
+								0.0,
+								0.0,
+								1.0
+							],
+							"tc.worldScale": [
+								1.0,
+								1.0,
+								1.0
+							],
+							"tc.worldTranslation": [
+								0.0,
+								0.0,
+								1.25
+							]
+						},
+						"count": 2
+					},
+					"flags": 2,
+					"id": 7,
+					"name": "sound_off"
+				}
+			],
+			"components": {
+				"0000": {
+					"0000": {
+						"act.delay": 0.0,
+						"act.delayVariation": 0.0,
+						"act.entityName": "sound_on",
+						"act.event": 5,
+						"act.eventToTrigger": "",
+						"act.stateActivated": -1,
+						"act.stopAfterNRepeats": 1,
+						"act.stopWhenEmpty": false,
+						"act.switchIndex": -1,
+						"act.type": 2,
+						"act.userEventId": ""
+					},
+					"0001": {
+						"act.delay": 0.0,
+						"act.delayVariation": 0.0,
+						"act.entityName": "sound_off",
+						"act.event": 6,
+						"act.eventToTrigger": "",
+						"act.stateActivated": -1,
+						"act.stopAfterNRepeats": 1,
+						"act.stopWhenEmpty": false,
+						"act.switchIndex": -1,
+						"act.type": 2,
+						"act.userEventId": ""
+					},
+					"0002": {
+						"act.delay": 0.0,
+						"act.delayVariation": 0.0,
+						"act.entityName": "sound_on",
+						"act.event": 6,
+						"act.eventToTrigger": "",
+						"act.stateActivated": -1,
+						"act.stopAfterNRepeats": 1,
+						"act.stopWhenEmpty": false,
+						"act.switchIndex": -1,
+						"act.type": 5,
+						"act.userEventId": ""
+					},
+					"ac.actionCount": 3,
+					"comp.typename": "ActionComponent"
+				},
+				"0001": {
+					"comp.typename": "LodComponent",
+					"lc.loddist": {
+						"distance0": 5.0,
+						"distance1": 75.0,
+						"distance2": 400.0,
+						"distance3": 3.4028234663852886e+38
+					}
+				},
+				"0002": {
+					"comp.typename": "ParticleEffectComponent",
+					"pe.clearOnRestart": true,
+					"pe.effectDuration": 1000000.0,
+					"pe.emitters": [
+						{
+							"##name": "<Unknown class>",
+							"emitter.data": [
+								{
+									"emitter.id": 1,
+									"emitter.quality": "Default"
+								}
+							],
+							"emitter.position": [
+								0.0,
+								0.0,
+								1.0
+							],
+							"emitter.rotation": [
+								0.0,
+								0.0,
+								0.0,
+								1.0
+							],
+							"emitter.scale": [
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"##name": "<Unknown class>",
+							"emitter.data": [
+								{
+									"emitter.id": 2,
+									"emitter.quality": "Default"
+								}
+							],
+							"emitter.position": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"emitter.rotation": [
+								0.0,
+								0.0,
+								0.0,
+								1.0
+							],
+							"emitter.scale": [
+								1.0,
+								1.0,
+								1.0
+							]
+						},
+						{
+							"##name": "<Unknown class>",
+							"emitter.data": [
+								{
+									"emitter.id": 5,
+									"emitter.quality": "Default"
+								}
+							],
+							"emitter.position": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"emitter.rotation": [
+								0.0,
+								0.0,
+								0.0,
+								1.0
+							],
+							"emitter.scale": [
+								1.0,
+								1.0,
+								1.0
+							]
+						}
+					],
+					"pe.inheritScale": false,
+					"pe.nestedEmitters": true,
+					"pe.repeatsCount": 4294967295,
+					"pe.startFromTime": 0.0,
+					"pe.stopWhenEmpty": false,
+					"pe.version": 1,
+					"ro.flags": 1
+				},
+				"0003": {
+					"comp.typename": "TransformComponent",
+					"tc.localRotation": [
+						0.0,
+						0.0,
+						0.0,
+						1.0
+					],
+					"tc.localScale": [
+						1.0,
+						1.0,
+						1.0
+					],
+					"tc.localTranslation": [
+						0.0,
+						0.0,
+						1.25
+					],
+					"tc.worldRotation": [
+						0.0,
+						0.0,
+						0.0,
+						1.0
+					],
+					"tc.worldScale": [
+						1.0,
+						1.0,
+						1.0
+					],
+					"tc.worldTranslation": [
+						0.0,
+						0.0,
+						1.25
+					]
+				},
+				"count": 4
+			},
+			"flags": 2,
+			"id": 4,
+			"name": "Arrival_Sphere"
+		}
+	],
+	"#sceneComponents": {
+		"count": 0
+	}
+}

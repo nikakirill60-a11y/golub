@@ -1,0 +1,150 @@
+{
+ "legacyEmitters": [
+  {
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "emitter": {
+    "name": "fish",
+    "emissionVector": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "type": 3,
+    "size": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "shortEffect": false,
+    "radius": 4.0,
+    "emissionRange": 0.0,
+    "emissionVectorInverted": true,
+    "shockwaveMode": 1,
+    "emissionAngle": 0,
+    "layers": [
+     {
+      "life": 15.0,
+      "stripeLifetime": 20.0,
+      "endTime": 1000.0,
+      "scaleVelocityBase": 0.0,
+      "stripeVertexSpawnStep": 1.0,
+      "stripeStartSize": 1.0,
+      "type": "layer",
+      "stripeUScrollSpeed": 0.0,
+      "enableFlow": false,
+      "stripeVScrollSpeed": -0.01,
+      "colorOverLife": [
+       0.5125962784313726,
+       0.5001602156862744,
+       0.7487907254901961,
+       1.0
+      ],
+      "stripeFadeDistanceFromTop": 0.0,
+      "name": "fish",
+      "layerType": "particles",
+      "degradeStrategy": 0,
+      "particleOrientation": 8,
+      "inheritPosition": false,
+      "isLong": true,
+      "randomSpinDirection": false,
+      "pivotPoint": [
+       0.0,
+       0.0
+      ],
+      "effectFormat": 1,
+      "useFresToAlpha": false,
+      "fresToAlphaBias": 0.0,
+      "fresToAlphaPower": 0.0,
+      "alphaRemapLoopCount": 1.0,
+      "size": [
+       0.5,
+       0.2
+      ],
+      "sprite": "../../../../../Data/Gfx/Particles/environment/fish",
+      "alphaOverLife": [
+       2,
+       [
+        [
+         1,
+         0.0,
+         0.0
+        ],
+        [
+         1,
+         1.0,
+         0.08
+        ],
+        [
+         1,
+         1.0,
+         0.830793
+        ],
+        [
+         1,
+         0.0,
+         0.995427
+        ]
+       ]
+      ],
+      "enableAlphaRemap": false,
+      "blending": 1,
+      "deltaTime": 0.0,
+      "enableFlowAnimation": false,
+      "enableNoise": false,
+      "useNoiseScroll": false,
+      "useThreePointGradient": false,
+      "stripeInheritPositionForBase": false,
+      "enableFog": true,
+      "enableFrameBlend": false,
+      "loopEndTime": 100.0,
+      "scaleVelocityFactor": 1.0,
+      "startTime": 0.0,
+      "gradientMiddlePoint": 0.5,
+      "applyGlobalForces": false,
+      "loopVariation": 0.0,
+      "loopSpriteAnimation": true,
+      "number": 1.0,
+      "velocity": 0.5,
+      "frameOverLifeEnabled": false,
+      "velocityVariation": 1.0,
+      "angle": 90.0,
+      "frameOverLifeFPS": 0.0,
+      "randomFrameOnStart": false,
+      "isLooped": false,
+      "deltaVariation": 0.0,
+      "usePerspectiveMapping": false,
+      "activeLODS": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "legacyLod": 1,
+      "legacyPivot": [
+       0.0,
+       0.0
+      ],
+      "legacySpinDirection": true,
+      "size3d": [
+       0.5,
+       0.2,
+       1
+      ],
+      "angle3d": [
+       0,
+       0,
+       90.0
+      ],
+      "legacyForces": [],
+      "forces": [],
+      "spritePath": "../../../../../Data/Gfx/Particles/environment/fish"
+     }
+    ]
+   }
+  }
+ ]
+}

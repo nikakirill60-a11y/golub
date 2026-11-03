@@ -1,0 +1,98 @@
+Header:
+    version: 140
+Prototypes:
+-   class: "UIControl"
+    name: "AbilityPanel"
+    input: false
+    components:
+        UIOpacityComponent:
+            opacity: 0.000000
+        SizePolicy:
+            horizontalPolicy: "PercentOfFirstChild"
+            verticalPolicy: "PercentOfFirstChild"
+    children:
+    -   class: "UIControl"
+        name: "PanelContainer"
+        input: true
+        components:
+            ClipContent: {}
+            Anchor:
+                hCenterAnchorEnabled: true
+            SizePolicy:
+                horizontalPolicy: "PercentOfChildrenSum"
+                verticalPolicy: "PercentOfLastChild"
+        children:
+        -   class: "UIControl"
+            name: "Background"
+            position: [0.000000, 9.500000]
+            input: false
+            components:
+                Background:
+                    drawType: "DRAW_STRETCH_BOTH"
+                    sprite: "~res:/Gfx/Shared/backgrounds/bg_r1"
+                    color: [0.117647, 0.133333, 0.137255, 0.701961]
+                    leftRightStretchCap: 1.000000
+                    topBottomStretchCap: 1.000000
+                Anchor:
+                    leftAnchorEnabled: true
+                    rightAnchorEnabled: true
+                    topAnchorEnabled: true
+                    topAnchor: 192.000000
+                IgnoreLayout: {}
+                SizePolicy:
+                    verticalPolicy: "Formula"
+                    verticalFormula: "parent - 192"
+                StyleSheet:
+                    styles: "~res:/UI/Screens/Common/StyledButton.yaml;~res:/UI/Styles/ButtonSoundStyles.yaml"
+        -   class: "UIControl"
+            name: "Container"
+            input: true
+            components:
+                Anchor:
+                    hCenterAnchorEnabled: true
+                LinearLayout: {}
+                SizePolicy:
+                    horizontalPolicy: "PercentOfChildrenSum"
+                    verticalPolicy: "PercentOfMaxChild"
+        -   class: "UIControl"
+            name: "PaginatorLeft"
+            size: [32.000000, 32.000000]
+            input: false
+            classes: "color-white-15"
+            components:
+                Background:
+                    drawType: "DRAW_FILL"
+                Anchor:
+                    leftAnchorEnabled: true
+                    leftAnchor: 321.000000
+                    bottomAnchorEnabled: true
+                    bottomAnchor: 32.000000
+                IgnoreLayout: {}
+                SizePolicy:
+                    horizontalPolicy: "FixedSize"
+                    horizontalValue: 1.000000
+                    verticalPolicy: "Formula"
+                    verticalFormula: "parent - 160"
+                StyleSheet:
+                    styles: "~res:/UI/Styles/ColorStyles.yaml"
+        -   class: "UIControl"
+            name: "PaginatorRight"
+            size: [32.000000, 32.000000]
+            input: false
+            classes: "color-white-15"
+            components:
+                Background:
+                    drawType: "DRAW_FILL"
+                Anchor:
+                    leftAnchorEnabled: true
+                    leftAnchor: 641.000000
+                    bottomAnchorEnabled: true
+                    bottomAnchor: 32.000000
+                IgnoreLayout: {}
+                SizePolicy:
+                    horizontalPolicy: "FixedSize"
+                    horizontalValue: 1.000000
+                    verticalPolicy: "Formula"
+                    verticalFormula: "parent - 160"
+                StyleSheet:
+                    styles: "~res:/UI/Styles/ColorStyles.yaml"

@@ -1,0 +1,229 @@
+{
+	"abilities": [
+		{
+			"id": "moonwalk",
+			"kind": 0,
+			"icon": "moonwalk.png",
+			"classes": [
+				"LT",
+				"MT"
+			],
+			"duration": 10.0,
+			"cooldown": 35.0,
+			"wired": true
+		},
+		{
+			"id": "returnInTime",
+			"kind": 0,
+			"icon": "returnInTime.png",
+			"classes": [
+				"LT",
+				"MT"
+			],
+			"duration": 0.0,
+			"cooldown": 40.0,
+			"wired": true
+		},
+		{
+			"id": "pretendDead",
+			"kind": 0,
+			"icon": "pretendDead.png",
+			"classes": [
+				"HT"
+			],
+			"duration": 15.0,
+			"cooldown": 35.0,
+			"wired": true
+		},
+		{
+			"id": "vortex",
+			"kind": 0,
+			"icon": "vortex.png",
+			"classes": [
+				"HT"
+			],
+			"duration": 0.0,
+			"cooldown": 40.0,
+			"targeted": true,
+			"wired": true
+		},
+		{
+			"id": "berserk",
+			"kind": 0,
+			"icon": "berserk.png",
+			"classes": [
+				"HT"
+			],
+			"duration": 15.0,
+			"cooldown": 50.0,
+			"wired": true
+		},
+		{
+			"id": "huntersMark",
+			"kind": 0,
+			"icon": "huntersMark.png",
+			"classes": [
+				"TD"
+			],
+			"duration": 10.0,
+			"cooldown": 30.0,
+			"damage_factor": 1.6,
+			"targeted": true,
+			"wired": true
+		},
+		{
+			"id": "curse",
+			"kind": 0,
+			"icon": "curse.png",
+			"classes": [
+				"TD"
+			],
+			"duration": 10.0,
+			"cooldown": 45.0,
+			"damage_per_metre": 0.01,
+			"targeted": true,
+			"wired": true
+		},
+		{
+			"id": "damageBoost1",
+			"kind": 1,
+			"icon": "damageBoost1.png",
+			"cost": 100,
+			"dmg_out_mul": 1.2,
+			"wired": true
+		},
+		{
+			"id": "damageBoost2",
+			"kind": 1,
+			"icon": "damageBoost2.png",
+			"cost": 200,
+			"dmg_out_mul": 1.4,
+			"wired": true
+		},
+		{
+			"id": "reloadBoost1",
+			"kind": 1,
+			"icon": "reloadBoost1.png",
+			"cost": 100,
+			"reload_mul": 0.8,
+			"wired": true
+		},
+		{
+			"id": "reloadBoost2",
+			"kind": 1,
+			"icon": "reloadBoost2.png",
+			"cost": 200,
+			"reload_mul": 0.65,
+			"wired": true
+		},
+		{
+			"id": "engineBoost1",
+			"kind": 1,
+			"icon": "engineBoost1.png",
+			"cost": 100,
+			"engine_mul": 2.1,
+			"speed_add": 10,
+			"wired": true
+		},
+		{
+			"id": "engineBoost2",
+			"kind": 1,
+			"icon": "engineBoost2.png",
+			"cost": 200,
+			"engine_mul": 3.1,
+			"speed_add": 20,
+			"wired": true
+		},
+		{
+			"id": "ramming1",
+			"kind": 1,
+			"icon": "ramming1.png",
+			"cost": 100,
+			"ram_out_mul": 1.6,
+			"ram_in_mul": 0.65,
+			"wired": true
+		},
+		{
+			"id": "ramming2",
+			"kind": 1,
+			"icon": "ramming2.png",
+			"cost": 200,
+			"ram_out_mul": 2.1,
+			"ram_in_mul": 0.35,
+			"wired": true
+		},
+		{
+			"id": "comeBackKit",
+			"kind": 1,
+			"icon": "comeBackKit.png",
+			"cost": 100,
+			"wired": true
+		},
+		{
+			"id": "ghost",
+			"kind": 1,
+			"icon": "ghost.png",
+			"cost": 100,
+			"wired": true
+		},
+		{
+			"id": "duplet",
+			"kind": 1,
+			"icon": "duplet.png",
+			"cost": 400,
+			"dispersion_mul": 3.0,
+			"shot_delay": 0.3,
+			"wired": true
+		},
+		{
+			"id": "splash",
+			"kind": 1,
+			"icon": "splash.png",
+			"cost": 400,
+			"radius": 25.0,
+			"health_factor": 0.3,
+			"cooldown": 30.0,
+			"start_cooldown": 5.0,
+			"wired": true
+		},
+		{
+			"id": "lightning1",
+			"kind": 1,
+			"icon": "lightning1.png",
+			"cost": 200,
+			"radius": 60.0,
+			"damage_factors": [
+				0.25,
+				0.15,
+				0.1
+			],
+			"cooldown": 6.0,
+			"start_cooldown": 5.0,
+			"fly_time": 0.2,
+			"wired": true
+		},
+		{
+			"id": "lightning2",
+			"kind": 1,
+			"icon": "lightning2.png",
+			"cost": 400,
+			"radius": 70.0,
+			"damage_factors": [
+				0.45,
+				0.35,
+				0.25
+			],
+			"cooldown": 6.0,
+			"start_cooldown": 5.0,
+			"fly_time": 0.2,
+			"wired": true
+		},
+		{
+			"id": "enemyReloadTime",
+			"kind": 1,
+			"icon": "enemyReloadTime.png",
+			"cost": 100,
+			"wired": false
+		}
+	]
+}

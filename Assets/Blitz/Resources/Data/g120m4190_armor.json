@@ -1,0 +1,142 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.0,
+      0.06,
+      0.0
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "G120M4190Armor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 284,
+      "vertices": 500
+    },
+    {
+      "armor": 0,
+      "material": "G120M4190Armor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 12,
+      "material": "G120M4190Armor_armor_hull_plate12_12",
+      "mount": "hull",
+      "name": "armor_hull_plate12_12",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 19,
+      "material": "G120M4190Armor_armor_hull_plate19_19",
+      "mount": "hull",
+      "name": "armor_hull_plate19_19",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 104,
+      "vertices": 312
+    },
+    {
+      "armor": 25,
+      "material": "G120M4190Armor_armor_hull_plate25_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25_25",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 113,
+      "vertices": 339
+    },
+    {
+      "armor": 31,
+      "material": "G120M4190Armor_armor_hull_plate31_31",
+      "mount": "hull",
+      "name": "armor_hull_plate31_31",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 5,
+      "vertices": 15
+    },
+    {
+      "armor": 38,
+      "material": "G120M4190Armor_armor_hull_plate38_38",
+      "mount": "hull",
+      "name": "armor_hull_plate38_38",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 9,
+      "material": "G120M4190Armor_armor_hull_plate9_9",
+      "mount": "hull",
+      "name": "armor_hull_plate9_9",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 0,
+      "material": "G120M4190Armor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 12,
+      "material": "G120M4190Armor_armor_turret_01_plate12_12",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate12_12",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 168,
+      "vertices": 504
+    },
+    {
+      "armor": 19,
+      "material": "G120M4190Armor_armor_turret_01_plate19_19",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate19_19",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 25,
+      "material": "G120M4190Armor_armor_turret_01_plate25_25",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate25_25",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 194,
+      "vertices": 582
+    },
+    {
+      "armor": 31,
+      "material": "G120M4190Armor_gun_01_mask_turret_01_plate31s_31",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate31s_31",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 116,
+      "vertices": 348
+    }
+  ]
+}

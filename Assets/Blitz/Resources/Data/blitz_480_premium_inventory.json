@@ -1,0 +1,3366 @@
+{
+  "client": "4.8.0",
+  "nations": {
+    "china": {
+      "display_name": "Китай",
+      "tanks": [
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/china-Ch24_Type64.sc2",
+          "collision_exists": true,
+          "display_name": "Type 64",
+          "id": "Ch24_Type64",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/China/Type64.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 5500,
+          "source_xml": "XML/item_defs/vehicles/china/Ch24_Type64.xml",
+          "tags": [
+            "lightTank",
+            "enhancedTorsions3t_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "lightTank",
+          "tier": 6
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/china-Ch02_Type62.sc2",
+          "collision_exists": true,
+          "display_name": "Type 62",
+          "id": "Ch02_Type62",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/China/Type62.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 5500,
+          "source_xml": "XML/item_defs/vehicles/china/Ch02_Type62.xml",
+          "tags": [
+            "lightTank",
+            "enhancedTorsions3t_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "aimingStabilizer_Mk1_user"
+          ],
+          "tank_class": "lightTank",
+          "tier": 7
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/china-Ch23_112.sc2",
+          "collision_exists": true,
+          "display_name": "112 Ледяной",
+          "id": "Ch23_112",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/China/112.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7500,
+          "source_xml": "XML/item_defs/vehicles/china/Ch23_112.xml",
+          "tags": [
+            "heavyTank",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "aimingStabilizer_Mk2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/china-Ch26_59_Patton.sc2",
+          "collision_exists": true,
+          "display_name": "59-Patton",
+          "id": "Ch26_59_Patton",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/China/59_Patton.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7250,
+          "source_xml": "XML/item_defs/vehicles/china/Ch26_59_Patton.xml",
+          "tags": [
+            "mediumTank"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/china-Ch14_T34_3.sc2",
+          "collision_exists": true,
+          "display_name": "T-34-3",
+          "id": "Ch14_T34_3",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/China/T34_3.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7500,
+          "source_xml": "XML/item_defs/vehicles/china/Ch14_T34_3.xml",
+          "tags": [
+            "mediumTank",
+            "secret",
+            "InGame"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/china-Ch01_Type59.sc2",
+          "collision_exists": true,
+          "display_name": "Type 59",
+          "id": "Ch01_Type59",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/China/Type59.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 10000,
+          "source_xml": "XML/item_defs/vehicles/china/Ch01_Type59.xml",
+          "tags": [
+            "mediumTank",
+            "enhancedTorsions3t_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "aimingStabilizer_Mk1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/china-Ch03_WZ-111.sc2",
+          "collision_exists": true,
+          "display_name": "WZ-111",
+          "id": "Ch03_WZ-111",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/China/WZ-111.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7250,
+          "source_xml": "XML/item_defs/vehicles/china/Ch03_WZ-111.xml",
+          "tags": [
+            "heavyTank",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "aimingStabilizer_Mk2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/china-Ch22_113.sc2",
+          "collision_exists": true,
+          "display_name": "113",
+          "id": "Ch22_113",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/China/wz_113.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1,
+          "source_xml": "XML/item_defs/vehicles/china/Ch22_113.xml",
+          "tags": [
+            "heavyTank",
+            "testTank",
+            "secret",
+            "InGame",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "aimingStabilizer_Mk2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 10
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/china-Ch25_121_mod_1971B.sc2",
+          "collision_exists": true,
+          "display_name": "121B",
+          "id": "Ch25_121_mod_1971B",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/China/Ch25_121_mod_1971B.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 30000,
+          "source_xml": "XML/item_defs/vehicles/china/Ch25_121_mod_1971B.xml",
+          "tags": [
+            "mediumTank",
+            "enhancedTorsions3t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "aimingStabilizer_Mk1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 10
+        }
+      ],
+      "totals": {
+        "chassis": 9,
+        "collectible": 2,
+        "engines": 9,
+        "guns": 9,
+        "premium": 7,
+        "radios": 9,
+        "tanks": 9,
+        "turrets": 9
+      }
+    },
+    "france": {
+      "display_name": "Франция",
+      "tanks": [
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/france-FCM_36Pak40.sc2",
+          "collision_exists": true,
+          "display_name": "FCM 36 Pak 40",
+          "id": "FCM_36Pak40",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/France/FCM_36Pak40.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 950,
+          "source_xml": "XML/item_defs/vehicles/france/FCM_36Pak40.xml",
+          "tags": [
+            "AT-SPG",
+            "lightAT-SPG",
+            "wetCombatPack_class1_user",
+            "enhancedSprings_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 3
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/france-F68_AMX_Chasseur_de_char_46.sc2",
+          "collision_exists": true,
+          "display_name": "AMX Chasseur de chars",
+          "id": "F68_AMX_Chasseur_de_char_46",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/France/AMX_CDC.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7300,
+          "source_xml": "XML/item_defs/vehicles/france/F68_AMX_Chasseur_de_char_46.xml",
+          "tags": [
+            "mediumTank",
+            "secret",
+            "InGame",
+            "enhancedTorsions3t_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "aimingStabilizer_Mk1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/france-FCM_50t.sc2",
+          "collision_exists": true,
+          "display_name": "FCM 50 t",
+          "id": "FCM_50t",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/France/FCM-50t.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7350,
+          "source_xml": "XML/item_defs/vehicles/france/FCM_50t.xml",
+          "tags": [
+            "mediumTank",
+            "aimingStabilizer_Mk2_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "enhancedTorsions5t_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/france-F71_AMX_30_prototype.sc2",
+          "collision_exists": true,
+          "display_name": "AMX 30 1er prototype",
+          "id": "F71_AMX_30_prototype",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/France/AMX_30_prototype.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 15000,
+          "source_xml": "XML/item_defs/vehicles/france/F71_AMX_30_prototype.xml",
+          "tags": [
+            "mediumTank"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 9
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/france-F72_AMX_30.sc2",
+          "collision_exists": true,
+          "display_name": "AMX 30 B",
+          "id": "F72_AMX_30",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/France/AMX_30.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1,
+          "source_xml": "XML/item_defs/vehicles/france/F72_AMX_30.xml",
+          "tags": [
+            "mediumTank",
+            "testTank",
+            "secret",
+            "InGame"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 10
+        }
+      ],
+      "totals": {
+        "chassis": 5,
+        "collectible": 2,
+        "engines": 5,
+        "guns": 5,
+        "premium": 2,
+        "radios": 5,
+        "tanks": 5,
+        "tree_premium": 1,
+        "turrets": 5
+      }
+    },
+    "germany": {
+      "display_name": "Германия",
+      "tanks": [
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-H39_captured.sc2",
+          "collision_exists": true,
+          "display_name": "Pz.Kpfw. 38H 735 (f)",
+          "id": "H39_captured",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/PzKpfw38H_735.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 750,
+          "source_xml": "XML/item_defs/vehicles/germany/H39_captured.xml",
+          "tags": [
+            "lightTank"
+          ],
+          "tank_class": "lightTank",
+          "tier": 2
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-G100_Gtraktor_Krupp.sc2",
+          "collision_exists": true,
+          "display_name": "Großtraktor - Krupp",
+          "id": "G100_Gtraktor_Krupp",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/Gtraktor_Krupp.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1200,
+          "source_xml": "XML/item_defs/vehicles/germany/G100_Gtraktor_Krupp.xml",
+          "tags": [
+            "heavyTank",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 3
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-PzII_J.sc2",
+          "collision_exists": true,
+          "display_name": "Pz.Kpfw. II Ausf. J",
+          "id": "PzII_J",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/PzII_J.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1000,
+          "source_xml": "XML/item_defs/vehicles/germany/PzII_J.xml",
+          "tags": [
+            "lightTank",
+            "enhancedTorsions1t_user"
+          ],
+          "tank_class": "lightTank",
+          "tier": 3
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-S35_captured.sc2",
+          "collision_exists": true,
+          "display_name": "Pz.Kpfw. S35 739 (f)",
+          "id": "S35_captured",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/S35_captured.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1200,
+          "source_xml": "XML/item_defs/vehicles/germany/S35_captured.xml",
+          "tags": [
+            "mediumTank"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 3
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-T-15.sc2",
+          "collision_exists": true,
+          "display_name": "T-15",
+          "id": "T-15",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/T-15.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 950,
+          "source_xml": "XML/item_defs/vehicles/germany/T-15.xml",
+          "tags": [
+            "lightTank",
+            "enhancedSprings_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "lightTank",
+          "tier": 3
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-B-1bis_captured.sc2",
+          "collision_exists": true,
+          "display_name": "Pz.Kpfw. B2 740 (f)",
+          "id": "B-1bis_captured",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/B-1bis_captured.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1500,
+          "source_xml": "XML/item_defs/vehicles/germany/B-1bis_captured.xml",
+          "tags": [
+            "heavyTank"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 4
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-Krupp-38D.sc2",
+          "collision_exists": true,
+          "display_name": "Krupp-38(D)",
+          "id": "Krupp-38D",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/Krupp_38_D.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 2400,
+          "source_xml": "XML/item_defs/vehicles/germany/Krupp-38D.xml",
+          "tags": [
+            "mediumTank",
+            "enhancedSprings_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "improvedVentilation_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 5
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-PzIV_Hydro.sc2",
+          "collision_exists": true,
+          "display_name": "Pz.Kpfw. IV hydrostat.",
+          "id": "PzIV_Hydro",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/PzIV_Hydro.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 2400,
+          "source_xml": "XML/item_defs/vehicles/germany/PzIV_Hydro.xml",
+          "tags": [
+            "mediumTank",
+            "enhancedLevers_user",
+            "grousers_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 5
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-PzV_PzIV.sc2",
+          "collision_exists": true,
+          "display_name": "Pz.Kpfw. V/IV",
+          "id": "PzV_PzIV",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/PzV_IV.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 2400,
+          "source_xml": "XML/item_defs/vehicles/germany/PzV_PzIV.xml",
+          "tags": [
+            "mediumTank",
+            "enhancedTorsions5t_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 5
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-T-25.sc2",
+          "collision_exists": true,
+          "display_name": "T-25",
+          "id": "T-25",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/T-25.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 2100,
+          "source_xml": "XML/item_defs/vehicles/germany/T-25.xml",
+          "tags": [
+            "mediumTank",
+            "enhancedSprings_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 5
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-DickerMax.sc2",
+          "collision_exists": true,
+          "display_name": "Dicker Max",
+          "id": "DickerMax",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/DickerMax.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 2900,
+          "source_xml": "XML/item_defs/vehicles/germany/DickerMax.xml",
+          "tags": [
+            "AT-SPG",
+            "mediumAT-SPG",
+            "enhancedTorsions5t_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "noImprovedVentilation"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 6
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-PzIV_schmalturm.sc2",
+          "collision_exists": true,
+          "display_name": "Pz.Kpfw. IV Schmalturm",
+          "id": "PzIV_schmalturm",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/PzIV_Schmalturm.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 3500,
+          "source_xml": "XML/item_defs/vehicles/germany/PzIV_schmalturm.xml",
+          "tags": [
+            "mediumTank",
+            "enhancedLevers_user",
+            "grousers_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 6
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-E-25.sc2",
+          "collision_exists": true,
+          "display_name": "E 25",
+          "id": "E-25",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/E_25.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7300,
+          "source_xml": "XML/item_defs/vehicles/germany/E-25.xml",
+          "tags": [
+            "AT-SPG",
+            "mediumAT-SPG",
+            "enhancedBelwillWashers_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 7
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-Panther_M10.sc2",
+          "collision_exists": true,
+          "display_name": "Panther/M10",
+          "id": "Panther_M10",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/Panther_M10.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 4750,
+          "source_xml": "XML/item_defs/vehicles/germany/Panther_M10.xml",
+          "tags": [
+            "mediumTank",
+            "beast",
+            "enhancedTorsions5t_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 7
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-G118_VK4503.sc2",
+          "collision_exists": true,
+          "display_name": "VK 45.03",
+          "id": "G118_VK4503",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/VK4503.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 5000,
+          "source_xml": "XML/item_defs/vehicles/germany/G118_VK4503.xml",
+          "tags": [
+            "heavyTank",
+            "beast",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 7
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/germany-S01_Frankentank.sc2",
+          "collision_exists": true,
+          "display_name": "Франкенштанк",
+          "id": "S01_Frankentank",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/German/Frankentank.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 2,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 10000,
+          "source_xml": "XML/item_defs/vehicles/germany/S01_Frankentank.xml",
+          "tags": [
+            "heavyTank",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "enhancedTorsions5t_user",
+            "secret",
+            "InGame"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 7
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-JagdTiger_SdKfz_185.sc2",
+          "collision_exists": true,
+          "display_name": "8,8 cm Pak 43 Jagdtiger",
+          "id": "JagdTiger_SdKfz_185",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/Jagd_Tiger8_8.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 2,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7400,
+          "source_xml": "XML/item_defs/vehicles/germany/JagdTiger_SdKfz_185.xml",
+          "tags": [
+            "AT-SPG",
+            "heavyAT-SPG",
+            "beast",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-G120_M41_90.sc2",
+          "collision_exists": true,
+          "display_name": "leKpz M 41 90 mm",
+          "id": "G120_M41_90",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/M41_90.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7120,
+          "source_xml": "XML/item_defs/vehicles/germany/G120_M41_90.xml",
+          "tags": [
+            "lightTank",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "aimingStabilizer_Mk1_user",
+            "enhancedTorsions3t_user"
+          ],
+          "tank_class": "lightTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-Lowe.sc2",
+          "collision_exists": true,
+          "display_name": "Löwe",
+          "id": "Lowe",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/Lowe.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7500,
+          "source_xml": "XML/item_defs/vehicles/germany/Lowe.xml",
+          "tags": [
+            "heavyTank",
+            "beast",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "aimingStabilizer_Mk2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-G106_PzKpfwPanther_AusfF.sc2",
+          "collision_exists": true,
+          "display_name": "Panther mit 8,8 cm L/71",
+          "id": "G106_PzKpfwPanther_AusfF",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/PzKpfwPanther_AusfF.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7300,
+          "source_xml": "XML/item_defs/vehicles/germany/G106_PzKpfwPanther_AusfF.xml",
+          "tags": [
+            "mediumTank",
+            "beast",
+            "enhancedTorsions5t_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "aimingStabilizer_Mk1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-JagdTiger_SdKfz_185_Snowstorm.sc2",
+          "collision_exists": true,
+          "display_name": "Новогодний Jagdtiger 8.8",
+          "id": "JagdTiger_SdKfz_185_Snowstorm",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/Jagd_Tiger8_8_Snowstorm.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 2,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7400,
+          "source_xml": "XML/item_defs/vehicles/germany/JagdTiger_SdKfz_185_Snowstorm.xml",
+          "tags": [
+            "AT-SPG",
+            "heavyAT-SPG",
+            "beast",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/germany-G_KpfPz_70.sc2",
+          "collision_exists": true,
+          "display_name": "KpfPz 70",
+          "id": "G_KpfPz_70",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/German/KpfPz_70.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 15000,
+          "source_xml": "XML/item_defs/vehicles/germany/G_KpfPz_70.xml",
+          "tags": [
+            "heavyTank",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "aimingStabilizer_Mk2_user",
+            "enhancedBelwillWashers_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 9
+        }
+      ],
+      "totals": {
+        "chassis": 22,
+        "collectible": 1,
+        "engines": 22,
+        "guns": 25,
+        "premium": 14,
+        "radios": 22,
+        "tanks": 22,
+        "tree_premium": 7,
+        "turrets": 22
+      }
+    },
+    "japan": {
+      "display_name": "Япония",
+      "tanks": [
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/japan-Ke_Ni_B.sc2",
+          "collision_exists": true,
+          "display_name": "Type 98 Ke-Ni Otsu",
+          "id": "Ke_Ni_B",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/Japan/Ke_Ni_B.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 950,
+          "source_xml": "XML/item_defs/vehicles/japan/Ke_Ni_B.xml",
+          "tags": [
+            "lightTank",
+            "enhancedSuspension_Christie_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "lightTank",
+          "tier": 3
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/japan-G09_Hetzer_GuP.sc2",
+          "collision_exists": true,
+          "display_name": "Hetzer Kame SP",
+          "id": "G09_Hetzer_GuP",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/Japan/Hetzer_GuP.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 100,
+          "source_xml": "XML/item_defs/vehicles/japan/G09_Hetzer_GuP.xml",
+          "tags": [
+            "AT-SPG",
+            "lightAT-SPG",
+            "enhancedSprings_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "improvedVentilation_class1_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 4
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/japan-Pz_IV_AusfH.sc2",
+          "collision_exists": true,
+          "display_name": "Panzer IV Anko Special",
+          "id": "Pz_IV_AusfH",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/Japan/Pz_IV_Ausf_H.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 250,
+          "source_xml": "XML/item_defs/vehicles/japan/Pz_IV_AusfH.xml",
+          "tags": [
+            "mediumTank",
+            "secret",
+            "InGame",
+            "enhancedLevers_user",
+            "grousers_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 5
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/japan-Chi_Nu_Kai.sc2",
+          "collision_exists": true,
+          "display_name": "Type 3 Chi-Nu Kai",
+          "id": "Chi_Nu_Kai",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/Japan/Chi-Nu_Kai.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 2100,
+          "source_xml": "XML/item_defs/vehicles/japan/Chi_Nu_Kai.xml",
+          "tags": [
+            "mediumTank",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 5
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/japan-PzVI.sc2",
+          "collision_exists": true,
+          "display_name": "Kuro Mori Mine",
+          "id": "PzVI_GuP",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/Japan/Tiger_I_GuP.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 250,
+          "source_xml": "XML/item_defs/vehicles/japan/PzVI_GuP.xml",
+          "tags": [
+            "heavyTank",
+            "secret",
+            "InGame",
+            "beast",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 6
+        }
+      ],
+      "totals": {
+        "chassis": 5,
+        "collectible": 2,
+        "engines": 5,
+        "guns": 5,
+        "premium": 3,
+        "radios": 5,
+        "tanks": 5,
+        "turrets": 5
+      }
+    },
+    "other": {
+      "display_name": "Прочие",
+      "tanks": [
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/other-Strv_74A2.sc2",
+          "collision_exists": true,
+          "display_name": "Stridsvagn 74A2",
+          "id": "Strv_74A2",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/Other/Strv_74_A2.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 3000,
+          "source_xml": "XML/item_defs/vehicles/other/Strv_74A2.xml",
+          "tags": [
+            "mediumTank",
+            "enhancedTorsions3t_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 6
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/other-Sega_Edelweiss.sc2",
+          "collision_exists": true,
+          "display_name": "Edelweiss",
+          "id": "Sega_Edelweiss",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/Other/Sega_Edelweiss.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 4900,
+          "source_xml": "XML/item_defs/vehicles/other/Sega_Edelweiss.xml",
+          "tags": [
+            "mediumTank",
+            "enhancedTorsions5t_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 7
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/other-Oth06_Sega_Lupus.sc2",
+          "collision_exists": true,
+          "display_name": "Lupus",
+          "id": "Oth06_Sega_Lupus",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/Other/Oth06_Sega_Lupus.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 5000,
+          "source_xml": "XML/item_defs/vehicles/other/Oth06_Sega_Lupus.xml",
+          "tags": [
+            "heavyTank",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "aimingStabilizer_Mk2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 7
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/other-Sega_Nameless.sc2",
+          "collision_exists": true,
+          "display_name": "Nameless",
+          "id": "Sega_Nameless",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/Other/Sega_Nameless.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 5000,
+          "source_xml": "XML/item_defs/vehicles/other/Sega_Nameless.xml",
+          "tags": [
+            "heavyTank",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 7
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/other-Oth09_WH_Predator.sc2",
+          "collision_exists": true,
+          "display_name": "Predator Ultramarines",
+          "id": "Oth09_WH_Predator",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/Other/Oth09_WH_Predator.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 5000,
+          "source_xml": "XML/item_defs/vehicles/other/Oth09_WH_Predator.xml",
+          "tags": [
+            "heavyTank",
+            "secret",
+            "InGame",
+            "eventCamouflage_user",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "aimingStabilizer_Mk2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 7
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/other-AMX_dracula.sc2",
+          "collision_exists": true,
+          "display_name": "T6 Дракула",
+          "id": "AMX_dracula",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/Other/AMX_Dracula.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 4900,
+          "source_xml": "XML/item_defs/vehicles/other/AMX_dracula.xml",
+          "tags": [
+            "mediumTank",
+            "secret",
+            "InGame",
+            "enhancedTorsions3t_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 7
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/other-Oth08_WH_Vindicator.sc2",
+          "collision_exists": true,
+          "display_name": "Vindicator Ultramarines",
+          "id": "Oth08_WH_Vindicator",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/Other/Oth08_Vindicator.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 5000,
+          "source_xml": "XML/item_defs/vehicles/other/Oth08_WH_Vindicator.xml",
+          "tags": [
+            "AT-SPG",
+            "secret",
+            "InGame",
+            "eventCamouflage_user",
+            "heavyAT-SPG",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 7
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/other-WZ-135G_FT.sc2",
+          "collision_exists": true,
+          "display_name": "WZ 135G FT Пылающий",
+          "id": "WZ-135G_FT",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/Other/WZ-135G_FT.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 5000,
+          "source_xml": "XML/item_defs/vehicles/other/WZ-135G_FT.xml",
+          "tags": [
+            "AT-SPG",
+            "lightAT-SPG",
+            "secret",
+            "InGame",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedTorsions1t_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 7
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/other-Van_Helsing.sc2",
+          "collision_exists": true,
+          "display_name": "Хелсинг H0",
+          "id": "Van_Helsing",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/Other/Van_Helsing.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 4900,
+          "source_xml": "XML/item_defs/vehicles/other/Van_Helsing.xml",
+          "tags": [
+            "AT-SPG",
+            "secret",
+            "InGame",
+            "mediumAT-SPG",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 7
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/other-Akawara.sc2",
+          "collision_exists": true,
+          "display_name": "O-47",
+          "id": "Akawara",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/Other/Akawara.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7300,
+          "source_xml": "XML/item_defs/vehicles/other/Akawara.xml",
+          "tags": [
+            "mediumTank",
+            "enhancedTorsions3t_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "aimingStabilizer_Mk1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 8
+        }
+      ],
+      "totals": {
+        "chassis": 10,
+        "collectible": 5,
+        "engines": 10,
+        "guns": 10,
+        "premium": 5,
+        "radios": 10,
+        "tanks": 10,
+        "turrets": 10
+      }
+    },
+    "uk": {
+      "display_name": "Великобритания",
+      "tanks": [
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/uk-GB_Mark_I.sc2",
+          "collision_exists": true,
+          "display_name": "Mk I* Heavy Tank",
+          "id": "GB_Mark_I",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/GB/Mark_I.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 5,
+          "source_xml": "XML/item_defs/vehicles/uk/GB_Mark_I.xml",
+          "tags": [
+            "heavyTank",
+            "improvedVentilation_class1_user",
+            "mediumCaliberTankRammer_user",
+            "grousers_user",
+            "event_battles"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 1
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/uk-GB76_Mk_VIC.sc2",
+          "collision_exists": true,
+          "display_name": "Light Mk. VIC",
+          "id": "GB76_Mk_VIC",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/GB/Mk_VIC.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 750,
+          "source_xml": "XML/item_defs/vehicles/uk/GB76_Mk_VIC.xml",
+          "tags": [
+            "lightTank"
+          ],
+          "tank_class": "lightTank",
+          "tier": 2
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/uk-Sentinel_AC1.sc2",
+          "collision_exists": true,
+          "display_name": "AC 1 Sentinel",
+          "id": "Sentinel_AC1",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/GB/Sentinel_AC1.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1000,
+          "source_xml": "XML/item_defs/vehicles/uk/Sentinel_AC1.xml",
+          "tags": [
+            "mediumTank",
+            "mediumCaliberTankRammer_user",
+            "enhancedSprings_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 4
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/uk-GB51_Excelsior.sc2",
+          "collision_exists": true,
+          "display_name": "Excelsior",
+          "id": "GB51_Excelsior",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/GB/Excelsior.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 2400,
+          "source_xml": "XML/item_defs/vehicles/uk/GB51_Excelsior.xml",
+          "tags": [
+            "heavyTank",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedVertical_springs_class3_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 5
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/uk-GB68_Matilda_Black_Prince.sc2",
+          "collision_exists": true,
+          "display_name": "Matilda Black Prince",
+          "id": "GB68_Matilda_Black_Prince",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/GB/Matilda_Black_Prince.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 2250,
+          "source_xml": "XML/item_defs/vehicles/uk/GB68_Matilda_Black_Prince.xml",
+          "tags": [
+            "mediumTank",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedHorizontal_elastic_elements_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 5
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/uk-GB44_Archer_Custom.sc2",
+          "collision_exists": true,
+          "display_name": "Коннор Гневный",
+          "id": "GB44_Archer_Custom",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/GB/Archer_custom.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 3500,
+          "source_xml": "XML/item_defs/vehicles/uk/GB44_Archer_Custom.xml",
+          "tags": [
+            "AT-SPG",
+            "lightAT-SPG",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedVertical_springs_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 5
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/uk-GB35_Sentinel_AC_IV.sc2",
+          "collision_exists": true,
+          "display_name": "AC IV Sentinel",
+          "id": "GB35_Sentinel_AC_IV",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/GB/Sentinel_AC_IV.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 3000,
+          "source_xml": "XML/item_defs/vehicles/uk/GB35_Sentinel_AC_IV.xml",
+          "tags": [
+            "mediumTank",
+            "mediumCaliberTankRammer_user",
+            "enhancedSprings_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 6
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/uk-GB_Churchill_MkVI.sc2",
+          "collision_exists": true,
+          "display_name": "Churchill Mk. VI",
+          "id": "GB_Churchill_MkVI",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/GB/Churchill_MkVI.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 3100,
+          "source_xml": "XML/item_defs/vehicles/uk/GB_Churchill_MkVI.xml",
+          "tags": [
+            "heavyTank",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedVertical_springs_class3_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 6
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/uk-GB85_Cromwell_Berlin.sc2",
+          "collision_exists": true,
+          "display_name": "Cromwell B",
+          "id": "GB85_Cromwell_Berlin",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/GB/Cromwell_Berlin.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 3000,
+          "source_xml": "XML/item_defs/vehicles/uk/GB85_Cromwell_Berlin.xml",
+          "tags": [
+            "mediumTank",
+            "testTank",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedSuspension_Christie_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 6
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/uk-GB63_TOG_II.sc2",
+          "collision_exists": true,
+          "display_name": "TOG II*",
+          "id": "GB63_TOG_II",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/GB/TOG_II.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 3100,
+          "source_xml": "XML/item_defs/vehicles/uk/GB63_TOG_II.xml",
+          "tags": [
+            "heavyTank",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedVertical_springs_class3_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 6
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/uk-GB71_AT_15A.sc2",
+          "collision_exists": true,
+          "display_name": "AT 15A",
+          "id": "GB71_AT_15A",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/GB/AT-15A.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 5100,
+          "source_xml": "XML/item_defs/vehicles/uk/GB71_AT_15A.xml",
+          "tags": [
+            "AT-SPG",
+            "heavyAT-SPG",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedHorizontal_springs_class3_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 7
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/uk-GB87_Chieftain_T95_turret.sc2",
+          "collision_exists": true,
+          "display_name": "Chieftain/T95",
+          "id": "GB87_Chieftain_T95_turret",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/GB/Chieftain_T95_turret.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7500,
+          "source_xml": "XML/item_defs/vehicles/uk/GB87_Chieftain_T95_turret.xml",
+          "tags": [
+            "heavyTank",
+            "aimingStabilizer_Mk1_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedHorizontal_springs_class2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/uk-GB84_Chieftain_Mk6.sc2",
+          "collision_exists": true,
+          "display_name": "Chieftain Mk.6",
+          "id": "GB84_Chieftain_Mk6",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/GB/Chieftain_Mk6.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 30000,
+          "source_xml": "XML/item_defs/vehicles/uk/GB84_Chieftain_Mk6.xml",
+          "tags": [
+            "heavyTank",
+            "testTank",
+            "secret",
+            "InGame",
+            "aimingStabilizer_Mk1_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedHorizontal_springs_class2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 10
+        }
+      ],
+      "totals": {
+        "chassis": 13,
+        "collectible": 1,
+        "engines": 13,
+        "guns": 13,
+        "premium": 8,
+        "radios": 13,
+        "tanks": 13,
+        "tree_premium": 4,
+        "turrets": 13
+      }
+    },
+    "usa": {
+      "display_name": "США",
+      "tanks": [
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-T1_E6.sc2",
+          "collision_exists": true,
+          "display_name": "T1E6",
+          "id": "T1_E6",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/T1_E6.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 750,
+          "source_xml": "XML/item_defs/vehicles/usa/T1_E6.xml",
+          "tags": [
+            "lightTank"
+          ],
+          "tank_class": "lightTank",
+          "tier": 2
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-T2_lt.sc2",
+          "collision_exists": true,
+          "display_name": "T2 Light Tank",
+          "id": "T2_lt",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/T2_lt.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 650,
+          "source_xml": "XML/item_defs/vehicles/usa/T2_lt.xml",
+          "tags": [
+            "lightTank"
+          ],
+          "tank_class": "lightTank",
+          "tier": 2
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/usa-T7_Combat_Car.sc2",
+          "collision_exists": true,
+          "display_name": "T7 Combat Car",
+          "id": "T7_Combat_Car",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/USA/T7_Combat_Car.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 650,
+          "source_xml": "XML/item_defs/vehicles/usa/T7_Combat_Car.xml",
+          "tags": [
+            "lightTank",
+            "secret",
+            "InGame"
+          ],
+          "tank_class": "lightTank",
+          "tier": 2
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-M22_Locust.sc2",
+          "collision_exists": true,
+          "display_name": "M22 Locust",
+          "id": "M22_Locust",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/M22_Locust.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1000,
+          "source_xml": "XML/item_defs/vehicles/usa/M22_Locust.xml",
+          "tags": [
+            "lightTank",
+            "wetCombatPack_class1_user",
+            "enhancedVertical_springs_user"
+          ],
+          "tank_class": "lightTank",
+          "tier": 3
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-A77_T6M.sc2",
+          "collision_exists": true,
+          "display_name": "T6E1",
+          "id": "A77_T6M",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/T6_M.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1500,
+          "source_xml": "XML/item_defs/vehicles/usa/A77_T6M.xml",
+          "tags": [
+            "mediumTank",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedVertical_springs_class2_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 4
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-M4A2E4.sc2",
+          "collision_exists": true,
+          "display_name": "M4A2E4 Sherman",
+          "id": "M4A2E4",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/M4A2E4.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 2350,
+          "source_xml": "XML/item_defs/vehicles/usa/M4A2E4.xml",
+          "tags": [
+            "mediumTank",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedTorsions3t_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 5
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-Ram-II.sc2",
+          "collision_exists": true,
+          "display_name": "Ram II",
+          "id": "Ram-II",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/Ram-II.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1750,
+          "source_xml": "XML/item_defs/vehicles/usa/Ram-II.xml",
+          "tags": [
+            "mediumTank",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedVertical_springs_class2_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 5
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-T14.sc2",
+          "collision_exists": true,
+          "display_name": "T14",
+          "id": "T14",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/T14.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 2400,
+          "source_xml": "XML/item_defs/vehicles/usa/T14.xml",
+          "tags": [
+            "heavyTank",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedVertical_springs_class2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 5
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-A104_M4A3E8A.sc2",
+          "collision_exists": true,
+          "display_name": "M4A3E8 Fury",
+          "id": "A104_M4A3E8A",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/M4A3E8_fury.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 4000,
+          "source_xml": "XML/item_defs/vehicles/usa/A104_M4A3E8A.xml",
+          "tags": [
+            "mediumTank",
+            "aimingStabilizer_Mk1_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedHorizontal_springs_class2_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 6
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-M6A2E1.sc2",
+          "collision_exists": true,
+          "display_name": "M6A2E1",
+          "id": "M6A2E1",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/M6A2E1.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 5200,
+          "source_xml": "XML/item_defs/vehicles/usa/M6A2E1.xml",
+          "tags": [
+            "heavyTank",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "aimingStabilizer_Mk2_user",
+            "enhancedVertical_springs_class3_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 7
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-T23E3.sc2",
+          "collision_exists": true,
+          "display_name": "T23E3",
+          "id": "T23E3",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/T23E3.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 4900,
+          "source_xml": "XML/item_defs/vehicles/usa/T23E3.xml",
+          "tags": [
+            "mediumTank",
+            "aimingStabilizer_Mk1_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedTorsions3t_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 7
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-A102_T28_concept.sc2",
+          "collision_exists": true,
+          "display_name": "T28 Concept",
+          "id": "A102_T28_concept",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/T28_Concept.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 4950,
+          "source_xml": "XML/item_defs/vehicles/usa/A102_T28_concept.xml",
+          "tags": [
+            "AT-SPG",
+            "heavyAT-SPG",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "enhancedVertical_springs_class3_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 7
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/usa-T49_Rocket.sc2",
+          "collision_exists": true,
+          "display_name": "T49 ПТУР",
+          "id": "T49_Rocket",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/USA/T49_Rocket.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1,
+          "source_xml": "XML/item_defs/vehicles/usa/T49_Rocket.xml",
+          "tags": [
+            "lightTank",
+            "secret",
+            "InGame"
+          ],
+          "tank_class": "lightTank",
+          "tier": 7
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-M6A2E1_exp.sc2",
+          "collision_exists": true,
+          "display_name": "M6A2E1 EXP",
+          "id": "M6A2E1_exp",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/M6A2E1_exp.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7500,
+          "source_xml": "XML/item_defs/vehicles/usa/M6A2E1_exp.xml",
+          "tags": [
+            "heavyTank",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "aimingStabilizer_Mk2_user",
+            "enhancedVertical_springs_class3_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-T26_E4_SuperPershing.sc2",
+          "collision_exists": true,
+          "display_name": "T26E4 SuperPershing",
+          "id": "T26_E4_SuperPershing",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/T26E4.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7200,
+          "source_xml": "XML/item_defs/vehicles/usa/T26_E4_SuperPershing.xml",
+          "tags": [
+            "mediumTank",
+            "aimingStabilizer_Mk1_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedTorsions3t_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-T34_hvy.sc2",
+          "collision_exists": true,
+          "display_name": "T34",
+          "id": "T34_hvy",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/T34_hvy.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7600,
+          "source_xml": "XML/item_defs/vehicles/usa/T34_hvy.xml",
+          "tags": [
+            "heavyTank",
+            "aimingStabilizer_Mk2_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "enhancedTorsions5t_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-T34_hvy_Freedom.sc2",
+          "collision_exists": true,
+          "display_name": "T34 Independence",
+          "id": "T34_hvy_Freedom",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/T34_hvy_Freedom.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7600,
+          "source_xml": "XML/item_defs/vehicles/usa/T34_hvy_Freedom.xml",
+          "tags": [
+            "heavyTank",
+            "aimingStabilizer_Mk2_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "enhancedTorsions5t_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-T95E2.sc2",
+          "collision_exists": true,
+          "display_name": "T95E2",
+          "id": "T95E2",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/T95E2.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7200,
+          "source_xml": "XML/item_defs/vehicles/usa/T95E2.xml",
+          "tags": [
+            "mediumTank",
+            "aimingStabilizer_Mk1_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "patton"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/usa-M60.sc2",
+          "collision_exists": true,
+          "display_name": "M60",
+          "id": "M60",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USA/M60.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 250,
+          "source_xml": "XML/item_defs/vehicles/usa/M60.xml",
+          "tags": [
+            "mediumTank",
+            "aimingStabilizer_Mk1_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "patton"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 10
+        }
+      ],
+      "totals": {
+        "chassis": 19,
+        "collectible": 2,
+        "engines": 19,
+        "guns": 19,
+        "premium": 12,
+        "radios": 19,
+        "tanks": 19,
+        "tree_premium": 5,
+        "turrets": 19
+      }
+    },
+    "ussr": {
+      "display_name": "СССР",
+      "tanks": [
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-Tetrarch_LL.sc2",
+          "collision_exists": true,
+          "display_name": "Тетрарх",
+          "id": "Tetrarch_LL",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/Tetrarch_LL.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 700,
+          "source_xml": "XML/item_defs/vehicles/ussr/Tetrarch_LL.xml",
+          "tags": [
+            "lightTank",
+            "lendLeaseVehicle"
+          ],
+          "tank_class": "lightTank",
+          "tier": 2
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-R105_BT_7A.sc2",
+          "collision_exists": true,
+          "display_name": "БТ-7 артиллерийский",
+          "id": "R105_BT_7A",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/BT_7A.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 850,
+          "source_xml": "XML/item_defs/vehicles/ussr/R105_BT_7A.xml",
+          "tags": [
+            "lightTank",
+            "enhancedSuspension_Christie_user"
+          ],
+          "tank_class": "lightTank",
+          "tier": 3
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-BT-SV.sc2",
+          "collision_exists": true,
+          "display_name": "БТ-СВ",
+          "id": "BT-SV",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/BT-SV.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1000,
+          "source_xml": "XML/item_defs/vehicles/ussr/BT-SV.xml",
+          "tags": [
+            "lightTank",
+            "enhancedSuspension_Christie_user"
+          ],
+          "tank_class": "lightTank",
+          "tier": 3
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-LTP.sc2",
+          "collision_exists": true,
+          "display_name": "ЛТП",
+          "id": "LTP",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/LTP.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 850,
+          "source_xml": "XML/item_defs/vehicles/ussr/LTP.xml",
+          "tags": [
+            "lightTank",
+            "wetCombatPack_class1_user",
+            "enhancedTorsions1t_user"
+          ],
+          "tank_class": "lightTank",
+          "tier": 3
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-M3_Stuart_LL.sc2",
+          "collision_exists": true,
+          "display_name": "М3 лёгкий",
+          "id": "M3_Stuart_LL",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/M3_Stuart.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 850,
+          "source_xml": "XML/item_defs/vehicles/ussr/M3_Stuart_LL.xml",
+          "tags": [
+            "lightTank",
+            "lendLeaseVehicle"
+          ],
+          "tank_class": "lightTank",
+          "tier": 3
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-SU76I.sc2",
+          "collision_exists": true,
+          "display_name": "СУ-76И",
+          "id": "SU76I",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/USSR/SU76I.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1000,
+          "source_xml": "XML/item_defs/vehicles/ussr/SU76I.xml",
+          "tags": [
+            "AT-SPG",
+            "secret",
+            "mediumAT-SPG",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedTorsions3t_user",
+            "grousers_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 3
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-T-127.sc2",
+          "collision_exists": true,
+          "display_name": "Т-127",
+          "id": "T-127",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/T-127.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 950,
+          "source_xml": "XML/item_defs/vehicles/ussr/T-127.xml",
+          "tags": [
+            "lightTank",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "lightTank",
+          "tier": 3
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-R43_T-70_57.sc2",
+          "collision_exists": true,
+          "display_name": "Т-70/57",
+          "id": "R43_T-70_57",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/USSR/T-70_57.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 850,
+          "source_xml": "XML/item_defs/vehicles/ussr/R43_T-70_57.xml",
+          "tags": [
+            "lightTank",
+            "testTank",
+            "secret",
+            "InGame",
+            "wetCombatPack_class1_user",
+            "enhancedTorsions1t_user"
+          ],
+          "tank_class": "lightTank",
+          "tier": 3
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-A-32.sc2",
+          "collision_exists": true,
+          "display_name": "А-32",
+          "id": "A-32",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/A-32.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1450,
+          "source_xml": "XML/item_defs/vehicles/ussr/A-32.xml",
+          "tags": [
+            "mediumTank",
+            "enhancedSuspension_Christie_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 4
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-Valentine_LL.sc2",
+          "collision_exists": true,
+          "display_name": "Валентайн II",
+          "id": "Valentine_LL",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/Valentine_LL.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1500,
+          "source_xml": "XML/item_defs/vehicles/ussr/Valentine_LL.xml",
+          "tags": [
+            "lightTank",
+            "lendLeaseVehicle"
+          ],
+          "tank_class": "lightTank",
+          "tier": 4
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-KV-220.sc2",
+          "collision_exists": true,
+          "display_name": "КВ-220 Бета-Тест",
+          "id": "KV-220",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/KV-220.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 2500,
+          "source_xml": "XML/item_defs/vehicles/ussr/KV-220.xml",
+          "tags": [
+            "heavyTank",
+            "enhancedTorsions5t_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 5
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-Matilda_II_LL.sc2",
+          "collision_exists": true,
+          "display_name": "Матильда IV",
+          "id": "Matilda_II_LL",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/Matilda_II_LL.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 2400,
+          "source_xml": "XML/item_defs/vehicles/ussr/Matilda_II_LL.xml",
+          "tags": [
+            "mediumTank",
+            "lendLeaseVehicle",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 5
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-SU_85I.sc2",
+          "collision_exists": true,
+          "display_name": "СУ-85И",
+          "id": "SU_85I",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/SU_85I.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 2300,
+          "source_xml": "XML/item_defs/vehicles/ussr/SU_85I.xml",
+          "tags": [
+            "AT-SPG",
+            "mediumAT-SPG",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "enhancedTorsions3t_user",
+            "grousers_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 5
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-Churchill_LL.sc2",
+          "collision_exists": true,
+          "display_name": "Черчилль III",
+          "id": "Churchill_LL",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/Churchill_LL.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 2,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 2400,
+          "source_xml": "XML/item_defs/vehicles/ussr/Churchill_LL.xml",
+          "tags": [
+            "heavyTank",
+            "lendLeaseVehicle",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 5
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-T-34-85_Victory.sc2",
+          "collision_exists": true,
+          "display_name": "T-34-85 Победный",
+          "id": "T-34-85_Victory",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/T-34-85_Victory.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 3300,
+          "source_xml": "XML/item_defs/vehicles/ussr/T-34-85_Victory.xml",
+          "tags": [
+            "mediumTank",
+            "enhancedSuspension_Christie_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 6
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-SU100Y.sc2",
+          "collision_exists": true,
+          "display_name": "СУ-100Y",
+          "id": "SU100Y",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/SU100Y.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 3000,
+          "source_xml": "XML/item_defs/vehicles/ussr/SU100Y.xml",
+          "tags": [
+            "AT-SPG",
+            "heavyAT-SPG",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 6
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-T-34-85_Rudy.sc2",
+          "collision_exists": true,
+          "display_name": "T-34-85 Rudy",
+          "id": "T-34-85_Rudy",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/T34_85_Rudy.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 4700,
+          "source_xml": "XML/item_defs/vehicles/ussr/T-34-85_Rudy.xml",
+          "tags": [
+            "mediumTank",
+            "enhancedSuspension_Christie_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 7
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-R71_IS_2B.sc2",
+          "collision_exists": true,
+          "display_name": "ИС-2",
+          "id": "R71_IS_2B",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/IS_2_Berlin.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 5000,
+          "source_xml": "XML/item_defs/vehicles/ussr/R71_IS_2B.xml",
+          "tags": [
+            "heavyTank",
+            "sinai",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 7
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-R116_ISU122C_Berlin.sc2",
+          "collision_exists": true,
+          "display_name": "ИСУ-122С",
+          "id": "R116_ISU122C_Berlin",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/ISU122C_Berlin.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 4900,
+          "source_xml": "XML/item_defs/vehicles/ussr/R116_ISU122C_Berlin.xml",
+          "tags": [
+            "AT-SPG",
+            "sinai",
+            "heavyAT-SPG",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 7
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-SU122_44.sc2",
+          "collision_exists": true,
+          "display_name": "СУ-122-44",
+          "id": "SU122_44",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/SU122_44.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 5100,
+          "source_xml": "XML/item_defs/vehicles/ussr/SU122_44.xml",
+          "tags": [
+            "AT-SPG",
+            "mediumAT-SPG",
+            "enhancedTorsions5t_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class2_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 7
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-R127_T44_100_P.sc2",
+          "collision_exists": true,
+          "display_name": "T-44-100",
+          "id": "R127_T44_100_P",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/t44_100_p.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7200,
+          "source_xml": "XML/item_defs/vehicles/ussr/R127_T44_100_P.xml",
+          "tags": [
+            "mediumTank",
+            "enhancedTorsions3t_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "aimingStabilizer_Mk1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-IS-2Sh.sc2",
+          "collision_exists": true,
+          "display_name": "ИС-2Ш",
+          "id": "IS-2Sh",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/IS2_Sh.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7200,
+          "source_xml": "XML/item_defs/vehicles/ussr/IS-2Sh.xml",
+          "tags": [
+            "heavyTank",
+            "sinai",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "aimingStabilizer_Mk2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-R115_IS-3_auto.sc2",
+          "collision_exists": true,
+          "display_name": "ИС-3 Защитник",
+          "id": "R115_IS-3_auto",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/USSR/IS-3_LM.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 15000,
+          "source_xml": "XML/item_defs/vehicles/ussr/R115_IS-3_auto.xml",
+          "tags": [
+            "heavyTank",
+            "sinai",
+            "enhancedTorsions5t_user",
+            "wetCombatPack_class2_user",
+            "aimingStabilizer_Mk2_user",
+            "secret",
+            "InGame"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-R113_Object_730.sc2",
+          "collision_exists": true,
+          "display_name": "ИС-5 (Объект 730)",
+          "id": "R113_Object_730",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/Object_730.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 1500,
+          "source_xml": "XML/item_defs/vehicles/ussr/R113_Object_730.xml",
+          "tags": [
+            "heavyTank",
+            "sinai",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "aimingStabilizer_Mk2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "tree_premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-Object252.sc2",
+          "collision_exists": true,
+          "display_name": "ИС-6",
+          "id": "Object252",
+          "in_tech_tree": true,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/Object_252.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 2,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7600,
+          "source_xml": "XML/item_defs/vehicles/ussr/Object252.xml",
+          "tags": [
+            "heavyTank",
+            "sinai",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "aimingStabilizer_Mk2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-Object252_Fearless.sc2",
+          "collision_exists": true,
+          "display_name": "ИС-6 Бесстрашный",
+          "id": "Object252_Fearless",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/USSR/Object_252_fearless.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 2,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7600,
+          "source_xml": "XML/item_defs/vehicles/ussr/Object252_Fearless.xml",
+          "tags": [
+            "heavyTank",
+            "secret",
+            "InGame",
+            "sinai",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "aimingStabilizer_Mk2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "collectible",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-R111_ISU130.sc2",
+          "collision_exists": true,
+          "display_name": "ИСУ-130",
+          "id": "R111_ISU130",
+          "in_tech_tree": false,
+          "is_collectible": true,
+          "model": "3d/Tanks/USSR/isu-130.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7200,
+          "source_xml": "XML/item_defs/vehicles/ussr/R111_ISU130.xml",
+          "tags": [
+            "AT-SPG",
+            "sinai",
+            "testTank",
+            "secret",
+            "InGame",
+            "heavyAT-SPG",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user"
+          ],
+          "tank_class": "AT-SPG",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-KV-5.sc2",
+          "collision_exists": true,
+          "display_name": "КВ-5",
+          "id": "KV-5",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/KV-5.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 2,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7550,
+          "source_xml": "XML/item_defs/vehicles/ussr/KV-5.xml",
+          "tags": [
+            "heavyTank",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "aimingStabilizer_Mk2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-R112_T54_45.sc2",
+          "collision_exists": true,
+          "display_name": "Т-54 первый образец",
+          "id": "R112_T54_45",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/T54_45.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 7300,
+          "source_xml": "XML/item_defs/vehicles/ussr/R112_T54_45.xml",
+          "tags": [
+            "mediumTank",
+            "enhancedTorsions3t_user",
+            "mediumCaliberTankRammer_user",
+            "wetCombatPack_class1_user",
+            "aimingStabilizer_Mk1_user"
+          ],
+          "tank_class": "mediumTank",
+          "tier": 8
+        },
+        {
+          "acquisition": "premium",
+          "collision": "3d/Tanks/CollisionMeshes/ussr-K-91.sc2",
+          "collision_exists": true,
+          "display_name": "К-91",
+          "id": "K-91",
+          "in_tech_tree": false,
+          "is_collectible": false,
+          "model": "3d/Tanks/USSR/K-91.sc2",
+          "model_exists": true,
+          "modules": {
+            "chassis": 1,
+            "engines": 1,
+            "guns": 1,
+            "radios": 1,
+            "turrets": 1
+          },
+          "price_gold": 15000,
+          "source_xml": "XML/item_defs/vehicles/ussr/K-91.xml",
+          "tags": [
+            "heavyTank",
+            "enhancedTorsions5t_user",
+            "largeCaliberTankRammer_user",
+            "wetCombatPack_class2_user",
+            "aimingStabilizer_Mk2_user"
+          ],
+          "tank_class": "heavyTank",
+          "tier": 9
+        }
+      ],
+      "totals": {
+        "chassis": 30,
+        "collectible": 5,
+        "engines": 30,
+        "guns": 34,
+        "premium": 18,
+        "radios": 30,
+        "tanks": 30,
+        "tree_premium": 7,
+        "turrets": 30
+      }
+    }
+  },
+  "source": "/home/smh01/Studio canaryProjects/BlitzPACKSold",
+  "totals": {
+    "chassis": 113,
+    "collectible": 20,
+    "engines": 113,
+    "guns": 120,
+    "premium": 69,
+    "radios": 113,
+    "tanks": 113,
+    "tree_premium": 24,
+    "turrets": 113
+  }
+}

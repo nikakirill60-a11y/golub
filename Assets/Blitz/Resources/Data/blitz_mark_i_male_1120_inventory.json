@@ -1,0 +1,158 @@
+{
+  "version": "11.20",
+  "source": "/home/smh01/projects/wotblitz11.20.0files",
+  "generator": "Tools/port_blitz_mark_i_male_1120.py",
+  "listed": 1,
+  "preserved": 0,
+  "added": 1,
+  "records": [
+    {
+      "nation": "uk",
+      "vehicle_id": "GB86_Mark_I_Male",
+      "name": "gb86_mark_i_male",
+      "model_stem": "GB86_Mark_I_Male",
+      "scene": "3d/Tanks/GB/GB86_Mark_I_Male.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/uk-GB86_Mark_I_Male.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/uk/GB86_Mark_I_Male.xml",
+      "xml_sha256": "a466d53a3ac28cf9ffa9683549d92b4d0e83f6af6bff08f52390cbf443cb2dd2",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/GB86_Mark_I_Male_CM.tex",
+          "source": "3d/Tanks/GB/CamouflageMasks/GB86_Mark_I_Male_CM.astc.pvr.dvpl",
+          "sha256": "4bdc889b1dc2ec2f693205f2062d7a1cc1062901575d298bf964d33b1624de10"
+        },
+        {
+          "reference": "images/GB86_Mark_I_Male.tex",
+          "source": "3d/Tanks/GB/images/GB86_Mark_I_Male.astc.pvr.dvpl",
+          "sha256": "0203177bf20549483d9b8834ca3091acc8e28184051c55656fd70d9741f3fa1a"
+        },
+        {
+          "reference": "images/GB86_Mark_I_Male_NM.tex",
+          "source": "3d/Tanks/GB/images/GB86_Mark_I_Male_NM.astc.pvr.dvpl",
+          "sha256": "a432a68f8646a4751aa0fd75afe0d6cc81ffe95437a381ae81aadc54be6bfd24"
+        },
+        {
+          "reference": "images/GB86_Mark_I_Male_track.tex",
+          "source": "3d/Tanks/GB/images/GB86_Mark_I_Male_track.astc.pvr.dvpl",
+          "sha256": "76ba7afd5aea8ae4f7b5e3c165048a13ec2e7e5cc5a341ab7c59a7e96a028dd5"
+        },
+        {
+          "reference": "images/GB86_Mark_I_Male_track_NM.tex",
+          "source": "3d/Tanks/GB/images/GB86_Mark_I_Male_track_NM.astc.pvr.dvpl",
+          "sha256": "d6191d925fbfe66af447f0f0d61d71188bff428d0645adfa612b7e76a0e80943"
+        },
+        {
+          "reference": "images_pbr/GB86_Mark_I_Male_BC.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB86_Mark_I_Male_BC.astc.pvr.dvpl",
+          "sha256": "c8845d30e930af5fa3a1e44de6cf93500ea6b97647c412d7d7ea4930beccf78c"
+        },
+        {
+          "reference": "images_pbr/GB86_Mark_I_Male_MASK.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB86_Mark_I_Male_MASK.astc.pvr.dvpl",
+          "sha256": "daa8ba76a1b4c8650cc9ae8d5d3f8fad1ba0a08acadf86d76363ba247f389598"
+        },
+        {
+          "reference": "images_pbr/GB86_Mark_I_Male_MISC.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB86_Mark_I_Male_MISC.astc.pvr.dvpl",
+          "sha256": "f268d2f3aa844490637a1ccccb7867bd81f9e67afa25da02532d19c4ba08121c"
+        },
+        {
+          "reference": "images_pbr/GB86_Mark_I_Male_NM.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB86_Mark_I_Male_NM.astc.pvr.dvpl",
+          "sha256": "35bc3ec3b3b1b5024d4e3dad813bffa218034fec0dda877762f759beb85e8686"
+        },
+        {
+          "reference": "images_pbr/GB86_Mark_I_Male_RM.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB86_Mark_I_Male_RM.astc.pvr.dvpl",
+          "sha256": "6032151df18ab9b53fef025d1887d0c2ddcae3e4c20a95037a9551d762ed4ee9"
+        },
+        {
+          "reference": "images_pbr/GB86_Mark_I_Male_track_BC.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB86_Mark_I_Male_track_BC.astc.pvr.dvpl",
+          "sha256": "8950664a5fdd6e78dcf29868d25c65321a2492e18281eb47b2938f0ba41912b5"
+        },
+        {
+          "reference": "images_pbr/GB86_Mark_I_Male_track_MASK.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB86_Mark_I_Male_track_MASK.astc.pvr.dvpl",
+          "sha256": "768e75ce0daf062a79f40dc2cc45887d57a51a827463dcbd6afb762547b64d48"
+        },
+        {
+          "reference": "images_pbr/GB86_Mark_I_Male_track_MISC.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB86_Mark_I_Male_track_MISC.astc.pvr.dvpl",
+          "sha256": "2be71ca96d40b7beb96878bbbf65f9d906e45bf8bcb8fe64588113885535b013"
+        },
+        {
+          "reference": "images_pbr/GB86_Mark_I_Male_track_NM.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB86_Mark_I_Male_track_NM.astc.pvr.dvpl",
+          "sha256": "0e21f3e53266316fd503f7259c56a76aecceb5c0ef2f87fceb7efdc8ead5d59a"
+        },
+        {
+          "reference": "images_pbr/GB86_Mark_I_Male_track_RM.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB86_Mark_I_Male_track_RM.astc.pvr.dvpl",
+          "sha256": "20ecf0d89e0b753b5d92b74ad103fc36d519349def79ac2772ab367b9fbba9fc"
+        }
+      ],
+      "parameter_source": "from_apk/3d/Tanks/Parameters/uk/GB86_Mark_I_Male.yaml",
+      "parameter_sha256": "7dee00e60a78804fd917c8130f67730c82d45ed1f914c907dc2371c3406695c7",
+      "resources": {
+        "smallIconPath": "~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/british-GB86_Mark_I_Male",
+        "bigIconPath": "~res:/Gfx/UI/BigTankIcons/british-GB86_Mark_I_Male",
+        "carouselBackgroundImagePath": "",
+        "statisticBackgroundImagePath": "",
+        "favoriteBackgroundImagePath": "",
+        "blitzModelPath": "Tanks/GB/GB86_Mark_I_Male.sc2",
+        "collisionMesh": "CollisionMeshes/uk-GB86_Mark_I_Male.sc2",
+        "smokeEffectPath": "FX/smoke_tank_type_black_new_3.sc2",
+        "fireEffectPathAlive": "FX/SmokeFire_tank_movement_new.sc2",
+        "fireEffectPathDead": "FX/Fire_and_Smoke.sc2",
+        "engineSoundPC": "tanks/pc/engine/uk/ht",
+        "engineSoundNPC": "tanks/npc/engine/uk/ht",
+        "chassisSoundPC": "tanks/pc/treads/ht",
+        "chassisSoundNPC": "tanks/npc/treads/ht"
+      },
+      "original_xml_source": "from_apk/XML/item_defs/vehicles/uk/GB86_Mark_I_Male.xml",
+      "original_xml_sha256": "a466d53a3ac28cf9ffa9683549d92b4d0e83f6af6bff08f52390cbf443cb2dd2",
+      "scene_source": "3d/Tanks/GB/GB86_Mark_I_Male.sc2.dvpl",
+      "scene_sha256": "e4105e3047d754dea351ce1e1bc4384340775b0400d877b2570a501b973f6a34",
+      "geometry_source": "3d/Tanks/GB/GB86_Mark_I_Male.scg.dvpl",
+      "geometry_sha256": "ce2d7c8d2378cfd541fd08399c7c9a6b112ff8ecd85da98ee22988add27d3350",
+      "collision_source": "3d/Tanks/CollisionMeshes/uk-GB86_Mark_I_Male.sc2.dvpl",
+      "collision_sha256": "65b3606c008224bb979514b41eb15c87ec55b03cf1ceccd0a2bdbc587311d74e",
+      "collision_geometry_source": "3d/Tanks/CollisionMeshes/uk-GB86_Mark_I_Male.scg.dvpl",
+      "collision_geometry_sha256": "65b0ef12ebe8c048a5815bff52e684f6d16c5f09c7b5351cfcf5110fc6b568b8",
+      "modules": {
+        "turrets": [
+          "Turret_1_GB86_Mark_I_Male"
+        ],
+        "guns": [
+          "_57mm_Hotchkiss_6_pdr_QF"
+        ],
+        "tracks": [
+          "Chassis_1_GB86_Mark_I_Male"
+        ],
+        "engines": [
+          "Foster_Daimler_I6_GB86"
+        ],
+        "radios": [
+          "Wireless_GB86"
+        ]
+      },
+      "configurations": [
+        {
+          "turret": "Turret_1_GB86_Mark_I_Male",
+          "gun": "_57mm_Hotchkiss_6_pdr_QF",
+          "turret_mesh": "turret_01",
+          "gun_mesh": "gun_01"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "turrets": 1,
+    "guns": 1,
+    "tracks": 1,
+    "engines": 1,
+    "radios": 1
+  },
+  "configurations": 1
+}

@@ -1,0 +1,1069 @@
+{
+  "atlas": {
+    "regions": 747,
+    "textures": 395
+  },
+  "audio": {
+    "map_intro_rudniki": {
+      "bytes": 488074,
+      "destination": "map_intro_rudniki.mp3",
+      "destinationSha256": "4c7e9688247f76fbe69c221da241ed9e25d1edf28467c4ace4a3ac43ced92c33",
+      "sha256": "4c7e9688247f76fbe69c221da241ed9e25d1edf28467c4ace4a3ac43ced92c33",
+      "source": "assets/sfx/music/The_Urge_to_Win.mp3"
+    },
+    "result_defeat": {
+      "bytes": 691307,
+      "destination": "result_defeat.mp3",
+      "destinationSha256": "63dd13bddc9ed38e7fc84857fc57ec49e4411e646dc050e19c7940fbf834cf26",
+      "sha256": "63dd13bddc9ed38e7fc84857fc57ec49e4411e646dc050e19c7940fbf834cf26",
+      "source": "assets/sfx/music/aftershot/defeat.mp3"
+    },
+    "result_draw": {
+      "bytes": 605103,
+      "destination": "result_draw.mp3",
+      "destinationSha256": "4df1c7fa36cbfe50c4892d44efdc21b6142669c7ee6f4a7be302649c626b6448",
+      "sha256": "4df1c7fa36cbfe50c4892d44efdc21b6142669c7ee6f4a7be302649c626b6448",
+      "source": "assets/sfx/music/aftershot/draw.mp3"
+    },
+    "result_victory": {
+      "bytes": 528303,
+      "destination": "result_victory.mp3",
+      "destinationSha256": "cd99c7c6a6179fdcf51f02cf6b593e337bfbf6687ac0e59967c05761df8a6888",
+      "sha256": "cd99c7c6a6179fdcf51f02cf6b593e337bfbf6687ac0e59967c05761df8a6888",
+      "source": "assets/sfx/music/aftershot/victory.mp3"
+    }
+  },
+  "existingAtlasRegions": {
+    "flow_intro_platoon": {
+      "bytes": 274,
+      "rect": [
+        594,
+        1991,
+        32,
+        42
+      ],
+      "sha256": "c2d2048c62291fe8e518c491b55d124c574910da83b5852d9086ea72e0e811b2",
+      "source": "assets/gfx/ui/battle/parsed/vzvods.tres",
+      "texture": "battleScreen"
+    },
+    "flow_intro_tier_1": {
+      "bytes": 274,
+      "rect": [
+        246,
+        1638,
+        8,
+        21
+      ],
+      "sha256": "621438efe7ff71cb4248428e4113f64acc12363561377dfc57c7e4bcdbf5323a",
+      "source": "assets/gfx/ui/battle/parsed/Levels.tres",
+      "texture": "battleScreen"
+    },
+    "flow_intro_tier_10": {
+      "bytes": 275,
+      "rect": [
+        2029,
+        613,
+        17,
+        21
+      ],
+      "sha256": "4b9e67aa67bfe8afab37edf937e3bb4c41f795fe259685bbc94b4f42220d9b82",
+      "source": "assets/gfx/ui/battle/parsed/Levels019.tres",
+      "texture": "battleScreen"
+    },
+    "flow_intro_tier_2": {
+      "bytes": 275,
+      "rect": [
+        496,
+        1979,
+        14,
+        21
+      ],
+      "sha256": "bdad9a16d82a1fbc6241c5c71fc6d53ddee8e5a8dca8bd59a8c288be67fd8469",
+      "source": "assets/gfx/ui/battle/parsed/Levels03.tres",
+      "texture": "battleScreen"
+    },
+    "flow_intro_tier_3": {
+      "bytes": 276,
+      "rect": [
+        1222,
+        1234,
+        20,
+        21
+      ],
+      "sha256": "7aac8adda925924ddd5c5d75162286fcf4f4bae1d161ba08e13505d7da03c6e7",
+      "source": "assets/gfx/ui/battle/parsed/Levels05.tres",
+      "texture": "battleScreen"
+    },
+    "flow_intro_tier_4": {
+      "bytes": 275,
+      "rect": [
+        1955,
+        1194,
+        21,
+        21
+      ],
+      "sha256": "78e27d2b3abf48fc745ec47856ebae62e2195af3557e8721f30f41976ea3148c",
+      "source": "assets/gfx/ui/battle/parsed/Levels07.tres",
+      "texture": "battleScreen"
+    },
+    "flow_intro_tier_5": {
+      "bytes": 275,
+      "rect": [
+        496,
+        1933,
+        16,
+        21
+      ],
+      "sha256": "a43ba07a3532495440dc134c71aadd72592af44277c1607f7250423c76beab04",
+      "source": "assets/gfx/ui/battle/parsed/Levels09.tres",
+      "texture": "battleScreen"
+    },
+    "flow_intro_tier_6": {
+      "bytes": 276,
+      "rect": [
+        2001,
+        1194,
+        21,
+        21
+      ],
+      "sha256": "3cb354812246dfbb8965ab0b63051f1197d25fb5512a732ae372e4e3c3b562d0",
+      "source": "assets/gfx/ui/battle/parsed/Levels011.tres",
+      "texture": "battleScreen"
+    },
+    "flow_intro_tier_7": {
+      "bytes": 276,
+      "rect": [
+        1183,
+        2026,
+        27,
+        21
+      ],
+      "sha256": "d224a76bd95db89e7f8fb82f23a0d5f9c78935746345e4b9ce0b8661005d049e",
+      "source": "assets/gfx/ui/battle/parsed/Levels013.tres",
+      "texture": "battleScreen"
+    },
+    "flow_intro_tier_8": {
+      "bytes": 275,
+      "rect": [
+        1833,
+        404,
+        33,
+        21
+      ],
+      "sha256": "e75f694dee2a31cebf51dcae374cc4b67dc637795faa7fef64efb9cdc697a41b",
+      "source": "assets/gfx/ui/battle/parsed/Levels015.tres",
+      "texture": "battleScreen"
+    },
+    "flow_intro_tier_9": {
+      "bytes": 275,
+      "rect": [
+        1931,
+        1194,
+        22,
+        21
+      ],
+      "sha256": "32eb613ffd06fb2b1f911e819424906d23781366e4ebef8db3b75becc87a5a13",
+      "source": "assets/gfx/ui/battle/parsed/Levels017.tres",
+      "texture": "battleScreen"
+    },
+    "flow_queue_mode": {
+      "bytes": 286,
+      "rect": [
+        529,
+        1073,
+        157,
+        157
+      ],
+      "sha256": "e52c8831627e97c9cb566e93e92f5ad0077e6771cdef46b08c247928c9521e79",
+      "source": "assets/gfx/ui/lobby_common/LogotypeIcons.tres",
+      "texture": "lobbyCommon_Out"
+    },
+    "flow_result_currency_credits": {
+      "bytes": 284,
+      "rect": [
+        1943,
+        917,
+        54,
+        54
+      ],
+      "sha256": "c0606fb62ed4175427c7fa5525aacfa537d9b31ae7ca43b0e4ba54e2e9180031",
+      "source": "assets/gfx/ui/lobby_common/CurrencyIconsBig02.tres",
+      "texture": "lobbyCommon_Out"
+    },
+    "flow_result_currency_gold": {
+      "bytes": 285,
+      "rect": [
+        1018,
+        1298,
+        52,
+        52
+      ],
+      "sha256": "800f9a4cb2cde1f15edbee9bef32d1ab5ae7cfa23846433d1885c8f2511b6cbf",
+      "source": "assets/gfx/ui/lobby_common/CurrencyIconsBig.tres",
+      "texture": "lobbyCommon_Out"
+    },
+    "flow_result_currency_xp": {
+      "bytes": 284,
+      "rect": [
+        1018,
+        1562,
+        52,
+        49
+      ],
+      "sha256": "d8f621e74ddd82dd48494904a815bf971a1f943072987fd7f807ae3d548ebad6",
+      "source": "assets/gfx/ui/lobby_common/CurrencyIconsBig04.tres",
+      "texture": "lobbyCommon_Out"
+    },
+    "flow_result_tab_details": {
+      "bytes": 277,
+      "rect": [
+        1345,
+        1,
+        82,
+        62
+      ],
+      "sha256": "1e50f546e60f76663addcb9ceb119fa5bfb7735f3c95a9c5e573d2574a11422d",
+      "source": "assets/gfx/ui/hangar/SidebarIcons05.tres",
+      "texture": "hangar_Out"
+    },
+    "flow_result_tab_personal": {
+      "bytes": 278,
+      "rect": [
+        476,
+        129,
+        94,
+        90
+      ],
+      "sha256": "6a1c157cafa12e5ffeebd1f06e4627d47ae381c5e011bdda6bad4b2d34a6472e",
+      "source": "assets/gfx/ui/hangar/SidebarIcons03.tres",
+      "texture": "hangar_Out"
+    },
+    "flow_result_tab_team": {
+      "bytes": 279,
+      "rect": [
+        191,
+        683,
+        126,
+        86
+      ],
+      "sha256": "6a7c204b14d43b2ff7491d8efb9c14017445b0fe56256d738a3c3dbfd51777ae",
+      "source": "assets/gfx/ui/hangar/SidebarIcons014.tres",
+      "texture": "hangar_Out"
+    }
+  },
+  "flowData": {
+    "botNames": 61,
+    "bytes": 45906,
+    "destination": "battle_flow.json",
+    "sha256": "85ea35e0daa095d7d6a2097a46a622512b154aaf4ff3b8816a6050bbcb9901a1",
+    "source": "scripts/_battle.gd"
+  },
+  "generator": "Tools/port_godot_battle_flow.py",
+  "intro": {
+    "countdownSeconds": 5,
+    "musicFadeSeconds": 0.8,
+    "screenTrackRange": [
+      0.4,
+      0.75
+    ]
+  },
+  "localization": {
+    "added": [
+      "battleResult:blocked",
+      "battleResult:credits",
+      "battleResult:damage",
+      "battleResult:destroyed",
+      "battleResult:earned",
+      "battleResult:free_xp",
+      "battleResult:gold",
+      "battleResult:hits",
+      "battleResult:kills",
+      "battleResult:no_rewards",
+      "battleResult:player",
+      "battleResult:prem/has",
+      "battleResult:prem/hasnt",
+      "battleResult:reason/extermination",
+      "battleResult:reason/timeout",
+      "battleResult:shots",
+      "battleResult:status",
+      "battleResult:taken",
+      "battleResult:tank",
+      "battleResult:xp",
+      "battle_notif:defeat",
+      "battle_notif:draw",
+      "battle_notif:victory",
+      "rewards:first_blood/name",
+      "rewards:first_victory/name",
+      "rewards:warrior/name"
+    ],
+    "required": [
+      "ALLIES",
+      "ENEMIES",
+      "PLEASE_WAIT",
+      "Survived",
+      "TO HANGAR",
+      "battle/startsIn",
+      "battle_notif:battle",
+      "battle_notif:details",
+      "battle_notif:received",
+      "battle_notif:tank",
+      "bresult/DETAILS",
+      "bresult/PERSONAL",
+      "bresult/TEAM",
+      "map_intro:enc_battle",
+      "queue.ht",
+      "queue.lt",
+      "queue.mt",
+      "queue.players",
+      "queue.please_wait",
+      "queue.tanks_by_lvl",
+      "queue.td",
+      "queue.wait_time",
+      "randomBattle"
+    ],
+    "sources": [
+      {
+        "bytes": 6507,
+        "sha256": "ba9727f8304072e42054e3ac78d20b1483c5aef4026564722055867e4ee4d988",
+        "source": "lang_dump.csv"
+      },
+      {
+        "bytes": 40539,
+        "sha256": "c791be3631dbc3243fadcff35204e303cf6f07677d611bd0a42b4378d9067abd",
+        "source": "lang_extra.csv"
+      }
+    ]
+  },
+  "policy": "Source Godot art/audio and exact AtlasTexture rectangles; no replacement artwork.",
+  "queue": {
+    "matchDelaySeconds": [
+      1,
+      3
+    ],
+    "refreshSeconds": 5,
+    "tierRandomInclusive": [
+      134,
+      354
+    ],
+    "tierRatios": [
+      9,
+      6,
+      12,
+      4,
+      5,
+      7,
+      8,
+      12,
+      9,
+      2
+    ],
+    "typeShareRange": [
+      0.05,
+      0.25
+    ]
+  },
+  "result": {
+    "postBattleDelaySeconds": 5,
+    "returnDelaySeconds": 2
+  },
+  "scenesAndMechanics": [
+    {
+      "bytes": 292741,
+      "sha256": "37f16b687b993745d381f8c1243853fd9ad272f2aed854bbf93f824cc5c92962",
+      "source": "assets/gfx/ui/hangar/ui_hangar.tscn"
+    },
+    {
+      "bytes": 7124,
+      "sha256": "a7da0bf048a83ab5ee3e937a6d7190cdea8781c2c31133a62cdac8b108e74b07",
+      "source": "assets/gfx/ui/battle/ui_battle_intro.tscn"
+    },
+    {
+      "bytes": 10033,
+      "sha256": "bdb6537a5432a3be557bc3ecdf1e61f1163be505665ff73d4c5eb1dcdc3d936c",
+      "source": "assets/gfx/ui/battle/ui_scoreboard_loading_team.tscn"
+    },
+    {
+      "bytes": 5568,
+      "sha256": "2e739e86eeef2c0d51bbcdc9cba431fd6a1002eba0c4f6fa13b72246451e6ce8",
+      "source": "assets/gfx/ui/hangar/ui_battle_result_team.tscn"
+    },
+    {
+      "bytes": 3542,
+      "sha256": "b091662936282275a7a7c113977a0c4b4a5733a1fd5254ae97d61406b28ef68c",
+      "source": "assets/gfx/ui/hangar/ui_battle_result_team_player.tscn"
+    },
+    {
+      "bytes": 4278,
+      "sha256": "f070b3218628bdb5a324c30898d63f44e3615dd3d0d515d1b4a033d563f94f6d",
+      "source": "assets/gfx/ui/hangar/ui_reward_info.tscn"
+    },
+    {
+      "bytes": 45906,
+      "sha256": "85ea35e0daa095d7d6a2097a46a622512b154aaf4ff3b8816a6050bbcb9901a1",
+      "source": "scripts/_battle.gd"
+    },
+    {
+      "bytes": 3463,
+      "sha256": "8bfda626eab19c0030fe60a2c67b303515a85334a45c75dc99e4ed146c767c80",
+      "source": "scripts/battle_result_res.gd"
+    },
+    {
+      "bytes": 10689,
+      "sha256": "b1dd66bd038ac72e77cc839acc18b183b4872a6f8e7cf854b520f53c95acd3cc",
+      "source": "scripts/player.gd"
+    },
+    {
+      "bytes": 27622,
+      "sha256": "72dd42b782a95b793a8180ee95c36605a898b8606a023b41922f8a8fe800ba3a",
+      "source": "scripts/account.gd"
+    },
+    {
+      "bytes": 11245,
+      "sha256": "5751c07a531fe868c99e474285c15224b1f877be1345c35190169f7c46458e62",
+      "source": "scripts/_player_data.gd"
+    }
+  ],
+  "sheets": {
+    "flow_achievements": {
+      "bytes": 4080690,
+      "destination": "flow_achievements.png",
+      "destinationSha256": "efa414ef3c2a1ea5d09792910b954b7b1fe7385a700495930574dd02eb54c301",
+      "height": 2048,
+      "regions": {
+        "flow_reward_first_blood": {
+          "bytes": 298,
+          "rect": [
+            1,
+            1,
+            185,
+            183
+          ],
+          "sha256": "115843670eb424882c4bb6ffb967acfaefd64c2e9a919f312c6e0154dc516f20",
+          "source": "assets/gfx/ui/lobby_common/achievements/firstBlood.tres"
+        },
+        "flow_reward_first_victory": {
+          "bytes": 300,
+          "rect": [
+            896,
+            1,
+            154,
+            174
+          ],
+          "sha256": "7fa0a1352709449ffe65dd29368a81a053a0831a70598917f11776e661424dc3",
+          "source": "assets/gfx/ui/lobby_common/achievements/firstVictory.tres"
+        },
+        "flow_reward_warrior": {
+          "bytes": 302,
+          "rect": [
+            490,
+            487,
+            137,
+            161
+          ],
+          "sha256": "aca3d87e6febaa4185f83b6da44333d45aaa53d5d6010fa6e5b1addc9857da44",
+          "source": "assets/gfx/ui/lobby_common/achievements/warrior.tres"
+        }
+      },
+      "sha256": "efa414ef3c2a1ea5d09792910b954b7b1fe7385a700495930574dd02eb54c301",
+      "source": "assets/gfx/ui/lobby_common/achievements/achievements.png",
+      "width": 2048
+    },
+    "flow_battle_loading": {
+      "bytes": 440569,
+      "destination": "flow_battle_loading.png",
+      "destinationSha256": "f9194e6cb38750e3895f1d49995dd99e215ca2708c9536b3f64fc2240cad85f4",
+      "height": 2048,
+      "regions": {
+        "flow_intro_logo": {
+          "bytes": 288,
+          "rect": [
+            1380,
+            357,
+            158,
+            156
+          ],
+          "sha256": "8076f0f732ef71dfa0a1d287087e94bbc4eb2ffea2af1516b886b66a65841939",
+          "source": "assets/gfx/ui/battle/LogotypeIcons_02.tres"
+        },
+        "flow_intro_player": {
+          "bytes": 287,
+          "rect": [
+            926,
+            630,
+            872,
+            52
+          ],
+          "sha256": "a00e692def224d4f29af329a32e9cfdd31e52ecab5ac90fd9135dd657a401d07",
+          "source": "assets/gfx/ui/battle/YourTank.tres"
+        },
+        "flow_intro_table": {
+          "bytes": 284,
+          "rect": [
+            1,
+            1,
+            886,
+            627
+          ],
+          "sha256": "318cb20662d93ee3b7e85266e48b48a8b9e9ed08bb54d87a617bd2d61a143b16",
+          "source": "assets/gfx/ui/battle/TableBackground.tres"
+        }
+      },
+      "sha256": "f9194e6cb38750e3895f1d49995dd99e215ca2708c9536b3f64fc2240cad85f4",
+      "source": "assets/gfx/ui/battle/battleLoading_Out.png",
+      "width": 2048
+    },
+    "flow_battle_result": {
+      "bytes": 1514390,
+      "destination": "flow_battle_result.png",
+      "destinationSha256": "44df3b1680423a7a564bacbbb1a2157d8930c1feaa55028896d471e64186db0b",
+      "height": 1024,
+      "regions": {
+        "flow_result_divider": {
+          "bytes": 280,
+          "rect": [
+            479,
+            274,
+            30,
+            7
+          ],
+          "sha256": "4206a6a687611df0de024be1cf7f91203b27a5842efb5ec237bdbeef9683671d",
+          "source": "assets/gfx/ui/battle_result/bgTable.tres"
+        },
+        "flow_result_line": {
+          "bytes": 281,
+          "rect": [
+            786,
+            853,
+            952,
+            2
+          ],
+          "sha256": "2b58535e6246d66e2aa9d1a824c1e36fed3cff5da88fc95b2556ccf1a6d37e5f",
+          "source": "assets/gfx/ui/battle_result/TableLine.tres"
+        },
+        "flow_result_ribbon_left_draw": {
+          "bytes": 284,
+          "rect": [
+            786,
+            569,
+            1136,
+            140
+          ],
+          "sha256": "284be5ce92356ed92f616b42bf62ce0b015142dcfafb2e7b0f2c05b28244cb5b",
+          "source": "assets/gfx/ui/battle_result/bgMedalsRight_02.tres"
+        },
+        "flow_result_ribbon_left_lose": {
+          "bytes": 284,
+          "rect": [
+            786,
+            427,
+            1136,
+            140
+          ],
+          "sha256": "3489842e22c6107b15d62fabc9940128b9405cd10c349318c260028a223bdbde",
+          "source": "assets/gfx/ui/battle_result/bgMedalsRight.tres"
+        },
+        "flow_result_ribbon_left_win": {
+          "bytes": 284,
+          "rect": [
+            786,
+            711,
+            1136,
+            140
+          ],
+          "sha256": "616a65f499ace0f89a1122fb96844384010c94d9c9ed3e81f54e725f3c6d99e4",
+          "source": "assets/gfx/ui/battle_result/bgMedalsRight_03.tres"
+        },
+        "flow_result_ribbon_right_draw": {
+          "bytes": 283,
+          "rect": [
+            786,
+            143,
+            1136,
+            140
+          ],
+          "sha256": "f56ac4a01f0826c7ab95f9371d4a957c3cfc58100e196d6d90803391209b95fc",
+          "source": "assets/gfx/ui/battle_result/bgMedalsLeft_02.tres"
+        },
+        "flow_result_ribbon_right_lose": {
+          "bytes": 281,
+          "rect": [
+            786,
+            1,
+            1136,
+            140
+          ],
+          "sha256": "da0926fa07b7235a44f261130667a1475ce765b432b55d10d86382610a03002f",
+          "source": "assets/gfx/ui/battle_result/bgMedalsLeft.tres"
+        },
+        "flow_result_ribbon_right_win": {
+          "bytes": 284,
+          "rect": [
+            786,
+            285,
+            1136,
+            140
+          ],
+          "sha256": "610ccafed8393218f87c9b1e9109fc1c5d06a9edd05047718475b083346f67c0",
+          "source": "assets/gfx/ui/battle_result/bgMedalsLeft_03.tres"
+        },
+        "flow_result_stat_damage": {
+          "bytes": 280,
+          "rect": [
+            92,
+            959,
+            60,
+            46
+          ],
+          "sha256": "5ac84b50e55b54f981aaea53eace7b09bb554677d6b8db0b468fd37669298230",
+          "source": "assets/gfx/ui/battle_result/statIcon_03.tres"
+        },
+        "flow_result_stat_kills": {
+          "bytes": 281,
+          "rect": [
+            541,
+            218,
+            72,
+            56
+          ],
+          "sha256": "fdefe2079d9856b607a7cc320ada6c871311ed7e8668a936dd659c236c98a12e",
+          "source": "assets/gfx/ui/battle_result/statIcon_04.tres"
+        },
+        "flow_result_stat_player": {
+          "bytes": 280,
+          "rect": [
+            129,
+            711,
+            44,
+            42
+          ],
+          "sha256": "f0a8739a79792fd0bda849b4468b707dff0cc41992a6c582371d78c6eebccb02",
+          "source": "assets/gfx/ui/battle_result/statIcon.tres"
+        },
+        "flow_result_stat_tank": {
+          "bytes": 281,
+          "rect": [
+            370,
+            295,
+            72,
+            34
+          ],
+          "sha256": "6cd62d4f0c8b76159afe5a87fd1b37b0b42b99e06fb4b8d9c72cf737d05a6abe",
+          "source": "assets/gfx/ui/battle_result/statIcon_02.tres"
+        },
+        "flow_result_stat_xp": {
+          "bytes": 280,
+          "rect": [
+            117,
+            593,
+            48,
+            48
+          ],
+          "sha256": "77ff6e7ad1497671cc61b9a37654d56397fb5b8b031914309b80813d9b9743e2",
+          "source": "assets/gfx/ui/battle_result/statIcon_05.tres"
+        },
+        "flow_result_table": {
+          "bytes": 280,
+          "rect": [
+            444,
+            295,
+            40,
+            41
+          ],
+          "sha256": "8e240301adf8ed174019c7077bcc7580658855e8d5e848cea64059a719627c56",
+          "source": "assets/gfx/ui/battle_result/bgTable_02.tres"
+        },
+        "flow_result_tank_select": {
+          "bytes": 281,
+          "rect": [
+            745,
+            264,
+            24,
+            24
+          ],
+          "sha256": "3678e949e8bee6942535b6d0cc0fc2bcfd9990d14a27d27e0b92a70b85b2a841",
+          "source": "assets/gfx/ui/battle_result/tankSelect.tres"
+        },
+        "flow_result_white_line": {
+          "bytes": 280,
+          "rect": [
+            493,
+            283,
+            16,
+            2
+          ],
+          "sha256": "3820156956a000a1f460b57106b6e38350f548012cf1592a1c4785986ae4ca08",
+          "source": "assets/gfx/ui/battle_result/whiteramka.tres"
+        }
+      },
+      "sha256": "44df3b1680423a7a564bacbbb1a2157d8930c1feaa55028896d471e64186db0b",
+      "source": "assets/gfx/ui/battle_result/battleResult_atlas.png",
+      "width": 2048
+    },
+    "flow_common": {
+      "bytes": 278815,
+      "destination": "flow_common.png",
+      "destinationSha256": "d2c1b29b9ed5e0e91214a1f7429ef4586b213044844143b880f9cec921b005fc",
+      "height": 1024,
+      "regions": {
+        "flow_loading_spinner": {
+          "bytes": 282,
+          "rect": [
+            459,
+            189,
+            50,
+            51
+          ],
+          "sha256": "63ede010a5b883af950dd1a58302ed9cfba55a5921a945758ee9768cdaf3f9d2",
+          "source": "assets/gfx/ui/common/LoadingProcess.tres"
+        }
+      },
+      "sha256": "d2c1b29b9ed5e0e91214a1f7429ef4586b213044844143b880f9cec921b005fc",
+      "source": "assets/gfx/ui/common/commonUiElements_Out.png",
+      "width": 512
+    },
+    "flow_profile": {
+      "bytes": 222911,
+      "destination": "flow_profile.png",
+      "destinationSha256": "fda1cee4eaad351d645b1584d960439b27d200c33547b2a38b602e99e2d48756",
+      "height": 512,
+      "regions": {
+        "flow_result_medal_number": {
+          "bytes": 264,
+          "rect": [
+            817,
+            385,
+            50,
+            42
+          ],
+          "sha256": "b9ad164c240805c46d9aa3e882a1749a1626e1fc2be8da56f91388d397b7a8bd",
+          "source": "assets/gfx/ui/profile/Number.tres"
+        },
+        "flow_result_medal_series": {
+          "bytes": 265,
+          "rect": [
+            336,
+            463,
+            100,
+            47
+          ],
+          "sha256": "1405c0628e58f983242c5d2fdf8e2827326c3fd6d53212874c4505b740e0d9f0",
+          "source": "assets/gfx/ui/profile/SeriesCounter.tres"
+        },
+        "flow_result_menu_profile": {
+          "bytes": 264,
+          "rect": [
+            543,
+            409,
+            62,
+            66
+          ],
+          "sha256": "bea11940703d6c710c8d2d63477c9605bda64a29f6e7f8d5239efedbbe1523e6",
+          "source": "assets/gfx/ui/profile/tab-profile_04.tres"
+        }
+      },
+      "sha256": "fda1cee4eaad351d645b1584d960439b27d200c33547b2a38b602e99e2d48756",
+      "source": "assets/gfx/ui/profile/profile.png",
+      "width": 2048
+    },
+    "flow_queue_bg": {
+      "bytes": 1156410,
+      "destination": "flow_queue_bg.png",
+      "destinationSha256": "fd3bd2231fa65fa50818dcb6defe2949da7f78466e1fc3e78aae61b8d16a5203",
+      "height": 512,
+      "regions": {
+        "flow_queue_bg": {
+          "bytes": 260,
+          "rect": [
+            0,
+            0,
+            2047,
+            332
+          ],
+          "sha256": "53ee3faf1b2e8a996b72e7a26ac4e6085bf75aaaafb2a2137a3c37222dc12702",
+          "source": "assets/gfx/ui/queue/bg.tres"
+        }
+      },
+      "sha256": "fd3bd2231fa65fa50818dcb6defe2949da7f78466e1fc3e78aae61b8d16a5203",
+      "source": "assets/gfx/ui/queue/bg_Out.png",
+      "width": 2048
+    },
+    "flow_queue_screen": {
+      "bytes": 33650,
+      "destination": "flow_queue_screen.png",
+      "destinationSha256": "c3d727a3ed206de1df2abceb89ad1a189bad4fbf68c558375993ec19450e5624",
+      "height": 256,
+      "regions": {
+        "flow_queue_clock": {
+          "bytes": 268,
+          "rect": [
+            1,
+            215,
+            38,
+            38
+          ],
+          "sha256": "19b068d706ac32ce4124d5bf1245ddf6763cb9d1b804576cbfcf244a22a67cec",
+          "source": "assets/gfx/ui/queue/CounterIcons.tres"
+        },
+        "flow_queue_line": {
+          "bytes": 268,
+          "rect": [
+            1,
+            1,
+            1136,
+            72
+          ],
+          "sha256": "721a4444006d30afb060289170b4bb47daf7c1c08bbdb4569616aef56c6cfbcb",
+          "source": "assets/gfx/ui/queue/HorizontalLine.tres"
+        },
+        "flow_queue_pattern": {
+          "bytes": 271,
+          "rect": [
+            623,
+            75,
+            140,
+            140
+          ],
+          "sha256": "e76fe45a2cb3626e26b18d249e19387cc5d8bf9c05173652f2ee9148bb0227fc",
+          "source": "assets/gfx/ui/queue/BackgroundPattern.tres"
+        },
+        "flow_queue_players": {
+          "bytes": 268,
+          "rect": [
+            1,
+            175,
+            38,
+            38
+          ],
+          "sha256": "e8a32751c1cd3786b3bcbb9c692e14034b2390e7d606a29047adeec296bc0eca",
+          "source": "assets/gfx/ui/queue/CounterIcons_02.tres"
+        },
+        "flow_queue_yellow_line": {
+          "bytes": 268,
+          "rect": [
+            1,
+            171,
+            414,
+            2
+          ],
+          "sha256": "e6fdf758d9495ebcdf667e4fee47d8a7a284fa3981051043fab2a11bec410e48",
+          "source": "assets/gfx/ui/queue/HorizontalYellowLine.tres"
+        }
+      },
+      "sha256": "c3d727a3ed206de1df2abceb89ad1a189bad4fbf68c558375993ec19450e5624",
+      "source": "assets/gfx/ui/queue/queueScreen_Out.png",
+      "width": 2048
+    },
+    "flow_result_draw": {
+      "bytes": 450936,
+      "destination": "flow_result_draw.png",
+      "destinationSha256": "d1b3cc1b3b9e2c77be1568961b4ac0cc0106c4cfa49bde5d887092f7e43504be",
+      "height": 512,
+      "regions": {
+        "flow_result_draw_detail": {
+          "bytes": 271,
+          "rect": [
+            0,
+            262,
+            421,
+            226
+          ],
+          "sha256": "69a5efe7c08e46b71e1319500eba52a480ab0c6a8a190011a92965953766c1ce",
+          "source": "assets/gfx/ui/battle_result/bg/HeadBackgroundDraw.tres"
+        },
+        "flow_result_draw_top": {
+          "bytes": 270,
+          "rect": [
+            0,
+            0,
+            1024,
+            260
+          ],
+          "sha256": "483253083577b2727e9f94da997e3fcfb8adf08ccf1e3fc7ba79846198c5a68b",
+          "source": "assets/gfx/ui/battle_result/bg/HeadBackgroundDraw_02.tres"
+        }
+      },
+      "sha256": "83e3f21337a2fce615f084c4162bcd5912e34eef05764678fd78ee819552ebab",
+      "source": "assets/gfx/ui/battle_result/bg/draw.webp",
+      "width": 1024
+    },
+    "flow_result_lose": {
+      "bytes": 703174,
+      "destination": "flow_result_lose.png",
+      "destinationSha256": "b31bcdf0dd8f05ee53846c03c867de1ffa04c633116b1708cc6f7341cf2ad6f4",
+      "height": 1024,
+      "regions": {
+        "flow_result_lose_1": {
+          "bytes": 272,
+          "rect": [
+            0,
+            707,
+            1024,
+            167
+          ],
+          "sha256": "063d8c83f49a9cb32cd6d277220f3262114b35f845683b9c7f5a1c764ceaca1b",
+          "source": "assets/gfx/ui/battle_result/bg/HeadBackgroundDefeat1_07.tres"
+        },
+        "flow_result_lose_2": {
+          "bytes": 270,
+          "rect": [
+            0,
+            0,
+            1024,
+            260
+          ],
+          "sha256": "c3b45213adee2bd3da21919675c08116870934c5062d016a9056b11183ad971e",
+          "source": "assets/gfx/ui/battle_result/bg/HeadBackgroundDefeat1_06.tres"
+        },
+        "flow_result_lose_3": {
+          "bytes": 271,
+          "rect": [
+            1026,
+            0,
+            563,
+            138
+          ],
+          "sha256": "3a8c5f5bfeea29bcf938633f6a6a5216b30c53a1c9162c16842d5625c5c105de",
+          "source": "assets/gfx/ui/battle_result/bg/HeadBackgroundDefeat1_05.tres"
+        },
+        "flow_result_lose_4": {
+          "bytes": 271,
+          "rect": [
+            0,
+            262,
+            977,
+            260
+          ],
+          "sha256": "d6d7e4e28c940eb74a23c2e74e53d416825aef2a92bb1433ee65548b461a9ac4",
+          "source": "assets/gfx/ui/battle_result/bg/HeadBackgroundDefeat1_04.tres"
+        },
+        "flow_result_lose_5": {
+          "bytes": 272,
+          "rect": [
+            0,
+            524,
+            1024,
+            181
+          ],
+          "sha256": "6b7b7280d732c1befbc058def247a2527eae7a42c8c94fcaac48c6370b00ae38",
+          "source": "assets/gfx/ui/battle_result/bg/HeadBackgroundDefeat1_03.tres"
+        },
+        "flow_result_lose_6": {
+          "bytes": 274,
+          "rect": [
+            1026,
+            140,
+            331,
+            147
+          ],
+          "sha256": "6171c39135080ba664a62492ea3ff25dfc8aba7be708cae04ca12d77fac39a9f",
+          "source": "assets/gfx/ui/battle_result/bg/HeadBackgroundDefeat1_02.tres"
+        },
+        "flow_result_lose_7": {
+          "bytes": 272,
+          "rect": [
+            0,
+            876,
+            1024,
+            124
+          ],
+          "sha256": "e252b03d7ceb88c07f4b5aea79e122bf35c9fb6b187936ccc16bf8bc0473d5c9",
+          "source": "assets/gfx/ui/battle_result/bg/HeadBackgroundDefeat1.tres"
+        }
+      },
+      "sha256": "d1f0f60bd3e386c107bb36f76e55df185bc50057618f4aae11a357a9f42d131c",
+      "source": "assets/gfx/ui/battle_result/bg/lose.webp",
+      "width": 2048
+    },
+    "flow_result_win": {
+      "bytes": 614218,
+      "destination": "flow_result_win.png",
+      "destinationSha256": "7e31bc1bd489783c5a2e077cac3e9cb5449afc69f8af1a2cadbbc9d515096280",
+      "height": 1024,
+      "regions": {
+        "flow_result_win_bottom": {
+          "bytes": 271,
+          "rect": [
+            0,
+            262,
+            1024,
+            260
+          ],
+          "sha256": "a17923b96daf9296487b868e2d752cfe5a49295235312e9197adc065ccd4689a",
+          "source": "assets/gfx/ui/battle_result/bg/HeadBackgroundVictory_02.tres"
+        },
+        "flow_result_win_top": {
+          "bytes": 267,
+          "rect": [
+            0,
+            0,
+            1024,
+            260
+          ],
+          "sha256": "e5083b6e7f6602c96d014bccdaf519d579253b2151402fc3ef84c5face654c19",
+          "source": "assets/gfx/ui/battle_result/bg/HeadBackgroundVictory_03.tres"
+        }
+      },
+      "sha256": "61c12165cafb3ea7237441f329d36b4e8a4db48431122b8a2e68b7be80a00f34",
+      "source": "assets/gfx/ui/battle_result/bg/win.webp",
+      "width": 1024
+    },
+    "flow_small_tanks": {
+      "bytes": 213094,
+      "destination": "flow_small_tanks.png",
+      "destinationSha256": "d10c007d4849a4631b1f276f6a6b6d8b15b8f730aacc70547e63789eee3b5cc8",
+      "height": 512,
+      "regions": {
+        "flow_tank_ms1_small": {
+          "bytes": 293,
+          "rect": [
+            1934,
+            63,
+            50,
+            27
+          ],
+          "sha256": "531fed53d2103e6bb70e520433109648b59e9191f2df89421ade181d35236249",
+          "source": "assets/tanks/icons_small/ussr-MS-1.tres"
+        }
+      },
+      "sha256": "7b339318c3671432eeec6022f831e2088261e1e9186e23f56297ba1e1de22f9c",
+      "source": "assets/tanks/icons_small/icons_small_2.6_Out.webp",
+      "width": 2048
+    },
+    "result_elite": {
+      "bytes": 283,
+      "rect": [
+        529,
+        1959,
+        92,
+        85
+      ],
+      "sha256": "1f6b1a3a34867356d8fa76a28b5297688810686c4dbc37beb7394fbab4741ec9",
+      "source": "assets/gfx/ui/lobby_common/TankTypesBig.tres",
+      "texture": "lobbyCommon_Out"
+    },
+    "result_elite_prem": {
+      "bytes": 284,
+      "rect": [
+        357,
+        1959,
+        92,
+        85
+      ],
+      "sha256": "6cec48af4e2e60d47599f308a625fb2576397bd701b133a32525f30b19d0654d",
+      "source": "assets/gfx/ui/lobby_common/TankTypesBig06.tres",
+      "texture": "lobbyCommon_Out"
+    },
+    "result_menu_home": {
+      "bytes": 283,
+      "rect": [
+        928,
+        1874,
+        78,
+        66
+      ],
+      "sha256": "69f8e0695bc92dc69d2736929585532a6434264ce12cea19256abfc927712dc8",
+      "source": "assets/gfx/ui/lobby_common/IconsSmall031.tres",
+      "texture": "lobbyCommon_Out"
+    }
+  }
+}

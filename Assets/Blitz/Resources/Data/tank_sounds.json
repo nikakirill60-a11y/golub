@@ -1,0 +1,2720 @@
+{
+ "crew": {
+  "ally_killed": {
+   "streams": [
+    "ui/crew/ally_killed_by_player_01",
+    "ui/crew/ally_killed_by_player_02"
+   ],
+   "volume": 1.0
+  },
+  "armor_not_hit": {
+   "streams": [
+    "ui/crew/armor_pierced_crit_by_player_01",
+    "ui/crew/armor_pierced_crit_by_player_02",
+    "ui/crew/armor_pierced_crit_by_player_03",
+    "ui/crew/armor_pierced_crit_by_player_04",
+    "ui/crew/armor_pierced_crit_by_player_05",
+    "ui/crew/armor_pierced_crit_by_player_06",
+    "ui/crew/armor_pierced_crit_by_player_07",
+    "ui/crew/armor_pierced_crit_by_player_08",
+    "ui/crew/armor_pierced_crit_by_player_09"
+   ],
+   "volume": 1.0
+  },
+  "armor_not_pierce": {
+   "streams": [
+    "ui/crew/armor_not_pierced_by_player_01",
+    "ui/crew/armor_not_pierced_by_player_02",
+    "ui/crew/armor_not_pierced_by_player_03",
+    "ui/crew/armor_not_pierced_by_player_04",
+    "ui/crew/armor_not_pierced_by_player_05"
+   ],
+   "volume": 1.0
+  },
+  "armor_pierced": {
+   "streams": [
+    "ui/crew/armor_pierced_by_player_01",
+    "ui/crew/armor_pierced_by_player_02",
+    "ui/crew/armor_pierced_by_player_03",
+    "ui/crew/armor_pierced_by_player_04",
+    "ui/crew/armor_pierced_by_player_05",
+    "ui/crew/armor_pierced_by_player_06",
+    "ui/crew/armor_pierced_by_player_07",
+    "ui/crew/armor_pierced_by_player_08",
+    "ui/crew/armor_pierced_by_player_09",
+    "ui/crew/armor_pierced_by_player_10",
+    "ui/crew/armor_pierced_by_player_11",
+    "ui/crew/armor_pierced_by_player_12"
+   ],
+   "volume": 1.0
+  },
+  "battle_start": {
+   "streams": [
+    "ui/crew/start_battle_01",
+    "ui/crew/start_battle_02",
+    "ui/crew/start_battle_03",
+    "ui/crew/start_battle_04",
+    "ui/crew/start_battle_05",
+    "ui/crew/start_battle_06",
+    "ui/crew/start_battle_07",
+    "ui/crew/start_battle_08"
+   ],
+   "volume": 1.0
+  },
+  "enemy_ignited": {
+   "streams": [
+    "ui/crew/enemy_fire_started_by_player_01",
+    "ui/crew/enemy_fire_started_by_player_02",
+    "ui/crew/enemy_fire_started_by_player_03",
+    "ui/crew/enemy_fire_started_by_player_04"
+   ],
+   "volume": 1.0
+  },
+  "enemy_killed": {
+   "streams": [
+    "ui/crew/enemy_killed_by_player_01",
+    "ui/crew/enemy_killed_by_player_02",
+    "ui/crew/enemy_killed_by_player_03",
+    "ui/crew/enemy_killed_by_player_04",
+    "ui/crew/enemy_killed_by_player_05",
+    "ui/crew/enemy_killed_by_player_06",
+    "ui/crew/enemy_killed_by_player_07",
+    "ui/crew/enemy_killed_by_player_08",
+    "ui/crew/enemy_killed_by_player_09"
+   ],
+   "volume": 1.0
+  },
+  "fire_started": {
+   "streams": [
+    "ui/crew/fire_started_01",
+    "ui/crew/fire_started_02"
+   ],
+   "volume": 1.0
+  },
+  "fire_stopped": {
+   "streams": [
+    "ui/crew/fire_started_01",
+    "ui/crew/fire_started_02"
+   ],
+   "volume": 1.0
+  },
+  "module_ammo_bay_crit": {
+   "streams": [
+    "ui/crew/ammo_bay_damaged_01",
+    "ui/crew/ammo_bay_damaged_02",
+    "ui/crew/ammo_bay_damaged_03"
+   ],
+   "volume": 1.0
+  },
+  "module_track_crit": {
+   "streams": [
+    "ui/crew/track_damaged_01",
+    "ui/crew/track_damaged_02",
+    "ui/crew/track_damaged_03",
+    "ui/crew/track_damaged_04"
+   ],
+   "volume": 1.0
+  },
+  "module_track_destroyed": {
+   "streams": [
+    "ui/crew/track_destroyed_01",
+    "ui/crew/track_destroyed_02",
+    "ui/crew/track_destroyed_03",
+    "ui/crew/track_destroyed_04"
+   ],
+   "volume": 1.0
+  },
+  "module_track_fixed": {
+   "streams": [
+    "ui/crew/track_functional_01",
+    "ui/crew/track_functional_02",
+    "ui/crew/track_functional_03",
+    "ui/crew/track_functional_04"
+   ],
+   "volume": 1.0
+  },
+  "ricoshet": {
+   "streams": [
+    "ui/crew/armor_ricochet_by_player_01",
+    "ui/crew/armor_ricochet_by_player_02",
+    "ui/crew/armor_ricochet_by_player_03",
+    "ui/crew/armor_ricochet_by_player_04",
+    "ui/crew/armor_ricochet_by_player_05",
+    "ui/crew/armor_ricochet_by_player_06",
+    "ui/crew/armor_ricochet_by_player_07"
+   ],
+   "volume": 1.0
+  },
+  "tank_destroyed": {
+   "streams": [
+    "ui/crew/vehicle_destroyed_01",
+    "ui/crew/vehicle_destroyed_02",
+    "ui/crew/vehicle_destroyed_03"
+   ],
+   "volume": 1.0
+  }
+ },
+ "engines": {
+  "de_ht": {
+   "accel": {
+    "streams": [
+     "tanks/engine/de/ht/pz4_accel_01",
+     "tanks/engine/de/ht/pz4_accel_02",
+     "tanks/engine/de/ht/pz4_accel_03",
+     "tanks/engine/de/ht/pz4_accel_04",
+     "tanks/engine/de/ht/pz4_accel_05",
+     "tanks/engine/de/ht/pz4_accel_06",
+     "tanks/engine/de/ht/pz4_accel_07"
+    ],
+    "volume": 1.1
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/de/ht/pz4_deccel_01",
+     "tanks/engine/de/ht/pz4_deccel_02",
+     "tanks/engine/de/ht/pz4_deccel_03",
+     "tanks/engine/de/ht/pz4_deccel_04",
+     "tanks/engine/de/ht/pz4_deccel_05"
+    ],
+    "volume": 0.9
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/de/ht/pz4_highrpm_01",
+     "tanks/engine/de/ht/pz4_highrpm_02",
+     "tanks/engine/de/ht/pz4_highrpm_03",
+     "tanks/engine/de/ht/pz4_highrpm_04"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/de/ht/pz4_idle_01",
+     "tanks/engine/de/ht/pz4_idle_02",
+     "tanks/engine/de/ht/pz4_idle_03",
+     "tanks/engine/de/ht/pz4_idle_04"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/de/ht/pz4_lowrpm_01",
+     "tanks/engine/de/ht/pz4_lowrpm_02",
+     "tanks/engine/de/ht/pz4_lowrpm_03",
+     "tanks/engine/de/ht/pz4_lowrpm_04",
+     "tanks/engine/de/ht/pz4_lowrpm_05"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/de/ht/pz4_highrpm_01",
+     "tanks/engine/de/ht/pz4_highrpm_02",
+     "tanks/engine/de/ht/pz4_highrpm_03",
+     "tanks/engine/de/ht/pz4_highrpm_04"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/de/ht/pz4_start_01"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/de/ht/pz4_stop_01"
+    ],
+    "volume": 1.0
+   }
+  },
+  "de_lt": {
+   "accel": {
+    "streams": [
+     "tanks/engine/de/lt/pz4_accel_long_01",
+     "tanks/engine/de/lt/pz4_accel_long_02",
+     "tanks/engine/de/lt/pz4_accel_short_02"
+    ],
+    "volume": 1.1
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/de/lt/pz4_deccel_short_01",
+     "tanks/engine/de/lt/pz4_deccel_short_02"
+    ],
+    "volume": 0.9
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/de/lt/pz4_highrpm_01"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/de/lt/pz4_idle_02"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/de/lt/pz4_lowrpm_01",
+     "tanks/engine/de/lt/pz4_lowrpm_02"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/de/lt/pz4_midrpm_01",
+     "tanks/engine/de/lt/pz4_midrpm_02"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/de/lt/pz4_start"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/de/lt/pz4_stop"
+    ],
+    "volume": 1.0
+   }
+  },
+  "de_mt": {
+   "accel": {
+    "streams": [
+     "tanks/engine/de/mt/lt38_accel_short_04"
+    ],
+    "volume": 1.1
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/de/mt/lt38_deccel_short_01"
+    ],
+    "volume": 0.9
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/de/mt/lt38_mid_rpm_loop_02"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/de/mt/lt38_idle_loop_01"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/de/mt/lt38_low_rpm_loop_01"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/de/mt/lt38_mid_rpm_loop_02"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/de/mt/lt38_start"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/de/mt/lt38_stop"
+    ],
+    "volume": 1.0
+   }
+  },
+  "de_traktor": {
+   "accel": {
+    "streams": [
+     "tanks/engine/de/traktor/hetzer_accel_01",
+     "tanks/engine/de/traktor/hetzer_accel_02",
+     "tanks/engine/de/traktor/hetzer_accel_03",
+     "tanks/engine/de/traktor/hetzer_accel_04"
+    ],
+    "volume": 1.1
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/de/traktor/hetzer_deccel_01",
+     "tanks/engine/de/traktor/hetzer_deccel_02",
+     "tanks/engine/de/traktor/hetzer_deccel_03",
+     "tanks/engine/de/traktor/hetzer_deccel_04",
+     "tanks/engine/de/traktor/hetzer_deccel_05"
+    ],
+    "volume": 0.9
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/de/traktor/hetzer_highrpm_01",
+     "tanks/engine/de/traktor/hetzer_highrpm_02"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/de/traktor/hetzer_idle_01",
+     "tanks/engine/de/traktor/hetzer_idle_03"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/de/traktor/hetzer_lowrpm_01",
+     "tanks/engine/de/traktor/hetzer_lowrpm_02",
+     "tanks/engine/de/traktor/hetzer_lowrpm_03"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/de/traktor/hetzer_highrpm_01",
+     "tanks/engine/de/traktor/hetzer_highrpm_02"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/de/traktor/hetzer_start_01",
+     "tanks/engine/de/traktor/hetzer_start_02"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/de/traktor/hetzer_stop_01"
+    ],
+    "volume": 1.0
+   }
+  },
+  "uk_ht": {
+   "accel": {
+    "streams": [
+     "tanks/engine/uk/ht/m60a3_accel_01",
+     "tanks/engine/uk/ht/m60a3_accel_02",
+     "tanks/engine/uk/ht/m60a3_accel_03",
+     "tanks/engine/uk/ht/m60a3_accel_04",
+     "tanks/engine/uk/ht/m60a3_accel_05",
+     "tanks/engine/uk/ht/m60a3_accel_06"
+    ],
+    "volume": 1.1
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/uk/ht/m60a3_deccel_01",
+     "tanks/engine/uk/ht/m60a3_deccel_02",
+     "tanks/engine/uk/ht/m60a3_deccel_03",
+     "tanks/engine/uk/ht/m60a3_deccel_04",
+     "tanks/engine/uk/ht/m60a3_deccel_05",
+     "tanks/engine/uk/ht/m60a3_deccel_06",
+     "tanks/engine/uk/ht/m60a3_deccel_07"
+    ],
+    "volume": 0.9
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/uk/ht/m60a3_midrpm_01",
+     "tanks/engine/uk/ht/m60a3_midrpm_02",
+     "tanks/engine/uk/ht/m60a3_midrpm_03",
+     "tanks/engine/uk/ht/m60a3_midrpm_04"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/uk/ht/m60a3_idle_01",
+     "tanks/engine/uk/ht/m60a3_idle_02"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/uk/ht/m60a3_lowrpm_01",
+     "tanks/engine/uk/ht/m60a3_lowrpm_02",
+     "tanks/engine/uk/ht/m60a3_lowrpm_03",
+     "tanks/engine/uk/ht/m60a3_lowrpm_04"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/uk/ht/m60a3_midrpm_01",
+     "tanks/engine/uk/ht/m60a3_midrpm_02",
+     "tanks/engine/uk/ht/m60a3_midrpm_03",
+     "tanks/engine/uk/ht/m60a3_midrpm_04"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/uk/ht/m60a3_start_01",
+     "tanks/engine/uk/ht/m60a3_start_02"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/uk/ht/m60a3_stop_01"
+    ],
+    "volume": 1.0
+   }
+  },
+  "uk_lt": {
+   "accel": {
+    "streams": [
+     "tanks/engine/uk/mt/valen_accel_01",
+     "tanks/engine/uk/mt/valen_accel_02",
+     "tanks/engine/uk/mt/valen_accel_03",
+     "tanks/engine/uk/mt/valen_accel_04",
+     "tanks/engine/uk/mt/valen_accel_05",
+     "tanks/engine/uk/mt/valen_accel_06",
+     "tanks/engine/uk/mt/valen_accel_08"
+    ],
+    "volume": 1.1
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/uk/mt/valen_deccel_01",
+     "tanks/engine/uk/mt/valen_deccel_02",
+     "tanks/engine/uk/mt/valen_deccel_03",
+     "tanks/engine/uk/mt/valen_deccel_04",
+     "tanks/engine/uk/mt/valen_deccel_05",
+     "tanks/engine/uk/mt/valen_deccel_06",
+     "tanks/engine/uk/mt/valen_deccel_07",
+     "tanks/engine/uk/mt/valen_deccel_08"
+    ],
+    "volume": 0.9
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/uk/mt/valen_midrpm_02",
+     "tanks/engine/uk/mt/valen_midrpm_03",
+     "tanks/engine/uk/mt/valen_midrpm_04",
+     "tanks/engine/uk/mt/valen_midrpm_05"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/uk/mt/valen_idle_01",
+     "tanks/engine/uk/mt/valen_idle_02",
+     "tanks/engine/uk/mt/valen_idle_03"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/uk/mt/valen_lowrpm_01",
+     "tanks/engine/uk/mt/valen_lowrpm_02",
+     "tanks/engine/uk/mt/valen_lowrpm_06"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/uk/mt/valen_midrpm_02",
+     "tanks/engine/uk/mt/valen_midrpm_03",
+     "tanks/engine/uk/mt/valen_midrpm_04",
+     "tanks/engine/uk/mt/valen_midrpm_05"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/uk/mt/valen_start_01",
+     "tanks/engine/uk/mt/valen_start_02"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/uk/mt/valen_stop_01"
+    ],
+    "volume": 1.0
+   },
+   "turning": {
+    "streams": [
+     "tanks/engine/uk/lt/m3a1_highrpm_01",
+     "tanks/engine/uk/lt/m3a1_highrpm_03"
+    ],
+    "volume": 1.0
+   }
+  },
+  "uk_mt": {
+   "accel": {
+    "streams": [
+     "tanks/engine/uk/mt/valen_accel_01",
+     "tanks/engine/uk/mt/valen_accel_02",
+     "tanks/engine/uk/mt/valen_accel_03",
+     "tanks/engine/uk/mt/valen_accel_04",
+     "tanks/engine/uk/mt/valen_accel_05",
+     "tanks/engine/uk/mt/valen_accel_06",
+     "tanks/engine/uk/mt/valen_accel_08",
+     "tanks/engine/uk/lt/m3a1_accel_01",
+     "tanks/engine/uk/lt/m3a1_accel_03",
+     "tanks/engine/uk/lt/m3a1_accel_04",
+     "tanks/engine/uk/lt/m3a1_accel_05",
+     "tanks/engine/uk/lt/m3a1_accel_06",
+     "tanks/engine/uk/lt/m3a1_accel_07",
+     "tanks/engine/uk/lt/m3a1_accel_08",
+     "tanks/engine/uk/lt/m3a1_accel_11",
+     "tanks/engine/uk/lt/m3a1_accel_12",
+     "tanks/engine/uk/lt/m3a1_accel_13",
+     "tanks/engine/uk/lt/m3a1_accel_14",
+     "tanks/engine/uk/lt/m3a1_accel_15"
+    ],
+    "volume": 1.1
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/uk/lt/m3a1_deccel_01",
+     "tanks/engine/uk/lt/m3a1_deccel_02",
+     "tanks/engine/uk/lt/m3a1_deccel_04",
+     "tanks/engine/uk/lt/m3a1_deccel_05",
+     "tanks/engine/uk/lt/m3a1_deccel_07",
+     "tanks/engine/uk/lt/m3a1_deccel_10",
+     "tanks/engine/uk/lt/m3a1_deccel_12",
+     "tanks/engine/uk/lt/m3a1_deccel_19",
+     "tanks/engine/uk/lt/m3a1_deccel_20"
+    ],
+    "volume": 0.9
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/uk/lt/m3a1_highrpm_01",
+     "tanks/engine/uk/lt/m3a1_highrpm_03"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/uk/lt/m3a1_idle_01",
+     "tanks/engine/uk/lt/m3a1_idle_04"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/uk/lt/m3a1_lowrpm_07",
+     "tanks/engine/uk/lt/m3a1_lowrpm_12",
+     "tanks/engine/uk/lt/m3a1_lowrpm_14"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/uk/lt/m3a1_highrpm_01",
+     "tanks/engine/uk/lt/m3a1_highrpm_03"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/uk/lt/m3a1_start_01",
+     "tanks/engine/uk/lt/m3a1_start_02"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/uk/lt/m3a1_stop_01"
+    ],
+    "volume": 1.0
+   }
+  },
+  "uk_traktor": {
+   "accel": {
+    "streams": [
+     "tanks/engine/uk/traktor/m5_accel_01",
+     "tanks/engine/uk/traktor/m5_accel_04"
+    ],
+    "volume": 1.0
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/uk/traktor/m5_deccel_01",
+     "tanks/engine/uk/traktor/m5_deccel_04",
+     "tanks/engine/uk/traktor/m5_deccel_05"
+    ],
+    "volume": 1.0
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/uk/traktor/m5_highrpm_01",
+     "tanks/engine/uk/traktor/m5_highrpm_02",
+     "tanks/engine/uk/traktor/m5_highrpm_04"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/uk/traktor/m5_idle_02",
+     "tanks/engine/uk/traktor/m5_idle_03",
+     "tanks/engine/uk/traktor/m5_idle_04"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/uk/traktor/m5_lowrpm_01"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/uk/traktor/m5_highrpm_01",
+     "tanks/engine/uk/traktor/m5_highrpm_02",
+     "tanks/engine/uk/traktor/m5_highrpm_04"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/uk/traktor/m5_start_01"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/uk/traktor/m5_stop_01"
+    ],
+    "volume": 1.0
+   }
+  },
+  "usa_ht": {
+   "accel": {
+    "streams": [
+     "tanks/engine/usa/ht/jackson_accel_01",
+     "tanks/engine/usa/ht/jackson_accel_02",
+     "tanks/engine/usa/ht/jackson_accel_03",
+     "tanks/engine/usa/ht/jackson_accel_04",
+     "tanks/engine/usa/ht/jackson_accel_05"
+    ],
+    "volume": 1.0
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/usa/ht/jackson_deccel_01",
+     "tanks/engine/usa/ht/jackson_deccel_02",
+     "tanks/engine/usa/ht/jackson_deccel_03",
+     "tanks/engine/usa/ht/jackson_deccel_04"
+    ],
+    "volume": 1.0
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/usa/ht/jackson_highrpm_01",
+     "tanks/engine/usa/ht/jackson_highrpm_02",
+     "tanks/engine/usa/ht/jackson_highrpm_03"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/usa/ht/jackson_idle_02",
+     "tanks/engine/usa/ht/jackson_idle_04"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/usa/ht/jackson_lowrpm_01",
+     "tanks/engine/usa/ht/jackson_lowrpm_02"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/usa/ht/jackson_midrpm_01",
+     "tanks/engine/usa/ht/jackson_midrpm_02",
+     "tanks/engine/usa/ht/jackson_midrpm_03",
+     "tanks/engine/usa/ht/jackson_midrpm_04",
+     "tanks/engine/usa/ht/jackson_midrpm_05"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/usa/ht/jackson_start_03"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/usa/ht/jackson_stop_01",
+     "tanks/engine/usa/ht/jackson_stop_02",
+     "tanks/engine/usa/ht/jackson_stop_03"
+    ],
+    "volume": 1.0
+   },
+   "turning": {
+    "streams": [
+     "tanks/engine/usa/ht/jackson_highrpm_01",
+     "tanks/engine/usa/ht/jackson_highrpm_02",
+     "tanks/engine/usa/ht/jackson_highrpm_03"
+    ],
+    "volume": 1.0
+   }
+  },
+  "usa_lt": {
+   "accel": {
+    "streams": [
+     "tanks/engine/usa/lt/sherman_accel_long_01",
+     "tanks/engine/usa/lt/sherman_accel_long_05",
+     "tanks/engine/usa/lt/sherman_accel_long_06",
+     "tanks/engine/usa/lt/sherman_accel_long_07",
+     "tanks/engine/usa/lt/sherman_accel_long_08",
+     "tanks/engine/usa/lt/sherman_accel_short_01",
+     "tanks/engine/usa/lt/sherman_accel_short_04"
+    ],
+    "volume": 1.0
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/usa/lt/sherman_deccel_long_04",
+     "tanks/engine/usa/lt/sherman_deccel_short_01",
+     "tanks/engine/usa/lt/sherman_deccel_short_02"
+    ],
+    "volume": 1.0
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/usa/lt/sherman_high_rpm_loop_02"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/usa/lt/sherman_idle_01",
+     "tanks/engine/usa/lt/sherman_idle_02"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/usa/lt/sherman_low_rpm_loop_03",
+     "tanks/engine/usa/lt/sherman_low_rpm_loop_04"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/usa/lt/sherman_mid_rpm_loop_01",
+     "tanks/engine/usa/lt/sherman_mid_rpm_loop_03"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/usa/lt/sherman_start_01"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/usa/lt/sherman_stop_02"
+    ],
+    "volume": 1.0
+   },
+   "turning": {
+    "streams": [
+     "tanks/engine/usa/lt/sherman_high_rpm_loop_02"
+    ],
+    "volume": 1.0
+   }
+  },
+  "usa_mt": {
+   "accel": {
+    "streams": [
+     "tanks/engine/usa/mt/m4a1_accel_01",
+     "tanks/engine/usa/mt/m4a1_accel_02",
+     "tanks/engine/usa/mt/m4a1_accel_03",
+     "tanks/engine/usa/mt/m4a1_accel_04",
+     "tanks/engine/usa/mt/m4a1_accel_05"
+    ],
+    "volume": 1.0
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/usa/mt/m4a1_deccel_01",
+     "tanks/engine/usa/mt/m4a1_deccel_02",
+     "tanks/engine/usa/mt/m4a1_deccel_03",
+     "tanks/engine/usa/mt/m4a1_deccel_04"
+    ],
+    "volume": 1.0
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/usa/mt/m4a1_highrpm_01",
+     "tanks/engine/usa/mt/m4a1_highrpm_02",
+     "tanks/engine/usa/mt/m4a1_highrpm_03"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/usa/mt/m4a1_idle_01",
+     "tanks/engine/usa/mt/m4a1_idle_02",
+     "tanks/engine/usa/mt/m4a1_idle_03",
+     "tanks/engine/usa/mt/m4a1_idle_04",
+     "tanks/engine/usa/mt/m4a1_idle_05"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/usa/mt/m4a1_lowrpm_01",
+     "tanks/engine/usa/mt/m4a1_lowrpm_02",
+     "tanks/engine/usa/mt/m4a1_lowrpm_03",
+     "tanks/engine/usa/mt/m4a1_lowrpm_04"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/usa/mt/m4a1_midrpm_01",
+     "tanks/engine/usa/mt/m4a1_midrpm_02",
+     "tanks/engine/usa/mt/m4a1_midrpm_03",
+     "tanks/engine/usa/mt/m4a1_midrpm_04",
+     "tanks/engine/usa/mt/m4a1_midrpm_05"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/usa/mt/m4a1_start_01",
+     "tanks/engine/usa/mt/m4a1_start_02"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/usa/mt/m4a1_stop_01",
+     "tanks/engine/usa/mt/m4a1_stop_02"
+    ],
+    "volume": 1.0
+   },
+   "turning": {
+    "streams": [
+     "tanks/engine/usa/mt/m4a1_highrpm_01",
+     "tanks/engine/usa/mt/m4a1_highrpm_02",
+     "tanks/engine/usa/mt/m4a1_highrpm_03"
+    ],
+    "volume": 1.0
+   }
+  },
+  "usa_traktor": {
+   "accel": {
+    "streams": [
+     "tanks/engine/usa/traktor/priest_accel_01",
+     "tanks/engine/usa/traktor/priest_accel_02",
+     "tanks/engine/usa/traktor/priest_accel_03",
+     "tanks/engine/usa/traktor/priest_accel_04",
+     "tanks/engine/usa/traktor/priest_accel_05"
+    ],
+    "volume": 1.0
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/usa/traktor/priest_deccel_01",
+     "tanks/engine/usa/traktor/priest_deccel_02",
+     "tanks/engine/usa/traktor/priest_deccel_03",
+     "tanks/engine/usa/traktor/priest_deccel_04",
+     "tanks/engine/usa/traktor/priest_deccel_05"
+    ],
+    "volume": 1.0
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/usa/traktor/priest_highrpm_03"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/usa/traktor/priest_idle_01",
+     "tanks/engine/usa/traktor/priest_idle_02",
+     "tanks/engine/usa/traktor/priest_idle_03"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/usa/traktor/priest_lowrpm_01"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/usa/traktor/priest_midrpm_01",
+     "tanks/engine/usa/traktor/priest_midrpm_02"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/usa/traktor/priest_start_01"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/usa/traktor/priest_stop_01"
+    ],
+    "volume": 1.0
+   },
+   "turning": {
+    "streams": [
+     "tanks/engine/usa/traktor/priest_highrpm_03"
+    ],
+    "volume": 1.0
+   }
+  },
+  "ussr_ht": {
+   "accel": {
+    "streams": [
+     "tanks/engine/ussr/ht/kv85_accel_01",
+     "tanks/engine/ussr/ht/kv85_accel_02",
+     "tanks/engine/ussr/ht/kv85_accel_03",
+     "tanks/engine/ussr/ht/kv85_accel_04",
+     "tanks/engine/ussr/ht/kv85_accel_05",
+     "tanks/engine/ussr/ht/kv85_accel_06"
+    ],
+    "volume": 1.0
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/ussr/ht/kv85_deccel_01",
+     "tanks/engine/ussr/ht/kv85_deccel_02",
+     "tanks/engine/ussr/ht/kv85_deccel_03",
+     "tanks/engine/ussr/ht/kv85_deccel_04"
+    ],
+    "volume": 1.0
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/ussr/ht/kv85_highrpm_01",
+     "tanks/engine/ussr/ht/kv85_highrpm_04"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/ussr/ht/kv85_idle_01",
+     "tanks/engine/ussr/ht/kv85_idle_02",
+     "tanks/engine/ussr/ht/kv85_idle_03"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/ussr/ht/kv85_lowrpm_01",
+     "tanks/engine/ussr/ht/kv85_lowrpm_02",
+     "tanks/engine/ussr/ht/kv85_lowrpm_03"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/ussr/ht/kv85_midrpm_01",
+     "tanks/engine/ussr/ht/kv85_midrpm_02",
+     "tanks/engine/ussr/ht/kv85_midrpm_03"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/ussr/ht/kv85_start_01"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/ussr/ht/kv85_stop_01"
+    ],
+    "volume": 1.0
+   },
+   "turning": {
+    "streams": [
+     "tanks/engine/ussr/ht/kv85_highrpm_01",
+     "tanks/engine/ussr/ht/kv85_highrpm_04"
+    ],
+    "volume": 1.0
+   }
+  },
+  "ussr_lt": {
+   "accel": {
+    "streams": [
+     "tanks/engine/ussr/lt/bt7_accel_01",
+     "tanks/engine/ussr/lt/bt7_accel_02",
+     "tanks/engine/ussr/lt/bt7_accel_03"
+    ],
+    "volume": 1.0
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/ussr/lt/bt7_deccel_01",
+     "tanks/engine/ussr/lt/bt7_deccel_02",
+     "tanks/engine/ussr/lt/bt7_deccel_03"
+    ],
+    "volume": 1.0
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/ussr/lt/bt7_highrpm_01",
+     "tanks/engine/ussr/lt/bt7_highrpm_02"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/ussr/lt/bt7_idle_02"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/ussr/lt/bt7_lowrpm_01",
+     "tanks/engine/ussr/lt/bt7_lowrpm_02"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/ussr/lt/bt7_midrpm_01",
+     "tanks/engine/ussr/lt/bt7_midrpm_02",
+     "tanks/engine/ussr/lt/bt7_midrpm_03",
+     "tanks/engine/ussr/lt/bt7_midrpm_04"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/ussr/lt/bt7_start_01"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/ussr/lt/bt7_stop_01"
+    ],
+    "volume": 1.0
+   },
+   "turning": {
+    "streams": [
+     "tanks/engine/ussr/lt/bt7_highrpm_01",
+     "tanks/engine/ussr/lt/bt7_highrpm_02"
+    ],
+    "volume": 1.0
+   }
+  },
+  "ussr_mt": {
+   "accel": {
+    "streams": [
+     "tanks/engine/ussr/mt/accel_long_01",
+     "tanks/engine/ussr/mt/accel_long_02",
+     "tanks/engine/ussr/mt/accel_short_01",
+     "tanks/engine/ussr/mt/accel_short_02",
+     "tanks/engine/ussr/mt/accel_short_03",
+     "tanks/engine/ussr/mt/accel_short_04",
+     "tanks/engine/ussr/mt/accel_short_05",
+     "tanks/engine/ussr/mt/accel_short_06",
+     "tanks/engine/ussr/mt/accel_short_07",
+     "tanks/engine/ussr/mt/accel_short_08",
+     "tanks/engine/ussr/mt/accel_short_09",
+     "tanks/engine/ussr/mt/accel_short_10",
+     "tanks/engine/ussr/mt/accel_short_11",
+     "tanks/engine/ussr/mt/accel_short_12",
+     "tanks/engine/ussr/mt/accel_short_13",
+     "tanks/engine/ussr/mt/accel_short_14"
+    ],
+    "volume": 1.0
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/ussr/mt/Deccel_from_Mid_to_Low_one_shot",
+     "tanks/engine/ussr/mt/deccel_short_01"
+    ],
+    "volume": 1.0
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/ussr/mt/High_RPM_Loop_3s"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/ussr/mt/Low_RPM_Loop_3s"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/ussr/mt/Low_RPM_Loop_3s"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/ussr/mt/Mid_RPM_Loop_3s"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/ussr/mt/start_01"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/ussr/mt/stop_01"
+    ],
+    "volume": 1.0
+   },
+   "turning": {
+    "streams": [
+     "tanks/engine/ussr/mt/High_RPM_Loop_3s"
+    ],
+    "volume": 1.0
+   }
+  },
+  "ussr_traktor": {
+   "accel": {
+    "streams": [
+     "tanks/engine/ussr/traktor/t38_accel_01",
+     "tanks/engine/ussr/traktor/t38_accel_02",
+     "tanks/engine/ussr/traktor/t38_accel_03",
+     "tanks/engine/ussr/traktor/t38_accel_04"
+    ],
+    "volume": 1.0
+   },
+   "deccel": {
+    "streams": [
+     "tanks/engine/ussr/traktor/t38_deccel_01",
+     "tanks/engine/ussr/traktor/t38_deccel_02",
+     "tanks/engine/ussr/traktor/t38_deccel_03",
+     "tanks/engine/ussr/traktor/t38_deccel_04"
+    ],
+    "volume": 1.0
+   },
+   "high_rpm": {
+    "streams": [
+     "tanks/engine/ussr/traktor/t38_highrpm_01",
+     "tanks/engine/ussr/traktor/t38_highrpm_02",
+     "tanks/engine/ussr/traktor/t38_highrpm_03",
+     "tanks/engine/ussr/traktor/t38_highrpm_04"
+    ],
+    "volume": 1.0
+   },
+   "idle": {
+    "streams": [
+     "tanks/engine/ussr/traktor/t38_idle_02",
+     "tanks/engine/ussr/traktor/t38_idle_03"
+    ],
+    "volume": 1.0
+   },
+   "low_rpm": {
+    "streams": [
+     "tanks/engine/ussr/traktor/t38_lowrpm_01",
+     "tanks/engine/ussr/traktor/t38_lowrpm_02",
+     "tanks/engine/ussr/traktor/t38_lowrpm_03"
+    ],
+    "volume": 1.0
+   },
+   "mid_rpm": {
+    "streams": [
+     "tanks/engine/ussr/traktor/t38_midrpm_01",
+     "tanks/engine/ussr/traktor/t38_midrpm_02"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/engine/ussr/traktor/t38_start_01"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/engine/ussr/traktor/t38_stop_01",
+     "tanks/engine/ussr/traktor/t38_stop_02"
+    ],
+    "volume": 1.0
+   }
+  }
+ },
+ "explosions": {
+  "tank_explosion": {
+   "sound_dist": {
+    "streams": [
+     "tanks/explosion/expl_far_tail_01",
+     "tanks/explosion/expl_far_tail_02",
+     "tanks/explosion/expl_far_tail_03",
+     "tanks/explosion/expl_far_tail_04",
+     "tanks/explosion/expl_far_tail_05",
+     "tanks/explosion/expl_far_tail_06"
+    ],
+    "volume": 1.0
+   },
+   "sound_near": {
+    "streams": [
+     "tanks/explosion/expl_close_01",
+     "tanks/explosion/expl_close_02",
+     "tanks/explosion/expl_close_03",
+     "tanks/explosion/expl_close_04",
+     "tanks/explosion/expl_close_05",
+     "tanks/explosion/expl_close_06"
+    ],
+    "volume": 1.0
+   }
+  }
+ },
+ "guns": {
+  "shot_atgm": {
+   "sound_dist": {
+    "streams": [
+     "tanks/guns/_dist/mid_dist_shot_01",
+     "tanks/guns/_dist/mid_dist_shot_02",
+     "tanks/guns/_dist/mid_dist_shot_03",
+     "tanks/guns/_dist/mid_dist_shot_04",
+     "tanks/guns/_dist/mid_dist_shot_05",
+     "tanks/guns/_dist/mid_dist_shot_06"
+    ],
+    "volume": 1.0
+   },
+   "sound_inside": {
+    "streams": [
+     "blitz/guns_tow/gun_tow_inside_01",
+     "blitz/guns_tow/gun_tow_inside_02"
+    ],
+    "volume": 1.0
+   },
+   "sound_near": {
+    "streams": [
+     "blitz/guns_tow/gun_tow_01",
+     "blitz/guns_tow/gun_tow_02"
+    ],
+    "volume": 1.0
+   }
+  },
+  "shot_auto": {
+   "sound_dist": {
+    "streams": [
+     "tanks/guns/_dist/automatic_shot_mid_01",
+     "tanks/guns/_dist/automatic_shot_mid_02",
+     "tanks/guns/_dist/automatic_shot_mid_03",
+     "tanks/guns/_dist/automatic_shot_mid_04",
+     "tanks/guns/_dist/automatic_shot_mid_05"
+    ],
+    "volume": 1.0
+   },
+   "sound_inside": {
+    "streams": [
+     "tanks/guns/auto/gun_shot_inside_automatic_01",
+     "tanks/guns/auto/gun_shot_inside_automatic_02",
+     "tanks/guns/auto/gun_shot_inside_automatic_03",
+     "tanks/guns/auto/gun_shot_inside_automatic_04",
+     "tanks/guns/auto/gun_shot_inside_automatic_05"
+    ],
+    "volume": 1.0
+   },
+   "sound_near": {
+    "streams": [
+     "tanks/guns/auto/automatic_gun_01",
+     "tanks/guns/auto/automatic_gun_02",
+     "tanks/guns/auto/automatic_gun_03",
+     "tanks/guns/auto/automatic_gun_04"
+    ],
+    "volume": 1.0
+   }
+  },
+  "shot_huge": {
+   "sound_dist": {
+    "streams": [
+     "tanks/guns/_dist/mid_dist_shot_01",
+     "tanks/guns/_dist/mid_dist_shot_02",
+     "tanks/guns/_dist/mid_dist_shot_03",
+     "tanks/guns/_dist/mid_dist_shot_04",
+     "tanks/guns/_dist/mid_dist_shot_05",
+     "tanks/guns/_dist/mid_dist_shot_06"
+    ],
+    "volume": 1.0
+   },
+   "sound_inside": {
+    "streams": [
+     "tanks/guns/huge/gun_shot_inside_huge_01",
+     "tanks/guns/huge/gun_shot_inside_huge_02",
+     "tanks/guns/huge/gun_shot_inside_huge_03",
+     "tanks/guns/huge/gun_shot_inside_huge_04"
+    ],
+    "volume": 1.0
+   },
+   "sound_near": {
+    "streams": [
+     "tanks/guns/huge/huge_gun_01",
+     "tanks/guns/huge/huge_gun_02",
+     "tanks/guns/huge/huge_gun_03",
+     "tanks/guns/huge/huge_gun_04"
+    ],
+    "volume": 1.0
+   }
+  },
+  "shot_large": {
+   "sound_dist": {
+    "streams": [
+     "tanks/guns/_dist/mid_dist_shot_01",
+     "tanks/guns/_dist/mid_dist_shot_02",
+     "tanks/guns/_dist/mid_dist_shot_03",
+     "tanks/guns/_dist/mid_dist_shot_04",
+     "tanks/guns/_dist/mid_dist_shot_05",
+     "tanks/guns/_dist/mid_dist_shot_06"
+    ],
+    "volume": 1.0
+   },
+   "sound_inside": {
+    "streams": [
+     "tanks/guns/large/gun_shot_inside_large_01",
+     "tanks/guns/large/gun_shot_inside_large_02",
+     "tanks/guns/large/gun_shot_inside_large_03",
+     "tanks/guns/large/gun_shot_inside_large_04",
+     "tanks/guns/large/gun_shot_inside_large_05"
+    ],
+    "volume": 1.0
+   },
+   "sound_near": {
+    "streams": [
+     "tanks/guns/large/large_gun_01",
+     "tanks/guns/large/large_gun_02",
+     "tanks/guns/large/large_gun_03",
+     "tanks/guns/large/large_gun_04"
+    ],
+    "volume": 1.0
+   }
+  },
+  "shot_main": {
+   "sound_dist": {
+    "streams": [
+     "tanks/guns/_dist/mid_dist_shot_01",
+     "tanks/guns/_dist/mid_dist_shot_02",
+     "tanks/guns/_dist/mid_dist_shot_03",
+     "tanks/guns/_dist/mid_dist_shot_04",
+     "tanks/guns/_dist/mid_dist_shot_05",
+     "tanks/guns/_dist/mid_dist_shot_06"
+    ],
+    "volume": 1.0
+   },
+   "sound_inside": {
+    "streams": [
+     "tanks/guns/main/gun_shot_inside_main_01",
+     "tanks/guns/main/gun_shot_inside_main_02",
+     "tanks/guns/main/gun_shot_inside_main_03",
+     "tanks/guns/main/gun_shot_inside_main_04",
+     "tanks/guns/main/gun_shot_inside_main_05"
+    ],
+    "volume": 1.0
+   },
+   "sound_near": {
+    "streams": [
+     "tanks/guns/main/main_gun_01",
+     "tanks/guns/main/main_gun_02",
+     "tanks/guns/main/main_gun_03",
+     "tanks/guns/main/main_gun_04"
+    ],
+    "volume": 1.0
+   }
+  },
+  "shot_medium": {
+   "sound_dist": {
+    "streams": [
+     "tanks/guns/_dist/mid_dist_shot_01",
+     "tanks/guns/_dist/mid_dist_shot_02",
+     "tanks/guns/_dist/mid_dist_shot_03",
+     "tanks/guns/_dist/mid_dist_shot_04",
+     "tanks/guns/_dist/mid_dist_shot_05",
+     "tanks/guns/_dist/mid_dist_shot_06"
+    ],
+    "volume": 1.0
+   },
+   "sound_inside": {
+    "streams": [
+     "tanks/guns/medium/gun_shot_inside_medium_01",
+     "tanks/guns/medium/gun_shot_inside_medium_02",
+     "tanks/guns/medium/gun_shot_inside_medium_03",
+     "tanks/guns/medium/gun_shot_inside_medium_04",
+     "tanks/guns/medium/gun_shot_inside_medium_05"
+    ],
+    "volume": 1.0
+   },
+   "sound_near": {
+    "streams": [
+     "tanks/guns/medium/medium_gun_01",
+     "tanks/guns/medium/medium_gun_02",
+     "tanks/guns/medium/medium_gun_03"
+    ],
+    "volume": 1.0
+   }
+  },
+  "shot_small": {
+   "sound_dist": {
+    "streams": [
+     "tanks/guns/_dist/automatic_shot_mid_01",
+     "tanks/guns/_dist/automatic_shot_mid_02",
+     "tanks/guns/_dist/automatic_shot_mid_03",
+     "tanks/guns/_dist/automatic_shot_mid_04",
+     "tanks/guns/_dist/automatic_shot_mid_05"
+    ],
+    "volume": 1.0
+   },
+   "sound_inside": {
+    "streams": [
+     "tanks/guns/small/gun_shot_inside_small_01",
+     "tanks/guns/small/gun_shot_inside_small_02",
+     "tanks/guns/small/gun_shot_inside_small_03",
+     "tanks/guns/small/gun_shot_inside_small_04",
+     "tanks/guns/small/gun_shot_inside_small_05",
+     "tanks/guns/small/gun_shot_inside_small_06",
+     "tanks/guns/small/gun_shot_inside_small_07"
+    ],
+    "volume": 1.0
+   },
+   "sound_near": {
+    "streams": [
+     "tanks/guns/small/small_gun_01",
+     "tanks/guns/small/small_gun_02",
+     "tanks/guns/small/small_gun_03",
+     "tanks/guns/small/small_gun_04"
+    ],
+    "volume": 1.0
+   }
+  }
+ },
+ "shells": {
+  "ap": {
+   "bounce_huge": {
+    "streams": [
+     "tanks/shells/ap/ap_armor_not_pierce_huge_01",
+     "tanks/shells/ap/ap_armor_not_pierce_huge_02",
+     "tanks/shells/ap/ap_armor_not_pierce_huge_03"
+    ],
+    "volume": 1.0
+   },
+   "bounce_large": {
+    "streams": [
+     "tanks/shells/ap/ap_armor_not_pierce_large_01",
+     "tanks/shells/ap/ap_armor_not_pierce_large_02",
+     "tanks/shells/ap/ap_armor_not_pierce_large_03"
+    ],
+    "volume": 1.0
+   },
+   "bounce_main": {
+    "streams": [
+     "tanks/shells/ap/ap_armor_not_pierce_main_01",
+     "tanks/shells/ap/ap_armor_not_pierce_main_02",
+     "tanks/shells/ap/ap_armor_not_pierce_main_03",
+     "tanks/shells/ap/ap_armor_not_pierce_main_04"
+    ],
+    "volume": 1.0
+   },
+   "bounce_medium": {
+    "streams": [
+     "tanks/shells/ap/ap_armor_not_pierce_medium_01",
+     "tanks/shells/ap/ap_armor_not_pierce_medium_02",
+     "tanks/shells/ap/ap_armor_not_pierce_medium_03",
+     "tanks/shells/ap/ap_armor_not_pierce_medium_04",
+     "tanks/shells/ap/ap_armor_not_pierce_medium_05"
+    ],
+    "volume": 1.0
+   },
+   "bounce_small": {
+    "streams": [
+     "tanks/shells/ap/ap_armor_not_pierce_small_01",
+     "tanks/shells/ap/ap_armor_not_pierce_small_02",
+     "tanks/shells/ap/ap_armor_not_pierce_small_03",
+     "tanks/shells/ap/ap_armor_not_pierce_small_04",
+     "tanks/shells/ap/ap_armor_not_pierce_small_05"
+    ],
+    "volume": 1.0
+   },
+   "crit_huge": {
+    "streams": [
+     "tanks/shells/ap/ap_critical_hit_huge_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_large": {
+    "streams": [
+     "tanks/shells/ap/ap_critical_hit_large_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_main": {
+    "streams": [
+     "tanks/shells/ap/ap_critical_hit_main_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_medium": {
+    "streams": [
+     "tanks/shells/ap/ap_critical_hit_medium_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_small": {
+    "streams": [
+     "tanks/shells/ap/ap_critical_hit_small_01",
+     "tanks/shells/ap/ap_critical_hit_small_02"
+    ],
+    "volume": 1.0
+   },
+   "impact_huge": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_huge_hard_01",
+     "tanks/shells/surface/surface_hits_huge_hard_02"
+    ],
+    "volume": 1.0
+   },
+   "impact_large": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_large_hard_01",
+     "tanks/shells/surface/surface_hits_large_hard_02"
+    ],
+    "volume": 1.0
+   },
+   "impact_main": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_main_hard_01",
+     "tanks/shells/surface/surface_hits_main_hard_02"
+    ],
+    "volume": 1.0
+   },
+   "impact_medium": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_medium_hard_01",
+     "tanks/shells/surface/surface_hits_medium_hard_02"
+    ],
+    "volume": 1.0
+   },
+   "impact_small": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_small_hard_01",
+     "tanks/shells/surface/surface_hits_small_hard_02"
+    ],
+    "volume": 1.0
+   },
+   "pen_huge": {
+    "streams": [
+     "tanks/shells/ap/ap_armor_pierce_huge_01",
+     "tanks/shells/ap/ap_armor_pierce_huge_02",
+     "tanks/shells/ap/ap_armor_pierce_huge_03"
+    ],
+    "volume": 1.0
+   },
+   "pen_large": {
+    "streams": [
+     "tanks/shells/ap/ap_armor_pierce_large_01",
+     "tanks/shells/ap/ap_armor_pierce_large_02",
+     "tanks/shells/ap/ap_armor_pierce_large_03"
+    ],
+    "volume": 1.0
+   },
+   "pen_main": {
+    "streams": [
+     "tanks/shells/ap/ap_armor_pierce_main_01",
+     "tanks/shells/ap/ap_armor_pierce_main_02",
+     "tanks/shells/ap/ap_armor_pierce_main_03",
+     "tanks/shells/ap/ap_armor_pierce_main_04"
+    ],
+    "volume": 1.0
+   },
+   "pen_medium": {
+    "streams": [
+     "tanks/shells/ap/ap_armor_pierce_medium_01",
+     "tanks/shells/ap/ap_armor_pierce_medium_02",
+     "tanks/shells/ap/ap_armor_pierce_medium_03",
+     "tanks/shells/ap/ap_armor_pierce_medium_04",
+     "tanks/shells/ap/ap_armor_pierce_medium_05"
+    ],
+    "volume": 1.0
+   },
+   "pen_small": {
+    "streams": [
+     "tanks/shells/ap/ap_armor_pierce_small_02",
+     "tanks/shells/ap/ap_armor_pierce_small_03",
+     "tanks/shells/ap/ap_armor_pierce_small_04",
+     "tanks/shells/ap/ap_armor_pierce_small_05"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_huge": {
+    "streams": [
+     "tanks/shells/ap/ap_ricochet_huge_01",
+     "tanks/shells/ap/ap_ricochet_huge_02",
+     "tanks/shells/ap/ap_ricochet_huge_03"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_large": {
+    "streams": [
+     "tanks/shells/ap/ap_ricochet_large_01",
+     "tanks/shells/ap/ap_ricochet_large_02",
+     "tanks/shells/ap/ap_ricochet_large_03"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_main": {
+    "streams": [
+     "tanks/shells/ap/ap_ricochet_main_01",
+     "tanks/shells/ap/ap_ricochet_main_02",
+     "tanks/shells/ap/ap_ricochet_main_03"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_medium": {
+    "streams": [
+     "tanks/shells/ap/ap_ricochet_medium_01",
+     "tanks/shells/ap/ap_ricochet_medium_02",
+     "tanks/shells/ap/ap_ricochet_medium_03"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_small": {
+    "streams": [
+     "tanks/shells/ap/ap_ricochet_small_01",
+     "tanks/shells/ap/ap_ricochet_small_02",
+     "tanks/shells/ap/ap_ricochet_small_03"
+    ],
+    "volume": 1.0
+   }
+  },
+  "apcr": {
+   "bounce_huge": {
+    "streams": [
+     "tanks/shells/apcr/apcr_armor_not_pierce_huge_01",
+     "tanks/shells/apcr/apcr_armor_not_pierce_huge_02",
+     "tanks/shells/apcr/apcr_armor_not_pierce_huge_03"
+    ],
+    "volume": 1.0
+   },
+   "bounce_large": {
+    "streams": [
+     "tanks/shells/apcr/apcr_armor_not_pierce_large_01",
+     "tanks/shells/apcr/apcr_armor_not_pierce_large_02",
+     "tanks/shells/apcr/apcr_armor_not_pierce_large_03"
+    ],
+    "volume": 1.0
+   },
+   "bounce_main": {
+    "streams": [
+     "tanks/shells/apcr/apcr_armor_not_pierce_main_01",
+     "tanks/shells/apcr/apcr_armor_not_pierce_main_02",
+     "tanks/shells/apcr/apcr_armor_not_pierce_main_03",
+     "tanks/shells/apcr/apcr_armor_not_pierce_main_04"
+    ],
+    "volume": 1.0
+   },
+   "bounce_medium": {
+    "streams": [
+     "tanks/shells/apcr/apcr_armor_not_pierce_medium_01",
+     "tanks/shells/apcr/apcr_armor_not_pierce_medium_02",
+     "tanks/shells/apcr/apcr_armor_not_pierce_medium_03",
+     "tanks/shells/apcr/apcr_armor_not_pierce_medium_04",
+     "tanks/shells/apcr/apcr_armor_not_pierce_medium_05"
+    ],
+    "volume": 1.0
+   },
+   "bounce_small": {
+    "streams": [
+     "tanks/shells/apcr/apcr_armor_not_pierce_small_01",
+     "tanks/shells/apcr/apcr_armor_not_pierce_small_02",
+     "tanks/shells/apcr/apcr_armor_not_pierce_small_03",
+     "tanks/shells/apcr/apcr_armor_not_pierce_small_04",
+     "tanks/shells/apcr/apcr_armor_not_pierce_small_05"
+    ],
+    "volume": 1.0
+   },
+   "crit_huge": {
+    "streams": [
+     "tanks/shells/ap/ap_critical_hit_huge_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_large": {
+    "streams": [
+     "tanks/shells/ap/ap_critical_hit_large_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_main": {
+    "streams": [
+     "tanks/shells/ap/ap_critical_hit_main_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_medium": {
+    "streams": [
+     "tanks/shells/ap/ap_critical_hit_medium_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_small": {
+    "streams": [
+     "tanks/shells/ap/ap_critical_hit_small_01",
+     "tanks/shells/ap/ap_critical_hit_small_02"
+    ],
+    "volume": 1.0
+   },
+   "impact_huge": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_huge_hard_01",
+     "tanks/shells/surface/surface_hits_huge_hard_02"
+    ],
+    "volume": 1.0
+   },
+   "impact_large": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_large_hard_01",
+     "tanks/shells/surface/surface_hits_large_hard_02"
+    ],
+    "volume": 1.0
+   },
+   "impact_main": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_main_hard_01",
+     "tanks/shells/surface/surface_hits_main_hard_02"
+    ],
+    "volume": 1.0
+   },
+   "impact_medium": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_medium_hard_01",
+     "tanks/shells/surface/surface_hits_medium_hard_02"
+    ],
+    "volume": 1.0
+   },
+   "impact_small": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_small_hard_01",
+     "tanks/shells/surface/surface_hits_small_hard_02"
+    ],
+    "volume": 1.0
+   },
+   "pen_huge": {
+    "streams": [
+     "tanks/shells/ap/ap_armor_pierce_huge_01",
+     "tanks/shells/ap/ap_armor_pierce_huge_02",
+     "tanks/shells/ap/ap_armor_pierce_huge_03"
+    ],
+    "volume": 1.0
+   },
+   "pen_large": {
+    "streams": [
+     "tanks/shells/ap/ap_armor_pierce_large_01",
+     "tanks/shells/ap/ap_armor_pierce_large_02",
+     "tanks/shells/ap/ap_armor_pierce_large_03"
+    ],
+    "volume": 1.0
+   },
+   "pen_main": {
+    "streams": [
+     "tanks/shells/ap/ap_armor_pierce_main_01",
+     "tanks/shells/ap/ap_armor_pierce_main_02",
+     "tanks/shells/ap/ap_armor_pierce_main_03",
+     "tanks/shells/ap/ap_armor_pierce_main_04"
+    ],
+    "volume": 1.0
+   },
+   "pen_medium": {
+    "streams": [
+     "tanks/shells/ap/ap_armor_pierce_medium_01",
+     "tanks/shells/ap/ap_armor_pierce_medium_02",
+     "tanks/shells/ap/ap_armor_pierce_medium_03",
+     "tanks/shells/ap/ap_armor_pierce_medium_04",
+     "tanks/shells/ap/ap_armor_pierce_medium_05"
+    ],
+    "volume": 1.0
+   },
+   "pen_small": {
+    "streams": [
+     "tanks/shells/ap/ap_armor_pierce_small_01",
+     "tanks/shells/ap/ap_armor_pierce_small_02",
+     "tanks/shells/ap/ap_armor_pierce_small_03",
+     "tanks/shells/ap/ap_armor_pierce_small_04",
+     "tanks/shells/ap/ap_armor_pierce_small_05"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_huge": {
+    "streams": [
+     "tanks/shells/apcr/apcr_ricochet_huge_01",
+     "tanks/shells/apcr/apcr_ricochet_huge_02",
+     "tanks/shells/apcr/apcr_ricochet_huge_03"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_large": {
+    "streams": [
+     "tanks/shells/apcr/apcr_ricochet_large_01",
+     "tanks/shells/apcr/apcr_ricochet_large_02",
+     "tanks/shells/apcr/apcr_ricochet_large_03"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_main": {
+    "streams": [
+     "tanks/shells/apcr/apcr_ricochet_main_01",
+     "tanks/shells/apcr/apcr_ricochet_main_02",
+     "tanks/shells/apcr/apcr_ricochet_main_03"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_medium": {
+    "streams": [
+     "tanks/shells/apcr/apcr_ricochet_medium_01",
+     "tanks/shells/apcr/apcr_ricochet_medium_02",
+     "tanks/shells/apcr/apcr_ricochet_medium_03"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_small": {
+    "streams": [
+     "tanks/shells/apcr/apcr_ricochet_small_01",
+     "tanks/shells/apcr/apcr_ricochet_small_02",
+     "tanks/shells/apcr/apcr_ricochet_small_03"
+    ],
+    "volume": 1.0
+   }
+  },
+  "he": {
+   "bounce_huge": {
+    "streams": [
+     "tanks/shells/he/he_armor_not_pierce_huge_01",
+     "tanks/shells/he/he_armor_not_pierce_huge_02",
+     "tanks/shells/he/he_armor_not_pierce_huge_03"
+    ],
+    "volume": 1.0
+   },
+   "bounce_large": {
+    "streams": [
+     "tanks/shells/he/he_armor_not_pierce_large_01",
+     "tanks/shells/he/he_armor_not_pierce_large_02",
+     "tanks/shells/he/he_armor_not_pierce_large_03",
+     "tanks/shells/he/he_armor_not_pierce_large_04"
+    ],
+    "volume": 1.0
+   },
+   "bounce_main": {
+    "streams": [
+     "tanks/shells/he/he_armor_not_pierce_main_01",
+     "tanks/shells/he/he_armor_not_pierce_main_02",
+     "tanks/shells/he/he_armor_not_pierce_main_03"
+    ],
+    "volume": 1.0
+   },
+   "bounce_medium": {
+    "streams": [
+     "tanks/shells/he/he_armor_not_pierce_medium_01",
+     "tanks/shells/he/he_armor_not_pierce_medium_02",
+     "tanks/shells/he/he_armor_not_pierce_medium_03",
+     "tanks/shells/he/he_armor_not_pierce_medium_04",
+     "tanks/shells/he/he_armor_not_pierce_medium_05"
+    ],
+    "volume": 1.0
+   },
+   "bounce_small": {
+    "streams": [
+     "tanks/shells/he/he_armor_not_pierce_small_01",
+     "tanks/shells/he/he_armor_not_pierce_small_02",
+     "tanks/shells/he/he_armor_not_pierce_small_03",
+     "tanks/shells/he/he_armor_not_pierce_small_04",
+     "tanks/shells/he/he_armor_not_pierce_small_05"
+    ],
+    "volume": 1.0
+   },
+   "crit_huge": {
+    "streams": [
+     "tanks/shells/he/he_critical_hit_huge_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_large": {
+    "streams": [
+     "tanks/shells/he/he_critical_hit_large_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_main": {
+    "streams": [
+     "tanks/shells/he/he_critical_hit_main_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_medium": {
+    "streams": [
+     "tanks/shells/he/he_critical_hit_medium_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_small": {
+    "streams": [
+     "tanks/shells/he/he_critical_hit_small_01"
+    ],
+    "volume": 1.0
+   },
+   "impact_huge": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_fougasse_huge_hard"
+    ],
+    "volume": 1.0
+   },
+   "impact_large": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_fougasse_large_hard"
+    ],
+    "volume": 1.0
+   },
+   "impact_main": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_fougasse_main_hard"
+    ],
+    "volume": 1.0
+   },
+   "impact_medium": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_fougasse_medium_hard"
+    ],
+    "volume": 1.0
+   },
+   "impact_small": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_fougasse_small_hard"
+    ],
+    "volume": 1.0
+   },
+   "pen_huge": {
+    "streams": [
+     "tanks/shells/he/he_armor_pierce_huge_01",
+     "tanks/shells/he/he_armor_pierce_huge_02",
+     "tanks/shells/he/he_armor_pierce_huge_03"
+    ],
+    "volume": 1.0
+   },
+   "pen_large": {
+    "streams": [
+     "tanks/shells/he/he_armor_pierce_large_01",
+     "tanks/shells/he/he_armor_pierce_large_02",
+     "tanks/shells/he/he_armor_pierce_large_03"
+    ],
+    "volume": 1.0
+   },
+   "pen_main": {
+    "streams": [
+     "tanks/shells/he/he_armor_pierce_main_01",
+     "tanks/shells/he/he_armor_pierce_main_02",
+     "tanks/shells/he/he_armor_pierce_main_03",
+     "tanks/shells/he/he_armor_pierce_main_04"
+    ],
+    "volume": 1.0
+   },
+   "pen_medium": {
+    "streams": [
+     "tanks/shells/he/he_armor_pierce_medium_01",
+     "tanks/shells/he/he_armor_pierce_medium_02",
+     "tanks/shells/he/he_armor_pierce_medium_03",
+     "tanks/shells/he/he_armor_pierce_medium_04",
+     "tanks/shells/he/he_armor_pierce_medium_05"
+    ],
+    "volume": 1.0
+   },
+   "pen_small": {
+    "streams": [
+     "tanks/shells/he/he_armor_pierce_small_01",
+     "tanks/shells/he/he_armor_pierce_small_02",
+     "tanks/shells/he/he_armor_pierce_small_03",
+     "tanks/shells/he/he_armor_pierce_small_04",
+     "tanks/shells/he/he_armor_pierce_small_05"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_huge": {
+    "streams": [
+     "tanks/shells/he/he_armor_not_pierce_huge_01",
+     "tanks/shells/he/he_armor_not_pierce_huge_02",
+     "tanks/shells/he/he_armor_not_pierce_huge_03"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_large": {
+    "streams": [
+     "tanks/shells/he/he_armor_not_pierce_huge_01",
+     "tanks/shells/he/he_armor_not_pierce_huge_02",
+     "tanks/shells/he/he_armor_not_pierce_huge_03"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_main": {
+    "streams": [
+     "tanks/shells/he/he_armor_not_pierce_huge_01",
+     "tanks/shells/he/he_armor_not_pierce_huge_02",
+     "tanks/shells/he/he_armor_not_pierce_huge_03"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_medium": {
+    "streams": [
+     "tanks/shells/he/he_armor_not_pierce_huge_01",
+     "tanks/shells/he/he_armor_not_pierce_huge_02",
+     "tanks/shells/he/he_armor_not_pierce_huge_03"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_small": {
+    "streams": [
+     "tanks/shells/he/he_armor_not_pierce_huge_01",
+     "tanks/shells/he/he_armor_not_pierce_huge_02",
+     "tanks/shells/he/he_armor_not_pierce_huge_03"
+    ],
+    "volume": 1.0
+   }
+  },
+  "heat": {
+   "bounce_huge": {
+    "streams": [
+     "tanks/shells/heat/hc_armor_not_pierce_huge_01",
+     "tanks/shells/heat/hc_armor_not_pierce_huge_02",
+     "tanks/shells/heat/hc_armor_not_pierce_huge_03"
+    ],
+    "volume": 1.0
+   },
+   "bounce_large": {
+    "streams": [
+     "tanks/shells/heat/hc_armor_not_pierce_large_01",
+     "tanks/shells/heat/hc_armor_not_pierce_large_02",
+     "tanks/shells/heat/hc_armor_not_pierce_large_03"
+    ],
+    "volume": 1.0
+   },
+   "bounce_main": {
+    "streams": [
+     "tanks/shells/heat/hc_armor_not_pierce_main_01",
+     "tanks/shells/heat/hc_armor_not_pierce_main_02",
+     "tanks/shells/heat/hc_armor_not_pierce_main_03",
+     "tanks/shells/heat/hc_armor_not_pierce_main_04"
+    ],
+    "volume": 1.0
+   },
+   "bounce_medium": {
+    "streams": [
+     "tanks/shells/heat/hc_armor_not_pierce_medium_01",
+     "tanks/shells/heat/hc_armor_not_pierce_medium_02",
+     "tanks/shells/heat/hc_armor_not_pierce_medium_03",
+     "tanks/shells/heat/hc_armor_not_pierce_medium_04",
+     "tanks/shells/heat/hc_armor_not_pierce_medium_05"
+    ],
+    "volume": 1.0
+   },
+   "bounce_small": {
+    "streams": [
+     "tanks/shells/heat/hc_armor_not_pierce_small_01",
+     "tanks/shells/heat/hc_armor_not_pierce_small_02",
+     "tanks/shells/heat/hc_armor_not_pierce_small_03",
+     "tanks/shells/heat/hc_armor_not_pierce_small_04",
+     "tanks/shells/heat/hc_armor_not_pierce_small_05"
+    ],
+    "volume": 1.0
+   },
+   "crit_huge": {
+    "streams": [
+     "tanks/shells/heat/hc_critical_hit_huge_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_large": {
+    "streams": [
+     "tanks/shells/heat/hc_critical_hit_large_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_main": {
+    "streams": [
+     "tanks/shells/heat/hc_critical_hit_main_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_medium": {
+    "streams": [
+     "tanks/shells/heat/hc_critical_hit_medium_01"
+    ],
+    "volume": 1.0
+   },
+   "crit_small": {
+    "streams": [
+     "tanks/shells/heat/hc_critical_hit_small_01"
+    ],
+    "volume": 1.0
+   },
+   "impact_huge": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_huge_hard_01",
+     "tanks/shells/surface/surface_hits_huge_hard_02"
+    ],
+    "volume": 1.0
+   },
+   "impact_large": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_large_hard_01",
+     "tanks/shells/surface/surface_hits_large_hard_02"
+    ],
+    "volume": 1.0
+   },
+   "impact_main": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_main_hard_01",
+     "tanks/shells/surface/surface_hits_main_hard_02"
+    ],
+    "volume": 1.0
+   },
+   "impact_medium": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_medium_hard_01",
+     "tanks/shells/surface/surface_hits_medium_hard_02"
+    ],
+    "volume": 1.0
+   },
+   "impact_small": {
+    "streams": [
+     "tanks/shells/surface/surface_hits_small_hard_01",
+     "tanks/shells/surface/surface_hits_small_hard_02"
+    ],
+    "volume": 1.0
+   },
+   "pen_huge": {
+    "streams": [
+     "tanks/shells/heat/hc_armor_pierce_huge_01",
+     "tanks/shells/heat/hc_armor_pierce_huge_02",
+     "tanks/shells/heat/hc_armor_pierce_huge_03"
+    ],
+    "volume": 1.0
+   },
+   "pen_large": {
+    "streams": [
+     "tanks/shells/heat/hc_armor_pierce_large_01",
+     "tanks/shells/heat/hc_armor_pierce_large_02",
+     "tanks/shells/heat/hc_armor_pierce_large_03"
+    ],
+    "volume": 1.0
+   },
+   "pen_main": {
+    "streams": [
+     "tanks/shells/heat/hc_armor_pierce_main_01",
+     "tanks/shells/heat/hc_armor_pierce_main_02",
+     "tanks/shells/heat/hc_armor_pierce_main_03",
+     "tanks/shells/heat/hc_armor_pierce_main_04"
+    ],
+    "volume": 1.0
+   },
+   "pen_medium": {
+    "streams": [
+     "tanks/shells/heat/hc_armor_pierce_medium_01",
+     "tanks/shells/heat/hc_armor_pierce_medium_02",
+     "tanks/shells/heat/hc_armor_pierce_medium_03",
+     "tanks/shells/heat/hc_armor_pierce_medium_04",
+     "tanks/shells/heat/hc_armor_pierce_medium_05"
+    ],
+    "volume": 1.0
+   },
+   "pen_small": {
+    "streams": [
+     "tanks/shells/heat/hc_armor_pierce_small_01",
+     "tanks/shells/heat/hc_armor_pierce_small_02",
+     "tanks/shells/heat/hc_armor_pierce_small_03",
+     "tanks/shells/heat/hc_armor_pierce_small_04",
+     "tanks/shells/heat/hc_armor_pierce_small_05"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_huge": {
+    "streams": [
+     "tanks/shells/heat/hc_armor_not_pierce_huge_01",
+     "tanks/shells/heat/hc_armor_not_pierce_huge_02",
+     "tanks/shells/heat/hc_armor_not_pierce_huge_03"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_large": {
+    "streams": [
+     "tanks/shells/heat/hc_armor_not_pierce_large_01",
+     "tanks/shells/heat/hc_armor_not_pierce_large_02",
+     "tanks/shells/heat/hc_armor_not_pierce_large_03"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_main": {
+    "streams": [
+     "tanks/shells/heat/hc_armor_not_pierce_main_01",
+     "tanks/shells/heat/hc_armor_not_pierce_main_02",
+     "tanks/shells/heat/hc_armor_not_pierce_main_03",
+     "tanks/shells/heat/hc_armor_not_pierce_main_04"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_medium": {
+    "streams": [
+     "tanks/shells/heat/hc_armor_not_pierce_main_01",
+     "tanks/shells/heat/hc_armor_not_pierce_main_02",
+     "tanks/shells/heat/hc_armor_not_pierce_main_03",
+     "tanks/shells/heat/hc_armor_not_pierce_main_04"
+    ],
+    "volume": 1.0
+   },
+   "ricoshet_small": {
+    "streams": [
+     "tanks/shells/heat/hc_armor_not_pierce_small_01",
+     "tanks/shells/heat/hc_armor_not_pierce_small_02",
+     "tanks/shells/heat/hc_armor_not_pierce_small_03",
+     "tanks/shells/heat/hc_armor_not_pierce_small_04",
+     "tanks/shells/heat/hc_armor_not_pierce_small_05"
+    ],
+    "volume": 1.0
+   }
+  }
+ },
+ "sounds": {
+  "atgm_pen_he": {
+   "streams": [
+    "blitz/hits_tow/he_armor_pierce_tow_01"
+   ],
+   "volume": 1.0
+  },
+  "atgm_pen_heat": {
+   "streams": [
+    "blitz/hits_tow/hc_armor_pierce_tow_01"
+   ],
+   "volume": 1.0
+  },
+  "atgm_pen_inside": {
+   "streams": [
+    "blitz/hits_tow/hit_inside_pierce_tow_01"
+   ],
+   "volume": 1.0
+  },
+  "inside_bounce": {
+   "streams": [
+    "tanks/shells/inside/hit_inside_not_pierce_01",
+    "tanks/shells/inside/hit_inside_not_pierce_02",
+    "tanks/shells/inside/hit_inside_not_pierce_03",
+    "tanks/shells/inside/hit_inside_not_pierce_04",
+    "tanks/shells/inside/hit_inside_not_pierce_05"
+   ],
+   "volume": 1.25
+  },
+  "inside_pen": {
+   "streams": [
+    "tanks/shells/inside/hit_inside_pierce_basic_01",
+    "tanks/shells/inside/hit_inside_pierce_basic_02",
+    "tanks/shells/inside/hit_inside_pierce_basic_03",
+    "tanks/shells/inside/hit_inside_pierce_basic_04",
+    "tanks/shells/inside/hit_inside_pierce_basic_05",
+    "tanks/shells/inside/hit_inside_pierce_basic_06",
+    "tanks/shells/inside/hit_inside_pierce_basic_07",
+    "tanks/shells/inside/hit_inside_pierce_basic_08",
+    "tanks/shells/inside/hit_inside_pierce_basic_09"
+   ],
+   "volume": 1.25
+  },
+  "roughness_heavy": {
+   "streams": [
+    "tanks/roughness/roughness_heavy_tank"
+   ],
+   "volume": 1.0
+  },
+  "roughness_heavy_inside": {
+   "streams": [
+    "tanks/roughness/rougness_inside_medium_tank"
+   ],
+   "volume": 1.0
+  },
+  "roughness_light": {
+   "streams": [
+    "tanks/roughness/roughness_light_tank"
+   ],
+   "volume": 1.0
+  },
+  "roughness_light_inside": {
+   "streams": [
+    "tanks/roughness/rougness_inside_light_tank"
+   ],
+   "volume": 1.0
+  },
+  "roughness_medium": {
+   "streams": [
+    "tanks/roughness/roughness_medium_tank"
+   ],
+   "volume": 1.0
+  },
+  "roughness_medium_inside": {
+   "streams": [
+    "tanks/roughness/rougness_inside_medium_tank"
+   ],
+   "volume": 1.0
+  },
+  "shell_flight": {
+   "streams": [
+    "blitz/guns_tracer/tracer_tow_01",
+    "blitz/guns_tracer/tracer_tow_02"
+   ],
+   "volume": 1.0
+  },
+  "tank_collision_heavy": {
+   "streams": [
+    "tanks/collision/tanks_tanks_physics_common_tank_heavy_hit_01",
+    "tanks/collision/tanks_tanks_physics_common_tank_heavy_hit_02",
+    "tanks/collision/tanks_tanks_physics_common_tank_heavy_hit_03",
+    "tanks/collision/tanks_tanks_physics_common_tank_heavy_hit_04",
+    "tanks/collision/tanks_tanks_physics_common_tank_heavy_hit_05"
+   ],
+   "volume": 1.0
+  },
+  "tank_collision_light": {
+   "streams": [
+    "tanks/collision/tanks_tanks_physics_common_tank_light_hit_01",
+    "tanks/collision/tanks_tanks_physics_common_tank_light_hit_02",
+    "tanks/collision/tanks_tanks_physics_common_tank_light_hit_03",
+    "tanks/collision/tanks_tanks_physics_common_tank_light_hit_05",
+    "tanks/collision/tanks_tanks_physics_common_tank_light_hit_07",
+    "tanks/collision/tanks_tanks_physics_common_tank_light_hit_10"
+   ],
+   "volume": 1.0
+  },
+  "tracks_destroy": {
+   "streams": [
+    "tanks/tracks/hit_treads_02"
+   ],
+   "volume": 1.0
+  },
+  "tracks_fix": {
+   "streams": [
+    "tanks/tracks/tread_fixed_01"
+   ],
+   "volume": 1.0
+  },
+  "ui_autoaim_off": {
+   "streams": [
+    "ui/auto_target_off"
+   ],
+   "volume": 1.0
+  },
+  "ui_autoaim_on": {
+   "streams": [
+    "ui/auto_target_on"
+   ],
+   "volume": 1.0
+  },
+  "ui_countdown": {
+   "streams": [
+    "ui/timer"
+   ],
+   "volume": 1.0
+  },
+  "ui_lamp": {
+   "streams": [
+    "ui/lamp_01"
+   ],
+   "volume": 1.0
+  },
+  "ui_shell_select": {
+   "streams": [
+    "ui/shell_choose_01"
+   ],
+   "volume": 1.0
+  },
+  "ui_sniper_in": {
+   "streams": [
+    "ui/snipermode_on"
+   ],
+   "volume": 1.0
+  },
+  "ui_sniper_out": {
+   "streams": [
+    "ui/snipermode_off"
+   ],
+   "volume": 1.0
+  }
+ },
+ "tracks": {
+  "ht": {
+   "speed_10": {
+    "streams": [
+     "tanks/tracks/ht/t08_10_01"
+    ],
+    "volume": 1.0
+   },
+   "speed_20": {
+    "streams": [
+     "tanks/tracks/ht/t08_20_01"
+    ],
+    "volume": 1.0
+   },
+   "speed_30": {
+    "streams": [
+     "tanks/tracks/ht/t08_30_01"
+    ],
+    "volume": 1.0
+   },
+   "speed_40": {
+    "streams": [
+     "tanks/tracks/ht/t08_40_01"
+    ],
+    "volume": 1.0
+   },
+   "speed_50": {
+    "streams": [
+     "tanks/tracks/ht/t08_50_01"
+    ],
+    "volume": 1.0
+   },
+   "speed_60": {
+    "streams": [
+     "tanks/tracks/ht/t08_50_01"
+    ],
+    "volume": 1.0
+   },
+   "speed_70": {
+    "streams": [
+     "tanks/tracks/ht/t08_50_01"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/tracks/ht/t08_start_01",
+     "tanks/tracks/ht/t08_start_02",
+     "tanks/tracks/ht/t08_start_03",
+     "tanks/tracks/ht/t08_start_04",
+     "tanks/tracks/ht/t08_start_05",
+     "tanks/tracks/ht/t08_start_06",
+     "tanks/tracks/ht/t08_start_07"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/tracks/ht/t08_stop_01",
+     "tanks/tracks/ht/t08_stop_02",
+     "tanks/tracks/ht/t08_stop_03",
+     "tanks/tracks/ht/t08_stop_04",
+     "tanks/tracks/ht/t08_stop_06"
+    ],
+    "volume": 1.0
+   }
+  },
+  "lt": {
+   "speed_10": {
+    "streams": [
+     "tanks/tracks/lt/t05_10_01"
+    ],
+    "volume": 1.0
+   },
+   "speed_20": {
+    "streams": [
+     "tanks/tracks/lt/t05_20_01"
+    ],
+    "volume": 1.0
+   },
+   "speed_30": {
+    "streams": [
+     "tanks/tracks/lt/t05_30_01"
+    ],
+    "volume": 1.0
+   },
+   "speed_40": {
+    "streams": [
+     "tanks/tracks/lt/t05_40_01"
+    ],
+    "volume": 1.0
+   },
+   "speed_50": {
+    "streams": [
+     "tanks/tracks/lt/t05_50_01"
+    ],
+    "volume": 1.0
+   },
+   "speed_60": {
+    "streams": [
+     "tanks/tracks/lt/t05_60_01"
+    ],
+    "volume": 1.0
+   },
+   "speed_70": {
+    "streams": [
+     "tanks/tracks/lt/t05_70_01"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/tracks/lt/t05_start_01",
+     "tanks/tracks/lt/t05_start_02",
+     "tanks/tracks/lt/t05_start_03",
+     "tanks/tracks/lt/t05_start_04"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/tracks/lt/t05_stop_01",
+     "tanks/tracks/lt/t05_stop_02",
+     "tanks/tracks/lt/t05_stop_03",
+     "tanks/tracks/lt/t05_stop_04",
+     "tanks/tracks/lt/t05_stop_05",
+     "tanks/tracks/lt/t05_stop_06",
+     "tanks/tracks/lt/t05_stop_07",
+     "tanks/tracks/lt/t05_stop_08"
+    ],
+    "volume": 1.0
+   }
+  },
+  "mt": {
+   "speed_10": {
+    "streams": [
+     "tanks/tracks/mt/t44_05kmh"
+    ],
+    "volume": 1.0
+   },
+   "speed_20": {
+    "streams": [
+     "tanks/tracks/mt/t44_10kmh"
+    ],
+    "volume": 1.0
+   },
+   "speed_30": {
+    "streams": [
+     "tanks/tracks/mt/t44_15kmh"
+    ],
+    "volume": 1.0
+   },
+   "speed_40": {
+    "streams": [
+     "tanks/tracks/mt/t44_20kmh"
+    ],
+    "volume": 1.0
+   },
+   "speed_50": {
+    "streams": [
+     "tanks/tracks/mt/t44_25kmh"
+    ],
+    "volume": 1.0
+   },
+   "speed_60": {
+    "streams": [
+     "tanks/tracks/mt/t44_25kmh"
+    ],
+    "volume": 1.0
+   },
+   "speed_70": {
+    "streams": [
+     "tanks/tracks/mt/t44_25kmh"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/tracks/lt/t05_start_01",
+     "tanks/tracks/lt/t05_start_02",
+     "tanks/tracks/lt/t05_start_03",
+     "tanks/tracks/lt/t05_start_04"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/tracks/lt/t05_stop_01",
+     "tanks/tracks/lt/t05_stop_02",
+     "tanks/tracks/lt/t05_stop_03",
+     "tanks/tracks/lt/t05_stop_04",
+     "tanks/tracks/lt/t05_stop_05",
+     "tanks/tracks/lt/t05_stop_06",
+     "tanks/tracks/lt/t05_stop_07",
+     "tanks/tracks/lt/t05_stop_08"
+    ],
+    "volume": 1.0
+   }
+  },
+  "traktor": {
+   "speed_10": {
+    "streams": [
+     "tanks/tracks/traktor/bt7_speed3"
+    ],
+    "volume": 1.0
+   },
+   "speed_20": {
+    "streams": [
+     "tanks/tracks/traktor/bt7_speed4"
+    ],
+    "volume": 1.0
+   },
+   "speed_30": {
+    "streams": [
+     "tanks/tracks/traktor/bt7_speed5"
+    ],
+    "volume": 1.0
+   },
+   "speed_40": {
+    "streams": [
+     "tanks/tracks/traktor/bt7_speed6"
+    ],
+    "volume": 1.0
+   },
+   "speed_50": {
+    "streams": [
+     "tanks/tracks/traktor/bt7_speed6"
+    ],
+    "volume": 1.0
+   },
+   "speed_60": {
+    "streams": [
+     "tanks/tracks/traktor/bt7_speed6"
+    ],
+    "volume": 1.0
+   },
+   "speed_70": {
+    "streams": [
+     "tanks/tracks/traktor/bt7_speed6"
+    ],
+    "volume": 1.0
+   },
+   "start": {
+    "streams": [
+     "tanks/tracks/traktor/bt7_stop2",
+     "tanks/tracks/traktor/bt7_stop3",
+     "tanks/tracks/traktor/bt7_stop4",
+     "tanks/tracks/traktor/bt7_stop5",
+     "tanks/tracks/traktor/bt7_stop6",
+     "tanks/tracks/traktor/bt7_stop"
+    ],
+    "volume": 1.0
+   },
+   "stop": {
+    "streams": [
+     "tanks/tracks/traktor/bt7_stop2",
+     "tanks/tracks/traktor/bt7_stop3",
+     "tanks/tracks/traktor/bt7_stop4",
+     "tanks/tracks/traktor/bt7_stop5",
+     "tanks/tracks/traktor/bt7_stop6",
+     "tanks/tracks/traktor/bt7_stop"
+    ],
+    "volume": 1.0
+   }
+  }
+ }
+}

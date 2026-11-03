@@ -1,0 +1,4853 @@
+{
+  "version": "11.20",
+  "policy": "complete source modules; 4.8 peer calibration; synthetic research XP",
+  "tanks": [
+    {
+      "name": "f01_vickers_mkf",
+      "display_name": "Vickers Mk. F",
+      "display_name_short": "Vickers Mk. F",
+      "health": 184,
+      "lvl": 1,
+      "tank_class": 0,
+      "nation": 9,
+      "spot_radius": 220.0,
+      "speed_limits": {
+        "x": 36.0,
+        "y": 10.4
+      },
+      "turret_rot_speed": 45.625,
+      "turret_health": 72.5,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 75.0,
+        "max_regen_health": 50.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 100.0,
+        "max_regen_health": 40.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": true,
+      "cost": 0,
+      "cost_xp": 0,
+      "hull_weight": 5704.0,
+      "model_path": "Tanks/European/F01_Vickers_MkF.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/european/F01_Vickers_MkF.xml",
+      "source_sha256": "cb388a24d7d7efe0826ab68c8bb464d67ae0ec12896d610b45897ce6ea3a3c50",
+      "unlock_tanks": {
+        "pl06_10tp": 550
+      },
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_37mm_Psvk-36",
+          "display_name": "Psvk-36",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 60.0,
+          "weight": 78.0,
+          "reload": 4.014706,
+          "aim_time": 1.725,
+          "disp": 0.39,
+          "rot_speed": 43.75,
+          "max_ammo": 80,
+          "caliber": 37,
+          "deviation_up": {
+            "x": 20.0,
+            "y": 10.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.08,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.24,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 1,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "AP Shell",
+              "caliber": 37,
+              "dmg": 35,
+              "pen": 46,
+              "speed": 765,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 2
+            }
+          ],
+          "unlocks": {
+            "gun:_45mm_20K_FN": 130
+          }
+        },
+        {
+          "kind": "gun",
+          "name": "_45mm_20K_FN",
+          "display_name": "20K",
+          "level": 2,
+          "cost_xp": 130,
+          "health": 68.0,
+          "weight": 78.0,
+          "reload": 4.588235,
+          "aim_time": 1.725,
+          "disp": 0.3525,
+          "rot_speed": 43.75,
+          "max_ammo": 70,
+          "caliber": 45,
+          "deviation_up": {
+            "x": 20.0,
+            "y": 10.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.08,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.24,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 1,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "AP Shell",
+              "caliber": 45,
+              "dmg": 40,
+              "pen": 46,
+              "speed": 800,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 2
+            }
+          ],
+          "unlocks": {
+            "vehicle:pl06_10tp": 550
+          }
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_F01_Vickers_mkF",
+          "display_name": "Vickers Mk. E",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 56.0,
+          "weight": 650.0,
+          "rot_speed": 44.0,
+          "spot_radius": 210.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 60.0,
+            "max_regen_health": 30.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 40.0,
+            "max_regen_health": 20.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {
+            "turret:Turret_2_F01_Vickers_mkF": 160
+          },
+          "guns": [
+            {
+              "name": "_37mm_Psvk-36",
+              "reload": 4.014706,
+              "max_ammo": 80,
+              "mesh": "gun_01",
+              "unlocks": {
+                "gun:_45mm_20K_FN": 130
+              }
+            }
+          ]
+        },
+        {
+          "kind": "turret",
+          "name": "Turret_2_F01_Vickers_mkF",
+          "display_name": "Vickers Mk. F",
+          "level": 2,
+          "cost_xp": 160,
+          "health": 72.5,
+          "weight": 650.0,
+          "rot_speed": 45.625,
+          "spot_radius": 220.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 60.0,
+            "max_regen_health": 30.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 40.0,
+            "max_regen_health": 20.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_02",
+          "unlocks": {
+            "gun:_45mm_20K_FN": 130
+          },
+          "guns": [
+            {
+              "name": "_37mm_Psvk-36",
+              "reload": 4.014706,
+              "max_ammo": 80,
+              "mesh": "gun_02",
+              "unlocks": {
+                "gun:_45mm_20K_FN": 130
+              }
+            },
+            {
+              "name": "_45mm_20K_FN",
+              "reload": 4.588235,
+              "max_ammo": 70,
+              "mesh": "gun_03",
+              "unlocks": {
+                "vehicle:pl06_10tp": 550
+              }
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_F01_Vickers_mkF",
+          "display_name": "Vickers Mk. F",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 60.0,
+          "weight": 1880.0,
+          "rot_speed": 47.5,
+          "disp_move_mul": 0.2,
+          "disp_rotation_mul": 0.2,
+          "max_regen_health": 45.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 10
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "Armstrong-Siddeley",
+          "display_name": "Armstrong Siddeley",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 50.0,
+          "weight": 545.0,
+          "power": 130,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 25.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "SB-4a",
+          "display_name": "SB-4a",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 1.0,
+          "weight": 1.0,
+          "distance": 375.0,
+          "unlocks": {}
+        }
+      ],
+      "source_version": "11.20",
+      "tree_branch": -2,
+      "acquisition": ""
+    },
+    {
+      "name": "pl06_10tp",
+      "display_name": "10TP",
+      "display_name_short": "10TP",
+      "health": 239,
+      "lvl": 2,
+      "tank_class": 0,
+      "nation": 9,
+      "spot_radius": 230.0,
+      "speed_limits": {
+        "x": 45.0,
+        "y": 19.5
+      },
+      "turret_rot_speed": 36.0,
+      "turret_health": 82.0,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 90.0,
+        "max_regen_health": 60.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 125.0,
+        "max_regen_health": 50.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": true,
+      "cost": 1200,
+      "cost_xp": 550,
+      "hull_weight": 6500.0,
+      "model_path": "Tanks/European/Pl06_10TP.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/european/Pl06_10TP.xml",
+      "source_sha256": "1ed78a1e6f773e377868be24838adf800c441ee815cd7bfeef6a955fb0471ab8",
+      "unlock_tanks": {
+        "pl07_14tp": 2430
+      },
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_37mm_Bofors_wz_37",
+          "display_name": "Bofors wz. 37",
+          "level": 2,
+          "cost_xp": 0,
+          "health": 60.0,
+          "weight": 70.0,
+          "reload": 4.9,
+          "aim_time": 1.275,
+          "disp": 0.38,
+          "rot_speed": 43.75,
+          "max_ammo": 100,
+          "caliber": 37,
+          "deviation_up": {
+            "x": 20.0,
+            "y": 12.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.12,
+            "y": 3.5,
+            "z": 2.0
+          },
+          "impulse_mul": 0.26,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 1,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "AP Shell",
+              "caliber": 37,
+              "dmg": 48,
+              "pen": 51,
+              "speed": 705,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 50
+            }
+          ],
+          "unlocks": {
+            "gun:_47mm_kan_m_38_strv": 230
+          }
+        },
+        {
+          "kind": "gun",
+          "name": "_47mm_kan_m_38_strv",
+          "display_name": "kan m/38 strv",
+          "level": 3,
+          "cost_xp": 230,
+          "health": 76.0,
+          "weight": 70.0,
+          "reload": 4.823529,
+          "aim_time": 1.425,
+          "disp": 0.4,
+          "rot_speed": 40.0,
+          "max_ammo": 100,
+          "caliber": 47,
+          "deviation_up": {
+            "x": 20.0,
+            "y": 12.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.1,
+            "y": 3.5,
+            "z": 2.0
+          },
+          "impulse_mul": 0.1,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 1,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "AP Shell",
+              "caliber": 47,
+              "dmg": 54,
+              "pen": 56,
+              "speed": 782,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 64
+            }
+          ],
+          "unlocks": {
+            "vehicle:pl07_14tp": 2430
+          }
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_Pl06_10TP",
+          "display_name": "Bofors 2-osobowa",
+          "level": 2,
+          "cost_xp": 0,
+          "health": 82.0,
+          "weight": 1050.0,
+          "rot_speed": 36.0,
+          "spot_radius": 230.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 70.0,
+            "max_regen_health": 35.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 50.0,
+            "max_regen_health": 25.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {
+            "gun:_47mm_kan_m_38_strv": 230
+          },
+          "guns": [
+            {
+              "name": "_37mm_Bofors_wz_37",
+              "reload": 4.9,
+              "max_ammo": 100,
+              "mesh": "gun_01",
+              "unlocks": {
+                "gun:_47mm_kan_m_38_strv": 230
+              }
+            },
+            {
+              "name": "_47mm_kan_m_38_strv",
+              "reload": 4.823529,
+              "max_ammo": 100,
+              "mesh": "gun_02",
+              "unlocks": {
+                "vehicle:pl07_14tp": 2430
+              }
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_Pl06_10TP",
+          "display_name": "C.L.P. 10TP",
+          "level": 2,
+          "cost_xp": 0,
+          "health": 50.0,
+          "weight": 4000.0,
+          "rot_speed": 48.0,
+          "disp_move_mul": 0.165,
+          "disp_rotation_mul": 0.18,
+          "max_regen_health": 40.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 10
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "J_V12",
+          "display_name": "American la France “J” V-12",
+          "level": 3,
+          "cost_xp": 0,
+          "health": 80.0,
+          "weight": 510.0,
+          "power": 261,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 39.0,
+          "repair_cost": 0.0,
+          "unlocks": {
+            "engine:Maybach_HL_120_TR": 55
+          }
+        },
+        {
+          "kind": "engine",
+          "name": "Maybach_HL_120_TR",
+          "display_name": "Maybach HL 120 TR",
+          "level": 4,
+          "cost_xp": 55,
+          "health": 104.0,
+          "weight": 530.0,
+          "power": 261,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 52.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "N2_S",
+          "display_name": "N2_S",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 1.0,
+          "weight": 1.0,
+          "distance": 375.0,
+          "unlocks": {}
+        }
+      ],
+      "source_version": "11.20",
+      "tree_branch": -2,
+      "acquisition": ""
+    },
+    {
+      "name": "pl07_14tp",
+      "display_name": "14TP",
+      "display_name_short": "14TP",
+      "health": 331,
+      "lvl": 3,
+      "tank_class": 0,
+      "nation": 9,
+      "spot_radius": 230.0,
+      "speed_limits": {
+        "x": 50.0,
+        "y": 20.0
+      },
+      "turret_rot_speed": 38.0,
+      "turret_health": 140.0,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 110.0,
+        "max_regen_health": 75.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 125.0,
+        "max_regen_health": 50.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": true,
+      "cost": 6000,
+      "cost_xp": 2430,
+      "hull_weight": 7800.0,
+      "model_path": "Tanks/European/Pl07_14TP.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/european/Pl07_14TP.xml",
+      "source_sha256": "cc644fc4c2fef682daaea0f9805fdc25f7989722459e683e7cfa482fbcd61ab7",
+      "unlock_tanks": {
+        "s04_lago-i": 5800
+      },
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_40mm_auto_Boforsa",
+          "display_name": "auto. Boforsa",
+          "level": 4,
+          "cost_xp": 0,
+          "health": 70.0,
+          "weight": 470.0,
+          "reload": 4.9,
+          "aim_time": 1.425,
+          "disp": 0.43,
+          "rot_speed": 43.75,
+          "max_ammo": 90,
+          "caliber": 40,
+          "deviation_up": {
+            "x": 20.0,
+            "y": 8.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.1,
+            "y": 1.5,
+            "z": 2.0
+          },
+          "impulse_mul": 0.1,
+          "fire_mode": 1,
+          "burst_info": {
+            "kind": "burst",
+            "bursts": [
+              1,
+              1
+            ],
+            "intraclip": 0.4,
+            "intraburst": 0.4
+          },
+          "shot_sound": 0,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "AP Shell",
+              "caliber": 40,
+              "dmg": 36,
+              "pen": 56,
+              "speed": 829,
+              "cost": 0,
+              "type": 0,
+              "max_dist": 400.0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 54
+            },
+            {
+              "kind": "shell",
+              "name": "APCR Shell",
+              "caliber": 40,
+              "dmg": 32,
+              "pen": 85,
+              "speed": 1036,
+              "cost": 400,
+              "type": 1,
+              "max_dist": 400.0,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 54
+            }
+          ],
+          "unlocks": {
+            "gun:_47mm_armata_wz_39": 675
+          }
+        },
+        {
+          "kind": "gun",
+          "name": "_47mm_armata_wz_39",
+          "display_name": "armata wz. 39",
+          "level": 4,
+          "cost_xp": 675,
+          "health": 76.0,
+          "weight": 470.0,
+          "reload": 4.323991,
+          "aim_time": 1.3875,
+          "disp": 0.38,
+          "rot_speed": 40.0,
+          "max_ammo": 90,
+          "caliber": 47,
+          "deviation_up": {
+            "x": 20.0,
+            "y": 8.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.1,
+            "y": 3.5,
+            "z": 2.0
+          },
+          "impulse_mul": 0.1,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 1,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "AP Shell",
+              "caliber": 47,
+              "dmg": 54,
+              "pen": 65,
+              "speed": 885,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 64
+            },
+            {
+              "kind": "shell",
+              "name": "AP Shell",
+              "caliber": 47,
+              "dmg": 54,
+              "pen": 73,
+              "speed": 1106,
+              "cost": 400,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 64
+            }
+          ],
+          "unlocks": {
+            "vehicle:s04_lago-i": 5800
+          }
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_Pl07_14TP",
+          "display_name": "14TP",
+          "level": 3,
+          "cost_xp": 0,
+          "health": 90.0,
+          "weight": 1000.0,
+          "rot_speed": 35.0,
+          "spot_radius": 220.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 80.0,
+            "max_regen_health": 40.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 60.0,
+            "max_regen_health": 30.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {
+            "turret:Turret_2_Pl07_14TP": 500
+          },
+          "guns": [
+            {
+              "name": "_40mm_auto_Boforsa",
+              "reload": 4.9,
+              "max_ammo": 60,
+              "mesh": "gun_01",
+              "unlocks": {
+                "gun:_47mm_armata_wz_39": 675
+              }
+            }
+          ]
+        },
+        {
+          "kind": "turret",
+          "name": "Turret_2_Pl07_14TP",
+          "display_name": "Wieża 14TP",
+          "level": 4,
+          "cost_xp": 500,
+          "health": 140.0,
+          "weight": 1000.0,
+          "rot_speed": 38.0,
+          "spot_radius": 230.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 80.0,
+            "max_regen_health": 40.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 60.0,
+            "max_regen_health": 30.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_02",
+          "unlocks": {
+            "gun:_47mm_armata_wz_39": 675
+          },
+          "guns": [
+            {
+              "name": "_40mm_auto_Boforsa",
+              "reload": 4.9,
+              "max_ammo": 90,
+              "mesh": "gun_03",
+              "unlocks": {
+                "gun:_47mm_armata_wz_39": 675
+              }
+            },
+            {
+              "name": "_47mm_armata_wz_39",
+              "reload": 4.323991,
+              "max_ammo": 90,
+              "mesh": "gun_02",
+              "unlocks": {
+                "vehicle:s04_lago-i": 5800
+              }
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_Pl07_14TP",
+          "display_name": "C.L.P. 14TP",
+          "level": 3,
+          "cost_xp": 0,
+          "health": 70.0,
+          "weight": 4200.0,
+          "rot_speed": 37.0,
+          "disp_move_mul": 0.17,
+          "disp_rotation_mul": 0.17,
+          "max_regen_health": 55.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {
+            "chassis:Chassis_Pl07_14TP_2": 315
+          },
+          "armor": 15
+        },
+        {
+          "kind": "tracks",
+          "name": "Chassis_Pl07_14TP_2",
+          "display_name": "14TP",
+          "level": 4,
+          "cost_xp": 315,
+          "health": 80.0,
+          "weight": 4200.0,
+          "rot_speed": 40.0,
+          "disp_move_mul": 0.17,
+          "disp_rotation_mul": 0.17,
+          "max_regen_health": 60.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 15
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "J_V12_M",
+          "display_name": "American la France “J” V-12",
+          "level": 4,
+          "cost_xp": 0,
+          "health": 104.0,
+          "weight": 510.0,
+          "power": 230,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 52.0,
+          "repair_cost": 0.0,
+          "unlocks": {
+            "engine:PLInz_RWA": 1050
+          }
+        },
+        {
+          "kind": "engine",
+          "name": "PLInz_RWA",
+          "display_name": "PLInz R.W.A.",
+          "level": 5,
+          "cost_xp": 1050,
+          "health": 124.0,
+          "weight": 550.0,
+          "power": 280,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 62.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "N2_S",
+          "display_name": "N2_S",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 1.0,
+          "weight": 1.0,
+          "distance": 375.0,
+          "unlocks": {}
+        }
+      ],
+      "source_version": "11.20",
+      "tree_branch": -2,
+      "acquisition": ""
+    },
+    {
+      "name": "s04_lago-i",
+      "display_name": "Lago",
+      "display_name_short": "Lago",
+      "health": 432,
+      "lvl": 4,
+      "tank_class": 1,
+      "nation": 9,
+      "spot_radius": 230.0,
+      "speed_limits": {
+        "x": 45.0,
+        "y": 18.0
+      },
+      "turret_rot_speed": 31.5,
+      "turret_health": 137.5,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 130.0,
+        "max_regen_health": 85.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 125.0,
+        "max_regen_health": 50.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": true,
+      "cost": 85000,
+      "cost_xp": 5800,
+      "hull_weight": 9736.0,
+      "model_path": "Tanks/European/Lago_I.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/european/S04_Lago-I.xml",
+      "source_sha256": "42e3f24030571de0add61dfcf178664addbc4323106337f007ef80b06b28d1cb",
+      "unlock_tanks": {
+        "s02_strvm42": 14140
+      },
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_57mm_pvkan_m_43",
+          "display_name": "pvkan m/43",
+          "level": 3,
+          "cost_xp": 0,
+          "health": 84.0,
+          "weight": 575.0,
+          "reload": 5.929412,
+          "aim_time": 2.1,
+          "disp": 0.4,
+          "rot_speed": 43.75,
+          "max_ammo": 70,
+          "caliber": 57,
+          "deviation_up": {
+            "x": 25.0,
+            "y": 10.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.12,
+            "y": 3.5,
+            "z": 2.0
+          },
+          "impulse_mul": 0.26,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 2,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "AP Shell",
+              "caliber": 57,
+              "dmg": 84,
+              "pen": 80,
+              "speed": 825,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 100
+            },
+            {
+              "kind": "shell",
+              "name": "APCR Shell",
+              "caliber": 57,
+              "dmg": 72,
+              "pen": 115,
+              "speed": 1200,
+              "cost": 1200,
+              "type": 1,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 76
+            },
+            {
+              "kind": "shell",
+              "name": "HE Shell",
+              "caliber": 57,
+              "dmg": 108,
+              "pen": 29,
+              "speed": 600,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 0.66,
+              "dmg_devices": 76
+            }
+          ],
+          "unlocks": {
+            "gun:_75mm_kan_m_41_strv_A": 1530
+          }
+        },
+        {
+          "kind": "gun",
+          "name": "_75mm_kan_m_41_strv_A",
+          "display_name": "kan m/41 strv",
+          "level": 4,
+          "cost_xp": 1530,
+          "health": 120.0,
+          "weight": 575.0,
+          "reload": 8.7,
+          "aim_time": 2.875,
+          "disp": 0.46,
+          "rot_speed": 35.0,
+          "max_ammo": 60,
+          "caliber": 75,
+          "deviation_up": {
+            "x": 25.0,
+            "y": 10.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.12,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.38,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 2,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "AP Shell",
+              "caliber": 75,
+              "dmg": 140,
+              "pen": 90,
+              "speed": 590,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 100
+            },
+            {
+              "kind": "shell",
+              "name": "APCR Shell",
+              "caliber": 75,
+              "dmg": 120,
+              "pen": 104,
+              "speed": 570,
+              "cost": 1600,
+              "type": 2,
+              "ricochet_angle": 85.0,
+              "premium": true,
+              "dmg_devices": 100
+            },
+            {
+              "kind": "shell",
+              "name": "HE Shell",
+              "caliber": 75,
+              "dmg": 175,
+              "pen": 38,
+              "speed": 570,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 1.06,
+              "dmg_devices": 100
+            }
+          ],
+          "unlocks": {
+            "vehicle:s02_strvm42": 14140
+          }
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_S04_Lago_I",
+          "display_name": "Lago m/38",
+          "level": 3,
+          "cost_xp": 0,
+          "health": 108.0,
+          "weight": 2000.0,
+          "rot_speed": 31.5,
+          "spot_radius": 220.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 80.0,
+            "max_regen_health": 40.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 60.0,
+            "max_regen_health": 30.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {
+            "turret:Turret_2_S04_Lago_I": 1265
+          },
+          "guns": [
+            {
+              "name": "_57mm_pvkan_m_43",
+              "reload": 5.929412,
+              "max_ammo": 70,
+              "mesh": "gun_02",
+              "unlocks": {
+                "gun:_75mm_kan_m_41_strv_A": 1530
+              }
+            }
+          ]
+        },
+        {
+          "kind": "turret",
+          "name": "Turret_2_S04_Lago_I",
+          "display_name": "Lago m/40",
+          "level": 4,
+          "cost_xp": 1265,
+          "health": 137.5,
+          "weight": 2000.0,
+          "rot_speed": 31.5,
+          "spot_radius": 230.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 80.0,
+            "max_regen_health": 40.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 60.0,
+            "max_regen_health": 30.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_02",
+          "unlocks": {
+            "gun:_75mm_kan_m_41_strv_A": 1530
+          },
+          "guns": [
+            {
+              "name": "_57mm_pvkan_m_43",
+              "reload": 5.929412,
+              "max_ammo": 70,
+              "mesh": "gun_05",
+              "unlocks": {
+                "gun:_75mm_kan_m_41_strv_A": 1530
+              }
+            },
+            {
+              "name": "_75mm_kan_m_41_strv_A",
+              "reload": 8.7,
+              "max_ammo": 60,
+              "mesh": "gun_06",
+              "unlocks": {
+                "vehicle:s02_strvm42": 14140
+              }
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_S04_Lago_I",
+          "display_name": "Lago I",
+          "level": 3,
+          "cost_xp": 0,
+          "health": 70.0,
+          "weight": 4500.0,
+          "rot_speed": 38.0,
+          "disp_move_mul": 0.2,
+          "disp_rotation_mul": 0.2,
+          "max_regen_health": 55.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {
+            "chassis:Chassis_S04_Lago_I_2": 1240
+          },
+          "armor": 20
+        },
+        {
+          "kind": "tracks",
+          "name": "Chassis_S04_Lago_I_2",
+          "display_name": "Lago II",
+          "level": 4,
+          "cost_xp": 1240,
+          "health": 80.0,
+          "weight": 4500.0,
+          "rot_speed": 42.0,
+          "disp_move_mul": 0.17,
+          "disp_rotation_mul": 0.17,
+          "max_regen_health": 60.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 20
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "_2_st_Scania_Vabis_1664",
+          "display_name": "2 st Scania-Vabis 1664",
+          "level": 4,
+          "cost_xp": 0,
+          "health": 123.0,
+          "weight": 970.0,
+          "power": 284,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 58.0,
+          "repair_cost": 0.0,
+          "unlocks": {
+            "engine:_2_st_Scania_Vabis_L_603_1": 1145
+          }
+        },
+        {
+          "kind": "engine",
+          "name": "_2_st_Scania_Vabis_L_603_1",
+          "display_name": "2 st Scania-Vabis L 603/1",
+          "level": 4,
+          "cost_xp": 1145,
+          "health": 123.0,
+          "weight": 1080.0,
+          "power": 324,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 58.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "_25_W_Sv_1_m_39_42",
+          "display_name": "_25_W_Sv_1_m_39_42",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 1.0,
+          "weight": 1.0,
+          "distance": 375.0,
+          "unlocks": {}
+        }
+      ],
+      "source_version": "11.20",
+      "tree_branch": -2,
+      "acquisition": ""
+    },
+    {
+      "name": "s02_strvm42",
+      "display_name": "Strv m/42",
+      "display_name_short": "Strv m/42",
+      "health": 496,
+      "lvl": 5,
+      "tank_class": 1,
+      "nation": 9,
+      "spot_radius": 240.0,
+      "speed_limits": {
+        "x": 45.0,
+        "y": 20.0
+      },
+      "turret_rot_speed": 40.0,
+      "turret_health": 154.0,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 150.0,
+        "max_regen_health": 90.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 150.0,
+        "max_regen_health": 60.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": true,
+      "cost": 400000,
+      "cost_xp": 14140,
+      "hull_weight": 12292.0,
+      "model_path": "Tanks/European/S02_StrvM42.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/european/S02_StrvM42.xml",
+      "source_sha256": "11b36fb7db0f8ef01ba7aa7162f16b67ca18556d7e3c87d4bebccae3b42b9cac",
+      "unlock_tanks": {
+        "s07_strv_74": 27912
+      },
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_75mm_kan_m_41_strv",
+          "display_name": "7,5 cm kan m/41 strv",
+          "level": 4,
+          "cost_xp": 0,
+          "health": 120.0,
+          "weight": 575.0,
+          "reload": 7.0,
+          "aim_time": 2.1,
+          "disp": 0.39,
+          "rot_speed": 35.0,
+          "max_ammo": 60,
+          "caliber": 75,
+          "deviation_up": {
+            "x": 25.0,
+            "y": 15.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.1,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.38,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 2,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "slpprj m/40 B",
+              "caliber": 75,
+              "dmg": 140,
+              "pen": 91,
+              "speed": 590,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 100
+            },
+            {
+              "kind": "shell",
+              "name": "slpsgr fm/45",
+              "caliber": 75,
+              "dmg": 120,
+              "pen": 90,
+              "speed": 570,
+              "cost": 2000,
+              "type": 2,
+              "ricochet_angle": 85.0,
+              "premium": true,
+              "dmg_devices": 100
+            },
+            {
+              "kind": "shell",
+              "name": "sgr m/40",
+              "caliber": 75,
+              "dmg": 175,
+              "pen": 38,
+              "speed": 570,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 1.06,
+              "dmg_devices": 100
+            }
+          ],
+          "unlocks": {
+            "gun:_75mm_kan_m_43_strv": 2400
+          }
+        },
+        {
+          "kind": "gun",
+          "name": "_75mm_kan_m_43_strv",
+          "display_name": "7,5 cm kan m/43 strv",
+          "level": 5,
+          "cost_xp": 2400,
+          "health": 120.0,
+          "weight": 840.0,
+          "reload": 8.0,
+          "aim_time": 2.1,
+          "disp": 0.39,
+          "rot_speed": 35.0,
+          "max_ammo": 48,
+          "caliber": 75,
+          "deviation_up": {
+            "x": 25.0,
+            "y": 15.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.1,
+            "y": 3.5,
+            "z": 2.0
+          },
+          "impulse_mul": 0.38,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 2,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "slpprj m/41",
+              "caliber": 75,
+              "dmg": 160,
+              "pen": 110,
+              "speed": 815,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 105
+            },
+            {
+              "kind": "shell",
+              "name": "slpgr fm/43",
+              "caliber": 75,
+              "dmg": 135,
+              "pen": 127,
+              "speed": 890,
+              "cost": 2000,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 105
+            },
+            {
+              "kind": "shell",
+              "name": "sgr m/38",
+              "caliber": 75,
+              "dmg": 200,
+              "pen": 38,
+              "speed": 814,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 1.06,
+              "dmg_devices": 105
+            }
+          ],
+          "unlocks": {
+            "vehicle:s07_strv_74": 27912
+          }
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_S02_Strv_M42",
+          "display_name": "Lago m/40",
+          "level": 4,
+          "cost_xp": 0,
+          "health": 124.0,
+          "weight": 2400.0,
+          "rot_speed": 36.0,
+          "spot_radius": 230.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 100.0,
+            "max_regen_health": 50.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 70.0,
+            "max_regen_health": 35.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {
+            "turret:Turret_2_S02_Strv_M42": 2690
+          },
+          "guns": [
+            {
+              "name": "_75mm_kan_m_41_strv",
+              "reload": 7.5,
+              "max_ammo": 60,
+              "mesh": "gun_02",
+              "unlocks": {
+                "gun:_75mm_kan_m_43_strv": 2400
+              }
+            }
+          ]
+        },
+        {
+          "kind": "turret",
+          "name": "Turret_2_S02_Strv_M42",
+          "display_name": "Strv m/42",
+          "level": 5,
+          "cost_xp": 2690,
+          "health": 154.0,
+          "weight": 2925.0,
+          "rot_speed": 40.0,
+          "spot_radius": 240.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 50.0,
+            "max_regen_health": 25.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 40.0,
+            "max_regen_health": 19.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_02",
+          "unlocks": {
+            "gun:_75mm_kan_m_43_strv": 2400
+          },
+          "guns": [
+            {
+              "name": "_75mm_kan_m_41_strv",
+              "reload": 7.0,
+              "max_ammo": 60,
+              "mesh": "gun_04",
+              "unlocks": {
+                "gun:_75mm_kan_m_43_strv": 2400
+              }
+            },
+            {
+              "name": "_75mm_kan_m_43_strv",
+              "reload": 8.0,
+              "max_ammo": 48,
+              "mesh": "gun_06",
+              "unlocks": {
+                "vehicle:s07_strv_74": 27912
+              }
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_S02_Strv_M42",
+          "display_name": "Lago III",
+          "level": 4,
+          "cost_xp": 0,
+          "health": 90.0,
+          "weight": 5064.0,
+          "rot_speed": 29.625,
+          "disp_move_mul": 0.18,
+          "disp_rotation_mul": 0.18,
+          "max_regen_health": 70.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {
+            "chassis:Chassis_S02_Strv_M42_2": 2012
+          },
+          "armor": 15
+        },
+        {
+          "kind": "tracks",
+          "name": "Chassis_S02_Strv_M42_2",
+          "display_name": "Lago IV",
+          "level": 5,
+          "cost_xp": 2012,
+          "health": 100.0,
+          "weight": 5064.0,
+          "rot_speed": 30.0,
+          "disp_move_mul": 0.16,
+          "disp_rotation_mul": 0.16,
+          "max_regen_health": 75.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 15
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "_2_st_Scania_Vabis_L_603_1",
+          "display_name": "2 st Scania-Vabis L 603/1",
+          "level": 4,
+          "cost_xp": 0,
+          "health": 123.0,
+          "weight": 1080.0,
+          "power": 324,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 58.0,
+          "repair_cost": 0.0,
+          "unlocks": {
+            "engine:Volvo_A8B": 1810
+          }
+        },
+        {
+          "kind": "engine",
+          "name": "Volvo_A8B",
+          "display_name": "Volvo A8B",
+          "level": 5,
+          "cost_xp": 1810,
+          "health": 123.0,
+          "weight": 1050.0,
+          "power": 410,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 58.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "_70_W_Sv_m_43",
+          "display_name": "_70_W_Sv_m_43",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 1.0,
+          "weight": 1.0,
+          "distance": 1.0,
+          "unlocks": {}
+        }
+      ],
+      "source_version": "11.20",
+      "tree_branch": -2,
+      "acquisition": ""
+    },
+    {
+      "name": "s07_strv_74",
+      "display_name": "Strv 74",
+      "display_name_short": "Strv 74",
+      "health": 760,
+      "lvl": 6,
+      "tank_class": 1,
+      "nation": 9,
+      "spot_radius": 240.0,
+      "speed_limits": {
+        "x": 50.0,
+        "y": 20.0
+      },
+      "turret_rot_speed": 38.0,
+      "turret_health": 190.0,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 160.0,
+        "max_regen_health": 110.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 150.0,
+        "max_regen_health": 60.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": true,
+      "cost": 930500,
+      "cost_xp": 27912,
+      "hull_weight": 13770.0,
+      "model_path": "Tanks/European/S07_Strv_74.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/european/S07_Strv_74.xml",
+      "source_sha256": "acdfd93428b350d5bfca881e33bfb8adc5870f9ccdaf0a54c2958e7c513b174d",
+      "unlock_tanks": {
+        "s13_leo": 56520
+      },
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_75mm_lvkan_m_36",
+          "display_name": "7,5 cm lvkan m/36",
+          "level": 6,
+          "cost_xp": 0,
+          "health": 130.0,
+          "weight": 1035.0,
+          "reload": 6.2,
+          "aim_time": 1.9,
+          "disp": 0.36,
+          "rot_speed": 35.0,
+          "max_ammo": 50,
+          "caliber": 75,
+          "deviation_up": {
+            "x": 15.0,
+            "y": 10.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.08,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.46,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 2,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "slpprj m/41",
+              "caliber": 75,
+              "dmg": 160,
+              "pen": 120,
+              "speed": 840,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 105
+            },
+            {
+              "kind": "shell",
+              "name": "slpgr fm/43",
+              "caliber": 75,
+              "dmg": 135,
+              "pen": 148,
+              "speed": 925,
+              "cost": 2000,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 105
+            },
+            {
+              "kind": "shell",
+              "name": "sgr m/38",
+              "caliber": 75,
+              "dmg": 200,
+              "pen": 38,
+              "speed": 826,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 1.06,
+              "dmg_devices": 105
+            }
+          ],
+          "unlocks": {
+            "gun:_75mm_kan_strv_74_R": 6135
+          }
+        },
+        {
+          "kind": "gun",
+          "name": "_75mm_kan_strv_74_R",
+          "display_name": "7,5 cm kan strv 74",
+          "level": 6,
+          "cost_xp": 6135,
+          "health": 130.0,
+          "weight": 1035.0,
+          "reload": 5.7,
+          "aim_time": 1.9,
+          "disp": 0.36,
+          "rot_speed": 35.0,
+          "max_ammo": 50,
+          "caliber": 75,
+          "deviation_up": {
+            "x": 20.0,
+            "y": 10.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.08,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.46,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 2,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "slpgr m/43",
+              "caliber": 75,
+              "dmg": 160,
+              "pen": 148,
+              "speed": 925,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 105
+            },
+            {
+              "kind": "shell",
+              "name": "slpprj m/49",
+              "caliber": 75,
+              "dmg": 135,
+              "pen": 200,
+              "speed": 1160,
+              "cost": 2000,
+              "type": 1,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 105
+            },
+            {
+              "kind": "shell",
+              "name": "sgr m/38",
+              "caliber": 75,
+              "dmg": 200,
+              "pen": 38,
+              "speed": 840,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 1.06,
+              "dmg_devices": 105
+            }
+          ],
+          "unlocks": {
+            "vehicle:s13_leo": 56520
+          }
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_S07_Strv_74",
+          "display_name": "Strv 74 prototyptorn",
+          "level": 5,
+          "cost_xp": 0,
+          "health": 190.0,
+          "weight": 3965.0,
+          "rot_speed": 33.0,
+          "spot_radius": 230.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 120.0,
+            "max_regen_health": 60.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 80.0,
+            "max_regen_health": 40.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {
+            "turret:Turret_2_S07_Strv_74": 6140
+          },
+          "guns": [
+            {
+              "name": "_75mm_lvkan_m_36",
+              "reload": 7.1,
+              "max_ammo": 50,
+              "mesh": "gun_02",
+              "unlocks": {
+                "gun:_75mm_kan_strv_74_R": 6135
+              }
+            }
+          ]
+        },
+        {
+          "kind": "turret",
+          "name": "Turret_2_S07_Strv_74",
+          "display_name": "Strv 74",
+          "level": 6,
+          "cost_xp": 6140,
+          "health": 190.0,
+          "weight": 4200.0,
+          "rot_speed": 38.0,
+          "spot_radius": 240.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 120.0,
+            "max_regen_health": 60.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 80.0,
+            "max_regen_health": 40.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_02",
+          "unlocks": {
+            "gun:_75mm_kan_strv_74_R": 6135
+          },
+          "guns": [
+            {
+              "name": "_75mm_lvkan_m_36",
+              "reload": 6.2,
+              "max_ammo": 50,
+              "mesh": "gun_05",
+              "unlocks": {
+                "gun:_75mm_kan_strv_74_R": 6135
+              }
+            },
+            {
+              "name": "_75mm_kan_strv_74_R",
+              "reload": 5.7,
+              "max_ammo": 50,
+              "mesh": "gun_06",
+              "unlocks": {
+                "vehicle:s13_leo": 56520
+              }
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_S07_Strv_74",
+          "display_name": "Strv 74 prototyp",
+          "level": 5,
+          "cost_xp": 0,
+          "health": 110.0,
+          "weight": 5500.0,
+          "rot_speed": 30.0,
+          "disp_move_mul": 0.15,
+          "disp_rotation_mul": 0.15,
+          "max_regen_health": 85.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {
+            "chassis:Chassis_S07_Strv_74_2": 6175
+          },
+          "armor": 15
+        },
+        {
+          "kind": "tracks",
+          "name": "Chassis_S07_Strv_74_2",
+          "display_name": "Strv 74",
+          "level": 6,
+          "cost_xp": 6175,
+          "health": 120.0,
+          "weight": 5500.0,
+          "rot_speed": 35.0,
+          "disp_move_mul": 0.13,
+          "disp_rotation_mul": 0.13,
+          "max_regen_health": 90.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 15
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "_2_st_Scania_Vabis_L_603_1",
+          "display_name": "2 st Scania-Vabis L 603/1",
+          "level": 4,
+          "cost_xp": 0,
+          "health": 123.0,
+          "weight": 1080.0,
+          "power": 324,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 58.0,
+          "repair_cost": 0.0,
+          "unlocks": {
+            "engine:_2_st_Scania_Vabis_607": 12980
+          }
+        },
+        {
+          "kind": "engine",
+          "name": "_2_st_Scania_Vabis_607",
+          "display_name": "2 st Scania-Vabis 607/1",
+          "level": 5,
+          "cost_xp": 12980,
+          "health": 123.0,
+          "weight": 1200.0,
+          "power": 420,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 58.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "Ra_400",
+          "display_name": "Ra_400",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 1.0,
+          "weight": 1.0,
+          "distance": 1.0,
+          "unlocks": {}
+        }
+      ],
+      "source_version": "11.20",
+      "tree_branch": -2,
+      "acquisition": ""
+    },
+    {
+      "name": "s13_leo",
+      "display_name": "Leo",
+      "display_name_short": "Leo",
+      "health": 880,
+      "lvl": 7,
+      "tank_class": 1,
+      "nation": 9,
+      "spot_radius": 240.0,
+      "speed_limits": {
+        "x": 45.0,
+        "y": 20.0
+      },
+      "turret_rot_speed": 38.0,
+      "turret_health": 320.0,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 200.0,
+        "max_regen_health": 135.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 150.0,
+        "max_regen_health": 60.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": true,
+      "cost": 1350000,
+      "cost_xp": 56520,
+      "hull_weight": 11815.0,
+      "model_path": "Tanks/European/S13_Leo.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/european/S13_Leo.xml",
+      "source_sha256": "86a0598e9bbd9e521cbfec8aec9aba4de23e9b0fe3aada8df99610e20a2d2236",
+      "unlock_tanks": {
+        "s18_emil_1951e1": 81000
+      },
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_75mm_kan_strv_74_R",
+          "display_name": "7,5 cm kan strv 74",
+          "level": 6,
+          "cost_xp": 0,
+          "health": 130.0,
+          "weight": 1035.0,
+          "reload": 5.0,
+          "aim_time": 1.725,
+          "disp": 0.35,
+          "rot_speed": 35.0,
+          "max_ammo": 60,
+          "caliber": 75,
+          "deviation_up": {
+            "x": 15.0,
+            "y": 10.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.08,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.46,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 2,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "slpgr m/43",
+              "caliber": 75,
+              "dmg": 160,
+              "pen": 148,
+              "speed": 925,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 105
+            },
+            {
+              "kind": "shell",
+              "name": "slpprj m/49",
+              "caliber": 75,
+              "dmg": 136,
+              "pen": 200,
+              "speed": 1160,
+              "cost": 2000,
+              "type": 1,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 105
+            },
+            {
+              "kind": "shell",
+              "name": "sgr m/38",
+              "caliber": 75,
+              "dmg": 200,
+              "pen": 38,
+              "speed": 840,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 1.06,
+              "dmg_devices": 105
+            }
+          ],
+          "unlocks": {
+            "gun:_105mm_kan_m_34": 13865
+          }
+        },
+        {
+          "kind": "gun",
+          "name": "_105mm_kan_m_34",
+          "display_name": "10,5 cm kan m/34",
+          "level": 7,
+          "cost_xp": 13865,
+          "health": 148.0,
+          "weight": 1245.0,
+          "reload": 8.566725,
+          "aim_time": 2.3,
+          "disp": 0.42,
+          "rot_speed": 33.25,
+          "max_ammo": 35,
+          "caliber": 105,
+          "deviation_up": {
+            "x": 15.0,
+            "y": 10.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.12,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.44,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 3,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "105mm slpgr m/43(1)",
+              "caliber": 105,
+              "dmg": 240,
+              "pen": 155,
+              "speed": 785,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 150
+            },
+            {
+              "kind": "shell",
+              "name": "105mm slpprj fm/49",
+              "caliber": 105,
+              "dmg": 204,
+              "pen": 194,
+              "speed": 930,
+              "cost": 3200,
+              "type": 1,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 150
+            },
+            {
+              "kind": "shell",
+              "name": "105mm tung sgr m/34",
+              "caliber": 105,
+              "dmg": 360,
+              "pen": 53,
+              "speed": 785,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 1.91,
+              "dmg_devices": 150
+            }
+          ],
+          "unlocks": {
+            "vehicle:s18_emil_1951e1": 81000
+          }
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_S13_Leo",
+          "display_name": "Leo m/47",
+          "level": 6,
+          "cost_xp": 0,
+          "health": 220.0,
+          "weight": 5000.0,
+          "rot_speed": 33.0,
+          "spot_radius": 230.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 130.0,
+            "max_regen_health": 65.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 90.0,
+            "max_regen_health": 45.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {
+            "turret:Turret_2_S13_Leo": 10150
+          },
+          "guns": [
+            {
+              "name": "_75mm_kan_strv_74_R",
+              "reload": 5.5,
+              "max_ammo": 60,
+              "mesh": "gun_03",
+              "unlocks": {
+                "gun:_105mm_kan_m_34": 13865
+              }
+            }
+          ]
+        },
+        {
+          "kind": "turret",
+          "name": "Turret_2_S13_Leo",
+          "display_name": "Leo m/48",
+          "level": 7,
+          "cost_xp": 10150,
+          "health": 320.0,
+          "weight": 5200.0,
+          "rot_speed": 38.0,
+          "spot_radius": 240.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 130.0,
+            "max_regen_health": 65.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 90.0,
+            "max_regen_health": 45.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_02",
+          "unlocks": {
+            "gun:_105mm_kan_m_34": 13865
+          },
+          "guns": [
+            {
+              "name": "_75mm_kan_strv_74_R",
+              "reload": 5.0,
+              "max_ammo": 60,
+              "mesh": "gun_03",
+              "unlocks": {
+                "gun:_105mm_kan_m_34": 13865
+              }
+            },
+            {
+              "name": "_105mm_kan_m_34",
+              "reload": 8.566725,
+              "max_ammo": 35,
+              "mesh": "gun_02",
+              "unlocks": {
+                "vehicle:s18_emil_1951e1": 81000
+              }
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_S13_Leo",
+          "display_name": "Leo m/47",
+          "level": 6,
+          "cost_xp": 0,
+          "health": 130.0,
+          "weight": 6000.0,
+          "rot_speed": 34.0,
+          "disp_move_mul": 0.16,
+          "disp_rotation_mul": 0.16,
+          "max_regen_health": 100.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {
+            "chassis:Chassis_S13_Leo_2": 8400
+          },
+          "armor": 20
+        },
+        {
+          "kind": "tracks",
+          "name": "Chassis_S13_Leo_2",
+          "display_name": "Leo m/48",
+          "level": 7,
+          "cost_xp": 8400,
+          "health": 140.0,
+          "weight": 6000.0,
+          "rot_speed": 38.0,
+          "disp_move_mul": 0.14,
+          "disp_rotation_mul": 0.14,
+          "max_regen_health": 105.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 20
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "Volvo_A8B",
+          "display_name": "Volvo A8B",
+          "level": 5,
+          "cost_xp": 0,
+          "health": 123.0,
+          "weight": 1050.0,
+          "power": 410,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 58.0,
+          "repair_cost": 0.0,
+          "unlocks": {
+            "engine:Meteor_Mark_IV_Mod_271": 15800
+          }
+        },
+        {
+          "kind": "engine",
+          "name": "Meteor_Mark_IV_Mod_271",
+          "display_name": "Meteor Mark IV Mod 271",
+          "level": 6,
+          "cost_xp": 15800,
+          "health": 247.0,
+          "weight": 744.0,
+          "power": 450,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 123.0,
+          "repair_cost": 0.0,
+          "unlocks": {
+            "engine:DB_605": 19750
+          }
+        },
+        {
+          "kind": "engine",
+          "name": "DB_605",
+          "display_name": "DB 605",
+          "level": 7,
+          "cost_xp": 19750,
+          "health": 247.0,
+          "weight": 756.0,
+          "power": 500,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 123.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "Ra_400",
+          "display_name": "Ra_400",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 1.0,
+          "weight": 1.0,
+          "distance": 1.0,
+          "unlocks": {}
+        }
+      ],
+      "source_version": "11.20",
+      "tree_branch": -2,
+      "acquisition": ""
+    },
+    {
+      "name": "s18_emil_1951e1",
+      "display_name": "Emil I",
+      "display_name_short": "Emil I",
+      "health": 1320,
+      "lvl": 8,
+      "tank_class": 2,
+      "nation": 9,
+      "spot_radius": 250.0,
+      "speed_limits": {
+        "x": 35.0,
+        "y": 18.2
+      },
+      "turret_rot_speed": 20.0,
+      "turret_health": 375.0,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 240.0,
+        "max_regen_health": 160.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 175.0,
+        "max_regen_health": 70.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": true,
+      "cost": 2552000,
+      "cost_xp": 81000,
+      "hull_weight": 9948.0,
+      "model_path": "Tanks/European/S18_EMIL_1951E1.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/european/S18_EMIL_1951E1.xml",
+      "source_sha256": "85b3431b5466082454fe8a7586cb87d5e36a88c922080064693c19706e39f4b5",
+      "unlock_tanks": {
+        "s17_emil_1952e2": 166000
+      },
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_105mm_lvkan_m_42",
+          "display_name": "10,5 cm lvkan m/42",
+          "level": 8,
+          "cost_xp": 0,
+          "health": 180.0,
+          "weight": 2050.0,
+          "reload": 25.0,
+          "aim_time": 2.5,
+          "disp": 0.39,
+          "rot_speed": 33.0,
+          "max_ammo": 90,
+          "caliber": 105,
+          "deviation_up": {
+            "x": 15.0,
+            "y": 10.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.16,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.44,
+          "fire_mode": 2,
+          "burst_info": {
+            "kind": "burst",
+            "bursts": [
+              1,
+              1,
+              1
+            ],
+            "intraclip": 3.0,
+            "intraburst": 0.0
+          },
+          "shot_sound": 3,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "slpgr m/42",
+              "caliber": 105,
+              "dmg": 320,
+              "pen": 179,
+              "speed": 852,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 150
+            },
+            {
+              "kind": "shell",
+              "name": "slpprj m/49",
+              "caliber": 105,
+              "dmg": 270,
+              "pen": 224,
+              "speed": 1009,
+              "cost": 3600,
+              "type": 1,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 150
+            },
+            {
+              "kind": "shell",
+              "name": "sgr m/40 B",
+              "caliber": 105,
+              "dmg": 400,
+              "pen": 53,
+              "speed": 840,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 1.91,
+              "dmg_devices": 150
+            }
+          ],
+          "unlocks": {
+            "gun:_105mm_TK_105_9": 20630
+          }
+        },
+        {
+          "kind": "gun",
+          "name": "_105mm_TK_105_9",
+          "display_name": "10,5 cm TK 105-9",
+          "level": 9,
+          "cost_xp": 20630,
+          "health": 194.0,
+          "weight": 2390.0,
+          "reload": 24.0,
+          "aim_time": 2.5,
+          "disp": 0.38,
+          "rot_speed": 35.0,
+          "max_ammo": 90,
+          "caliber": 105,
+          "deviation_up": {
+            "x": 15.0,
+            "y": 10.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.16,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.48,
+          "fire_mode": 2,
+          "burst_info": {
+            "kind": "burst",
+            "bursts": [
+              1,
+              1,
+              1
+            ],
+            "intraclip": 3.0,
+            "intraburst": 0.0
+          },
+          "shot_sound": 3,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "slpprj m/52",
+              "caliber": 105,
+              "dmg": 320,
+              "pen": 217,
+              "speed": 1080,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 150
+            },
+            {
+              "kind": "shell",
+              "name": "slpprj m/52 B",
+              "caliber": 105,
+              "dmg": 270,
+              "pen": 242,
+              "speed": 1350,
+              "cost": 3600,
+              "type": 1,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 150
+            },
+            {
+              "kind": "shell",
+              "name": "sgr m/52",
+              "caliber": 105,
+              "dmg": 400,
+              "pen": 53,
+              "speed": 900,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 1.91,
+              "dmg_devices": 150
+            }
+          ],
+          "unlocks": {
+            "vehicle:s17_emil_1952e2": 166000
+          }
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_S18_EMIL_1951_E1",
+          "display_name": "Emil I",
+          "level": 8,
+          "cost_xp": 0,
+          "health": 375.0,
+          "weight": 9000.0,
+          "rot_speed": 20.0,
+          "spot_radius": 250.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 140.0,
+            "max_regen_health": 70.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 100.0,
+            "max_regen_health": 50.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {
+            "gun:_105mm_TK_105_9": 20630
+          },
+          "guns": [
+            {
+              "name": "_105mm_lvkan_m_42",
+              "reload": 25.0,
+              "max_ammo": 90,
+              "mesh": "gun_01",
+              "unlocks": {
+                "gun:_105mm_TK_105_9": 20630
+              }
+            },
+            {
+              "name": "_105mm_TK_105_9",
+              "reload": 24.0,
+              "max_ammo": 90,
+              "mesh": "gun_02",
+              "unlocks": {
+                "vehicle:s17_emil_1952e2": 166000
+              }
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_S18_EMIL_1951_E1",
+          "display_name": "Emil Alt 1",
+          "level": 8,
+          "cost_xp": 0,
+          "health": 220.0,
+          "weight": 6360.0,
+          "rot_speed": 18.75,
+          "disp_move_mul": 0.24,
+          "disp_rotation_mul": 0.24,
+          "max_regen_health": 165.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {
+            "chassis:Chassis_S18_EMIL_1951_E1_2": 14800
+          },
+          "armor": 30
+        },
+        {
+          "kind": "tracks",
+          "name": "Chassis_S18_EMIL_1951_E1_2",
+          "display_name": "Emil Alt 2",
+          "level": 8,
+          "cost_xp": 14800,
+          "health": 240.0,
+          "weight": 6360.0,
+          "rot_speed": 19.0,
+          "disp_move_mul": 0.22,
+          "disp_rotation_mul": 0.22,
+          "max_regen_health": 180.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 30
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "AOS_895",
+          "display_name": "AOS-895",
+          "level": 7,
+          "cost_xp": 0,
+          "health": 230.0,
+          "weight": 765.0,
+          "power": 280,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 115.0,
+          "repair_cost": 0.0,
+          "unlocks": {
+            "engine:SFA_8_cyl_boxer": 24700
+          }
+        },
+        {
+          "kind": "engine",
+          "name": "SFA_8_cyl_boxer",
+          "display_name": "SFA 8 cyl boxer",
+          "level": 8,
+          "cost_xp": 24700,
+          "health": 234.0,
+          "weight": 800.0,
+          "power": 330,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 123.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "Ra_421",
+          "display_name": "Ra_421",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 1.0,
+          "weight": 1.0,
+          "distance": 1.0,
+          "unlocks": {}
+        }
+      ],
+      "source_version": "11.20",
+      "tree_branch": -2,
+      "acquisition": ""
+    },
+    {
+      "name": "s17_emil_1952e2",
+      "display_name": "Emil II",
+      "display_name_short": "Emil II",
+      "health": 1564,
+      "lvl": 9,
+      "tank_class": 2,
+      "nation": 9,
+      "spot_radius": 250.0,
+      "speed_limits": {
+        "x": 30.0,
+        "y": 19.5
+      },
+      "turret_rot_speed": 16.0,
+      "turret_health": 420.0,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 260.0,
+        "max_regen_health": 180.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 200.0,
+        "max_regen_health": 80.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": true,
+      "cost": 3600000,
+      "cost_xp": 166000,
+      "hull_weight": 12573.0,
+      "model_path": "Tanks/European/S17_EMIL_1952E2.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/european/S17_EMIL_1952E2.xml",
+      "source_sha256": "d7eaa7ec86d545bb40814dea9343423901a86480ffe53e3d023b7e4d903c6f59",
+      "unlock_tanks": {
+        "s16_kranvagn": 247795
+      },
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_105mm_TK_105_9",
+          "display_name": "10,5 cm TK 105-9",
+          "level": 9,
+          "cost_xp": 0,
+          "health": 194.0,
+          "weight": 2390.0,
+          "reload": 23.0,
+          "aim_time": 2.3,
+          "disp": 0.37,
+          "rot_speed": 35.0,
+          "max_ammo": 60,
+          "caliber": 105,
+          "deviation_up": {
+            "x": 10.0,
+            "y": 9.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.16,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.48,
+          "fire_mode": 2,
+          "burst_info": {
+            "kind": "burst",
+            "bursts": [
+              1,
+              1,
+              1
+            ],
+            "intraclip": 3.0,
+            "intraburst": 0.0
+          },
+          "shot_sound": 3,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "slpprj m/52",
+              "caliber": 105,
+              "dmg": 320,
+              "pen": 217,
+              "speed": 1080,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 150
+            },
+            {
+              "kind": "shell",
+              "name": "slpprj m/52 B",
+              "caliber": 105,
+              "dmg": 270,
+              "pen": 242,
+              "speed": 1350,
+              "cost": 3600,
+              "type": 1,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 150
+            },
+            {
+              "kind": "shell",
+              "name": "sgr m/52",
+              "caliber": 105,
+              "dmg": 400,
+              "pen": 53,
+              "speed": 900,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 1.91,
+              "dmg_devices": 150
+            }
+          ],
+          "unlocks": {
+            "gun:_120mm_akan_L_40": 55625
+          }
+        },
+        {
+          "kind": "gun",
+          "name": "_120mm_akan_L_40",
+          "display_name": "12 cm akan L/40",
+          "level": 10,
+          "cost_xp": 55625,
+          "health": 210.0,
+          "weight": 1600.0,
+          "reload": 33.0,
+          "aim_time": 2.5,
+          "disp": 0.38,
+          "rot_speed": 26.0,
+          "max_ammo": 48,
+          "caliber": 120,
+          "deviation_up": {
+            "x": 10.0,
+            "y": 9.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.16,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.64,
+          "fire_mode": 2,
+          "burst_info": {
+            "kind": "burst",
+            "bursts": [
+              1,
+              1,
+              1
+            ],
+            "intraclip": 3.529412,
+            "intraburst": 0.0
+          },
+          "shot_sound": 4,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "slpprj m/51",
+              "caliber": 120,
+              "dmg": 400,
+              "pen": 248,
+              "speed": 1120,
+              "cost": 0,
+              "type": 1,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 165
+            },
+            {
+              "kind": "shell",
+              "name": "psgr m/51",
+              "caliber": 120,
+              "dmg": 340,
+              "pen": 300,
+              "speed": 900,
+              "cost": 3600,
+              "type": 2,
+              "ricochet_angle": 85.0,
+              "premium": true,
+              "dmg_devices": 165
+            },
+            {
+              "kind": "shell",
+              "name": "sgr m/51",
+              "caliber": 120,
+              "dmg": 515,
+              "pen": 60,
+              "speed": 700,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 2.42,
+              "dmg_devices": 165
+            }
+          ],
+          "autoreload_times": [
+            12.0,
+            10.5,
+            10.5
+          ],
+          "unlocks": {
+            "vehicle:s16_kranvagn": 247795
+          }
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_S17_EMIL_1952E2",
+          "display_name": "Emil II",
+          "level": 8,
+          "cost_xp": 0,
+          "health": 420.0,
+          "weight": 14000.0,
+          "rot_speed": 16.0,
+          "spot_radius": 250.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 150.0,
+            "max_regen_health": 75.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 110.0,
+            "max_regen_health": 55.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {
+            "gun:_120mm_akan_L_40": 55625
+          },
+          "guns": [
+            {
+              "name": "_105mm_TK_105_9",
+              "reload": 23.0,
+              "max_ammo": 60,
+              "mesh": "gun_01",
+              "unlocks": {
+                "gun:_120mm_akan_L_40": 55625
+              }
+            },
+            {
+              "name": "_120mm_akan_L_40",
+              "reload": 33.0,
+              "max_ammo": 48,
+              "mesh": "gun_02",
+              "unlocks": {
+                "vehicle:s16_kranvagn": 247795
+              }
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_S17_EMIL_1952E2",
+          "display_name": "Emil II 1 a",
+          "level": 8,
+          "cost_xp": 0,
+          "health": 240.0,
+          "weight": 7500.0,
+          "rot_speed": 18.0,
+          "disp_move_mul": 0.2,
+          "disp_rotation_mul": 0.2,
+          "max_regen_health": 180.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {
+            "chassis:Chassis_S17_EMIL_1952E2_2": 29750
+          },
+          "armor": 30
+        },
+        {
+          "kind": "tracks",
+          "name": "Chassis_S17_EMIL_1952E2_2",
+          "display_name": "Emil II 1 b",
+          "level": 9,
+          "cost_xp": 29750,
+          "health": 250.0,
+          "weight": 7500.0,
+          "rot_speed": 21.0,
+          "disp_move_mul": 0.18,
+          "disp_rotation_mul": 0.18,
+          "max_regen_health": 190.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 30
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "AV_1195",
+          "display_name": "AV-1195",
+          "level": 9,
+          "cost_xp": 0,
+          "health": 285.0,
+          "weight": 845.0,
+          "power": 400,
+          "fireStartingChance": 0.15,
+          "max_regen_health": 142.0,
+          "repair_cost": 0.0,
+          "unlocks": {
+            "engine:AVS_1195": 33345
+          }
+        },
+        {
+          "kind": "engine",
+          "name": "AVS_1195",
+          "display_name": "AVS-1195",
+          "level": 9,
+          "cost_xp": 33345,
+          "health": 285.0,
+          "weight": 900.0,
+          "power": 450,
+          "fireStartingChance": 0.15,
+          "max_regen_health": 142.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "Ra_421",
+          "display_name": "Ra_421",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 1.0,
+          "weight": 1.0,
+          "distance": 1.0,
+          "unlocks": {}
+        }
+      ],
+      "source_version": "11.20",
+      "tree_branch": -2,
+      "acquisition": ""
+    },
+    {
+      "name": "s16_kranvagn",
+      "display_name": "Kranvagn",
+      "display_name_short": "Kranvagn",
+      "health": 1930,
+      "lvl": 10,
+      "tank_class": 2,
+      "nation": 9,
+      "spot_radius": 250.0,
+      "speed_limits": {
+        "x": 34.0,
+        "y": 18.0
+      },
+      "turret_rot_speed": 19.0,
+      "turret_health": 470.0,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 260.0,
+        "max_regen_health": 180.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 200.0,
+        "max_regen_health": 80.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": true,
+      "cost": 6100000,
+      "cost_xp": 247795,
+      "hull_weight": 17398.0,
+      "model_path": "Tanks/European/S16_Kranvagn.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/european/S16_Kranvagn.xml",
+      "source_sha256": "0cb3b01cfab758f84cf6fa1e4bb44a2f0f5243bcd7e35121a85dfb5cb92c542f",
+      "unlock_tanks": {},
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_120mm_akan_L_40B",
+          "display_name": "12 cm akan L/40",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 210.0,
+          "weight": 1600.0,
+          "reload": 31.0,
+          "aim_time": 2.53,
+          "disp": 0.38,
+          "rot_speed": 26.0,
+          "max_ammo": 48,
+          "caliber": 120,
+          "deviation_up": {
+            "x": 10.0,
+            "y": 9.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.11,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.64,
+          "fire_mode": 2,
+          "burst_info": {
+            "kind": "burst",
+            "bursts": [
+              1,
+              1,
+              1
+            ],
+            "intraclip": 2.727273,
+            "intraburst": 0.0
+          },
+          "shot_sound": 4,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "slpprj m/51K",
+              "caliber": 120,
+              "dmg": 410,
+              "pen": 250,
+              "speed": 850,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 165
+            },
+            {
+              "kind": "shell",
+              "name": "psgr m/51K",
+              "caliber": 120,
+              "dmg": 350,
+              "pen": 310,
+              "speed": 800,
+              "cost": 3600,
+              "type": 2,
+              "ricochet_angle": 85.0,
+              "premium": true,
+              "dmg_devices": 165
+            },
+            {
+              "kind": "shell",
+              "name": "sgr m/51K",
+              "caliber": 120,
+              "dmg": 530,
+              "pen": 60,
+              "speed": 690,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 2.42,
+              "dmg_devices": 165
+            }
+          ],
+          "autoreload_times": [
+            14.0,
+            10.0,
+            7.0
+          ],
+          "unlocks": {}
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_S16_Kranvagn",
+          "display_name": "Kranvagn",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 470.0,
+          "weight": 15000.0,
+          "rot_speed": 19.0,
+          "spot_radius": 250.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 160.0,
+            "max_regen_health": 80.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 120.0,
+            "max_regen_health": 60.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {},
+          "guns": [
+            {
+              "name": "_120mm_akan_L_40B",
+              "reload": 31.0,
+              "max_ammo": 48,
+              "mesh": "gun_01",
+              "unlocks": {}
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_S16_Kranvagn",
+          "display_name": "Kranvagn",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 300.0,
+          "weight": 9000.0,
+          "rot_speed": 29.0,
+          "disp_move_mul": 0.18,
+          "disp_rotation_mul": 0.18,
+          "max_regen_health": 225.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 30
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "SFA_F12",
+          "display_name": "SFA F12",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 360.0,
+          "weight": 1475.0,
+          "power": 600,
+          "fireStartingChance": 0.15,
+          "max_regen_health": 170.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "Ra_421_1",
+          "display_name": "Ra_421_1",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 1.0,
+          "weight": 1.0,
+          "distance": 1.0,
+          "unlocks": {}
+        }
+      ],
+      "source_version": "11.20",
+      "tree_branch": -2,
+      "acquisition": ""
+    },
+    {
+      "name": "f126_amx_13_m24",
+      "display_name": "AMX 13 M24",
+      "display_name_short": "AMX 13 M24",
+      "health": 820,
+      "lvl": 7,
+      "tank_class": 1,
+      "nation": 6,
+      "spot_radius": 255.0,
+      "speed_limits": {
+        "x": 57.0,
+        "y": 20.0
+      },
+      "turret_rot_speed": 44.0,
+      "turret_health": 337.5,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 200.0,
+        "max_regen_health": 135.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 200.0,
+        "max_regen_health": 70.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": true,
+      "cost": 1400000,
+      "cost_xp": 56520,
+      "hull_weight": 19900.0,
+      "model_path": "Tanks/France/F126_AMX_13_M24.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/france/F126_AMX_13_M24.xml",
+      "source_sha256": "427696e7c766026116e2ef3f0600441d558737212a90084da3acc96fb639f581",
+      "unlock_tanks": {
+        "f123_erac_105_proto": 99050
+      },
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_75mm_M6_F126",
+          "display_name": "75 mm M6 M24",
+          "level": 7,
+          "cost_xp": 0,
+          "health": 110.0,
+          "weight": 1000.0,
+          "reload": 8.352941,
+          "aim_time": 2.0,
+          "disp": 0.37,
+          "rot_speed": 50.0,
+          "max_ammo": 70,
+          "caliber": 75,
+          "deviation_up": {
+            "x": 17.0,
+            "y": 7.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.09,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.1,
+          "fire_mode": 2,
+          "burst_info": {
+            "kind": "burst",
+            "bursts": [
+              1,
+              1
+            ],
+            "intraclip": 2.0,
+            "intraburst": 0.0
+          },
+          "shot_sound": 2,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "AP M61",
+              "caliber": 75,
+              "dmg": 160,
+              "pen": 148,
+              "speed": 900,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 100
+            },
+            {
+              "kind": "shell",
+              "name": "APCR T45",
+              "caliber": 75,
+              "dmg": 136,
+              "pen": 230,
+              "speed": 1000,
+              "cost": 2800,
+              "type": 1,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 100
+            },
+            {
+              "kind": "shell",
+              "name": "HE M48",
+              "caliber": 75,
+              "dmg": 216,
+              "pen": 43,
+              "speed": 700,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 1.65,
+              "dmg_devices": 100
+            }
+          ],
+          "unlocks": {
+            "gun:_90mm_F3_F126": 13865
+          }
+        },
+        {
+          "kind": "gun",
+          "name": "_90mm_F3_F126",
+          "display_name": "90 mm F3 M24",
+          "level": 7,
+          "cost_xp": 13865,
+          "health": 130.0,
+          "weight": 1200.0,
+          "reload": 11.13351,
+          "aim_time": 2.09,
+          "disp": 0.375,
+          "rot_speed": 50.0,
+          "max_ammo": 60,
+          "caliber": 90,
+          "deviation_up": {
+            "x": 17.0,
+            "y": 7.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.09,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.1,
+          "fire_mode": 2,
+          "burst_info": {
+            "kind": "burst",
+            "bursts": [
+              1,
+              1
+            ],
+            "intraclip": 3.0,
+            "intraburst": 0.0
+          },
+          "shot_sound": 3,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "Prf. mle. 1941 M24",
+              "caliber": 90,
+              "dmg": 216,
+              "pen": 155,
+              "speed": 1000,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 122
+            },
+            {
+              "kind": "shell",
+              "name": "Frt.Prf. mle. 1944 M24",
+              "caliber": 90,
+              "dmg": 185,
+              "pen": 233,
+              "speed": 1150,
+              "cost": 3200,
+              "type": 1,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 122
+            },
+            {
+              "kind": "shell",
+              "name": "OE mle. 1924 M24",
+              "caliber": 90,
+              "dmg": 260,
+              "pen": 45,
+              "speed": 800,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 1.78,
+              "dmg_devices": 122
+            }
+          ],
+          "unlocks": {
+            "vehicle:f123_erac_105_proto": 99050
+          }
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_F126_AMX_13_M24",
+          "display_name": "AMX 13 M24",
+          "level": 7,
+          "cost_xp": 0,
+          "health": 337.5,
+          "weight": 5500.0,
+          "rot_speed": 44.0,
+          "spot_radius": 255.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 130.0,
+            "max_regen_health": 65.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 90.0,
+            "max_regen_health": 45.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {
+            "gun:_90mm_F3_F126": 13865
+          },
+          "guns": [
+            {
+              "name": "_75mm_M6_F126",
+              "reload": 8.352941,
+              "max_ammo": 70,
+              "mesh": "gun_01",
+              "unlocks": {
+                "gun:_90mm_F3_F126": 13865
+              }
+            },
+            {
+              "name": "_90mm_F3_F126",
+              "reload": 11.13351,
+              "max_ammo": 60,
+              "mesh": "gun_02",
+              "unlocks": {
+                "vehicle:f123_erac_105_proto": 99050
+              }
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_1_F126_AMX_13_M24",
+          "display_name": "AMX 13 Type 1R M24",
+          "level": 7,
+          "cost_xp": 0,
+          "health": 130.0,
+          "weight": 4000.0,
+          "rot_speed": 44.0,
+          "disp_move_mul": 0.14,
+          "disp_rotation_mul": 0.12,
+          "max_regen_health": 100.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {
+            "chassis:Chassis_2_F126_AMX_13_M24": 8400
+          },
+          "armor": 20
+        },
+        {
+          "kind": "tracks",
+          "name": "Chassis_2_F126_AMX_13_M24",
+          "display_name": "AMX 13 Type 2A M24",
+          "level": 7,
+          "cost_xp": 8400,
+          "health": 140.0,
+          "weight": 4000.0,
+          "rot_speed": 48.0,
+          "disp_move_mul": 0.12,
+          "disp_rotation_mul": 0.12,
+          "max_regen_health": 105.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 20
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "Baudouin_6F_11_SRY_T_F126",
+          "display_name": "Baudouin 6F 11 SRY T M24",
+          "level": 7,
+          "cost_xp": 0,
+          "health": 190.0,
+          "weight": 950.0,
+          "power": 610,
+          "fireStartingChance": 0.17,
+          "max_regen_health": 85.0,
+          "repair_cost": 0.0,
+          "unlocks": {
+            "engine:Detroit_Diesel_6V53T_F126": 15800
+          }
+        },
+        {
+          "kind": "engine",
+          "name": "Detroit_Diesel_6V53T_F126",
+          "display_name": "Detroit Diesel 6V53T M24",
+          "level": 7,
+          "cost_xp": 15800,
+          "health": 260.0,
+          "weight": 1000.0,
+          "power": 652,
+          "fireStartingChance": 0.15,
+          "max_regen_health": 130.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "SCR_528F_F126",
+          "display_name": "SCR_528F_F126",
+          "level": 7,
+          "cost_xp": 0,
+          "health": 100.0,
+          "weight": 100.0,
+          "distance": 375.0,
+          "unlocks": {}
+        }
+      ],
+      "source_version": "11.20",
+      "tree_branch": 0,
+      "acquisition": ""
+    },
+    {
+      "name": "f123_erac_105_proto",
+      "display_name": "ERAC 105 Proto",
+      "display_name_short": "ERAC 105 Proto",
+      "health": 1000,
+      "lvl": 8,
+      "tank_class": 1,
+      "nation": 6,
+      "spot_radius": 255.0,
+      "speed_limits": {
+        "x": 57.0,
+        "y": 22.0
+      },
+      "turret_rot_speed": 34.0,
+      "turret_health": 343.75,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 190.0,
+        "max_regen_health": 130.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 175.0,
+        "max_regen_health": 70.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": true,
+      "cost": 2480000,
+      "cost_xp": 99050,
+      "hull_weight": 24000.0,
+      "model_path": "Tanks/France/F123_ERAC_105_Proto.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/france/F123_ERAC_105_Proto.xml",
+      "source_sha256": "36fad4f87d5aec60a7ac0a366a4cc058ed58d31bd568d990b68af6bb4c292fdc",
+      "unlock_tanks": {
+        "f120_project_louis": 169500
+      },
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_90mm_F3_F123",
+          "display_name": "90 mm F3 ERAC",
+          "level": 8,
+          "cost_xp": 0,
+          "health": 150.0,
+          "weight": 800.0,
+          "reload": 12.3,
+          "aim_time": 2.1,
+          "disp": 0.355,
+          "rot_speed": 50.0,
+          "max_ammo": 90,
+          "caliber": 90,
+          "deviation_up": {
+            "x": 15.0,
+            "y": 8.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.08,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.48,
+          "fire_mode": 2,
+          "burst_info": {
+            "kind": "burst",
+            "bursts": [
+              1,
+              1
+            ],
+            "intraclip": 2.4,
+            "intraburst": 0.0
+          },
+          "shot_sound": 3,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "Prf. mle. 1941 ERAC",
+              "caliber": 90,
+              "dmg": 225,
+              "pen": 187,
+              "speed": 900,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 122
+            },
+            {
+              "kind": "shell",
+              "name": " Prf. mle. 1944 ERAC",
+              "caliber": 90,
+              "dmg": 190,
+              "pen": 245,
+              "speed": 1000,
+              "cost": 3200,
+              "type": 1,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 122
+            },
+            {
+              "kind": "shell",
+              "name": "OE mle. 1924 ERAC",
+              "caliber": 90,
+              "dmg": 270,
+              "pen": 50,
+              "speed": 730,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 1.75,
+              "dmg_devices": 122
+            }
+          ],
+          "unlocks": {
+            "gun:_105mm_D1090_F123": 18000
+          }
+        },
+        {
+          "kind": "gun",
+          "name": "_105mm_D1090_F123",
+          "display_name": "105 mm DEFA Canon D1090",
+          "level": 8,
+          "cost_xp": 18000,
+          "health": 180.0,
+          "weight": 1000.0,
+          "reload": 17.5,
+          "aim_time": 2.1,
+          "disp": 0.36,
+          "rot_speed": 55.0,
+          "max_ammo": 90,
+          "caliber": 105,
+          "deviation_up": {
+            "x": 15.0,
+            "y": 8.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.09,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.48,
+          "fire_mode": 2,
+          "burst_info": {
+            "kind": "burst",
+            "bursts": [
+              1,
+              1
+            ],
+            "intraclip": 2.5,
+            "intraburst": 0.0
+          },
+          "shot_sound": 3,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "OFL-105-F1-ER",
+              "caliber": 105,
+              "dmg": 270,
+              "pen": 201,
+              "speed": 1000,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 150
+            },
+            {
+              "kind": "shell",
+              "name": "OFL-105-ER",
+              "caliber": 105,
+              "dmg": 228,
+              "pen": 260,
+              "speed": 1150,
+              "cost": 3600,
+              "type": 1,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 150
+            },
+            {
+              "kind": "shell",
+              "name": "OE-105-F1-ER Mle. 60",
+              "caliber": 105,
+              "dmg": 324,
+              "pen": 52,
+              "speed": 800,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 1.82,
+              "dmg_devices": 150
+            }
+          ],
+          "unlocks": {
+            "vehicle:f120_project_louis": 169500
+          }
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_F123_ERAC_105_Proto",
+          "display_name": "ERAC 105 Proto",
+          "level": 8,
+          "cost_xp": 0,
+          "health": 343.75,
+          "weight": 5825.0,
+          "rot_speed": 34.0,
+          "spot_radius": 255.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 140.0,
+            "max_regen_health": 70.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 200.0,
+            "max_regen_health": 100.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {
+            "gun:_105mm_D1090_F123": 18000
+          },
+          "guns": [
+            {
+              "name": "_90mm_F3_F123",
+              "reload": 12.3,
+              "max_ammo": 90,
+              "mesh": "gun_01",
+              "unlocks": {
+                "gun:_105mm_D1090_F123": 18000
+              }
+            },
+            {
+              "name": "_105mm_D1090_F123",
+              "reload": 17.5,
+              "max_ammo": 90,
+              "mesh": "gun_02",
+              "unlocks": {
+                "vehicle:f120_project_louis": 169500
+              }
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_1_F123_ERAC_105_Proto",
+          "display_name": "ERAC 105 Proto",
+          "level": 8,
+          "cost_xp": 0,
+          "health": 190.0,
+          "weight": 4200.0,
+          "rot_speed": 40.0,
+          "disp_move_mul": 0.10875,
+          "disp_rotation_mul": 0.10875,
+          "max_regen_health": 140.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {
+            "chassis:Chassis_2_F123_ERAC_105_Proto": 14450
+          },
+          "armor": 15
+        },
+        {
+          "kind": "tracks",
+          "name": "Chassis_2_F123_ERAC_105_Proto",
+          "display_name": "ERAC 105 Proto-2",
+          "level": 8,
+          "cost_xp": 14450,
+          "health": 200.0,
+          "weight": 4200.0,
+          "rot_speed": 42.0,
+          "disp_move_mul": 0.14,
+          "disp_rotation_mul": 0.14,
+          "max_regen_health": 160.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 20
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "Hispano_Suiza_HS103_F123",
+          "display_name": "Hispano Suiza HS103 ERAC",
+          "level": 8,
+          "cost_xp": 0,
+          "health": 300.0,
+          "weight": 550.0,
+          "power": 670,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 150.0,
+          "repair_cost": 0.0,
+          "unlocks": {
+            "engine:Hispano_Suiza_HS115_F123": 18440
+          }
+        },
+        {
+          "kind": "engine",
+          "name": "Hispano_Suiza_HS115_F123",
+          "display_name": "Hispano Suiza HS115 ERAC",
+          "level": 8,
+          "cost_xp": 18440,
+          "health": 300.0,
+          "weight": 600.0,
+          "power": 722,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 150.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "ANVRC18_F123",
+          "display_name": "ANVRC18_F123",
+          "level": 8,
+          "cost_xp": 0,
+          "health": 100.0,
+          "weight": 100.0,
+          "distance": 375.0,
+          "unlocks": {}
+        }
+      ],
+      "source_version": "11.20",
+      "tree_branch": 0,
+      "acquisition": ""
+    },
+    {
+      "name": "f120_project_louis",
+      "display_name": "Projet Louis",
+      "display_name_short": "Projet Louis",
+      "health": 1220,
+      "lvl": 9,
+      "tank_class": 1,
+      "nation": 6,
+      "spot_radius": 265.0,
+      "speed_limits": {
+        "x": 62.0,
+        "y": 20.0
+      },
+      "turret_rot_speed": 38.0,
+      "turret_health": 400.0,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 220.0,
+        "max_regen_health": 150.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 200.0,
+        "max_regen_health": 70.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": true,
+      "cost": 3520000,
+      "cost_xp": 169500,
+      "hull_weight": 28300.0,
+      "model_path": "Tanks/France/F120_Project_Louis.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/france/F120_Project_Louis.xml",
+      "source_sha256": "223c1cb31a269e7a9346f4c3b4efcd2f3b274ba6eec2ea62f523d25822456ed5",
+      "unlock_tanks": {
+        "f119_projet_murat": 272500
+      },
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_90mm_DCA_45A_F120",
+          "display_name": "90 mm DCA 45A PL",
+          "level": 9,
+          "cost_xp": 0,
+          "health": 180.0,
+          "weight": 800.0,
+          "reload": 9.1,
+          "aim_time": 2.1,
+          "disp": 0.36,
+          "rot_speed": 50.0,
+          "max_ammo": 90,
+          "caliber": 90,
+          "deviation_up": {
+            "x": 15.0,
+            "y": 8.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.09,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.48,
+          "fire_mode": 2,
+          "burst_info": {
+            "kind": "burst",
+            "bursts": [
+              1,
+              1
+            ],
+            "intraclip": 2.4,
+            "intraburst": 0.0
+          },
+          "shot_sound": 3,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "Prf. mle. 1941 PL",
+              "caliber": 90,
+              "dmg": 225,
+              "pen": 221,
+              "speed": 1100,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 122
+            },
+            {
+              "kind": "shell",
+              "name": "Frt.Prf. mle. 1944 PL",
+              "caliber": 90,
+              "dmg": 200,
+              "pen": 260,
+              "speed": 1200,
+              "cost": 3600,
+              "type": 1,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 122
+            },
+            {
+              "kind": "shell",
+              "name": "OE mle. 1924 PL",
+              "caliber": 90,
+              "dmg": 300,
+              "pen": 52,
+              "speed": 850,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 1.95,
+              "dmg_devices": 122
+            }
+          ],
+          "unlocks": {
+            "gun:_105mm_D1504_F120": 59000
+          }
+        },
+        {
+          "kind": "gun",
+          "name": "_105mm_D1504_F120",
+          "display_name": "105 mm D. 1504 PL",
+          "level": 9,
+          "cost_xp": 59000,
+          "health": 210.0,
+          "weight": 1500.0,
+          "reload": 14.7,
+          "aim_time": 1.95,
+          "disp": 0.37,
+          "rot_speed": 50.0,
+          "max_ammo": 64,
+          "caliber": 105,
+          "deviation_up": {
+            "x": 15.0,
+            "y": 8.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.1,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.48,
+          "fire_mode": 2,
+          "burst_info": {
+            "kind": "burst",
+            "bursts": [
+              1,
+              1
+            ],
+            "intraclip": 2.4,
+            "intraburst": 0.0
+          },
+          "shot_sound": 3,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "OFL-105-PL",
+              "caliber": 105,
+              "dmg": 300,
+              "pen": 238,
+              "speed": 1000,
+              "cost": 0,
+              "type": 1,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 150
+            },
+            {
+              "kind": "shell",
+              "name": "OCC-105-PL",
+              "caliber": 105,
+              "dmg": 280,
+              "pen": 290,
+              "speed": 1200,
+              "cost": 3600,
+              "type": 2,
+              "ricochet_angle": 70.0,
+              "premium": true,
+              "dmg_devices": 150
+            },
+            {
+              "kind": "shell",
+              "name": "OE-105-Mle. 60 PL",
+              "caliber": 105,
+              "dmg": 430,
+              "pen": 53,
+              "speed": 770,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 0.1,
+              "dmg_devices": 150
+            }
+          ],
+          "unlocks": {
+            "vehicle:f119_projet_murat": 272500
+          }
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_F120_Project_Louis",
+          "display_name": "Projet Louis",
+          "level": 9,
+          "cost_xp": 0,
+          "health": 400.0,
+          "weight": 6500.0,
+          "rot_speed": 38.0,
+          "spot_radius": 265.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 150.0,
+            "max_regen_health": 75.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 110.0,
+            "max_regen_health": 55.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {
+            "gun:_105mm_D1504_F120": 59000
+          },
+          "guns": [
+            {
+              "name": "_90mm_DCA_45A_F120",
+              "reload": 9.1,
+              "max_ammo": 90,
+              "mesh": "gun_01",
+              "unlocks": {
+                "gun:_105mm_D1504_F120": 59000
+              }
+            },
+            {
+              "name": "_105mm_D1504_F120",
+              "reload": 14.7,
+              "max_ammo": 64,
+              "mesh": "gun_02",
+              "unlocks": {
+                "vehicle:f119_projet_murat": 272500
+              }
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_1_F120_Project_Louis",
+          "display_name": "Projet Louis",
+          "level": 9,
+          "cost_xp": 0,
+          "health": 230.0,
+          "weight": 4800.0,
+          "rot_speed": 40.0,
+          "disp_move_mul": 0.12,
+          "disp_rotation_mul": 0.12,
+          "max_regen_health": 175.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {
+            "chassis:Chassis_2_F120_Project_Louis": 28815
+          },
+          "armor": 15
+        },
+        {
+          "kind": "tracks",
+          "name": "Chassis_2_F120_Project_Louis",
+          "display_name": "Projet Louis-2",
+          "level": 9,
+          "cost_xp": 28815,
+          "health": 240.0,
+          "weight": 4800.0,
+          "rot_speed": 42.0,
+          "disp_move_mul": 0.12,
+          "disp_rotation_mul": 0.11,
+          "max_regen_health": 180.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 20
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "MTU_870_F120",
+          "display_name": "MTU 870PL",
+          "level": 9,
+          "cost_xp": 0,
+          "health": 320.0,
+          "weight": 1000.0,
+          "power": 800,
+          "fireStartingChance": 0.18,
+          "max_regen_health": 160.0,
+          "repair_cost": 0.0,
+          "unlocks": {
+            "engine:MTU_880-10_F120": 34190
+          }
+        },
+        {
+          "kind": "engine",
+          "name": "MTU_880-10_F120",
+          "display_name": "MTU 880-10",
+          "level": 9,
+          "cost_xp": 34190,
+          "health": 360.0,
+          "weight": 1000.0,
+          "power": 849,
+          "fireStartingChance": 0.15,
+          "max_regen_health": 170.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "TRVP-13-A1_F120",
+          "display_name": "TRVP-13-A1_F120",
+          "level": 9,
+          "cost_xp": 0,
+          "health": 100.0,
+          "weight": 100.0,
+          "distance": 375.0,
+          "unlocks": {}
+        }
+      ],
+      "source_version": "11.20",
+      "tree_branch": 0,
+      "acquisition": ""
+    },
+    {
+      "name": "f119_projet_murat",
+      "display_name": "Projet Murat",
+      "display_name_short": "Projet Murat",
+      "health": 1450,
+      "lvl": 10,
+      "tank_class": 1,
+      "nation": 6,
+      "spot_radius": 260.0,
+      "speed_limits": {
+        "x": 62.0,
+        "y": 21.0
+      },
+      "turret_rot_speed": 34.0,
+      "turret_health": 350.0,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 260.0,
+        "max_regen_health": 180.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 175.0,
+        "max_regen_health": 70.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": true,
+      "cost": 6100000,
+      "cost_xp": 272500,
+      "hull_weight": 17000.0,
+      "model_path": "Tanks/France/F119_ProjectMurat.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/france/F119_Projet_Murat.xml",
+      "source_sha256": "d61d81cec5a0ca8feea533914059f69f2f97574df755968882a149805c43051e",
+      "unlock_tanks": {},
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_120mm_SA_46_Mur",
+          "display_name": "120 mm SA 46 Mur",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 210.0,
+          "weight": 1100.0,
+          "reload": 16.5,
+          "aim_time": 1.92,
+          "disp": 0.365,
+          "rot_speed": 44.0,
+          "max_ammo": 60,
+          "caliber": 120,
+          "deviation_up": {
+            "x": 15.0,
+            "y": 9.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.07,
+            "y": 3.5,
+            "z": 2.0
+          },
+          "impulse_mul": 0.48,
+          "fire_mode": 2,
+          "burst_info": {
+            "kind": "burst",
+            "bursts": [
+              1,
+              1
+            ],
+            "intraclip": 2.0,
+            "intraburst": 0.0
+          },
+          "shot_sound": 4,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "AP Prf. 1943 Mur",
+              "caliber": 120,
+              "dmg": 390,
+              "pen": 244,
+              "speed": 890,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 160
+            },
+            {
+              "kind": "shell",
+              "name": "HEAT Frt.Prf. mle. 1951 Mur",
+              "caliber": 120,
+              "dmg": 325,
+              "pen": 305,
+              "speed": 800,
+              "cost": 4000,
+              "type": 2,
+              "ricochet_angle": 85.0,
+              "premium": true,
+              "dmg_devices": 160
+            },
+            {
+              "kind": "shell",
+              "name": "HE OE mle. 1930 Mur",
+              "caliber": 120,
+              "dmg": 480,
+              "pen": 56,
+              "speed": 730,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 2.42,
+              "dmg_devices": 160
+            }
+          ],
+          "unlocks": {}
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_F119_Projet_Murat",
+          "display_name": "Projet Murat",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 350.0,
+          "weight": 4625.0,
+          "rot_speed": 34.0,
+          "spot_radius": 260.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 170.0,
+            "max_regen_health": 85.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 120.0,
+            "max_regen_health": 60.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {},
+          "guns": [
+            {
+              "name": "_120mm_SA_46_Mur",
+              "reload": 16.5,
+              "max_ammo": 60,
+              "mesh": "gun_01",
+              "unlocks": {}
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_1_F119_Projet_Murat",
+          "display_name": "Projet Murat",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 250.0,
+          "weight": 8800.0,
+          "rot_speed": 50.0,
+          "disp_move_mul": 0.125,
+          "disp_rotation_mul": 0.11,
+          "max_regen_health": 185.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 20
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "EPC_Ver_S5_F119",
+          "display_name": "Moteur EPC Ver S5",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 360.0,
+          "weight": 2100.0,
+          "power": 685,
+          "fireStartingChance": 0.1,
+          "max_regen_health": 170.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "A_220",
+          "display_name": "A_220",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 100.0,
+          "weight": 100.0,
+          "distance": 375.0,
+          "unlocks": {}
+        }
+      ],
+      "source_version": "11.20",
+      "tree_branch": 0,
+      "acquisition": ""
+    },
+    {
+      "name": "ch57_bzt_70",
+      "display_name": "BZT-70",
+      "display_name_short": "BZT-70",
+      "health": 1500,
+      "lvl": 10,
+      "tank_class": 2,
+      "nation": 7,
+      "spot_radius": 250.0,
+      "speed_limits": {
+        "x": 32.0,
+        "y": 9.425
+      },
+      "turret_rot_speed": 14.0,
+      "turret_health": 525.0,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 190.0,
+        "max_regen_health": 130.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 200.0,
+        "max_regen_health": 80.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": false,
+      "cost": 0,
+      "cost_xp": 0,
+      "hull_weight": 61000.0,
+      "model_path": "Tanks/China/Ch57_BZT_70.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/china/Ch57_BZT_70.xml",
+      "source_sha256": "7328cc30ec783ab06e96c12074e485c5f94f88f53ef24b5f73d9884821000bfd",
+      "unlock_tanks": {},
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_180mm_S-23CH",
+          "display_name": "180 mm S-23CH",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 252.0,
+          "weight": 3500.0,
+          "reload": 24.282353,
+          "aim_time": 3.0,
+          "disp": 0.5,
+          "rot_speed": 40.0,
+          "max_ammo": 25,
+          "caliber": 180,
+          "deviation_up": {
+            "x": 15.0,
+            "y": 8.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.25,
+            "y": 10.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.1,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 5,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "Chuan bei-G572",
+              "caliber": 180,
+              "dmg": 768,
+              "pen": 250,
+              "speed": 500,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "dmg_devices": 240
+            },
+            {
+              "kind": "shell",
+              "name": "53BRP572O",
+              "caliber": 180,
+              "dmg": 1152,
+              "pen": 102,
+              "speed": 400,
+              "cost": 6000,
+              "type": 3,
+              "explosion_radius": 5.0,
+              "premium": true,
+              "dmg_devices": 240
+            },
+            {
+              "kind": "shell",
+              "name": "Sha bao-VO28",
+              "caliber": 180,
+              "dmg": 1152,
+              "pen": 90,
+              "speed": 400,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 5.0,
+              "dmg_devices": 240
+            }
+          ]
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_Ch57_BZT_70",
+          "display_name": "BZT-70",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 525.0,
+          "weight": 14700.0,
+          "rot_speed": 14.0,
+          "spot_radius": 250.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 180.0,
+            "max_regen_health": 90.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 120.0,
+            "max_regen_health": 60.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {},
+          "guns": [
+            {
+              "name": "_180mm_S-23CH",
+              "reload": 24.282353,
+              "max_ammo": 25,
+              "mesh": "gun_01",
+              "unlocks": {}
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_1_Ch57_BZT_70",
+          "display_name": "BZT-70",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 260.0,
+          "weight": 10000.0,
+          "rot_speed": 24.0,
+          "disp_move_mul": 0.25,
+          "disp_rotation_mul": 0.25,
+          "max_regen_health": 185.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 30
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "Ch57_2x_V12",
+          "display_name": "2x V-12",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 350.0,
+          "weight": 1500.0,
+          "power": 1068,
+          "fireStartingChance": 0.2,
+          "max_regen_health": 175.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "A-220B-2",
+          "display_name": "A-220B-2",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 180.0,
+          "weight": 100.0,
+          "distance": 375.0,
+          "unlocks": {}
+        }
+      ],
+      "source_version": "11.20",
+      "tree_branch": 0,
+      "acquisition": "collectible",
+      "prem": true,
+      "collector": true,
+      "shop_tank": false,
+      "cost_gold": 0
+    }
+  ]
+}

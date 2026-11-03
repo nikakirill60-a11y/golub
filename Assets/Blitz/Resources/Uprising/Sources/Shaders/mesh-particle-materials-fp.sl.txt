@@ -1,0 +1,292 @@
+#include "common.slh"
+#include "blending.slh"
+
+#if SOFT_PARTICLES && RETRIEVE_FRAG_DEPTH_AVAILABLE
+    #include "depth-fetch.slh"
+#endif
+
+fragment_in
+{
+    float2 varTexCoord0 : TEXCOORD0;
+    [lowp] half4 varColor1 : COLOR1;
+
+    #if FRAME_BLEND || PARTICLES_FLOWMAP_ANIMATION
+        float2 varNextFrameTexCoord : TEXCOORD1;
+    #endif
+
+    #if PARTICLES_MASK
+        float2 varMaskUv : COLOR2;
+    #endif
+
+    #if PARTICLES_FLOWMAP || PARTICLES_FLOWMAP_ANIMATION
+        float2 varParticleFlowTexCoord : TEXCOORD2;
+    #endif
+
+    #if USE_VERTEX_FOG
+        [lowp] half4 varFog : TEXCOORD3;
+    #endif
+
+    #if PARTICLES_NOISE
+        #if PARTICLES_FRESNEL_TO_ALPHA
+            float4 varTexcoord4 : TEXCOORD4; // xy - noise uv, z - noise scale, w - fresnel.
+        #else
+            float3 varTexcoord4 : TEXCOORD4; // xy - noise uv, z - noise scale.
+        #endif
+    #elif PARTICLES_FRESNEL_TO_ALPHA
+        float varTexcoord4 : TEXCOORD4; // Fresnel.
+    #endif
+
+    #if FRAME_BLEND && PARTICLES_ALPHA_REMAP
+        half2 varTexcoord5 : TEXCOORD5; // x - animation time, y - alpha remap value.
+    #elif FRAME_BLEND || PARTICLES_ALPHA_REMAP || PARTICLES_FLOWMAP_ANIMATION
+        half varTexcoord5 : TEXCOORD5; // x - animation time.
+    #endif
+
+    #if PARTICLES_FLOWMAP || PARTICLES_FLOWMAP_ANIMATION
+        float3 varFlowData : TEXCOORD6; // xy - next flowmap uv, z - flow blend value.
+    #endif
+
+    #if SOFT_PARTICLES && RETRIEVE_FRAG_DEPTH_AVAILABLE
+        float4 projectedPosition : TEXCOORD7;
+    #endif
+};
+
+fragment_out
+{
+    float4 color : SV_TARGET0;
+};
+
+uniform sampler2D albedo;
+
+#if PARTICLES_NOISE
+    uniform sampler2D noiseTex;
+#endif
+
+#if PARTICLES_MASK
+    uniform sampler2D mask;
+#endif
+
+#if PARTICLES_ALPHA_REMAP
+    uniform sampler2D alphaRemapTex;
+#endif
+
+#if PARTICLES_FLOWMAP
+    uniform sampler2D flowmap;
+#endif
+
+#if SOFT_PARTICLES && RETRIEVE_FRAG_DEPTH_AVAILABLE
+    [material][a] property float depthDifferenceSlope = 2.0;
+#endif
+
+#if ALPHASTEPVALUE && ALPHABLEND
+    [material][a] property float alphaStepValue = 0.5;
+#endif
+
+#if PARTICLES_THREE_POINT_GRADIENT
+    [material][a] property float4 gradientColorForWhite = float4(0.0f, 0.0f, 0.0f, 0.0f);
+    [material][a] property float4 gradientColorForBlack = float4(0.0f, 0.0f, 0.0f, 0.0f);
+    [material][a] property float4 gradientColorForMiddle = float4(0.0f, 0.0f, 0.0f, 0.0f);
+    [material][a] property float gradientMiddlePoint = 0.5f;
+#endif
+
+#if FLATCOLOR || FLATALBEDO
+    [material][a] property float4 flatColor = float4(1.0, 1.0, 1.0, 1.0);
+#endif
+
+#if PARTICLE_DEBUG_SHOW_ALPHA
+    [material][a] property float particleAlphaThreshold = 0.2f;
+    [material][a] property float4 particleDebugShowAlphaColor =  float4(0.0f, 0.0f, 1.0f, 0.4f);
+#endif
+
+#if ALPHABLEND && ALPHA_EROSION
+    [material][a] property float alphaErosionAcceleration = 2.0f;
+#endif
+
+#if GLOBAL_TINT
+    [material][a] property float3 globalFlatColor = float3(0.5, 0.5, 0.5);
+#endif
+
+fragment_out fp_main(fragment_in input)
+{
+    fragment_out output;
+
+    #if USE_VERTEX_FOG
+        float varFogAmoung = float(input.varFog.a);
+        float3 varFogColor = float3(input.varFog.rgb);
+    #endif
+
+    // Fetch phase.
+
+    half4 textureColor0 = half4(1.0, 0.0, 0.0, 1.0);
+    float2 albedoUv = input.varTexCoord0.xy;
+
+    #if ALPHATEST || ALPHABLEND
+        #if PARTICLES_FLOWMAP && !PARTICLES_FLOWMAP_ANIMATION
+            float2 flowtc = input.varParticleFlowTexCoord;
+            float3 flowData = input.varFlowData;
+            float2 flowDir = float2(tex2D(flowmap, flowtc).xy) * 2.0 - 1.0;
+
+            #if PARTICLES_NOISE
+                flowDir *= tex2D(noiseTex, input.varTexcoord4.xy).r * input.varTexcoord4.z;
+            #endif
+
+            half4 flowSample1 = half4(tex2D(albedo, albedoUv + flowDir * flowData.x));
+            half4 flowSample2 = half4(tex2D(albedo, albedoUv + flowDir * flowData.y));
+            textureColor0 = lerp(flowSample1, flowSample2, half(flowData.z));
+        #elif (PARTICLES_FLOWMAP && PARTICLES_FLOWMAP_ANIMATION)
+            float2 offsetVectorCurr = tex2D(flowmap, input.varParticleFlowTexCoord.xy).xy;
+            offsetVectorCurr = offsetVectorCurr * 2.0f - 1.0f;
+            offsetVectorCurr *= input.varTexcoord5 * input.varFlowData.z; //  input.varTexcoord5 - frame time normalized. varFlowData - distortion power.
+
+            float2 offsetVectorNext = tex2D(flowmap, input.varFlowData.xy).xy;
+            offsetVectorNext = offsetVectorNext * 2.0f - 1.0f;
+            offsetVectorNext *= (1 - input.varTexcoord5) * input.varFlowData.z;
+
+            half4 albedoSample = half4(tex2D(albedo, albedoUv - offsetVectorCurr));
+            half4 albedoSampleNext = half4(tex2D(albedo, input.varNextFrameTexCoord.xy + offsetVectorNext));
+
+            textureColor0 = lerp(albedoSample, albedoSampleNext, input.varTexcoord5);
+        #else
+            #if PARTICLES_NOISE
+                float noiseSample = tex2D(noiseTex, input.varTexcoord4.xy).r * 2.0f - 1.0f;
+                noiseSample *= input.varTexcoord4.z;
+                albedoUv.xy += float2(noiseSample, noiseSample);
+            #endif
+                textureColor0 = half4(tex2D(albedo, albedoUv));
+        #endif
+
+        #if PARTICLES_ALPHA_REMAP
+            #if FRAME_BLEND
+                float4 remap = tex2D(alphaRemapTex, float2(half(textureColor0.a), input.varTexcoord5.y));
+            #else
+                float4 remap = tex2D(alphaRemapTex, float2(half(textureColor0.a), input.varTexcoord5));
+            #endif
+            textureColor0.a = remap.r;
+        #endif
+    #else
+        #if PARTICLES_FLOWMAP
+            float2 flowtc = input.varParticleFlowTexCoord;
+            float3 flowData = input.varFlowData;
+            float2 flowDir = float2(tex2D(flowmap, flowtc).xy) * 2.0 - 1.0;
+            half3 flowSample1 = half3(tex2D(albedo, albedoUv + flowDir * flowData.x).rgb);
+            half3 flowSample2 = half3(tex2D(albedo, albedoUv + flowDir * flowData.y).rgb);
+            textureColor0.rgb = lerp(flowSample1, flowSample2, half(flowData.z));
+        #else
+            #if TEST_OCCLUSION
+                half4 preColor = half4(tex2D(albedo, albedoUv));
+                textureColor0.rgb = half3(preColor.rgb*preColor.a);
+            #else
+                textureColor0.rgb = half3(tex2D(albedo, albedoUv).rgb);
+            #endif
+        #endif
+    #endif
+
+    #if FRAME_BLEND
+        half4 blendFrameColor = half4(tex2D(albedo, input.varNextFrameTexCoord));
+        #if PARTICLES_ALPHA_REMAP
+            half varTime = input.varTexcoord5.x;
+        #else
+            half varTime = input.varTexcoord5;
+        #endif
+        textureColor0 = lerp(textureColor0, blendFrameColor, varTime);
+    #endif
+
+    #if PARTICLES_THREE_POINT_GRADIENT
+        half uperGradientLerpValue = textureColor0.r - half(gradientMiddlePoint);
+        half gradientMiddlePointValue = half(clamp(gradientMiddlePoint, 0.001f, 0.999f));
+        half4 lowerGradColor = lerp(half4(gradientColorForBlack), half4(gradientColorForMiddle), textureColor0.r / gradientMiddlePointValue);
+        half4 upperGradColor = lerp(half4(gradientColorForMiddle), half4(gradientColorForWhite), uperGradientLerpValue / (half(1.0) - gradientMiddlePointValue));
+        half4 finalGradientColor = lerp(lowerGradColor, upperGradColor, step(half(0.0), uperGradientLerpValue));
+        textureColor0 = half4(finalGradientColor.rgb, textureColor0.a * finalGradientColor.a);
+    #endif
+    
+    #if FLATALBEDO
+        textureColor0 *= half4(flatColor);
+    #endif
+
+    #if ALPHATEST && !VIEW_MODE_OVERDRAW_HEAT
+        float alpha = textureColor0.a;
+        alpha *= float(input.varColor1.a);
+
+        #if ALPHATESTVALUE
+            if(alpha < alphatestThreshold) discard;
+        #else
+            if(alpha < 0.5) discard;
+        #endif
+    #endif
+    
+    #if ALPHASTEPVALUE && ALPHABLEND
+        textureColor0.a = half(step(alphaStepValue, float(textureColor0.a)));
+    #endif
+
+    // Draw phase.
+
+    output.color = float4(textureColor0);
+
+    #if !ALPHABLEND
+        output.color.w = 1.0;
+    #endif
+
+    output.color *= float4(input.varColor1);
+
+    #if GLOBAL_TINT
+        output.color.rgb *= globalFlatColor.rgb * 2.0;
+    #endif
+
+    #if FLATCOLOR
+        output.color *= flatColor;
+    #endif
+
+    #if PARTICLES_MASK
+        float4 maskValue = tex2D(mask, input.varMaskUv);
+        output.color *= maskValue;
+    #endif
+
+    #if ALPHABLEND && ALPHA_EROSION
+        float srcA = tex2D(albedo, albedoUv).a;
+        float opacity = saturate(1. - input.varColor1.a);
+        output.color.a = (srcA - (alphaErosionAcceleration + 1. - srcA * alphaErosionAcceleration) * opacity);
+    #endif
+
+    #if PARTICLES_FRESNEL_TO_ALPHA
+        #if PARTICLES_NOISE
+            output.color.a *= input.varTexcoord4.w;
+        #else
+            output.color.a *= input.varTexcoord4;
+        #endif
+    #endif
+
+    #if USE_VERTEX_FOG
+        output.color.rgb = lerp(output.color.rgb, varFogColor, varFogAmoung);
+    #endif
+
+    #if PARTICLE_DEBUG_SHOW_ALPHA
+        if (output.color.a < particleAlphaThreshold)
+            output.color = particleDebugShowAlphaColor;
+        else
+            output.color = 0.0;
+    #endif
+
+    #if SOFT_PARTICLES && RETRIEVE_FRAG_DEPTH_AVAILABLE
+        float4 projectedPosition = input.projectedPosition / input.projectedPosition.w;
+        float depthSample = FetchDepth(projectedPosition);
+        float4 sampledPosition = mul(float4(projectedPosition.xy, depthSample, 1.0), invProjMatrix);
+        float4 currentPosition = mul(projectedPosition, invProjMatrix);
+        float curDepth = currentPosition.z / max(currentPosition.w, 0.0001);
+        float sampledDepth = sampledPosition.z / max(sampledPosition.w, 0.0001);
+        float distanceDifference = max(0.0, curDepth  - sampledDepth);
+        float scale = 1.0 - exp(-depthDifferenceSlope * distanceDifference * distanceDifference);
+        #if (BLENDING == BLENDING_ADDITIVE)
+            output.color *= scale;
+        #else
+            output.color.a *= scale;
+        #endif
+    #endif
+
+    #if PARTICLE_DEBUG_SHOW_OVERDRAW
+        output.color = float4(0.01f, 0.0f, 0.0f, 1.0f);
+    #endif
+
+    #include "debug-modify-color.slh"
+    return output;
+}

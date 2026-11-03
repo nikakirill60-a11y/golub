@@ -1,0 +1,172 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.0,
+      0.14,
+      0.14
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "FERDINANDArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 600,
+      "vertices": 624
+    },
+    {
+      "armor": 0,
+      "material": "FERDINANDArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 200,
+      "material": "FERDINANDArmor_armor_hull_plate200_200",
+      "mount": "hull",
+      "name": "armor_hull_plate200_200",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 25,
+      "material": "FERDINANDArmor_armor_hull_plate25_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25_25",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 26,
+      "vertices": 78
+    },
+    {
+      "armor": 280,
+      "material": "FERDINANDArmor_armor_hull_plate280_280",
+      "mount": "hull",
+      "name": "armor_hull_plate280_280",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 30,
+      "material": "FERDINANDArmor_armor_hull_plate30_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30_30",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 80,
+      "material": "FERDINANDArmor_armor_hull_plate80_80",
+      "mount": "hull",
+      "name": "armor_hull_plate80_80",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 70,
+      "vertices": 210
+    },
+    {
+      "armor": 100,
+      "material": "FERDINANDArmor_gun_01_mask_turret_01_plate100s_100",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate100s_100",
+      "screen": true,
+      "submesh": 7,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 140,
+      "material": "FERDINANDArmor_gun_01_mask_turret_01_plate140s_140",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate140s_140",
+      "screen": true,
+      "submesh": 8,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 50,
+      "material": "FERDINANDArmor_gun_01_mask_turret_01_plate50s_50",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate50s_50",
+      "screen": true,
+      "submesh": 9,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 100,
+      "material": "FERDINANDArmor_gun_02_mask_turret_01_plate100s_100",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate100s_100",
+      "screen": true,
+      "submesh": 10,
+      "triangles": 32,
+      "vertices": 96
+    },
+    {
+      "armor": 140,
+      "material": "FERDINANDArmor_gun_02_mask_turret_01_plate140s_140",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate140s_140",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 50,
+      "material": "FERDINANDArmor_gun_02_mask_turret_01_plate50s_50",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate50s_50",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 100,
+      "material": "FERDINANDArmor_gun_03_mask_turret_01_plate100s_100",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate100s_100",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 104,
+      "vertices": 312
+    },
+    {
+      "armor": 150,
+      "material": "FERDINANDArmor_gun_03_mask_turret_01_plate150s_150",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate150s_150",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 80,
+      "material": "FERDINANDArmor_gun_03_mask_turret_01_plate80s_80",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate80s_80",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 16,
+      "vertices": 48
+    }
+  ]
+}

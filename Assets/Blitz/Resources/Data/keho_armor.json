@@ -1,0 +1,175 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "KEHOArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 392,
+      "vertices": 428
+    },
+    {
+      "armor": 0,
+      "material": "KEHOArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 12,
+      "material": "KEHOArmor_armor_hull_plate12_12",
+      "mount": "hull",
+      "name": "armor_hull_plate12_12",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 76,
+      "vertices": 228
+    },
+    {
+      "armor": 16,
+      "material": "KEHOArmor_armor_hull_plate16_16",
+      "mount": "hull",
+      "name": "armor_hull_plate16_16",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 58,
+      "vertices": 174
+    },
+    {
+      "armor": 20,
+      "material": "KEHOArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 8,
+      "material": "KEHOArmor_armor_hull_plate8_8",
+      "mount": "hull",
+      "name": "armor_hull_plate8_8",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 0,
+      "material": "KEHOArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 21,
+      "vertices": 63
+    },
+    {
+      "armor": 12,
+      "material": "KEHOArmor_armor_turret_01_plate12_12",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate12_12",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 69,
+      "vertices": 207
+    },
+    {
+      "armor": 16,
+      "material": "KEHOArmor_armor_turret_01_plate16_16",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate16_16",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 57,
+      "vertices": 171
+    },
+    {
+      "armor": 20,
+      "material": "KEHOArmor_armor_turret_01_plate20_20",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate20_20",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 110,
+      "vertices": 330
+    },
+    {
+      "armor": 22,
+      "material": "KEHOArmor_armor_turret_01_plate22_22",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate22_22",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 7,
+      "vertices": 21
+    },
+    {
+      "armor": 30,
+      "material": "KEHOArmor_armor_turret_01_plate30_30",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate30_30",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 31,
+      "vertices": 93
+    },
+    {
+      "armor": 8,
+      "material": "KEHOArmor_armor_turret_01_plate8_8",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate8_8",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 9,
+      "vertices": 27
+    },
+    {
+      "armor": 12,
+      "material": "KEHOArmor_gun_01_mask_turret_01_plate12s_12",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate12s_12",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 20,
+      "material": "KEHOArmor_gun_01_mask_turret_01_plate20s_20",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate20s_20",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 12,
+      "material": "KEHOArmor_gun_04_mask_turret_01_plate12s_12",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_01_plate12s_12",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 20,
+      "material": "KEHOArmor_gun_04_mask_turret_01_plate20s_20",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_01_plate20s_20",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 54,
+      "vertices": 162
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "T25ATArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 512,
+      "vertices": 816
+    },
+    {
+      "armor": 0,
+      "material": "T25ATArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 5,
+      "vertices": 15
+    },
+    {
+      "armor": 120,
+      "material": "T25ATArmor_armor_hull_plate120_120",
+      "mount": "hull",
+      "name": "armor_hull_plate120_120",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 70,
+      "vertices": 210
+    },
+    {
+      "armor": 12,
+      "material": "T25ATArmor_armor_hull_plate12_12",
+      "mount": "hull",
+      "name": "armor_hull_plate12_12",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 19,
+      "material": "T25ATArmor_armor_hull_plate19_19",
+      "mount": "hull",
+      "name": "armor_hull_plate19_19",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 50,
+      "vertices": 150
+    },
+    {
+      "armor": 25,
+      "material": "T25ATArmor_armor_hull_plate25_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25_25",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 38,
+      "material": "T25ATArmor_armor_hull_plate38_38",
+      "mount": "hull",
+      "name": "armor_hull_plate38_38",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 46,
+      "vertices": 138
+    },
+    {
+      "armor": 50,
+      "material": "T25ATArmor_armor_hull_plate50_50",
+      "mount": "hull",
+      "name": "armor_hull_plate50_50",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 63,
+      "material": "T25ATArmor_armor_hull_plate63_63",
+      "mount": "hull",
+      "name": "armor_hull_plate63_63",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 93,
+      "vertices": 279
+    },
+    {
+      "armor": 76,
+      "material": "T25ATArmor_armor_hull_plate76_76",
+      "mount": "hull",
+      "name": "armor_hull_plate76_76",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 76,
+      "material": "T25ATArmor_gun_03_mask_turret_01_plate76s_76",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate76s_76",
+      "screen": true,
+      "submesh": 10,
+      "triangles": 44,
+      "vertices": 132
+    },
+    {
+      "armor": 88,
+      "material": "T25ATArmor_gun_03_mask_turret_01_plate88s_88",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate88s_88",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 94,
+      "vertices": 282
+    },
+    {
+      "armor": 76,
+      "material": "T25ATArmor_gun_02_mask_turret_01_plate76s_76",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate76s_76",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 88,
+      "material": "T25ATArmor_gun_02_mask_turret_01_plate88s_88",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate88s_88",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 98,
+      "vertices": 294
+    },
+    {
+      "armor": 76,
+      "material": "T25ATArmor_gun_01_mask_turret_01_plate76s_76",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate76s_76",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 88,
+      "material": "T25ATArmor_gun_01_mask_turret_01_plate88s_88",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate88s_88",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 98,
+      "vertices": 294
+    }
+  ]
+}

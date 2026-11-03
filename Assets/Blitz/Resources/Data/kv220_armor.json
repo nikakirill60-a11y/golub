@@ -1,0 +1,165 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "KV220Armor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 332,
+      "vertices": 654
+    },
+    {
+      "armor": 0,
+      "material": "KV220Armor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 104,
+      "material": "KV220Armor_armor_hull_plate104_104",
+      "mount": "hull",
+      "name": "armor_hull_plate104_104",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 62,
+      "vertices": 186
+    },
+    {
+      "armor": 31,
+      "material": "KV220Armor_armor_hull_plate31_31",
+      "mount": "hull",
+      "name": "armor_hull_plate31_31",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 9,
+      "vertices": 27
+    },
+    {
+      "armor": 36,
+      "material": "KV220Armor_armor_hull_plate36_36",
+      "mount": "hull",
+      "name": "armor_hull_plate36_36",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 41,
+      "material": "KV220Armor_armor_hull_plate41_41",
+      "mount": "hull",
+      "name": "armor_hull_plate41_41",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 29,
+      "vertices": 87
+    },
+    {
+      "armor": 62,
+      "material": "KV220Armor_armor_hull_plate62_62",
+      "mount": "hull",
+      "name": "armor_hull_plate62_62",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 83,
+      "material": "KV220Armor_armor_hull_plate83_83",
+      "mount": "hull",
+      "name": "armor_hull_plate83_83",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 44,
+      "vertices": 132
+    },
+    {
+      "armor": 0,
+      "material": "KV220Armor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 13,
+      "vertices": 39
+    },
+    {
+      "armor": 31,
+      "material": "KV220Armor_armor_turret_01_plate31_31",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate31_31",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 27,
+      "vertices": 81
+    },
+    {
+      "armor": 36,
+      "material": "KV220Armor_armor_turret_01_plate36_36",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate36_36",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 41,
+      "material": "KV220Armor_armor_turret_01_plate41_41",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate41_41",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 78,
+      "material": "KV220Armor_armor_turret_01_plate78_78",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate78_78",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 93,
+      "material": "KV220Armor_armor_turret_01_plate93_93",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate93_93",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 48,
+      "vertices": 144
+    },
+    {
+      "armor": 30,
+      "material": "KV220Armor_gun_01_mask_turret_01_plate30s_30",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate30s_30",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 28,
+      "vertices": 84
+    },
+    {
+      "armor": 75,
+      "material": "KV220Armor_gun_01_mask_turret_01_plate75s_75",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate75s_75",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 78,
+      "vertices": 234
+    }
+  ]
+}

@@ -1,0 +1,1677 @@
+{
+  "#dataNodes": [
+    {
+      "##name": "ParticleEmitterNode",
+      "#id": {
+        "hex": "0100000000000000"
+      },
+      "emissionRange": 0.0,
+      "emissionVector": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "generateOnSurface": false,
+      "innerRadius": 0.0,
+      "layers": [
+        {
+          "activeLODS": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "alphaRemapLoopCount": 1.0,
+          "alphaRemapSampler": 2101589,
+          "angle3d": [
+            0.0,
+            0.0,
+            -90.0
+          ],
+          "applyGlobalForces": false,
+          "autoFPS": false,
+          "blending": 8,
+          "colorRandom": [
+            2,
+            [
+              [
+                1,
+                0.31250476837158203,
+                0.0
+              ],
+              [
+                1,
+                0.7176470756530762,
+                0.4914134740829468
+              ],
+              [
+                1,
+                0.4804760813713074,
+                0.998678982257843
+              ]
+            ],
+            [
+              [
+                1,
+                0.5645838379859924,
+                0.0
+              ],
+              [
+                1,
+                0.9058823585510254,
+                0.4914134740829468
+              ],
+              [
+                1,
+                0.6363317370414734,
+                0.998678982257843
+              ]
+            ],
+            [
+              [
+                1,
+                1.0,
+                0.0
+              ],
+              [
+                1,
+                1.0,
+                0.4914134740829468
+              ],
+              [
+                1,
+                1.0,
+                0.998678982257843
+              ]
+            ],
+            [
+              [
+                1,
+                1.0,
+                0.0
+              ],
+              [
+                1,
+                1.0,
+                0.4914134740829468
+              ],
+              [
+                1,
+                1.0,
+                0.998678982257843
+              ]
+            ]
+          ],
+          "cullMode": 0,
+          "degradeStrategy": 0,
+          "deltaTime": 0.0,
+          "deltaVariation": 0.0,
+          "depthDifferenceSlope": 2.0,
+          "enableAlphaRemap": false,
+          "enableFlow": false,
+          "enableFlowAnimation": false,
+          "enableFog": false,
+          "enableFrameBlend": false,
+          "enableMask": false,
+          "enableMaskUvScale": false,
+          "enableMaskUvScroll": false,
+          "enableNoise": false,
+          "enableNoiseScroll": false,
+          "enableUvScale": false,
+          "enableUvScroll": false,
+          "enableVertexAnimation": false,
+          "enableVertexAnimationMask": false,
+          "endTime": 0.10000000149011612,
+          "flowmapSampler": 2101589,
+          "forces": [],
+          "frameOverLifeEnabled": true,
+          "frameOverLifeFPS": 32.0,
+          "fresToAlphaBias": 0.0,
+          "fresToAlphaPower": 0.30000001192092896,
+          "fuseBlendAddEdges": [
+            0.0,
+            1.0
+          ],
+          "gradientMiddlePoint": 0.5,
+          "inheritChangesRotation": true,
+          "inheritChangesScale": false,
+          "inheritPosition": true,
+          "isLong": false,
+          "isLooped": false,
+          "isSingle": true,
+          "layerType": "particles",
+          "life": 1.0,
+          "loopEndTime": 100.0,
+          "loopSpriteAnimation": true,
+          "loopVariation": 0.0,
+          "maskSampler": 2101589,
+          "name": "1",
+          "noiseSampler": 2101589,
+          "number": 15.0,
+          "particleOrientation": 10,
+          "pivotPoint3d": [
+            0.0,
+            0.75,
+            0.0
+          ],
+          "randomFrameOnStart": true,
+          "randomOffsetOnStart": true,
+          "randomSpinDirection": false,
+          "scaleVelocityBase": 1.0,
+          "scaleVelocityFactor": 1.0,
+          "simplifiedForces": [],
+          "size3d": [
+            1.5,
+            5.0,
+            0.0
+          ],
+          "sizeOverLife3ds": [
+            2,
+            [
+              [
+                2,
+                0.0,
+                0.0,
+                -0.0,
+                3.1894638538360596
+              ],
+              [
+                1,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              [
+                2,
+                0.0,
+                0.0,
+                -0.0,
+                3.1721115112304688
+              ],
+              [
+                1,
+                1.0,
+                1.0
+              ]
+            ],
+            [
+              [
+                1,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "softParticles": false,
+          "spritePath": "~res:/Gfx/Particles/Boss_mode/Laser_gun/Lightning_1/Lightning_1",
+          "spriteSampler": 2102592,
+          "startTime": 0.0,
+          "stripeFadeDistanceFromBack": 5.0,
+          "stripeFadeDistanceFromFront": 5.0,
+          "stripeLifetime": 1.5,
+          "stripeSizeOverLifeProp": [
+            2,
+            [
+              [
+                2,
+                1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                1,
+                0.0,
+                1.0
+              ]
+            ]
+          ],
+          "stripeStartSize": 9.0,
+          "stripeTextureTileOverLife": [
+            2,
+            [
+              [
+                1,
+                0.02500000037252903,
+                0.0
+              ],
+              [
+                1,
+                0.025875000283122063,
+                0.10405699908733368
+              ],
+              [
+                1,
+                0.0214610006660223,
+                0.16665500402450562
+              ],
+              [
+                1,
+                0.026367999613285065,
+                0.28099000453948975
+              ],
+              [
+                1,
+                0.02252800017595291,
+                0.3656519949436188
+              ],
+              [
+                1,
+                0.02774900011718273,
+                0.4546020030975342
+              ],
+              [
+                1,
+                0.021933000534772873,
+                0.5608440041542053
+              ],
+              [
+                1,
+                0.02666500024497509,
+                0.7354030013084412
+              ]
+            ]
+          ],
+          "stripeUScrollSpeed": 0.0,
+          "stripeVScrollSpeed": 1.0,
+          "stripeVertexSpawnStep": 1.0,
+          "useFresToAlpha": true,
+          "usePerspectiveMapping": true,
+          "useThreePointGradient": false,
+          "useVertexColor": false,
+          "vertexAnimationSampler": 2101589
+        },
+        {
+          "activeLODS": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "alphaRemapLoopCount": 1.0,
+          "alphaRemapSampler": 2101589,
+          "angle3d": [
+            0.0,
+            0.0,
+            -90.0
+          ],
+          "applyGlobalForces": false,
+          "autoFPS": false,
+          "blending": 8,
+          "colorRandom": [
+            2,
+            [
+              [
+                1,
+                0.3137255012989044,
+                0.0
+              ],
+              [
+                1,
+                0.7187457084655762,
+                0.4914134740829468
+              ],
+              [
+                1,
+                0.48235294222831726,
+                0.998678982257843
+              ]
+            ],
+            [
+              [
+                1,
+                0.5647059082984924,
+                0.0
+              ],
+              [
+                1,
+                0.9062485694885254,
+                0.4914134740829468
+              ],
+              [
+                1,
+                0.6352941393852234,
+                0.998678982257843
+              ]
+            ],
+            [
+              [
+                1,
+                1.0,
+                0.0
+              ],
+              [
+                1,
+                1.0,
+                0.4914134740829468
+              ],
+              [
+                1,
+                1.0,
+                0.998678982257843
+              ]
+            ],
+            [
+              [
+                1,
+                1.0,
+                0.0
+              ],
+              [
+                1,
+                1.0,
+                0.4914134740829468
+              ],
+              [
+                1,
+                1.0,
+                0.998678982257843
+              ]
+            ]
+          ],
+          "cullMode": 0,
+          "degradeStrategy": 0,
+          "deltaTime": 0.0,
+          "deltaVariation": 0.0,
+          "depthDifferenceSlope": 2.0,
+          "enableAlphaRemap": false,
+          "enableFlow": false,
+          "enableFlowAnimation": false,
+          "enableFog": false,
+          "enableFrameBlend": false,
+          "enableMask": false,
+          "enableMaskUvScale": false,
+          "enableMaskUvScroll": false,
+          "enableNoise": false,
+          "enableNoiseScroll": false,
+          "enableUvScale": false,
+          "enableUvScroll": false,
+          "enableVertexAnimation": false,
+          "enableVertexAnimationMask": false,
+          "endTime": 1000000.0,
+          "flowmapSampler": 2101589,
+          "forces": [],
+          "frameOverLifeEnabled": true,
+          "frameOverLifeFPS": 32.0,
+          "fresToAlphaBias": 0.0,
+          "fresToAlphaPower": 0.30000001192092896,
+          "fuseBlendAddEdges": [
+            0.0,
+            1.0
+          ],
+          "gradientMiddlePoint": 0.5,
+          "inheritChangesRotation": true,
+          "inheritChangesScale": false,
+          "inheritPosition": true,
+          "isLong": false,
+          "isLooped": false,
+          "isSingle": true,
+          "layerType": "particles",
+          "life": 1.0,
+          "loopEndTime": 100.0,
+          "loopSpriteAnimation": true,
+          "loopVariation": 0.0,
+          "maskSampler": 2101589,
+          "name": "2",
+          "noiseSampler": 2101589,
+          "number": 15.0,
+          "particleOrientation": 10,
+          "pivotPoint3d": [
+            0.0,
+            0.75,
+            0.0
+          ],
+          "randomFrameOnStart": true,
+          "randomOffsetOnStart": true,
+          "randomSpinDirection": false,
+          "scaleVelocityBase": 1.0,
+          "scaleVelocityFactor": 1.0,
+          "simplifiedForces": [],
+          "size3d": [
+            1.5,
+            5.0,
+            0.0
+          ],
+          "softParticles": false,
+          "spritePath": "~res:/Gfx/Particles/Boss_mode/Laser_gun/Lightning_1/Lightning_1",
+          "spriteSampler": 2102592,
+          "startTime": 1.0,
+          "stripeFadeDistanceFromBack": 5.0,
+          "stripeFadeDistanceFromFront": 5.0,
+          "stripeLifetime": 1.5,
+          "stripeSizeOverLifeProp": [
+            2,
+            [
+              [
+                2,
+                1.0,
+                0.0,
+                -0.0,
+                0.0
+              ],
+              [
+                1,
+                0.0,
+                1.0
+              ]
+            ]
+          ],
+          "stripeStartSize": 9.0,
+          "stripeTextureTileOverLife": [
+            2,
+            [
+              [
+                1,
+                0.02500000037252903,
+                0.0
+              ],
+              [
+                1,
+                0.025875000283122063,
+                0.10405699908733368
+              ],
+              [
+                1,
+                0.0214610006660223,
+                0.16665500402450562
+              ],
+              [
+                1,
+                0.026367999613285065,
+                0.28099000453948975
+              ],
+              [
+                1,
+                0.02252800017595291,
+                0.3656519949436188
+              ],
+              [
+                1,
+                0.02774900011718273,
+                0.4546020030975342
+              ],
+              [
+                1,
+                0.021933000534772873,
+                0.5608440041542053
+              ],
+              [
+                1,
+                0.02666500024497509,
+                0.7354030013084412
+              ]
+            ]
+          ],
+          "stripeUScrollSpeed": 0.0,
+          "stripeVScrollSpeed": 1.0,
+          "stripeVertexSpawnStep": 1.0,
+          "useFresToAlpha": true,
+          "usePerspectiveMapping": true,
+          "useThreePointGradient": false,
+          "useVertexColor": false,
+          "vertexAnimationSampler": 2101589
+        }
+      ],
+      "life": 100.0,
+      "name": "Lightning_2",
+      "radius": 4.0,
+      "shockwaveMode": 2,
+      "shortEffect": false,
+      "size": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "type": 0
+    },
+    {
+      "##name": "ParticleEmitterNode",
+      "#id": {
+        "hex": "0200000000000000"
+      },
+      "emissionAngle": 0.0,
+      "emissionRange": 360.0,
+      "emissionVector": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generateOnSurface": false,
+      "innerRadius": 0.0,
+      "layers": [
+        {
+          "activeLODS": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "alphaOverLife": [
+            2,
+            [
+              [
+                2,
+                1.0,
+                0.0,
+                -0.0,
+                -0.038761384785175323
+              ]
+            ]
+          ],
+          "alphaRemapLoopCount": 1.0,
+          "alphaRemapSampler": 2101589,
+          "angle3d": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "angleVariation3d": [
+            0.0,
+            0.0,
+            360.0
+          ],
+          "applyGlobalForces": false,
+          "autoFPS": false,
+          "blending": 8,
+          "colorRandom": [
+            2,
+            [
+              [
+                1,
+                0.27843138575553894,
+                0.0
+              ],
+              [
+                1,
+                0.6274510025978088,
+                0.49537649750709534
+              ],
+              [
+                1,
+                0.3789120316505432,
+                0.9987593293190002
+              ]
+            ],
+            [
+              [
+                1,
+                0.48235294222831726,
+                0.0
+              ],
+              [
+                1,
+                0.8666666746139526,
+                0.49537649750709534
+              ],
+              [
+                1,
+                0.4927748441696167,
+                0.9987593293190002
+              ]
+            ],
+            [
+              [
+                1,
+                1.0,
+                0.0
+              ],
+              [
+                1,
+                1.0,
+                0.49537649750709534
+              ],
+              [
+                1,
+                1.0,
+                0.9987593293190002
+              ]
+            ],
+            [
+              [
+                1,
+                1.0,
+                0.0
+              ],
+              [
+                1,
+                1.0,
+                0.49537649750709534
+              ],
+              [
+                1,
+                1.0,
+                0.9987593293190002
+              ]
+            ]
+          ],
+          "cullMode": 0,
+          "degradeStrategy": 0,
+          "deltaTime": 0.0,
+          "deltaVariation": 0.0,
+          "depthDifferenceSlope": 2.0,
+          "enableAlphaRemap": false,
+          "enableFlow": false,
+          "enableFlowAnimation": false,
+          "enableFog": false,
+          "enableFrameBlend": false,
+          "enableMask": false,
+          "enableMaskUvScale": false,
+          "enableMaskUvScroll": false,
+          "enableNoise": false,
+          "enableNoiseScroll": false,
+          "enableUvScale": false,
+          "enableUvScroll": false,
+          "enableVertexAnimation": false,
+          "enableVertexAnimationMask": false,
+          "endTime": 1000000.0,
+          "flowmapSampler": 2101589,
+          "forces": [
+            {
+              "backwardTurbulenceProbability": 0,
+              "dragForceBoxSize": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dragForceInfinityRange": true,
+              "dragForceLine": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dragForcePosition": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "dragForceRadius": 1.0,
+              "dragForceRotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "dragForceShape": "box",
+              "dragForceTimingType": "ovr_layer",
+              "endTime": 15.0,
+              "forceDirection": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "forceIsActive": true,
+              "forceName": "Drag",
+              "forceType": "drag",
+              "forceWindBias": 1.0,
+              "forceWindFreq": 0.0,
+              "isGlobal": false,
+              "isVelocityTurbulence": false,
+              "killParticles": false,
+              "normalAsReflectionVector": true,
+              "planeScale": 5.0,
+              "pointGravityRadius": 1.0,
+              "pointGravityUseRandomPointsOnSphere": false,
+              "randomizeReflectionForce": false,
+              "reflectionChaos": 0.0,
+              "reflectionPercent": 100,
+              "rndReflectionForceMax": 1.100000023841858,
+              "rndReflectionForceMin": 1.0,
+              "startTime": 0.0,
+              "turbulenceLine": 0.0,
+              "velocityThreshold": 0.30000001192092896,
+              "windTurbulenceFrequency": 0.0,
+              "worldAlign": true
+            }
+          ],
+          "frameOverLifeEnabled": true,
+          "frameOverLifeFPS": 24.0,
+          "fresToAlphaBias": 0.0,
+          "fresToAlphaPower": 0.0,
+          "fuseBlendAddEdges": [
+            0.0,
+            1.0
+          ],
+          "gradientMiddlePoint": 0.5,
+          "inheritChangesRotation": true,
+          "inheritChangesScale": true,
+          "inheritPosition": true,
+          "isLong": true,
+          "isLooped": false,
+          "isSingle": false,
+          "layerType": "particles",
+          "life": 0.6000000238418579,
+          "lifeVariation": 0.6000000238418579,
+          "loopEndTime": 100.0,
+          "loopSpriteAnimation": true,
+          "loopVariation": 0.0,
+          "maskSampler": 2101589,
+          "name": "1",
+          "noiseSampler": 2101589,
+          "number": 15.0,
+          "particleOrientation": 0,
+          "pivotPoint3d": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "randomFrameOnStart": true,
+          "randomOffsetOnStart": false,
+          "randomSpinDirection": true,
+          "scaleVelocityBase": 1.0,
+          "scaleVelocityFactor": 1.0,
+          "simplifiedForces": [],
+          "size3d": [
+            0.10000000149011612,
+            0.10000000149011612,
+            1.0
+          ],
+          "sizeOverLife3ds": [
+            2,
+            [
+              [
+                0,
+                2.0036253929138184,
+                0.0
+              ],
+              [
+                0,
+                2.622356414794922,
+                0.036263059824705124
+              ],
+              [
+                0,
+                1.039275050163269,
+                0.08074676990509033
+              ],
+              [
+                0,
+                3.1521148681640625,
+                0.1283036172389984
+              ],
+              [
+                0,
+                1.8345922231674194,
+                0.1843884438276291
+              ],
+              [
+                0,
+                2.484894275665283,
+                0.23171481490135193
+              ],
+              [
+                0,
+                0.37432026863098145,
+                0.26498156785964966
+              ],
+              [
+                0,
+                1.9676737785339355,
+                0.30024585127830505
+              ],
+              [
+                0,
+                1.120845913887024,
+                0.350952684879303
+              ],
+              [
+                0,
+                1.6389727592468262,
+                0.3853718638420105
+              ],
+              [
+                0,
+                0.541540801525116,
+                0.4190995991230011
+              ],
+              [
+                0,
+                2.3015105724334717,
+                0.46972954273223877
+              ],
+              [
+                0,
+                0.8663142323493958,
+                0.519130289554596
+              ],
+              [
+                0,
+                1.2794561386108398,
+                0.5666871666908264
+              ],
+              [
+                0,
+                0.39123862981796265,
+                0.6011063456535339
+              ],
+              [
+                0,
+                1.6549848318099976,
+                0.6318377256393433
+              ],
+              [
+                0,
+                0.8762842416763306,
+                0.6779348850250244
+              ],
+              [
+                0,
+                0.33308154344558716,
+                0.7289490103721619
+              ],
+              [
+                0,
+                1.1367069482803345,
+                0.7701290845870972
+              ],
+              [
+                0,
+                0.6019637584686279,
+                0.8113090991973877
+              ],
+              [
+                0,
+                1.4728096723556519,
+                0.8537184596061707
+              ],
+              [
+                0,
+                0.244259774684906,
+                0.904118001461029
+              ],
+              [
+                0,
+                0.5631422400474548,
+                0.9452981352806091
+              ],
+              [
+                1,
+                0.2131420373916626,
+                0.9797172546386719
+              ],
+              [
+                1,
+                0.0,
+                1.0
+              ]
+            ],
+            [
+              [
+                0,
+                3.251812696456909,
+                0.0
+              ],
+              [
+                0,
+                1.6178247928619385,
+                0.04179471358656883
+              ],
+              [
+                0,
+                2.8179757595062256,
+                0.08358942717313766
+              ],
+              [
+                0,
+                1.2900301218032837,
+                0.13153041899204254
+              ],
+              [
+                0,
+                3.0453174114227295,
+                0.1665642261505127
+              ],
+              [
+                0,
+                1.6947131156921387,
+                0.21903809905052185
+              ],
+              [
+                0,
+                3.0510575771331787,
+                0.26352182030677795
+              ],
+              [
+                0,
+                0.8222054243087769,
+                0.31845420598983765
+              ],
+              [
+                0,
+                2.273413896560669,
+                0.3500307500362396
+              ],
+              [
+                0,
+                1.2989426851272583,
+                0.4006607234477997
+              ],
+              [
+                0,
+                2.8844411373138428,
+                0.4562076926231384
+              ],
+              [
+                0,
+                0.3462235927581787,
+                0.5006914734840393
+              ],
+              [
+                0,
+                2.351208448410034,
+                0.5347265005111694
+              ],
+              [
+                0,
+                0.7747734189033508,
+                0.5851259827613831
+              ],
+              [
+                0,
+                1.6401814222335815,
+                0.6263061165809631
+              ],
+              [
+                0,
+                0.4725075364112854,
+                0.6767056584358215
+              ],
+              [
+                0,
+                2.158005952835083,
+                0.7209588289260864
+              ],
+              [
+                0,
+                0.18474310636520386,
+                0.7781192660331726
+              ],
+              [
+                0,
+                1.6125377416610718,
+                0.8186846971511841
+              ],
+              [
+                0,
+                0.3820243775844574,
+                0.8444990515708923
+              ],
+              [
+                0,
+                1.1962236166000366,
+                0.8905962109565735
+              ],
+              [
+                0,
+                0.3200906813144684,
+                0.9280884861946106
+              ],
+              [
+                1,
+                0.9900302290916443,
+                0.9704978466033936
+              ],
+              [
+                1,
+                0.0,
+                1.0
+              ]
+            ],
+            [
+              [
+                1,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "sizeVariation3d": [
+            0.3499999940395355,
+            0.3499999940395355,
+            0.0
+          ],
+          "softParticles": false,
+          "spritePath": "~res:/Gfx/Particles/Boss_mode/Laser_gun/Lightning_1/Lightning_1",
+          "spriteSampler": 2102592,
+          "startTime": 0.5,
+          "useFresToAlpha": false,
+          "usePerspectiveMapping": false,
+          "useThreePointGradient": false,
+          "useVertexColor": false,
+          "vertexAnimationSampler": 2101589
+        },
+        {
+          "activeLODS": [
+            false,
+            true,
+            true,
+            false
+          ],
+          "alphaOverLife": [
+            2,
+            [
+              [
+                2,
+                1.0,
+                0.0,
+                -0.0,
+                -0.038761384785175323
+              ]
+            ]
+          ],
+          "alphaRemapLoopCount": 1.0,
+          "alphaRemapSampler": 2101589,
+          "angle3d": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "angleVariation3d": [
+            0.0,
+            0.0,
+            360.0
+          ],
+          "applyGlobalForces": false,
+          "autoFPS": false,
+          "blending": 3,
+          "colorRandom": [
+            2,
+            [
+              [
+                1,
+                0.27734798192977905,
+                0.0
+              ],
+              [
+                1,
+                0.6289005875587463,
+                0.4975185990333557
+              ],
+              [
+                1,
+                0.3789120316505432,
+                0.9987593293190002
+              ]
+            ],
+            [
+              [
+                1,
+                0.48209354281425476,
+                0.0
+              ],
+              [
+                1,
+                0.8639352917671204,
+                0.4975185990333557
+              ],
+              [
+                1,
+                0.4927748441696167,
+                0.9987593293190002
+              ]
+            ],
+            [
+              [
+                1,
+                1.0,
+                0.0
+              ],
+              [
+                1,
+                1.0,
+                0.4975185990333557
+              ],
+              [
+                1,
+                1.0,
+                0.9987593293190002
+              ]
+            ],
+            [
+              [
+                1,
+                1.0,
+                0.0
+              ],
+              [
+                1,
+                1.0,
+                0.4975185990333557
+              ],
+              [
+                1,
+                1.0,
+                0.9987593293190002
+              ]
+            ]
+          ],
+          "cullMode": 0,
+          "degradeStrategy": 0,
+          "deltaTime": 0.0,
+          "deltaVariation": 0.0,
+          "depthDifferenceSlope": 2.0,
+          "enableAlphaRemap": false,
+          "enableFlow": false,
+          "enableFlowAnimation": false,
+          "enableFog": false,
+          "enableFrameBlend": false,
+          "enableMask": false,
+          "enableMaskUvScale": false,
+          "enableMaskUvScroll": false,
+          "enableNoise": false,
+          "enableNoiseScroll": false,
+          "enableUvScale": false,
+          "enableUvScroll": false,
+          "enableVertexAnimation": false,
+          "enableVertexAnimationMask": false,
+          "endTime": 1000000.0,
+          "flowmapSampler": 2101589,
+          "forces": [
+            {
+              "backwardTurbulenceProbability": 0,
+              "dragForceBoxSize": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dragForceInfinityRange": true,
+              "dragForceLine": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "dragForcePosition": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "dragForceRadius": 1.0,
+              "dragForceRotation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "dragForceShape": "box",
+              "dragForceTimingType": "ovr_layer",
+              "endTime": 15.0,
+              "forceDirection": [
+                0.0,
+                0.0,
+                1.0
+              ],
+              "forceIsActive": true,
+              "forceName": "Drag",
+              "forceType": "drag",
+              "forceWindBias": 1.0,
+              "forceWindFreq": 0.0,
+              "isGlobal": false,
+              "isVelocityTurbulence": false,
+              "killParticles": false,
+              "normalAsReflectionVector": true,
+              "planeScale": 5.0,
+              "pointGravityRadius": 1.0,
+              "pointGravityUseRandomPointsOnSphere": false,
+              "randomizeReflectionForce": false,
+              "reflectionChaos": 0.0,
+              "reflectionPercent": 100,
+              "rndReflectionForceMax": 1.100000023841858,
+              "rndReflectionForceMin": 1.0,
+              "startTime": 0.0,
+              "turbulenceLine": 0.0,
+              "velocityThreshold": 0.30000001192092896,
+              "windTurbulenceFrequency": 0.0,
+              "worldAlign": true
+            }
+          ],
+          "frameOverLifeEnabled": true,
+          "frameOverLifeFPS": 24.0,
+          "fresToAlphaBias": 0.0,
+          "fresToAlphaPower": 0.0,
+          "fuseBlendAddEdges": [
+            0.0,
+            1.0
+          ],
+          "gradientMiddlePoint": 0.5,
+          "inheritChangesRotation": true,
+          "inheritChangesScale": true,
+          "inheritPosition": true,
+          "isLong": true,
+          "isLooped": false,
+          "isSingle": false,
+          "layerType": "particles",
+          "life": 0.6000000238418579,
+          "lifeVariation": 0.6000000238418579,
+          "loopEndTime": 100.0,
+          "loopSpriteAnimation": true,
+          "loopVariation": 0.0,
+          "maskSampler": 2101589,
+          "name": "2",
+          "noiseSampler": 2101589,
+          "number": 10.0,
+          "particleOrientation": 0,
+          "pivotPoint3d": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "randomFrameOnStart": true,
+          "randomOffsetOnStart": false,
+          "randomSpinDirection": true,
+          "scaleVelocityBase": 1.0,
+          "scaleVelocityFactor": 1.0,
+          "simplifiedForces": [],
+          "size3d": [
+            0.10000000149011612,
+            0.10000000149011612,
+            1.0
+          ],
+          "sizeOverLife3ds": [
+            2,
+            [
+              [
+                0,
+                2.0036253929138184,
+                0.0
+              ],
+              [
+                0,
+                2.622356414794922,
+                0.036263059824705124
+              ],
+              [
+                0,
+                1.039275050163269,
+                0.08074676990509033
+              ],
+              [
+                0,
+                3.1521148681640625,
+                0.1283036172389984
+              ],
+              [
+                0,
+                1.8345922231674194,
+                0.1843884438276291
+              ],
+              [
+                0,
+                2.484894275665283,
+                0.23171481490135193
+              ],
+              [
+                0,
+                0.37432026863098145,
+                0.26498156785964966
+              ],
+              [
+                0,
+                1.9676737785339355,
+                0.30024585127830505
+              ],
+              [
+                0,
+                1.120845913887024,
+                0.350952684879303
+              ],
+              [
+                0,
+                1.6389727592468262,
+                0.3853718638420105
+              ],
+              [
+                0,
+                0.541540801525116,
+                0.4190995991230011
+              ],
+              [
+                0,
+                2.3015105724334717,
+                0.46972954273223877
+              ],
+              [
+                0,
+                0.8663142323493958,
+                0.519130289554596
+              ],
+              [
+                0,
+                1.2794561386108398,
+                0.5666871666908264
+              ],
+              [
+                0,
+                0.39123862981796265,
+                0.6011063456535339
+              ],
+              [
+                0,
+                1.6549848318099976,
+                0.6318377256393433
+              ],
+              [
+                0,
+                0.8762842416763306,
+                0.6779348850250244
+              ],
+              [
+                0,
+                0.33308154344558716,
+                0.7289490103721619
+              ],
+              [
+                0,
+                1.1367069482803345,
+                0.7701290845870972
+              ],
+              [
+                0,
+                0.6019637584686279,
+                0.8113090991973877
+              ],
+              [
+                0,
+                1.4728096723556519,
+                0.8537184596061707
+              ],
+              [
+                0,
+                0.244259774684906,
+                0.904118001461029
+              ],
+              [
+                0,
+                0.5631422400474548,
+                0.9452981352806091
+              ],
+              [
+                1,
+                0.2131420373916626,
+                0.9797172546386719
+              ],
+              [
+                1,
+                0.0,
+                1.0
+              ]
+            ],
+            [
+              [
+                0,
+                3.251812696456909,
+                0.0
+              ],
+              [
+                0,
+                1.6178247928619385,
+                0.04179471358656883
+              ],
+              [
+                0,
+                2.8179757595062256,
+                0.08358942717313766
+              ],
+              [
+                0,
+                1.2900301218032837,
+                0.13153041899204254
+              ],
+              [
+                0,
+                3.0453174114227295,
+                0.1665642261505127
+              ],
+              [
+                0,
+                1.6947131156921387,
+                0.21903809905052185
+              ],
+              [
+                0,
+                3.0510575771331787,
+                0.26352182030677795
+              ],
+              [
+                0,
+                0.8222054243087769,
+                0.31845420598983765
+              ],
+              [
+                0,
+                2.273413896560669,
+                0.3500307500362396
+              ],
+              [
+                0,
+                1.2989426851272583,
+                0.4006607234477997
+              ],
+              [
+                0,
+                2.8844411373138428,
+                0.4562076926231384
+              ],
+              [
+                0,
+                0.3462235927581787,
+                0.5006914734840393
+              ],
+              [
+                0,
+                2.351208448410034,
+                0.5347265005111694
+              ],
+              [
+                0,
+                0.7747734189033508,
+                0.5851259827613831
+              ],
+              [
+                0,
+                1.6401814222335815,
+                0.6263061165809631
+              ],
+              [
+                0,
+                0.4725075364112854,
+                0.6767056584358215
+              ],
+              [
+                0,
+                2.158005952835083,
+                0.7209588289260864
+              ],
+              [
+                0,
+                0.18474310636520386,
+                0.7781192660331726
+              ],
+              [
+                0,
+                1.6125377416610718,
+                0.8186846971511841
+              ],
+              [
+                0,
+                0.3820243775844574,
+                0.8444990515708923
+              ],
+              [
+                0,
+                1.1962236166000366,
+                0.8905962109565735
+              ],
+              [
+                0,
+                0.3200906813144684,
+                0.9280884861946106
+              ],
+              [
+                1,
+                0.9900302290916443,
+                0.9704978466033936
+              ],
+              [
+                1,
+                0.0,
+                1.0
+              ]
+            ],
+            [
+              [
+                1,
+                0.0,
+                0.0
+              ]
+            ]
+          ],
+          "sizeVariation3d": [
+            0.3499999940395355,
+            0.3499999940395355,
+            0.0
+          ],
+          "softParticles": false,
+          "spritePath": "~res:/Gfx/Particles/Boss_mode/Laser_gun/Lightning_1/Lightning_1",
+          "spriteSampler": 2102592,
+          "startTime": 0.5,
+          "useFresToAlpha": false,
+          "usePerspectiveMapping": false,
+          "useThreePointGradient": false,
+          "useVertexColor": false,
+          "vertexAnimationSampler": 2101589
+        }
+      ],
+      "life": 100.0,
+      "name": "Lightning_branch",
+      "radius": 1.0,
+      "shockwaveMode": 0,
+      "shortEffect": false,
+      "size": [
+        0.15000000596046448,
+        4.0,
+        0.15000000596046448
+      ],
+      "type": 1
+    }
+  ],
+  "#hierarchy": [
+    {
+      "##name": "Entity",
+      "components": {
+        "0000": {
+          "comp.typename": "LodComponent",
+          "lc.loddist": {
+            "distance0": 1.0,
+            "distance1": 250.0,
+            "distance2": 300.0,
+            "distance3": 3.4028234663852886e+38
+          }
+        },
+        "0001": {
+          "comp.typename": "ParticleEffectComponent",
+          "pe.clearOnRestart": true,
+          "pe.effectDuration": 1000000.0,
+          "pe.emitters": [
+            {
+              "##name": "<Unknown class>",
+              "emitter.data": [
+                {
+                  "emitter.id": 1,
+                  "emitter.quality": "Default"
+                }
+              ],
+              "emitter.position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "emitter.rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "emitter.scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "##name": "<Unknown class>",
+              "emitter.data": [
+                {
+                  "emitter.id": 2,
+                  "emitter.quality": "Default"
+                }
+              ],
+              "emitter.position": [
+                0.0,
+                2.0,
+                0.0
+              ],
+              "emitter.rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "emitter.scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ],
+          "pe.inheritScale": false,
+          "pe.nestedEmitters": true,
+          "pe.repeatsCount": 4294967295,
+          "pe.startFromTime": 0.0,
+          "pe.stopWhenEmpty": false,
+          "pe.version": 1,
+          "ro.flags": 1
+        },
+        "0002": {
+          "comp.typename": "TransformComponent",
+          "tc.localRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tc.localScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "tc.localTranslation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "tc.worldRotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "tc.worldScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "tc.worldTranslation": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "count": 3
+      },
+      "flags": 2,
+      "id": 2,
+      "name": "Laser_Ready"
+    }
+  ],
+  "#sceneComponents": {
+    "count": 0
+  }
+}

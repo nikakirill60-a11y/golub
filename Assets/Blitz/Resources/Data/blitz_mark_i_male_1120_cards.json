@@ -1,0 +1,197 @@
+{
+  "version": "11.20",
+  "generator": "Tools/port_blitz_mark_i_male_1120.py",
+  "policy": "Single collectible card; source modules and geometry retained; balanced Tier I combat scalars only",
+  "additional_research_links": [],
+  "tanks": [
+    {
+      "name": "gb86_mark_i_male",
+      "display_name": "Mark I Male",
+      "display_name_short": "Mark I Male",
+      "health": 194,
+      "lvl": 1,
+      "tank_class": 2,
+      "nation": 4,
+      "spot_radius": 220.0,
+      "speed_limits": {
+        "x": 32.775,
+        "y": 9.2
+      },
+      "turret_rot_speed": 36.0,
+      "turret_health": 81,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 140.0,
+        "max_regen_health": 80.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 150.0,
+        "max_regen_health": 50.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": false,
+      "cost": 0,
+      "cost_xp": 0,
+      "hull_weight": 11800.0,
+      "model_path": "Tanks/GB/GB86_Mark_I_Male.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/uk/GB86_Mark_I_Male.xml",
+      "source_sha256": "a466d53a3ac28cf9ffa9683549d92b4d0e83f6af6bff08f52390cbf443cb2dd2",
+      "unlock_tanks": {},
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_57mm_Hotchkiss_6_pdr_QF",
+          "display_name": "57 mm QF 6-pounder Hotchkiss",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 80.0,
+          "weight": 500.0,
+          "reload": 4.561644,
+          "aim_time": 1.85,
+          "disp": 0.405375,
+          "rot_speed": 40.0,
+          "max_ammo": 60,
+          "caliber": 57,
+          "deviation_up": {
+            "x": 17.0,
+            "y": 6.0
+          },
+          "deviation_r": {
+            "x": 13.0,
+            "y": 22.0
+          },
+          "disp_factors": {
+            "x": 0.12,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.48,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 2,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "Steel",
+              "caliber": 57,
+              "dmg": 45,
+              "dmg_devices": 2,
+              "pen": 46,
+              "speed": 800,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0
+            }
+          ]
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_GB86_Mark_I_Male",
+          "display_name": "Mark I Male",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 81,
+          "weight": 600.0,
+          "rot_speed": 36.0,
+          "spot_radius": 220.0,
+          "yaw_limits": {
+            "x": 13.0,
+            "y": 22.0
+          },
+          "turret_rotator": {
+            "health": 70.0,
+            "max_regen_health": 35.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 50.0,
+            "max_regen_health": 25.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {},
+          "guns": [
+            {
+              "name": "_57mm_Hotchkiss_6_pdr_QF",
+              "reload": 4.561644,
+              "max_ammo": 60,
+              "mesh": "gun_01",
+              "unlocks": {}
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_1_GB86_Mark_I_Male",
+          "display_name": "Mark I Male",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 65.0,
+          "weight": 4000.0,
+          "rot_speed": 35.0,
+          "disp_move_mul": 0.22,
+          "disp_rotation_mul": 0.22,
+          "max_regen_health": 50.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {}
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "Foster_Daimler_I6_GB86",
+          "display_name": "Foster-Daimler I6",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 40.0,
+          "weight": 500.0,
+          "power": 215,
+          "fireStartingChance": 0.15,
+          "max_regen_health": 20.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "Wireless_GB86",
+          "display_name": "Wireless_GB86",
+          "level": 1,
+          "cost_xp": 0,
+          "health": 180.0,
+          "weight": 100.0,
+          "distance": 450.0,
+          "unlocks": {}
+        }
+      ],
+      "tree_branch": 0,
+      "prem": true,
+      "collector": true,
+      "shop_tank": false,
+      "acquisition": "collectible",
+      "cost_gold": 10,
+      "collector_sell_gold": 10,
+      "hidden": false,
+      "source_version": "11.20",
+      "source_overlay": "mark_i_male_1120"
+    }
+  ]
+}

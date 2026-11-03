@@ -1,0 +1,255 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "F75CHARDE25TArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 312,
+      "vertices": 358
+    },
+    {
+      "armor": 0,
+      "material": "F75CHARDE25TArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 20,
+      "material": "F75CHARDE25TArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 86,
+      "vertices": 258
+    },
+    {
+      "armor": 25,
+      "material": "F75CHARDE25TArmor_armor_hull_plate25_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25_25",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 60,
+      "vertices": 180
+    },
+    {
+      "armor": 30,
+      "material": "F75CHARDE25TArmor_armor_hull_plate30_30",
+      "mount": "hull",
+      "name": "armor_hull_plate30_30",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 26,
+      "vertices": 78
+    },
+    {
+      "armor": 0,
+      "material": "F75CHARDE25TArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 20,
+      "material": "F75CHARDE25TArmor_armor_turret_01_plate20_20",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate20_20",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 112,
+      "vertices": 336
+    },
+    {
+      "armor": 25,
+      "material": "F75CHARDE25TArmor_armor_turret_01_plate25_25",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate25_25",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 98,
+      "vertices": 294
+    },
+    {
+      "armor": 30,
+      "material": "F75CHARDE25TArmor_armor_turret_01_plate30_30",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate30_30",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 48,
+      "vertices": 144
+    },
+    {
+      "armor": 0,
+      "material": "F75CHARDE25TArmor_gun_01_mask_turret_01_plate0_0",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 15,
+      "vertices": 45
+    },
+    {
+      "armor": 15,
+      "material": "F75CHARDE25TArmor_gun_01_mask_turret_01_plate15_15",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate15_15",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 20,
+      "material": "F75CHARDE25TArmor_gun_01_mask_turret_01_plate20_20",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate20_20",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 117,
+      "vertices": 351
+    },
+    {
+      "armor": 25,
+      "material": "F75CHARDE25TArmor_gun_01_mask_turret_01_plate25_25",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate25_25",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 95,
+      "vertices": 285
+    },
+    {
+      "armor": 30,
+      "material": "F75CHARDE25TArmor_gun_01_mask_turret_01_plate30_30",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate30_30",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 28,
+      "vertices": 84
+    },
+    {
+      "armor": 40,
+      "material": "F75CHARDE25TArmor_gun_01_mask_turret_01_plate40_40",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate40_40",
+      "screen": false,
+      "submesh": 14,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 50,
+      "material": "F75CHARDE25TArmor_gun_01_mask_turret_01_plate50_50",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate50_50",
+      "screen": false,
+      "submesh": 15,
+      "triangles": 62,
+      "vertices": 186
+    },
+    {
+      "armor": 70,
+      "material": "F75CHARDE25TArmor_gun_01_mask_turret_01_plate70_70",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate70_70",
+      "screen": false,
+      "submesh": 16,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 0,
+      "material": "F75CHARDE25TArmor_gun_03_mask_turret_01_plate0_0",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 17,
+      "triangles": 15,
+      "vertices": 45
+    },
+    {
+      "armor": 15,
+      "material": "F75CHARDE25TArmor_gun_03_mask_turret_01_plate15_15",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate15_15",
+      "screen": false,
+      "submesh": 18,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 20,
+      "material": "F75CHARDE25TArmor_gun_03_mask_turret_01_plate20_20",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate20_20",
+      "screen": false,
+      "submesh": 19,
+      "triangles": 116,
+      "vertices": 348
+    },
+    {
+      "armor": 25,
+      "material": "F75CHARDE25TArmor_gun_03_mask_turret_01_plate25_25",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate25_25",
+      "screen": false,
+      "submesh": 20,
+      "triangles": 95,
+      "vertices": 285
+    },
+    {
+      "armor": 30,
+      "material": "F75CHARDE25TArmor_gun_03_mask_turret_01_plate30_30",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate30_30",
+      "screen": false,
+      "submesh": 21,
+      "triangles": 28,
+      "vertices": 84
+    },
+    {
+      "armor": 40,
+      "material": "F75CHARDE25TArmor_gun_03_mask_turret_01_plate40_40",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate40_40",
+      "screen": false,
+      "submesh": 22,
+      "triangles": 42,
+      "vertices": 126
+    },
+    {
+      "armor": 50,
+      "material": "F75CHARDE25TArmor_gun_03_mask_turret_01_plate50_50",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate50_50",
+      "screen": false,
+      "submesh": 23,
+      "triangles": 63,
+      "vertices": 189
+    },
+    {
+      "armor": 70,
+      "material": "F75CHARDE25TArmor_gun_03_mask_turret_01_plate70_70",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_01_plate70_70",
+      "screen": false,
+      "submesh": 24,
+      "triangles": 24,
+      "vertices": 72
+    }
+  ]
+}

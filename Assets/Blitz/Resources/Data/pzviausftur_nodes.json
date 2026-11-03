@@ -1,0 +1,68 @@
+{
+  "albedos": {
+    "gun_01": "PZVI_AUSFTU",
+    "turret_01": "PZVI_AUSFTU"
+  },
+  "nodes": {
+    "gun_01": {
+      "local": [
+        0.032067,
+        0.412195,
+        -1.205636
+      ],
+      "parent": "turret_01",
+      "world": [
+        0.01,
+        2.2321,
+        -1.0309
+      ]
+    },
+    "gun_01_shoot_pos": {
+      "local": [
+        -0.000338,
+        -0.001449,
+        -3.951057
+      ],
+      "parent": "gun_01",
+      "world": [
+        0.009662,
+        2.230651,
+        -4.981957
+      ]
+    },
+    "turret_01": {
+      "local": [
+        -0.022067,
+        1.819905,
+        0.174736
+      ],
+      "parent": "",
+      "world": [
+        -0.022067,
+        1.819905,
+        0.174736
+      ]
+    }
+  },
+  "rig": {
+    "gun": "gun_01",
+    "guns": [
+      "gun_01"
+    ],
+    "muzzle": "gun_01_shoot_pos",
+    "muzzles": {
+      "gun_01": "gun_01_shoot_pos"
+    },
+    "turret": "turret_01",
+    "turrets": {
+      "turret_01": {
+        "guns": [
+          "gun_01"
+        ],
+        "muzzles": {
+          "gun_01": "gun_01_shoot_pos"
+        }
+      }
+    }
+  }
+}

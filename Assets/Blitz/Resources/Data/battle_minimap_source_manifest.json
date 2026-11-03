@@ -1,0 +1,298 @@
+{
+  "behaviour": {
+    "deathDim": 0.5,
+    "deathFadeSeconds": 1.0,
+    "destroyerScale": 0.75,
+    "ghostDim": 0.5,
+    "ghostLighten": 0.5,
+    "missileScale": 0.45,
+    "playerRotationOffset": -1.5707963267948966,
+    "updateSeconds": 0.5
+  },
+  "blockIcon": {
+    "anchors": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "offsets": [
+      7.0,
+      50.0,
+      73.0,
+      100.0
+    ],
+    "scale": [
+      0.41,
+      0.41
+    ]
+  },
+  "colours": {
+    "ally": [
+      0.396,
+      0.867,
+      0.0,
+      1.0
+    ],
+    "enemy": [
+      0.96,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "dmgIcon": {
+    "anchors": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "offsets": [
+      11.0,
+      16.0,
+      63.0,
+      68.0
+    ],
+    "scale": [
+      0.425,
+      0.425
+    ]
+  },
+  "dmgLog": {
+    "anchors": [
+      0.0,
+      0.5,
+      0.0,
+      0.5
+    ],
+    "offsets": [
+      215.0,
+      -19.0,
+      335.0,
+      88.0
+    ],
+    "scale": [
+      1.0,
+      1.0
+    ]
+  },
+  "global": {
+    "bytes": 34283,
+    "sha256": "9a46ce3dd33294493957e18f8b34e28a8b8053bb0a4472c08d13b37ed3588809",
+    "source": "scripts/_global.gd"
+  },
+  "handle": {
+    "anchors": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "offsets": [
+      126.0,
+      -216.0,
+      166.0,
+      -176.0
+    ],
+    "scale": [
+      1.0,
+      1.0
+    ]
+  },
+  "minimap": {
+    "anchors": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "offsets": [
+      0.0,
+      0.0,
+      512.0,
+      512.0
+    ],
+    "scale": [
+      0.66,
+      0.66
+    ]
+  },
+  "regions": {
+    "battle_minimap_look_direction": {
+      "bytes": 275,
+      "rect": [
+        1760,
+        781,
+        50,
+        46
+      ],
+      "sha256": "e7cb57a5698ce29b38eeda3b26c605d95fdeef4bef33c9f18044a15903acb6f6",
+      "source": "assets/gfx/ui/battle/parsed/MinimapLookDirection.tres"
+    },
+    "battle_minimap_player": {
+      "bytes": 275,
+      "rect": [
+        958,
+        2028,
+        28,
+        19
+      ],
+      "sha256": "c2121b30858a6d8cda37af10df819a4902e5d25f197f082279a5ba30b5570daa",
+      "source": "assets/gfx/ui/battle/parsed/MinimapPlayer.tres"
+    },
+    "battle_minimap_respawn_ally_1": {
+      "bytes": 275,
+      "rect": [
+        1127,
+        1144,
+        54,
+        54
+      ],
+      "sha256": "0d9786286641c9f46f4826c1e48a1cc4be4830cba68229b0efaafeff75072ce1",
+      "source": "assets/gfx/ui/battle/parsed/MinimapRespawn.tres"
+    },
+    "battle_minimap_respawn_ally_2": {
+      "bytes": 275,
+      "rect": [
+        1946,
+        1070,
+        54,
+        54
+      ],
+      "sha256": "7dfdf0924754d3d27f8d3dd332cfeb253e43a848305d7192683a3dd2bb70d71d",
+      "source": "assets/gfx/ui/battle/parsed/MinimapRespawn02.tres"
+    },
+    "battle_minimap_respawn_ally_3": {
+      "bytes": 276,
+      "rect": [
+        1890,
+        1070,
+        54,
+        54
+      ],
+      "sha256": "2ab460ebc6c719f0762fbf9b2d371e094ee627bfb11564a446fb02ac57f935ba",
+      "source": "assets/gfx/ui/battle/parsed/MinimapRespawn03.tres"
+    },
+    "battle_minimap_respawn_ally_4": {
+      "bytes": 276,
+      "rect": [
+        1834,
+        1070,
+        54,
+        54
+      ],
+      "sha256": "d4281e5c2c7fb353218bfcbb6ef6c4e33eff4878736a05451c0933aff9767104",
+      "source": "assets/gfx/ui/battle/parsed/MinimapRespawn04.tres"
+    },
+    "battle_minimap_respawn_enemy_1": {
+      "bytes": 275,
+      "rect": [
+        1778,
+        1070,
+        54,
+        54
+      ],
+      "sha256": "7e835d5c68b95a006be6470c95ec27abc431dcff2d6d8fec34408af7e52e9402",
+      "source": "assets/gfx/ui/battle/parsed/MinimapRespawn05.tres"
+    },
+    "battle_minimap_respawn_enemy_2": {
+      "bytes": 276,
+      "rect": [
+        1722,
+        1070,
+        54,
+        54
+      ],
+      "sha256": "d4f7effcf9690c8be2f01e99e4d363d952b195cc83dea6de4dfcd370331ac8a5",
+      "source": "assets/gfx/ui/battle/parsed/MinimapRespawn06.tres"
+    },
+    "battle_minimap_respawn_enemy_3": {
+      "bytes": 276,
+      "rect": [
+        1666,
+        1070,
+        54,
+        54
+      ],
+      "sha256": "895daf2d5fb0eb6121da876ce3ad5968330863d5a9210cc54b7a29b4f5f62630",
+      "source": "assets/gfx/ui/battle/parsed/MinimapRespawn07.tres"
+    },
+    "battle_minimap_respawn_enemy_4": {
+      "bytes": 275,
+      "rect": [
+        1610,
+        1070,
+        54,
+        54
+      ],
+      "sha256": "15b10cdeca7b935d4688e5a6b90ac60d15e17f8cb870b731d4405996b07a6310",
+      "source": "assets/gfx/ui/battle/parsed/MinimapRespawn08.tres"
+    },
+    "battle_minimap_tank_destroyer": {
+      "bytes": 276,
+      "rect": [
+        1364,
+        1194,
+        28,
+        28
+      ],
+      "sha256": "6578b23e1d100777704451d9a8fd99f37789dbe2c5c9f06276d64b7e2c2c6cab",
+      "source": "assets/gfx/ui/battle/parsed/MinimapTank.tres"
+    },
+    "battle_minimap_tank_heavy": {
+      "bytes": 276,
+      "rect": [
+        1623,
+        1194,
+        24,
+        28
+      ],
+      "sha256": "94ec9fee1f482588f34fe9ae5360b57220f4b5c893eccbd076b3f0a244010a4c",
+      "source": "assets/gfx/ui/battle/parsed/MinimapTank04.tres"
+    },
+    "battle_minimap_tank_light": {
+      "bytes": 274,
+      "rect": [
+        717,
+        945,
+        23,
+        27
+      ],
+      "sha256": "d11e748287db96b7392c441cfc4d862bf54b9612ef3a32406b1db8ea233d3713",
+      "source": "assets/gfx/ui/battle/parsed/MinimapTank02.tres"
+    },
+    "battle_minimap_tank_medium": {
+      "bytes": 276,
+      "rect": [
+        1597,
+        1194,
+        24,
+        28
+      ],
+      "sha256": "6eee499e1a70676e5f4908a96e9175cc929d1a0b95cd679ae07047edffce68f4",
+      "source": "assets/gfx/ui/battle/parsed/MinimapTank03.tres"
+    },
+    "battle_rocket_marker": {
+      "bytes": 7029,
+      "rect": [
+        0,
+        0,
+        92,
+        68
+      ],
+      "sha256": "bcc7f204e34fd311d1e7a1f4b3ba43930a183ff69980db6f953b907a3a632f76",
+      "source": "assets/gfx/ui/battle/rocket_marker.png"
+    }
+  },
+  "scene": {
+    "bytes": 76490,
+    "sha256": "add8cf1839110f379c4425bae2ce25d1129cd94181f5d451668d1790fe0c0645",
+    "source": "assets/gfx/ui/ui_player.tscn"
+  },
+  "script": {
+    "bytes": 41051,
+    "sha256": "94e9ed93c8580e6d345116a9e89c61489c30af2beb3dc6917ceefe03891bc4dc",
+    "source": "assets/gfx/ui/battle/ui_player_battle.gd"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "policy": "independent SCG LOD0 face counts and positions/UV/normals within 0.00002 + decoded source RGBA (track RGB bled under the clip) + native collision plate IDs + XML pivots",
+  "tanks": [
+    {
+      "name": "object_907",
+      "visible_triangles": 6820,
+      "source_triangles": 6820,
+      "wheels": 22,
+      "collision_triangles": 1082,
+      "exact_plates": 32,
+      "configurations": 1
+    }
+  ],
+  "errors": []
+}

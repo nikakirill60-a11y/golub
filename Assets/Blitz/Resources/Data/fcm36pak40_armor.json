@@ -1,0 +1,102 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.0,
+      -0.14,
+      0.0
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "FCM36PAK40Armor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 408,
+      "vertices": 432
+    },
+    {
+      "armor": 10,
+      "material": "FCM36PAK40Armor_armor_hull_plate10_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10_10",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 12,
+      "material": "FCM36PAK40Armor_armor_hull_plate12_12",
+      "mount": "hull",
+      "name": "armor_hull_plate12_12",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 20,
+      "material": "FCM36PAK40Armor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 151,
+      "vertices": 453
+    },
+    {
+      "armor": 35,
+      "material": "FCM36PAK40Armor_armor_hull_plate35_35",
+      "mount": "hull",
+      "name": "armor_hull_plate35_35",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 41,
+      "material": "FCM36PAK40Armor_armor_hull_plate41_41",
+      "mount": "hull",
+      "name": "armor_hull_plate41_41",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 26,
+      "vertices": 78
+    },
+    {
+      "armor": 20,
+      "material": "FCM36PAK40Armor_armor_turret_01_plate20_20",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate20_20",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 74,
+      "vertices": 222
+    },
+    {
+      "armor": 41,
+      "material": "FCM36PAK40Armor_armor_turret_01_plate41_41",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate41_41",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 40,
+      "material": "FCM36PAK40Armor_gun_01_mask_turret_01_plate40_40",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate40_40",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 14,
+      "vertices": 42
+    }
+  ]
+}

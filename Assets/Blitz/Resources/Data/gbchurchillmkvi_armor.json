@@ -1,0 +1,342 @@
+{
+  "mountOffsets": {
+    "hull": [
+      0.0,
+      0.3,
+      0.0
+    ]
+  },
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GBCHURCHILLMKVIArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 342,
+      "vertices": 346
+    },
+    {
+      "armor": 0,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 139,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate139_139",
+      "mount": "hull",
+      "name": "armor_hull_plate139_139",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 152,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate152_152",
+      "mount": "hull",
+      "name": "armor_hull_plate152_152",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 15,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate15_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15_15",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 19,
+      "vertices": 57
+    },
+    {
+      "armor": 15,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate15s_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15s_15",
+      "screen": true,
+      "submesh": 5,
+      "triangles": 30,
+      "vertices": 90
+    },
+    {
+      "armor": 176,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate176_176",
+      "mount": "hull",
+      "name": "armor_hull_plate176_176",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 19,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate19_19",
+      "mount": "hull",
+      "name": "armor_hull_plate19_19",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 27,
+      "vertices": 81
+    },
+    {
+      "armor": 25,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate25_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25_25",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 25,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate25s_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25s_25",
+      "screen": true,
+      "submesh": 9,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 34,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate34s_34",
+      "mount": "hull",
+      "name": "armor_hull_plate34s_34",
+      "screen": true,
+      "submesh": 10,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 38,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate38s_38",
+      "mount": "hull",
+      "name": "armor_hull_plate38s_38",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 13,
+      "vertices": 39
+    },
+    {
+      "armor": 50,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate50_50",
+      "mount": "hull",
+      "name": "armor_hull_plate50_50",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 17,
+      "vertices": 51
+    },
+    {
+      "armor": 50,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate50s_50",
+      "mount": "hull",
+      "name": "armor_hull_plate50s_50",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 53,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate53s_53",
+      "mount": "hull",
+      "name": "armor_hull_plate53s_53",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 57,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate57_57",
+      "mount": "hull",
+      "name": "armor_hull_plate57_57",
+      "screen": false,
+      "submesh": 15,
+      "triangles": 31,
+      "vertices": 93
+    },
+    {
+      "armor": 63,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate63_63",
+      "mount": "hull",
+      "name": "armor_hull_plate63_63",
+      "screen": false,
+      "submesh": 16,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 66,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate66s_66",
+      "mount": "hull",
+      "name": "armor_hull_plate66s_66",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 72,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate72s_72",
+      "mount": "hull",
+      "name": "armor_hull_plate72s_72",
+      "screen": true,
+      "submesh": 18,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 76,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate76_76",
+      "mount": "hull",
+      "name": "armor_hull_plate76_76",
+      "screen": false,
+      "submesh": 19,
+      "triangles": 34,
+      "vertices": 102
+    },
+    {
+      "armor": 82,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate82s_82",
+      "mount": "hull",
+      "name": "armor_hull_plate82s_82",
+      "screen": true,
+      "submesh": 20,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 91,
+      "material": "GBCHURCHILLMKVIArmor_armor_hull_plate91s_91",
+      "mount": "hull",
+      "name": "armor_hull_plate91s_91",
+      "screen": true,
+      "submesh": 21,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 0,
+      "material": "GBCHURCHILLMKVIArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 22,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 139,
+      "material": "GBCHURCHILLMKVIArmor_armor_turret_01_plate139_139",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate139_139",
+      "screen": false,
+      "submesh": 23,
+      "triangles": 49,
+      "vertices": 147
+    },
+    {
+      "armor": 152,
+      "material": "GBCHURCHILLMKVIArmor_armor_turret_01_plate152_152",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate152_152",
+      "screen": false,
+      "submesh": 24,
+      "triangles": 46,
+      "vertices": 138
+    },
+    {
+      "armor": 19,
+      "material": "GBCHURCHILLMKVIArmor_armor_turret_01_plate19_19",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate19_19",
+      "screen": false,
+      "submesh": 25,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 20,
+      "material": "GBCHURCHILLMKVIArmor_armor_turret_01_plate20_20",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate20_20",
+      "screen": false,
+      "submesh": 26,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 25,
+      "material": "GBCHURCHILLMKVIArmor_armor_turret_01_plate25_25",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate25_25",
+      "screen": false,
+      "submesh": 27,
+      "triangles": 9,
+      "vertices": 27
+    },
+    {
+      "armor": 60,
+      "material": "GBCHURCHILLMKVIArmor_armor_turret_01_plate60_60",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate60_60",
+      "screen": false,
+      "submesh": 28,
+      "triangles": 56,
+      "vertices": 168
+    },
+    {
+      "armor": 83,
+      "material": "GBCHURCHILLMKVIArmor_armor_turret_01_plate83_83",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate83_83",
+      "screen": false,
+      "submesh": 29,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 95,
+      "material": "GBCHURCHILLMKVIArmor_armor_turret_01_plate95_95",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate95_95",
+      "screen": false,
+      "submesh": 30,
+      "triangles": 122,
+      "vertices": 366
+    },
+    {
+      "armor": 120,
+      "material": "GBCHURCHILLMKVIArmor_gun_01_mask_turret_01_plate120s_120",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate120s_120",
+      "screen": true,
+      "submesh": 31,
+      "triangles": 28,
+      "vertices": 84
+    },
+    {
+      "armor": 152,
+      "material": "GBCHURCHILLMKVIArmor_gun_01_mask_turret_01_plate152s_152",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate152s_152",
+      "screen": true,
+      "submesh": 32,
+      "triangles": 20,
+      "vertices": 60
+    }
+  ]
+}

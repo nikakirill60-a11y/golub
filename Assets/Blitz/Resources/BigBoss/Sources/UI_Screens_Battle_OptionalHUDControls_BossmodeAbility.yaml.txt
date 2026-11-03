@@ -1,0 +1,250 @@
+Header:
+    version: 142
+ImportedPackages:
+- "~res:/UI/Screens/Battle/OptionalHUDControls/BossmodeAbilityType.yaml"
+Prototypes:
+-   class: "UIControl"
+    name: "Ability"
+    size: [320.000000, 301.000000]
+    input: true
+    exclusiveInput: false
+    classes: "ability ability-state=ability-off ability-grade-1"
+    components:
+        Anchor:
+            topAnchorEnabled: true
+        SizePolicy:
+            horizontalPolicy: "PercentOfMaxChild"
+            verticalPolicy: "PercentOfMaxChild"
+        StyleSheet:
+            styles: "~res:/UI/Screens/Battle/Styles/HUDLayerHellgamesStyles.yaml"
+    children:
+    -   class: "UIControl"
+        name: "AbilityButton"
+        classes: "button-color-gray"
+        components:
+            Background: {}
+            UIOpacityComponent: {}
+            Anchor:
+                hCenterAnchorEnabled: true
+                vCenterAnchorEnabled: true
+            SizePolicy:
+                horizontalPolicy: "PercentOfMaxChild"
+                verticalPolicy: "PercentOfLastChild"
+            UIInputEventComponent: {}
+            StyleSheet:
+                styles: "~res:/UI/Screens/Battle/Styles/HUDLayerHellgamesStyles.yaml;~res:/UI/Styles/ButtonStyle.yaml"
+        children:
+        -   class: "UIControl"
+            name: "Content"
+            input: false
+            components:
+                Anchor:
+                    hCenterAnchorEnabled: true
+                    vCenterAnchorEnabled: true
+                LinearLayout:
+                    orientation: "TopDown"
+                    padding: "32"
+                    spacing: 32.000000
+                SizePolicy:
+                    horizontalPolicy: "PercentOfMaxChild"
+                    verticalPolicy: "PercentOfChildrenSum"
+                StyleSheet:
+                    styles: "~res:/UI/Screens/Battle/Styles/HUDLayerHellgamesStyles.yaml"
+            children:
+            -   class: "UIControl"
+                name: "Fade"
+                position: [96.000000, 0.000000]
+                input: false
+                components:
+                    Background:
+                        drawType: "DRAW_SCALE_PROPORTIONAL_ONE"
+                        sprite: "~res:/Gfx/Shared/backgrounds/bg_loader-circle_shadow"
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                        topAnchorEnabled: true
+                    IgnoreLayout: {}
+                    SizePolicy:
+                        horizontalPolicy: "FixedSize"
+                        horizontalValue: 192.000000
+                        verticalPolicy: "FixedSize"
+                        verticalValue: 192.000000
+            -   class: "UIControl"
+                name: "Background"
+                position: [0.000000, 9.500000]
+                input: false
+                components:
+                    Background:
+                        drawType: "DRAW_STRETCH_BOTH"
+                        sprite: "~res:/Gfx/Shared/backgrounds/bg_r1"
+                        color: [0.117647, 0.133333, 0.137255, 0.701961]
+                        leftRightStretchCap: 1.000000
+                        topBottomStretchCap: 1.000000
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                        topAnchorEnabled: true
+                        topAnchor: 96.000000
+                    IgnoreLayout: {}
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                        verticalPolicy: "FixedSize"
+                        verticalValue: 96.000000
+                        verticalFormula: "parent - 96"
+                    StyleSheet:
+                        styles: "~res:/UI/Screens/Common/StyledButton.yaml;~res:/UI/Styles/ButtonSoundStyles.yaml"
+            -   class: "UIControl"
+                name: "AbilityDetailContainer"
+                input: false
+                classes: "equipment_item ability-icon=reload-boost"
+                components:
+                    Anchor:
+                        hCenterAnchorEnabled: true
+                        vCenterAnchorEnabled: true
+                    LinearLayout:
+                        orientation: "TopDown"
+                    SizePolicy:
+                        horizontalPolicy: "Formula"
+                        horizontalFormula: "maxChild + 64"
+                        verticalPolicy: "PercentOfChildrenSum"
+                    StyleSheet:
+                        styles: ""
+                children:
+                -   class: "UIControl"
+                    name: "icon"
+                    size: [96.000000, 96.000000]
+                    input: false
+                    components:
+                        Background:
+                            drawType: "DRAW_ALIGNED"
+                        Anchor:
+                            hCenterAnchorEnabled: true
+                        SizePolicy:
+                            horizontalPolicy: "FixedSize"
+                            horizontalValue: 128.000000
+                            verticalPolicy: "FixedSize"
+                            verticalValue: 128.000000
+                        StyleSheet:
+                            styles: "~res:/UI/Styles/Lobby/Inventory/Event/InventoryBigStyles.yaml;~res:/UI/Screens/Battle/Styles/HUDLayerHellgamesStyles.yaml"
+                -   class: "UIControl"
+                    name: "Spacer"
+                    size: [32.000000, 32.000000]
+                    input: false
+                    components:
+                        SizePolicy:
+                            horizontalPolicy: "PercentOfParent"
+                            verticalPolicy: "FixedSize"
+                            verticalValue: 16.000000
+                -   prototype: "BossmodeAbilityType/BossmodeAbilityType"
+                    name: "BossmodeAbilityType"
+                    components:
+                        Anchor:
+                            hCenterAnchorEnabled: true
+                -   class: "UIControl"
+                    name: "AbilityName"
+                    input: false
+                    classes: "header4 text-color-white"
+                    components:
+                        UITextComponent:
+                            text: "Ability name"
+                            multiline: "MULTILINE_ENABLED"
+                            fitting: "FITTING_POINTS"
+                        Anchor:
+                            hCenterAnchorEnabled: true
+                        SizePolicy:
+                            horizontalPolicy: "FixedSize"
+                            horizontalValue: 256.000000
+                            verticalPolicy: "PercentOfContent"
+                            verticalMax: 48.000000
+                        StyleSheet:
+                            styles: "~res:/UI/Screens/Fonts.yaml;~res:/UI/Screens/FontsColors.yaml"
+                -   class: "UIControl"
+                    name: "Spacer"
+                    size: [32.000000, 32.000000]
+                    input: false
+                    components:
+                        SizePolicy:
+                            horizontalPolicy: "PercentOfParent"
+                            verticalPolicy: "FixedSize"
+                            verticalValue: 24.000000
+                -   class: "UIControl"
+                    name: "AbilityDescription"
+                    input: false
+                    classes: "text2-small text-color-white"
+                    components:
+                        UITextComponent:
+                            text: "Ability description"
+                            multiline: "MULTILINE_ENABLED"
+                            fitting: "FITTING_POINTS"
+                            align: ["HCENTER", "TOP"]
+                        Anchor:
+                            hCenterAnchorEnabled: true
+                        SizePolicy:
+                            horizontalPolicy: "FixedSize"
+                            horizontalValue: 256.000000
+                            verticalPolicy: "PercentOfContent"
+                            verticalMax: 84.000000
+                        StyleSheet:
+                            styles: "~res:/UI/Screens/Fonts.yaml"
+            -   class: "UIControl"
+                name: "AbilityParamsContainer"
+                input: false
+                components:
+                    LinearLayout:
+                        orientation: "TopDown"
+                    SizePolicy:
+                        horizontalPolicy: "PercentOfParent"
+                        verticalPolicy: "PercentOfChildrenSum"
+-   class: "UIControl"
+    name: "AbilityParam"
+    size: [135.000000, 0.000000]
+    input: false
+    components:
+        Anchor:
+            hCenterAnchorEnabled: true
+        LinearLayout:
+            spacing: 24.000000
+            dynamicSpacing: true
+            useRtl: true
+        SizePolicy:
+            horizontalPolicy: "FixedSize"
+            horizontalValue: 256.000000
+            verticalPolicy: "Formula"
+            verticalFormula: "maxChild + 8"
+    children:
+    -   class: "UIControl"
+        name: "Descr"
+        input: false
+        classes: "text2-small text-color-white-50"
+        components:
+            UITextComponent:
+                text: "Well, very, very long parameter text"
+                multiline: "MULTILINE_ENABLED"
+                fitting: "FITTING_POINTS"
+                align: ["LEFT"]
+                useRtlAlign: "USE_BY_SYSTEM"
+            Anchor:
+                topAnchorEnabled: true
+                topAnchor: 4.000000
+                useRtl: true
+            SizePolicy:
+                horizontalPolicy: "PercentOfParent"
+                verticalPolicy: "PercentOfContent"
+                verticalMin: 0.000000
+                verticalMax: 42.000000
+            StyleSheet:
+                styles: "~res:/UI/Screens/Fonts.yaml;~res:/UI/Screens/FontsColors.yaml;~res:/UI/Screens/Battle/Styles/HUDLayerHellgamesStyles.yaml"
+    -   class: "UIControl"
+        name: "Value"
+        position: [109.000000, 0.000000]
+        input: false
+        classes: "header5 text-color-white"
+        components:
+            UITextComponent:
+                text: "100"
+            Anchor:
+                topAnchorEnabled: true
+                topAnchor: 4.000000
+            SizePolicy:
+                horizontalPolicy: "PercentOfContent"
+                verticalPolicy: "PercentOfContent"
+            StyleSheet:
+                styles: "~res:/UI/Screens/Fonts.yaml;~res:/UI/Screens/FontsColors.yaml;~res:/UI/Screens/Battle/Styles/HUDLayerHellgamesStyles.yaml"

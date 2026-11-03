@@ -1,0 +1,731 @@
+{
+ "legacyEmitters": [
+  {
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "emitter": {
+    "name": "smoke",
+    "emissionVector": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "emissionAngle": 0.0,
+    "type": 0,
+    "size": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "shortEffect": false,
+    "emissionRange": 120.0,
+    "emissionVectorInverted": true,
+    "radius": 0,
+    "layers": [
+     {
+      "life": 2.0,
+      "stripeLifetime": 0.0,
+      "endTime": 0.1,
+      "scaleVelocityBase": 0.0,
+      "stripeVertexSpawnStep": 1.0,
+      "stripeStartSize": 0.0,
+      "type": "layer",
+      "stripeUScrollSpeed": 0.0,
+      "enableFlow": false,
+      "stripeVScrollSpeed": 0.0,
+      "colorOverLife": [
+       0.7475394470588235,
+       0.8626688039215686,
+       0.9568627450980393,
+       1.0
+      ],
+      "stripeFadeDistanceFromTop": 0.0,
+      "name": "smoke",
+      "layerType": "particles",
+      "degradeStrategy": 2,
+      "particleOrientation": 1,
+      "inheritPosition": false,
+      "isLong": false,
+      "randomSpinDirection": true,
+      "pivotPoint": [
+       0.0,
+       0.0
+      ],
+      "effectFormat": 1,
+      "useFresToAlpha": false,
+      "fresToAlphaBias": 0.0,
+      "fresToAlphaPower": 0.0,
+      "alphaRemapLoopCount": 1.0,
+      "force0": [
+       0.0,
+       0.0,
+       -160.0
+      ],
+      "size": [
+       1.5,
+       1.5
+      ],
+      "sprite": "../../../../../../Data/Gfx/Particles/sea_of_ducks/dust_water",
+      "alphaOverLife": [
+       2,
+       [
+        [
+         1,
+         1.0,
+         0.0
+        ],
+        [
+         1,
+         0.0,
+         0.99
+        ]
+       ]
+      ],
+      "enableAlphaRemap": false,
+      "blending": 1,
+      "deltaTime": 0.0,
+      "enableFlowAnimation": false,
+      "enableNoise": false,
+      "useNoiseScroll": false,
+      "useThreePointGradient": false,
+      "stripeInheritPositionForBase": false,
+      "enableFog": true,
+      "enableFrameBlend": false,
+      "loopEndTime": 4.0,
+      "scaleVelocityFactor": 0.01,
+      "startTime": 0.0,
+      "gradientMiddlePoint": 0.5,
+      "lifeVariation": 0.5,
+      "applyGlobalForces": false,
+      "loopVariation": 0.0,
+      "loopSpriteAnimation": false,
+      "number": 100.0,
+      "sizeOverLifeXY": [
+       0.0,
+       [
+        1.0,
+        1.0
+       ],
+       1.0,
+       [
+        4.0,
+        4.0
+       ]
+      ],
+      "velocity": 1.0,
+      "frameOverLifeEnabled": false,
+      "velocityVariation": 13.0,
+      "velocityOverLife": [
+       2,
+       [
+        [
+         1,
+         2.0,
+         0.0
+        ],
+        [
+         1,
+         0.0657,
+         0.0509
+        ],
+        [
+         1,
+         0.0,
+         0.99
+        ]
+       ]
+      ],
+      "frameOverLifeFPS": 100.0,
+      "spin": 10.0,
+      "spinVariation": 10.0,
+      "angle": 1.0,
+      "angleVariation": 360.0,
+      "randomFrameOnStart": false,
+      "isLooped": false,
+      "deltaVariation": 0.0,
+      "usePerspectiveMapping": false,
+      "activeLODS": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "forceCount": 1,
+      "legacyLod": 1,
+      "legacyPivot": [
+       0.0,
+       0.0
+      ],
+      "legacySpinDirection": true,
+      "size3d": [
+       1.5,
+       1.5,
+       1
+      ],
+      "sizeOverLife3ds": [
+       2,
+       [
+        [
+         1,
+         1.0,
+         0.0
+        ],
+        [
+         1,
+         4.0,
+         1.0
+        ]
+       ],
+       [
+        [
+         1,
+         1.0,
+         0.0
+        ],
+        [
+         1,
+         4.0,
+         1.0
+        ]
+       ],
+       [
+        [
+         1,
+         1,
+         0.0
+        ],
+        [
+         1,
+         1,
+         1.0
+        ]
+       ]
+      ],
+      "angle3d": [
+       0,
+       0,
+       1.0
+      ],
+      "angleVariation3d": [
+       0,
+       0,
+       360.0
+      ],
+      "spin3d": [
+       0,
+       0,
+       10.0
+      ],
+      "spinVariation3d": [
+       0,
+       0,
+       10.0
+      ],
+      "legacyForces": [
+       {
+        "force": [
+         0.0,
+         0.0,
+         -160.0
+        ],
+        "overLife": 1
+       }
+      ],
+      "forces": [],
+      "spritePath": "../../../../../../Data/Gfx/Particles/sea_of_ducks/dust_water"
+     }
+    ]
+   }
+  },
+  {
+   "position": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "emitter": {
+    "name": "fireworks",
+    "emissionVector": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "emissionAngle": 0.0,
+    "type": 0,
+    "size": [
+     1.0,
+     1.0,
+     0.0
+    ],
+    "shortEffect": false,
+    "radius": 0.2,
+    "emissionRange": 120.0,
+    "emissionVectorInverted": true,
+    "layers": [
+     {
+      "life": 1.0,
+      "stripeLifetime": 0.0,
+      "endTime": 0.1,
+      "scaleVelocityBase": 1.0,
+      "stripeVertexSpawnStep": 1.0,
+      "stripeStartSize": 0.0,
+      "type": "layer",
+      "stripeUScrollSpeed": 0.0,
+      "enableFlow": false,
+      "reflectionChaos2": 0.0,
+      "stripeVScrollSpeed": 0.0,
+      "stripeFadeDistanceFromTop": 0.0,
+      "name": "bubbles",
+      "layerType": "particles",
+      "reflectionPercent1": 100,
+      "forceType0": "drag",
+      "degradeStrategy": 0,
+      "particleOrientation": 1,
+      "inheritPosition": false,
+      "isLong": false,
+      "randomSpinDirection": true,
+      "pivotPoint": [
+       0.0,
+       0.0
+      ],
+      "useFresToAlpha": false,
+      "effectFormat": 1,
+      "fresToAlphaBias": 0.0,
+      "planeScale2": 5.0,
+      "fresToAlphaPower": 0.0,
+      "alphaRemapLoopCount": 1.0,
+      "size": [
+       0.15,
+       0.15
+      ],
+      "sprite": "../../../../../../Data/Gfx/Particles/sea_of_ducks/bubbles",
+      "dragForcePosition0": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "alphaOverLife": 0.3,
+      "rndReflectionForceMin2": 1.0,
+      "enableAlphaRemap": false,
+      "blending": 3,
+      "deltaTime": 0.0,
+      "enableFlowAnimation": false,
+      "enableNoise": false,
+      "dragForceRadius1": 1.0,
+      "useNoiseScroll": false,
+      "useThreePointGradient": false,
+      "enableFog": false,
+      "stripeInheritPositionForBase": false,
+      "randomizeReflectionForce2": false,
+      "enableFrameBlend": false,
+      "loopEndTime": 100.0,
+      "scaleVelocityFactor": 0.0,
+      "startTime": 0.0,
+      "gradientMiddlePoint": 0.5,
+      "lifeVariation": 1.0,
+      "applyGlobalForces": false,
+      "number": 150.0,
+      "loopVariation": 0.0,
+      "loopSpriteAnimation": true,
+      "sizeVariation": [
+       0.15,
+       0.15
+      ],
+      "sizeOverLifeXY": [
+       0.0,
+       [
+        0.0,
+        0.0
+       ],
+       0.098876,
+       [
+        0.970803,
+        0.970803
+       ]
+      ],
+      "velocity": 10.0,
+      "frameOverLifeEnabled": false,
+      "velocityVariation": 2.0,
+      "frameOverLifeFPS": 0.0,
+      "spin": 10.0,
+      "forceIsActive0": true,
+      "dragForceRadius2": 1.0,
+      "spinVariation": 50.0,
+      "worldAlign0": true,
+      "angle": 1.0,
+      "dragForcePower0": [
+       1.0,
+       1.0,
+       10.0
+      ],
+      "angleVariation": 360.0,
+      "dragForceInfinityRange1": true,
+      "randomFrameOnStart": false,
+      "forceWindBias1": 0.0,
+      "isLooped": false,
+      "deltaVariation": 0.0,
+      "usePerspectiveMapping": false,
+      "activeLODS": [
+       1,
+       1,
+       1,
+       0
+      ],
+      "reflectionPercent2": 100,
+      "dragForceCount": 3,
+      "forceName0": "Drag",
+      "dragForceRotation0": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "dragForceInfinityRange0": true,
+      "killParticles0": false,
+      "normalAsReflectionVector0": true,
+      "randomizeReflectionForce0": false,
+      "pointGravityUseRandomPointsOnSphere0": false,
+      "isGlobal0": false,
+      "dragForceBoxSize0": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "dragForceRadius0": 1.0,
+      "dragForceShape0": "box",
+      "dragForceTimingType0": "const",
+      "forceDirection0": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "forceWindFreq0": 0.0,
+      "windTurbulenceFrequency0": 0.0,
+      "reflectionChaos1": 0.0,
+      "forceWindTurb0": 0.0,
+      "pointGravityRadius0": 1.0,
+      "rndReflectionForceMin0": 1.0,
+      "rndReflectionForceMax0": 1.1,
+      "velocityThreshold0": 0.3,
+      "planeScale0": 5.0,
+      "forceWindTurb1": 6.0,
+      "reflectionChaos0": 0.0,
+      "backwardTurbulenceProbability0": 0,
+      "forceType1": "wind",
+      "reflectionPercent0": 100,
+      "forceWindBias0": 1.0,
+      "startTime0": 0.0,
+      "endTime0": 15.0,
+      "forceName1": "Wind",
+      "forceIsActive1": true,
+      "dragForcePosition1": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "dragForceRotation1": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "killParticles1": false,
+      "normalAsReflectionVector1": true,
+      "randomizeReflectionForce1": false,
+      "worldAlign1": true,
+      "pointGravityUseRandomPointsOnSphere1": false,
+      "velocityThreshold2": 0.3,
+      "isGlobal1": false,
+      "dragForcePower1": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "dragForceBoxSize1": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "dragForceShape1": "box",
+      "dragForceTimingType1": "const",
+      "forceDirection1": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "forceWindFreq1": 0.0,
+      "windTurbulenceFrequency1": 0.5,
+      "pointGravityRadius1": 1.0,
+      "rndReflectionForceMin1": 1.0,
+      "rndReflectionForceMax1": 1.1,
+      "isGlobal2": false,
+      "velocityThreshold1": 0.3,
+      "planeScale1": 5.0,
+      "backwardTurbulenceProbability1": 100,
+      "startTime1": 0.0,
+      "endTime1": 15.0,
+      "forceName2": "Gravity",
+      "forceType2": "grav",
+      "forceIsActive2": true,
+      "dragForcePosition2": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "dragForceRotation2": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "dragForceInfinityRange2": true,
+      "killParticles2": false,
+      "normalAsReflectionVector2": true,
+      "worldAlign2": true,
+      "pointGravityUseRandomPointsOnSphere2": false,
+      "dragForcePower2": [
+       4.0,
+       0.0,
+       0.0
+      ],
+      "dragForceBoxSize2": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "dragForceShape2": "box",
+      "dragForceTimingType2": "const",
+      "forceDirection2": [
+       0.0,
+       0.0,
+       1.0
+      ],
+      "forceWindFreq2": 0.0,
+      "windTurbulenceFrequency2": 0.0,
+      "forceWindTurb2": 0.0,
+      "pointGravityRadius2": 1.0,
+      "rndReflectionForceMax2": 1.1,
+      "backwardTurbulenceProbability2": 0,
+      "forceWindBias2": 1.0,
+      "startTime2": 0.0,
+      "endTime2": 15.0,
+      "legacyLod": 1,
+      "legacyPivot": [
+       0.0,
+       0.0
+      ],
+      "legacySpinDirection": true,
+      "size3d": [
+       0.15,
+       0.15,
+       1
+      ],
+      "sizeVariation3d": [
+       0.15,
+       0.15,
+       1
+      ],
+      "sizeOverLife3ds": [
+       2,
+       [
+        [
+         1,
+         0.0,
+         0.0
+        ],
+        [
+         1,
+         0.970803,
+         0.098876
+        ]
+       ],
+       [
+        [
+         1,
+         0.0,
+         0.0
+        ],
+        [
+         1,
+         0.970803,
+         0.098876
+        ]
+       ],
+       [
+        [
+         1,
+         1,
+         0.0
+        ],
+        [
+         1,
+         1,
+         0.098876
+        ]
+       ]
+      ],
+      "angle3d": [
+       0,
+       0,
+       1.0
+      ],
+      "angleVariation3d": [
+       0,
+       0,
+       360.0
+      ],
+      "spin3d": [
+       0,
+       0,
+       10.0
+      ],
+      "spinVariation3d": [
+       0,
+       0,
+       50.0
+      ],
+      "legacyForces": [],
+      "forces": [
+       {
+        "forceType": "drag",
+        "forceName": "Drag",
+        "forceIsActive": true,
+        "worldAlign": true,
+        "dragForcePosition": [
+         0.0,
+         0.0,
+         0.0
+        ],
+        "dragForceRotation": [
+         0.0,
+         0.0,
+         0.0
+        ],
+        "dragForceShape": "box",
+        "dragForceBoxSize": [
+         1.0,
+         1.0,
+         1.0
+        ],
+        "dragForceRadius": 1.0,
+        "dragForceInfinityRange": true,
+        "dragForceTimingType": "const",
+        "forceDirection": [
+         0.0,
+         0.0,
+         1.0
+        ],
+        "forceWindFreq": 0.0,
+        "forceWindBias": 1.0,
+        "windTurbulenceFrequency": 0.0,
+        "backwardTurbulenceProbability": 0,
+        "pointGravityRadius": 1.0,
+        "killParticles": false,
+        "isGlobal": false,
+        "startTime": 0.0,
+        "endTime": 15.0,
+        "dragForceLine": [
+         1.0,
+         1.0,
+         10.0
+        ],
+        "turbulenceLine": 0.0
+       },
+       {
+        "forceType": "wind",
+        "forceName": "Wind",
+        "forceIsActive": true,
+        "worldAlign": true,
+        "dragForcePosition": [
+         0.0,
+         0.0,
+         0.0
+        ],
+        "dragForceRotation": [
+         0.0,
+         0.0,
+         0.0
+        ],
+        "dragForceShape": "box",
+        "dragForceBoxSize": [
+         1.0,
+         1.0,
+         1.0
+        ],
+        "dragForceRadius": 1.0,
+        "dragForceInfinityRange": true,
+        "dragForceTimingType": "const",
+        "forceDirection": [
+         0.0,
+         0.0,
+         1.0
+        ],
+        "forceWindFreq": 0.0,
+        "forceWindBias": 0.0,
+        "windTurbulenceFrequency": 0.5,
+        "backwardTurbulenceProbability": 100,
+        "pointGravityRadius": 1.0,
+        "killParticles": false,
+        "isGlobal": false,
+        "startTime": 0.0,
+        "endTime": 15.0,
+        "dragForceLine": [
+         0.0,
+         0.0,
+         0.0
+        ],
+        "turbulenceLine": 6.0
+       },
+       {
+        "forceType": "grav",
+        "forceName": "Gravity",
+        "forceIsActive": true,
+        "worldAlign": true,
+        "dragForcePosition": [
+         0.0,
+         0.0,
+         0.0
+        ],
+        "dragForceRotation": [
+         0.0,
+         0.0,
+         0.0
+        ],
+        "dragForceShape": "box",
+        "dragForceBoxSize": [
+         1.0,
+         1.0,
+         1.0
+        ],
+        "dragForceRadius": 1.0,
+        "dragForceInfinityRange": true,
+        "dragForceTimingType": "const",
+        "forceDirection": [
+         0.0,
+         0.0,
+         1.0
+        ],
+        "forceWindFreq": 0.0,
+        "forceWindBias": 1.0,
+        "windTurbulenceFrequency": 0.0,
+        "backwardTurbulenceProbability": 0,
+        "pointGravityRadius": 1.0,
+        "killParticles": false,
+        "isGlobal": false,
+        "startTime": 0.0,
+        "endTime": 15.0,
+        "dragForceLine": [
+         4.0,
+         0.0,
+         0.0
+        ],
+        "turbulenceLine": 0.0
+       }
+      ],
+      "spritePath": "../../../../../../Data/Gfx/Particles/sea_of_ducks/bubbles"
+     }
+    ]
+   }
+  }
+ ]
+}

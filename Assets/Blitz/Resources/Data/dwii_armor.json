@@ -1,0 +1,315 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "DWIIArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 440,
+      "vertices": 584
+    },
+    {
+      "armor": 0,
+      "material": "DWIIArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 21,
+      "material": "DWIIArmor_armor_hull_plate21_21",
+      "mount": "hull",
+      "name": "armor_hull_plate21_21",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 36,
+      "material": "DWIIArmor_armor_hull_plate36_36",
+      "mount": "hull",
+      "name": "armor_hull_plate36_36",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 9,
+      "vertices": 27
+    },
+    {
+      "armor": 49,
+      "material": "DWIIArmor_armor_hull_plate49s_49",
+      "mount": "hull",
+      "name": "armor_hull_plate49s_49",
+      "screen": true,
+      "submesh": 4,
+      "triangles": 2,
+      "vertices": 6
+    },
+    {
+      "armor": 52,
+      "material": "DWIIArmor_armor_hull_plate52_52",
+      "mount": "hull",
+      "name": "armor_hull_plate52_52",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 115,
+      "vertices": 345
+    },
+    {
+      "armor": 0,
+      "material": "DWIIArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 7,
+      "vertices": 21
+    },
+    {
+      "armor": 15,
+      "material": "DWIIArmor_armor_turret_01_plate15_15",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate15_15",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 37,
+      "vertices": 111
+    },
+    {
+      "armor": 21,
+      "material": "DWIIArmor_armor_turret_01_plate21s_21",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate21s_21",
+      "screen": true,
+      "submesh": 8,
+      "triangles": 11,
+      "vertices": 33
+    },
+    {
+      "armor": 31,
+      "material": "DWIIArmor_armor_turret_01_plate31s_31",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate31s_31",
+      "screen": true,
+      "submesh": 9,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 52,
+      "material": "DWIIArmor_armor_turret_01_plate52_52",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate52_52",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 218,
+      "vertices": 654
+    },
+    {
+      "armor": 59,
+      "material": "DWIIArmor_armor_turret_01_plate59s_59",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate59s_59",
+      "screen": true,
+      "submesh": 11,
+      "triangles": 15,
+      "vertices": 45
+    },
+    {
+      "armor": 64,
+      "material": "DWIIArmor_armor_turret_01_plate64s_64",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate64s_64",
+      "screen": true,
+      "submesh": 12,
+      "triangles": 6,
+      "vertices": 18
+    },
+    {
+      "armor": 73,
+      "material": "DWIIArmor_armor_turret_01_plate73s_73",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate73s_73",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 15,
+      "material": "DWIIArmor_gun_02_mask_turret_01_plate15s_15",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate15s_15",
+      "screen": true,
+      "submesh": 14,
+      "triangles": 38,
+      "vertices": 114
+    },
+    {
+      "armor": 20,
+      "material": "DWIIArmor_gun_02_mask_turret_01_plate20s_20",
+      "mount": "gun_02",
+      "name": "gun_02_mask_turret_01_plate20s_20",
+      "screen": true,
+      "submesh": 15,
+      "triangles": 58,
+      "vertices": 174
+    },
+    {
+      "armor": 15,
+      "material": "DWIIArmor_gun_01_mask_turret_01_plate15s_15",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate15s_15",
+      "screen": true,
+      "submesh": 16,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 20,
+      "material": "DWIIArmor_gun_01_mask_turret_01_plate20s_20",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate20s_20",
+      "screen": true,
+      "submesh": 17,
+      "triangles": 56,
+      "vertices": 168
+    },
+    {
+      "armor": 0,
+      "material": "DWIIArmor_armor_turret_02_plate0_0",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 18,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 15,
+      "material": "DWIIArmor_armor_turret_02_plate15_15",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate15_15",
+      "screen": false,
+      "submesh": 19,
+      "triangles": 68,
+      "vertices": 204
+    },
+    {
+      "armor": 52,
+      "material": "DWIIArmor_armor_turret_02_plate52_52",
+      "mount": "turret_02",
+      "name": "armor_turret_02_plate52_52",
+      "screen": false,
+      "submesh": 20,
+      "triangles": 144,
+      "vertices": 432
+    },
+    {
+      "armor": 0,
+      "material": "DWIIArmor_gun_04_mask_turret_02_plate0s_0",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate0s_0",
+      "screen": true,
+      "submesh": 21,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 25,
+      "material": "DWIIArmor_gun_04_mask_turret_02_plate25s_25",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate25s_25",
+      "screen": true,
+      "submesh": 22,
+      "triangles": 14,
+      "vertices": 42
+    },
+    {
+      "armor": 30,
+      "material": "DWIIArmor_gun_04_mask_turret_02_plate30s_30",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate30s_30",
+      "screen": true,
+      "submesh": 23,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 50,
+      "material": "DWIIArmor_gun_04_mask_turret_02_plate50s_50",
+      "mount": "gun_04",
+      "name": "gun_04_mask_turret_02_plate50s_50",
+      "screen": true,
+      "submesh": 24,
+      "triangles": 60,
+      "vertices": 180
+    },
+    {
+      "armor": 0,
+      "material": "DWIIArmor_gun_03_mask_turret_02_plate0s_0",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_02_plate0s_0",
+      "screen": true,
+      "submesh": 25,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 25,
+      "material": "DWIIArmor_gun_03_mask_turret_02_plate25s_25",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_02_plate25s_25",
+      "screen": true,
+      "submesh": 26,
+      "triangles": 16,
+      "vertices": 48
+    },
+    {
+      "armor": 30,
+      "material": "DWIIArmor_gun_03_mask_turret_02_plate30s_30",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_02_plate30s_30",
+      "screen": true,
+      "submesh": 27,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 50,
+      "material": "DWIIArmor_gun_03_mask_turret_02_plate50s_50",
+      "mount": "gun_03",
+      "name": "gun_03_mask_turret_02_plate50s_50",
+      "screen": true,
+      "submesh": 28,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 0,
+      "material": "DWIIArmor_gun_05_mask_turret_02_plate0_0",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate0_0",
+      "screen": false,
+      "submesh": 29,
+      "triangles": 60,
+      "vertices": 180
+    },
+    {
+      "armor": 50,
+      "material": "DWIIArmor_gun_05_mask_turret_02_plate50s_50",
+      "mount": "gun_05",
+      "name": "gun_05_mask_turret_02_plate50s_50",
+      "screen": true,
+      "submesh": 30,
+      "triangles": 58,
+      "vertices": 174
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Anti-cheat device blocklist: one AntiCheatBan.DeviceHash per line
+# (the device_hash extra of a Sentry "Anti-cheat" issue). Shipped with the build.

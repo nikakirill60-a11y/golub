@@ -1,0 +1,227 @@
+{
+  "version": "11.20",
+  "generator": "Tools/port_blitz_japan_1120.py",
+  "policy": "every source module/configuration; collectible (list price, sell price); 11.20 tier standing carried over",
+  "additional_research_links": [],
+  "tanks": [
+    {
+      "name": "j20_type_2605",
+      "display_name": "Type 5 Heavy",
+      "display_name_short": "Type 5 Heavy",
+      "health": 2112,
+      "lvl": 10,
+      "tank_class": 2,
+      "nation": 5,
+      "spot_radius": 250.0,
+      "speed_limits": {
+        "x": 27.0,
+        "y": 15.0
+      },
+      "turret_rot_speed": 15.0,
+      "turret_health": 459,
+      "repair_cost": 0.0,
+      "ammo_bay": {
+        "health": 280.0,
+        "max_regen_health": 190.0,
+        "repair_cost": 0.0
+      },
+      "fuel_tank": {
+        "health": 200.0,
+        "max_regen_health": 70.0,
+        "repair_cost": 0.0
+      },
+      "crew": [
+        "commander",
+        "driver",
+        "gunner",
+        "radioman",
+        "loader"
+      ],
+      "crew_xp_factor": 1.0,
+      "farm_coeff": 1.0,
+      "tree_tank": false,
+      "cost": 0,
+      "cost_xp": 0,
+      "hull_weight": 107300.0,
+      "model_path": "Tanks/Japan/J20_Type_2605.sc2",
+      "source": "from_apk/XML/item_defs/vehicles/japan/J20_Type_2605.xml",
+      "source_sha256": "073475c76c6b4f7f2d0b4b22267246631f9a75e22861ee12be0b127e60af4123",
+      "unlock_tanks": {},
+      "guns": [
+        {
+          "kind": "gun",
+          "name": "_152mm_45_41st_Year_Type",
+          "display_name": "15.2 cm/45 41st Year Type",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 230.0,
+          "weight": 8000.0,
+          "reload": 22.085909,
+          "aim_time": 3.145,
+          "disp": 0.45,
+          "rot_speed": 55.0,
+          "max_ammo": 46,
+          "caliber": 152,
+          "deviation_up": {
+            "x": 18.0,
+            "y": 8.0
+          },
+          "deviation_r": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "disp_factors": {
+            "x": 0.13,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "impulse_mul": 0.56,
+          "fire_mode": 0,
+          "burst_info": {
+            "kind": "burst"
+          },
+          "shot_sound": 5,
+          "shells": [
+            {
+              "kind": "shell",
+              "name": "Common Type 0",
+              "caliber": 152,
+              "dmg": 700,
+              "dmg_devices": 203,
+              "pen": 255,
+              "speed": 500,
+              "cost": 0,
+              "type": 0,
+              "ricochet_angle": 70.0
+            },
+            {
+              "kind": "shell",
+              "name": "Common Type 0 Kai",
+              "caliber": 152,
+              "dmg": 800,
+              "dmg_devices": 203,
+              "pen": 205,
+              "speed": 650,
+              "cost": 4800,
+              "type": 0,
+              "ricochet_angle": 70.0,
+              "premium": true
+            },
+            {
+              "kind": "shell",
+              "name": "Common Type 91",
+              "caliber": 152,
+              "dmg": 1100,
+              "dmg_devices": 203,
+              "pen": 82,
+              "speed": 400,
+              "cost": 0,
+              "type": 3,
+              "explosion_radius": 3.6
+            }
+          ],
+          "unlocks": {},
+          "max_regen_health": 115.0,
+          "repair_cost": 0.0
+        }
+      ],
+      "turrets": [
+        {
+          "kind": "turret",
+          "name": "Turret_1_J20_Type_2605",
+          "display_name": "Type 5 Heavy",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 459,
+          "weight": 46000.0,
+          "rot_speed": 15.0,
+          "spot_radius": 250.0,
+          "yaw_limits": {
+            "x": 180.0,
+            "y": 180.0
+          },
+          "turret_rotator": {
+            "health": 180.0,
+            "max_regen_health": 90.0,
+            "repair_cost": 0.0
+          },
+          "surveying_device": {
+            "health": 120.0,
+            "max_regen_health": 60.0,
+            "repair_cost": 0.0
+          },
+          "mesh": "turret_01",
+          "unlocks": {},
+          "guns": [
+            {
+              "name": "_152mm_45_41st_Year_Type",
+              "reload": 22.085909,
+              "max_ammo": 46,
+              "mesh": "gun_01",
+              "unlocks": {}
+            }
+          ]
+        }
+      ],
+      "tracks": [
+        {
+          "kind": "tracks",
+          "name": "Chassis_1_J20_Type_2605",
+          "display_name": "Type 5 Heavy",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 300.0,
+          "weight": 38000.0,
+          "rot_speed": 20.0,
+          "disp_move_mul": 0.2,
+          "disp_rotation_mul": 0.22,
+          "max_regen_health": 225.0,
+          "repair_cost": 0.0,
+          "bulk_health_factor": 3.0,
+          "unlocks": {},
+          "armor": 25
+        }
+      ],
+      "engines": [
+        {
+          "kind": "engine",
+          "name": "Kawasaki_Type98_V12_kai",
+          "display_name": "2x Kawasaki Type 98 V-12 Kai",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 360.0,
+          "weight": 2000.0,
+          "power": 1837.0,
+          "fireStartingChance": 0.12,
+          "max_regen_health": 180.0,
+          "repair_cost": 0.0,
+          "unlocks": {}
+        }
+      ],
+      "radios": [
+        {
+          "kind": "radio",
+          "name": "Type_3_Ko_J20",
+          "display_name": "Type_3_Ko_J20",
+          "level": 10,
+          "cost_xp": 0,
+          "health": 180.0,
+          "weight": 100.0,
+          "distance": 1.0,
+          "unlocks": {},
+          "max_regen_health": 1.0,
+          "repair_cost": 0.0
+        }
+      ],
+      "source_version": "11.20",
+      "source_overlay": "japan_1120",
+      "acquisition": "collectible",
+      "prem": true,
+      "collector": true,
+      "shop_tank": false,
+      "tree_branch": 0,
+      "cost_gold": 15000,
+      "collector_sell_gold": 7500
+    }
+  ]
+}

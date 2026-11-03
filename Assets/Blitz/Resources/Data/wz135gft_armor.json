@@ -1,0 +1,145 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "WZ135GFTArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 408,
+      "vertices": 432
+    },
+    {
+      "armor": 15,
+      "material": "WZ135GFTArmor_armor_hull_plate15_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15_15",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 24,
+      "vertices": 72
+    },
+    {
+      "armor": 20,
+      "material": "WZ135GFTArmor_armor_hull_plate20_20",
+      "mount": "hull",
+      "name": "armor_hull_plate20_20",
+      "screen": false,
+      "submesh": 2,
+      "triangles": 10,
+      "vertices": 30
+    },
+    {
+      "armor": 36,
+      "material": "WZ135GFTArmor_armor_hull_plate36_36",
+      "mount": "hull",
+      "name": "armor_hull_plate36_36",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 15,
+      "vertices": 45
+    },
+    {
+      "armor": 41,
+      "material": "WZ135GFTArmor_armor_hull_plate41_41",
+      "mount": "hull",
+      "name": "armor_hull_plate41_41",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 62,
+      "material": "WZ135GFTArmor_armor_hull_plate62_62",
+      "mount": "hull",
+      "name": "armor_hull_plate62_62",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 73,
+      "vertices": 219
+    },
+    {
+      "armor": 78,
+      "material": "WZ135GFTArmor_armor_hull_plate78_78",
+      "mount": "hull",
+      "name": "armor_hull_plate78_78",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 21,
+      "material": "WZ135GFTArmor_armor_turret_01_plate21_21",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate21_21",
+      "screen": false,
+      "submesh": 7,
+      "triangles": 60,
+      "vertices": 180
+    },
+    {
+      "armor": 27,
+      "material": "WZ135GFTArmor_armor_turret_01_plate27_27",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate27_27",
+      "screen": false,
+      "submesh": 8,
+      "triangles": 22,
+      "vertices": 66
+    },
+    {
+      "armor": 32,
+      "material": "WZ135GFTArmor_armor_turret_01_plate32_32",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate32_32",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 56,
+      "vertices": 168
+    },
+    {
+      "armor": 43,
+      "material": "WZ135GFTArmor_armor_turret_01_plate43_43",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate43_43",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 17,
+      "vertices": 51
+    },
+    {
+      "armor": 54,
+      "material": "WZ135GFTArmor_armor_turret_01_plate54_54",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate54_54",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 13,
+      "vertices": 39
+    },
+    {
+      "armor": 81,
+      "material": "WZ135GFTArmor_armor_turret_01_plate81_81",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate81_81",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 20,
+      "vertices": 60
+    },
+    {
+      "armor": 50,
+      "material": "WZ135GFTArmor_gun_01_mask_turret_01_plate50s_50",
+      "mount": "gun_01",
+      "name": "gun_01_mask_turret_01_plate50s_50",
+      "screen": true,
+      "submesh": 13,
+      "triangles": 52,
+      "vertices": 156
+    }
+  ]
+}

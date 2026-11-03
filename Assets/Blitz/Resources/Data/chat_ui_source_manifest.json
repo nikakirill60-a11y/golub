@@ -1,0 +1,35 @@
+{
+  "regions": 6,
+  "sources": [
+    {
+      "path": "Gfx2/UI/BattleScreenHUD/texture0.mali.webp",
+      "sha256": "e06f2e0cd7017ed8e6c5f312f48c36c56d6b1a125697488f74bf2c0e495a0298"
+    },
+    {
+      "path": "Gfx2/UI/BattleScreenHUD/ChatIcons.txt",
+      "sha256": "bfb1fc01423860db34e7b7e951924c386aa15605e9068433d2aa75fc2d69c9cb"
+    },
+    {
+      "path": "Gfx2/UI/BattleScreenHUD/TextChatBg.txt",
+      "sha256": "d0ddbf1fc15b4d2165bee856e2243dce051b93730d53309c28b8779bc5fea44b"
+    },
+    {
+      "path": "Gfx2/UI/BattleScreenHUD/ChatMenu.txt",
+      "sha256": "bfe0824a519e5d4c21cebe046eab2118290a91d8858c0456568c6667637d644a"
+    },
+    {
+      "path": "from_apk/Data/Strings/en.yaml",
+      "sha256": "912cc9e8960dab29709a6224be917d0fa10b29dc0b639dbfde84e5182b64f0a8"
+    },
+    {
+      "path": "from_apk/Data/Strings/ru.yaml",
+      "sha256": "a4a26e86b276117e867a186d4f2b94f67013f2319d04933c1c94bf1e6a830195"
+    }
+  ],
+  "strings": 7,
+  "texture": {
+    "height": 256,
+    "name": "battle_chat",
+    "width": 512
+  }
+}

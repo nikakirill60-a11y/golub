@@ -1,0 +1,1069 @@
+{
+  "legacyEmitters": [
+    {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emitter": {
+        "emissionAngle": 0.0,
+        "emissionRange": 90.0,
+        "emissionVector": {
+          "externalVariable": "Velosity",
+          "modification_line": [
+            0.0,
+            [
+              1.0,
+              0.0,
+              1.0
+            ],
+            1.0,
+            [
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          "value_line": [
+            0.0,
+            -1.0,
+            1.0
+          ]
+        },
+        "emissionVectorInverted": true,
+        "name": "sparks",
+        "shortEffect": false,
+        "size": [
+          1.0,
+          1.0,
+          0.0
+        ],
+        "type": 1,
+        "radius": 0,
+        "layers": [
+          {
+            "activeLODS": [
+              1,
+              1,
+              1,
+              0
+            ],
+            "alphaOverLife": [
+              2,
+              [
+                [
+                  1,
+                  0.0,
+                  0.0
+                ],
+                [
+                  1,
+                  0.6883,
+                  0.0758
+                ]
+              ]
+            ],
+            "blending": 3,
+            "colorRandom": [
+              2,
+              [
+                [
+                  1,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1,
+                  1.0,
+                  0.2495
+                ],
+                [
+                  1,
+                  1.0,
+                  0.3829
+                ],
+                [
+                  1,
+                  1.0,
+                  0.4956
+                ],
+                [
+                  1,
+                  1.0,
+                  0.5974
+                ],
+                [
+                  1,
+                  1.0,
+                  0.6904
+                ],
+                [
+                  1,
+                  1.0,
+                  0.7888
+                ],
+                [
+                  1,
+                  1.0,
+                  0.8217
+                ],
+                [
+                  1,
+                  1.0,
+                  0.9147
+                ]
+              ],
+              [
+                [
+                  1,
+                  0.49726116862745096,
+                  0.0
+                ],
+                [
+                  1,
+                  0.2549019607843137,
+                  0.2495
+                ],
+                [
+                  1,
+                  0.8235294117647058,
+                  0.3829
+                ],
+                [
+                  1,
+                  0.592156862745098,
+                  0.4956
+                ],
+                [
+                  1,
+                  0.4627450980392157,
+                  0.5974
+                ],
+                [
+                  1,
+                  0.6862745098039216,
+                  0.6904
+                ],
+                [
+                  1,
+                  0.43137254901960786,
+                  0.7888
+                ],
+                [
+                  1,
+                  0.6352941176470588,
+                  0.8217
+                ],
+                [
+                  1,
+                  0.6509803921568628,
+                  0.9147
+                ]
+              ],
+              [
+                [
+                  1,
+                  0.08593882352941176,
+                  0.0
+                ],
+                [
+                  1,
+                  0.027450980392156862,
+                  0.2495
+                ],
+                [
+                  1,
+                  0.7019607843137254,
+                  0.3829
+                ],
+                [
+                  1,
+                  0.12549019607843137,
+                  0.4956
+                ],
+                [
+                  1,
+                  0.10196078431372549,
+                  0.5974
+                ],
+                [
+                  1,
+                  0.4588235294117647,
+                  0.6904
+                ],
+                [
+                  1,
+                  0.054901960784313725,
+                  0.7888
+                ],
+                [
+                  1,
+                  0.45098039215686275,
+                  0.8217
+                ],
+                [
+                  1,
+                  0.25098039215686274,
+                  0.9147
+                ]
+              ],
+              [
+                [
+                  1,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1,
+                  1.0,
+                  0.2495
+                ],
+                [
+                  1,
+                  1.0,
+                  0.3829
+                ],
+                [
+                  1,
+                  1.0,
+                  0.4956
+                ],
+                [
+                  1,
+                  1.0,
+                  0.5974
+                ],
+                [
+                  1,
+                  1.0,
+                  0.6904
+                ],
+                [
+                  1,
+                  1.0,
+                  0.7888
+                ],
+                [
+                  1,
+                  1.0,
+                  0.8217
+                ],
+                [
+                  1,
+                  1.0,
+                  0.9147
+                ]
+              ]
+            ],
+            "degradeStrategy": 0,
+            "deltaTime": 0.0,
+            "deltaVariation": 0.0,
+            "effectFormat": 1,
+            "enableFog": true,
+            "enableFrameBlend": false,
+            "endTime": 200.0,
+            "force0": [
+              0.0,
+              0.0,
+              -8.0
+            ],
+            "forceCount": 1,
+            "frameOverLifeEnabled": false,
+            "frameOverLifeFPS": 0.0,
+            "inheritPosition": false,
+            "isLong": true,
+            "isLooped": false,
+            "layerType": "particles",
+            "life": 1.0,
+            "loopEndTime": 0.0,
+            "loopSpriteAnimation": true,
+            "loopVariation": 0.0,
+            "name": "sparks",
+            "number": 20.0,
+            "particleOrientation": 1,
+            "pivotPoint": [
+              0.0,
+              0.0
+            ],
+            "randomFrameOnStart": false,
+            "randomSpinDirection": false,
+            "scaleVelocityBase": 0.0,
+            "scaleVelocityFactor": 1.0,
+            "size": [
+              0.06,
+              0.06
+            ],
+            "sizeVariation": [
+              0.005,
+              0.04
+            ],
+            "sprite": "../../../../Data/Gfx/Particles/alpha/o2_expGlowB",
+            "startTime": 0.0,
+            "type": "layer",
+            "velocity": [
+              2,
+              [
+                [
+                  1,
+                  3.0,
+                  0.0
+                ],
+                [
+                  1,
+                  2.0,
+                  99.540001
+                ]
+              ]
+            ],
+            "velocityVariation": 3.0,
+            "legacyLod": 1,
+            "legacyPivot": [
+              0.0,
+              0.0
+            ],
+            "legacySpinDirection": true,
+            "size3d": [
+              0.06,
+              0.06,
+              1
+            ],
+            "sizeVariation3d": [
+              0.005,
+              0.04,
+              1
+            ],
+            "legacyForces": [
+              {
+                "force": [
+                  0.0,
+                  0.0,
+                  -8.0
+                ],
+                "overLife": 1
+              }
+            ],
+            "spritePath": "../../../../Data/Gfx/Particles/alpha/o2_expGlowB"
+          }
+        ]
+      }
+    },
+    {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emitter": {
+        "emissionAngle": 1.0,
+        "emissionRange": 0.0,
+        "emissionVector": {
+          "externalVariable": "Velosity",
+          "modification_line": [
+            0.0,
+            [
+              1.0,
+              0.0,
+              1.0
+            ],
+            0.99,
+            [
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          "value_line": [
+            0.0,
+            -1.0,
+            1.0
+          ]
+        },
+        "emissionVectorInverted": true,
+        "name": "smoke",
+        "radius": 1.0,
+        "shortEffect": false,
+        "size": [
+          1.0,
+          1.2,
+          0.0
+        ],
+        "type": 0,
+        "layers": [
+          {
+            "activeLODS": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "alphaOverLife": [
+              2,
+              [
+                [
+                  1,
+                  0.0,
+                  0.0
+                ],
+                [
+                  1,
+                  0.707299,
+                  0.186517
+                ],
+                [
+                  1,
+                  0.747569,
+                  0.775281
+                ],
+                [
+                  1,
+                  0.0,
+                  0.99
+                ]
+              ]
+            ],
+            "angleVariation": 120.0,
+            "blending": 1,
+            "colorOverLife": [
+              0.49155414117647056,
+              0.5138933372549019,
+              0.5138933372549019,
+              1.0
+            ],
+            "degradeStrategy": 2,
+            "deltaTime": 0.0,
+            "deltaVariation": 0.0,
+            "effectFormat": 1,
+            "enableFog": true,
+            "enableFrameBlend": false,
+            "endTime": 200.0,
+            "frameOverLifeEnabled": false,
+            "frameOverLifeFPS": 10.0,
+            "inheritPosition": false,
+            "isLong": false,
+            "isLooped": false,
+            "layerType": "particles",
+            "life": {
+              "externalVariable": "Velosity",
+              "modification_line": [
+                0.0,
+                1.0,
+                0.99,
+                0.5
+              ],
+              "value_line": 3.0
+            },
+            "lifeVariation": 2.0,
+            "loopEndTime": 0.0,
+            "loopSpriteAnimation": false,
+            "loopVariation": 0.0,
+            "name": "FOG",
+            "number": {
+              "externalVariable": "Velosity",
+              "modification_line": [
+                0.0,
+                1.0,
+                1.0,
+                2.0
+              ],
+              "value_line": 3.0
+            },
+            "numberVariation": 3.0,
+            "particleOrientation": 1,
+            "pivotPoint": [
+              0.0,
+              0.0
+            ],
+            "randomFrameOnStart": false,
+            "randomSpinDirection": true,
+            "scaleVelocityBase": 1.0,
+            "scaleVelocityFactor": 0.0,
+            "size": [
+              1.0,
+              1.0
+            ],
+            "sizeOverLifeXY": [
+              0.0,
+              [
+                0.0,
+                0.0
+              ],
+              0.99,
+              [
+                4.0,
+                4.0
+              ]
+            ],
+            "sizeVariation": [
+              0.5,
+              0.5
+            ],
+            "spinVariation": -8.0,
+            "sprite": "../../../../Data/Gfx/Particles/alpha/Fx_DustSpray_two",
+            "startTime": 0.0,
+            "type": "layer",
+            "velocity": 1.0,
+            "velocityVariation": 0.009,
+            "legacyLod": 1,
+            "legacyPivot": [
+              0.0,
+              0.0
+            ],
+            "legacySpinDirection": true,
+            "size3d": [
+              1.0,
+              1.0,
+              1
+            ],
+            "sizeVariation3d": [
+              0.5,
+              0.5,
+              1
+            ],
+            "sizeOverLife3ds": [
+              2,
+              [
+                [
+                  1,
+                  0.0,
+                  0.0
+                ],
+                [
+                  1,
+                  4.0,
+                  0.99
+                ]
+              ],
+              [
+                [
+                  1,
+                  0.0,
+                  0.0
+                ],
+                [
+                  1,
+                  4.0,
+                  0.99
+                ]
+              ],
+              [
+                [
+                  1,
+                  1,
+                  0.0
+                ],
+                [
+                  1,
+                  1,
+                  0.99
+                ]
+              ]
+            ],
+            "angleVariation3d": [
+              0,
+              0,
+              120.0
+            ],
+            "spinVariation3d": [
+              0,
+              0,
+              -8.0
+            ],
+            "legacyForces": [],
+            "spritePath": "../../../../Data/Gfx/Particles/alpha/Fx_DustSpray_two"
+          },
+          {
+            "activeLODS": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "alphaOverLife": [
+              2,
+              [
+                [
+                  1,
+                  0.0,
+                  0.0
+                ],
+                [
+                  1,
+                  0.585823,
+                  0.077093
+                ],
+                [
+                  1,
+                  0.0,
+                  1.0
+                ]
+              ]
+            ],
+            "angleVariation": 120.0,
+            "blending": 1,
+            "degradeStrategy": 2,
+            "deltaTime": 0.0,
+            "deltaVariation": 0.0,
+            "effectFormat": 1,
+            "enableFog": true,
+            "enableFrameBlend": false,
+            "endTime": 1000.0,
+            "frameOverLifeEnabled": false,
+            "frameOverLifeFPS": 10.0,
+            "inheritPosition": false,
+            "isLong": false,
+            "isLooped": false,
+            "layerType": "particles",
+            "life": {
+              "externalVariable": "Velosity",
+              "modification_line": [
+                0.0,
+                1.0,
+                0.99,
+                0.0
+              ],
+              "value_line": 2.0
+            },
+            "loopEndTime": 0.0,
+            "loopSpriteAnimation": true,
+            "loopVariation": 0.0,
+            "name": "smoke2",
+            "number": {
+              "externalVariable": "Velosity",
+              "modification_line": [
+                0.0,
+                1.0,
+                1.0,
+                0.0
+              ],
+              "value_line": 6.0
+            },
+            "particleOrientation": 1,
+            "pivotPoint": [
+              0.0,
+              0.0
+            ],
+            "randomFrameOnStart": false,
+            "randomSpinDirection": false,
+            "scaleVelocityBase": 1.0,
+            "scaleVelocityFactor": 0.0,
+            "size": [
+              2.0,
+              2.0
+            ],
+            "sizeOverLifeXY": [
+              0.0,
+              [
+                0.3,
+                0.3
+              ],
+              1.0,
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "sizeVariation": [
+              1.0,
+              1.0
+            ],
+            "spinVariation": -10.0,
+            "sprite": "../../../../Data/Gfx/Particles/alpha/thick_smoke",
+            "startTime": 0.0,
+            "type": "layer",
+            "velocity": [
+              2,
+              [
+                [
+                  1,
+                  0.6,
+                  0.0
+                ],
+                [
+                  1,
+                  0.6,
+                  7.0
+                ]
+              ]
+            ],
+            "velocityVariation": [
+              2,
+              [
+                [
+                  1,
+                  0.4,
+                  0.0
+                ],
+                [
+                  1,
+                  0.4,
+                  7.0
+                ]
+              ]
+            ],
+            "legacyLod": 1,
+            "legacyPivot": [
+              0.0,
+              0.0
+            ],
+            "legacySpinDirection": true,
+            "size3d": [
+              2.0,
+              2.0,
+              1
+            ],
+            "sizeVariation3d": [
+              1.0,
+              1.0,
+              1
+            ],
+            "sizeOverLife3ds": [
+              2,
+              [
+                [
+                  1,
+                  0.3,
+                  0.0
+                ],
+                [
+                  1,
+                  1.0,
+                  1.0
+                ]
+              ],
+              [
+                [
+                  1,
+                  0.3,
+                  0.0
+                ],
+                [
+                  1,
+                  1.0,
+                  1.0
+                ]
+              ],
+              [
+                [
+                  1,
+                  1,
+                  0.0
+                ],
+                [
+                  1,
+                  1,
+                  1.0
+                ]
+              ]
+            ],
+            "angleVariation3d": [
+              0,
+              0,
+              120.0
+            ],
+            "spinVariation3d": [
+              0,
+              0,
+              -10.0
+            ],
+            "legacyForces": [],
+            "spritePath": "../../../../Data/Gfx/Particles/alpha/thick_smoke"
+          }
+        ]
+      }
+    },
+    {
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emitter": {
+        "emissionAngle": 0.0,
+        "emissionRange": 0.0,
+        "emissionVector": {
+          "externalVariable": "Velosity",
+          "modification_line": [
+            0.0,
+            [
+              1.0,
+              0.0,
+              1.0
+            ],
+            1.0,
+            [
+              1.0,
+              1.0,
+              1.0
+            ]
+          ],
+          "value_line": [
+            0.0,
+            -1.0,
+            1.0
+          ]
+        },
+        "emissionVectorInverted": true,
+        "name": "fire",
+        "radius": 0.3,
+        "shortEffect": false,
+        "size": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "type": 3,
+        "layers": [
+          {
+            "activeLODS": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "alphaOverLife": [
+              2,
+              [
+                [
+                  1,
+                  0.0,
+                  0.0
+                ],
+                [
+                  1,
+                  0.689051,
+                  0.105727
+                ],
+                [
+                  1,
+                  0.56633,
+                  0.687225
+                ],
+                [
+                  1,
+                  0.0,
+                  1.0
+                ]
+              ]
+            ],
+            "angle": 1.0,
+            "angleVariation": 360.0,
+            "blending": 3,
+            "colorOverLife": [
+              2,
+              [
+                [
+                  1,
+                  0.9490807607843137,
+                  0.0
+                ],
+                [
+                  1,
+                  0.6342564588235294,
+                  0.2719
+                ],
+                [
+                  1,
+                  0.0,
+                  0.9968
+                ]
+              ],
+              [
+                [
+                  1,
+                  0.5889831529411765,
+                  0.0
+                ],
+                [
+                  1,
+                  0.20241097647058823,
+                  0.2719
+                ],
+                [
+                  1,
+                  0.0,
+                  0.9968
+                ]
+              ],
+              [
+                [
+                  1,
+                  0.2521094235294118,
+                  0.0
+                ],
+                [
+                  1,
+                  0.017349411764705884,
+                  0.2719
+                ],
+                [
+                  1,
+                  0.0,
+                  0.9968
+                ]
+              ],
+              [
+                [
+                  1,
+                  1.0,
+                  0.0
+                ],
+                [
+                  1,
+                  1.0,
+                  0.2719
+                ],
+                [
+                  1,
+                  1.0,
+                  0.9968
+                ]
+              ]
+            ],
+            "degradeStrategy": 2,
+            "deltaTime": 0.0,
+            "deltaVariation": 0.0,
+            "effectFormat": 1,
+            "enableFog": false,
+            "enableFrameBlend": false,
+            "endTime": 1000.0,
+            "frameOverLifeEnabled": true,
+            "frameOverLifeFPS": 30.0,
+            "inheritPosition": false,
+            "isLong": false,
+            "isLooped": false,
+            "layerType": "particles",
+            "life": {
+              "externalVariable": "Velosity",
+              "modification_line": [
+                0.0,
+                1.0,
+                0.99,
+                0.5
+              ],
+              "value_line": 1.0
+            },
+            "loopEndTime": 6.0,
+            "loopSpriteAnimation": false,
+            "loopVariation": 0.0,
+            "name": "fire",
+            "number": {
+              "externalVariable": "Velosity",
+              "modification_line": [
+                0.0,
+                1.0,
+                0.99,
+                2.0
+              ],
+              "value_line": 20.0
+            },
+            "particleOrientation": 1,
+            "pivotPoint": [
+              0.0,
+              0.0
+            ],
+            "randomFrameOnStart": false,
+            "randomSpinDirection": true,
+            "scaleVelocityBase": 1.0,
+            "scaleVelocityFactor": 0.5,
+            "size": [
+              0.6,
+              0.6
+            ],
+            "sizeOverLifeXY": [
+              0.0,
+              [
+                0.5,
+                0.5
+              ],
+              1.0,
+              [
+                4.0,
+                4.0
+              ]
+            ],
+            "spin": 5.0,
+            "spinVariation": 10.0,
+            "sprite": "../../../../Data/Gfx/Particles/alpha/fog_white",
+            "startTime": 0.0,
+            "type": "layer",
+            "velocity": 0.1,
+            "velocityVariation": 1.0,
+            "legacyLod": 1,
+            "legacyPivot": [
+              0.0,
+              0.0
+            ],
+            "legacySpinDirection": true,
+            "size3d": [
+              0.6,
+              0.6,
+              1
+            ],
+            "sizeOverLife3ds": [
+              2,
+              [
+                [
+                  1,
+                  0.5,
+                  0.0
+                ],
+                [
+                  1,
+                  4.0,
+                  1.0
+                ]
+              ],
+              [
+                [
+                  1,
+                  0.5,
+                  0.0
+                ],
+                [
+                  1,
+                  4.0,
+                  1.0
+                ]
+              ],
+              [
+                [
+                  1,
+                  1,
+                  0.0
+                ],
+                [
+                  1,
+                  1,
+                  1.0
+                ]
+              ]
+            ],
+            "angle3d": [
+              0,
+              0,
+              1.0
+            ],
+            "angleVariation3d": [
+              0,
+              0,
+              360.0
+            ],
+            "spin3d": [
+              0,
+              0,
+              5.0
+            ],
+            "spinVariation3d": [
+              0,
+              0,
+              10.0
+            ],
+            "legacyForces": [],
+            "spritePath": "../../../../Data/Gfx/Particles/alpha/fog_white"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1111 @@
+{
+  "version": "11.20",
+  "source": "/home/smh01/projects/wotblitz11.20.0files",
+  "records": [
+    {
+      "nation": "european",
+      "vehicle_id": "F01_Vickers_MkF",
+      "name": "f01_vickers_mkf",
+      "model_stem": "F01_Vickers_MkF",
+      "scene": "3d/Tanks/European/F01_Vickers_MkF.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/european-F01_Vickers_MkF.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/european/F01_Vickers_MkF.xml",
+      "xml_sha256": "cb388a24d7d7efe0826ab68c8bb464d67ae0ec12896d610b45897ce6ea3a3c50",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/F01_Vickers_MkF_CM.tex",
+          "source": "3d/Tanks/European/CamouflageMasks/F01_Vickers_MkF_CM.astc.pvr.dvpl",
+          "sha256": "4e919fb3679ea002b0c23eac98ddc8b3c4d10d641d8a4afa7d7ccbbab5855dbd"
+        },
+        {
+          "reference": "images/F01_Vickers_MkF.tex",
+          "source": "3d/Tanks/European/images/F01_Vickers_MkF.astc.pvr.dvpl",
+          "sha256": "88e6d088e751424c24ec03fd6ce444d0fb585070f5c0286dffe859482caace2e"
+        },
+        {
+          "reference": "images/F01_Vickers_MkF_NM.tex",
+          "source": "3d/Tanks/European/images/F01_Vickers_MkF_NM.astc.pvr.dvpl",
+          "sha256": "7114be66ee240d60f9d4c0a347f7f384150112aa9c4c3d4cfd7c2b6907438a63"
+        },
+        {
+          "reference": "images/Pl15_60TP_track.tex",
+          "source": "3d/Tanks/European/images/Pl15_60TP_track.astc.pvr.dvpl",
+          "sha256": "f9a5b787cf19b79c4fdabc96608d9b373ba867af67129f05389f73c3219274d4"
+        },
+        {
+          "reference": "images/Pl15_60TP_track_NM.tex",
+          "source": "3d/Tanks/European/images/Pl15_60TP_track_NM.astc.pvr.dvpl",
+          "sha256": "039e0c4ad5e1ee5f46961071c0872cc9a2d1ee67164ea30556c5b88fc599c25e"
+        },
+        {
+          "reference": "images_pbr/F01_Vickers_MkF_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/F01_Vickers_MkF_BC.astc.pvr.dvpl",
+          "sha256": "71e143f29722613b8a20c04f8300df9660f49b1b86421ea765702966fbae0599"
+        },
+        {
+          "reference": "images_pbr/F01_Vickers_MkF_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/F01_Vickers_MkF_MASK.astc.pvr.dvpl",
+          "sha256": "4c23bec1ed5edbd592c46820e2ca538ca9f6a7cee3098dc2459a07d78fe1c3cb"
+        },
+        {
+          "reference": "images_pbr/F01_Vickers_MkF_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/F01_Vickers_MkF_MISC.astc.pvr.dvpl",
+          "sha256": "c29606b4b500aaede078c2642bdec19815e8c5f93610caf832338b9384296495"
+        },
+        {
+          "reference": "images_pbr/F01_Vickers_MkF_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/F01_Vickers_MkF_NM.astc.pvr.dvpl",
+          "sha256": "08f3bf7324a549ee245d00061fc95831d8feb64f57e9c020895c68e2c95c63b6"
+        },
+        {
+          "reference": "images_pbr/F01_Vickers_MkF_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/F01_Vickers_MkF_RM.astc.pvr.dvpl",
+          "sha256": "afa6269cef542da509ecca13f3890d31bd423fda10c935409de879fb7280fa1b"
+        },
+        {
+          "reference": "images_pbr/Pl15_60TP_track_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/Pl15_60TP_track_BC.astc.pvr.dvpl",
+          "sha256": "f734eed7cba278400e2af02cd9107cf2c01f4301aa35e50990bcff8dcfe4a289"
+        },
+        {
+          "reference": "images_pbr/Pl15_60TP_track_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/Pl15_60TP_track_MASK.astc.pvr.dvpl",
+          "sha256": "6b4f8c8cff736fd5b8425f6b894701bcf1f866254a1e741c315de67e80d60566"
+        },
+        {
+          "reference": "images_pbr/Pl15_60TP_track_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/Pl15_60TP_track_MISC.astc.pvr.dvpl",
+          "sha256": "435db5a746897b7d1a7bc5b7321ac2af74645dfa4b6aeb75bfd3a56d2861e1b8"
+        },
+        {
+          "reference": "images_pbr/Pl15_60TP_track_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/Pl15_60TP_track_NM.astc.pvr.dvpl",
+          "sha256": "67abb1778b9df61d892e96c713269cb45583893b47d4d80a9ae667821d74bb69"
+        },
+        {
+          "reference": "images_pbr/Pl15_60TP_track_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/Pl15_60TP_track_RM.astc.pvr.dvpl",
+          "sha256": "cdcedbb53f114414cdb1782b21550e1b2bab2dd759646947ce9b50bfd7eb0cde"
+        }
+      ]
+    },
+    {
+      "nation": "european",
+      "vehicle_id": "Pl06_10TP",
+      "name": "pl06_10tp",
+      "model_stem": "Pl06_10TP",
+      "scene": "3d/Tanks/European/Pl06_10TP.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/european-Pl06_10TP.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/european/Pl06_10TP.xml",
+      "xml_sha256": "1ed78a1e6f773e377868be24838adf800c441ee815cd7bfeef6a955fb0471ab8",
+      "textures": [
+        {
+          "reference": "../GB/images/Valentine_track.tex",
+          "source": "3d/Tanks/European/../GB/images/Valentine_track.astc.pvr.dvpl",
+          "sha256": "bf022c0fafc43f55e50fdd6e9edeacf12c01939819dab62da29ea6a9a43cb7f4"
+        },
+        {
+          "reference": "../GB/images/Valentine_track_NM.tex",
+          "source": "3d/Tanks/European/../GB/images/Valentine_track_NM.astc.pvr.dvpl",
+          "sha256": "60b2c221fc6070bc07e16f0a98148a41aae5d5c9e54c352ce30a3772e345871b"
+        },
+        {
+          "reference": "CamouflageMasks/Pl06_10TP_CM.tex",
+          "source": "3d/Tanks/European/CamouflageMasks/Pl06_10TP_CM.astc.pvr.dvpl",
+          "sha256": "b9d3beb75071e66ae98ca005a267bb8f6a1414c485787fb37895cc8c0c9465b4"
+        },
+        {
+          "reference": "images/Pl06_10TP.tex",
+          "source": "3d/Tanks/European/images/Pl06_10TP.astc.pvr.dvpl",
+          "sha256": "d0047fc113fc8b5600b991d8334bf912a93b420de53f8e12467e380d91207a7a"
+        },
+        {
+          "reference": "images/Pl06_10TP_NM.tex",
+          "source": "3d/Tanks/European/images/Pl06_10TP_NM.astc.pvr.dvpl",
+          "sha256": "35cf6b29bb3da1dcd8b517604c5c40f58ebde0b964b62907063fb99093a7a20f"
+        }
+      ]
+    },
+    {
+      "nation": "european",
+      "vehicle_id": "Pl07_14TP",
+      "name": "pl07_14tp",
+      "model_stem": "Pl07_14TP",
+      "scene": "3d/Tanks/European/Pl07_14TP.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/european-Pl07_14TP.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/european/Pl07_14TP.xml",
+      "xml_sha256": "cc644fc4c2fef682daaea0f9805fdc25f7989722459e683e7cfa482fbcd61ab7",
+      "textures": [
+        {
+          "reference": "../GB/images/Valentine_track.tex",
+          "source": "3d/Tanks/European/../GB/images/Valentine_track.astc.pvr.dvpl",
+          "sha256": "bf022c0fafc43f55e50fdd6e9edeacf12c01939819dab62da29ea6a9a43cb7f4"
+        },
+        {
+          "reference": "../GB/images/Valentine_track_NM.tex",
+          "source": "3d/Tanks/European/../GB/images/Valentine_track_NM.astc.pvr.dvpl",
+          "sha256": "60b2c221fc6070bc07e16f0a98148a41aae5d5c9e54c352ce30a3772e345871b"
+        },
+        {
+          "reference": "CamouflageMasks/Pl07_14TP_CM.tex",
+          "source": "3d/Tanks/European/CamouflageMasks/Pl07_14TP_CM.astc.pvr.dvpl",
+          "sha256": "d4a1922a5736db3c1629abc2c2e5ce0b3062e8dd03c0dd07de45161f3c41bdde"
+        },
+        {
+          "reference": "images/Pl07_14TP.tex",
+          "source": "3d/Tanks/European/images/Pl07_14TP.astc.pvr.dvpl",
+          "sha256": "eb75fb90def77d89c94a0f89c2f9346cf4b38e37f578b87915c6cfed8669c777"
+        },
+        {
+          "reference": "images/Pl07_14TP_NM.tex",
+          "source": "3d/Tanks/European/images/Pl07_14TP_NM.astc.pvr.dvpl",
+          "sha256": "9298a17d7df907a0ec9c56dffad75cd0085f0a4b53ab3187e56ffcbd1df845e9"
+        }
+      ]
+    },
+    {
+      "nation": "european",
+      "vehicle_id": "S04_Lago-I",
+      "name": "s04_lago-i",
+      "model_stem": "Lago_I",
+      "scene": "3d/Tanks/European/Lago_I.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/european-S04_Lago-I.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/european/S04_Lago-I.xml",
+      "xml_sha256": "42e3f24030571de0add61dfcf178664addbc4323106337f007ef80b06b28d1cb",
+      "textures": [
+        {
+          "reference": "../USSR/images/Object_907_track.tex",
+          "source": "3d/Tanks/European/../USSR/images/Object_907_track.astc.pvr.dvpl",
+          "sha256": "ac390ef406abfe57f8fb41b1da5b908e8c292742b27d16b084a951543ddc2444"
+        },
+        {
+          "reference": "../USSR/images/Object_907_track_NM.tex",
+          "source": "3d/Tanks/European/../USSR/images/Object_907_track_NM.astc.pvr.dvpl",
+          "sha256": "68ace9ed839fc5bd04a134d55388a670ff169334e7de6a5900f58d23ce1e8489"
+        },
+        {
+          "reference": "CamouflageMasks/S04_Lago_I_CM.tex",
+          "source": "3d/Tanks/European/CamouflageMasks/S04_Lago_I_CM.astc.pvr.dvpl",
+          "sha256": "608156ece5fc7825455e7b861164d79e8bc110c764c00b6fddf06ea294de260c"
+        },
+        {
+          "reference": "images/S04_Lago_I.tex",
+          "source": "3d/Tanks/European/images/S04_Lago_I.astc.pvr.dvpl",
+          "sha256": "0a4901626d472f5995f72b1605214876535643315edd52bf4ed12c6ea23eba0f"
+        },
+        {
+          "reference": "images/S04_Lago_I_NM.tex",
+          "source": "3d/Tanks/European/images/S04_Lago_I_NM.astc.pvr.dvpl",
+          "sha256": "351f1f6e9799c847eef6ffd1852efdd17f261440812aa1fbe3b11d724e4e154d"
+        }
+      ]
+    },
+    {
+      "nation": "european",
+      "vehicle_id": "S02_StrvM42",
+      "name": "s02_strvm42",
+      "model_stem": "S02_StrvM42",
+      "scene": "3d/Tanks/European/S02_StrvM42.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/european-S02_StrvM42.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/european/S02_StrvM42.xml",
+      "xml_sha256": "11b36fb7db0f8ef01ba7aa7162f16b67ca18556d7e3c87d4bebccae3b42b9cac",
+      "textures": [
+        {
+          "reference": "../USA/images/T23_track.tex",
+          "source": "3d/Tanks/European/../USA/images/T23_track.astc.pvr.dvpl",
+          "sha256": "cb61a52e0757df517ce1f782274430fac6895e76234ed7455ff30c37ee94f7fd"
+        },
+        {
+          "reference": "../USA/images/T23_track_NM.tex",
+          "source": "3d/Tanks/European/../USA/images/T23_track_NM.astc.pvr.dvpl",
+          "sha256": "69addcdcc5ea8899f30a1c75145e7ef86117c928c12d537850679c8aab11c7af"
+        },
+        {
+          "reference": "CamouflageMasks/StrvM42_CM.tex",
+          "source": "3d/Tanks/European/CamouflageMasks/StrvM42_CM.astc.pvr.dvpl",
+          "sha256": "2288f7fb65d4e0f40ac8b9cc59ea91bafcde83546f101c45151b4ce6c2c10bb6"
+        },
+        {
+          "reference": "images/S02_StrvM42.tex",
+          "source": "3d/Tanks/European/images/S02_StrvM42.astc.pvr.dvpl",
+          "sha256": "eecae411fcdca31a9d5e2b2ad19392472edfa604cdf9f007df4551c0234bf950"
+        },
+        {
+          "reference": "images/S02_StrvM42_NM.tex",
+          "source": "3d/Tanks/European/images/S02_StrvM42_NM.astc.pvr.dvpl",
+          "sha256": "fa77b1d521368fe84e35e784bce5fa2b9cda7345ef2253d037514d9e64ec669d"
+        }
+      ]
+    },
+    {
+      "nation": "european",
+      "vehicle_id": "S07_Strv_74",
+      "name": "s07_strv_74",
+      "model_stem": "S07_Strv_74",
+      "scene": "3d/Tanks/European/S07_Strv_74.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/european-S07_Strv_74.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/european/S07_Strv_74.xml",
+      "xml_sha256": "acdfd93428b350d5bfca881e33bfb8adc5870f9ccdaf0a54c2958e7c513b174d",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/S07_Strv_74_CM.tex",
+          "source": "3d/Tanks/European/CamouflageMasks/S07_Strv_74_CM.astc.pvr.dvpl",
+          "sha256": "ea8483b4da60754eab889c6bdee82b2769df91f41f4d73afdd96e0d450514c6d"
+        },
+        {
+          "reference": "images/S07_Strv_74.tex",
+          "source": "3d/Tanks/European/images/S07_Strv_74.astc.pvr.dvpl",
+          "sha256": "1b23e980bb3bf7d3be2fdda40cba951d39b43a315147046e4d165b564add8640"
+        },
+        {
+          "reference": "images/S07_Strv_74_NM.tex",
+          "source": "3d/Tanks/European/images/S07_Strv_74_NM.astc.pvr.dvpl",
+          "sha256": "bff912168a8b0c7e45c0b6d5191ac94b1a125cdb742b7dbaed1b0dd8c9f04fbf"
+        },
+        {
+          "reference": "images/S18_EMIL_1951E1_track.tex",
+          "source": "3d/Tanks/European/images/S18_EMIL_1951E1_track.astc.pvr.dvpl",
+          "sha256": "c7cdfce9da3765e640799aa511ac10e62ea932991066c9c011a500810d6a4a27"
+        },
+        {
+          "reference": "images/S18_EMIL_1951E1_track_NM.tex",
+          "source": "3d/Tanks/European/images/S18_EMIL_1951E1_track_NM.astc.pvr.dvpl",
+          "sha256": "b3baad261df4f718a3739d2c87e124e4811d334317c7cc304a6afc101c9cee20"
+        },
+        {
+          "reference": "images_pbr/S07_Strv_74_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/S07_Strv_74_BC.astc.pvr.dvpl",
+          "sha256": "0c273c105917947d0ff96054048e6144826b85911f47dca67fd7ae6bcf3a38db"
+        },
+        {
+          "reference": "images_pbr/S07_Strv_74_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/S07_Strv_74_MASK.astc.pvr.dvpl",
+          "sha256": "1665d1bda9d7f907602a6c84c380d7fe7ebd12e09ca94e857d4dc70eede806da"
+        },
+        {
+          "reference": "images_pbr/S07_Strv_74_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/S07_Strv_74_MISC.astc.pvr.dvpl",
+          "sha256": "9d0c37fb077a86c0837882c24b464a94bba020c7a76f4d158677c3fb6191c031"
+        },
+        {
+          "reference": "images_pbr/S07_Strv_74_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/S07_Strv_74_NM.astc.pvr.dvpl",
+          "sha256": "69393960b2266599027920a9b39c898f5196a6ad68fd02882191369b8c31692f"
+        },
+        {
+          "reference": "images_pbr/S07_Strv_74_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/S07_Strv_74_RM.astc.pvr.dvpl",
+          "sha256": "1e107ca97cb22ed3e80b6212ac9360e0d9da8de94beed13235c84dc0fcfbbbc7"
+        },
+        {
+          "reference": "images_pbr/S18_EMIL_1951E1_track_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/S18_EMIL_1951E1_track_BC.astc.pvr.dvpl",
+          "sha256": "295e990e81f6c63ad83c91bb65f1acd1d67048852500641f35f4941d52ac18a6"
+        },
+        {
+          "reference": "images_pbr/S18_EMIL_1951E1_track_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/S18_EMIL_1951E1_track_MASK.astc.pvr.dvpl",
+          "sha256": "39661969500958b472d3397b1b65309be74c910828df6bc1a57053f24743e6e0"
+        },
+        {
+          "reference": "images_pbr/S18_EMIL_1951E1_track_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/S18_EMIL_1951E1_track_MISC.astc.pvr.dvpl",
+          "sha256": "8db7387b18ccfe751196515971c338181a6925903113b15f7f0404da0a344bdc"
+        },
+        {
+          "reference": "images_pbr/S18_EMIL_1951E1_track_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/S18_EMIL_1951E1_track_NM.astc.pvr.dvpl",
+          "sha256": "80027eec2c222697257ddf3738fd105b3140d749fbde970aa46a646b3db92efc"
+        },
+        {
+          "reference": "images_pbr/S18_EMIL_1951E1_track_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/S18_EMIL_1951E1_track_RM.astc.pvr.dvpl",
+          "sha256": "8f6283d79f06bc71602de706729f2243e9b983eb14d1d77e1ee2624dd1d829ec"
+        }
+      ]
+    },
+    {
+      "nation": "european",
+      "vehicle_id": "S13_Leo",
+      "name": "s13_leo",
+      "model_stem": "S13_Leo",
+      "scene": "3d/Tanks/European/S13_Leo.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/european-S13_Leo.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/european/S13_Leo.xml",
+      "xml_sha256": "86a0598e9bbd9e521cbfec8aec9aba4de23e9b0fe3aada8df99610e20a2d2236",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/S13_Leo_CM.tex",
+          "source": "3d/Tanks/European/CamouflageMasks/S13_Leo_CM.astc.pvr.dvpl",
+          "sha256": "b3c8a7ec6d1482ff75d282d4007e2004e1496caea307faa6ddfff12bf13ae994"
+        },
+        {
+          "reference": "images/S13_Leo.tex",
+          "source": "3d/Tanks/European/images/S13_Leo.astc.pvr.dvpl",
+          "sha256": "aba2803d91955205ebd2a8abfc1bc2b55bcf23b2098b88855d8600c25258f704"
+        },
+        {
+          "reference": "images/S13_Leo_NM.tex",
+          "source": "3d/Tanks/European/images/S13_Leo_NM.astc.pvr.dvpl",
+          "sha256": "cb36041aec7dba7ff8c37ab17f1af54e280f160943e230d7a77650762eef73c7"
+        },
+        {
+          "reference": "images/S13_Leo_track.tex",
+          "source": "3d/Tanks/European/images/S13_Leo_track.astc.pvr.dvpl",
+          "sha256": "9358206db08494a0f9cc5e98d81f756768c8ad375cee102ebf235b26ec71e57e"
+        },
+        {
+          "reference": "images/S13_Leo_track_NM.tex",
+          "source": "3d/Tanks/European/images/S13_Leo_track_NM.astc.pvr.dvpl",
+          "sha256": "976af0d60fb68e9bea6c8d6905daa3479b18ccce07a859ee047d51c6ed9667a5"
+        },
+        {
+          "reference": "images_pbr/S13_Leo_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/S13_Leo_BC.astc.pvr.dvpl",
+          "sha256": "89b4fc1e4aee44e68359e2fb10098a29ae350608f1634568f77814e5a335c380"
+        },
+        {
+          "reference": "images_pbr/S13_Leo_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/S13_Leo_MASK.astc.pvr.dvpl",
+          "sha256": "95568be53fc037c7a406cc97e6e7af926a55c0361a3d030b7fe2f7ecd9c88908"
+        },
+        {
+          "reference": "images_pbr/S13_Leo_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/S13_Leo_MISC.astc.pvr.dvpl",
+          "sha256": "3db6a1c9852b5d189802dbd754277796cf76ca6318a3f5c3eef68f9d13b777a6"
+        },
+        {
+          "reference": "images_pbr/S13_Leo_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/S13_Leo_NM.astc.pvr.dvpl",
+          "sha256": "e587a73704c91b253220078a9c62383ca0325eb08b2e76fdcfedce97996764f1"
+        },
+        {
+          "reference": "images_pbr/S13_Leo_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/S13_Leo_RM.astc.pvr.dvpl",
+          "sha256": "bb5c7410f7ba027b047c6a56c8c9a8f337ca3da84a14013945e48e826c67abe3"
+        },
+        {
+          "reference": "images_pbr/S13_Leo_track_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/S13_Leo_track_BC.astc.pvr.dvpl",
+          "sha256": "2815c2139e7209d98dde38a1221504e8b1891301d86337fcf9cc5bec84b893b2"
+        },
+        {
+          "reference": "images_pbr/S13_Leo_track_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/S13_Leo_track_MASK.astc.pvr.dvpl",
+          "sha256": "761dcdfc99d5363b995624903b0ef2834ab2bb24ff84c08ea5ba364fecfc1efc"
+        },
+        {
+          "reference": "images_pbr/S13_Leo_track_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/S13_Leo_track_MISC.astc.pvr.dvpl",
+          "sha256": "f6457d1f481a7d48ebef4380f249649d865b2ad931b7891aa0032ede2afd9596"
+        },
+        {
+          "reference": "images_pbr/S13_Leo_track_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/S13_Leo_track_NM.astc.pvr.dvpl",
+          "sha256": "dfd49e92eb3184d24d8571f5bce7ae4874990d8f3aa521abfe65dbf771580b43"
+        },
+        {
+          "reference": "images_pbr/S13_Leo_track_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/S13_Leo_track_RM.astc.pvr.dvpl",
+          "sha256": "7bb5e73f450fec466f3adb272183aee6ac2cc553b98cbbb441b1bbdab7e6eead"
+        }
+      ]
+    },
+    {
+      "nation": "european",
+      "vehicle_id": "S18_EMIL_1951E1",
+      "name": "s18_emil_1951e1",
+      "model_stem": "S18_EMIL_1951E1",
+      "scene": "3d/Tanks/European/S18_EMIL_1951E1.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/european-S18_EMIL_1951E1.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/european/S18_EMIL_1951E1.xml",
+      "xml_sha256": "85b3431b5466082454fe8a7586cb87d5e36a88c922080064693c19706e39f4b5",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/S18_EMIL_1951E1_CM.tex",
+          "source": "3d/Tanks/European/CamouflageMasks/S18_EMIL_1951E1_CM.astc.pvr.dvpl",
+          "sha256": "683c2a95b9e7cbfc0d90d6b9b33579e36a30187b9e94e2bc54fc9abd1a163272"
+        },
+        {
+          "reference": "images/S18_EMIL_1951E1.tex",
+          "source": "3d/Tanks/European/images/S18_EMIL_1951E1.astc.pvr.dvpl",
+          "sha256": "ec06502159c01061172923adbfe31b06470117461068f620301fb7d800d5e187"
+        },
+        {
+          "reference": "images/S18_EMIL_1951E1_NM.tex",
+          "source": "3d/Tanks/European/images/S18_EMIL_1951E1_NM.astc.pvr.dvpl",
+          "sha256": "91c9572d8ea7bdf97ad7c6c4a09f257ad57b4b3c670a50fa2072c6088279b32a"
+        },
+        {
+          "reference": "images/S18_EMIL_1951E1_track.tex",
+          "source": "3d/Tanks/European/images/S18_EMIL_1951E1_track.astc.pvr.dvpl",
+          "sha256": "c7cdfce9da3765e640799aa511ac10e62ea932991066c9c011a500810d6a4a27"
+        },
+        {
+          "reference": "images/S18_EMIL_1951E1_track_NM.tex",
+          "source": "3d/Tanks/European/images/S18_EMIL_1951E1_track_NM.astc.pvr.dvpl",
+          "sha256": "b3baad261df4f718a3739d2c87e124e4811d334317c7cc304a6afc101c9cee20"
+        },
+        {
+          "reference": "images_pbr/S18_EMIL_1951E1_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/S18_EMIL_1951E1_BC.astc.pvr.dvpl",
+          "sha256": "12aa55b14326be2646592117707d6c6ba0b3ba5381da9914a3f8ddd9affabe2f"
+        },
+        {
+          "reference": "images_pbr/S18_EMIL_1951E1_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/S18_EMIL_1951E1_MASK.astc.pvr.dvpl",
+          "sha256": "f6efa4cdb98da4c4f3f2fbf118197f6981d1daedf60b4da7146f3cec3804b474"
+        },
+        {
+          "reference": "images_pbr/S18_EMIL_1951E1_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/S18_EMIL_1951E1_MISC.astc.pvr.dvpl",
+          "sha256": "829ab53579a9339781640931d5a74a57d6e709c03c346732780b0dfae5c4cbc9"
+        },
+        {
+          "reference": "images_pbr/S18_EMIL_1951E1_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/S18_EMIL_1951E1_NM.astc.pvr.dvpl",
+          "sha256": "787a0d0bc87d3a359851ada22e5d1531f54da08571687c898b260cd90b1ab8c8"
+        },
+        {
+          "reference": "images_pbr/S18_EMIL_1951E1_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/S18_EMIL_1951E1_RM.astc.pvr.dvpl",
+          "sha256": "fcc0da1ab23276bb378f8d542ea8590b83e0f7f45bafd292d0d81f50b22bcd52"
+        },
+        {
+          "reference": "images_pbr/S18_EMIL_1951E1_track_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/S18_EMIL_1951E1_track_BC.astc.pvr.dvpl",
+          "sha256": "295e990e81f6c63ad83c91bb65f1acd1d67048852500641f35f4941d52ac18a6"
+        },
+        {
+          "reference": "images_pbr/S18_EMIL_1951E1_track_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/S18_EMIL_1951E1_track_MASK.astc.pvr.dvpl",
+          "sha256": "39661969500958b472d3397b1b65309be74c910828df6bc1a57053f24743e6e0"
+        },
+        {
+          "reference": "images_pbr/S18_EMIL_1951E1_track_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/S18_EMIL_1951E1_track_MISC.astc.pvr.dvpl",
+          "sha256": "8db7387b18ccfe751196515971c338181a6925903113b15f7f0404da0a344bdc"
+        },
+        {
+          "reference": "images_pbr/S18_EMIL_1951E1_track_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/S18_EMIL_1951E1_track_NM.astc.pvr.dvpl",
+          "sha256": "80027eec2c222697257ddf3738fd105b3140d749fbde970aa46a646b3db92efc"
+        },
+        {
+          "reference": "images_pbr/S18_EMIL_1951E1_track_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/S18_EMIL_1951E1_track_RM.astc.pvr.dvpl",
+          "sha256": "8f6283d79f06bc71602de706729f2243e9b983eb14d1d77e1ee2624dd1d829ec"
+        }
+      ]
+    },
+    {
+      "nation": "european",
+      "vehicle_id": "S17_EMIL_1952E2",
+      "name": "s17_emil_1952e2",
+      "model_stem": "S17_EMIL_1952E2",
+      "scene": "3d/Tanks/European/S17_EMIL_1952E2.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/european-S17_EMIL_1952E2.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/european/S17_EMIL_1952E2.xml",
+      "xml_sha256": "d7eaa7ec86d545bb40814dea9343423901a86480ffe53e3d023b7e4d903c6f59",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/S17_EMIL_1952E2_CM.tex",
+          "source": "3d/Tanks/European/CamouflageMasks/S17_EMIL_1952E2_CM.astc.pvr.dvpl",
+          "sha256": "1cc17712954fcb179329adb2913022098817007ebc30140788ba69853641795e"
+        },
+        {
+          "reference": "images/S16_Kranvagn_track.tex",
+          "source": "3d/Tanks/European/images/S16_Kranvagn_track.astc.pvr.dvpl",
+          "sha256": "cd1117df02cfc0318dbdb06f846ed91b56af60195edc3b8aba34c8cd236acad5"
+        },
+        {
+          "reference": "images/S16_Kranvagn_track_NM.tex",
+          "source": "3d/Tanks/European/images/S16_Kranvagn_track_NM.astc.pvr.dvpl",
+          "sha256": "0dd5138f4b8c2613c91fce2ec6f2cab70583431b2076e28d5818a3e8e2da751a"
+        },
+        {
+          "reference": "images/S17_EMIL_1952E2.tex",
+          "source": "3d/Tanks/European/images/S17_EMIL_1952E2.astc.pvr.dvpl",
+          "sha256": "c561799653542f22a0906e7adab592826750ed6597e908c52166c799beaa1c9a"
+        },
+        {
+          "reference": "images/S17_EMIL_1952E2_NM.tex",
+          "source": "3d/Tanks/European/images/S17_EMIL_1952E2_NM.astc.pvr.dvpl",
+          "sha256": "c5c1131c1c1acb3160092d08150f2e46bab5bbbfb5854efa851b85af45cc0f37"
+        },
+        {
+          "reference": "images_pbr/S16_Kranvagn_track_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/S16_Kranvagn_track_BC.astc.pvr.dvpl",
+          "sha256": "a26cd76572cff291a4ef55ead2b4d54d8a3aae168df89ae72da6a3b68baf5ab2"
+        },
+        {
+          "reference": "images_pbr/S16_Kranvagn_track_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/S16_Kranvagn_track_MASK.astc.pvr.dvpl",
+          "sha256": "2999bcaebe3b3a8b6cc0119b3484e03ddabf1ab5b28d44fbdc08afc27d72085c"
+        },
+        {
+          "reference": "images_pbr/S16_Kranvagn_track_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/S16_Kranvagn_track_MISC.astc.pvr.dvpl",
+          "sha256": "a87c06964bba82a6e0facdbd795a773426aabdd41afcb9c21f49daa711c2844e"
+        },
+        {
+          "reference": "images_pbr/S16_Kranvagn_track_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/S16_Kranvagn_track_NM.astc.pvr.dvpl",
+          "sha256": "984f6fd5649dd84d21b860343049e4f32da2ca6f9b3527c300021292d863ca5c"
+        },
+        {
+          "reference": "images_pbr/S16_Kranvagn_track_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/S16_Kranvagn_track_RM.astc.pvr.dvpl",
+          "sha256": "b4e3029d984780d4c78fe557e6360cfb13d55d8ec2ea1db56846fa80929a9195"
+        },
+        {
+          "reference": "images_pbr/S17_EMIL_1952E2_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/S17_EMIL_1952E2_BC.astc.pvr.dvpl",
+          "sha256": "483d9b64da998a258c8b56e962b3c25ab3dfef01e67d53b73266138a4f5671bd"
+        },
+        {
+          "reference": "images_pbr/S17_EMIL_1952E2_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/S17_EMIL_1952E2_MASK.astc.pvr.dvpl",
+          "sha256": "5e897c0d71bee966efc43055401b17968c6f44af61cb292cd3f08711941953ef"
+        },
+        {
+          "reference": "images_pbr/S17_EMIL_1952E2_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/S17_EMIL_1952E2_MISC.astc.pvr.dvpl",
+          "sha256": "7c2ff54fd5746606acb80378f251dabba3088f9e76dfbbc4de7fca56c376c6c5"
+        },
+        {
+          "reference": "images_pbr/S17_EMIL_1952E2_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/S17_EMIL_1952E2_NM.astc.pvr.dvpl",
+          "sha256": "13e1de2649cc655d36f4401572973373b0574eb50866aee79962f15297295c33"
+        },
+        {
+          "reference": "images_pbr/S17_EMIL_1952E2_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/S17_EMIL_1952E2_RM.astc.pvr.dvpl",
+          "sha256": "2a11282cb28d4c462d1c89451e2190abbcd6cf48c5aac46d7c4a256feee26d96"
+        }
+      ]
+    },
+    {
+      "nation": "european",
+      "vehicle_id": "S16_Kranvagn",
+      "name": "s16_kranvagn",
+      "model_stem": "S16_Kranvagn",
+      "scene": "3d/Tanks/European/S16_Kranvagn.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/european-S16_Kranvagn.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/european/S16_Kranvagn.xml",
+      "xml_sha256": "0cb3b01cfab758f84cf6fa1e4bb44a2f0f5243bcd7e35121a85dfb5cb92c542f",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/S16_Kranvagn_CM.tex",
+          "source": "3d/Tanks/European/CamouflageMasks/S16_Kranvagn_CM.astc.pvr.dvpl",
+          "sha256": "b424b896e1934d3ebd31d378338eb8f64138f27d5ccb1787956dd1c853105974"
+        },
+        {
+          "reference": "images/S16_Kranvagn.tex",
+          "source": "3d/Tanks/European/images/S16_Kranvagn.astc.pvr.dvpl",
+          "sha256": "67ccfcb4f6aa753bebc5bfd476b0f53579d4f5cb664e65ace4d7221774d7e0f2"
+        },
+        {
+          "reference": "images/S16_Kranvagn_NM.tex",
+          "source": "3d/Tanks/European/images/S16_Kranvagn_NM.astc.pvr.dvpl",
+          "sha256": "064409dbb9e82ed8159084fe9245f2b937380548be44daef86966c8a0a3e8f10"
+        },
+        {
+          "reference": "images/S16_Kranvagn_track.tex",
+          "source": "3d/Tanks/European/images/S16_Kranvagn_track.astc.pvr.dvpl",
+          "sha256": "cd1117df02cfc0318dbdb06f846ed91b56af60195edc3b8aba34c8cd236acad5"
+        },
+        {
+          "reference": "images/S16_Kranvagn_track_NM.tex",
+          "source": "3d/Tanks/European/images/S16_Kranvagn_track_NM.astc.pvr.dvpl",
+          "sha256": "0dd5138f4b8c2613c91fce2ec6f2cab70583431b2076e28d5818a3e8e2da751a"
+        },
+        {
+          "reference": "images_pbr/S16_Kranvagn_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/S16_Kranvagn_BC.astc.pvr.dvpl",
+          "sha256": "ed7b438f612a1559940ee53419a885632c8a40b8457f83f4b9b1d3f58dd7f4a2"
+        },
+        {
+          "reference": "images_pbr/S16_Kranvagn_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/S16_Kranvagn_MASK.astc.pvr.dvpl",
+          "sha256": "01bdd1ce4547d462bbb7f9283ca32a4591f2398de231adc4144fe6afcc5743dd"
+        },
+        {
+          "reference": "images_pbr/S16_Kranvagn_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/S16_Kranvagn_MISC.astc.pvr.dvpl",
+          "sha256": "672d06999841c459251094b46c433d03c724de4d4072230144f865f47d227ee0"
+        },
+        {
+          "reference": "images_pbr/S16_Kranvagn_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/S16_Kranvagn_NM.astc.pvr.dvpl",
+          "sha256": "edde898d4d148b2f18849514740db00128d43812c91acc106cff349fcc7c79d3"
+        },
+        {
+          "reference": "images_pbr/S16_Kranvagn_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/S16_Kranvagn_RM.astc.pvr.dvpl",
+          "sha256": "16da06b2da609d004d3dd3b605e40f34a0b7b84bff10c115023d1c6e6c021e10"
+        },
+        {
+          "reference": "images_pbr/S16_Kranvagn_track_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/S16_Kranvagn_track_BC.astc.pvr.dvpl",
+          "sha256": "a26cd76572cff291a4ef55ead2b4d54d8a3aae168df89ae72da6a3b68baf5ab2"
+        },
+        {
+          "reference": "images_pbr/S16_Kranvagn_track_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/S16_Kranvagn_track_MASK.astc.pvr.dvpl",
+          "sha256": "2999bcaebe3b3a8b6cc0119b3484e03ddabf1ab5b28d44fbdc08afc27d72085c"
+        },
+        {
+          "reference": "images_pbr/S16_Kranvagn_track_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/S16_Kranvagn_track_MISC.astc.pvr.dvpl",
+          "sha256": "a87c06964bba82a6e0facdbd795a773426aabdd41afcb9c21f49daa711c2844e"
+        },
+        {
+          "reference": "images_pbr/S16_Kranvagn_track_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/S16_Kranvagn_track_NM.astc.pvr.dvpl",
+          "sha256": "984f6fd5649dd84d21b860343049e4f32da2ca6f9b3527c300021292d863ca5c"
+        },
+        {
+          "reference": "images_pbr/S16_Kranvagn_track_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/S16_Kranvagn_track_RM.astc.pvr.dvpl",
+          "sha256": "b4e3029d984780d4c78fe557e6360cfb13d55d8ec2ea1db56846fa80929a9195"
+        }
+      ]
+    },
+    {
+      "nation": "france",
+      "vehicle_id": "F126_AMX_13_M24",
+      "name": "f126_amx_13_m24",
+      "model_stem": "F126_AMX_13_M24",
+      "scene": "3d/Tanks/France/F126_AMX_13_M24.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/france-F126_AMX_13_M24.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/france/F126_AMX_13_M24.xml",
+      "xml_sha256": "427696e7c766026116e2ef3f0600441d558737212a90084da3acc96fb639f581",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/F126_AMX_13_M24_CM.tex",
+          "source": "3d/Tanks/France/CamouflageMasks/F126_AMX_13_M24_CM.astc.pvr.dvpl",
+          "sha256": "78fbecceae01d789e5bc9c1797456825b689f7f6f47179d7f71834c04371edca"
+        },
+        {
+          "reference": "images/AMX_13_75_track.tex",
+          "source": "3d/Tanks/France/images/AMX_13_75_track.astc.pvr.dvpl",
+          "sha256": "904476ffe3699effe588c8531f69378bb56838dadfcace0e78cc60965bb19024"
+        },
+        {
+          "reference": "images/AMX_13_75_track_NM.tex",
+          "source": "3d/Tanks/France/images/AMX_13_75_track_NM.astc.pvr.dvpl",
+          "sha256": "b668086f33c741c6e2016c534bd8c455b9751d6c624f4df461fc2a6d944efe54"
+        },
+        {
+          "reference": "images/F126_AMX_13_M24.tex",
+          "source": "3d/Tanks/France/images/F126_AMX_13_M24.astc.pvr.dvpl",
+          "sha256": "9d65f5e5f8cf909254698d84a7e99daa27c1a45088a93a06f769570ac3a0bb07"
+        },
+        {
+          "reference": "images/F126_AMX_13_M24_NM.tex",
+          "source": "3d/Tanks/France/images/F126_AMX_13_M24_NM.astc.pvr.dvpl",
+          "sha256": "60c55d9d41a58f102e8c4d5e8480c652e80e8e884d11ff8bdec4a30cd747cd81"
+        },
+        {
+          "reference": "images_pbr/AMX_13_75_track_BC.tex",
+          "source": "3d/Tanks/France/images_pbr/AMX_13_75_track_BC.astc.pvr.dvpl",
+          "sha256": "fc7195cb2a586ee67dd798dfedc44b9298c5429554d2557f0d05889b99b4b39b"
+        },
+        {
+          "reference": "images_pbr/AMX_13_75_track_MASK.tex",
+          "source": "3d/Tanks/France/images_pbr/AMX_13_75_track_MASK.astc.pvr.dvpl",
+          "sha256": "57cce25d6a4a578cad1530329fa150cb1e997b3658d96cc05a8c979ff15e2a4d"
+        },
+        {
+          "reference": "images_pbr/AMX_13_75_track_MISC.tex",
+          "source": "3d/Tanks/France/images_pbr/AMX_13_75_track_MISC.astc.pvr.dvpl",
+          "sha256": "749d1ccdd52dc62c6c0f43fe8f42b89c422a05b6e652b48936cb4b975bcc051a"
+        },
+        {
+          "reference": "images_pbr/AMX_13_75_track_NM.tex",
+          "source": "3d/Tanks/France/images_pbr/AMX_13_75_track_NM.astc.pvr.dvpl",
+          "sha256": "fbd273e5d09b30ceed8da8efa8658a3690de2a3fd0aada3e303640551f9fb488"
+        },
+        {
+          "reference": "images_pbr/AMX_13_75_track_RM.tex",
+          "source": "3d/Tanks/France/images_pbr/AMX_13_75_track_RM.astc.pvr.dvpl",
+          "sha256": "3c2399dd3802bff31f56d82ce75e801639b32742314ceb6b96c289736dcb7738"
+        },
+        {
+          "reference": "images_pbr/F126_AMX_13_M24_BC.tex",
+          "source": "3d/Tanks/France/images_pbr/F126_AMX_13_M24_BC.astc.pvr.dvpl",
+          "sha256": "f6312de9748281c2cedb0a67533f16bd46e577d759b2620e5e237e327b5d9751"
+        },
+        {
+          "reference": "images_pbr/F126_AMX_13_M24_MASK.tex",
+          "source": "3d/Tanks/France/images_pbr/F126_AMX_13_M24_MASK.astc.pvr.dvpl",
+          "sha256": "7f1ef9b92d8d8dc5f36ff6bebc86592c0697181f08f1d2fa218953aef3ecc7de"
+        },
+        {
+          "reference": "images_pbr/F126_AMX_13_M24_MISC.tex",
+          "source": "3d/Tanks/France/images_pbr/F126_AMX_13_M24_MISC.astc.pvr.dvpl",
+          "sha256": "f0d4421f6a5c41af232d6cfa3f3c76007cf3a1af2fc310098d30460d53cff102"
+        },
+        {
+          "reference": "images_pbr/F126_AMX_13_M24_NM.tex",
+          "source": "3d/Tanks/France/images_pbr/F126_AMX_13_M24_NM.astc.pvr.dvpl",
+          "sha256": "c7d7a449f243b6078c6d9b9fdd4730df51c5a15532d9e1376963a3130a486148"
+        },
+        {
+          "reference": "images_pbr/F126_AMX_13_M24_RM.tex",
+          "source": "3d/Tanks/France/images_pbr/F126_AMX_13_M24_RM.astc.pvr.dvpl",
+          "sha256": "cb19612035da6d40943c4146715c411b22ab681199949610417c10f2cf337f4b"
+        }
+      ]
+    },
+    {
+      "nation": "france",
+      "vehicle_id": "F123_ERAC_105_Proto",
+      "name": "f123_erac_105_proto",
+      "model_stem": "F123_ERAC_105_Proto",
+      "scene": "3d/Tanks/France/F123_ERAC_105_Proto.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/france-F123_ERAC_105_Proto.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/france/F123_ERAC_105_Proto.xml",
+      "xml_sha256": "36fad4f87d5aec60a7ac0a366a4cc058ed58d31bd568d990b68af6bb4c292fdc",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/F123_ERAC_105_Proto_CM.tex",
+          "source": "3d/Tanks/France/CamouflageMasks/F123_ERAC_105_Proto_CM.astc.pvr.dvpl",
+          "sha256": "214551d130202a911ac70714c5af5220d0618bd69304ca96e675f194a744ff29"
+        },
+        {
+          "reference": "images/F123_ERAC_105_Proto.tex",
+          "source": "3d/Tanks/France/images/F123_ERAC_105_Proto.astc.pvr.dvpl",
+          "sha256": "49da17756589eb5abdba957379b3020959a07648090cd5e38d69fa8f810e87e9"
+        },
+        {
+          "reference": "images/F123_ERAC_105_Proto_NM.tex",
+          "source": "3d/Tanks/France/images/F123_ERAC_105_Proto_NM.astc.pvr.dvpl",
+          "sha256": "6c08ff257d89f38a005f92d9bb28e2c5afda1bbae6eaf73869eeb1708aa16b3a"
+        },
+        {
+          "reference": "images/F123_ERAC_105_Proto_track.tex",
+          "source": "3d/Tanks/France/images/F123_ERAC_105_Proto_track.astc.pvr.dvpl",
+          "sha256": "0d89a14ac05c2edfb0ddd991f1687c90cd1dd38972a411fcb950e68c094f38fd"
+        },
+        {
+          "reference": "images/F123_ERAC_105_Proto_track_NM.tex",
+          "source": "3d/Tanks/France/images/F123_ERAC_105_Proto_track_NM.astc.pvr.dvpl",
+          "sha256": "e085c51026ce76bdb5e6e22bc71b642424049848bfc007d00a1b837cc2c0069a"
+        },
+        {
+          "reference": "images_pbr/F123_ERAC_105_Proto_BC.tex",
+          "source": "3d/Tanks/France/images_pbr/F123_ERAC_105_Proto_BC.astc.pvr.dvpl",
+          "sha256": "a7e6ec9d58b6c07731c553a87054892fa986778fb16e366950e58898b7e4123c"
+        },
+        {
+          "reference": "images_pbr/F123_ERAC_105_Proto_MASK.tex",
+          "source": "3d/Tanks/France/images_pbr/F123_ERAC_105_Proto_MASK.astc.pvr.dvpl",
+          "sha256": "61cb3b14897cfa68bd0de00f0d9e7c5ed356adfec563d7699f0fc7237ad85dc8"
+        },
+        {
+          "reference": "images_pbr/F123_ERAC_105_Proto_MISC.tex",
+          "source": "3d/Tanks/France/images_pbr/F123_ERAC_105_Proto_MISC.astc.pvr.dvpl",
+          "sha256": "efa1025838d6f3ab4faaa5ff9af752fed47b0ff84bff5483d357a06f23dcc65e"
+        },
+        {
+          "reference": "images_pbr/F123_ERAC_105_Proto_NM.tex",
+          "source": "3d/Tanks/France/images_pbr/F123_ERAC_105_Proto_NM.astc.pvr.dvpl",
+          "sha256": "a5d5836750b82d23d773b8777a6f3f82351c33c4ecdfc17a514db731aa172b02"
+        },
+        {
+          "reference": "images_pbr/F123_ERAC_105_Proto_RM.tex",
+          "source": "3d/Tanks/France/images_pbr/F123_ERAC_105_Proto_RM.astc.pvr.dvpl",
+          "sha256": "ac306a9389d2b463bff2df5874a9c4fe979594de512e185768386d2d1e2716d0"
+        },
+        {
+          "reference": "images_pbr/F123_ERAC_105_Proto_track_BC.tex",
+          "source": "3d/Tanks/France/images_pbr/F123_ERAC_105_Proto_track_BC.astc.pvr.dvpl",
+          "sha256": "51c05cd0550418ebfd938b9f42a9d99b3b1c1091e22327e5563a272fe9a37a7f"
+        },
+        {
+          "reference": "images_pbr/F123_ERAC_105_Proto_track_MASK.tex",
+          "source": "3d/Tanks/France/images_pbr/F123_ERAC_105_Proto_track_MASK.astc.pvr.dvpl",
+          "sha256": "8946d8f5676ab1e8bbd7549e6d73d12e66225ee825be5db560256420efdeac38"
+        },
+        {
+          "reference": "images_pbr/F123_ERAC_105_Proto_track_MISC.tex",
+          "source": "3d/Tanks/France/images_pbr/F123_ERAC_105_Proto_track_MISC.astc.pvr.dvpl",
+          "sha256": "8d462eb85ab856c1fb5a0a3f00c58487322b7544f04f2fb7ae34efc587ac3018"
+        },
+        {
+          "reference": "images_pbr/F123_ERAC_105_Proto_track_NM.tex",
+          "source": "3d/Tanks/France/images_pbr/F123_ERAC_105_Proto_track_NM.astc.pvr.dvpl",
+          "sha256": "f0308d09ea8a771160436ea831a299b55282de405ccb5fcdcc495cec70f9151d"
+        },
+        {
+          "reference": "images_pbr/F123_ERAC_105_Proto_track_RM.tex",
+          "source": "3d/Tanks/France/images_pbr/F123_ERAC_105_Proto_track_RM.astc.pvr.dvpl",
+          "sha256": "1988228fe35619e63b30018fc3995cf9c9c664b1ed1bdbdf87d3c8cbb4792c7d"
+        }
+      ]
+    },
+    {
+      "nation": "france",
+      "vehicle_id": "F120_Project_Louis",
+      "name": "f120_project_louis",
+      "model_stem": "F120_Project_Louis",
+      "scene": "3d/Tanks/France/F120_Project_Louis.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/france-F120_Project_Louis.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/france/F120_Project_Louis.xml",
+      "xml_sha256": "223c1cb31a269e7a9346f4c3b4efcd2f3b274ba6eec2ea62f523d25822456ed5",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/F120_Project_Louis_CM.tex",
+          "source": "3d/Tanks/France/CamouflageMasks/F120_Project_Louis_CM.astc.pvr.dvpl",
+          "sha256": "91f1641c79262f3658dee415794d2c10588d8466b40170a3d676684ce3fa8840"
+        },
+        {
+          "reference": "images/F120_Project_Louis.tex",
+          "source": "3d/Tanks/France/images/F120_Project_Louis.astc.pvr.dvpl",
+          "sha256": "df69f3ba746ed66cc6c8068d2e8895997d4507649e52f53add49d26c7884ac89"
+        },
+        {
+          "reference": "images/F120_Project_Louis_NM.tex",
+          "source": "3d/Tanks/France/images/F120_Project_Louis_NM.astc.pvr.dvpl",
+          "sha256": "2c29a744c6fc5016b479cc4389d0647d8de15d3413c16e71eebc1f93bc53866c"
+        },
+        {
+          "reference": "images/F120_Project_Louis_track.tex",
+          "source": "3d/Tanks/France/images/F120_Project_Louis_track.astc.pvr.dvpl",
+          "sha256": "b5589940834cddea2411192fa8b5bf769c5d97980b82a1b693dbb0c02f553071"
+        },
+        {
+          "reference": "images/F120_Project_Louis_track_NM.tex",
+          "source": "3d/Tanks/France/images/F120_Project_Louis_track_NM.astc.pvr.dvpl",
+          "sha256": "1fd9baeb593897542f98f8b77bc2c34f0f699b7165fc4cd5afb48dfb9c067768"
+        },
+        {
+          "reference": "images_pbr/F120_Project_Louis_BC.tex",
+          "source": "3d/Tanks/France/images_pbr/F120_Project_Louis_BC.astc.pvr.dvpl",
+          "sha256": "276259243a01b65cf6e031719d5613db4e1389ff6c91e2f49bb0ba298f48ab3a"
+        },
+        {
+          "reference": "images_pbr/F120_Project_Louis_MASK.tex",
+          "source": "3d/Tanks/France/images_pbr/F120_Project_Louis_MASK.astc.pvr.dvpl",
+          "sha256": "fc1a9ec90bedafdfb3951a346342df504d2b707713f46e1eaf0f05dc9ee7433e"
+        },
+        {
+          "reference": "images_pbr/F120_Project_Louis_MISC.tex",
+          "source": "3d/Tanks/France/images_pbr/F120_Project_Louis_MISC.astc.pvr.dvpl",
+          "sha256": "93777de1a1885d3b27c9cfb47d9913d230c9385140fec91783518e5c96afb1e0"
+        },
+        {
+          "reference": "images_pbr/F120_Project_Louis_NM.tex",
+          "source": "3d/Tanks/France/images_pbr/F120_Project_Louis_NM.astc.pvr.dvpl",
+          "sha256": "8b8206db68f23bb013adb5aea50586634a49e5d49ef5f142815a75aab848f9eb"
+        },
+        {
+          "reference": "images_pbr/F120_Project_Louis_RM.tex",
+          "source": "3d/Tanks/France/images_pbr/F120_Project_Louis_RM.astc.pvr.dvpl",
+          "sha256": "59642ad3ef7d077ea0d4bc5831fc631bbe9905aae601ace01cbd832fb654a8a7"
+        },
+        {
+          "reference": "images_pbr/F120_Project_Louis_track_BC.tex",
+          "source": "3d/Tanks/France/images_pbr/F120_Project_Louis_track_BC.astc.pvr.dvpl",
+          "sha256": "eef018ba0f9de5fc8e5e5001203c1fe63836b3af241d205e5f928101fcbcdc8c"
+        },
+        {
+          "reference": "images_pbr/F120_Project_Louis_track_MASK.tex",
+          "source": "3d/Tanks/France/images_pbr/F120_Project_Louis_track_MASK.astc.pvr.dvpl",
+          "sha256": "f2051a63ce75b301964cd9fcc9c8df2e4b607f462444d17d846e1f793df971ca"
+        },
+        {
+          "reference": "images_pbr/F120_Project_Louis_track_MISC.tex",
+          "source": "3d/Tanks/France/images_pbr/F120_Project_Louis_track_MISC.astc.pvr.dvpl",
+          "sha256": "d9cc3710310a0fccf2f8a474f861d83f626571fd4a5436e14e4635c1d19f7471"
+        },
+        {
+          "reference": "images_pbr/F120_Project_Louis_track_NM.tex",
+          "source": "3d/Tanks/France/images_pbr/F120_Project_Louis_track_NM.astc.pvr.dvpl",
+          "sha256": "9bd34eb7e9e06767057fb81915e89ba5a74321770bff2db618e62b494300a490"
+        },
+        {
+          "reference": "images_pbr/F120_Project_Louis_track_RM.tex",
+          "source": "3d/Tanks/France/images_pbr/F120_Project_Louis_track_RM.astc.pvr.dvpl",
+          "sha256": "f2c591bcdfa278a744068bae0d6426a46c70a26e035870ed3cafcba33841240d"
+        }
+      ]
+    },
+    {
+      "nation": "france",
+      "vehicle_id": "F119_Projet_Murat",
+      "name": "f119_projet_murat",
+      "model_stem": "F119_ProjectMurat",
+      "scene": "3d/Tanks/France/F119_ProjectMurat.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/france-F119_Projet_Murat.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/france/F119_Projet_Murat.xml",
+      "xml_sha256": "d61d81cec5a0ca8feea533914059f69f2f97574df755968882a149805c43051e",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/F119_ProjectMurat_CM.tex",
+          "source": "3d/Tanks/France/CamouflageMasks/F119_ProjectMurat_CM.astc.pvr.dvpl",
+          "sha256": "58312fcd23dac2ead13aac562a7a8eaa5ef880f589653f75ba9826562b75a716"
+        },
+        {
+          "reference": "images/F119_ProjectMurat.tex",
+          "source": "3d/Tanks/France/images/F119_ProjectMurat.astc.pvr.dvpl",
+          "sha256": "ffa15c2928cd1b75a071421df3b4004433fae6bbbcee51df74b957d9edaa52f2"
+        },
+        {
+          "reference": "images/F119_ProjectMurat_NM.tex",
+          "source": "3d/Tanks/France/images/F119_ProjectMurat_NM.astc.pvr.dvpl",
+          "sha256": "bd214207bd599f5bcb9fa7d571216af2433da31735ba9037d59238869f7abdd3"
+        },
+        {
+          "reference": "images/F119_ProjectMurat_track.tex",
+          "source": "3d/Tanks/France/images/F119_ProjectMurat_track.astc.pvr.dvpl",
+          "sha256": "09699a0d8823818e26beba6e66d02c49642693cd40307204344fb7fcaec77298"
+        },
+        {
+          "reference": "images/F119_ProjectMurat_track_NM.tex",
+          "source": "3d/Tanks/France/images/F119_ProjectMurat_track_NM.astc.pvr.dvpl",
+          "sha256": "0e560015a513e627fac66ea4af2502b7545e9441b88bb70af7de2da712f6fd87"
+        },
+        {
+          "reference": "images_pbr/F119_ProjectMurat_BC.tex",
+          "source": "3d/Tanks/France/images_pbr/F119_ProjectMurat_BC.astc.pvr.dvpl",
+          "sha256": "fd24aaa3069810a3df93491cef9420e68e59dd5d2b5088011e381119c44c4ff7"
+        },
+        {
+          "reference": "images_pbr/F119_ProjectMurat_MASK.tex",
+          "source": "3d/Tanks/France/images_pbr/F119_ProjectMurat_MASK.astc.pvr.dvpl",
+          "sha256": "6ce147a2a23e8a6b05ff89c2d3e5e2440707bac8b8ba2e378e3402411e9d1e15"
+        },
+        {
+          "reference": "images_pbr/F119_ProjectMurat_MISC.tex",
+          "source": "3d/Tanks/France/images_pbr/F119_ProjectMurat_MISC.astc.pvr.dvpl",
+          "sha256": "7a4d0b6784fa10e7fc46280568d3af4b0e04f6cfb92a8e4ee7c6376f0dc3ca0c"
+        },
+        {
+          "reference": "images_pbr/F119_ProjectMurat_NM.tex",
+          "source": "3d/Tanks/France/images_pbr/F119_ProjectMurat_NM.astc.pvr.dvpl",
+          "sha256": "d019fa6be71be8c48ce2f5b66fa7ee55a487d834df7b82b6a067d98b48e2c301"
+        },
+        {
+          "reference": "images_pbr/F119_ProjectMurat_RM.tex",
+          "source": "3d/Tanks/France/images_pbr/F119_ProjectMurat_RM.astc.pvr.dvpl",
+          "sha256": "1d648b7631f42a235185b666733e8d836045550ec53a47dbf42ac73fcabc8153"
+        },
+        {
+          "reference": "images_pbr/F119_ProjectMurat_track_BC.tex",
+          "source": "3d/Tanks/France/images_pbr/F119_ProjectMurat_track_BC.astc.pvr.dvpl",
+          "sha256": "b429f8a5fa6cb0195bd2593a8165bcf02cc3f55703477bde833aef3953f2a5b1"
+        },
+        {
+          "reference": "images_pbr/F119_ProjectMurat_track_MASK.tex",
+          "source": "3d/Tanks/France/images_pbr/F119_ProjectMurat_track_MASK.astc.pvr.dvpl",
+          "sha256": "38cf4d1935b8e723185aa08b39d5184cc68a868cd0941da8dff8dd76ab523121"
+        },
+        {
+          "reference": "images_pbr/F119_ProjectMurat_track_MISC.tex",
+          "source": "3d/Tanks/France/images_pbr/F119_ProjectMurat_track_MISC.astc.pvr.dvpl",
+          "sha256": "0be80a6ff98299b584574a07387b3b6b29838e71acc25835bf269b2b51af9363"
+        },
+        {
+          "reference": "images_pbr/F119_ProjectMurat_track_NM.tex",
+          "source": "3d/Tanks/France/images_pbr/F119_ProjectMurat_track_NM.astc.pvr.dvpl",
+          "sha256": "1d430fc09d883cc34be2649f37c6280632733a2d11f21ddeaa26aa07a865126b"
+        },
+        {
+          "reference": "images_pbr/F119_ProjectMurat_track_RM.tex",
+          "source": "3d/Tanks/France/images_pbr/F119_ProjectMurat_track_RM.astc.pvr.dvpl",
+          "sha256": "35578fa25b62b18fc13fa08b305f33252f111ffaa9871c9885ec3cbbfd3d301d"
+        }
+      ]
+    },
+    {
+      "nation": "china",
+      "vehicle_id": "Ch57_BZT_70",
+      "name": "ch57_bzt_70",
+      "model_stem": "Ch57_BZT_70",
+      "scene": "3d/Tanks/China/Ch57_BZT_70.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/china-Ch57_BZT_70.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/china/Ch57_BZT_70.xml",
+      "xml_sha256": "7328cc30ec783ab06e96c12074e485c5f94f88f53ef24b5f73d9884821000bfd",
+      "textures": [
+        {
+          "reference": "../USSR/images/T-60_track_new.tex",
+          "source": "3d/Tanks/China/../USSR/images/T-60_track_new.astc.pvr.dvpl",
+          "sha256": "2528387215070a61169a9a1ddecab2ae413037ff2f623d5f2bdada55b91a4045"
+        },
+        {
+          "reference": "../USSR/images/T-60_track_new_NM.tex",
+          "source": "3d/Tanks/China/../USSR/images/T-60_track_new_NM.astc.pvr.dvpl",
+          "sha256": "9f533399899b6df0cfbeec23d0e5b69f3ffb2fcf80632592975c61904064dee6"
+        },
+        {
+          "reference": "../USSR/images_pbr/T-60_track_new_BC.tex",
+          "source": "3d/Tanks/China/../USSR/images_pbr/T-60_track_new_BC.astc.pvr.dvpl",
+          "sha256": "389a6bd95dc8251266e36d51217664dff54de23bc09ab1b959d8c32c3a46c270"
+        },
+        {
+          "reference": "../USSR/images_pbr/T-60_track_new_MASK.tex",
+          "source": "3d/Tanks/China/../USSR/images_pbr/T-60_track_new_MASK.astc.pvr.dvpl",
+          "sha256": "f7ca1320ac59bce58bad7be197a7eb9da0706d3d50bc62edddda0ce819b9454e"
+        },
+        {
+          "reference": "../USSR/images_pbr/T-60_track_new_MISC.tex",
+          "source": "3d/Tanks/China/../USSR/images_pbr/T-60_track_new_MISC.astc.pvr.dvpl",
+          "sha256": "13d7d5a7df8f70097a016f5c32a023d53234112b34b1ab64362ce9e40c80369d"
+        },
+        {
+          "reference": "../USSR/images_pbr/T-60_track_new_NM.tex",
+          "source": "3d/Tanks/China/../USSR/images_pbr/T-60_track_new_NM.astc.pvr.dvpl",
+          "sha256": "60343d2270040f9a8cab1fe8a3e4c3025dbf12117ca40364b6732a8ba5ea00cb"
+        },
+        {
+          "reference": "../USSR/images_pbr/T-60_track_new_RM.tex",
+          "source": "3d/Tanks/China/../USSR/images_pbr/T-60_track_new_RM.astc.pvr.dvpl",
+          "sha256": "e217a64741407d2a246ce15e23957473ba0e8a344d7b1b07fb787b5792095ee4"
+        },
+        {
+          "reference": "CamouflageMasks/Ch57_BZT_70_CM.tex",
+          "source": "3d/Tanks/China/CamouflageMasks/Ch57_BZT_70_CM.astc.pvr.dvpl",
+          "sha256": "a28425ae93cbe9605eae88b02e98f35a1926f0b2bcf3a5f96b3bee471ea8061b"
+        },
+        {
+          "reference": "images/Ch57_BZT_70.tex",
+          "source": "3d/Tanks/China/images/Ch57_BZT_70.astc.pvr.dvpl",
+          "sha256": "2f5c930b77f0f71ec9e4bde922abb0312f12a1af503e5a21e70b5894150e8b3d"
+        },
+        {
+          "reference": "images/Ch57_BZT_70_NM.tex",
+          "source": "3d/Tanks/China/images/Ch57_BZT_70_NM.astc.pvr.dvpl",
+          "sha256": "236de8cec55f4e6f4e452f035bcad85aa6b136099911f4e7be82c45f2a533a26"
+        },
+        {
+          "reference": "images_pbr/Ch57_BZT_70_BC.tex",
+          "source": "3d/Tanks/China/images_pbr/Ch57_BZT_70_BC.astc.pvr.dvpl",
+          "sha256": "35787009fb2106cdbcb4f56a927c6bb478723a6741348af183c9b1bd483ae899"
+        },
+        {
+          "reference": "images_pbr/Ch57_BZT_70_MASK.tex",
+          "source": "3d/Tanks/China/images_pbr/Ch57_BZT_70_MASK.astc.pvr.dvpl",
+          "sha256": "82a1d5af0dad94b4238a302a065a1e8cbbfcc4ab0144cc68b97d8b58d9640253"
+        },
+        {
+          "reference": "images_pbr/Ch57_BZT_70_MISC.tex",
+          "source": "3d/Tanks/China/images_pbr/Ch57_BZT_70_MISC.astc.pvr.dvpl",
+          "sha256": "356a2471cc217e6244a2744ea5a22e6f2b89c11abe6aa1893302455dd6c97834"
+        },
+        {
+          "reference": "images_pbr/Ch57_BZT_70_NM.tex",
+          "source": "3d/Tanks/China/images_pbr/Ch57_BZT_70_NM.astc.pvr.dvpl",
+          "sha256": "4f3630964bc208bf39585fa65f10989e99f1845a255076ad1fc94a5f23c29d54"
+        },
+        {
+          "reference": "images_pbr/Ch57_BZT_70_RM.tex",
+          "source": "3d/Tanks/China/images_pbr/Ch57_BZT_70_RM.astc.pvr.dvpl",
+          "sha256": "e0c3fe0aef7fd52ccb98ed9583eea53f3e13e199c036b82f6a87d766eed0dd1e"
+        }
+      ]
+    }
+  ]
+}

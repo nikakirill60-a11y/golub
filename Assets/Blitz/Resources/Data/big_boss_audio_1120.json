@@ -1,0 +1,547 @@
+{
+  "sourceVersion": "11.20.0",
+  "events": {
+    "play_hlwn_2021_abl_boss_annihilator": {
+      "id": "1170703245",
+      "loop": false,
+      "maxAttenuation": 250.0,
+      "media": [
+        66163973,
+        1015657199
+      ],
+      "cue": {
+        "type": "random",
+        "loop": 1,
+        "transition": "none",
+        "transitionSeconds": 1.0,
+        "avoidRepeats": 1,
+        "children": [
+          {
+            "media": 1015657199
+          },
+          {
+            "media": 66163973
+          }
+        ]
+      }
+    },
+    "play_hlwn_2021_abl_boss_repulsion": {
+      "id": "3812696909",
+      "loop": false,
+      "maxAttenuation": 150.0,
+      "media": [
+        445437139,
+        786929135
+      ],
+      "cue": {
+        "type": "random",
+        "loop": 1,
+        "transition": "none",
+        "transitionSeconds": 1.0,
+        "avoidRepeats": 1,
+        "children": [
+          {
+            "media": 445437139
+          },
+          {
+            "media": 786929135
+          }
+        ]
+      }
+    },
+    "play_hlwn_2021_abl_graviton": {
+      "id": "135813936",
+      "loop": false,
+      "maxAttenuation": 200.0,
+      "media": [
+        420466625,
+        674266512
+      ],
+      "cue": {
+        "type": "random",
+        "loop": 1,
+        "transition": "none",
+        "transitionSeconds": 1.0,
+        "avoidRepeats": 1,
+        "children": [
+          {
+            "media": 674266512
+          },
+          {
+            "media": 420466625
+          }
+        ]
+      }
+    },
+    "play_hlwn_2021_abl_graviton_passive": {
+      "id": "1313277810",
+      "loop": false,
+      "maxAttenuation": 50.0,
+      "media": [
+        489508604,
+        999596907
+      ],
+      "cue": {
+        "type": "random",
+        "loop": 1,
+        "transition": "none",
+        "transitionSeconds": 1.0,
+        "avoidRepeats": 1,
+        "children": [
+          {
+            "media": 489508604
+          },
+          {
+            "media": 999596907
+          }
+        ]
+      }
+    },
+    "play_hlwn_2021_abl_heal_aura_off": {
+      "id": "212439736",
+      "loop": false,
+      "maxAttenuation": 80.0,
+      "media": [
+        952957825
+      ],
+      "cue": {
+        "type": "random",
+        "loop": 1,
+        "transition": "none",
+        "transitionSeconds": 1.0,
+        "avoidRepeats": 1,
+        "children": [
+          {
+            "media": 952957825
+          }
+        ]
+      },
+      "stops": [
+        "play_hlwn_2021_abl_heal_aura_on"
+      ]
+    },
+    "play_hlwn_2021_abl_heal_aura_on": {
+      "id": "720823394",
+      "loop": true,
+      "maxAttenuation": 150.0,
+      "media": [
+        570352417,
+        726781756
+      ],
+      "cue": {
+        "type": "sequence",
+        "loop": 1,
+        "transition": "crossfade",
+        "transitionSeconds": 0.5,
+        "avoidRepeats": 0,
+        "children": [
+          {
+            "type": "random",
+            "loop": 1,
+            "transition": "none",
+            "transitionSeconds": 1.0,
+            "avoidRepeats": 1,
+            "children": [
+              {
+                "media": 726781756
+              }
+            ]
+          },
+          {
+            "type": "random",
+            "loop": 0,
+            "transition": "triggerRate",
+            "transitionSeconds": 2.2,
+            "avoidRepeats": 1,
+            "children": [
+              {
+                "media": 570352417
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "play_hlwn_2021_abl_kamikaze": {
+      "id": "3575147423",
+      "loop": false,
+      "maxAttenuation": 250.0,
+      "media": [
+        745509252,
+        700864561,
+        1066676211
+      ],
+      "cue": {
+        "type": "layer",
+        "children": [
+          {
+            "type": "random",
+            "loop": 1,
+            "transition": "none",
+            "transitionSeconds": 1.0,
+            "avoidRepeats": 1,
+            "children": [
+              {
+                "media": 700864561
+              },
+              {
+                "media": 1066676211
+              }
+            ]
+          },
+          {
+            "type": "random",
+            "loop": 1,
+            "transition": "none",
+            "transitionSeconds": 1.0,
+            "avoidRepeats": 1,
+            "children": [
+              {
+                "media": 745509252
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "play_hlwn_2021_abl_killer_activation": {
+      "id": "3761851746",
+      "loop": false,
+      "maxAttenuation": 130.0,
+      "media": [
+        549832506
+      ],
+      "cue": {
+        "type": "random",
+        "loop": 1,
+        "transition": "none",
+        "transitionSeconds": 1.0,
+        "avoidRepeats": 1,
+        "children": [
+          {
+            "media": 549832506
+          }
+        ]
+      }
+    },
+    "play_hlwn_2021_abl_killer_damage_off": {
+      "id": "755003083",
+      "loop": false,
+      "maxAttenuation": 50.0,
+      "media": [
+        369161715
+      ],
+      "cue": {
+        "type": "random",
+        "loop": 1,
+        "transition": "none",
+        "transitionSeconds": 1.0,
+        "avoidRepeats": 0,
+        "children": [
+          {
+            "media": 369161715
+          }
+        ]
+      }
+    },
+    "play_hlwn_2021_abl_killer_damage_on": {
+      "id": "2668951223",
+      "loop": false,
+      "maxAttenuation": 150.0,
+      "media": [
+        228425777,
+        274956587,
+        380001047
+      ],
+      "cue": {
+        "type": "layer",
+        "children": [
+          {
+            "type": "random",
+            "loop": 1,
+            "transition": "none",
+            "transitionSeconds": 1.0,
+            "avoidRepeats": 0,
+            "children": [
+              {
+                "media": 380001047
+              }
+            ]
+          },
+          {
+            "type": "random",
+            "loop": 1,
+            "transition": "none",
+            "transitionSeconds": 1.0,
+            "avoidRepeats": 1,
+            "children": [
+              {
+                "media": 228425777
+              },
+              {
+                "media": 274956587
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "play_hlwn_2021_abl_minion_level_up": {
+      "id": "84265653",
+      "loop": false,
+      "maxAttenuation": 250.0,
+      "media": [
+        346636207
+      ],
+      "cue": {
+        "type": "random",
+        "loop": 1,
+        "transition": "none",
+        "transitionSeconds": 1.0,
+        "avoidRepeats": 1,
+        "children": [
+          {
+            "media": 346636207
+          }
+        ]
+      }
+    },
+    "play_hlwn_2021_abl_shield_off": {
+      "id": "1441309443",
+      "loop": false,
+      "maxAttenuation": 120.0,
+      "media": [
+        84064902,
+        393642691
+      ],
+      "cue": {
+        "type": "random",
+        "loop": 1,
+        "transition": "none",
+        "transitionSeconds": 1.0,
+        "avoidRepeats": 1,
+        "children": [
+          {
+            "media": 393642691
+          },
+          {
+            "media": 84064902
+          }
+        ]
+      }
+    },
+    "play_hlwn_2021_abl_shield_on": {
+      "id": "1238221359",
+      "loop": true,
+      "maxAttenuation": 150.0,
+      "media": [
+        322190344,
+        927568578,
+        928409561
+      ],
+      "cue": {
+        "type": "sequence",
+        "loop": 1,
+        "transition": "crossfade",
+        "transitionSeconds": 5.0,
+        "avoidRepeats": 1,
+        "children": [
+          {
+            "type": "random",
+            "loop": 1,
+            "transition": "none",
+            "transitionSeconds": 1.0,
+            "avoidRepeats": 3,
+            "children": [
+              {
+                "media": 927568578
+              },
+              {
+                "media": 928409561
+              }
+            ]
+          },
+          {
+            "type": "random",
+            "loop": 0,
+            "transition": "none",
+            "transitionSeconds": 1.0,
+            "avoidRepeats": 0,
+            "children": [
+              {
+                "media": 322190344
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "clips": {
+    "66163973": {
+      "resource": "BigBoss/Audio/66163973",
+      "sourceName": "Ability\\Halloween_2021\\Boss\\Boss_laser_4-1.wav",
+      "mediaSha256": "899f48cd12c85d16cc6c17eda672b6c7fd2d8f568597ef21399e7db6d9c8bef3",
+      "outputSha256": "a3f7642ef7077056f5b0d564732d225ad59dc6f4d50524d59ebf2a9b55ebd580"
+    },
+    "1015657199": {
+      "resource": "BigBoss/Audio/1015657199",
+      "sourceName": "Ability\\Halloween_2021\\Boss\\Boss_laser_3-1.wav",
+      "mediaSha256": "367c7315ccd900dcb99eaa25e30837124fe355a507571bd52507876862e49e0a",
+      "outputSha256": "f75c76a4608679e1a754e7df67efb27a620e0c1a6a1e8e6fdca4aad65c988abf"
+    },
+    "445437139": {
+      "resource": "BigBoss/Audio/445437139",
+      "sourceName": "Ability\\Halloween_2021\\Boss\\Boss_repulsion_3.wav",
+      "mediaSha256": "cb35c989453c70636d9782727b7b2d1fe39e1e5bc8aaa7d60252d31566bf7c93",
+      "outputSha256": "b56c21442e8e438986413300579b68fafc402d7106d949d4317f35622f5b1d47"
+    },
+    "786929135": {
+      "resource": "BigBoss/Audio/786929135",
+      "sourceName": "Ability\\Halloween_2021\\Boss\\Boss_repulsion_4.wav",
+      "mediaSha256": "bbad402d34c45f7ed0f19153a1d81f65b526aba33b812001125f816919665005",
+      "outputSha256": "ffc3d510498a93860f4dc19976d0fafae27ffb9f66850cd423a873a70ad760e1"
+    },
+    "420466625": {
+      "resource": "BigBoss/Audio/420466625",
+      "sourceName": "Ability\\Halloween_2021\\Graviton\\Boss_mode_2021_graviton_02.wav",
+      "mediaSha256": "252b632900f994b01011f99127b4abfcec5a2fba21999dbea5e27f7c2690796e",
+      "outputSha256": "37f58f288fcff5e285c3dff8a5b267cb2c8a590440754df33dbafb3b801d8e90"
+    },
+    "674266512": {
+      "resource": "BigBoss/Audio/674266512",
+      "sourceName": "Ability\\Halloween_2021\\Graviton\\Boss_mode_2021_graviton_01.wav",
+      "mediaSha256": "263a09a1b4624988e5f0dc81e415e51dbe93a2321856aaebe0fa0f4899df5f2e",
+      "outputSha256": "543876e7ee0a8475844fba5303f28e2cfbfcacc6d54f0328f446dda0dff02c7d"
+    },
+    "489508604": {
+      "resource": "BigBoss/Audio/489508604",
+      "sourceName": "Ability\\Halloween_2021\\Graviton\\Boss_mode_2021_graviton_passive_01.wav",
+      "mediaSha256": "647543b8c98b45ca838d3212125f67e979c62f3dcb39459678ee097e633f9849",
+      "outputSha256": "853db508fa117da430225e60ea40c83e47bfaa1f11846e8ed72b03c8c92038fc"
+    },
+    "999596907": {
+      "resource": "BigBoss/Audio/999596907",
+      "sourceName": "Ability\\Halloween_2021\\Graviton\\Boss_mode_2021_graviton_passive_02.wav",
+      "mediaSha256": "982b69d816bfc76adc5aceb0defbe97a5a2cd94f4b5af0cb4e6a1e02ca07f0c3",
+      "outputSha256": "681335dde51b42aac713ee11fc09cd38426df8bcad59a7cd0ac741f7df2e510a"
+    },
+    "952957825": {
+      "resource": "BigBoss/Audio/952957825",
+      "sourceName": "Ability\\Halloween_2021\\Healer\\Boss_mode_2021_heal_aura_off.wav",
+      "mediaSha256": "1f13781d33b3aeb5ad54837323db3a0b8001f44fc78a164cfa0b38fb84f99cce",
+      "outputSha256": "c4712ab7b95944c7b67ecf9b154051724d70c437e0e4c9bd89877769894a6083"
+    },
+    "570352417": {
+      "resource": "BigBoss/Audio/570352417",
+      "sourceName": "Ability\\Halloween_2021\\Healer\\Boss_mode_2021_heal_aura_wave.wav",
+      "mediaSha256": "0cb44f05f02e0a8474a26125c1398ca2eae090c2335c0f15a3462ab610c2e004",
+      "outputSha256": "e5bbb470a1b6f20f5c1d741fdd3fd6bf58175db37c66ca6acd53852855919740"
+    },
+    "726781756": {
+      "resource": "BigBoss/Audio/726781756",
+      "sourceName": "Ability\\Halloween_2021\\Healer\\Boss_mode_2021_heal_aura_on.wav",
+      "mediaSha256": "7348273a9975ba028ead25d4b3e659b2a4611519598daf96b1a46d181cd4418f",
+      "outputSha256": "79a66704991639ba3e4fd385bb458df7be93d602ecbb39e388bcccb426f704a9"
+    },
+    "745509252": {
+      "resource": "BigBoss/Audio/745509252",
+      "sourceName": "Ability\\Halloween_2021\\Kamikaze\\kamikaze.wav",
+      "mediaSha256": "668d54eb1456cbbc62f0a62050e297b2b344f1bf1a7bef648b67630f640effa6",
+      "outputSha256": "e89aee69df8b623e65940cfe7f569ca4e3073e1e8547a40952678ad422151eed"
+    },
+    "700864561": {
+      "resource": "BigBoss/Audio/700864561",
+      "sourceName": "Ability\\Halloween_2021\\Kamikaze\\kamikaze_dirt_1.wav",
+      "mediaSha256": "2c9f84b2bb1daffb4702faf287bd12f5a8ab71459127961a72a61b56ff606261",
+      "outputSha256": "217a03e1a3775fec2d3fdce72e4d69481c5329113fb42d592acc959c9a23d22a"
+    },
+    "1066676211": {
+      "resource": "BigBoss/Audio/1066676211",
+      "sourceName": "Ability\\Halloween_2021\\Kamikaze\\kamikaze_dirt_2.wav",
+      "mediaSha256": "82972bab2adc9a4729e1ef30935392bfdf1e7c36b71dfbb6f7ff8743b3d77577",
+      "outputSha256": "ab43034feee532f8e506b330bb08ad2d0457b6d689a81c8dc8cf97fa2be9736d"
+    },
+    "549832506": {
+      "resource": "BigBoss/Audio/549832506",
+      "sourceName": "Ability\\Halloween_2021\\Killer\\Boss_mode_2021_killer_activation.wav",
+      "mediaSha256": "928aa32d235bbda73aac3a74afc6b83c747caf5890692a070bd33f62cb1d4590",
+      "outputSha256": "7ace9501b070ce7f537c289c9be2daaa1d59913a71f8dc4dea5146a249155062"
+    },
+    "369161715": {
+      "resource": "BigBoss/Audio/369161715",
+      "sourceName": "Ability\\Halloween_2021\\Killer\\Boss_mode_2021_killer_off.wav",
+      "mediaSha256": "627e24d0a9a3f598a545200c73bb9f0926fabc284f256c0ed97a2d05d3fe8f0c",
+      "outputSha256": "14e3eac4cf645e50dda788081d54d2903e5863860b271e2c884213541a7dcde6"
+    },
+    "228425777": {
+      "resource": "BigBoss/Audio/228425777",
+      "sourceName": "Ability\\Halloween_2021\\Killer\\Boss_mode_2021_killer_hit_01.wav",
+      "mediaSha256": "e0e1519cf6d3d5b84979e6c483f230fe8f405a919979194c842e2a6584e74776",
+      "outputSha256": "8c865183287dab1c9b6e3063896bb54978cc21c42206040433dab738f4354053"
+    },
+    "274956587": {
+      "resource": "BigBoss/Audio/274956587",
+      "sourceName": "Ability\\Halloween_2021\\Killer\\Boss_mode_2021_killer_hit_02.wav",
+      "mediaSha256": "92ca051d369610a8a3f9c1edf3a7ddfdb6e1f3a2c4214948091e06502969a348",
+      "outputSha256": "639c1ffc9f17d79bda2f0153c2e8fda16dad9e1e0a795ca09c8dcceb007ddfb7"
+    },
+    "380001047": {
+      "resource": "BigBoss/Audio/380001047",
+      "sourceName": "Ability\\Halloween_2021\\Killer\\Boss_mode_2021_killer_damage_02.wav",
+      "mediaSha256": "7222e1089b137d606e095aa2b4f51685c67a56d40b28e87e2b3de524185e516c",
+      "outputSha256": "e714aa66edd1a38e541126276450f281d93cedb084bd6e24013e386ab68068f8"
+    },
+    "346636207": {
+      "resource": "BigBoss/Audio/346636207",
+      "sourceName": "Ability\\Halloween_2021\\UI\\minyons_UP_1.wav",
+      "mediaSha256": "73e5696c48ff45e93d972c8c120b3c5f518531ea044857b2f0470b399c17c6e4",
+      "outputSha256": "22636df5e28f8227d2c894eeef65305c8c5df4a49c80e8b3b58d8d18f3bacf2b"
+    },
+    "84064902": {
+      "resource": "BigBoss/Audio/84064902",
+      "sourceName": "Ability\\Halloween_2021\\Healer\\Boss_mode_2021_heal_shield_off_02.wav",
+      "mediaSha256": "41974cdefca1f9b75bca26432d96927c9039e5de22463d819c843d40e953aca6",
+      "outputSha256": "d4d3e0a83fdffd47febee31f81292275055dc44694955534b6362c0dc1f57dc6"
+    },
+    "393642691": {
+      "resource": "BigBoss/Audio/393642691",
+      "sourceName": "Ability\\Halloween_2021\\Healer\\Boss_mode_2021_heal_shield_off_01.wav",
+      "mediaSha256": "2b8044618ac24081120b0b2554483cc0273d5cea66a73ba3a27243db82e8ea47",
+      "outputSha256": "c431e657436a0d348f7d0ecc048d6f3a09f523eb87b18f5a94fc2b37283d5d11"
+    },
+    "322190344": {
+      "resource": "BigBoss/Audio/322190344",
+      "sourceName": "Ability\\Halloween_2021\\Healer\\Boss_mode_2021_heal_shield_loop_02.wav",
+      "mediaSha256": "c8123e867443887063af6dba0e801ace8823f57b6d31ee0d88411f2692873855",
+      "outputSha256": "61dd38235e8ab213cd43c29f062326ddb983fbabeb7f75aa963d6c03a3c14caf"
+    },
+    "927568578": {
+      "resource": "BigBoss/Audio/927568578",
+      "sourceName": "Ability\\Halloween_2021\\Healer\\Boss_mode_2021_heal_shield_on_01.wav",
+      "mediaSha256": "9139dd1fb40116ee822f910da08769a8a754dbbb5cb6cd5206baed36cae6c9d8",
+      "outputSha256": "c89e94e6f7c2c829d27d7a23f94a63821575c368784483db4fea6994fcccca04"
+    },
+    "928409561": {
+      "resource": "BigBoss/Audio/928409561",
+      "sourceName": "Ability\\Halloween_2021\\Healer\\Boss_mode_2021_heal_shield_on_02.wav",
+      "mediaSha256": "033543ccd5e4441eaf77ac636f511bb0e6ea946952de800bf37231e8a88b783d",
+      "outputSha256": "03ae8fc85e9699638be7552209f1281c48598e388f35ffdbc31c8e16c79d272b"
+    }
+  },
+  "sources": [
+    {
+      "source": "from_apk/WwiseSound/SoundbanksInfo.json",
+      "sha256": "58b4f09b06b8ee9bba03061257611fae7a180cd76ae02d875f9aad931f9fda3f"
+    },
+    {
+      "source": "WwiseSound/ability_halloween_2021.bnk.dvpl",
+      "sha256": "c1308cd267b9907b87c2e27d58f1d49b5979bdf7581a6f996761e975a2e1d7b5"
+    },
+    {
+      "source": "WwiseSound/ability_halloween_2021.pck.dvpl",
+      "sha256": "f6ea1082c045b8d0686ae5a3fadca8852c56b6c33fbcf8257459d815c75ff8c5"
+    }
+  ],
+  "limitation": "Original event media, HIRC random/sequence/layer containers, transitions and stop actions; RTPC curves and the native Wwise mixer are not reproduced."
+}

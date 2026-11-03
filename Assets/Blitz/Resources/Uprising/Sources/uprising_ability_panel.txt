@@ -1,0 +1,320 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://assets/gfx/ui/battle/uprising_ability_panel.gd" id="1_uprpanel"]
+[ext_resource type="FontFile" uid="uid://cmjdn45glqsxc" path="res://assets/fonts/arialmb.ttf" id="2_uprpfont"]
+[ext_resource type="Texture2D" path="res://assets/gfx/ui/inventory/uprising/elixir.png" id="3_uprpelixir"]
+
+[node name="uprising_ability_panel" type="Control" node_paths=PackedStringArray("header", "card1", "card2", "card3")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_uprpanel")
+header = NodePath("header")
+card1 = NodePath("row/card1")
+card2 = NodePath("row/card2")
+card3 = NodePath("row/card3")
+
+[node name="header" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -292.0
+offset_top = -84.0
+offset_right = 292.0
+offset_bottom = -56.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_uprpfont")
+theme_override_font_sizes/font_size = 19
+text = "uprising:abilities/pick"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="row" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -292.0
+offset_top = -48.0
+offset_right = 292.0
+offset_bottom = 206.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+theme_override_constants/separation = 16
+
+[node name="card1" type="Button" parent="row"]
+custom_minimum_size = Vector2(184, 254)
+layout_mode = 2
+
+[node name="rarity" type="Label" parent="row/card1"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 8.0
+offset_top = 6.0
+offset_right = 176.0
+offset_bottom = 26.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.75, 0.75, 0.75, 1)
+theme_override_fonts/font = ExtResource("2_uprpfont")
+theme_override_font_sizes/font_size = 13
+text = ""
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="icon" type="TextureRect" parent="row/card1"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 53.0
+offset_top = 28.0
+offset_right = 131.0
+offset_bottom = 106.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="title" type="Label" parent="row/card1"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 8.0
+offset_top = 108.0
+offset_right = 176.0
+offset_bottom = 154.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_uprpfont")
+theme_override_font_sizes/font_size = 17
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = false
+
+[node name="desc" type="Label" parent="row/card1"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 8.0
+offset_top = 158.0
+offset_right = 176.0
+offset_bottom = 222.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.78, 0.78, 0.78, 1)
+theme_override_fonts/font = ExtResource("2_uprpfont")
+theme_override_font_sizes/font_size = 12
+horizontal_alignment = 1
+autowrap_mode = 3
+clip_text = false
+
+[node name="cost" type="Label" parent="row/card1"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 8.0
+offset_top = 228.0
+offset_right = 148.0
+offset_bottom = 250.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_uprpfont")
+theme_override_font_sizes/font_size = 19
+text = "0"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="cost_icon" type="TextureRect" parent="row/card1"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 152.0
+offset_top = 228.0
+offset_right = 174.0
+offset_bottom = 250.0
+mouse_filter = 2
+texture = ExtResource("3_uprpelixir")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="card2" type="Button" parent="row"]
+custom_minimum_size = Vector2(184, 254)
+layout_mode = 2
+
+[node name="rarity" type="Label" parent="row/card2"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 8.0
+offset_top = 6.0
+offset_right = 176.0
+offset_bottom = 26.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.75, 0.75, 0.75, 1)
+theme_override_fonts/font = ExtResource("2_uprpfont")
+theme_override_font_sizes/font_size = 13
+text = ""
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="icon" type="TextureRect" parent="row/card2"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 53.0
+offset_top = 28.0
+offset_right = 131.0
+offset_bottom = 106.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="title" type="Label" parent="row/card2"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 8.0
+offset_top = 108.0
+offset_right = 176.0
+offset_bottom = 154.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_uprpfont")
+theme_override_font_sizes/font_size = 17
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = false
+
+[node name="desc" type="Label" parent="row/card2"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 8.0
+offset_top = 158.0
+offset_right = 176.0
+offset_bottom = 222.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.78, 0.78, 0.78, 1)
+theme_override_fonts/font = ExtResource("2_uprpfont")
+theme_override_font_sizes/font_size = 12
+horizontal_alignment = 1
+autowrap_mode = 3
+clip_text = false
+
+[node name="cost" type="Label" parent="row/card2"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 8.0
+offset_top = 228.0
+offset_right = 148.0
+offset_bottom = 250.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_uprpfont")
+theme_override_font_sizes/font_size = 19
+text = "0"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="cost_icon" type="TextureRect" parent="row/card2"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 152.0
+offset_top = 228.0
+offset_right = 174.0
+offset_bottom = 250.0
+mouse_filter = 2
+texture = ExtResource("3_uprpelixir")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="card3" type="Button" parent="row"]
+custom_minimum_size = Vector2(184, 254)
+layout_mode = 2
+
+[node name="rarity" type="Label" parent="row/card3"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 8.0
+offset_top = 6.0
+offset_right = 176.0
+offset_bottom = 26.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.75, 0.75, 0.75, 1)
+theme_override_fonts/font = ExtResource("2_uprpfont")
+theme_override_font_sizes/font_size = 13
+text = ""
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="icon" type="TextureRect" parent="row/card3"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 53.0
+offset_top = 28.0
+offset_right = 131.0
+offset_bottom = 106.0
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="title" type="Label" parent="row/card3"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 8.0
+offset_top = 108.0
+offset_right = 176.0
+offset_bottom = 154.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_uprpfont")
+theme_override_font_sizes/font_size = 17
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+clip_text = false
+
+[node name="desc" type="Label" parent="row/card3"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 8.0
+offset_top = 158.0
+offset_right = 176.0
+offset_bottom = 222.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.78, 0.78, 0.78, 1)
+theme_override_fonts/font = ExtResource("2_uprpfont")
+theme_override_font_sizes/font_size = 12
+horizontal_alignment = 1
+autowrap_mode = 3
+clip_text = false
+
+[node name="cost" type="Label" parent="row/card3"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 8.0
+offset_top = 228.0
+offset_right = 148.0
+offset_bottom = 250.0
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_uprpfont")
+theme_override_font_sizes/font_size = 19
+text = "0"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="cost_icon" type="TextureRect" parent="row/card3"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 152.0
+offset_top = 228.0
+offset_right = 174.0
+offset_bottom = 250.0
+mouse_filter = 2
+texture = ExtResource("3_uprpelixir")
+expand_mode = 1
+stretch_mode = 5

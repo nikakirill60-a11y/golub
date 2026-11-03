@@ -1,0 +1,18 @@
+{
+  "version": "11.20",
+  "policy": "Authored Parameters bigIconPath; exact alpha crop; no resampling",
+  "icons": [
+    {
+      "name": "gb86_mark_i_male",
+      "source": "Gfx/UI/BigTankIcons/british-GB86_Mark_I_Male@2x.packed.webp.dvpl",
+      "sha256": "3cb38694b8e97ab5348ed5152b0ee0609cc5400236aacdbe4a3620e291abb6b0",
+      "crop": [
+        0,
+        0,
+        267,
+        201
+      ],
+      "output_sha256": "9dd62d0b0aca56e97103060bca5c2e2efa5c4962b744c0152bd5814248e271a7"
+    }
+  ]
+}

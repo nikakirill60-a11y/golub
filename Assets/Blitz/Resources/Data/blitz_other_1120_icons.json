@@ -1,0 +1,881 @@
+{
+  "version": "11.20",
+  "policy": "authored Parameters icon paths; exact alpha crop; no resampling",
+  "icons": [
+    {
+      "name": "oth11_t-55a",
+      "source": "Gfx/UI/BigTankIcons/other-Oth11_T-55A@2x.packed.webp.dvpl",
+      "sha256": "ed0a58c6979e85b6b0b1696021f62bbad48d2420257faf61acf1e320ca1be7d8",
+      "crop": [
+        0,
+        0,
+        279,
+        201
+      ],
+      "output_sha256": "5e1b3b8c9d438df28263ac20f02661d1b8539c11eced48ef42215fc255a9a24d"
+    },
+    {
+      "name": "oth10_warduck",
+      "source": "Gfx/UI/BigTankIcons/WarDuck@2x.packed.webp.dvpl",
+      "sha256": "6e89d8947bee241f08557ad68badb01b9a8689375ff81f1ba408369a34308f66",
+      "crop": [
+        0,
+        0,
+        162,
+        195
+      ],
+      "output_sha256": "ba65ee850a713d396e46fa1359d45486d98a5ec3e47de006cc10f77c8e5c42c8"
+    },
+    {
+      "name": "oth12_sega_hafen",
+      "source": "Gfx/UI/BigTankIcons/other-Oth12_Sega_Hafen@2x.packed.webp.dvpl",
+      "sha256": "eaa790754894cebaae1ab1451b35ea8ef3cdfb96bcf8564af27d53c8382bcf15",
+      "crop": [
+        0,
+        0,
+        285,
+        192
+      ],
+      "output_sha256": "0b6504f9b6f9c01461f43ed172569b1ceb32fff9d86783fe4a0a7fa25c57d5d0"
+    },
+    {
+      "name": "oth14_mdm_ashknight",
+      "source": "Gfx/UI/BigTankIcons/other-Oth14_MdM_AshKnight@2x.packed.webp.dvpl",
+      "sha256": "6eb10ef05907fa306f2cc7b24eec6035b491d608bb93601c1903d12b0f4c15af",
+      "crop": [
+        0,
+        0,
+        298,
+        201
+      ],
+      "output_sha256": "b3c33fe8c8e08d02ade0106b139518d6b16b82a66b9c4312616aa5656fa9656b"
+    },
+    {
+      "name": "oth15_rustcrab",
+      "source": "Gfx/UI/BigTankIcons/other-RustCrab@2x.packed.webp.dvpl",
+      "sha256": "9fde35a14d28d1f84c2695ef213918a9e35a628fab3110a5323e0460a2683066",
+      "crop": [
+        0,
+        0,
+        298,
+        199
+      ],
+      "output_sha256": "8ab7e1c1175a8ace2d3f2b9feaa4159926a2f1f5b9e41705441ddf0add7dc9dd"
+    },
+    {
+      "name": "oth16_kv_tg",
+      "source": "Gfx/UI/BigTankIcons/other-KV_TG@2x.packed.webp.dvpl",
+      "sha256": "1e167b33bf50b7ef89cc846a85269b1aaba7350d6705f75cce7c0d26b071fc0b",
+      "crop": [
+        0,
+        0,
+        251,
+        201
+      ],
+      "output_sha256": "bb512be01d5908ae095aa590f378626301c384a2b4807aca415d6533890abe8e"
+    },
+    {
+      "name": "oth17_bdt-5a",
+      "source": "Gfx/UI/BigTankIcons/other-Oth17_BDT-5A@2x.packed.webp.dvpl",
+      "sha256": "d964b4bb54240de3d71bc60f0be9b529353f0b4b32d9bc0f95f0938adb94170c",
+      "crop": [
+        0,
+        0,
+        285,
+        201
+      ],
+      "output_sha256": "8c133d6e971635545101cd17eca6490565e6ab92336ee5c62de407105da15ead"
+    },
+    {
+      "name": "oth18_bdt-5b",
+      "source": "Gfx/UI/BigTankIcons/other-Oth18_BDT-5B@2x.packed.webp.dvpl",
+      "sha256": "df4e68aea323fae391eddbbd2a875b694006aa441e9e46ed8679003769600253",
+      "crop": [
+        0,
+        0,
+        287,
+        201
+      ],
+      "output_sha256": "38f8ffde3657c5178eb27b10870389eea777ed406e2abbae2512cdf00bcaeae1"
+    },
+    {
+      "name": "oth19_bdt-5c",
+      "source": "Gfx/UI/BigTankIcons/other-Oth19_BDT-5C@2x.packed.webp.dvpl",
+      "sha256": "485c275bc9eeedfee39f91322e75634ca737762e550dfcf05403a8be7ac4c47e",
+      "crop": [
+        0,
+        0,
+        289,
+        201
+      ],
+      "output_sha256": "1e053410d912e8112da0cf362325fb082234c54f5aa781955108c1510f50792e"
+    },
+    {
+      "name": "oth20_m4fl10",
+      "source": "Gfx/UI/BigTankIcons/other-Oth20_M4FL10@2x.packed.webp.dvpl",
+      "sha256": "92ef18f926c38994e7daad8a166b49f8df89ce0d0fe68cfb37b378494648c48b",
+      "crop": [
+        0,
+        0,
+        256,
+        199
+      ],
+      "output_sha256": "20fbecbf48e03989ff59a3c2745b39ae720df46399501a7694164d41aa2e5c18"
+    },
+    {
+      "name": "oth22_sega_vulcan",
+      "source": "Gfx/UI/BigTankIcons/other-Oth22_Sega_Vulcan@2x.packed.webp.dvpl",
+      "sha256": "5607328edad9d3fc76d8f3d21e37b9398057c0510e40fa22de7dbd6b63555285",
+      "crop": [
+        0,
+        0,
+        251,
+        201
+      ],
+      "output_sha256": "91d916f54743a4db2a376937d146031aff6c92cd68516d805723d2d7d425b049"
+    },
+    {
+      "name": "oth23_werewolf",
+      "source": "Gfx/UI/BigTankIcons/other-Oth23_Werewolf@2x.packed.webp.dvpl",
+      "sha256": "02d9eeb29cf8e7f967ad95dd26b00547f08cf1a29465edfd19bfd06bae3e4f00",
+      "crop": [
+        0,
+        0,
+        300,
+        201
+      ],
+      "output_sha256": "d6f9c9592125098ce5de22c2132c9897cea77c8f72ef02120f898f3bff503725"
+    },
+    {
+      "name": "oth24_stuh_42hw",
+      "source": "Gfx/UI/BigTankIcons/other-Oth24_StuH_42HW@2x.packed.webp.dvpl",
+      "sha256": "c03210041ac635c7e4f1bf75f7295b8dac23dee29575aa4f0aa9d086e7b2e82d",
+      "crop": [
+        0,
+        0,
+        238,
+        200
+      ],
+      "output_sha256": "aba8b1d1afd93d77d05848ff076d903d575727e6d3f24eee05f0253340d5f09f"
+    },
+    {
+      "name": "oth25_hwt20_falconfire",
+      "source": "Gfx/UI/BigTankIcons/other-Oth25_HWT20_FalconFire@2x.packed.webp.dvpl",
+      "sha256": "d5f3024db00c83330006736e23f7a123b0bf75ee3f111efd5e1f3cb226540940",
+      "crop": [
+        0,
+        0,
+        275,
+        201
+      ],
+      "output_sha256": "dc6a7b71b9a2272a3eed57728fc79530e3962c12231d89a71f0a92a79c8a4f5c"
+    },
+    {
+      "name": "oth26_strvm42hw",
+      "source": "Gfx/UI/BigTankIcons/other-Oth26_StrvM42HW@2x.packed.webp.dvpl",
+      "sha256": "4893c7d791e67777a93d7d1a118726eea53794dc1dedee1b1c6a1145564be4e3",
+      "crop": [
+        0,
+        0,
+        215,
+        191
+      ],
+      "output_sha256": "0d86658611fd8d7448b8db592350679d2169d497cecd56ab2d7e78e4ce7d2047"
+    },
+    {
+      "name": "oth28_sturmfeur_hw",
+      "source": "Gfx/UI/BigTankIcons/other-Oth28_Sturmfeur_HW@2x.packed.webp.dvpl",
+      "sha256": "c21fbb8ff3fab4c69a993f0909cb88d4e43d2acb2ab9a5cfe4337f5ee592e2e5",
+      "crop": [
+        0,
+        0,
+        313,
+        201
+      ],
+      "output_sha256": "6693ad042cd4e9f2615fa475235afa987963d9db5e47f5ed300e36398dd6f74f"
+    },
+    {
+      "name": "oth27_m24_amx",
+      "source": "Gfx/UI/BigTankIcons/other-Oth27_M24_AMX@2x.packed.webp.dvpl",
+      "sha256": "c19a50e42b333fc599907935e00e0348db14c486fa0b2e5cf932289ec0268e1b",
+      "crop": [
+        0,
+        0,
+        231,
+        194
+      ],
+      "output_sha256": "63d275c3bf482de17b281bdf76760675673353a9b2ec526dbee2bebe2ff5567c"
+    },
+    {
+      "name": "oth29_a15hw",
+      "source": "Gfx/UI/BigTankIcons/other-Oth29_A15HW@2x.packed.webp.dvpl",
+      "sha256": "c0d17a48ee0609f47824152cfa06caa632de7cf72e7352848b939f59a456ceb0",
+      "crop": [
+        0,
+        0,
+        243,
+        199
+      ],
+      "output_sha256": "43b9725b937cbd86942e3d84366eae97c606b29ccffb5ded0ec6cd67be5ed39b"
+    },
+    {
+      "name": "oth30_t54ms",
+      "source": "Gfx/UI/BigTankIcons/other-Oth30_T54MS@2x.packed.webp.dvpl",
+      "sha256": "acb277c629bc6bd24091cdc8b67e5f1835549cc746622d998c5ee517f9d7b43e",
+      "crop": [
+        0,
+        0,
+        266,
+        201
+      ],
+      "output_sha256": "9e668070d657193a5dc4a0d4b2183cce687aebb545629fb9ebf1211d8e28ed56"
+    },
+    {
+      "name": "oth31_t150bp",
+      "source": "Gfx/UI/BigTankIcons/other-Oth31_T150BP@2x.packed.webp.dvpl",
+      "sha256": "601d23e79e5fc8792bd1ff9b3434bad951e5848220b52495d43ec3302ce5abe0",
+      "crop": [
+        0,
+        0,
+        291,
+        201
+      ],
+      "output_sha256": "9442a4e603634963c12cf8a4cf8fc793429938589adf8bd6ee9ceb8be73e639d"
+    },
+    {
+      "name": "oth33_blizzard_bp",
+      "source": "Gfx/UI/BigTankIcons/other-Oth33_Blizzard_BP@2x.packed.webp.dvpl",
+      "sha256": "7eab9af0a96300fd5123d9c5014e508b5778652183dc13c0fda3df3590e1ef0c",
+      "crop": [
+        0,
+        0,
+        258,
+        195
+      ],
+      "output_sha256": "58fed6d3604b5813d9a3f849b5294614e42414e8903fd64b5ae37b00a9553110"
+    },
+    {
+      "name": "oth35_panzermejai",
+      "source": "Gfx/UI/BigTankIcons/other-Oth35_PanzerMejai@2x.packed.webp.dvpl",
+      "sha256": "83f7103cd94e4f85eed9e97e6b80a5a1bae1abcc96169913a23689af160f0337",
+      "crop": [
+        0,
+        0,
+        258,
+        196
+      ],
+      "output_sha256": "9cf19971c364baeee9459ca26367ecb84d993d618fb1f21e10b53db77e250e73"
+    },
+    {
+      "name": "oth34_panzermummy",
+      "source": "Gfx/UI/BigTankIcons/other-Oth34_PanzerMummy@2x.packed.webp.dvpl",
+      "sha256": "0732e15b1e6d5996c473d113c34a893d5a8570258d4415ee341cb0a8fb86cce2",
+      "crop": [
+        0,
+        0,
+        293,
+        201
+      ],
+      "output_sha256": "e0abea3213712d7fe797a030fa3eefbd76d0bba4fb95d85b3a42198e1d4c717c"
+    },
+    {
+      "name": "oth36_indien_panzer_s1",
+      "source": "Gfx/UI/BigTankIcons/other-Oth36_Indien_Panzer_S1@2x.packed.webp.dvpl",
+      "sha256": "fff91c48fa31f5e81455f12f173e37a1446516ced63ae44b567f8c2ca6fb30c4",
+      "crop": [
+        0,
+        0,
+        266,
+        201
+      ],
+      "output_sha256": "8a09f041c2fc0391c91686d8d878c975fa9953e0eba66ede99f480f7fae81650"
+    },
+    {
+      "name": "oth37_t26_e4_superpershing_s1",
+      "source": "Gfx/UI/BigTankIcons/other-Oth37_T26_E4_SuperPershing_S1@2x.packed.webp.dvpl",
+      "sha256": "e6e285a11102b918a02871f91d45f0f34e68eab19aa50f3e63f1085ca47dbf3e",
+      "crop": [
+        0,
+        0,
+        293,
+        201
+      ],
+      "output_sha256": "6f13663572ebe38466b15d79cb77cf3a7761893c3921e4d6d5dc544fa7693848"
+    },
+    {
+      "name": "oth38_50tp_tyszkiewicza_s1",
+      "source": "Gfx/UI/BigTankIcons/other-Oth38_50TP_Tyszkiewicza_S1@2x.packed.webp.dvpl",
+      "sha256": "f0467dca1ce06b069c5b76fe4f934f7e42acea35aca1cc7d52f6cbc0a08a77ed",
+      "crop": [
+        0,
+        0,
+        293,
+        201
+      ],
+      "output_sha256": "b3af40ad1e740b69a188abf670252df5ed0f8dcfbf7f5a08114fd1880d5f1a61"
+    },
+    {
+      "name": "oth39_t20_s2",
+      "source": "Gfx/UI/BigTankIcons/other-Oth39_T20_S2@2x.packed.webp.dvpl",
+      "sha256": "1bf77d461523dee0486f83af4d0aa8dc0f2f1bf51c187370c8caadad805de4d4",
+      "crop": [
+        0,
+        0,
+        288,
+        201
+      ],
+      "output_sha256": "b8d6ac23dfc5a5d156ddcf60558eb553bab4e5916211ae28af8caf368b7436f1"
+    },
+    {
+      "name": "oth42_forestwitch_hw23",
+      "source": "Gfx/UI/BigTankIcons/other-Oth42_ForestWitch_HW23@2x.packed.webp.dvpl",
+      "sha256": "7eb606b10fb7b30737084b95d25a2ae6dbb5fb6990de8c0b060fc542ec0fa559",
+      "crop": [
+        0,
+        0,
+        295,
+        201
+      ],
+      "output_sha256": "84f33e9a5ff6f6887a5d8477b4587314a1efcb81391ec505a761992ab52247e4"
+    },
+    {
+      "name": "oth40_tvp_46_s2",
+      "source": "Gfx/UI/BigTankIcons/other-Oth40_TVP46_S2@2x.packed.webp.dvpl",
+      "sha256": "a8340ece94987627452389902a47c188dfe6de7529a03de773ba35bb6d0d60eb",
+      "crop": [
+        0,
+        0,
+        296,
+        201
+      ],
+      "output_sha256": "d30e4ffcbdfee62d41ab720346599269ac67e5fad7acd366da86ba3ccdd557af"
+    },
+    {
+      "name": "oth41_centurion_mk3_s2",
+      "source": "Gfx/UI/BigTankIcons/other-Oth41_Centurion_Mk3_S2@2x.packed.webp.dvpl",
+      "sha256": "939dd1d8385ee65938cfab178bd8093533f5d7d4b2f8e3122c00eabca31273ce",
+      "crop": [
+        0,
+        0,
+        287,
+        201
+      ],
+      "output_sha256": "1f6af8405b56c4e5c7b586613534e2259644801fa746685ff5e20dd1c90f6ee8"
+    },
+    {
+      "name": "oth44_charioteer_t",
+      "source": "Gfx/UI/BigTankIcons/other-Oth44_Charioteer_T@2x.packed.webp.dvpl",
+      "sha256": "9732a531c32b45b3dac3974bde344d64315fc3519261c47c5acc9f40c6c6e9c6",
+      "crop": [
+        0,
+        0,
+        251,
+        197
+      ],
+      "output_sha256": "f1146e1af8f37d708b7e7b5b1f4f229b6dec98b7d8cb501c67b2d0b591c9bcf2"
+    },
+    {
+      "name": "oth45_sandstriker",
+      "source": "Gfx/UI/BigTankIcons/other-Oth45_Sandstriker@2x.packed.webp.dvpl",
+      "sha256": "764cfb78af325cbb7d2400e3264fb95121c189fc8c4ef2e667af2da6dcf222b3",
+      "crop": [
+        0,
+        0,
+        311,
+        201
+      ],
+      "output_sha256": "87cc963a6b220209b2443839eb8925c69af9405d9ba9c9746b7fb830864b9248"
+    },
+    {
+      "name": "oth61_pz_vm_set",
+      "source": "Gfx/UI/BigTankIcons/other-Oth61_Pz_VM_Set@2x.packed.webp.dvpl",
+      "sha256": "538edeb19157e8f89ff405fec8fbf91eb8112d960d9be9661ecfcc6db8ec965d",
+      "crop": [
+        0,
+        0,
+        239,
+        187
+      ],
+      "output_sha256": "74468f188828b65efa17290a93287de2f71102ee8f489ed5d65aebc5e0e3181d"
+    },
+    {
+      "name": "oth62_pz_vld_set",
+      "source": "Gfx/UI/BigTankIcons/other-Oth62_Pz_VlD_Set@2x.packed.webp.dvpl",
+      "sha256": "c822f924ad4d2fc0c84459cbbd4ec1759be73c86aef6daa68f59913b80d178ce",
+      "crop": [
+        0,
+        0,
+        232,
+        201
+      ],
+      "output_sha256": "bb9a12d3d14851bf6391d0f071db584b7af6aeecb90ebe2bfcab6dc021ba52a4"
+    },
+    {
+      "name": "oth63_pz_vllf_set",
+      "source": "Gfx/UI/BigTankIcons/other-Oth63_Pz_VllF_Set@2x.packed.webp.dvpl",
+      "sha256": "498fe780a90dfffc0be95b493b92a0e5b108f871584caad0b756ed3bda2e927b",
+      "crop": [
+        0,
+        0,
+        282,
+        201
+      ],
+      "output_sha256": "60b33422ab9b2d5a470986ad3285677563f9a9315027dda6ce57d1b86a65d113"
+    },
+    {
+      "name": "oth64_pz_vlllk_set",
+      "source": "Gfx/UI/BigTankIcons/other-Oth64_Pz_VlllK_Set@2x.packed.webp.dvpl",
+      "sha256": "dd939300b59320a3021f76b3c8e587b0e0cfaef76c954fd4ab4d413fe96b0a57",
+      "crop": [
+        0,
+        0,
+        291,
+        201
+      ],
+      "output_sha256": "83fa4bcbf3285b00e3a94a3901a57993454ad7dcd00beb877931c7b92af212a8"
+    },
+    {
+      "name": "oth46_charioteer_s3",
+      "source": "Gfx/UI/BigTankIcons/other-Oth46_Charioteer_S3@2x.packed.webp.dvpl",
+      "sha256": "176b4d48b0902c2f463d25ef08ca375449e13305d4c748f6ba1c69ea44011d9f",
+      "crop": [
+        0,
+        0,
+        275,
+        201
+      ],
+      "output_sha256": "5a60d8814f1e58b62a0dd9541c1bcef4c6f8203ac4505e188a433ebec883d617"
+    },
+    {
+      "name": "oth47_amx_13_90_s3",
+      "source": "Gfx/UI/BigTankIcons/other-Oth47_AMX_13_90_S3@2x.packed.webp.dvpl",
+      "sha256": "ccd921a5e8ba08ec4640302deb8d543274a17940f0d33f1fe32f0fabd8daf52e",
+      "crop": [
+        0,
+        0,
+        210,
+        201
+      ],
+      "output_sha256": "2ac129007673bc31aff6bc0809020b98b9521dbbaf0a42a402fb2ed4e1acd920"
+    },
+    {
+      "name": "oth48_emil_1951e1_s3",
+      "source": "Gfx/UI/BigTankIcons/other-Oth48_EMIL_1951E1_S3@2x.packed.webp.dvpl",
+      "sha256": "e9ff46a79f89dbd667f9ae4f1b8fd56d21cc3f0bfd4a0237234855cf319206d4",
+      "crop": [
+        0,
+        0,
+        278,
+        201
+      ],
+      "output_sha256": "b59a25ead92f8f5f25aeb07d579a82a728bc11c652bb42815d8f6e897e04ace9"
+    },
+    {
+      "name": "oth49_tm_04_nt",
+      "source": "Gfx/UI/BigTankIcons/other-Oth49_TM_04_NT@2x.packed.webp.dvpl",
+      "sha256": "03baf58ba4f41074b0642af918f55bcb6cc89e803906c20336822417e0d0c8c1",
+      "crop": [
+        0,
+        0,
+        231,
+        190
+      ],
+      "output_sha256": "1eae702bd2dde62b0418efab514c77c2483400190d41099b0fb89741b04fda70"
+    },
+    {
+      "name": "oth65_pzvillm_tigeom",
+      "source": "Gfx/UI/BigTankIcons/other-Oth65_PzVIllM_Tigeom@2x.packed.webp.dvpl",
+      "sha256": "698c8c3e722d5c5a863994db771504d9cc88714d6ea9979cad79fda07e4b2afc",
+      "crop": [
+        0,
+        0,
+        261,
+        201
+      ],
+      "output_sha256": "f00a784645eec66a0b1a13bd57d5de6b4345cf6431715fc4c38dd968843efaf7"
+    },
+    {
+      "name": "oth50_stt",
+      "source": "Gfx/UI/BigTankIcons/other-Oth50_STT@2x.packed.webp.dvpl",
+      "sha256": "c4a64f89db862e67a569c6b1e54099b984f5d18108e24c0cc294fbf4f27f91c1",
+      "crop": [
+        0,
+        0,
+        217,
+        181
+      ],
+      "output_sha256": "0db8e9c753b0c799cbaacf966888c4de08ec254baf3f1733e77f8253b14b2ec8"
+    },
+    {
+      "name": "oth51_fd_24",
+      "source": "Gfx/UI/BigTankIcons/other-Oth51_FD_24@2x.packed.webp.dvpl",
+      "sha256": "8eea748df54ab1ea178ed39985d0eda5b54d4d1a7eab8ce83a64fc6341d9f0e7",
+      "crop": [
+        0,
+        0,
+        282,
+        201
+      ],
+      "output_sha256": "08a25497e14aaebbc14074e2e8a2ec91c9b61a2bb6334cee9f4da9c67f107f2b"
+    },
+    {
+      "name": "oth52_toxique",
+      "source": "Gfx/UI/BigTankIcons/other-Oth52_Toxique@2x.packed.webp.dvpl",
+      "sha256": "ff6104f28d5b67c90efb9e880bea002e2962f71c1229f8851d333e78b028b55a",
+      "crop": [
+        0,
+        0,
+        287,
+        201
+      ],
+      "output_sha256": "0e3bc71e89bd17429fd86aa5b761b931806151c81c4f1f5671e8ed4d4499d525"
+    },
+    {
+      "name": "oth53_rammer",
+      "source": "Gfx/UI/BigTankIcons/other-Oth53_Rammer@2x.packed.webp.dvpl",
+      "sha256": "19ea0fe11305eb1a76e0c529c115664454182921b25a15f24a0c3ec62c3840a2",
+      "crop": [
+        0,
+        0,
+        320,
+        170
+      ],
+      "output_sha256": "7aa9ddcd163bc07b8d1ff7e34ea1301136762bcd1f68371dd67da56b1e9d9270"
+    },
+    {
+      "name": "oth66_e100ann_s4",
+      "source": "Gfx/UI/BigTankIcons/other-Oth66_E100ANN_S4@2x.packed.webp.dvpl",
+      "sha256": "8187e2aa66c2266c4a871f8ef29a6c496fd8b29f560aec40bee17bbc0bb0a9a9",
+      "crop": [
+        0,
+        0,
+        292,
+        201
+      ],
+      "output_sha256": "3d4c908bb5f9d881528cebab9316d00d08c1996cd86e8711ef36ef10f5e84aee"
+    },
+    {
+      "name": "oth67_fv215b_183ann_s4",
+      "source": "Gfx/UI/BigTankIcons/other-Oth67_FV215b_183ANN_S4@2x.packed.webp.dvpl",
+      "sha256": "d2ed12c6e785deb09cf7f946359d13adaebdd7187c18cc1812450ac63b5eba20",
+      "crop": [
+        0,
+        0,
+        265,
+        201
+      ],
+      "output_sha256": "4c0e308bd8fa9c66bfbe2ad5e936458ad9085ce1aa1cea40f6ad9942dd8a0316"
+    },
+    {
+      "name": "oth68_kv2ann_s4",
+      "source": "Gfx/UI/BigTankIcons/other-Oth68_KV2ANN_S4@2x.packed.webp.dvpl",
+      "sha256": "7fc2aa590d11dca0b3a37c22ca60f2dcdaf34cf7c2d50c199eca78fe783965b5",
+      "crop": [
+        0,
+        0,
+        256,
+        199
+      ],
+      "output_sha256": "00aab11d9334bdd276ef8c4529b25d84eb3553dc52a2cea6d16f5e613a0a667f"
+    },
+    {
+      "name": "oth69_souleater",
+      "source": "Gfx/UI/BigTankIcons/other-Oth69_Souleater@2x.packed.webp.dvpl",
+      "sha256": "e34fa86b3c22feeb3345be5e5569f97babda96b581e61183e9c9a320a0f7eea4",
+      "crop": [
+        0,
+        0,
+        266,
+        201
+      ],
+      "output_sha256": "40fa2a6871ec031994b77ec29ed1e6bfd946a3719e147b133410e983468b0571"
+    },
+    {
+      "name": "oth70_lightbringer",
+      "source": "Gfx/UI/BigTankIcons/other-Oth70_Lightbringer@2x.packed.webp.dvpl",
+      "sha256": "a87974f6af7dedbefbb2a4ab9cacd1d098593db0d150876e129c1714acf6325c",
+      "crop": [
+        0,
+        0,
+        263,
+        201
+      ],
+      "output_sha256": "5553a0c26430ea6bdbfdf2221c4892f4d793bb14251cb6ed7c191bc6c84b4d4f"
+    },
+    {
+      "name": "oth71_titan_strife",
+      "source": "Gfx/UI/BigTankIcons/other-Oth71_Titan_Strife@2x.packed.webp.dvpl",
+      "sha256": "31df50c6a7bc52650b05ac7af89af9cf34e10a748f11f0540fd06a4a16d2b244",
+      "crop": [
+        0,
+        0,
+        290,
+        201
+      ],
+      "output_sha256": "84106be992e4a4a43d43b6beb02df1ed807956780ec757e2685bdfea7691ebb6"
+    },
+    {
+      "name": "oth72_hazard_i",
+      "source": "Gfx/UI/BigTankIcons/other-Oth72_Hazard_I@2x.packed.webp.dvpl",
+      "sha256": "6c6f24074c85133c35f10dc373906304639a1922d1784672cf8036f001b934e4",
+      "crop": [
+        0,
+        0,
+        260,
+        194
+      ],
+      "output_sha256": "d086622bd286c469f65214d99bcd1f4fd3dfe403c3be376acd89aa50cb64ac29"
+    },
+    {
+      "name": "oth73_nemini",
+      "source": "Gfx/UI/BigTankIcons/other-Oth73_Nemini@2x.packed.webp.dvpl",
+      "sha256": "425827e88f8476d1c39f1b7f116a1c436e736eaad78b39963d90642746ae7648",
+      "crop": [
+        0,
+        0,
+        296,
+        201
+      ],
+      "output_sha256": "51549455e9ef5ada4b945793daa55942cbf297aa7e293edd5c1553362c770d44"
+    },
+    {
+      "name": "oth74_argonaut",
+      "source": "Gfx/UI/BigTankIcons/other-Oth74_Argonaut@2x.packed.webp.dvpl",
+      "sha256": "cb59b1d8a6cc9aa3c3fd19e183bd76f9f5e46254dbe8f68086bdfb7ef3bc372c",
+      "crop": [
+        0,
+        0,
+        312,
+        201
+      ],
+      "output_sha256": "a8518c98ac1a280eb6a667cf8ebe2e26d504b9bec57a74f21159b7d7e28196d2"
+    },
+    {
+      "name": "oth75_braniaq_dm5",
+      "source": "Gfx/UI/BigTankIcons/other-Oth75_Braniaq_DM5@2x.packed.webp.dvpl",
+      "sha256": "48f80e1b623a5c8ddbc5205fd36b0001b4e3cf8ec662c3254c18daadca3404f1",
+      "crop": [
+        0,
+        0,
+        282,
+        201
+      ],
+      "output_sha256": "c90f40112324a68c87eb487e3de93d763a3f8b70f0fa073bb683cfcc898840a2"
+    },
+    {
+      "name": "oth76_destiny",
+      "source": "Gfx/UI/BigTankIcons/other-Oth76_Destiny@2x.packed.webp.dvpl",
+      "sha256": "f9d24ddf83dc01a59b95ae50ae90bd71d3b5d3064f76e778ac7c53188789d274",
+      "crop": [
+        0,
+        0,
+        284,
+        201
+      ],
+      "output_sha256": "c452dd488b8cc918622393eb49f65dedc234d2efaa77ff3217165c8b4b771f21"
+    },
+    {
+      "name": "oth77_prowler",
+      "source": "Gfx/UI/BigTankIcons/other-Oth77_Prowler@2x.packed.webp.dvpl",
+      "sha256": "034a80521711d4d8876548521c7ef6530dca021dbdff44f56e75c374e1b9b73f",
+      "crop": [
+        0,
+        0,
+        293,
+        201
+      ],
+      "output_sha256": "b19094f4512dda2be6aa3bd8f62eab2bb1a7b2fdbcfd7084d57cd8349f575674"
+    },
+    {
+      "name": "oth78_ac_17_p_sterope",
+      "source": "Gfx/UI/BigTankIcons/other-Oth78_AC_17_P_Sterope@2x.packed.webp.dvpl",
+      "sha256": "b7fde72ee29fefccad10f809d4c132e3a2d11909d2af52085dd23084594f4a2f",
+      "crop": [
+        0,
+        0,
+        308,
+        199
+      ],
+      "output_sha256": "9f6ba103a56ac0490ad85a48347cd10afde6267666dab9fe2d791bb4f0072005"
+    },
+    {
+      "name": "oth79_ac_17_alcyone",
+      "source": "Gfx/UI/BigTankIcons/other-Oth79_AC_17_Alcyone@2x.packed.webp.dvpl",
+      "sha256": "4d53f8c7478274f12bb5deb9c679ab742ee3f834c5089781f27e09ed9cfc01ce",
+      "crop": [
+        0,
+        0,
+        290,
+        201
+      ],
+      "output_sha256": "54962385f805fbeab878a6c842368ff1131cea4b66e14bc241cd4e51a15aa9d4"
+    },
+    {
+      "name": "oth80_ac_16_celeno",
+      "source": "Gfx/UI/BigTankIcons/other-Oth80_AC_16_Celeno@2x.packed.webp.dvpl",
+      "sha256": "4c970e8dc2e75c6623bdd1a65c7841720bdf95b4f3e4ffda721b71be612d082b",
+      "crop": [
+        0,
+        0,
+        281,
+        201
+      ],
+      "output_sha256": "5387093e314d6048cf8c65817e66efe028e83269b00ed3fb957ad70d7fe1a389"
+    },
+    {
+      "name": "oth81_ac_15_taygete",
+      "source": "Gfx/UI/BigTankIcons/other-Oth81_AC_15_Taygete@2x.packed.webp.dvpl",
+      "sha256": "4b63b5d3150d789ddb1d662c97ef46056fe4f57602aba75c4cfabcd897682e00",
+      "crop": [
+        0,
+        0,
+        267,
+        201
+      ],
+      "output_sha256": "c23b4a1c5e3ff5c90995fa272af11bcbf2560661a2b5fabc6be77cd4d5c533cd"
+    },
+    {
+      "name": "oth82_ac_14_pleione",
+      "source": "Gfx/UI/BigTankIcons/other-Oth82_AC_14_Pleione@2x.packed.webp.dvpl",
+      "sha256": "e0b4044e2f9f2c8b05e0892254b8fa80170b87c517359489b04622deff796a14",
+      "crop": [
+        0,
+        0,
+        245,
+        198
+      ],
+      "output_sha256": "37a4a63e25774636509d7891256130bf8f9189b43164b66d73267953edbc863c"
+    },
+    {
+      "name": "oth84_fve_defender",
+      "source": "Gfx/UI/BigTankIcons/other-Oth84_FVE_Defender@2x.packed.webp.dvpl",
+      "sha256": "ebc1270b5e1f463fd0277fefcb302deb848fda737d4387375bb8bcc04984e8b1",
+      "crop": [
+        0,
+        0,
+        286,
+        201
+      ],
+      "output_sha256": "751c0a25911b385b3d6208bbedc1fcfbba8e1b35b2a787113c8be3f7355c8496"
+    },
+    {
+      "name": "oth83_ac_13_merope",
+      "source": "Gfx/UI/BigTankIcons/other-Oth83_AC_13_Merope@2x.packed.webp.dvpl",
+      "sha256": "9d8403ef9a4929494516134043c7c9abfb6ad56e51053f283b7f68b37f19754b",
+      "crop": [
+        0,
+        0,
+        269,
+        201
+      ],
+      "output_sha256": "163c9fafeac08000cd861125fe6dadfa2a8163b3ba75c97540777fe281595760"
+    },
+    {
+      "name": "oth86_survivalist",
+      "source": "Gfx/UI/BigTankIcons/other-Oth86_Survivalist@2x.packed.webp.dvpl",
+      "sha256": "47483d94fe4cc285e6702b7abc29387dc1730b0d99727bc6194c409116c33c2d",
+      "crop": [
+        0,
+        0,
+        288,
+        200
+      ],
+      "output_sha256": "5b12a063454f341e3aa2afe32438929458b8dd6d287e4711f2e21f5a28ff3aa4"
+    },
+    {
+      "name": "oth85_ghoul",
+      "source": "Gfx/UI/BigTankIcons/other-Oth85_Ghoul@2x.packed.webp.dvpl",
+      "sha256": "7a3f42ba262acfd108952821004f34698de0abefb5f2b13cf45e872699d9fd96",
+      "crop": [
+        0,
+        0,
+        295,
+        200
+      ],
+      "output_sha256": "62ff2578100aa561fdbdf688a45ff40cb2780a0854337922966bfc3ab8300c9f"
+    },
+    {
+      "name": "oth91_ac_u_mt_10",
+      "source": "Gfx/UI/BigTankIcons/other-Oth91_AC_U_MT_10@2x.packed.webp.dvpl",
+      "sha256": "b159a77a9b6b7051fe7ba55033071980331753279cd09bfbecc1ea7d94ff7a3c",
+      "crop": [
+        0,
+        0,
+        256,
+        201
+      ],
+      "output_sha256": "beb98b54843e912b40d5fb4f7c4a889954ecad1d6d26f6c9e2256cd96e306b9f"
+    },
+    {
+      "name": "oth92_jagdpantherii_titan",
+      "source": "Gfx/UI/BigTankIcons/other-Oth92_JagdPantherII_Titan@2x.packed.webp.dvpl",
+      "sha256": "f89b45090dd94ebf438ebc6c09563b2c4b9933e2793a5493142ef19930eb8ce2",
+      "crop": [
+        0,
+        0,
+        262,
+        201
+      ],
+      "output_sha256": "ab0fc88f795101499d8f67a270525aebccc66a35a9d837786538912549ee512c"
+    },
+    {
+      "name": "oth93_convoyer",
+      "source": "Gfx/UI/BigTankIcons/other-Oth93_Convoyer@2x.packed.webp.dvpl",
+      "sha256": "b9c58e3f0a4581ce847762f117adddaecdccb4c15b6c3f3dff99b58bb8156832",
+      "crop": [
+        0,
+        0,
+        256,
+        201
+      ],
+      "output_sha256": "d474d6a2267c597dee051ac19acb9e82926a8ec73b10ca29fb3399c36d4f888c"
+    },
+    {
+      "name": "oth95_mtu_defender",
+      "source": "Gfx/UI/BigTankIcons/other-Oth95_MTU_defender@2x.packed.webp.dvpl",
+      "sha256": "43619842a31769189155d902a33c831f90038ae4cc4c95bd82c965d2ba0c1075",
+      "crop": [
+        0,
+        0,
+        234,
+        201
+      ],
+      "output_sha256": "91ca7d4c40fadc8ab3383de2f4e089653cb64f84d06b387a68308b7d950f3642"
+    },
+    {
+      "name": "oth97_cno_consul",
+      "source": "Gfx/UI/BigTankIcons/other-Oth97_CNO_Consul@2x.packed.webp.dvpl",
+      "sha256": "d40a620076674a62ff4f26f7a332fa5277e09f0e87c78858e31282b7c19204ac",
+      "crop": [
+        0,
+        0,
+        274,
+        201
+      ],
+      "output_sha256": "3c63c20e5ff9ca4e2f79aa92c73c7c77e74e5a5a566be1840f2285a377e5e721"
+    },
+    {
+      "name": "oth98_amx_50_100_titan",
+      "source": "Gfx/UI/BigTankIcons/other-Oth98_AMX_50_100_Titan@2x.packed.webp.dvpl",
+      "sha256": "90438d1606cb870d4f9d602bd5381e9dcc519fca7e6f75b4b8addc6577e93aba",
+      "crop": [
+        0,
+        0,
+        285,
+        201
+      ],
+      "output_sha256": "96f77687199c0d6bb205b15a2861433bae71dd73e0d2d087c7e98ec9966eb04e"
+    },
+    {
+      "name": "hangar_nation8",
+      "source": "Gfx/Lobby/flags/flag_tank-node_other@2x.packed.webp.dvpl",
+      "sha256": "4d2e1dc24f4ea675965c45fe1d90cc43f8ffb7bd6b8bcf7c2e429263a59ce0e5",
+      "crop": [
+        0,
+        0,
+        353,
+        128
+      ]
+    }
+  ]
+}

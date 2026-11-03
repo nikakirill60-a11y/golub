@@ -1,0 +1,1305 @@
+{
+  "version": "11.20",
+  "source": "/home/smh01/projects/wotblitz11.20.0files",
+  "generator": "Tools/port_blitz_branches_1120.py",
+  "branches": {
+    "uk": [
+      "GB41_Challenger",
+      "GB80_Charioteer",
+      "GB81_FV4004",
+      "GB83_4005"
+    ],
+    "european": [
+      "It10_P43_bis",
+      "It09_P43_ter",
+      "It14_P44_Pantera",
+      "It12_Prototipo_Standard_B",
+      "It08_Progetto_M40_mod65"
+    ]
+  },
+  "parents": {
+    "uk": "GB19_Sherman_Firefly",
+    "european": "S02_StrvM42"
+  },
+  "records": [
+    {
+      "nation": "uk",
+      "vehicle_id": "GB41_Challenger",
+      "name": "gb41_challenger",
+      "model_stem": "Challenger",
+      "scene": "3d/Tanks/GB/Challenger.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/uk-GB41_Challenger.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/uk/GB41_Challenger.xml",
+      "xml_sha256": "d6ed1af2b6ad539c75377afdc05c07c87bf51a0dec1343888aa802b34a4b2aa1",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/Challenger_CM.tex",
+          "source": "3d/Tanks/GB/CamouflageMasks/Challenger_CM.astc.pvr.dvpl",
+          "sha256": "641e24e7a7943fa00f970e63b8fa8f55e6c39c7bf0b03370f76c86a7a93602ae"
+        },
+        {
+          "reference": "images/Challenger.tex",
+          "source": "3d/Tanks/GB/images/Challenger.astc.pvr.dvpl",
+          "sha256": "4b2c1946ec8c4ba23b8e5730b196951e2cf624ac9306e1e327654965910ae316"
+        },
+        {
+          "reference": "images/Challenger_NM.tex",
+          "source": "3d/Tanks/GB/images/Challenger_NM.astc.pvr.dvpl",
+          "sha256": "04de904f6815d47ba786afa6c3d436871f3b85cf1b58ff9398beaeb1b22cf2fe"
+        },
+        {
+          "reference": "images/Comet_track.tex",
+          "source": "3d/Tanks/GB/images/Comet_track.astc.pvr.dvpl",
+          "sha256": "9a22081796a5d0dafc670974e44bebc08ff8b917ceddc79ae05c70e9c2474672"
+        },
+        {
+          "reference": "images/Comet_track_NM.tex",
+          "source": "3d/Tanks/GB/images/Comet_track_NM.astc.pvr.dvpl",
+          "sha256": "9594e47478a26f1fd6dd9bb2a3ebe853f4ed1f70913b743a319442dbd60129cd"
+        }
+      ],
+      "parameter_source": "from_apk/3d/Tanks/Parameters/uk/GB41_Challenger.yaml",
+      "parameter_sha256": "875714635047f1a64749e98c14c512aaeb69f4ea6e6fc6c5f20479fde9d45b7d",
+      "resources": {
+        "smallIconPath": "~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/british-Challenger",
+        "bigIconPath": "~res:/Gfx/UI/BigTankIcons/british-Challenger",
+        "carouselBackgroundImagePath": "",
+        "statisticBackgroundImagePath": "",
+        "favoriteBackgroundImagePath": "",
+        "blitzModelPath": "Tanks/GB/Challenger.sc2",
+        "collisionMesh": "CollisionMeshes/uk-GB41_Challenger.sc2",
+        "smokeEffectPath": "FX/smoke_tank_type_black_new_2.sc2",
+        "fireEffectPathAlive": "FX/SmokeFire_tank_movement_new.sc2",
+        "fireEffectPathDead": "FX/Fire_and_Smoke.sc2",
+        "engineSoundPC": "tanks/pc/engine/uk/mt",
+        "engineSoundNPC": "tanks/npc/engine/uk/mt",
+        "chassisSoundPC": "tanks/pc/treads/mt",
+        "chassisSoundNPC": "tanks/npc/treads/mt"
+      },
+      "scene_source": "3d/Tanks/GB/Challenger.sc2.dvpl",
+      "scene_sha256": "ffa32e717c6d2ac1ca4ffb18aafd11ac09f3d3eeb7975f82dfe9791cda720790",
+      "geometry_source": "3d/Tanks/GB/Challenger.scg.dvpl",
+      "geometry_sha256": "78701468578c7f7f1e688388c5cf79a05214a92d9bb5d83575c19c1e7cf119d2",
+      "collision_source": "3d/Tanks/CollisionMeshes/uk-GB41_Challenger.sc2.dvpl",
+      "collision_sha256": "dc25d28f8fdf75f943977f197d5356d4250ea01a90680c7e384e76a63af7a8f8",
+      "collision_geometry_source": "3d/Tanks/CollisionMeshes/uk-GB41_Challenger.scg.dvpl",
+      "collision_geometry_sha256": "a16874728b074d6be125d8a3eb3a1b1eee82d43f1d55910d18a362834e489fdd",
+      "modules": {
+        "turrets": [
+          "Turret_1_GB41_Challenger",
+          "Turret_2_GB41_Challenger"
+        ],
+        "guns": [
+          "_17pdr_OQF_AT_Heavy",
+          "_32_pounder_AT_Gun_OQF_Mk_II"
+        ],
+        "tracks": [
+          "Chassis_GB41_Challenger",
+          "Chassis_GB41_Challenger_2"
+        ],
+        "engines": [
+          "Rolls_Royse_Meteor",
+          "Rolls_Royse_Meteor_MkIV"
+        ],
+        "radios": [
+          "N19Mk3"
+        ]
+      },
+      "configurations": [
+        {
+          "turret": "Turret_1_GB41_Challenger",
+          "gun": "_17pdr_OQF_AT_Heavy",
+          "turret_mesh": "turret_01",
+          "gun_mesh": "gun_02"
+        },
+        {
+          "turret": "Turret_2_GB41_Challenger",
+          "gun": "_17pdr_OQF_AT_Heavy",
+          "turret_mesh": "turret_02",
+          "gun_mesh": "gun_04"
+        },
+        {
+          "turret": "Turret_2_GB41_Challenger",
+          "gun": "_32_pounder_AT_Gun_OQF_Mk_II",
+          "turret_mesh": "turret_02",
+          "gun_mesh": "gun_06"
+        }
+      ],
+      "listing": {
+        "id": 71,
+        "level": 7,
+        "tags": [
+          "AT-SPG",
+          "heavyAT-SPG",
+          "mediumCaliberTankRammer_user",
+          "wetCombatPack_class1_user"
+        ],
+        "price_credits": 1400000
+      }
+    },
+    {
+      "nation": "uk",
+      "vehicle_id": "GB80_Charioteer",
+      "name": "gb80_charioteer",
+      "model_stem": "Charioteer",
+      "scene": "3d/Tanks/GB/Charioteer.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/uk-GB80_Charioteer.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/uk/GB80_Charioteer.xml",
+      "xml_sha256": "500b542f72ce6ffb38d2e4c88f27f5ff4354bca24de859186ef75282b68ed877",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/GB80_Charioteer_CM.tex",
+          "source": "3d/Tanks/GB/CamouflageMasks/GB80_Charioteer_CM.astc.pvr.dvpl",
+          "sha256": "59505f7967f85a5dbd36dbe5e2d3698161c0030f9e58fd278b87afc1ac1eff7e"
+        },
+        {
+          "reference": "images/Comet_track_new.tex",
+          "source": "3d/Tanks/GB/images/Comet_track_new.astc.pvr.dvpl",
+          "sha256": "4e7fc1d771a529de86f98b023a83ceda928341416af7ca8791660cc5ca4399a6"
+        },
+        {
+          "reference": "images/Comet_track_new_NM.tex",
+          "source": "3d/Tanks/GB/images/Comet_track_new_NM.astc.pvr.dvpl",
+          "sha256": "a1414c17523ab218a9b075fa452ee71e7bf069d556d76266e88ede57dceead4e"
+        },
+        {
+          "reference": "images/GB80_Charioteer.tex",
+          "source": "3d/Tanks/GB/images/GB80_Charioteer.astc.pvr.dvpl",
+          "sha256": "5f6524339d5f45ed4ba24bae7ddbcc1b7c29e8b49189c7dd0d06f6a08c1b3e35"
+        },
+        {
+          "reference": "images/GB80_Charioteer_NM.tex",
+          "source": "3d/Tanks/GB/images/GB80_Charioteer_NM.astc.pvr.dvpl",
+          "sha256": "bf919110ff702dcd86638b1290a5c379b22b903b25676d26c887f7dfe01867a9"
+        },
+        {
+          "reference": "images_pbr/Comet_track_BC.tex",
+          "source": "3d/Tanks/GB/images_pbr/Comet_track_BC.astc.pvr.dvpl",
+          "sha256": "3b1675b6fc76c8d8ca32b772f37c7fe7567f556511612cafc2df2c8a5d4e9335"
+        },
+        {
+          "reference": "images_pbr/Comet_track_MASK.tex",
+          "source": "3d/Tanks/GB/images_pbr/Comet_track_MASK.astc.pvr.dvpl",
+          "sha256": "ac3ea1d709b501cfae40613fc4cddf93ca1bb47fc5bc5ed862c2792bcbe9c24d"
+        },
+        {
+          "reference": "images_pbr/Comet_track_MISC.tex",
+          "source": "3d/Tanks/GB/images_pbr/Comet_track_MISC.astc.pvr.dvpl",
+          "sha256": "bd103773caedce7a75ae9f90d2fdf5da547095f72858961fe13d5f5248341ea2"
+        },
+        {
+          "reference": "images_pbr/Comet_track_NM.tex",
+          "source": "3d/Tanks/GB/images_pbr/Comet_track_NM.astc.pvr.dvpl",
+          "sha256": "fb92279d191abb85fa947a4bc2b1d0e06addf60405c43ec3791a41c1f76ab8bc"
+        },
+        {
+          "reference": "images_pbr/Comet_track_RM.tex",
+          "source": "3d/Tanks/GB/images_pbr/Comet_track_RM.astc.pvr.dvpl",
+          "sha256": "57e5e897456a1676f5d5223316d7660fdbd7ed9d714c84fe3e8fd41fe7235b41"
+        },
+        {
+          "reference": "images_pbr/GB80_Charioteer_BC.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB80_Charioteer_BC.astc.pvr.dvpl",
+          "sha256": "93e4777b94a2695f5760e22c03e64c4222c2060eb21b865d55929c85d22ac172"
+        },
+        {
+          "reference": "images_pbr/GB80_Charioteer_MASK.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB80_Charioteer_MASK.astc.pvr.dvpl",
+          "sha256": "01b13c2dcfe59ef2d62e2e71aad274433d47539e20ad4ed47f765d52460e5d91"
+        },
+        {
+          "reference": "images_pbr/GB80_Charioteer_MISC.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB80_Charioteer_MISC.astc.pvr.dvpl",
+          "sha256": "0da2beabc64cad8f91b2e540bf20893b0e3b2741f54ada777b6eba758082949f"
+        },
+        {
+          "reference": "images_pbr/GB80_Charioteer_NM.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB80_Charioteer_NM.astc.pvr.dvpl",
+          "sha256": "8265ad66154a08a869a006c8ea8d4a6f35cfae1d6c5dbd1daf07a363f5635e3e"
+        },
+        {
+          "reference": "images_pbr/GB80_Charioteer_RM.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB80_Charioteer_RM.astc.pvr.dvpl",
+          "sha256": "45d4d70d29bc533d9f75b314221ee3a4b50582cdac9483cb639eb083fb2b3a35"
+        }
+      ],
+      "parameter_source": "from_apk/3d/Tanks/Parameters/uk/GB80_Charioteer.yaml",
+      "parameter_sha256": "f45081c11a4f8920988f7f4dfb84350f6cb61fc1b4c375b5fd6d88dda9e62117",
+      "resources": {
+        "smallIconPath": "~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/british-Charioteer",
+        "bigIconPath": "~res:/Gfx/UI/BigTankIcons/british-Charioteer",
+        "carouselBackgroundImagePath": "",
+        "statisticBackgroundImagePath": "",
+        "favoriteBackgroundImagePath": "",
+        "blitzModelPath": "Tanks/GB/Charioteer.sc2",
+        "collisionMesh": "CollisionMeshes/uk-GB80_Charioteer.sc2",
+        "smokeEffectPath": "FX/smoke_tank_type_black_new_2.sc2",
+        "fireEffectPathAlive": "FX/SmokeFire_tank_movement_new.sc2",
+        "fireEffectPathDead": "FX/Fire_and_Smoke.sc2",
+        "engineSoundPC": "tanks/pc/engine/uk/mt",
+        "engineSoundNPC": "tanks/npc/engine/uk/mt",
+        "chassisSoundPC": "tanks/pc/treads/mt",
+        "chassisSoundNPC": "tanks/npc/treads/mt"
+      },
+      "scene_source": "3d/Tanks/GB/Charioteer.sc2.dvpl",
+      "scene_sha256": "eb019fc8749f70ea99d36d502bc385310aae65780efd4bede2a4380d7072f842",
+      "geometry_source": "3d/Tanks/GB/Charioteer.scg.dvpl",
+      "geometry_sha256": "4663e25d622e8d11759c7d0fb02de96dfbf49eaee2d054e96ae05e3ffd25a26c",
+      "collision_source": "3d/Tanks/CollisionMeshes/uk-GB80_Charioteer.sc2.dvpl",
+      "collision_sha256": "d90eac5cf756a6e06c9fe091615ad005797913405d2a48ab24053caffa6d499c",
+      "collision_geometry_source": "3d/Tanks/CollisionMeshes/uk-GB80_Charioteer.scg.dvpl",
+      "collision_geometry_sha256": "e6d79399a220d43a657ea2305393b7281acbae1643bde81410514a097e810237",
+      "modules": {
+        "turrets": [
+          "Turret_1_GB80_Charioteer"
+        ],
+        "guns": [
+          "_20pdr_AT_Gun_Type_B",
+          "_105mm_AT_Gun_L7"
+        ],
+        "tracks": [
+          "Chassis_GB80_Charioteer",
+          "Chassis_GB80_Charioteer_2"
+        ],
+        "engines": [
+          "Rolls_Royse_Meteor",
+          "Rolls_Royse_Meteor_MkIV"
+        ],
+        "radios": [
+          "N22"
+        ]
+      },
+      "configurations": [
+        {
+          "turret": "Turret_1_GB80_Charioteer",
+          "gun": "_20pdr_AT_Gun_Type_B",
+          "turret_mesh": "turret_01",
+          "gun_mesh": "gun_02"
+        },
+        {
+          "turret": "Turret_1_GB80_Charioteer",
+          "gun": "_105mm_AT_Gun_L7",
+          "turret_mesh": "turret_01",
+          "gun_mesh": "gun_03"
+        }
+      ],
+      "listing": {
+        "id": 68,
+        "level": 8,
+        "tags": [
+          "AT-SPG",
+          "heavyAT-SPG"
+        ],
+        "price_credits": 2650000
+      }
+    },
+    {
+      "nation": "uk",
+      "vehicle_id": "GB81_FV4004",
+      "name": "gb81_fv4004",
+      "model_stem": "FV4004",
+      "scene": "3d/Tanks/GB/FV4004.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/uk-GB81_FV4004.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/uk/GB81_FV4004.xml",
+      "xml_sha256": "bb64a6cefad6dcc0ec48a9749d84b7936440bba5694648d01d24deb2ebb7f447",
+      "textures": [
+        {
+          "reference": "../Japan/images/J23_Chi_To_SPG_track.tex",
+          "source": "3d/Tanks/Japan/images/J23_Chi_To_SPG_track.astc.pvr.dvpl",
+          "sha256": "1e493aaf8b01efc3750cc38986df2cd10afb707e5dec8630afa9793f740876cf"
+        },
+        {
+          "reference": "../Japan/images/J23_Chi_To_SPG_track_NM.tex",
+          "source": "3d/Tanks/Japan/images/J23_Chi_To_SPG_track_NM.astc.pvr.dvpl",
+          "sha256": "872a55a7e59156ecc31fef9c07f47367db7452e6e7fc37a28b362f8044a97dbd"
+        },
+        {
+          "reference": "../Japan/images_pbr/J23_Chi_To_SPG_track_BC.tex",
+          "source": "3d/Tanks/Japan/images_pbr/J23_Chi_To_SPG_track_BC.astc.pvr.dvpl",
+          "sha256": "0396e079835c3b36139ad15363bd8de68b43caec24587198f791cd759e618d48"
+        },
+        {
+          "reference": "../Japan/images_pbr/J23_Chi_To_SPG_track_MASK.tex",
+          "source": "3d/Tanks/Japan/images_pbr/J23_Chi_To_SPG_track_MASK.astc.pvr.dvpl",
+          "sha256": "7efc9a0577deb53a2a1d519233c9c1266f13f87b218758eef18a73d7d7a4c2ed"
+        },
+        {
+          "reference": "../Japan/images_pbr/J23_Chi_To_SPG_track_MISC.tex",
+          "source": "3d/Tanks/Japan/images_pbr/J23_Chi_To_SPG_track_MISC.astc.pvr.dvpl",
+          "sha256": "2197466899a9e8e98c05422a679cb7788f9c4474346fff2407d2e8e294a91d80"
+        },
+        {
+          "reference": "../Japan/images_pbr/J23_Chi_To_SPG_track_NM.tex",
+          "source": "3d/Tanks/Japan/images_pbr/J23_Chi_To_SPG_track_NM.astc.pvr.dvpl",
+          "sha256": "b28ae56cf22972e702fe734a36869146b80bee678f09dcd1511885d3ec8bc95f"
+        },
+        {
+          "reference": "../Japan/images_pbr/J23_Chi_To_SPG_track_RM.tex",
+          "source": "3d/Tanks/Japan/images_pbr/J23_Chi_To_SPG_track_RM.astc.pvr.dvpl",
+          "sha256": "9e8ebdfd3195cbc096d91acfc838ed288e15b5e0e095258ac645b1a25bc70d59"
+        },
+        {
+          "reference": "CamouflageMasks/GB81_FV4004_Conway_CM.tex",
+          "source": "3d/Tanks/GB/CamouflageMasks/GB81_FV4004_Conway_CM.astc.pvr.dvpl",
+          "sha256": "2012c45b05a7e9d41f3488313e159502bb96328f48379b1a1f66104edd1c1712"
+        },
+        {
+          "reference": "images/FV4004_Conway.tex",
+          "source": "3d/Tanks/GB/images/FV4004_Conway.astc.pvr.dvpl",
+          "sha256": "b5e257be781a76c6e7ef415311d5ed50b29278cb8dddeaaea23ce2d38ef4dbe2"
+        },
+        {
+          "reference": "images/FV4004_Conway_NM.tex",
+          "source": "3d/Tanks/GB/images/FV4004_Conway_NM.astc.pvr.dvpl",
+          "sha256": "8517b32f96d3488f8f69155a6fd1cbb7b922f6f7605a5529d36ed465f6302a50"
+        },
+        {
+          "reference": "images_pbr/FV4004_Conway_BC.tex",
+          "source": "3d/Tanks/GB/images_pbr/FV4004_Conway_BC.astc.pvr.dvpl",
+          "sha256": "0afb641a871a634d467353dae484b564f990833c4db7be696f457e5596b4bba2"
+        },
+        {
+          "reference": "images_pbr/FV4004_Conway_MASK.tex",
+          "source": "3d/Tanks/GB/images_pbr/FV4004_Conway_MASK.astc.pvr.dvpl",
+          "sha256": "1322a6adf45e02e7a90975e07e24a1cfaf923c29a6e6db7a6bf6008530202d1b"
+        },
+        {
+          "reference": "images_pbr/FV4004_Conway_MISC.tex",
+          "source": "3d/Tanks/GB/images_pbr/FV4004_Conway_MISC.astc.pvr.dvpl",
+          "sha256": "6a4bf6116856cd1835b7ab5503ad0f9034c3659255833e7e8d1992432e33e6fa"
+        },
+        {
+          "reference": "images_pbr/FV4004_Conway_NM.tex",
+          "source": "3d/Tanks/GB/images_pbr/FV4004_Conway_NM.astc.pvr.dvpl",
+          "sha256": "e7a2b3da7e6f8f4d47618e5225f8ff3404749d2530efcb2c6a499d2b19d4b6b8"
+        },
+        {
+          "reference": "images_pbr/FV4004_Conway_RM.tex",
+          "source": "3d/Tanks/GB/images_pbr/FV4004_Conway_RM.astc.pvr.dvpl",
+          "sha256": "b245289c307cc933def12085d257e92ba720d2d73f33b78df7267e0773801834"
+        }
+      ],
+      "parameter_source": "from_apk/3d/Tanks/Parameters/uk/GB81_FV4004.yaml",
+      "parameter_sha256": "d526209ea84db4827882be6b2d58be03220609c36dd11d88074acb01b2db4920",
+      "resources": {
+        "smallIconPath": "~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/british-GB81_FV4004_Conway",
+        "bigIconPath": "~res:/Gfx/UI/BigTankIcons/british-GB81_FV4004_Conway",
+        "carouselBackgroundImagePath": "",
+        "statisticBackgroundImagePath": "",
+        "favoriteBackgroundImagePath": "",
+        "blitzModelPath": "Tanks/GB/FV4004.sc2",
+        "collisionMesh": "CollisionMeshes/uk-GB81_FV4004.sc2",
+        "smokeEffectPath": "FX/smoke_tank_type_black_new_2.sc2",
+        "fireEffectPathAlive": "FX/SmokeFire_tank_movement_new.sc2",
+        "fireEffectPathDead": "FX/Fire_and_Smoke.sc2",
+        "engineSoundPC": "tanks/pc/engine/uk/ht",
+        "engineSoundNPC": "tanks/npc/engine/uk/ht",
+        "chassisSoundPC": "tanks/pc/treads/mt",
+        "chassisSoundNPC": "tanks/npc/treads/mt"
+      },
+      "scene_source": "3d/Tanks/GB/FV4004.sc2.dvpl",
+      "scene_sha256": "eab72f78320f0f4cc6fa2e10a3a43ca8f60ef402f2eec776bbf293fb6cc385ab",
+      "geometry_source": "3d/Tanks/GB/FV4004.scg.dvpl",
+      "geometry_sha256": "80b56a3be50ace8ff8a823472df6bf50a8794a7939b0f82355883ceab722d0d7",
+      "collision_source": "3d/Tanks/CollisionMeshes/uk-GB81_FV4004.sc2.dvpl",
+      "collision_sha256": "353443c3fe3519f719f268d1db4f39e0b8428c57e7de370c02ee301129a89b11",
+      "collision_geometry_source": "3d/Tanks/CollisionMeshes/uk-GB81_FV4004.scg.dvpl",
+      "collision_geometry_sha256": "88bca4cd042ea031caba89239854f4f150580d381098684c02f9305452d7f408",
+      "modules": {
+        "turrets": [
+          "Turret_1_GB81_FV4004"
+        ],
+        "guns": [
+          "_120mm_AT_Gun_L1A1",
+          "_5_5inch_AT_Gun"
+        ],
+        "tracks": [
+          "Chassis_GB81_FV4004",
+          "Chassis_GB81_FV4004_2"
+        ],
+        "engines": [
+          "Rolls_Royse_Meteor_MkIV",
+          "Rolls_Royse_Meteor_MkIVC"
+        ],
+        "radios": [
+          "N19Mk3"
+        ]
+      },
+      "configurations": [
+        {
+          "turret": "Turret_1_GB81_FV4004",
+          "gun": "_120mm_AT_Gun_L1A1",
+          "turret_mesh": "turret_01",
+          "gun_mesh": "gun_01"
+        },
+        {
+          "turret": "Turret_1_GB81_FV4004",
+          "gun": "_5_5inch_AT_Gun",
+          "turret_mesh": "turret_01",
+          "gun_mesh": "gun_02"
+        }
+      ],
+      "listing": {
+        "id": 67,
+        "level": 9,
+        "tags": [
+          "AT-SPG",
+          "heavyAT-SPG"
+        ],
+        "price_credits": 3500000
+      }
+    },
+    {
+      "nation": "uk",
+      "vehicle_id": "GB83_4005",
+      "name": "gb83_4005",
+      "model_stem": "GB83_4005",
+      "scene": "3d/Tanks/GB/GB83_4005.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/uk-GB83_4005.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/uk/GB83_4005.xml",
+      "xml_sha256": "9abf94f77b7153088fa63d101247ca6d59b8c2f760d977210eb8d4f684ec7af2",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/GB83_FV4005_CM.tex",
+          "source": "3d/Tanks/GB/CamouflageMasks/GB83_FV4005_CM.astc.pvr.dvpl",
+          "sha256": "9ce863bb52d14407e334620b6888287c7ee323b4152ec92dc5017ebe3f02edaf"
+        },
+        {
+          "reference": "images/GB112_Caliban_track.tex",
+          "source": "3d/Tanks/GB/images/GB112_Caliban_track.astc.pvr.dvpl",
+          "sha256": "8aa3141ea6b6b98b4d4a68645daa089431041368ebb7fe1cee2ed4f65b30c17f"
+        },
+        {
+          "reference": "images/GB112_Caliban_track_NM.tex",
+          "source": "3d/Tanks/GB/images/GB112_Caliban_track_NM.astc.pvr.dvpl",
+          "sha256": "ab1058b4b3d118414ad327950f96c58b7325bbbf4444c1816c00cce19fd70eea"
+        },
+        {
+          "reference": "images/GB83_FV4005.tex",
+          "source": "3d/Tanks/GB/images/GB83_FV4005.astc.pvr.dvpl",
+          "sha256": "3b3b2d8564f83586d3d655319d2b04ab8fc6bc3fe3a9e671853bb92ca6d86891"
+        },
+        {
+          "reference": "images/GB83_FV4005_2_NM.tex",
+          "source": "3d/Tanks/GB/images/GB83_FV4005_2_NM.astc.pvr.dvpl",
+          "sha256": "4a53c2a53af4a6128f9d78dc9d8a082a13d725443b2fe8a2d908bf0199b85d85"
+        },
+        {
+          "reference": "images_pbr/GB112_Caliban_track_BC.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB112_Caliban_track_BC.astc.pvr.dvpl",
+          "sha256": "7dcfc8ede768ad795b505b00fecbb8ee5a9ff5c7325a6104995f17c30f0f94c4"
+        },
+        {
+          "reference": "images_pbr/GB112_Caliban_track_MASK.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB112_Caliban_track_MASK.astc.pvr.dvpl",
+          "sha256": "ae1d913b3d8a04acc2350d6eb3d9aad8aa4dc47e56e087693e6f43847ea51b88"
+        },
+        {
+          "reference": "images_pbr/GB112_Caliban_track_MISC.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB112_Caliban_track_MISC.astc.pvr.dvpl",
+          "sha256": "788adaf5d1e849ba0303ed01bc1e23ce6cefe4dda11446e839f02c6941f75627"
+        },
+        {
+          "reference": "images_pbr/GB112_Caliban_track_NM.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB112_Caliban_track_NM.astc.pvr.dvpl",
+          "sha256": "ea3cbb2b31deb77ef27786cd0cd867d6930777832c3467b29e5aa9ce1ec4e7cc"
+        },
+        {
+          "reference": "images_pbr/GB112_Caliban_track_RM.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB112_Caliban_track_RM.astc.pvr.dvpl",
+          "sha256": "95837e6999e435c48b30040af03c3ef42ad9a2a66f4b188a4b1a346037d0fae3"
+        },
+        {
+          "reference": "images_pbr/GB83_FV4005_BC.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB83_FV4005_BC.astc.pvr.dvpl",
+          "sha256": "dcd13a825dc259376ee30a649117c7881136a0a72da99c6a872c8243fb15a1f5"
+        },
+        {
+          "reference": "images_pbr/GB83_FV4005_MASK.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB83_FV4005_MASK.astc.pvr.dvpl",
+          "sha256": "a53baf7c2e328c6dbfc0d1db8992aae45b3b695792553b411ba85e824a704c3d"
+        },
+        {
+          "reference": "images_pbr/GB83_FV4005_MISC.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB83_FV4005_MISC.astc.pvr.dvpl",
+          "sha256": "62dd94f7a3b7ccd1ac0c955febba6403551ee105546a14a9a4d7d0db01616754"
+        },
+        {
+          "reference": "images_pbr/GB83_FV4005_NM.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB83_FV4005_NM.astc.pvr.dvpl",
+          "sha256": "84e3bfd895b597d7acbe5308aef5e2103021034468846e9cadefae5f99562c2e"
+        },
+        {
+          "reference": "images_pbr/GB83_FV4005_RM.tex",
+          "source": "3d/Tanks/GB/images_pbr/GB83_FV4005_RM.astc.pvr.dvpl",
+          "sha256": "260aeb1acf32ebb590827334186ee17221c611aeefdb2c83230886205dddd5db"
+        }
+      ],
+      "parameter_source": "from_apk/3d/Tanks/Parameters/uk/GB83_4005.yaml",
+      "parameter_sha256": "3a8fe8960c83ac69ace1ec2faf831fc4598b204743dfe707c4e4f872d14d2c28",
+      "resources": {
+        "smallIconPath": "~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/british-4005",
+        "bigIconPath": "~res:/Gfx/UI/BigTankIcons/british-4005",
+        "carouselBackgroundImagePath": "",
+        "statisticBackgroundImagePath": "",
+        "favoriteBackgroundImagePath": "",
+        "blitzModelPath": "Tanks/GB/GB83_4005.sc2",
+        "collisionMesh": "CollisionMeshes/uk-GB83_4005.sc2",
+        "smokeEffectPath": "FX/smoke_tank_type_black_new_2.sc2",
+        "fireEffectPathAlive": "FX/SmokeFire_tank_movement_new.sc2",
+        "fireEffectPathDead": "FX/Fire_and_Smoke.sc2",
+        "engineSoundPC": "tanks/pc/engine/uk/ht",
+        "engineSoundNPC": "tanks/npc/engine/uk/ht",
+        "chassisSoundPC": "tanks/pc/treads/mt",
+        "chassisSoundNPC": "tanks/npc/treads/mt"
+      },
+      "scene_source": "3d/Tanks/GB/GB83_4005.sc2.dvpl",
+      "scene_sha256": "f1a37e10edfc564cd680c05fdd85892caa610dcdf8ec362625a3fe9fe22970ae",
+      "geometry_source": "3d/Tanks/GB/GB83_4005.scg.dvpl",
+      "geometry_sha256": "0e7187988787b13c87d588a7d0a24dd96328ccb8b9960c6e35e549a71a81b9e0",
+      "collision_source": "3d/Tanks/CollisionMeshes/uk-GB83_4005.sc2.dvpl",
+      "collision_sha256": "453b12f650e2813c4b08dda9b55d2d0217a3d41f52e2008d1b2f820b600f5a51",
+      "collision_geometry_source": "3d/Tanks/CollisionMeshes/uk-GB83_4005.scg.dvpl",
+      "collision_geometry_sha256": "6f84b3369fddc91f9a1f79099f951613319f6b65706bf1e2a3b8613aa7419b0a",
+      "modules": {
+        "turrets": [
+          "Turret_1_GB83_FV4005"
+        ],
+        "guns": [
+          "_123mm_OQF_Mk_2"
+        ],
+        "tracks": [
+          "Chassis_GB83_FV4005"
+        ],
+        "engines": [
+          "Rolls_Royce_Griffon_V8"
+        ],
+        "radios": [
+          "C45"
+        ]
+      },
+      "configurations": [
+        {
+          "turret": "Turret_1_GB83_FV4005",
+          "gun": "_123mm_OQF_Mk_2",
+          "turret_mesh": "turret_01",
+          "gun_mesh": "gun_01"
+        }
+      ],
+      "listing": {
+        "id": 70,
+        "level": 10,
+        "tags": [
+          "AT-SPG",
+          "heavyAT-SPG"
+        ],
+        "price_credits": 6100000
+      }
+    },
+    {
+      "nation": "european",
+      "vehicle_id": "It10_P43_bis",
+      "name": "it10_p43_bis",
+      "model_stem": "It10_P43_bis",
+      "scene": "3d/Tanks/European/It10_P43_bis.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/european-It10_P43_bis.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/european/It10_P43_bis.xml",
+      "xml_sha256": "a7596b4606781f8e90ec7bcf354e790932ffd7293ce57ab1d1819bfbc8b1120f",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/It10_P43_bis_CM.tex",
+          "source": "3d/Tanks/European/CamouflageMasks/It10_P43_bis_CM.astc.pvr.dvpl",
+          "sha256": "d6bfe0ab83d9b3cb9d4beacfeb655bf6b8bc63ece7109377cf39b7b4efccac52"
+        },
+        {
+          "reference": "images/It10_P43_bis.tex",
+          "source": "3d/Tanks/European/images/It10_P43_bis.astc.pvr.dvpl",
+          "sha256": "4758b7ac20ecaddd3c7f303585ade4379169a3463121d79ff5cbbfde970e30f1"
+        },
+        {
+          "reference": "images/It10_P43_bis_NM.tex",
+          "source": "3d/Tanks/European/images/It10_P43_bis_NM.astc.pvr.dvpl",
+          "sha256": "30ed980baf587d35120e06eaf7ecf473deef1420cc09c775f427b00095d7c4f2"
+        },
+        {
+          "reference": "images/It10_P43_bis_track.tex",
+          "source": "3d/Tanks/European/images/It10_P43_bis_track.astc.pvr.dvpl",
+          "sha256": "e8b8f70ea9d6353f6c3b9fcc5513554f1ae930f5614dca87f2dda959462f464f"
+        },
+        {
+          "reference": "images/It10_P43_bis_track_NM.tex",
+          "source": "3d/Tanks/European/images/It10_P43_bis_track_NM.astc.pvr.dvpl",
+          "sha256": "15479c44ca8291f2d4f8bfa974c9ad8de267e313207253830c3036c190a24f90"
+        }
+      ],
+      "parameter_source": "from_apk/3d/Tanks/Parameters/european/It10_P43_bis.yaml",
+      "parameter_sha256": "c55bff1f3b798a5439b50237841c39363fbb586e85bfadcbd148a41e096cf191",
+      "resources": {
+        "smallIconPath": "~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/european-It10_P43_bis",
+        "bigIconPath": "~res:/Gfx/UI/BigTankIcons/european-It10_P43_bis",
+        "carouselBackgroundImagePath": "",
+        "statisticBackgroundImagePath": "",
+        "favoriteBackgroundImagePath": "",
+        "blitzModelPath": "Tanks/European/It10_P43_bis.sc2",
+        "collisionMesh": "CollisionMeshes/european-It10_P43_bis.sc2",
+        "smokeEffectPath": "FX/smoke_tank_type_black_new_2.sc2",
+        "fireEffectPathAlive": "FX/SmokeFire_tank_movement_new.sc2",
+        "fireEffectPathDead": "FX/Fire_and_Smoke.sc2",
+        "engineSoundPC": "tanks/pc/engine/de/mt",
+        "engineSoundNPC": "tanks/npc/engine/de/mt",
+        "chassisSoundPC": "tanks/pc/treads/mt",
+        "chassisSoundNPC": "tanks/npc/treads/mt"
+      },
+      "scene_source": "3d/Tanks/European/It10_P43_bis.sc2.dvpl",
+      "scene_sha256": "bf96fc619e74dec09b7df534ce8b0c72f7c66e98e313bad390c32ec566565055",
+      "geometry_source": "3d/Tanks/European/It10_P43_bis.scg.dvpl",
+      "geometry_sha256": "553b8789907ab1ea330820f552d9ec6999912ce56cee04fd0a73f7eeb9755941",
+      "collision_source": "3d/Tanks/CollisionMeshes/european-It10_P43_bis.sc2.dvpl",
+      "collision_sha256": "cbbe11dc4e96c42e53044a5585e091e3420895bb2e62be552e63f0f23d6a734a",
+      "collision_geometry_source": "3d/Tanks/CollisionMeshes/european-It10_P43_bis.scg.dvpl",
+      "collision_geometry_sha256": "6dea6bc4248002b2f260ff548978f074b5b3f8df2a14955db30a8e39219c875b",
+      "modules": {
+        "turrets": [
+          "Turret_1_It10_P43_bis",
+          "Turret_2_It10_P43_bis"
+        ],
+        "guns": [
+          "_90mm_Cannone_da_50_Skoda",
+          "_90mm_Cannone_da_42"
+        ],
+        "tracks": [
+          "Chassis_It10_P43_bis",
+          "Chassis_It10_P43_bis_2"
+        ],
+        "engines": [
+          "SPA_242",
+          "SPA_343",
+          "V_2_34_modificato"
+        ],
+        "radios": [
+          "R_F_3_M_2"
+        ]
+      },
+      "configurations": [
+        {
+          "turret": "Turret_1_It10_P43_bis",
+          "gun": "_90mm_Cannone_da_50_Skoda",
+          "turret_mesh": "turret_01",
+          "gun_mesh": "gun_01"
+        },
+        {
+          "turret": "Turret_2_It10_P43_bis",
+          "gun": "_90mm_Cannone_da_50_Skoda",
+          "turret_mesh": "turret_02",
+          "gun_mesh": "gun_02"
+        },
+        {
+          "turret": "Turret_2_It10_P43_bis",
+          "gun": "_90mm_Cannone_da_42",
+          "turret_mesh": "turret_02",
+          "gun_mesh": "gun_03"
+        }
+      ],
+      "listing": {
+        "id": 5,
+        "level": 6,
+        "tags": [
+          "mediumTank"
+        ],
+        "price_credits": 920000
+      }
+    },
+    {
+      "nation": "european",
+      "vehicle_id": "It09_P43_ter",
+      "name": "it09_p43_ter",
+      "model_stem": "P43_ter",
+      "scene": "3d/Tanks/European/P43_ter.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/european-It09_P43_ter.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/european/It09_P43_ter.xml",
+      "xml_sha256": "84eec069f51ff7f05aac65fa631004beb1c59b86f5164f04ad10ca74e88f7437",
+      "textures": [
+        {
+          "reference": "../USSR/images/T-34_track.tex",
+          "source": "3d/Tanks/USSR/images/T-34_track.astc.pvr.dvpl",
+          "sha256": "06be8fdd088e248b7d5719a7c625337240f0cf3cfded7a0bc3b161ef0092f6ac"
+        },
+        {
+          "reference": "../USSR/images/T-34_track_NM.tex",
+          "source": "3d/Tanks/USSR/images/T-34_track_NM.astc.pvr.dvpl",
+          "sha256": "862614762bae65ca86f99308ef9fc5d10419d32d6d6e7849bc1eafee62241796"
+        },
+        {
+          "reference": "CamouflageMasks/P43_ter_CM.tex",
+          "source": "3d/Tanks/European/CamouflageMasks/P43_ter_CM.astc.pvr.dvpl",
+          "sha256": "ba6726bef965b888487238218bc7300ba7f392ca3282d9b04ae7b0b893c6cce7"
+        },
+        {
+          "reference": "images/P43_ter.tex",
+          "source": "3d/Tanks/European/images/P43_ter.astc.pvr.dvpl",
+          "sha256": "31fa9a049af4e694f2d3aa4d6094fcbe56c2c296bb255869fa3ded4f1119b01f"
+        },
+        {
+          "reference": "images/P43_ter_NM.tex",
+          "source": "3d/Tanks/European/images/P43_ter_NM.astc.pvr.dvpl",
+          "sha256": "60678788ae0fb9e7fe4a4b069bea89fc3db41146ac65f53eb7e29e2b3774f04a"
+        }
+      ],
+      "parameter_source": "from_apk/3d/Tanks/Parameters/european/It09_P43_ter.yaml",
+      "parameter_sha256": "45766074b8fddaaa66b41db9fe98dd367392a501f7316e00d50af1ccc81597c8",
+      "resources": {
+        "smallIconPath": "~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/european-P43_ter",
+        "bigIconPath": "~res:/Gfx/UI/BigTankIcons/european-P43_ter",
+        "carouselBackgroundImagePath": "",
+        "statisticBackgroundImagePath": "",
+        "favoriteBackgroundImagePath": "",
+        "blitzModelPath": "Tanks/European/P43_ter.sc2",
+        "collisionMesh": "CollisionMeshes/european-It09_P43_ter.sc2",
+        "smokeEffectPath": "FX/smoke_tank_type_black_new_2.sc2",
+        "fireEffectPathAlive": "FX/SmokeFire_tank_movement_new.sc2",
+        "fireEffectPathDead": "FX/Fire_and_Smoke.sc2",
+        "engineSoundPC": "tanks/pc/engine/de/mt",
+        "engineSoundNPC": "tanks/npc/engine/de/mt",
+        "chassisSoundPC": "tanks/pc/treads/mt",
+        "chassisSoundNPC": "tanks/npc/treads/mt"
+      },
+      "scene_source": "3d/Tanks/European/P43_ter.sc2.dvpl",
+      "scene_sha256": "1a7b0f7e002f8e942061a84ff65b7693ca8decb5afbb01ba107620ba711ee002",
+      "geometry_source": "3d/Tanks/European/P43_ter.scg.dvpl",
+      "geometry_sha256": "512ea855f3f4d7b2a9ace6af8ea6556da5f2961720633d6b13f801848c215bab",
+      "collision_source": "3d/Tanks/CollisionMeshes/european-It09_P43_ter.sc2.dvpl",
+      "collision_sha256": "e385ec012c2f2a9ba8402b2282b9a51a2a6645086e2a5a9da55033df3f822de1",
+      "collision_geometry_source": "3d/Tanks/CollisionMeshes/european-It09_P43_ter.scg.dvpl",
+      "collision_geometry_sha256": "797074a7a1d973bf332ca15bb707a6fe147cc13481061708b78d2fd17589dda2",
+      "modules": {
+        "turrets": [
+          "Turret_1_It09_P43_ter",
+          "Turret_2_It09_P43_ter"
+        ],
+        "guns": [
+          "_90mm_Cannone_da_42",
+          "_90mm_Cannone_da_53"
+        ],
+        "tracks": [
+          "Chassis_It09_P43_ter",
+          "Chassis_It09_P43_ter_2"
+        ],
+        "engines": [
+          "SPA_343",
+          "V_2_34_modificato",
+          "SPA_344"
+        ],
+        "radios": [
+          "R_F_4_M"
+        ]
+      },
+      "configurations": [
+        {
+          "turret": "Turret_1_It09_P43_ter",
+          "gun": "_90mm_Cannone_da_42",
+          "turret_mesh": "turret_01",
+          "gun_mesh": "gun_01"
+        },
+        {
+          "turret": "Turret_2_It09_P43_ter",
+          "gun": "_90mm_Cannone_da_42",
+          "turret_mesh": "turret_02",
+          "gun_mesh": "gun_02"
+        },
+        {
+          "turret": "Turret_2_It09_P43_ter",
+          "gun": "_90mm_Cannone_da_53",
+          "turret_mesh": "turret_02",
+          "gun_mesh": "gun_03"
+        }
+      ],
+      "listing": {
+        "id": 4,
+        "level": 7,
+        "tags": [
+          "mediumTank"
+        ],
+        "price_credits": 1420000
+      }
+    },
+    {
+      "nation": "european",
+      "vehicle_id": "It14_P44_Pantera",
+      "name": "it14_p44_pantera",
+      "model_stem": "P44_Pantera",
+      "scene": "3d/Tanks/European/P44_Pantera.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/european-It14_P44_Pantera.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/european/It14_P44_Pantera.xml",
+      "xml_sha256": "b40475c6cab7b0bcc94a352f46fb48ee44c4f74c5e936446352a141534285e9d",
+      "textures": [
+        {
+          "reference": "../USSR/images/T44_85_track.tex",
+          "source": "from_apk/3d/Tanks/USSR/images/T44_85_track.astc.pvr",
+          "sha256": "ac37f1e4203554786d92a67d7f408386c23e116d908f007aa587f8018e5d4431"
+        },
+        {
+          "reference": "../USSR/images/T44_85_track_NM.tex",
+          "source": "from_apk/3d/Tanks/USSR/images/T44_85_track_NM.astc.pvr",
+          "sha256": "8c794a5a2a8dff851d7d79ab1bfe419a064a9cdc184a911eaee990872b52338a"
+        },
+        {
+          "reference": "../USSR/images_pbr/T44_85_track_BC.tex",
+          "source": "3d/Tanks/USSR/images_pbr/T44_85_track_BC.astc.pvr.dvpl",
+          "sha256": "f2ba2be943e2cf1ca51570a15c6a2168b3264ccfdffa214268c1c772ef46d905"
+        },
+        {
+          "reference": "../USSR/images_pbr/T44_85_track_MASK.tex",
+          "source": "3d/Tanks/USSR/images_pbr/T44_85_track_MASK.astc.pvr.dvpl",
+          "sha256": "c062964acedfca84c30745c63fe01746f1b666ea2dd648719ae6ab460984105e"
+        },
+        {
+          "reference": "../USSR/images_pbr/T44_85_track_MISC.tex",
+          "source": "3d/Tanks/USSR/images_pbr/T44_85_track_MISC.astc.pvr.dvpl",
+          "sha256": "7eca15f5a878d175bd12114f5e073a86fabfa5ffdddd0730e3de3c78f98be29d"
+        },
+        {
+          "reference": "../USSR/images_pbr/T44_85_track_NM.tex",
+          "source": "3d/Tanks/USSR/images_pbr/T44_85_track_NM.astc.pvr.dvpl",
+          "sha256": "50c91ac28edab0139f2d1f9f0e11a2f29f7854bdefc1ba487ceb4b4918ae5f5e"
+        },
+        {
+          "reference": "../USSR/images_pbr/T44_85_track_RM.tex",
+          "source": "3d/Tanks/USSR/images_pbr/T44_85_track_RM.astc.pvr.dvpl",
+          "sha256": "ee678fd265ee644b891c8457e4a070070a1f4465e499010d7feeba400251823a"
+        },
+        {
+          "reference": "CamouflageMasks/P44_Pantera_CM.tex",
+          "source": "3d/Tanks/European/CamouflageMasks/P44_Pantera_CM.astc.pvr.dvpl",
+          "sha256": "983f84f0c5428b2c96b0f8ee51d24c4d25ffa8140641e51592829cfbf93963da"
+        },
+        {
+          "reference": "images/P44_Pantera.tex",
+          "source": "3d/Tanks/European/images/P44_Pantera.astc.pvr.dvpl",
+          "sha256": "94b6cfde87408ece3d33d605ac838eedd4fbc2d19533ae56cc94750b616a4fe7"
+        },
+        {
+          "reference": "images/P44_Pantera_NM.tex",
+          "source": "3d/Tanks/European/images/P44_Pantera_NM.astc.pvr.dvpl",
+          "sha256": "51fbc7f2f88651c77804d7980bbe4fd8dfe91db5fef82f1da990d336c29207ff"
+        },
+        {
+          "reference": "images_pbr/It14_P44_Pantera_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/It14_P44_Pantera_BC.astc.pvr.dvpl",
+          "sha256": "5b6284e2ed3643706ca76d33038d25ccc822d725af9b5cefa95dc12b6bbbe3ff"
+        },
+        {
+          "reference": "images_pbr/It14_P44_Pantera_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/It14_P44_Pantera_MASK.astc.pvr.dvpl",
+          "sha256": "a2b4fef881781edfdf12a995ad169bc2faf48669a44e1c27750991d5c13306ce"
+        },
+        {
+          "reference": "images_pbr/It14_P44_Pantera_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/It14_P44_Pantera_MISC.astc.pvr.dvpl",
+          "sha256": "42549b05c501b041230834bfdd69ad2453b469c4283f8e445aa5a2485107ea3c"
+        },
+        {
+          "reference": "images_pbr/It14_P44_Pantera_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/It14_P44_Pantera_NM.astc.pvr.dvpl",
+          "sha256": "a2c4913366b3329610b8028d09a7bbfab280f43c3e2200257185ea048b9a7044"
+        },
+        {
+          "reference": "images_pbr/It14_P44_Pantera_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/It14_P44_Pantera_RM.astc.pvr.dvpl",
+          "sha256": "8071e7656aef004922a93cb9d961ba6d8bd10f532f625395431806f5f55be6f4"
+        }
+      ],
+      "parameter_source": "from_apk/3d/Tanks/Parameters/european/It14_P44_Pantera.yaml",
+      "parameter_sha256": "b311ef1024b036269490954646527058c785a40d2a47f8e5902c9e0266c2ddda",
+      "resources": {
+        "smallIconPath": "~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/european-It14_P44_Pantera",
+        "bigIconPath": "~res:/Gfx/UI/BigTankIcons/european-It14_P44_Pantera",
+        "carouselBackgroundImagePath": "",
+        "statisticBackgroundImagePath": "",
+        "favoriteBackgroundImagePath": "",
+        "blitzModelPath": "Tanks/European/P44_Pantera.sc2",
+        "collisionMesh": "CollisionMeshes/european-It14_P44_Pantera.sc2",
+        "smokeEffectPath": "FX/smoke_tank_type_black_new_2.sc2",
+        "fireEffectPathAlive": "FX/SmokeFire_tank_movement_new.sc2",
+        "fireEffectPathDead": "FX/Fire_and_Smoke.sc2",
+        "engineSoundPC": "tanks/pc/engine/de/mt",
+        "engineSoundNPC": "tanks/npc/engine/de/mt",
+        "chassisSoundPC": "tanks/pc/treads/mt",
+        "chassisSoundNPC": "tanks/npc/treads/mt"
+      },
+      "scene_source": "3d/Tanks/European/P44_Pantera.sc2.dvpl",
+      "scene_sha256": "5dd4f7a1485958450a00f6d57001c0d799b61d7bd73e581c167a1c981c82e686",
+      "geometry_source": "3d/Tanks/European/P44_Pantera.scg.dvpl",
+      "geometry_sha256": "10048595f5d152cf06fe79c0f3ae803262455e4e29b0f41ed4e40ce446b1c047",
+      "collision_source": "3d/Tanks/CollisionMeshes/european-It14_P44_Pantera.sc2.dvpl",
+      "collision_sha256": "894236ca0ae5f324514aa223156f80391f687227b3815464edadd7a47f78de95",
+      "collision_geometry_source": "3d/Tanks/CollisionMeshes/european-It14_P44_Pantera.scg.dvpl",
+      "collision_geometry_sha256": "dd04c1f8943e8a0251fd13577b4a637e9bb74ae1c05d93ce213e28161655fbae",
+      "modules": {
+        "turrets": [
+          "Turret_1_It14_P44_Pantera",
+          "Turret_2_It14_P44_Pantera"
+        ],
+        "guns": [
+          "_90mm_Cannone_da_53",
+          "_90mm_Cannone_da_74"
+        ],
+        "tracks": [
+          "Chassis_It14_P44_Pantera",
+          "Chassis_It14_P44_Pantera_2"
+        ],
+        "engines": [
+          "SPA_344",
+          "Alfa_RA1000I_C_A",
+          "FIAT_RA1050I_C_A"
+        ],
+        "radios": [
+          "R_F_4_M"
+        ]
+      },
+      "configurations": [
+        {
+          "turret": "Turret_1_It14_P44_Pantera",
+          "gun": "_90mm_Cannone_da_53",
+          "turret_mesh": "turret_01",
+          "gun_mesh": "gun_01"
+        },
+        {
+          "turret": "Turret_2_It14_P44_Pantera",
+          "gun": "_90mm_Cannone_da_53",
+          "turret_mesh": "turret_02",
+          "gun_mesh": "gun_03"
+        },
+        {
+          "turret": "Turret_2_It14_P44_Pantera",
+          "gun": "_90mm_Cannone_da_74",
+          "turret_mesh": "turret_02",
+          "gun_mesh": "gun_04"
+        }
+      ],
+      "listing": {
+        "id": 3,
+        "level": 8,
+        "tags": [
+          "mediumTank"
+        ],
+        "price_credits": 2410000
+      }
+    },
+    {
+      "nation": "european",
+      "vehicle_id": "It12_Prototipo_Standard_B",
+      "name": "it12_prototipo_standard_b",
+      "model_stem": "It12_Prototipo_Standard_B",
+      "scene": "3d/Tanks/European/It12_Prototipo_Standard_B.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/european-It12_Prototipo_Standard_B.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/european/It12_Prototipo_Standard_B.xml",
+      "xml_sha256": "fd7dc9ed268e8d67bbd10d6595e97fd855dc9a8b94edd5fbe565843bec35dfa5",
+      "textures": [
+        {
+          "reference": "CamouflageMasks/Prototipo_Standard_B_CM.tex",
+          "source": "3d/Tanks/European/CamouflageMasks/Prototipo_Standard_B_CM.astc.pvr.dvpl",
+          "sha256": "7664ddae4751a387ced075243f2d0f5a8452fb1ad58ff54d3e41b27d5a9f20b7"
+        },
+        {
+          "reference": "images/Prototipo_Standard_B.tex",
+          "source": "3d/Tanks/European/images/Prototipo_Standard_B.astc.pvr.dvpl",
+          "sha256": "b6326d840ad94e63c125473a1e6281e83c90cc87e4c9f91a7dccf47aed877211"
+        },
+        {
+          "reference": "images/Prototipo_Standard_B_NM.tex",
+          "source": "3d/Tanks/European/images/Prototipo_Standard_B_NM.astc.pvr.dvpl",
+          "sha256": "12ca1d4e9dcdc5fd7b8626f31559403bfbb43fc13e3f5c5bf2b9cc40cc7b56b0"
+        },
+        {
+          "reference": "images/Prototipo_Standard_B_track.tex",
+          "source": "3d/Tanks/European/images/Prototipo_Standard_B_track.astc.pvr.dvpl",
+          "sha256": "b2dfcff30bbab1756f41527e598d6101431070369a1b5ea2b62e1b86839a053c"
+        },
+        {
+          "reference": "images/Prototipo_Standard_B_track_NM.tex",
+          "source": "3d/Tanks/European/images/Prototipo_Standard_B_track_NM.astc.pvr.dvpl",
+          "sha256": "ecf3aa52cb45c467f5c8b9c81c44fc106c7b9d8246fedc374cf59379f649959d"
+        },
+        {
+          "reference": "images_pbr/Prototipo_Standard_B_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/Prototipo_Standard_B_BC.astc.pvr.dvpl",
+          "sha256": "1343c2772ea8ecb41ec6cabc13984d8cf2fef1279799431fd834635d08781b11"
+        },
+        {
+          "reference": "images_pbr/Prototipo_Standard_B_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/Prototipo_Standard_B_MASK.astc.pvr.dvpl",
+          "sha256": "b5c1a4643606eef6fb538a9a8fb5874aef58a217a3c87175a19353108b8c89a3"
+        },
+        {
+          "reference": "images_pbr/Prototipo_Standard_B_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/Prototipo_Standard_B_MISC.astc.pvr.dvpl",
+          "sha256": "1ee1943ba1538a4cb9f251b01ca21ddc2db8d683bd25336d65a754f777718fd7"
+        },
+        {
+          "reference": "images_pbr/Prototipo_Standard_B_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/Prototipo_Standard_B_NM.astc.pvr.dvpl",
+          "sha256": "300b395c47d8e2af7c9c1b971bb8eaa44be31e740852de525836e40f1dfb565f"
+        },
+        {
+          "reference": "images_pbr/Prototipo_Standard_B_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/Prototipo_Standard_B_RM.astc.pvr.dvpl",
+          "sha256": "b3617a6ab3000f2ea998e903cd7884394c43dfd4c11f27171dd688293cc59a01"
+        },
+        {
+          "reference": "images_pbr/Prototipo_Standard_B_track_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/Prototipo_Standard_B_track_BC.astc.pvr.dvpl",
+          "sha256": "5a2aa260b2b55c428497aa343648d89942b618ac7c6becb5631f1997875db774"
+        },
+        {
+          "reference": "images_pbr/Prototipo_Standard_B_track_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/Prototipo_Standard_B_track_MASK.astc.pvr.dvpl",
+          "sha256": "544172cc5c9d4e265a001794334c74d5591c3965aaa8e0eb37765ed7ffbb7601"
+        },
+        {
+          "reference": "images_pbr/Prototipo_Standard_B_track_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/Prototipo_Standard_B_track_MISC.astc.pvr.dvpl",
+          "sha256": "9a5519f95640f5d0f510b432aae6c85a456e8cf524ab7095d071fbb98af975bf"
+        },
+        {
+          "reference": "images_pbr/Prototipo_Standard_B_track_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/Prototipo_Standard_B_track_NM.astc.pvr.dvpl",
+          "sha256": "a13790508e84d6c4c93cd9175e86ecd1bd34ef82cbbeea0c28867cdd71034ad7"
+        },
+        {
+          "reference": "images_pbr/Prototipo_Standard_B_track_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/Prototipo_Standard_B_track_RM.astc.pvr.dvpl",
+          "sha256": "42cb7f8b311d45ccac1e9732f39bbe49b6dfccc32745139fc5d0ce8d549b24ee"
+        }
+      ],
+      "parameter_source": "from_apk/3d/Tanks/Parameters/european/It12_Prototipo_Standard_B.yaml",
+      "parameter_sha256": "5e0299c365ac40a4196f30492d93e447b292edcde589d957f702db59289153c1",
+      "resources": {
+        "smallIconPath": "~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/european-It12_Prototipo_Standard_B",
+        "bigIconPath": "~res:/Gfx/UI/BigTankIcons/european-It12_Prototipo_Standard_B",
+        "carouselBackgroundImagePath": "",
+        "statisticBackgroundImagePath": "",
+        "favoriteBackgroundImagePath": "",
+        "blitzModelPath": "Tanks/European/It12_Prototipo_Standard_B.sc2",
+        "collisionMesh": "CollisionMeshes/european-It12_Prototipo_Standard_B.sc2",
+        "smokeEffectPath": "FX/smoke_tank_type_black_new_2.sc2",
+        "fireEffectPathAlive": "FX/SmokeFire_tank_movement_new.sc2",
+        "fireEffectPathDead": "FX/Fire_and_Smoke.sc2",
+        "engineSoundPC": "tanks/pc/engine/de/mt",
+        "engineSoundNPC": "tanks/npc/engine/de/mt",
+        "chassisSoundPC": "tanks/pc/treads/mt",
+        "chassisSoundNPC": "tanks/npc/treads/mt"
+      },
+      "scene_source": "3d/Tanks/European/It12_Prototipo_Standard_B.sc2.dvpl",
+      "scene_sha256": "f8df93f67704a8c9068bfc139f6e3bf0e1493bc9756dbe63db07e2fc14ebc983",
+      "geometry_source": "3d/Tanks/European/It12_Prototipo_Standard_B.scg.dvpl",
+      "geometry_sha256": "b00fb7e62bc106be847216b95ac3d3abb0aa03742e41aaa667b8f6cf3bbd7c66",
+      "collision_source": "3d/Tanks/CollisionMeshes/european-It12_Prototipo_Standard_B.sc2.dvpl",
+      "collision_sha256": "05bc1c2560c68189728fbafd81f476ee11371b2de6caed08cd68a921a0e351d1",
+      "collision_geometry_source": "3d/Tanks/CollisionMeshes/european-It12_Prototipo_Standard_B.scg.dvpl",
+      "collision_geometry_sha256": "6e389354d723a4a18ef0b51e4c6564b0f754504de81bcd7da92d4c4b0ba3ffa9",
+      "modules": {
+        "turrets": [
+          "Turret_1_It12_Prototipo_Standard_B",
+          "Turret_2_It12_Prototipo_Standard_B"
+        ],
+        "guns": [
+          "_90mm_Cannone_da_Rh",
+          "_105mm_Cannone_da_Rh_V1"
+        ],
+        "tracks": [
+          "Chassis_It12_Prototipo_Standard_B",
+          "Chassis_It12_Prototipo_Standard_B_2"
+        ],
+        "engines": [
+          "MB_837_Aa",
+          "MB_837_Ea"
+        ],
+        "radios": [
+          "RV_4"
+        ]
+      },
+      "configurations": [
+        {
+          "turret": "Turret_1_It12_Prototipo_Standard_B",
+          "gun": "_90mm_Cannone_da_Rh",
+          "turret_mesh": "turret_01",
+          "gun_mesh": "gun_01"
+        },
+        {
+          "turret": "Turret_2_It12_Prototipo_Standard_B",
+          "gun": "_90mm_Cannone_da_Rh",
+          "turret_mesh": "turret_02",
+          "gun_mesh": "gun_03"
+        },
+        {
+          "turret": "Turret_2_It12_Prototipo_Standard_B",
+          "gun": "_105mm_Cannone_da_Rh_V1",
+          "turret_mesh": "turret_02",
+          "gun_mesh": "gun_04"
+        }
+      ],
+      "listing": {
+        "id": 2,
+        "level": 9,
+        "tags": [
+          "mediumTank"
+        ],
+        "price_credits": 3480000
+      }
+    },
+    {
+      "nation": "european",
+      "vehicle_id": "It08_Progetto_M40_mod65",
+      "name": "it08_progetto_m40_mod65",
+      "model_stem": "It08_Progetto_M40_mod_65",
+      "scene": "3d/Tanks/European/It08_Progetto_M40_mod_65.sc2",
+      "collision": "3d/Tanks/CollisionMeshes/european-It08_Progetto_M40_mod65.sc2",
+      "xml_source": "from_apk/XML/item_defs/vehicles/european/It08_Progetto_M40_mod65.xml",
+      "xml_sha256": "376e0cfd0e6aee2bd738be7dbc9982933c1c30552b691af836ecebce4a09c313",
+      "textures": [
+        {
+          "reference": "../USA/images/A125_AEP_1_track.tex",
+          "source": "3d/Tanks/USA/images/A125_AEP_1_track.astc.pvr.dvpl",
+          "sha256": "67c7a295e95b1fd481e1b55ff9452c11dd5b6973d854af1ca09fc767e480bb73"
+        },
+        {
+          "reference": "../USA/images/A125_AEP_1_track_NM.tex",
+          "source": "3d/Tanks/USA/images/A125_AEP_1_track_NM.astc.pvr.dvpl",
+          "sha256": "7747d885fc47bf5ff4b373f2802fc80eff21e5f7a59fe2c55c58ac237327f0ad"
+        },
+        {
+          "reference": "../USA/images_pbr/A125_AEP_1_track_BC.tex",
+          "source": "3d/Tanks/USA/images_pbr/A125_AEP_1_track_BC.astc.pvr.dvpl",
+          "sha256": "a82ab369e04660d25ba2293b4c45d606bbe629125d4446f548e90d5544a25790"
+        },
+        {
+          "reference": "../USA/images_pbr/A125_AEP_1_track_MASK.tex",
+          "source": "3d/Tanks/USA/images_pbr/A125_AEP_1_track_MASK.astc.pvr.dvpl",
+          "sha256": "3b306ec7f239157de4abf85918f0efdc5cda2b1e619ddcef0823e3c18bf71da5"
+        },
+        {
+          "reference": "../USA/images_pbr/A125_AEP_1_track_MISC.tex",
+          "source": "3d/Tanks/USA/images_pbr/A125_AEP_1_track_MISC.astc.pvr.dvpl",
+          "sha256": "c60240d1eff3a42ab487bba907d8a2539c823ed711c6ff37d72b4b5b4e72783f"
+        },
+        {
+          "reference": "../USA/images_pbr/A125_AEP_1_track_NM.tex",
+          "source": "3d/Tanks/USA/images_pbr/A125_AEP_1_track_NM.astc.pvr.dvpl",
+          "sha256": "700c36ea30998c376ba7d3ac914195ee9ad92c053631f1d4e955bfb74565fb9b"
+        },
+        {
+          "reference": "../USA/images_pbr/A125_AEP_1_track_RM.tex",
+          "source": "3d/Tanks/USA/images_pbr/A125_AEP_1_track_RM.astc.pvr.dvpl",
+          "sha256": "8caff3eec2d83f41e33ab503ac2e6650e0c9c2cf64b19ac1df215ef6b532ba03"
+        },
+        {
+          "reference": "CamouflageMasks/It08_Progetto_M40_mod_65_CM.tex",
+          "source": "3d/Tanks/European/CamouflageMasks/It08_Progetto_M40_mod_65_CM.astc.pvr.dvpl",
+          "sha256": "d44cd68cc3936cd50f0abf2537bd826401ea5e24d4e2140f4dbead0af1374763"
+        },
+        {
+          "reference": "images/It08_Progetto_M40_mod_65.tex",
+          "source": "3d/Tanks/European/images/It08_Progetto_M40_mod_65.astc.pvr.dvpl",
+          "sha256": "909388784e5532bb9dc825b93932749fae7a9b609463eb9de9e7d3f7d5db3cd0"
+        },
+        {
+          "reference": "images/It08_Progetto_M40_mod_65_NM.tex",
+          "source": "3d/Tanks/European/images/It08_Progetto_M40_mod_65_NM.astc.pvr.dvpl",
+          "sha256": "65004608af863785849beeb3194bb604aa03ac07ca296964351598842c372a74"
+        },
+        {
+          "reference": "images_pbr/It08_Progetto_M40_mod_65_BC.tex",
+          "source": "3d/Tanks/European/images_pbr/It08_Progetto_M40_mod_65_BC.astc.pvr.dvpl",
+          "sha256": "7e60096076a13cdffd2347e41289860bf1bb45455667e8743021597f74a17344"
+        },
+        {
+          "reference": "images_pbr/It08_Progetto_M40_mod_65_MASK.tex",
+          "source": "3d/Tanks/European/images_pbr/It08_Progetto_M40_mod_65_MASK.astc.pvr.dvpl",
+          "sha256": "e3f4413343d818616e8df14c4f0c9fceb4542aa785bfcb555ecbb7064032abec"
+        },
+        {
+          "reference": "images_pbr/It08_Progetto_M40_mod_65_MISC.tex",
+          "source": "3d/Tanks/European/images_pbr/It08_Progetto_M40_mod_65_MISC.astc.pvr.dvpl",
+          "sha256": "c79de329621fca6e77d9ed0041adbdd5002ffa9cd49ac90c188f21e46672200f"
+        },
+        {
+          "reference": "images_pbr/It08_Progetto_M40_mod_65_NM.tex",
+          "source": "3d/Tanks/European/images_pbr/It08_Progetto_M40_mod_65_NM.astc.pvr.dvpl",
+          "sha256": "da703402ab264f8bc76c36e404a3d63c578196cf7ef432b0964f0b272f045fba"
+        },
+        {
+          "reference": "images_pbr/It08_Progetto_M40_mod_65_RM.tex",
+          "source": "3d/Tanks/European/images_pbr/It08_Progetto_M40_mod_65_RM.astc.pvr.dvpl",
+          "sha256": "f3b5433c0438482893d4234b5510de27c9b46457259b5b0ccb036e56026b6598"
+        }
+      ],
+      "parameter_source": "from_apk/3d/Tanks/Parameters/european/It08_Progetto_M40_mod65.yaml",
+      "parameter_sha256": "50c9901fcb6e34ffb403a2d8300e9b9c96bda4902aef5147bf7ce34adc2212f2",
+      "resources": {
+        "smallIconPath": "~res:/Gfx/UI/BattleScreenHUD/SmallTankIcons/european-It08_Progetto_M40_mod65",
+        "bigIconPath": "~res:/Gfx/UI/BigTankIcons/european-It08_Progetto_M40_mod65",
+        "carouselBackgroundImagePath": "",
+        "statisticBackgroundImagePath": "",
+        "favoriteBackgroundImagePath": "",
+        "blitzModelPath": "Tanks/European/It08_Progetto_M40_mod_65.sc2",
+        "collisionMesh": "CollisionMeshes/european-It08_Progetto_M40_mod65.sc2",
+        "smokeEffectPath": "FX/smoke_tank_type_black_new_2.sc2",
+        "fireEffectPathAlive": "FX/SmokeFire_tank_movement_new.sc2",
+        "fireEffectPathDead": "FX/Fire_and_Smoke.sc2",
+        "engineSoundPC": "tanks/pc/engine/de/mt",
+        "engineSoundNPC": "tanks/npc/engine/de/mt",
+        "chassisSoundPC": "tanks/pc/treads/mt",
+        "chassisSoundNPC": "tanks/npc/treads/mt"
+      },
+      "scene_source": "3d/Tanks/European/It08_Progetto_M40_mod_65.sc2.dvpl",
+      "scene_sha256": "8ba66ce0b3e6814d4e90625ccc09b35391baaad6e70e96f91d27939fc2c52fd1",
+      "geometry_source": "3d/Tanks/European/It08_Progetto_M40_mod_65.scg.dvpl",
+      "geometry_sha256": "cb76cb6bdb71a5bf11f474cfc882ad4931da7dc3d59f5c7854c15ece03fbe800",
+      "collision_source": "3d/Tanks/CollisionMeshes/european-It08_Progetto_M40_mod65.sc2.dvpl",
+      "collision_sha256": "5240c3a4aeb925b75f258cd6ac5f0593cd68e00051736d426fb78bfb02c053c8",
+      "collision_geometry_source": "3d/Tanks/CollisionMeshes/european-It08_Progetto_M40_mod65.scg.dvpl",
+      "collision_geometry_sha256": "dc13a063b322fb139df1a5a9c17a4d0b97047b65f66fc562a3b32a05b7ae994f",
+      "modules": {
+        "turrets": [
+          "Turret_1_It08_Progetto_M40_mod_65"
+        ],
+        "guns": [
+          "Cannone_da_105_51_M68"
+        ],
+        "tracks": [
+          "Chassis_It08_Progetto_M40_mod_65"
+        ],
+        "engines": [
+          "Mitsubishi_10ZF"
+        ],
+        "radios": [
+          "N19Mk3"
+        ]
+      },
+      "configurations": [
+        {
+          "turret": "Turret_1_It08_Progetto_M40_mod_65",
+          "gun": "Cannone_da_105_51_M68",
+          "turret_mesh": "turret_01",
+          "gun_mesh": "gun_01"
+        }
+      ],
+      "listing": {
+        "id": 1,
+        "level": 10,
+        "tags": [
+          "mediumTank"
+        ],
+        "price_credits": 6100000
+      }
+    }
+  ],
+  "totals": {
+    "turrets": 14,
+    "guns": 16,
+    "tracks": 16,
+    "engines": 19,
+    "radios": 9
+  },
+  "configurations": 21
+}

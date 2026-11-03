@@ -1,0 +1,575 @@
+{
+  "tracks": [
+    {
+      "id": "main_theme",
+      "artist": "Arknights OST",
+      "title": "Main Theme",
+      "source": "[Arknights OST] - Main theme.mp3",
+      "default": true
+    },
+    {
+      "id": "revenge_extended",
+      "artist": "1HXSX, wnorg17",
+      "title": "Revenge (Extended)",
+      "source": "1HXSX, wnorg17 - Revenge (Extended).mp3"
+    },
+    {
+      "id": "paparazzi_dubstep",
+      "artist": "Alximo",
+      "title": "Paparazzi (Dubstep)",
+      "source": "Alximo - Paparazzi (Dubstep).mp3"
+    },
+    {
+      "id": "blackness_in_memory",
+      "artist": "Ansoku the Maid",
+      "title": "Blackness in Memory",
+      "source": "Ansoku the Maid - Blackness in Memory.mp3"
+    },
+    {
+      "id": "corpse_dragging",
+      "artist": "anyutka",
+      "title": "Corpse Dragging",
+      "source": "anyutka - Corpse Dragging.mp3"
+    },
+    {
+      "id": "goodbye",
+      "artist": "anyutka",
+      "title": "Goodbye",
+      "source": "anyutka - Goodbye.mp3"
+    },
+    {
+      "id": "tos",
+      "artist": "anyutka",
+      "title": "Tos",
+      "source": "anyutka - Tos.mp3"
+    },
+    {
+      "id": "main_theme_of_the_site",
+      "artist": "Arknights: Endfield",
+      "title": "Main theme of the site",
+      "source": "Arknights Endfield - Main theme of the site.mp3"
+    },
+    {
+      "id": "we_are_empire",
+      "artist": "Arknights: Endfield",
+      "title": "We Are Empire",
+      "source": "Arknights Endfield - We Are Empire.mp3"
+    },
+    {
+      "id": "main_menu",
+      "artist": "Arknights: Endfield",
+      "title": "Main Menu",
+      "source": "Arknights_ Endfield - Main Menu.mp3"
+    },
+    {
+      "id": "endfield_ost",
+      "artist": "Arknights: Endfield",
+      "title": "OST",
+      "source": "Arknights_ Endfield - OST.mp3"
+    },
+    {
+      "id": "website_bgm_2",
+      "artist": "Arknights: Endfield",
+      "title": "Website BGM 2",
+      "source": "Arknights_ Endfield - Website BGM 2.mp3"
+    },
+    {
+      "id": "ash_like_snow",
+      "artist": "BiSH",
+      "title": "Ash Like Snow",
+      "source": "BiSH - Ash Like Snow (1).mp3"
+    },
+    {
+      "id": "reaper",
+      "artist": "Byakko The Maid",
+      "title": "Reaper",
+      "source": "Byakko The Maid - Reaper.mp3"
+    },
+    {
+      "id": "necronomicon",
+      "artist": "BƲɌƝØƲ†",
+      "title": "Necronomicon",
+      "source": "BƲɌƝØƲ† - Necronomicon.mp3"
+    },
+    {
+      "id": "death_is_the_way_to_life",
+      "artist": "Coupde7Grxce",
+      "title": "Death is the way to life",
+      "source": "Coupde7Grxce - Death is the way to life.mp3"
+    },
+    {
+      "id": "cyber_tears",
+      "artist": "Denis Lizar feat. Hatsune Miku",
+      "title": "Cyber Tears",
+      "source": "Denis Lizar feat. Hatsune Miku - Cyber Tears.mp3"
+    },
+    {
+      "id": "your_bunny_wrote",
+      "artist": "Dj Haval",
+      "title": "your bunny wrote",
+      "source": "Dj Haval - your bunny wrote.mp3"
+    },
+    {
+      "id": "sasayaki",
+      "artist": "DJ UNIVXRSEL",
+      "title": "Sasayaki",
+      "source": "DJ UNIVXRSEL - Sasayaki.mp3"
+    },
+    {
+      "id": "depressive_thoughts_before_bed",
+      "artist": "Dorei The Maid, Medoi The Maid",
+      "title": "Depressive Thoughts before Bed",
+      "source": "Dorei The Maid, Medoi The Maid - Depressive Thoughts before Bed.mp3"
+    },
+    {
+      "id": "be_me",
+      "artist": "Doul",
+      "title": "BE ME (Arknights Reimei Zensou ENDING)",
+      "source": "Doul (Прелюдия к рассвету эндинг) - BE ME (Arknights Reimei Zensou ENDING) (1).mp3"
+    },
+    {
+      "id": "take",
+      "artist": "dye",
+      "title": "taKe",
+      "source": "dye - taKe.mp3"
+    },
+    {
+      "id": "same_nightmare",
+      "artist": "EastNewSound",
+      "title": "Same Nightmare",
+      "source": "EastNewSound - Same Nightmare (1).mp3"
+    },
+    {
+      "id": "glad_your_tears_were_my_guiding_light",
+      "artist": "eikonn, mirror2heaven",
+      "title": "glad your tears were my guiding light",
+      "source": "eikonn, mirror2heaven - glad your tears were my guiding light.mp3"
+    },
+    {
+      "id": "shinkai",
+      "artist": "FLXWEROFF",
+      "title": "深海",
+      "source": "FLXWEROFF - 深海.mp3"
+    },
+    {
+      "id": "first_death",
+      "artist": "FXCESPLIT",
+      "title": "FIRST DEATH",
+      "source": "FXCESPLIT - FIRST DEATH.mp3"
+    },
+    {
+      "id": "lovely_sister_love",
+      "artist": "HTT (Image Song Ui Hirasawa)",
+      "title": "Lovely Sister LOVE",
+      "source": "HTT (Image Song Ui Hirasawa) - Lovely Sister LOVE.mp3"
+    },
+    {
+      "id": "samidare_20_love_23_houkago_mix_cassette",
+      "artist": "HTT",
+      "title": "Samidare 20 Love (#23 “Houkago!” Mix) (Cassette Mix)",
+      "source": "HTT - Samidare 20 Love (#23 “Houkago!” Mix) (Cassette Mix).mp3"
+    },
+    {
+      "id": "when_you_find_me",
+      "artist": "hzrxrd",
+      "title": "when you find me",
+      "source": "hzrxrd - when you find me.mp3"
+    },
+    {
+      "id": "crawling",
+      "artist": "i_believe_in_angels",
+      "title": "Crawling",
+      "source": "i_believe_in_angels - Crawling.mp3"
+    },
+    {
+      "id": "heaven",
+      "artist": "i_believe_in_angels",
+      "title": "Heaven",
+      "source": "i_believe_in_angels - Heaven.mp3"
+    },
+    {
+      "id": "in_the_pool",
+      "artist": "kensuke ushio",
+      "title": "in the pool",
+      "source": "kensuke ushio - in the pool.mp3"
+    },
+    {
+      "id": "matadora",
+      "artist": "Kickrix",
+      "title": "MATADORA (Niggerized)",
+      "source": "Kickrix - MATADORA (Niggerized).mp3"
+    },
+    {
+      "id": "the_fire_sleeps_quietly",
+      "artist": "Kikoe, Yumei The Maid",
+      "title": "The Fire Sleeps Quietly",
+      "source": "Kikoe, Yumei The Maid - The Fire Sleeps Quietly.mp3"
+    },
+    {
+      "id": "g0d_compl3x",
+      "artist": "Klaytov, ORB!TAL",
+      "title": "g0d compl3x",
+      "source": "Klaytov, ORB!TAL - g0d compl3x.mp3"
+    },
+    {
+      "id": "epic_slava_funk_2",
+      "artist": "KTNXZ, zphatGhxst",
+      "title": "EPIC SLAVA FUNK 2!",
+      "source": "KTNXZ, zphatGhxst - EPIC SLAVA FUNK 2!.mp3"
+    },
+    {
+      "id": "delete",
+      "artist": "Kuwanano",
+      "title": "Delete",
+      "source": "Kuwanano - Delete.mp3"
+    },
+    {
+      "id": "hitogata",
+      "artist": "lexycat",
+      "title": "ヒトガタ",
+      "source": "lexycat - ヒトガタ.mp3"
+    },
+    {
+      "id": "montagem_fearless_super_slowed",
+      "artist": "lirvie, DJ eu4oria, DJ FZ DA ZN, Matra!",
+      "title": "MONTAGEM FEARLESS (Super Slowed)",
+      "source": "lirvie, DJ eu4oria, DJ FZ DA ZN, Matra! - MONTAGEM FEARLESS (Super Slowed).mp3"
+    },
+    {
+      "id": "i_win",
+      "artist": "Madoi The Maid",
+      "title": "I WIN!",
+      "source": "Madoi The Maid - I WIN!.mp3"
+    },
+    {
+      "id": "wasuremono",
+      "artist": "Mafasj",
+      "title": "wasuremono",
+      "source": "Mafasj - wasuremono.mp3"
+    },
+    {
+      "id": "scytheworker",
+      "artist": "Medoi The Maid",
+      "title": "Scytheworker",
+      "source": "Medoi The Maid - Scytheworker.mp3"
+    },
+    {
+      "id": "violent_purple",
+      "artist": "Medoi The Maid",
+      "title": "Violent Purple",
+      "source": "Medoi The Maid - Violent Purple.mp3"
+    },
+    {
+      "id": "new_frontier",
+      "artist": "Metal Scar Radio, 10 KNIVES, Gold3n Ord3r",
+      "title": "New Frontier",
+      "source": "Metal Scar Radio;10 KNIVES;Gold3n Ord3r - New Frontier.mp3"
+    },
+    {
+      "id": "dont_you_feel_strange",
+      "artist": "MISFIRE",
+      "title": "don't you feel strange?",
+      "source": "MISFIRE - don't you feel strange_.mp3"
+    },
+    {
+      "id": "watashi_na_no_ka_na",
+      "artist": "Miyuki The Maid",
+      "title": "私なのかな",
+      "source": "Miyuki The Maid - 私なのかな.mp3"
+    },
+    {
+      "id": "void",
+      "artist": "Monster Siren Records",
+      "title": "Void_生命流",
+      "source": "Monster Siren Records - Void_生命流.mp3"
+    },
+    {
+      "id": "heavy_lies_the_crown",
+      "artist": "Moroi The Maid",
+      "title": "Heavy Lies the Crown",
+      "source": "Moroi The Maid - Heavy Lies the Crown.mp3"
+    },
+    {
+      "id": "know_less",
+      "artist": "MUPP",
+      "title": "know less",
+      "source": "MUPP - know less.mp3"
+    },
+    {
+      "id": "where_i_go",
+      "artist": "NewDad",
+      "title": "Where I Go",
+      "source": "NewDad - Where I Go.mp3"
+    },
+    {
+      "id": "starfall",
+      "artist": "NoAki",
+      "title": "Starfall",
+      "source": "NoAki - Starfall.mp3"
+    },
+    {
+      "id": "haunted",
+      "artist": "nowayback",
+      "title": "haunted",
+      "source": "nowayback - haunted.mp3"
+    },
+    {
+      "id": "angelochek",
+      "artist": "onokami",
+      "title": "ангелочек (prod. u2me)",
+      "source": "onokami - ангелочек (prod. u2me).mp3"
+    },
+    {
+      "id": "femboychik",
+      "artist": "onokami",
+      "title": "Фембойчик (prod. by LIVING PUFF)",
+      "source": "onokami - Фембойчик (prod. by LIVING PUFF) (prod. by LIVING PUFF).mp3"
+    },
+    {
+      "id": "princess",
+      "artist": "Outdate Electro, lannarie",
+      "title": "Princess",
+      "source": "Outdate Electro, lannarie - Princess.mp3"
+    },
+    {
+      "id": "trust_me",
+      "artist": "Pandora",
+      "title": "Trust Me",
+      "source": "Pandora - Trust Me.mp3"
+    },
+    {
+      "id": "good_morning_vietnam",
+      "artist": "Paranoid Black Sabbath",
+      "title": "Good Morning Vietnam",
+      "source": "Paranoid Black Sabbath - Good Morning Vietnam.mp3"
+    },
+    {
+      "id": "destruction_og",
+      "artist": "ph HAISE",
+      "title": "Destruction Og",
+      "source": "ph HAISE - Destruction Og.mp3"
+    },
+    {
+      "id": "anxioplex",
+      "artist": "phantasm317",
+      "title": "anxioplex",
+      "source": "phantasm317 - anxioplex.mp3"
+    },
+    {
+      "id": "moonlight",
+      "artist": "Phlegtum",
+      "title": "Moonlight",
+      "source": "Phlegtum - Moonlight.mp3"
+    },
+    {
+      "id": "urban_ninja",
+      "artist": "Phlegtum",
+      "title": "Urban Ninja",
+      "source": "Phlegtum - Urban Ninja.mp3"
+    },
+    {
+      "id": "words",
+      "artist": "Phlegtum",
+      "title": "Words",
+      "source": "Phlegtum - Words.mp3"
+    },
+    {
+      "id": "porch_light_6",
+      "artist": "Porch Light",
+      "title": "6",
+      "source": "Porch Light - 6.mp3"
+    },
+    {
+      "id": "i_really_want_to_stay_at_your_house",
+      "artist": "Samuel Kim, Lorien",
+      "title": "I Really Want to Stay at Your House",
+      "source": "Samuel Kim, Lorien - I Really Want to Stay at Your House.mp3"
+    },
+    {
+      "id": "circus",
+      "artist": "Sandhouse",
+      "title": "Circus",
+      "source": "Sandhouse - Circus.mp3"
+    },
+    {
+      "id": "aloneko_star_2nd_sf_a2",
+      "artist": "Scythe of Luna",
+      "title": "Aloneko Star (2nd, SF-A2)",
+      "source": "Scythe of Luna - Aloneko Star (2nd, SF-A2).mp3"
+    },
+    {
+      "id": "white_tale_fate_of_faeries",
+      "artist": "Scythe of Luna",
+      "title": "White Tale: Fate of Faeries",
+      "source": "Scythe of Luna - White Tale_ Fate of Faeries.mp3"
+    },
+    {
+      "id": "i_wanna_see_you_once_more",
+      "artist": "sever4user",
+      "title": "i wanna see you once more",
+      "source": "sever4user - i wanna see you once more.mp3"
+    },
+    {
+      "id": "destructive_life_form",
+      "artist": "Sib The Maid",
+      "title": "Destructive Life Form",
+      "source": "Sib The Maid - Destructive Life Form.mp3"
+    },
+    {
+      "id": "synaesthesia",
+      "artist": "Silma",
+      "title": "Synaesthesia",
+      "source": "Silma - Synaesthesia.mp3"
+    },
+    {
+      "id": "agent_orange",
+      "artist": "Sodom",
+      "title": "Agent Orange",
+      "source": "Sodom - Agent Orange.mp3"
+    },
+    {
+      "id": "mou_nidoto_modorenai",
+      "artist": "sokoninaru",
+      "title": "もう二度と戻れないあの頃に",
+      "source": "sokoninaru - もう二度と戻れないあの頃に.mp3"
+    },
+    {
+      "id": "signalis",
+      "artist": "SOLTER",
+      "title": "Signalis",
+      "source": "SOLTER - Signalis.mp3"
+    },
+    {
+      "id": "panic_slowed",
+      "artist": "SWXZZY",
+      "title": "PANIC - SLOWED",
+      "source": "SWXZZY - PANIC - SLOWED.mp3"
+    },
+    {
+      "id": "l_theme_b",
+      "artist": "Taniuchi Hideki",
+      "title": "l theme b",
+      "source": "Taniuchi Hideki - l theme b.mp3"
+    },
+    {
+      "id": "stormwind_city_theme",
+      "artist": "ToxicxEternity",
+      "title": "Stormwind City Theme - Metal Guitar Cover (World of Warcraft)",
+      "source": "ToxicxEternity - Stormwind City Theme - Metal Guitar Cover (World of Warcraft).mp3"
+    },
+    {
+      "id": "heavenly_jumpstyle_slowed",
+      "artist": "TWXNY, Sxilwix, Innxcence",
+      "title": "HEAVENLY JUMPSTYLE (Slowed)",
+      "source": "TWXNY, Sxilwix, Innxcence - HEAVENLY JUMPSTYLE (Slowed).mp3"
+    },
+    {
+      "id": "kanashimi_no_sekai",
+      "artist": "UNLIMITS",
+      "title": "カナシミノセカイ",
+      "source": "UNLIMITS - カナシミノセカイ.mp3"
+    },
+    {
+      "id": "monochrome",
+      "artist": "UNLIMITS",
+      "title": "モノクローム",
+      "source": "UNLIMITS - モノクローム.mp3"
+    },
+    {
+      "id": "interlace_speed_up",
+      "artist": "Veilr",
+      "title": "Interlace Speed Up",
+      "source": "Veilr - Interlace Speed Up.mp3"
+    },
+    {
+      "id": "rampant",
+      "artist": "Veilr",
+      "title": "Rampant",
+      "source": "Veilr - Rampant.mp3"
+    },
+    {
+      "id": "milacor3",
+      "artist": "violetssky, kvyvx",
+      "title": "milacor3",
+      "source": "violetssky, kvyvx - milacor3.mp3"
+    },
+    {
+      "id": "f_llout",
+      "artist": "visual_",
+      "title": "F_llout",
+      "source": "visual_ - F_llout.mp3"
+    },
+    {
+      "id": "dont_stop",
+      "artist": "Vitreo",
+      "title": "DONT STOP",
+      "source": "Vitreo - DONT STOP.mp3"
+    },
+    {
+      "id": "soviet_victory",
+      "artist": "War Thunder OST",
+      "title": "Soviet Victory",
+      "source": "War Thunder OST - Soviet Victory.mp3"
+    },
+    {
+      "id": "foglie",
+      "artist": "Yumeia, Tre Flip",
+      "title": "foglie",
+      "source": "Yumeia, Tre Flip - foglie.mp3"
+    },
+    {
+      "id": "fuji",
+      "artist": "Yung Saddy",
+      "title": "Fuji",
+      "source": "Yung Saddy - Fuji.mp3"
+    },
+    {
+      "id": "leviathan",
+      "artist": "ZMAJOR",
+      "title": "LEVIATHAN",
+      "source": "ZMAJOR - LEVIATHAN.mp3"
+    },
+    {
+      "id": "ludoman_anime_v",
+      "artist": "Деп_Nizza",
+      "title": "Лудоман (Anime v.)",
+      "source": "Деп_Nizza - Лудоман (Anime v.).mp3"
+    },
+    {
+      "id": "velikiy_uchenyy_femboychik_astolfo",
+      "artist": "Ильдар бро",
+      "title": "Великий ученый фембойчик Астольфо",
+      "source": "Ильдар бро - Великий ученый фембойчик Астольфо.mp3"
+    },
+    {
+      "id": "skovannye_odnoy_tsepyu",
+      "artist": "Наутилус Помпилиус",
+      "title": "Скованные одной цепью",
+      "source": "Наутилус Помпилиус - Скованные одной цепью.mp3"
+    },
+    {
+      "id": "vortex",
+      "artist": "そこに鳴る",
+      "title": "VortEx",
+      "source": "そこに鳴る - VortEx.mp3"
+    },
+    {
+      "id": "epilogue_made",
+      "artist": "クレナズム",
+      "title": "エピローグまで",
+      "source": "クレナズム - エピローグまで.mp3"
+    },
+    {
+      "id": "mabushikute",
+      "artist": "クレナズム",
+      "title": "眩しくて",
+      "source": "クレナズム - 眩しくて.mp3"
+    },
+    {
+      "id": "lovetheism",
+      "artist": "春ねむり",
+      "title": "Lovetheism",
+      "source": "春ねむり - Lovetheism.mp3"
+    }
+  ]
+}

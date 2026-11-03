@@ -1,0 +1,73 @@
+{
+  "albedoMaterialSettings": {
+    "hull_detail_G_VK3502H_BP_PALM": {
+      "alphaCutoff": 0.30000001192092896,
+      "cullMode": 0
+    }
+  },
+  "albedos": {
+    "hull_detail_G_VK3502H_BP_PALM": "G_VK3502H_BP_PALM"
+  },
+  "nodes": {
+    "gun_01": {
+      "local": [
+        0.0,
+        0.414133,
+        -1.194955
+      ],
+      "parent": "turret_01",
+      "world": [
+        0.0,
+        2.18413,
+        -1.023405
+      ]
+    },
+    "gun_01_shoot_pos": {
+      "local": [
+        0.0,
+        0.004738,
+        -3.757995
+      ],
+      "parent": "gun_01",
+      "world": [
+        0.0,
+        2.188868,
+        -4.7814
+      ]
+    },
+    "turret_01": {
+      "local": [
+        0.0,
+        1.769997,
+        0.17155
+      ],
+      "parent": "",
+      "world": [
+        0.0,
+        1.769997,
+        0.17155
+      ]
+    }
+  },
+  "rig": {
+    "gun": "gun_01",
+    "guns": [
+      "gun_01"
+    ],
+    "muzzle": "gun_01_shoot_pos",
+    "muzzles": {
+      "gun_01": "gun_01_shoot_pos"
+    },
+    "turret": "turret_01",
+    "turrets": {
+      "turret_01": {
+        "guns": [
+          "gun_01"
+        ],
+        "muzzles": {
+          "gun_01": "gun_01_shoot_pos"
+        }
+      }
+    }
+  }
+}

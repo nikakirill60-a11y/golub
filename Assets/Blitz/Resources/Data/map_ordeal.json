@@ -1,0 +1,4901 @@
+{
+  "id": "ordeal",
+  "nameKey": "map:ordeal/name",
+  "scene": "3d/Maps/15_ordeal_ord/15_ordeal_ord.sc2",
+  "externalScene": "Maps/Ordeal/ordeal_scene",
+  "externalSceneSource": "3d/Maps/15_ordeal_ord/15_ordeal_ord.sc2",
+  "randomTiers": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "orientation": "dava",
+  "sceneFormat": "client",
+  "minimap": "Maps/Ordeal/minimap",
+  "minimapArea": {
+    "frame": [
+      0,
+      0,
+      326,
+      326
+    ],
+    "min": [
+      -300.0,
+      -300.0
+    ],
+    "max": [
+      300.0,
+      300.0
+    ]
+  },
+  "loadingScreen": "Maps/Ordeal/loading_screen",
+  "sky": {
+    "basis": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "origin": [
+      0,
+      0,
+      0
+    ],
+    "faces": []
+  },
+  "border": {
+    "min": [
+      -250.8000030517578,
+      0.0,
+      -226.1999969482422
+    ],
+    "max": [
+      227.89999389648438,
+      100.0,
+      252.5
+    ]
+  },
+  "terrain": {
+    "resource": "Maps/Ordeal/terrain_height",
+    "side": 512,
+    "step": 1.1741682974559686,
+    "extent": 600.0,
+    "origin": [
+      -300.0,
+      0.0,
+      -300.0
+    ],
+    "minHeight": 12.735179901123047,
+    "maxHeight": 47.43419647216797,
+    "mapScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "normalSource": "3d/Maps/15_ordeal_ord/landscape/OrdialHM3.heightmap",
+    "surfaceNormal": [
+      -0.044135626405477524,
+      0.998860239982605,
+      -0.018174447119235992
+    ],
+    "collisionEnabled": true,
+    "castShadow": 0,
+    "tileTexScale": 50.0,
+    "tileColour0": [
+      1.0,
+      1.0,
+      0.890196,
+      1.0
+    ],
+    "tileColour1": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "tileColour2": [
+      1.0,
+      0.972549,
+      0.847059,
+      1.0
+    ],
+    "tileColour3": [
+      0.937255,
+      0.921569,
+      0.698039,
+      1.0
+    ],
+    "detailStrength": 1.0,
+    "detailContrast": 1.0,
+    "brightness": 1.0,
+    "contrast": 1.0,
+    "maskSharpness": 1.0,
+    "colorMap": "Maps/Ordeal/colormap",
+    "tileMask": "Maps/Ordeal/tilemask",
+    "tileTexture": "Maps/Ordeal/tiletextures",
+    "client": {
+      "tiling": [
+        50.0,
+        50.0
+      ],
+      "colours": [
+        [
+          1.0,
+          1.0,
+          0.890196,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.972549,
+          0.847059,
+          1.0
+        ],
+        [
+          0.937255,
+          0.921569,
+          0.698039,
+          1.0
+        ]
+      ],
+      "glossiness": 0.5,
+      "specularity": 1.0,
+      "metalFresnelReflectance": 0.5
+    }
+  },
+  "environment": {
+    "fog": {
+      "color": [
+        0.989822,
+        0.996078,
+        0.960235
+      ],
+      "start": -50.0,
+      "end": 500.0,
+      "limit": 0.8500000238418579,
+      "atmosphere": true,
+      "skyColor": [
+        0.496605,
+        0.640269,
+        0.693675
+      ],
+      "sunColor": [
+        1.128885,
+        1.092761,
+        0.803766
+      ],
+      "atmosphereDistance": 50.0,
+      "scattering": 2.0,
+      "halfspace": {
+        "density": 0.006,
+        "falloff": 1.0,
+        "height": 16.0,
+        "limit": 0.2,
+        "linear": true
+      }
+    },
+    "shadowColor": [
+      0.733333,
+      0.717647,
+      0.670588,
+      1.0
+    ],
+    "ambient": [
+      0.95686274766922,
+      0.8705882430076599,
+      0.6078431606292725
+    ],
+    "sunColor": [
+      0.9843137264251709,
+      0.9843137264251709,
+      0.9647058844566345
+    ],
+    "sunBasis": [
+      0.7998298166033401,
+      0.0,
+      0.5066973334838971,
+      0.0,
+      1.0,
+      0.5360654942933919,
+      -0.6002268441783217,
+      0.0,
+      0.6751974511713517
+    ],
+    "sunDirection": [
+      -0.506697,
+      -0.536065,
+      0.675197
+    ]
+  },
+  "directionalLight": {
+    "basis": [
+      0.7998298166033401,
+      0.0,
+      0.5066973334838971,
+      0.0,
+      1.0,
+      0.5360654942933919,
+      -0.6002268441783217,
+      0.0,
+      0.6751974511713517
+    ],
+    "origin": [
+      0,
+      64,
+      0
+    ],
+    "color": [
+      0.9843137264251709,
+      0.9843137264251709,
+      0.9647058844566345
+    ],
+    "energy": 1.25
+  },
+  "spawns": {
+    "teamA": [
+      {
+        "name": "TankSpawner",
+        "team": 0,
+        "basis": [
+          -0.9907855641263307,
+          0.0,
+          -0.13543989781031562,
+          0.0,
+          1.0,
+          0.0,
+          0.13543989781031562,
+          0.0,
+          -0.9907855641263307
+        ],
+        "origin": [
+          -110.73954772949219,
+          17.086374282836914,
+          -76.91908264160156
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner2",
+        "team": 0,
+        "basis": [
+          -0.9907861869319162,
+          0.0,
+          -0.1354353417129881,
+          0.0,
+          1.0,
+          0.0,
+          0.1354353417129881,
+          0.0,
+          -0.9907861869319162
+        ],
+        "origin": [
+          -105.65458679199219,
+          16.501129150390625,
+          -69.11000061035156
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner3",
+        "team": 0,
+        "basis": [
+          -0.9907855590337141,
+          0.0,
+          -0.13543993506440613,
+          0.0,
+          1.0,
+          0.0,
+          0.13543993506440613,
+          0.0,
+          -0.9907855590337141
+        ],
+        "origin": [
+          -103.77593994140625,
+          16.959272384643555,
+          -78.35000610351562
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner4",
+        "team": 0,
+        "basis": [
+          -0.9907855539410956,
+          0.0,
+          -0.13543997231850055,
+          0.0,
+          1.0,
+          0.0,
+          0.13543997231850055,
+          0.0,
+          -0.9907855539410956
+        ],
+        "origin": [
+          -98.58747100830078,
+          16.3901424407959,
+          -70.16718292236328
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner5",
+        "team": 0,
+        "basis": [
+          -0.9907855641263307,
+          0.0,
+          -0.13543989781031562,
+          0.0,
+          1.0,
+          0.0,
+          0.13543989781031562,
+          0.0,
+          -0.9907855641263307
+        ],
+        "origin": [
+          -118.0,
+          17.195772171020508,
+          -80.0
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner6",
+        "team": 0,
+        "basis": [
+          -0.9907855641263307,
+          0.0,
+          -0.13543989781031562,
+          0.0,
+          1.0,
+          0.0,
+          0.13543989781031562,
+          0.0,
+          -0.9907855641263307
+        ],
+        "origin": [
+          -118.0,
+          16.85439109802246,
+          -68.0
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner7",
+        "team": 0,
+        "basis": [
+          -0.9907855641263307,
+          0.0,
+          -0.13543989781031562,
+          0.0,
+          1.0,
+          0.0,
+          0.13543989781031562,
+          0.0,
+          -0.9907855641263307
+        ],
+        "origin": [
+          -112.0,
+          16.697162628173828,
+          -60.0
+        ],
+        "respawn": 1
+      }
+    ],
+    "teamB": [
+      {
+        "name": "TankSpawner",
+        "team": 1,
+        "basis": [
+          0.5495321745446684,
+          0.0,
+          0.8354725543907521,
+          0.0,
+          1.0,
+          0.0,
+          -0.8354725543907521,
+          0.0,
+          0.5495321745446684
+        ],
+        "origin": [
+          51.79356384277344,
+          18.645944595336914,
+          199.22425842285156
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner2",
+        "team": 1,
+        "basis": [
+          0.45121608999049073,
+          0.0,
+          0.8924147242922953,
+          0.0,
+          1.0,
+          0.0,
+          -0.8924147242922953,
+          0.0,
+          0.45121608999049073
+        ],
+        "origin": [
+          47.23383331298828,
+          18.585372924804688,
+          197.07786560058594
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner3",
+        "team": 1,
+        "basis": [
+          0.5495321745446684,
+          0.0,
+          0.8354725543907521,
+          0.0,
+          1.0,
+          0.0,
+          -0.8354725543907521,
+          0.0,
+          0.5495321745446684
+        ],
+        "origin": [
+          48.98902130126953,
+          18.625396728515625,
+          204.72134399414062
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner4",
+        "team": 1,
+        "basis": [
+          0.45121608999049073,
+          0.0,
+          0.8924147242922953,
+          0.0,
+          1.0,
+          0.0,
+          -0.8924147242922953,
+          0.0,
+          0.45121608999049073
+        ],
+        "origin": [
+          44.63371276855469,
+          18.616668701171875,
+          202.38536071777344
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner5",
+        "team": 1,
+        "basis": [
+          0.45121608999049073,
+          0.0,
+          0.8924147242922953,
+          0.0,
+          1.0,
+          0.0,
+          -0.8924147242922953,
+          0.0,
+          0.45121608999049073
+        ],
+        "origin": [
+          39.805667877197266,
+          18.582433700561523,
+          199.91830444335938
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner6",
+        "team": 1,
+        "basis": [
+          0.45121608999049073,
+          0.0,
+          0.8924147242922953,
+          0.0,
+          1.0,
+          0.0,
+          -0.8924147242922953,
+          0.0,
+          0.45121608999049073
+        ],
+        "origin": [
+          42.098228454589844,
+          18.6245059967041,
+          207.1700897216797
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner7",
+        "team": 1,
+        "basis": [
+          0.5495321745446684,
+          0.0,
+          0.8354725543907521,
+          0.0,
+          1.0,
+          0.0,
+          -0.8354725543907521,
+          0.0,
+          0.5495321745446684
+        ],
+        "origin": [
+          46.62660598754883,
+          18.619441986083984,
+          209.17709350585938
+        ],
+        "respawn": 1
+      },
+      {
+        "name": "TankSpawner8",
+        "team": 1,
+        "basis": [
+          0.9999847273903,
+          0.0,
+          0.005526751862296757,
+          0.0,
+          1.0,
+          0.0,
+          -0.005526751862296757,
+          0.0,
+          0.9999847273903
+        ],
+        "origin": [
+          -19.14065933227539,
+          18.643512725830078,
+          233.79080200195312
+        ],
+        "respawn": 2
+      },
+      {
+        "name": "TankSpawner9",
+        "team": 1,
+        "basis": [
+          0.9929036844033521,
+          0.0,
+          0.11892129118979824,
+          0.0,
+          1.0,
+          0.0,
+          -0.11892129118979824,
+          0.0,
+          0.9929036844033521
+        ],
+        "origin": [
+          -19.862506866455078,
+          18.54850196838379,
+          228.7867889404297
+        ],
+        "respawn": 2
+      },
+      {
+        "name": "TankSpawner10",
+        "team": 1,
+        "basis": [
+          0.9929036844033521,
+          0.0,
+          0.11892129118979824,
+          0.0,
+          1.0,
+          0.0,
+          -0.11892129118979824,
+          0.0,
+          0.9929036844033521
+        ],
+        "origin": [
+          -25.78140640258789,
+          18.59880256652832,
+          229.55401611328125
+        ],
+        "respawn": 2
+      }
+    ]
+  },
+  "aiMarkers": [
+    {
+      "name": "Control1",
+      "origin": [
+        -62.31622314453125,
+        16.334779739379883,
+        51.82891845703125
+      ],
+      "priority": 1,
+      "radius": 30.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath1_Waypoint_0",
+      "origin": [
+        3.0023698806762695,
+        18.605209350585938,
+        192.56874084472656
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath1_Waypoint_2",
+      "origin": [
+        -59.090118408203125,
+        19.084386825561523,
+        175.0009002685547
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath1_Waypoint_3",
+      "origin": [
+        -59.39207458496094,
+        18.900177001953125,
+        142.2547607421875
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath1_Waypoint_4",
+      "origin": [
+        -55.50581359863281,
+        18.45389175415039,
+        113.64446258544922
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath1_Waypoint_5",
+      "origin": [
+        -36.081642150878906,
+        16.22313117980957,
+        77.3279800415039
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath1_Waypoint_6",
+      "origin": [
+        -10.886862754821777,
+        13.675643920898438,
+        48.88506317138672
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath1_Waypoint_7",
+      "origin": [
+        11.246419906616211,
+        14.463394165039062,
+        34.13930892944336
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath1_Waypoint_10",
+      "origin": [
+        25.03616714477539,
+        13.132637023925781,
+        8.784510612487793
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath1_Waypoint_12",
+      "origin": [
+        20.021732330322266,
+        14.214123725891113,
+        -14.698616027832031
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath1_Waypoint_13",
+      "origin": [
+        -24.892969131469727,
+        14.069199562072754,
+        -16.863296508789062
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath2_Waypoint_4",
+      "origin": [
+        -89.959716796875,
+        18.758636474609375,
+        101.76524353027344
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath2_Waypoint_6",
+      "origin": [
+        -128.32569885253906,
+        18.744182586669922,
+        83.58782196044922
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath2_Waypoint_18",
+      "origin": [
+        -119.11819458007812,
+        18.797922134399414,
+        61.196537017822266
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath2_Waypoint_13",
+      "origin": [
+        -107.82610321044922,
+        18.71092414855957,
+        79.63639068603516
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath3_Waypoint_0",
+      "origin": [
+        41.83002471923828,
+        18.034902572631836,
+        166.79638671875
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath3_Waypoint_1",
+      "origin": [
+        41.659324645996094,
+        16.895463943481445,
+        142.37615966796875
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath3_Waypoint_2",
+      "origin": [
+        50.240821838378906,
+        15.607035636901855,
+        112.20079040527344
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath3_Waypoint_4",
+      "origin": [
+        67.28858947753906,
+        15.873076438903809,
+        88.71050262451172
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath3_Waypoint_5",
+      "origin": [
+        44.9291877746582,
+        15.363330841064453,
+        80.83585357666016
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath3_Waypoint_7",
+      "origin": [
+        20.87133026123047,
+        15.558330535888672,
+        102.25576782226562
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath3_Waypoint_9",
+      "origin": [
+        2.1403114795684814,
+        18.73821449279785,
+        115.0704574584961
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath3_Waypoint_11",
+      "origin": [
+        -12.066973686218262,
+        18.2379207611084,
+        93.78075408935547
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath4_Waypoint_5",
+      "origin": [
+        45.84293746948242,
+        16.1991024017334,
+        37.78145217895508
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath4_Waypoint_9",
+      "origin": [
+        65.6868896484375,
+        15.531036376953125,
+        63.939491271972656
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath1_Waypoint_0",
+      "origin": [
+        -46.25057601928711,
+        15.278229713439941,
+        -103.32626342773438
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath1_Waypoint_2",
+      "origin": [
+        -31.968652725219727,
+        15.129561424255371,
+        -80.62303161621094
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath1_Waypoint_4",
+      "origin": [
+        -16.59233283996582,
+        16.521150588989258,
+        -46.585445404052734
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath2_Waypoint_0",
+      "origin": [
+        -100.32877349853516,
+        15.867570877075195,
+        -53.68108367919922
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath2_Waypoint_2",
+      "origin": [
+        -93.80642700195312,
+        14.985101699829102,
+        -30.530296325683594
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath2_Waypoint_4",
+      "origin": [
+        -72.18717956542969,
+        14.524883270263672,
+        -22.09851837158203
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath3_Waypoint_0",
+      "origin": [
+        -207.58570861816406,
+        18.69094467163086,
+        48.97978210449219
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath3_Waypoint_4",
+      "origin": [
+        -179.4363555908203,
+        18.411535263061523,
+        46.14744186401367
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath3_Waypoint_5",
+      "origin": [
+        -157.16786193847656,
+        18.569238662719727,
+        42.16341018676758
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath4_Waypoint_2",
+      "origin": [
+        -81.25556182861328,
+        14.744852066040039,
+        16.208118438720703
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath4_Waypoint_3",
+      "origin": [
+        -39.69481658935547,
+        14.214662551879883,
+        24.305095672607422
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath4_Waypoint_5",
+      "origin": [
+        -8.539769172668457,
+        14.063394546508789,
+        27.280681610107422
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath4_Waypoint_8",
+      "origin": [
+        -15.667457580566406,
+        15.938436508178711,
+        73.41366577148438
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath5_Waypoint_1",
+      "origin": [
+        -64.2895736694336,
+        14.933355331420898,
+        -86.52140045166016
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath5_Waypoint_2",
+      "origin": [
+        -72.44520568847656,
+        14.741314888000488,
+        -60.407310485839844
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath5_Waypoint_4",
+      "origin": [
+        -39.02840042114258,
+        14.648591995239258,
+        -36.55717086791992
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath6_Waypoint_7",
+      "origin": [
+        -155.07777404785156,
+        18.759716033935547,
+        62.63056945800781
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath6_Waypoint_9",
+      "origin": [
+        -108.77415466308594,
+        18.89547348022461,
+        110.07979583740234
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "AllyPath6_Waypoint_12",
+      "origin": [
+        -32.4381217956543,
+        18.794771194458008,
+        114.8432388305664
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath5_Waypoint_1",
+      "origin": [
+        -15.78255558013916,
+        18.68929100036621,
+        205.22946166992188
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath5_Waypoint_4",
+      "origin": [
+        -61.39002227783203,
+        18.71836280822754,
+        92.06538391113281
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath6_Waypoint_2",
+      "origin": [
+        25.85438346862793,
+        13.792654037475586,
+        48.91737365722656
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath7_Waypoint_0",
+      "origin": [
+        16.299114227294922,
+        18.68860626220703,
+        212.66665649414062
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath7_Waypoint_6",
+      "origin": [
+        -86.76910400390625,
+        18.040203094482422,
+        48.83582305908203
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath7_Waypoint_7",
+      "origin": [
+        -102.28487396240234,
+        17.112985610961914,
+        14.162718772888184
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath8_Waypoint_0",
+      "origin": [
+        52.00272750854492,
+        18.611574172973633,
+        189.95770263671875
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath8_Waypoint_4",
+      "origin": [
+        74.35556030273438,
+        15.902381896972656,
+        107.45230865478516
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath8_Waypoint_5",
+      "origin": [
+        76.52765655517578,
+        16.166393280029297,
+        40.19222640991211
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath8_Waypoint_6",
+      "origin": [
+        40.03718948364258,
+        15.33863353729248,
+        -19.016490936279297
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath8_Waypoint_7",
+      "origin": [
+        2.248533248901367,
+        14.967653274536133,
+        -61.475276947021484
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath8_Waypoint_9",
+      "origin": [
+        6.515689849853516,
+        15.09498405456543,
+        -35.61882781982422
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath9_Waypoint_4",
+      "origin": [
+        17.709793090820312,
+        14.722875595092773,
+        77.32714080810547
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath10_Waypoint_2",
+      "origin": [
+        -72.52269744873047,
+        18.94705581665039,
+        192.74571228027344
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath10_Waypoint_3",
+      "origin": [
+        -77.3642807006836,
+        18.799365997314453,
+        131.8944854736328
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    },
+    {
+      "name": "EnemyPath10_Waypoint_5",
+      "origin": [
+        -87.26835632324219,
+        20.30422592163086,
+        70.06668090820312
+      ],
+      "priority": 0,
+      "radius": 15.0,
+      "type": 0
+    }
+  ],
+  "objects": {
+    "format": "client",
+    "entities": 888,
+    "nodes": 1112,
+    "batches": 1329,
+    "vertices": 425665,
+    "triangles": 258194,
+    "materials": 992,
+    "textures": 58,
+    "destructibles": [
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_8_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_8_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "studebaker_kabina.sc2",
+        "intactGroup": "entity_9_studebaker_kabina_sc2_intact",
+        "wreckGroup": "entity_9_studebaker_kabina_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_13_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_13_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_14_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_14_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_15_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_15_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryTent.sc2",
+        "intactGroup": "entity_16_env_ord_MilitaryTent_sc2_intact",
+        "wreckGroup": "entity_16_env_ord_MilitaryTent_sc2_wreck",
+        "health": 10,
+        "collisionType": 4,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryTent.sc2",
+        "intactGroup": "entity_17_env_ord_MilitaryTent_sc2_intact",
+        "wreckGroup": "entity_17_env_ord_MilitaryTent_sc2_wreck",
+        "health": 10,
+        "collisionType": 4,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryTent.sc2",
+        "intactGroup": "entity_18_env_ord_MilitaryTent_sc2_intact",
+        "wreckGroup": "entity_18_env_ord_MilitaryTent_sc2_wreck",
+        "health": 10,
+        "collisionType": 4,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_19_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_19_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_20_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_20_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_26_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_26_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_27_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_27_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_28_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_28_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_33_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_33_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_34_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_34_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_35_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_35_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_36_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_36_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_fuelTank.sc2",
+        "intactGroup": "entity_37_env_ord_fuelTank_sc2_intact",
+        "wreckGroup": "entity_37_env_ord_fuelTank_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_ord_fuelTank.sc2",
+        "intactGroup": "entity_38_env_ord_fuelTank_sc2_intact",
+        "wreckGroup": "entity_38_env_ord_fuelTank_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_39_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_39_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_21_MedLory.sc2",
+        "intactGroup": "entity_40_env_21_MedLory_sc2_intact",
+        "wreckGroup": "entity_40_env_21_MedLory_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_22_Willys.sc2",
+        "intactGroup": "entity_41_env_22_Willys_sc2_intact",
+        "wreckGroup": "entity_41_env_22_Willys_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_21_MedLory.sc2",
+        "intactGroup": "entity_42_env_21_MedLory_sc2_intact",
+        "wreckGroup": "entity_42_env_21_MedLory_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "studebaker_kabina.sc2",
+        "intactGroup": "entity_43_studebaker_kabina_sc2_intact",
+        "wreckGroup": "entity_43_studebaker_kabina_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_44_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_44_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_47_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_47_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_79_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_79_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_80_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_80_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_81_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_81_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_82_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_82_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_85_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_85_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_86_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_86_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "studebaker_kabina.sc2",
+        "intactGroup": "entity_103_studebaker_kabina_sc2_intact",
+        "wreckGroup": "entity_103_studebaker_kabina_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_105_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_105_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_106_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_106_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_107_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_107_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_108_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_108_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_109_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_109_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_113_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_113_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_ord_MilitaryTent.sc2",
+        "intactGroup": "entity_114_env_ord_MilitaryTent_sc2_intact",
+        "wreckGroup": "entity_114_env_ord_MilitaryTent_sc2_wreck",
+        "health": 10,
+        "collisionType": 4,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_115_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_115_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_fuelTank.sc2",
+        "intactGroup": "entity_117_env_ord_fuelTank_sc2_intact",
+        "wreckGroup": "entity_117_env_ord_fuelTank_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_ord_fuelTank.sc2",
+        "intactGroup": "entity_118_env_ord_fuelTank_sc2_intact",
+        "wreckGroup": "entity_118_env_ord_fuelTank_sc2_wreck",
+        "health": 40,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 40
+      },
+      {
+        "name": "env_21_MedLory.sc2",
+        "intactGroup": "entity_119_env_21_MedLory_sc2_intact",
+        "wreckGroup": "entity_119_env_21_MedLory_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_21_MedLory.sc2",
+        "intactGroup": "entity_120_env_21_MedLory_sc2_intact",
+        "wreckGroup": "entity_120_env_21_MedLory_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_22_Willys.sc2",
+        "intactGroup": "entity_140_env_22_Willys_sc2_intact",
+        "wreckGroup": "entity_140_env_22_Willys_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_141_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_141_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_142_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_142_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_143_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_143_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_144_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_144_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_145_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_145_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_146_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_146_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_rariolocator.sc2",
+        "intactGroup": "entity_152_env_ord_rariolocator_sc2_intact",
+        "wreckGroup": "entity_152_env_ord_rariolocator_sc2_wreck",
+        "health": 60,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 60
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_168_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_168_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_229_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_229_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_230_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_230_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_MilitaryTent.sc2",
+        "intactGroup": "entity_253_env_ord_MilitaryTent_sc2_intact",
+        "wreckGroup": "entity_253_env_ord_MilitaryTent_sc2_wreck",
+        "health": 10,
+        "collisionType": 4,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryTent.sc2",
+        "intactGroup": "entity_255_env_ord_MilitaryTent_sc2_intact",
+        "wreckGroup": "entity_255_env_ord_MilitaryTent_sc2_wreck",
+        "health": 10,
+        "collisionType": 4,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_256_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_256_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_22_Willys.sc2",
+        "intactGroup": "entity_257_env_22_Willys_sc2_intact",
+        "wreckGroup": "entity_257_env_22_Willys_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_258_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_258_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_rariolocator.sc2",
+        "intactGroup": "entity_294_env_ord_rariolocator_sc2_intact",
+        "wreckGroup": "entity_294_env_ord_rariolocator_sc2_wreck",
+        "health": 60,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 60
+      },
+      {
+        "name": "env_22_Willys.sc2",
+        "intactGroup": "entity_317_env_22_Willys_sc2_intact",
+        "wreckGroup": "entity_317_env_22_Willys_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_21_MedLory.sc2",
+        "intactGroup": "entity_318_env_21_MedLory_sc2_intact",
+        "wreckGroup": "entity_318_env_21_MedLory_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "studebaker_kabina.sc2",
+        "intactGroup": "entity_319_studebaker_kabina_sc2_intact",
+        "wreckGroup": "entity_319_studebaker_kabina_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "studebaker_kabina.sc2",
+        "intactGroup": "entity_320_studebaker_kabina_sc2_intact",
+        "wreckGroup": "entity_320_studebaker_kabina_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_321_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_321_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_322_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_322_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_323_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_323_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_324_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_324_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_325_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_325_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_326_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_326_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_327_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_327_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_330_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_330_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_331_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_331_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_332_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_332_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_333_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_333_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_334_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_334_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_337_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_337_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_338_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_338_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_22_Willys.sc2",
+        "intactGroup": "entity_339_env_22_Willys_sc2_intact",
+        "wreckGroup": "entity_339_env_22_Willys_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_21_MedLory.sc2",
+        "intactGroup": "entity_340_env_21_MedLory_sc2_intact",
+        "wreckGroup": "entity_340_env_21_MedLory_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "studebaker_kabina.sc2",
+        "intactGroup": "entity_341_studebaker_kabina_sc2_intact",
+        "wreckGroup": "entity_341_studebaker_kabina_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "studebaker_kabina.sc2",
+        "intactGroup": "entity_342_studebaker_kabina_sc2_intact",
+        "wreckGroup": "entity_342_studebaker_kabina_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_343_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_343_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_344_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_344_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_345_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_345_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_346_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_346_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_347_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_347_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_348_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_348_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_442_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_442_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_443_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_443_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_444_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_444_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_445_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_445_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_446_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_446_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_447_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_447_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_448_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_448_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_449_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_449_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_450_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_450_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_451_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_451_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_452_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_452_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_453_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_453_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_454_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_454_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_455_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_455_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_456_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_456_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_457_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_457_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_458_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_458_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_459_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_459_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_460_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_460_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_461_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_461_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_462_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_462_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "studebaker_kabina.sc2",
+        "intactGroup": "entity_463_studebaker_kabina_sc2_intact",
+        "wreckGroup": "entity_463_studebaker_kabina_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_475_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_475_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_476_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_476_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_477_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_477_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_478_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_478_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_479_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_479_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_480_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_480_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_481_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_481_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_485_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_485_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_486_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_486_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_487_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_487_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_493_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_493_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_22_Willys.sc2",
+        "intactGroup": "entity_494_env_22_Willys_sc2_intact",
+        "wreckGroup": "entity_494_env_22_Willys_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "studebaker_kabina.sc2",
+        "intactGroup": "entity_495_studebaker_kabina_sc2_intact",
+        "wreckGroup": "entity_495_studebaker_kabina_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_searchlight.sc2",
+        "intactGroup": "entity_505_env_searchlight_sc2_intact",
+        "wreckGroup": "entity_505_env_searchlight_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_searchlight.sc2",
+        "intactGroup": "entity_506_env_searchlight_sc2_intact",
+        "wreckGroup": "entity_506_env_searchlight_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_searchlight.sc2",
+        "intactGroup": "entity_507_env_searchlight_sc2_intact",
+        "wreckGroup": "entity_507_env_searchlight_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_508_env_border01_sc2_intact",
+        "wreckGroup": "entity_508_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_509_env_border01_sc2_intact",
+        "wreckGroup": "entity_509_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_510_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_510_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_511_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_511_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_512_env_border01_sc2_intact",
+        "wreckGroup": "entity_512_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_513_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_513_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_514_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_514_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_515_env_border01_sc2_intact",
+        "wreckGroup": "entity_515_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_516_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_516_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_517_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_517_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_518_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_518_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_519_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_519_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_520_env_border01_sc2_intact",
+        "wreckGroup": "entity_520_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_521_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_521_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_522_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_522_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_523_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_523_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_524_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_524_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_525_env_border01_sc2_intact",
+        "wreckGroup": "entity_525_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_526_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_526_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_527_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_527_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_528_env_border01_sc2_intact",
+        "wreckGroup": "entity_528_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_531_env_border01_sc2_intact",
+        "wreckGroup": "entity_531_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_532_env_border01_sc2_intact",
+        "wreckGroup": "entity_532_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_533_env_border01_sc2_intact",
+        "wreckGroup": "entity_533_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_534_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_534_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_535_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_535_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_536_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_536_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_537_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_537_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_538_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_538_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_539_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_539_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_540_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_540_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_541_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_541_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_542_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_542_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_543_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_543_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_544_env_border01_sc2_intact",
+        "wreckGroup": "entity_544_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_545_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_545_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_546_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_546_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_547_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_547_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_548_env_border01_sc2_intact",
+        "wreckGroup": "entity_548_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_549_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_549_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_550_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_550_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_551_env_border01_sc2_intact",
+        "wreckGroup": "entity_551_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_552_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_552_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_553_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_553_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_554_env_border01_sc2_intact",
+        "wreckGroup": "entity_554_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_555_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_555_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_556_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_556_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_557_env_border01_sc2_intact",
+        "wreckGroup": "entity_557_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_558_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_558_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_559_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_559_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_560_env_border01_sc2_intact",
+        "wreckGroup": "entity_560_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_561_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_561_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_562_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_562_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_searchlight.sc2",
+        "intactGroup": "entity_563_env_searchlight_sc2_intact",
+        "wreckGroup": "entity_563_env_searchlight_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_564_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_564_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_565_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_565_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_566_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_566_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_567_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_567_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_568_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_568_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_569_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_569_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_22_Willys.sc2",
+        "intactGroup": "entity_570_env_22_Willys_sc2_intact",
+        "wreckGroup": "entity_570_env_22_Willys_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_571_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_571_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_572_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_572_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_573_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_573_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "studebaker_tank.sc2",
+        "intactGroup": "entity_721_studebaker_tank_sc2_intact",
+        "wreckGroup": "entity_721_studebaker_tank_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "studebaker_tank.sc2",
+        "intactGroup": "entity_722_studebaker_tank_sc2_intact",
+        "wreckGroup": "entity_722_studebaker_tank_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_22_Willys.sc2",
+        "intactGroup": "entity_724_env_22_Willys_sc2_intact",
+        "wreckGroup": "entity_724_env_22_Willys_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_22_Willys.sc2",
+        "intactGroup": "entity_725_env_22_Willys_sc2_intact",
+        "wreckGroup": "entity_725_env_22_Willys_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_726_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_726_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_727_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_727_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_728_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_728_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_729_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_729_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_730_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_730_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox.sc2",
+        "intactGroup": "entity_731_env_ord_MilitaryBox_sc2_intact",
+        "wreckGroup": "entity_731_env_ord_MilitaryBox_sc2_wreck",
+        "health": 50,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 50
+      },
+      {
+        "name": "env_22_Willys.sc2",
+        "intactGroup": "entity_732_env_22_Willys_sc2_intact",
+        "wreckGroup": "entity_732_env_22_Willys_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_22_Willys.sc2",
+        "intactGroup": "entity_733_env_22_Willys_sc2_intact",
+        "wreckGroup": "entity_733_env_22_Willys_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_802_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_802_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_803_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_803_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_804_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_804_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_805_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_805_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_boxes_03.sc2",
+        "intactGroup": "entity_806_env_ord_boxes_03_sc2_intact",
+        "wreckGroup": "entity_806_env_ord_boxes_03_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox02.sc2",
+        "intactGroup": "entity_807_env_ord_MilitaryBox02_sc2_intact",
+        "wreckGroup": "entity_807_env_ord_MilitaryBox02_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bochki01.sc2",
+        "intactGroup": "entity_808_env_ord_bochki01_sc2_intact",
+        "wreckGroup": "entity_808_env_ord_bochki01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_809_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_809_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_826_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_826_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_827_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_827_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_828_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_828_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_829_env_border01_sc2_intact",
+        "wreckGroup": "entity_829_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_830_env_border01_sc2_intact",
+        "wreckGroup": "entity_830_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      },
+      {
+        "name": "env_searchlight.sc2",
+        "intactGroup": "entity_831_env_searchlight_sc2_intact",
+        "wreckGroup": "entity_831_env_searchlight_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_842_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_842_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_MilitaryBox01.sc2",
+        "intactGroup": "entity_877_env_ord_MilitaryBox01_sc2_intact",
+        "wreckGroup": "entity_877_env_ord_MilitaryBox01_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 0
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_881_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_881_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_searchlight.sc2",
+        "intactGroup": "entity_882_env_searchlight_sc2_intact",
+        "wreckGroup": "entity_882_env_searchlight_sc2_wreck",
+        "health": 10,
+        "collisionType": 3,
+        "materialKind": 3,
+        "fallType": 0,
+        "collisionTypeCrashed": 6,
+        "healthFromClient": 10
+      },
+      {
+        "name": "env_ord_bag01.sc2",
+        "intactGroup": "entity_886_env_ord_bag01_sc2_intact",
+        "wreckGroup": "entity_886_env_ord_bag01_sc2_wreck",
+        "health": 20,
+        "collisionType": 3,
+        "materialKind": 0,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 20
+      },
+      {
+        "name": "env_border01.sc2",
+        "intactGroup": "entity_887_env_border01_sc2_intact",
+        "wreckGroup": "entity_887_env_border01_sc2_wreck",
+        "health": 15,
+        "collisionType": 3,
+        "materialKind": 2,
+        "fallType": 0,
+        "collisionTypeCrashed": 0,
+        "healthFromClient": 15
+      }
+    ],
+    "trees": [
+      {
+        "name": "env_27_stolb.sc2",
+        "group": "entity_11_env_27_stolb_sc2",
+        "origin": [
+          -122.1797,
+          21.5727,
+          130.5618
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_27_stolb.sc2",
+        "group": "entity_21_env_27_stolb_sc2",
+        "origin": [
+          -160.4705,
+          22.5483,
+          98.6927
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_27_stolb.sc2",
+        "group": "entity_22_env_27_stolb_sc2",
+        "origin": [
+          -177.1128,
+          22.1176,
+          143.8941
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_27_stolb.sc2",
+        "group": "entity_23_env_27_stolb_sc2",
+        "origin": [
+          -195.0833,
+          22.467,
+          97.9587
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "tree_k1.sc2",
+        "group": "entity_49_tree_k1_sc2",
+        "origin": [
+          -145.6744,
+          22.2221,
+          106.2341
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_k1.sc2",
+        "group": "entity_52_tree_k1_sc2",
+        "origin": [
+          -121.4579,
+          18.2611,
+          141.2587
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_53_tree_02_sc2",
+        "origin": [
+          -124.1141,
+          18.3683,
+          140.6413
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_54_tree_04_sc2",
+        "origin": [
+          -125.7769,
+          18.206,
+          149.2715
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_55_tree_02_sc2",
+        "origin": [
+          -210.1573,
+          22.5639,
+          129.9285
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_k1.sc2",
+        "group": "entity_56_tree_k1_sc2",
+        "origin": [
+          -228.4259,
+          23.2897,
+          143.3647
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_57_tree_04_sc2",
+        "origin": [
+          -170.9483,
+          22.2155,
+          139.4153
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_58_tree_04_sc2",
+        "origin": [
+          -203.731,
+          19.6888,
+          16.0851
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_59_tree_04_sc2",
+        "origin": [
+          -203.3748,
+          18.6831,
+          -29.0744
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_60_tree_02_sc2",
+        "origin": [
+          -206.837,
+          18.5564,
+          37.4968
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_61_tree_02_sc2",
+        "origin": [
+          -273.1399,
+          24.4212,
+          65.7856
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_k1.sc2",
+        "group": "entity_62_tree_k1_sc2",
+        "origin": [
+          -243.5078,
+          22.1456,
+          -72.1085
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_64_tree_04_sc2",
+        "origin": [
+          76.5126,
+          15.8986,
+          -101.651
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_65_tree_02_sc2",
+        "origin": [
+          29.5417,
+          16.9777,
+          45.5459
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_k1.sc2",
+        "group": "entity_66_tree_k1_sc2",
+        "origin": [
+          55.8882,
+          19.7178,
+          27.1876
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_70_tree_02_sc2",
+        "origin": [
+          -101.6145,
+          20.1863,
+          -122.5236
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_74_tree_02_sc2",
+        "origin": [
+          -263.6761,
+          23.0045,
+          6.8674
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_75_tree_02_sc2",
+        "origin": [
+          -278.5244,
+          24.9624,
+          15.8674
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_76_tree_02_sc2",
+        "origin": [
+          -267.036,
+          23.0807,
+          -63.6377
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_77_tree_02_sc2",
+        "origin": [
+          -268.6591,
+          23.7176,
+          -59.5909
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_78_tree_02_sc2",
+        "origin": [
+          -266.2826,
+          22.2071,
+          -68.2116
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_83_tree_04_sc2",
+        "origin": [
+          -223.6884,
+          18.839,
+          -25.0946
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "env_23_Loudspeaker.sc2",
+        "group": "entity_87_env_23_Loudspeaker_sc2",
+        "origin": [
+          -192.8822,
+          18.4641,
+          46.5797
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_23_Loudspeaker.sc2",
+        "group": "entity_88_env_23_Loudspeaker_sc2",
+        "origin": [
+          -196.7709,
+          18.5036,
+          -41.8224
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_23_Loudspeaker.sc2",
+        "group": "entity_89_env_23_Loudspeaker_sc2",
+        "origin": [
+          -115.5441,
+          18.8803,
+          -41.0625
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_23_Loudspeaker.sc2",
+        "group": "entity_90_env_23_Loudspeaker_sc2",
+        "origin": [
+          -60.2688,
+          18.3023,
+          -99.2778
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_23_Loudspeaker.sc2",
+        "group": "entity_91_env_23_Loudspeaker_sc2",
+        "origin": [
+          -159.7839,
+          18.4695,
+          32.5338
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_23_Loudspeaker.sc2",
+        "group": "entity_92_env_23_Loudspeaker_sc2",
+        "origin": [
+          -151.9592,
+          18.5503,
+          87.7295
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_23_Loudspeaker.sc2",
+        "group": "entity_102_env_23_Loudspeaker_sc2",
+        "origin": [
+          49.1708,
+          18.6643,
+          -220.316
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_27_stolb.sc2",
+        "group": "entity_110_env_27_stolb_sc2",
+        "origin": [
+          88.625,
+          19.7653,
+          -166.8375
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_122_tree_02_sc2",
+        "origin": [
+          83.8305,
+          18.9555,
+          -255.3118
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_k1.sc2",
+        "group": "entity_126_tree_k1_sc2",
+        "origin": [
+          164.6975,
+          22.9176,
+          -232.5473
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_127_tree_02_sc2",
+        "origin": [
+          140.2105,
+          17.9195,
+          -147.775
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_k1.sc2",
+        "group": "entity_128_tree_k1_sc2",
+        "origin": [
+          134.5463,
+          16.0776,
+          -106.3445
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_129_tree_04_sc2",
+        "origin": [
+          119.8827,
+          17.2411,
+          -130.8373
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_130_tree_02_sc2",
+        "origin": [
+          109.0277,
+          17.8893,
+          -137.0681
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_131_tree_02_sc2",
+        "origin": [
+          115.1458,
+          16.6595,
+          -125.8508
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "env_27_stolb.sc2",
+        "group": "entity_349_env_27_stolb_sc2",
+        "origin": [
+          -157.44,
+          18.6482,
+          18.6889
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_464_tree_04_sc2",
+        "origin": [
+          141.1061,
+          16.2097,
+          -36.4729
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_465_tree_02_sc2",
+        "origin": [
+          138.1463,
+          16.1106,
+          -52.3195
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_466_tree_02_sc2",
+        "origin": [
+          146.6251,
+          17.2019,
+          -38.384
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "env_27_stolb.sc2",
+        "group": "entity_497_env_27_stolb_sc2",
+        "origin": [
+          -159.9182,
+          18.4115,
+          -33.7837
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "env_27_stolb.sc2",
+        "group": "entity_498_env_27_stolb_sc2",
+        "origin": [
+          -93.2179,
+          18.8313,
+          -120.7972
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_738_tree_02_sc2",
+        "origin": [
+          142.363,
+          16.6108,
+          -56.4165
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_739_tree_02_sc2",
+        "origin": [
+          147.8101,
+          16.5533,
+          -71.5776
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_740_tree_02_sc2",
+        "origin": [
+          145.4417,
+          17.1422,
+          -43.3796
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_741_tree_04_sc2",
+        "origin": [
+          138.5798,
+          15.7771,
+          -77.241
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_742_tree_04_sc2",
+        "origin": [
+          158.2636,
+          20.7927,
+          -194.1512
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_743_tree_02_sc2",
+        "origin": [
+          161.6819,
+          21.4946,
+          -198.8869
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_744_tree_02_sc2",
+        "origin": [
+          157.8426,
+          21.1886,
+          -202.2951
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_745_tree_02_sc2",
+        "origin": [
+          146.7348,
+          20.8852,
+          -205.4189
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_746_tree_02_sc2",
+        "origin": [
+          147.8311,
+          21.5222,
+          -211.195
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_747_tree_02_sc2",
+        "origin": [
+          143.5761,
+          22.079,
+          -226.7328
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_748_tree_04_sc2",
+        "origin": [
+          132.7676,
+          21.5371,
+          -226.0632
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_749_tree_04_sc2",
+        "origin": [
+          144.5851,
+          17.4316,
+          -116.8975
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_750_tree_02_sc2",
+        "origin": [
+          150.4159,
+          18.5679,
+          -117.2343
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_751_tree_02_sc2",
+        "origin": [
+          150.6369,
+          18.2686,
+          -122.3633
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_752_tree_02_sc2",
+        "origin": [
+          146.0504,
+          17.6367,
+          -132.9514
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_753_tree_02_sc2",
+        "origin": [
+          151.2231,
+          17.8583,
+          -135.746
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_k1.sc2",
+        "group": "entity_754_tree_k1_sc2",
+        "origin": [
+          178.4305,
+          18.7369,
+          -136.1367
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_755_tree_02_sc2",
+        "origin": [
+          160.5911,
+          18.8808,
+          -148.852
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_756_tree_04_sc2",
+        "origin": [
+          153.2509,
+          18.8506,
+          -156.814
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_757_tree_02_sc2",
+        "origin": [
+          172.5035,
+          19.3491,
+          -121.4307
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_758_tree_04_sc2",
+        "origin": [
+          156.4704,
+          18.2064,
+          -144.5
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_759_tree_02_sc2",
+        "origin": [
+          175.5004,
+          18.5309,
+          -117.2624
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_760_tree_02_sc2",
+        "origin": [
+          143.4648,
+          19.4301,
+          -183.5507
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_761_tree_04_sc2",
+        "origin": [
+          148.8831,
+          19.9277,
+          -177.4562
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_762_tree_02_sc2",
+        "origin": [
+          148.592,
+          19.4976,
+          -183.2895
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_763_tree_04_sc2",
+        "origin": [
+          -105.8794,
+          29.2433,
+          -221.0458
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_764_tree_02_sc2",
+        "origin": [
+          -112.8814,
+          28.4696,
+          -224.5858
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_765_tree_02_sc2",
+        "origin": [
+          -111.5136,
+          29.4904,
+          -215.1016
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_766_tree_02_sc2",
+        "origin": [
+          -106.3176,
+          28.636,
+          -226.4564
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_767_tree_02_sc2",
+        "origin": [
+          -109.7219,
+          29.1747,
+          -218.1818
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_768_tree_02_sc2",
+        "origin": [
+          -106.5325,
+          29.7181,
+          -217.3543
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_769_tree_02_sc2",
+        "origin": [
+          -253.7191,
+          28.2794,
+          -117.2586
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_770_tree_04_sc2",
+        "origin": [
+          -236.2983,
+          25.0758,
+          -103.8269
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_771_tree_02_sc2",
+        "origin": [
+          -266.1948,
+          23.7723,
+          -81.9876
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_772_tree_02_sc2",
+        "origin": [
+          -261.3071,
+          26.772,
+          -103.3274
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_773_tree_02_sc2",
+        "origin": [
+          -253.3297,
+          23.4991,
+          -74.3346
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_774_tree_02_sc2",
+        "origin": [
+          -233.5433,
+          24.9762,
+          -103.045
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_775_tree_02_sc2",
+        "origin": [
+          182.3799,
+          20.3604,
+          -18.371
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_776_tree_02_sc2",
+        "origin": [
+          181.6931,
+          20.2765,
+          -15.5189
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_777_tree_04_sc2",
+        "origin": [
+          178.3862,
+          20.3283,
+          -15.9699
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_778_tree_02_sc2",
+        "origin": [
+          184.1771,
+          20.5018,
+          -25.8116
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_779_tree_04_sc2",
+        "origin": [
+          -236.181,
+          23.9776,
+          116.1318
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_780_tree_02_sc2",
+        "origin": [
+          -239.734,
+          24.4805,
+          111.8714
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_781_tree_04_sc2",
+        "origin": [
+          -246.7299,
+          24.9476,
+          132.0589
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_782_tree_02_sc2",
+        "origin": [
+          -243.1641,
+          24.5643,
+          134.0589
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_783_tree_02_sc2",
+        "origin": [
+          -241.0998,
+          24.0067,
+          131.1173
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_784_tree_04_sc2",
+        "origin": [
+          -281.7034,
+          25.2416,
+          37.1857
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_785_tree_02_sc2",
+        "origin": [
+          -284.7488,
+          25.3133,
+          33.5339
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_786_tree_02_sc2",
+        "origin": [
+          -275.6618,
+          23.813,
+          42.7962
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_787_tree_02_sc2",
+        "origin": [
+          -176.9986,
+          17.3572,
+          198.9494
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_788_tree_04_sc2",
+        "origin": [
+          -169.2782,
+          16.6393,
+          204.2217
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_k1.sc2",
+        "group": "entity_789_tree_k1_sc2",
+        "origin": [
+          -180.6379,
+          18.0335,
+          204.7335
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_k1.sc2",
+        "group": "entity_791_tree_k1_sc2",
+        "origin": [
+          -155.3614,
+          16.0437,
+          216.8852
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_792_tree_02_sc2",
+        "origin": [
+          -92.6579,
+          16.0453,
+          208.4674
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_k1.sc2",
+        "group": "entity_793_tree_k1_sc2",
+        "origin": [
+          -96.2973,
+          16.5996,
+          214.2515
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_794_tree_04_sc2",
+        "origin": [
+          -86.399,
+          16.6087,
+          213.1889
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_k1.sc2",
+        "group": "entity_796_tree_k1_sc2",
+        "origin": [
+          -49.7858,
+          15.7519,
+          169.1928
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_k1.sc2",
+        "group": "entity_797_tree_k1_sc2",
+        "origin": [
+          -55.1314,
+          15.0289,
+          147.6776
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_798_tree_02_sc2",
+        "origin": [
+          -57.4864,
+          15.5351,
+          164.1021
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_799_tree_04_sc2",
+        "origin": [
+          -42.3402,
+          15.5074,
+          160.598
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "env_23_Loudspeaker.sc2",
+        "group": "entity_800_env_23_Loudspeaker_sc2",
+        "origin": [
+          -233.5426,
+          18.9953,
+          -61.408
+        ],
+        "fallType": 2
+      },
+      {
+        "name": "tree_02.sc2",
+        "group": "entity_844_tree_02_sc2",
+        "origin": [
+          -206.2153,
+          20.3876,
+          26.0178
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_04.sc2",
+        "group": "entity_845_tree_04_sc2",
+        "origin": [
+          -214.0737,
+          19.5709,
+          18.4601
+        ],
+        "fallType": 0
+      },
+      {
+        "name": "tree_k1.sc2",
+        "group": "entity_846_tree_k1_sc2",
+        "origin": [
+          -213.54,
+          19.7409,
+          26.511
+        ],
+        "fallType": 0
+      }
+    ]
+  },
+  "sources": [
+    {
+      "path": "3d/Maps/15_ordeal_ord/15_ordeal_ord.sc2",
+      "sha256": "7b4eb47257c73774f281939683b0c3906c4cc2cf4ab7f67dbfc7fdda6e4a294e"
+    },
+    {
+      "path": "3d/Maps/15_ordeal_ord/landscape/OrdialHM3.heightmap",
+      "sha256": "d3cce0e9a1e2c3b7ba215574f23f5ae48d5d589afd440088b7578d3923f724cb"
+    },
+    {
+      "path": "3d/Maps/15_ordeal_ord/landscape/ordeal_CM.mali.pvr",
+      "sha256": "ca77179968c41d1c307aea9457fc142b801420b4cc5712017470f1f0778b1b41"
+    },
+    {
+      "path": "3d/Maps/15_ordeal_ord/landscape/ordeal_tilemask.mali.pvr",
+      "sha256": "360f6faa2f55be623d214c109ea0d3abca994b0aff10a818f36aba122bf33928"
+    },
+    {
+      "path": "3d/Maps/15_ordeal_ord/landscape/TileTextures.mali.pvr",
+      "sha256": "979551fed0b44b8a0a3f26fadfe97440d01f42e5d8593ca205b36cd22a1b8926"
+    },
+    {
+      "path": "from_apk/Data/Strings/en.yaml",
+      "sha256": "912cc9e8960dab29709a6224be917d0fa10b29dc0b639dbfde84e5182b64f0a8"
+    },
+    {
+      "path": "from_apk/Data/Strings/ru.yaml",
+      "sha256": "a4a26e86b276117e867a186d4f2b94f67013f2319d04933c1c94bf1e6a830195"
+    },
+    {
+      "path": "Gfx2/UI/BattleScreenHUD/minimap/ordeal/texture0.mali.webp",
+      "sha256": "81de531d88451dcc46b7de53ce65a8bb1c862abea2242cbb86cd361244eeb8df"
+    },
+    {
+      "path": "Gfx/UI/BattleLoadingScreen/ordeal/texture0.mali.webp",
+      "sha256": "ad9e8fcb0185317bdf3449b8947fbeb44f95b3d6198ce012fe22238a0ced8576"
+    },
+    {
+      "path": "Gfx2/UI/BattleScreenHUD/minimap/ordeal/MiniMapSmall.txt",
+      "sha256": "b1069432f9bdae04052e4836dba2bce4e91bc46edf954ab9507a67a23566b707"
+    }
+  ]
+}

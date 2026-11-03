@@ -1,0 +1,65 @@
+{
+  "albedos": {},
+  "nodes": {
+    "gun_01": {
+      "local": [
+        0.000118,
+        0.565738,
+        -1.148406
+      ],
+      "parent": "turret_01",
+      "world": [
+        0.000118,
+        2.042817,
+        -1.436358
+      ]
+    },
+    "gun_01_shoot_pos": {
+      "local": [
+        -0.000119,
+        0.000617,
+        -6.076346
+      ],
+      "parent": "gun_01",
+      "world": [
+        -1e-06,
+        2.043434,
+        -7.512704
+      ]
+    },
+    "turret_01": {
+      "local": [
+        0.0,
+        1.477079,
+        -0.287952
+      ],
+      "parent": "",
+      "world": [
+        0.0,
+        1.477079,
+        -0.287952
+      ]
+    }
+  },
+  "rig": {
+    "gun": "gun_01",
+    "guns": [
+      "gun_01"
+    ],
+    "muzzle": "gun_01_shoot_pos",
+    "muzzles": {
+      "gun_01": "gun_01_shoot_pos"
+    },
+    "turret": "turret_01",
+    "turrets": {
+      "turret_01": {
+        "guns": [
+          "gun_01"
+        ],
+        "muzzles": {
+          "gun_01": "gun_01_shoot_pos"
+        }
+      }
+    }
+  }
+}

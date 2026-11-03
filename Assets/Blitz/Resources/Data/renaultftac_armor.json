@@ -1,0 +1,75 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "RENAULTFTACArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 240,
+      "vertices": 256
+    },
+    {
+      "armor": 0,
+      "material": "RENAULTFTACArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 3,
+      "vertices": 9
+    },
+    {
+      "armor": 10,
+      "material": "RENAULTFTACArmor_armor_hull_plate10s_10",
+      "mount": "hull",
+      "name": "armor_hull_plate10s_10",
+      "screen": true,
+      "submesh": 2,
+      "triangles": 66,
+      "vertices": 198
+    },
+    {
+      "armor": 15,
+      "material": "RENAULTFTACArmor_armor_hull_plate15_15",
+      "mount": "hull",
+      "name": "armor_hull_plate15_15",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 19,
+      "vertices": 57
+    },
+    {
+      "armor": 16,
+      "material": "RENAULTFTACArmor_armor_hull_plate16_16",
+      "mount": "hull",
+      "name": "armor_hull_plate16_16",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 103,
+      "vertices": 309
+    },
+    {
+      "armor": 8,
+      "material": "RENAULTFTACArmor_armor_hull_plate8_8",
+      "mount": "hull",
+      "name": "armor_hull_plate8_8",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 103,
+      "vertices": 309
+    },
+    {
+      "armor": 10,
+      "material": "RENAULTFTACArmor_armor_turret_01_plate10_10",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate10_10",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 16,
+      "vertices": 48
+    }
+  ]
+}

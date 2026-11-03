@@ -1,0 +1,165 @@
+{
+  "plates": [
+    {
+      "armor": 20,
+      "material": "GB63TOGIIArmor_module_tracks_20",
+      "module": "tracks",
+      "mount": "hull",
+      "name": "module_tracks_20",
+      "screen": true,
+      "submesh": 0,
+      "triangles": 388,
+      "vertices": 450
+    },
+    {
+      "armor": 0,
+      "material": "GB63TOGIIArmor_armor_hull_plate0_0",
+      "mount": "hull",
+      "name": "armor_hull_plate0_0",
+      "screen": false,
+      "submesh": 1,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 113,
+      "material": "GB63TOGIIArmor_armor_hull_plate113s_113",
+      "mount": "hull",
+      "name": "armor_hull_plate113s_113",
+      "screen": true,
+      "submesh": 2,
+      "triangles": 17,
+      "vertices": 51
+    },
+    {
+      "armor": 25,
+      "material": "GB63TOGIIArmor_armor_hull_plate25_25",
+      "mount": "hull",
+      "name": "armor_hull_plate25_25",
+      "screen": false,
+      "submesh": 3,
+      "triangles": 36,
+      "vertices": 108
+    },
+    {
+      "armor": 50,
+      "material": "GB63TOGIIArmor_armor_hull_plate50_50",
+      "mount": "hull",
+      "name": "armor_hull_plate50_50",
+      "screen": false,
+      "submesh": 4,
+      "triangles": 40,
+      "vertices": 120
+    },
+    {
+      "armor": 63,
+      "material": "GB63TOGIIArmor_armor_hull_plate63_63",
+      "mount": "hull",
+      "name": "armor_hull_plate63_63",
+      "screen": false,
+      "submesh": 5,
+      "triangles": 28,
+      "vertices": 84
+    },
+    {
+      "armor": 76,
+      "material": "GB63TOGIIArmor_armor_hull_plate76_76",
+      "mount": "hull",
+      "name": "armor_hull_plate76_76",
+      "screen": false,
+      "submesh": 6,
+      "triangles": 79,
+      "vertices": 237
+    },
+    {
+      "armor": 88,
+      "material": "GB63TOGIIArmor_armor_hull_plate88s_88",
+      "mount": "hull",
+      "name": "armor_hull_plate88s_88",
+      "screen": true,
+      "submesh": 7,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 96,
+      "material": "GB63TOGIIArmor_armor_hull_plate96s_96",
+      "mount": "hull",
+      "name": "armor_hull_plate96s_96",
+      "screen": true,
+      "submesh": 8,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 0,
+      "material": "GB63TOGIIArmor_armor_turret_01_plate0_0",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate0_0",
+      "screen": false,
+      "submesh": 9,
+      "triangles": 12,
+      "vertices": 36
+    },
+    {
+      "armor": 114,
+      "material": "GB63TOGIIArmor_armor_turret_01_plate114_114",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate114_114",
+      "screen": false,
+      "submesh": 10,
+      "triangles": 54,
+      "vertices": 162
+    },
+    {
+      "armor": 19,
+      "material": "GB63TOGIIArmor_armor_turret_01_plate19_19",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate19_19",
+      "screen": false,
+      "submesh": 11,
+      "triangles": 44,
+      "vertices": 132
+    },
+    {
+      "armor": 25,
+      "material": "GB63TOGIIArmor_armor_turret_01_plate25_25",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate25_25",
+      "screen": false,
+      "submesh": 12,
+      "triangles": 8,
+      "vertices": 24
+    },
+    {
+      "armor": 53,
+      "material": "GB63TOGIIArmor_armor_turret_01_plate53_53",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate53_53",
+      "screen": false,
+      "submesh": 13,
+      "triangles": 4,
+      "vertices": 12
+    },
+    {
+      "armor": 63,
+      "material": "GB63TOGIIArmor_armor_turret_01_plate63_63",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate63_63",
+      "screen": false,
+      "submesh": 14,
+      "triangles": 18,
+      "vertices": 54
+    },
+    {
+      "armor": 76,
+      "material": "GB63TOGIIArmor_armor_turret_01_plate76_76",
+      "mount": "turret_01",
+      "name": "armor_turret_01_plate76_76",
+      "screen": false,
+      "submesh": 15,
+      "triangles": 12,
+      "vertices": 36
+    }
+  ]
+}
