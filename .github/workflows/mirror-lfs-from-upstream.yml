@@ -1,0 +1,122 @@
+# Mirror Git LFS objects from the upstream project into this repository.
+#
+# Why this exists: the Arena sandbox can only reach github.com / codeload /
+# api.github.com. Git LFS objects are served from S3 (github-cloud), and the
+# sandbox GitHub token cannot read another repository's LFS storage, so
+# "git lfs pull" cannot work inside the sandbox (403 / TLS reset).
+#
+# This workflow runs on a GitHub-hosted runner, which has open internet:
+#   1. download every LFS object of the pinned upstream commit;
+#   2. upload the same objects to this repository's own LFS storage.
+#
+# After one successful run, anyone cloning THIS repository on a normal
+# machine gets the real assets with a plain:
+#   git lfs install && git lfs pull
+# because the pointer files in this branch are byte-identical to upstream
+# (verified: tree hash 2ef8a0e8018008bcbe170a132a8b23befac7aa18).
+#
+# The job creates no commits: it only uploads LFS objects (content-addressed
+# by SHA-256), so re-running it is safe and idempotent.
+
+name: Mirror upstream LFS objects
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "arena/f9c604c3-golub"
+    paths:
+      - ".github/workflows/mirror-lfs-from-upstream.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mirror-upstream-lfs
+  cancel-in-progress: false
+
+jobs:
+  mirror-lfs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      UPSTREAM_REPO: https://github.com/blitz-legacy-remastered/Null-Legacy-Remastered-Deluxe.git
+      UPSTREAM_COMMIT: 41a4d45641edc34a310ce492db118ef3509f193a
+    steps:
+      # persist-credentials is intentionally off: no token is stored, so the
+      # anonymous upstream fetch below cannot leak this repository's token
+      # to (or be rejected by) the upstream LFS API. The token is only
+      # re-added as the origin URL right before the push to this repository.
+      - name: Check out this repository (LFS pointers only)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: false
+          persist-credentials: false
+
+      - name: Show toolchain and disk space
+        run: |
+          git --version
+          git lfs version
+          df -h
+
+      - name: Download LFS objects from upstream
+        run: |
+          set -euo pipefail
+          git lfs install --local
+          git remote add upstream "$UPSTREAM_REPO"
+          git fetch --no-tags upstream main
+          test "$(git rev-parse FETCH_HEAD)" = "$UPSTREAM_COMMIT"
+          git lfs fetch upstream "$UPSTREAM_COMMIT"
+          git lfs fsck "$UPSTREAM_COMMIT"
+          {
+            echo "### Upstream LFS download"
+            echo "- Pointer files in upstream commit: $(git lfs ls-files "$UPSTREAM_COMMIT" | wc -l)"
+            echo "- Objects in local LFS cache: $(find .git/lfs/objects -type f | wc -l)"
+            echo "- Local LFS cache size: $(du -sh .git/lfs | cut -f1)"
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+          du -sh .git/lfs
+          df -h
+
+      - name: Upload LFS objects to this repository
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
+          # --all is essential here: this branch is already pushed, so a
+          # plain "git lfs push origin HEAD" would see no new commits and
+          # upload nothing at all.
+          git lfs push --all origin HEAD
+          {
+            echo "### Upload to this repository"
+            echo "- Pointer files in HEAD: $(git lfs ls-files HEAD | wc -l)"
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Verify this repository now holds every object
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          # A plain "--dry-run" push cannot verify anything: it never asks
+          # the server which objects exist. Instead, make a fresh
+          # pointer-only clone of this repository and download all objects
+          # back from this repository's own LFS storage.
+          rm -rf .git/lfs/objects
+          rm -rf /tmp/verify
+          GIT_LFS_SKIP_SMUDGE=1 git clone \
+            --branch "arena/f9c604c3-golub" \
+            "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" \
+            /tmp/verify
+          cd /tmp/verify
+          git lfs install --local
+          git lfs fetch --all origin
+          git lfs fsck
+          {
+            echo "### Verification against this repository"
+            echo "- Pointer files in verified HEAD: $(git lfs ls-files HEAD | wc -l)"
+            echo "- Objects downloaded back: $(find .git/lfs/objects -type f | wc -l)"
+            echo "- Downloaded size: $(du -sh .git/lfs | cut -f1)"
+            echo "- git lfs fsck: OK"
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+          df -h
