@@ -335,10 +335,12 @@ namespace BlitzLegacy.Core.Mods
         }
 
         /// <summary>
-        /// Every mod card, whatever it says, lands in the mod class: light
-        /// green like a collector, on the mixed nation flag, outside the
-        /// research tree and never rolled for bots (there is no stock model
-        /// to give them).
+        /// Every mod card lands in the mod class: light green like a
+        /// collector, outside the research tree and never rolled for bots
+        /// (there is no stock model to give them). The nation is the one
+        /// the card declares, so a mod can fly any stock flag; only a card
+        /// that names no nation (or a value outside the enum) falls back
+        /// to the mixed <see cref="Nation.Other"/> flag.
         /// </summary>
         public static void MarkAsMod(TankInfo card)
         {
@@ -349,9 +351,19 @@ namespace BlitzLegacy.Core.Mods
 
             card.Mod = true;
             card.Collector = false;
-            card.Nation = Nation.Other;
+            if (!IsDeclaredNation(card.Nation))
+            {
+                card.Nation = Nation.Other;
+            }
+
             card.TreeTank = false;
             card.IgnoreMatchmaker = true;
+        }
+
+        /// <summary>True for a nation a card may name: stock trees and the mixed flag.</summary>
+        private static bool IsDeclaredNation(Nation nation)
+        {
+            return nation >= Nation.Ussr && nation <= Nation.European;
         }
 
         /// <summary>The stand-in card of a mod that shipped a model without a .tres.</summary>

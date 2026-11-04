@@ -131,6 +131,29 @@ namespace BlitzLegacy.Core.Mods
                     Check(Finite(shell.Damage, true) && Finite(shell.Penetration, false) && Finite(shell.Speed, true)
                         && shell.Type >= ShellType.Ap && shell.Type <= ShellType.Hesh && shell.Caliber > 0);
                 }
+                // A magazine gun (BURST or AUTOLOAD) needs a sane drum: the
+                // battle clock indexes the burst list and the autoload
+                // timers, so an empty or negative drum would hang or crash
+                // the first shot instead of failing the install.
+                Check(gun.FireMode >= 0 && gun.FireMode <= 2);
+                if (gun.FireMode != 0)
+                {
+                    Check(gun.Burst != null && gun.Burst.Bursts.Count > 0);
+                    foreach (var burstShells in gun.Burst.Bursts)
+                    {
+                        Check(burstShells > 0);
+                    }
+
+                    Check(Finite(gun.Burst.IntraClip, false) && Finite(gun.Burst.IntraBurst, false));
+                }
+
+                if (gun.AutoReload)
+                {
+                    foreach (var seconds in gun.AutoReloadTimes)
+                    {
+                        Check(Finite(seconds, true));
+                    }
+                }
                 var tank = new ModVehicleAssets { Id = id, PortableCard = card, ModelPath = Required("model.glb"),
                     DefaultName = card.DisplayName, RussianName = cardJson["localized_names"]["ru"].AsString(), NodesPath = Required("nodes.json"), ArmorPath = Required("armor.json"),
                     BodyTexturePath = Required("body.png"), TrackTexturePath = Required("tracks.png"), IconPath = Required("icon.png") };

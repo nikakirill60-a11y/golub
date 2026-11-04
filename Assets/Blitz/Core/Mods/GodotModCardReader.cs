@@ -242,9 +242,124 @@ namespace BlitzLegacy.Core.Mods
                 gun.Reload = GodotResourceFile.Number(cycle.Raw("reload"), gun.Reload);
                 gun.Burst.IntraClip = GodotResourceFile.Number(
                     cycle.Raw("intrashot"), gun.Burst.IntraClip);
+                ReadMagazine(cycle, gun);
+            }
+
+            // A card may also carry the magazine on the gun itself, either as
+            // a burst_info sub-resource (the shape the stock table uses) or
+            // as plain fields. Reads only fill what is still unset, so the
+            // cycle_info above wins over both, and burst_info over plain
+            // fields.
+            var burst = file.Follow(section, "burst_info");
+            if (burst != null)
+            {
+                ReadMagazine(burst, gun);
+            }
+
+            ReadMagazine(section, gun);
+
+            // The shorthand for a classic drum: N shells, one at a time,
+            // intra-clip seconds apart, then the long reload. It expands to
+            // N one-shell bursts, which is how the magazine clock models an
+            // autoloader drum.
+            var clipSize = GodotResourceFile.Integer(
+                First(section, "clip_size", "magazine_size"), 0);
+            if (clipSize <= 0 && cycle != null)
+            {
+                clipSize = GodotResourceFile.Integer(
+                    First(cycle, "clip_size", "magazine_size"), 0);
+            }
+
+            if (clipSize > 0 && gun.Burst.Bursts.Count == 0)
+            {
+                for (var i = 0; i < clipSize; i++)
+                {
+                    gun.Burst.Bursts.Add(1);
+                }
             }
 
             return gun;
+        }
+
+        /// <summary>
+        /// Reads one magazine description (bursts, the two cadences and the
+        /// per-shell autoload timers) without overwriting values an earlier
+        /// description already set.
+        /// </summary>
+        private static void ReadMagazine(GodotSection section, GunInfo gun)
+        {
+            if (section == null || gun == null)
+            {
+                return;
+            }
+
+            if (gun.Burst.Bursts.Count == 0)
+            {
+                ReadInts(section.Raw("bursts"), gun.Burst.Bursts);
+            }
+
+            if (gun.Burst.IntraClip <= 0f)
+            {
+                gun.Burst.IntraClip = GodotResourceFile.Number(
+                    First(section, "intraclip", "intra_clip"), gun.Burst.IntraClip);
+            }
+
+            if (gun.Burst.IntraBurst <= 0f)
+            {
+                gun.Burst.IntraBurst = GodotResourceFile.Number(
+                    First(section, "intraburst", "intra_burst"), gun.Burst.IntraBurst);
+            }
+
+            if (gun.AutoReloadTimes.Count == 0)
+            {
+                var times = new List<float>();
+                ReadFloats(section.Raw("autoreload_times"), times);
+                for (var i = 0; i < times.Count; i++)
+                {
+                    if (times[i] > 0f)
+                    {
+                        gun.AutoReloadTimes.Add(times[i]);
+                    }
+                }
+            }
+        }
+
+        /// <summary>Parses a Godot int array literal such as "[4, 4, 4]".</summary>
+        private static void ReadInts(string raw, List<int> target)
+        {
+            if (string.IsNullOrEmpty(raw) || target == null)
+            {
+                return;
+            }
+
+            var parts = raw.Trim().Trim('[', ']').Split(',');
+            for (var i = 0; i < parts.Length; i++)
+            {
+                var value = GodotResourceFile.Integer(parts[i], 0);
+                if (value > 0)
+                {
+                    target.Add(value);
+                }
+            }
+        }
+
+        /// <summary>Parses a Godot float array literal such as "[3.0, 2.5]".</summary>
+        private static void ReadFloats(string raw, List<float> target)
+        {
+            if (string.IsNullOrEmpty(raw) || target == null)
+            {
+                return;
+            }
+
+            var parts = raw.Trim().Trim('[', ']').Split(',');
+            for (var i = 0; i < parts.Length; i++)
+            {
+                var value = GodotResourceFile.Number(parts[i], 0f);
+                if (value > 0f)
+                {
+                    target.Add(value);
+                }
+            }
         }
 
         private static ShellInfo Shell(GodotSection section)

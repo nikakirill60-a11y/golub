@@ -89,9 +89,10 @@ namespace BlitzLegacy.Core.Tanks
         public int CollectorSellGold;
 
         /// <summary>
-        /// Installed from a Godot mod. Mods are their own class, drawn like a
-        /// collector vehicle but in light green, and always on the mixed
-        /// (<see cref="Nation.Other"/>) flag whatever the card says.
+        /// Installed from a mod. Mods are their own class, drawn like a
+        /// collector vehicle but in light green; the flag is the nation the
+        /// card declares, or the mixed (<see cref="Nation.Other"/>) flag
+        /// when it declares none.
         /// </summary>
         public bool Mod;
 
