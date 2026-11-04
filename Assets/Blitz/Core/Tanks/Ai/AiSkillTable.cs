@@ -12,12 +12,16 @@ namespace BlitzLegacy.Core.Tanks.Ai
         public static readonly int[] HeavyArmorForLevelTable =
         {
             30, 50, 70, 80, 110, 130, 160, 200, 250, 300,
+            // Tier XI continues the +50 step of the two levels before it.
+            350,
         };
 
         /// <summary>heavy_weight_for_level, in tonnes.</summary>
         public static readonly int[] HeavyWeightForLevelTable =
         {
             999, 999, 30, 40, 60, 70, 70, 70, 80, 80,
+            // Tier XI holds the tier IX/X plateau.
+            80,
         };
 
         /// <summary>One entry of a choose_skill chance table.</summary>

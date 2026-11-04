@@ -46,6 +46,11 @@
 *.apk    filter=lfs diff=lfs merge=lfs -text
 *.aab    filter=lfs diff=lfs merge=lfs -text
 
+# The generated tier XI level glyphs are sub-kilobyte files created locally;
+# no LFS object exists for them, so they stay in plain Git instead of being
+# rewritten into pointers by the PNG rule above.
+Assets/Blitz/Resources/Textures/level11*.png -filter -diff -merge -text
+
 # Original 11.20 reference shader text is retained byte-for-byte (including CRLF/spacing).
 Assets/Blitz/Resources/Uprising/Sources/Shaders/*.txt -text -whitespace
 

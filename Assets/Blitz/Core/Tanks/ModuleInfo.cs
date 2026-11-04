@@ -256,6 +256,16 @@ namespace BlitzLegacy.Core.Tanks
                 node["disp_factors"]["z"].AsFloat(gun.DispersionDamaged);
             gun.Burst = BurstInfo.FromJson(node["burst_info"]);
             var autoTimes = node["autoreload_times"];
+
+            // A card that describes a magazine but forgets fire_mode still
+            // means a magazine gun: per-shell timers make it an autoloader,
+            // a bare burst table a burst gun. Stock data always names the
+            // mode, so this only rescues hand-written mod cards.
+            if (gun.FireMode == 0
+                && (gun.Burst.Bursts.Count > 0 || autoTimes.Kind == JsonKind.Array && autoTimes.Count > 0))
+            {
+                gun.FireMode = autoTimes.Kind == JsonKind.Array && autoTimes.Count > 0 ? 2 : 1;
+            }
             if (autoTimes.Kind == JsonKind.Array)
             {
                 for (var i = 0; i < autoTimes.Count; i++)

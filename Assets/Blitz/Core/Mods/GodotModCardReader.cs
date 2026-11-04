@@ -278,6 +278,15 @@ namespace BlitzLegacy.Core.Mods
                 }
             }
 
+            // A card that describes a magazine but forgets fire_mode still
+            // means a magazine gun: per-shell timers make it an autoloader,
+            // a bare burst table a burst gun.
+            if (gun.FireMode == 0
+                && (gun.Burst.Bursts.Count > 0 || gun.AutoReloadTimes.Count > 0))
+            {
+                gun.FireMode = gun.AutoReloadTimes.Count > 0 ? 2 : 1;
+            }
+
             return gun;
         }
 
@@ -324,6 +333,26 @@ namespace BlitzLegacy.Core.Mods
             }
         }
 
+        /// <summary>
+        /// Splits a Godot array literal into its element texts. Plain
+        /// "[4, 4]" and the typed spellings "Array[int]([4, 4])" and
+        /// "PackedInt32Array([4, 4])" all reduce to the same elements:
+        /// everything between the first '[' and the last ']'.
+        /// </summary>
+        private static string[] ArrayParts(string raw)
+        {
+            var text = (raw ?? string.Empty).Trim();
+            // The typed spellings wrap the list in a call, and "Array[int]"
+            // carries brackets of its own: the list opens after the '('.
+            var paren = text.IndexOf('(');
+            var open = paren >= 0 ? text.IndexOf('[', paren + 1) : text.IndexOf('[');
+            var close = text.LastIndexOf(']');
+            var body = open >= 0 && close > open
+                ? text.Substring(open + 1, close - open - 1)
+                : text.Trim('[', ']');
+            return body.Split(',');
+        }
+
         /// <summary>Parses a Godot int array literal such as "[4, 4, 4]".</summary>
         private static void ReadInts(string raw, List<int> target)
         {
@@ -332,7 +361,7 @@ namespace BlitzLegacy.Core.Mods
                 return;
             }
 
-            var parts = raw.Trim().Trim('[', ']').Split(',');
+            var parts = ArrayParts(raw);
             for (var i = 0; i < parts.Length; i++)
             {
                 var value = GodotResourceFile.Integer(parts[i], 0);
@@ -351,7 +380,7 @@ namespace BlitzLegacy.Core.Mods
                 return;
             }
 
-            var parts = raw.Trim().Trim('[', ']').Split(',');
+            var parts = ArrayParts(raw);
             for (var i = 0; i < parts.Length; i++)
             {
                 var value = GodotResourceFile.Number(parts[i], 0f);

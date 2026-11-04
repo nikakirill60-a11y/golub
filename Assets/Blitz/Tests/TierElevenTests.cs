@@ -1,6 +1,7 @@
 using BlitzLegacy.Core.Battle;
 using BlitzLegacy.Core.Shop;
 using BlitzLegacy.Core.Tanks;
+using BlitzLegacy.Core.Tanks.Ai;
 using BlitzLegacy.Runtime.Ui;
 using NUnit.Framework;
 
@@ -71,6 +72,31 @@ namespace BlitzLegacy.Tests
                 OnlineQueue.TryDecode(OnlineQueue.Encode(tiers, classes), decodedTiers, decodedClasses),
                 Is.True);
             Assert.That(decodedTiers[0], Is.EqualTo(3));
+        }
+
+        [Test]
+        public void OnlineQueue_StillReadsTheLegacyTenTierMix()
+        {
+            // An older build advertises tier X first and has no XI row:
+            // two tanks wait on X, one of them counted in the first class.
+            var tiers = new int[OnlineQueue.Tiers];
+            var classes = new int[OnlineQueue.Classes];
+            Assert.That(OnlineQueue.TryDecode(
+                "2,0,0,0,0,0,0,0,0,0,1,0,0,0", tiers, classes), Is.True);
+            Assert.That(tiers[0], Is.EqualTo(0));
+            Assert.That(tiers[1], Is.EqualTo(2));
+            Assert.That(classes[0], Is.EqualTo(1));
+        }
+
+        [Test]
+        public void LevelTables_CarryAnEleventhRow()
+        {
+            Assert.That(EquipmentCatalog.CostByLevel.Length, Is.EqualTo(TanksDatabase.MaxLevel));
+            Assert.That(EquipmentCatalog.CostByLevel[10], Is.EqualTo(180000));
+            Assert.That(ConsumableCatalog.CostByLevel.Length, Is.EqualTo(TanksDatabase.MaxLevel));
+            Assert.That(ConsumableCatalog.CostByLevel[10], Is.EqualTo(3000));
+            Assert.That(AiSkillTable.HeavyArmorForLevel(11), Is.EqualTo(350));
+            Assert.That(AiSkillTable.HeavyWeightForLevel(11), Is.EqualTo(80));
         }
 
         [Test]

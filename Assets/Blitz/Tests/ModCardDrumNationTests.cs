@@ -1,4 +1,5 @@
 using BlitzLegacy.Core.Mods;
+using BlitzLegacy.Core.Serialization;
 using BlitzLegacy.Core.Tanks;
 using NUnit.Framework;
 
@@ -42,7 +43,6 @@ namespace BlitzLegacy.Tests
                 + "script = ExtResource(\"1\")\n"
                 + "name = \"Drum gun\"\n"
                 + "reload = 20.0\n"
-                + "fire_mode = 1\n"
                 + "clip_size = 3\n"
                 + "intraclip = 2.5\n"
                 + "[resource]\n"
@@ -72,10 +72,9 @@ namespace BlitzLegacy.Tests
                 + "script = ExtResource(\"1\")\n"
                 + "name = \"Auto gun\"\n"
                 + "reload = 9.0\n"
-                + "fire_mode = 2\n"
-                + "bursts = [1, 1, 1, 1]\n"
+                + "bursts = Array[int]([1, 1, 1, 1])\n"
                 + "intraclip = 3.0\n"
-                + "autoreload_times = [9.0, 6.0, 4.0, 3.0]\n"
+                + "autoreload_times = Array[float]([9.0, 6.0, 4.0, 3.0])\n"
                 + "[resource]\n"
                 + "tank_name = \"AutoTank\"\n"
                 + "nation = 2\n"
@@ -91,6 +90,22 @@ namespace BlitzLegacy.Tests
             Assert.That(gun.Burst.Bursts, Is.EqualTo(new[] { 1, 1, 1, 1 }));
             Assert.That(gun.AutoReloadTimes.Count, Is.EqualTo(4));
             Assert.That(gun.AutoReloadTimes[0], Is.EqualTo(9f));
+        }
+
+        [Test]
+        public void JsonGun_MagazineDataInfersTheFireModeWhenItIsMissing()
+        {
+            var burst = GunInfo.FromJson(JsonNode.Parse(
+                "{\"burst_info\":{\"bursts\":[2,2]}}"));
+            Assert.That(burst.FireMode, Is.EqualTo(1));
+
+            var autoload = GunInfo.FromJson(JsonNode.Parse(
+                "{\"burst_info\":{\"bursts\":[1,1]},"
+                + "\"autoreload_times\":[4.0,3.0]}"));
+            Assert.That(autoload.FireMode, Is.EqualTo(2));
+
+            var plain = GunInfo.FromJson(JsonNode.Parse("{}"));
+            Assert.That(plain.FireMode, Is.EqualTo(0));
         }
     }
 }

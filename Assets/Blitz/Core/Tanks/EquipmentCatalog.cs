@@ -29,6 +29,9 @@ namespace BlitzLegacy.Core.Tanks
         {
             1500, 5000, 35000, 35000, 70000,
             90000, 90000, 90000, 180000, 180000,
+            // Tier XI holds the tier IX/X plateau instead of silently
+            // reusing it through the index clamp below.
+            180000,
         };
 
         public static readonly EquipmentInfo[] All =

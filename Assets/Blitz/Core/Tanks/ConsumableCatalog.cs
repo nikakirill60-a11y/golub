@@ -88,6 +88,8 @@ namespace BlitzLegacy.Core.Tanks
         {
             500, 750, 1000, 1250, 1500,
             1750, 2000, 2250, 2500, 2750,
+            // Tier XI continues the flat +250 step of the levels before it.
+            3000,
         };
 
         /// <summary>Global.MAX_CONSUMABLES: the three battle slots.</summary>

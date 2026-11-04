@@ -7,7 +7,7 @@ namespace BlitzLegacy.Core.Battle
 {
     /// <summary>
     /// The shared matchmaking queue: every open online battle advertises its
-    /// make-up (ten tier counts, tier X first, then four class counts) in the
+    /// make-up (one count per tier, top tier first, then four class counts) in the
     /// lobby, and the queue screen sums all of them so a player sees who waits
     /// on every tier, not only inside the own room.
     /// </summary>
@@ -16,6 +16,14 @@ namespace BlitzLegacy.Core.Battle
         public const int Tiers = TanksDatabase.MaxLevel;
         public const int Classes = 4;
         public const int MixLength = Tiers + Classes;
+
+        /// <summary>
+        /// The pre-tier-XI make-up string: ten tier counts (X first) and the
+        /// same four class counts. Older builds in the lobby still advertise
+        /// this shape, so decoding accepts it next to the current one.
+        /// </summary>
+        public const int LegacyTiers = 10;
+        public const int LegacyMixLength = LegacyTiers + Classes;
 
         /// <summary>Upper bound of any single count read from the lobby (one room holds 14 humans).</summary>
         public const int MaxPerRoom = 14;
@@ -82,10 +90,22 @@ namespace BlitzLegacy.Core.Battle
                 digits++;
                 if (value > MaxPerRoom) { return false; }
             }
-            if (field != MixLength) { return false; }
-            for (var i = 0; i < Tiers; i++) { tiers[i] = values[i]; }
-            for (var i = 0; i < Classes; i++) { classes[i] = values[Tiers + i]; }
-            return true;
+            if (field == MixLength)
+            {
+                for (var i = 0; i < Tiers; i++) { tiers[i] = values[i]; }
+                for (var i = 0; i < Classes; i++) { classes[i] = values[Tiers + i]; }
+                return true;
+            }
+
+            if (field == LegacyMixLength)
+            {
+                tiers[0] = 0;
+                for (var i = 0; i < LegacyTiers; i++) { tiers[i + 1] = values[i]; }
+                for (var i = 0; i < Classes; i++) { classes[i] = values[LegacyTiers + i]; }
+                return true;
+            }
+
+            return false;
         }
 
         /// <summary>Sums the open battles into one queue view.</summary>
