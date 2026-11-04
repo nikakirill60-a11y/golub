@@ -194,6 +194,13 @@ jobs:
             echo '```'
             grep '"type":"result"' Logs/unity-editor-install.log 2>/dev/null || echo "<missing>"
             echo '```'
+            for f in Logs/apt-clang.log Logs/unity-cli-install.log Logs/unity-editor-install.log; do
+              echo
+              echo "## $f (tail)"
+              echo '```'
+              tail -n 40 "$f" 2>/dev/null | cut -c1-400 || echo "<missing>"
+              echo '```'
+            done
             for f in Logs/sysroot-probe.log Logs/sysroot-inspection.log Logs/sentry-bootstrap.log Logs/linux-production-debug.log; do
               echo
               echo "## $f (tail)"
