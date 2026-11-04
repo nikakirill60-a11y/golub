@@ -257,16 +257,83 @@ namespace BlitzLegacy.EditorTools
             if (string.IsNullOrEmpty(dest)) return;
             if (Directory.Exists(dest) && Directory.GetFileSystemEntries(dest).Length > 0) return;
 
-            var tar = FindPayloadTar(payloadRoot) ?? FindPayloadTar(FindPackageDir(name));
+            var packageDir = FindPackageDir(name);
+            var tar = FindPayloadTar(payloadRoot) ?? FindPayloadTar(packageDir);
             if (tar == null)
             {
-                Debug.LogWarning("[BlitzSysroot]   no payload archive found for " + name);
+                // The payload may ship as an already-extracted directory
+                // (bin/, usr/, lib/...) instead of an archive; list what is
+                // actually there and copy such a directory into place.
+                ListAllFiles(payloadRoot, "payloadRoot");
+                ListAllFiles(packageDir, "packageDir");
+                var candidate = FindPayloadDirectory(payloadRoot) ?? FindPayloadDirectory(packageDir);
+                if (candidate == null)
+                {
+                    Debug.LogWarning("[BlitzSysroot]   no payload archive or directory found for " + name);
+                    return;
+                }
+
+                Debug.Log("[BlitzSysroot]   copying payload dir " + candidate + " -> " + dest);
+                Directory.CreateDirectory(dest);
+                CopyDirectory(candidate, dest);
                 return;
             }
 
             Debug.Log("[BlitzSysroot]   extracting " + tar + " -> " + dest);
             Directory.CreateDirectory(dest);
             ExtractArchive(tar, dest);
+        }
+
+        private static void ListAllFiles(string root, string label)
+        {
+            if (string.IsNullOrEmpty(root) || !Directory.Exists(root))
+            {
+                Debug.Log("[BlitzSysroot]   " + label + " missing: " + (root ?? "<null>"));
+                return;
+            }
+
+            foreach (var file in Directory.GetFiles(root, "*", SearchOption.AllDirectories)
+                         .OrderBy(f => f).Take(80))
+            {
+                Debug.Log("[BlitzSysroot]   " + label + " file: "
+                    + file.Substring(root.Length) + " (" + new FileInfo(file).Length + " bytes)");
+            }
+        }
+
+        private static string FindPayloadDirectory(string root)
+        {
+            if (string.IsNullOrEmpty(root) || !Directory.Exists(root)) return null;
+            var candidates = new List<string> { root };
+            candidates.AddRange(Directory.GetDirectories(root, "*", SearchOption.AllDirectories));
+            return candidates
+                .Where(d => Directory.Exists(Path.Combine(d, "bin"))
+                    || Directory.Exists(Path.Combine(d, "usr", "include"))
+                    || Directory.Exists(Path.Combine(d, "usr", "lib"))
+                    || Directory.Exists(Path.Combine(d, "include")))
+                .OrderBy(d => d.Length)
+                .FirstOrDefault();
+        }
+
+        private static void CopyDirectory(string source, string dest)
+        {
+            var start = new ProcessStartInfo
+            {
+                FileName = "/bin/cp",
+                UseShellExecute = false,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+            };
+            start.ArgumentList.Add("-a");
+            start.ArgumentList.Add(source.TrimEnd('/') + "/.");
+            start.ArgumentList.Add(dest);
+            using (var process = Process.Start(start))
+            {
+                var stderr = process.StandardError.ReadToEnd();
+                process.StandardOutput.ReadToEnd();
+                process.WaitForExit();
+                Debug.Log("[BlitzSysroot]   copy exit=" + process.ExitCode
+                    + (string.IsNullOrWhiteSpace(stderr) ? "" : " stderr: " + stderr.Trim()));
+            }
         }
 
         private static string FindPackageDir(string packageName)

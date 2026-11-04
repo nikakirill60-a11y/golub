@@ -167,7 +167,8 @@ jobs:
           set -uo pipefail
           UNITY="$UNITY_EDITOR" Tools/unity.sh sysroot-probe > Logs/sysroot-probe.log 2>&1
           code=$?
-          grep -E "\[BlitzSysroot\]|error|Error" Logs/sysroot-probe.log | tail -n 80 || true
+          grep -a "\[BlitzSysroot\]" Logs/sysroot-probe.log > Logs/sysroot-probe-summary.log || true
+          tail -n 80 Logs/sysroot-probe-summary.log || true
           if [ "$code" -ne 0 ]; then exit "$code"; fi
 
       - name: Build the Linux player
@@ -208,7 +209,7 @@ jobs:
               tail -n 40 "$f" 2>/dev/null | cut -c1-400 || echo "<missing>"
               echo '```'
             done
-            for f in Logs/sysroot-probe.log Logs/sysroot-inspection.log Logs/sentry-bootstrap.log Logs/linux-production-debug.log; do
+            for f in Logs/sysroot-probe-summary.log Logs/sysroot-inspection.log Logs/sentry-bootstrap.log Logs/linux-production-debug.log Logs/sysroot-probe.log; do
               echo
               echo "## $f (tail)"
               echo '```'
