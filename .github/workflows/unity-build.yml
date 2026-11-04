@@ -66,7 +66,12 @@ jobs:
             done
             exit "$code"
           fi
-          EDITOR="$HOME/Unity/Hub/Editor/$UNITY_VERSION/Editor/Unity"
+          find "$HOME" -maxdepth 7 -type f -name Unity 2>/dev/null | head -5 || true
+          EDITOR="$(find "$HOME" -maxdepth 7 -type f -path "*/$UNITY_VERSION/*/Unity" 2>/dev/null | head -1)"
+          if [ -z "$EDITOR" ]; then
+            EDITOR="$(find "$HOME" -maxdepth 7 -type f -name Unity 2>/dev/null | head -1)"
+          fi
+          echo "::error::located editor: ${EDITOR:-<none>}"
           test -x "$EDITOR"
           echo "UNITY_EDITOR=$EDITOR" >> "$GITHUB_ENV"
 
@@ -189,7 +194,12 @@ jobs:
             done
             exit "$code"
           fi
-          EDITOR="$HOME/Unity/Hub/Editor/$UNITY_VERSION/Editor/Unity"
+          find "$HOME" -maxdepth 7 -type f -name Unity 2>/dev/null | head -5 || true
+          EDITOR="$(find "$HOME" -maxdepth 7 -type f -path "*/$UNITY_VERSION/*/Unity" 2>/dev/null | head -1)"
+          if [ -z "$EDITOR" ]; then
+            EDITOR="$(find "$HOME" -maxdepth 7 -type f -name Unity 2>/dev/null | head -1)"
+          fi
+          echo "::error::located editor: ${EDITOR:-<none>}"
           test -x "$EDITOR"
           echo "UNITY_EDITOR=$EDITOR" >> "$GITHUB_ENV"
 
