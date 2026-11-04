@@ -144,6 +144,36 @@ jobs:
           BLITZ_TEST_FILTER: "TierElevenTests|ModCardDrumNationTests|TankTreeTests|Blitz480DataTests|SmallTankIconTests|TankNameLocalizationTests"
         run: UNITY="$UNITY_EDITOR" Tools/unity.sh test
 
+      - name: Publish test diagnostics
+        if: failure()
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - << 'PYEOF' > /tmp/ci-test-diagnostics.md
+          import glob, xml.etree.ElementTree as ET
+          print("EditMode failures in this run:")
+          files = glob.glob("Logs/editmode-results.xml")
+          if not files:
+              print("<no editmode-results.xml produced>")
+          for path in files:
+              try:
+                  root = ET.parse(path).getroot()
+              except Exception as e:
+                  print("parse error:", e); continue
+              total = root.get("total"); failed = root.get("failed")
+              print(f"total={total} failed={failed}")
+              for case in root.iter("test-case"):
+                  if case.get("result") == "Failed":
+                      print()
+                      print("FAILED:", case.get("fullname"))
+                      for msg in case.iter("message"):
+                          print((msg.text or "")[:1500])
+          PYEOF
+          head -c 60000 /tmp/ci-test-diagnostics.md > /tmp/ci-test-diagnostics-short.md
+          gh issue create --title "[ci] EditMode test diagnostics $GITHUB_RUN_ID" \
+            --body-file /tmp/ci-test-diagnostics-short.md || true
+
       - name: Return the Personal license
         if: always()
         shell: bash
