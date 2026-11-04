@@ -20,6 +20,8 @@
 # The editor image is only a licensing probe (2022.3 ships a licensing client
 # that supports --include-personal). It is not the project's editor; the
 # build workflow remains responsible for the exact project version.
+# Re-run note: pushing a change to this file re-triggers the check, which is
+# how it is started again after the secrets are added.
 
 name: Unity license check
 
