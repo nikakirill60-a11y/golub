@@ -45,7 +45,7 @@ namespace BlitzLegacy.Tests
         public void UkBranch_ChallengerToFv4005_ContinuesTheFireflyRow()
         {
             var db = Database();
-            Assert.AreEqual(522, db.Count);
+            Assert.AreEqual(523, db.Count);
             var names = new[] { "Challenger", "Charioteer", "FV4004 Conway", "FV4005" };
             var xp = new[] { 65680, 106250, 160000, 280000 };
             var firefly = db.Get("gb19_sherman_firefly");

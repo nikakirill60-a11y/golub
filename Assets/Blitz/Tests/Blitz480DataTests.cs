@@ -23,7 +23,7 @@ namespace BlitzLegacy.Tests
         [Test]
         public void GeneratedTable_ParsesEveryResearchableVehicleAndModule()
         {
-            Assert.AreEqual(522, _database.Count);
+            Assert.AreEqual(523, _database.Count);
             var turrets = 0;
             var guns = 0;
             var tracks = 0;
@@ -33,7 +33,7 @@ namespace BlitzLegacy.Tests
 
             foreach (var tank in _database.Tanks)
             {
-                Assert.That(tank.Level, Is.InRange(1, 10), tank.Name);
+                Assert.That(tank.Level, Is.InRange(1, TanksDatabase.MaxLevel), tank.Name);
                 Assert.Greater(tank.Health, 0, tank.Name);
                 // Researchable cards are tree cards; premium, event and
                 // collector vehicles are tree cards only when the client sells
@@ -68,11 +68,11 @@ namespace BlitzLegacy.Tests
                 }
             }
 
-            Assert.AreEqual(719, turrets);
-            Assert.AreEqual(1039, guns);
-            Assert.AreEqual(760, tracks);
-            Assert.AreEqual(859, engines);
-            Assert.AreEqual(522, radios);
+            Assert.AreEqual(720, turrets);
+            Assert.AreEqual(1040, guns);
+            Assert.AreEqual(761, tracks);
+            Assert.AreEqual(860, engines);
+            Assert.AreEqual(523, radios);
         }
 
         [Test]

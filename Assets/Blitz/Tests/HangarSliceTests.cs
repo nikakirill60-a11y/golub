@@ -189,7 +189,7 @@ namespace BlitzLegacy.Tests
             var regions = JsonNode.Parse(text.text)["regions"];
             var database = TanksDatabase.Parse(
                 BlitzResources.LoadText(BlitzResources.TanksData));
-            Assert.AreEqual(522, database.Count);
+            Assert.AreEqual(523, database.Count);
 
             foreach (var nation in new[]
             {

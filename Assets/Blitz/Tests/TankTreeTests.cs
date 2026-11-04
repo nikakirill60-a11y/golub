@@ -67,12 +67,12 @@ namespace BlitzLegacy.Tests
         public void Database_ContainsTheCompleteBlitz480ResearchTrees()
         {
             var database = LoadDatabase();
-            Assert.AreEqual(522, database.Count);
+            Assert.AreEqual(523, database.Count);
 
             // Tree slots hold the researchable cards plus the 24 premiums the
             // client sells for gold from inside the tree itself.
-            var expectedTree = new[] { 50, 67, 57, 42, 13, 33, 10 };
-            var expectedResearchable = new[] { 43, 60, 52, 38, 13, 32, 10 };
+            var expectedTree = new[] { 50, 68, 57, 42, 13, 33, 10 };
+            var expectedResearchable = new[] { 43, 61, 52, 38, 13, 32, 10 };
             for (var nationId = 0; nationId < expectedTree.Length; nationId++)
             {
                 var nation = (Nation)(nationId + 1);
@@ -83,7 +83,7 @@ namespace BlitzLegacy.Tests
                 {
                     Assert.AreEqual(nation, card.Nation, card.Name);
                     Assert.IsTrue(card.TreeTank, card.Name);
-                    Assert.That(card.Level, Is.InRange(1, 10), card.Name);
+                    Assert.That(card.Level, Is.InRange(1, TanksDatabase.MaxLevel), card.Name);
                     if (!card.Premium)
                     {
                         researchable++;

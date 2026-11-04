@@ -7300,6 +7300,14 @@
       "en": "Maus",
       "ru": "Maus"
     },
+    "tank:maus_ii/name": {
+      "en": "Maus II",
+      "ru": "Maus II"
+    },
+    "tank:maus_ii/short": {
+      "en": "Maus II",
+      "ru": "Maus II"
+    },
     "tank:ms-1/name": {
       "en": "MS-1",
       "ru": "МС-1"

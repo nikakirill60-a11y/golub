@@ -36,7 +36,7 @@ namespace BlitzLegacy.Tests
         [Test]
         public void EveryCardOfTheBranchCarriesTheClientTurrets()
         {
-            Assert.AreEqual(522, _database.Count);
+            Assert.AreEqual(523, _database.Count);
             foreach (var name in Branch)
             {
                 var info = _database.Get(name);

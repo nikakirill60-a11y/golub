@@ -100,6 +100,31 @@ namespace BlitzLegacy.Tests
         }
 
         [Test]
+        public void MausTwo_IsTheTierElevenSuccessorOnTheMausModel()
+        {
+            var database = TanksDatabase.Parse(
+                BlitzLegacy.Runtime.Assets.BlitzResources.LoadText(
+                    BlitzLegacy.Runtime.Assets.BlitzResources.TanksData));
+            var maus = database.Get("maus");
+            var successor = database.Get("maus_ii");
+            Assert.That(maus, Is.Not.Null);
+            Assert.That(successor, Is.Not.Null);
+            Assert.That(successor.Level, Is.EqualTo(11));
+            Assert.That(successor.Nation, Is.EqualTo(Nation.Germany));
+            Assert.That(successor.Class, Is.EqualTo(TankClass.Heavy));
+            Assert.That(successor.TreeTank, Is.True);
+            Assert.That(successor.TreeBranch, Is.EqualTo(maus.TreeBranch));
+            Assert.That(maus.UnlockTanks["maus_ii"], Is.EqualTo(260000));
+            Assert.That(database.ResearchCost("maus_ii"), Is.EqualTo(260000));
+
+            // The model, rig, armour and icons are the Maus donor's.
+            var assets = TankModelAssets.For(successor);
+            Assert.That(assets.Id, Is.EqualTo("MAUS"));
+            Assert.That(assets.DataId, Is.EqualTo("MAUS"));
+            Assert.That(database.ByLevel(11).Count, Is.EqualTo(1));
+        }
+
+        [Test]
         public void LevelRegion_NamesTheEleventhGlyphs()
         {
             Assert.That(HangarUiKit.LevelRegion(11), Is.EqualTo("tank_level_11"));

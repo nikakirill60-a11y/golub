@@ -56,7 +56,7 @@ namespace BlitzLegacy.Tests
         public void Roster_AccountsForEveryPlayableGermanSourceRecord()
         {
             var db = Database(); var overlay = Overlay();
-            Assert.AreEqual(522, db.Count); Assert.AreEqual(39, overlay.Count);
+            Assert.AreEqual(523, db.Count); Assert.AreEqual(39, overlay.Count);
             var german = 0; var researchable = 0; var premium = 0; var collectible = 0;
             foreach (var tank in db.Tanks) { if (tank.Nation == Nation.Germany) { german++; } }
             Assert.AreEqual(116, german);

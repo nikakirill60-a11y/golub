@@ -6722,6 +6722,41 @@
         }
       }
     },
+    "maus_ii": {
+      "source": "original tier XI addition",
+      "name": {
+        "translations": {
+          "en": "Maus II",
+          "ru": "Maus II"
+        },
+        "source": {
+          "en": {
+            "version": "original",
+            "key": "maus_ii"
+          },
+          "ru": {
+            "version": "original",
+            "key": "maus_ii"
+          }
+        }
+      },
+      "short": {
+        "translations": {
+          "en": "Maus II",
+          "ru": "Maus II"
+        },
+        "source": {
+          "en": {
+            "version": "original",
+            "key": "maus_ii_short"
+          },
+          "ru": {
+            "version": "original",
+            "key": "maus_ii_short"
+          }
+        }
+      }
+    },
     "g125_spz_57_rh": {
       "source": "from_apk/XML/item_defs/vehicles/germany/G125_Spz_57_Rh.xml",
       "source_sha256": "e94632e1c57f64f67fcfce00985e55ee77a15554f4cd37e546b5d7123b50696e",

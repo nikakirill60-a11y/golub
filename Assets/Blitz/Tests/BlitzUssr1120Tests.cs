@@ -32,7 +32,7 @@ namespace BlitzLegacy.Tests
         public void Object907_IsATierTenSovietCollectible()
         {
             var db = Database();
-            Assert.AreEqual(522, db.Count);
+            Assert.AreEqual(523, db.Count);
             var card = db.Get(Card);
             Assert.IsNotNull(card, Card);
             Assert.AreEqual("Объект 907", card.DisplayName);

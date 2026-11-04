@@ -154,16 +154,9 @@ namespace BlitzLegacy.Runtime.Ui
                 return "flow_tank_ms1_small";
             }
 
-            var id = new StringBuilder();
-            for (var i = 0; i < card.Name.Length; i++)
-            {
-                var symbol = char.ToLowerInvariant(card.Name[i]);
-                if (char.IsLetterOrDigit(symbol))
-                {
-                    id.Append(symbol);
-                }
-            }
-
+            // Resolve through the model assets so a card borrowing a donor
+            // model (model_path naming the donor tank) also borrows its icon.
+            var id = TankModelAssets.For(card).DataId.ToLowerInvariant();
             return "flow_tank_" + id + "_small";
         }
 

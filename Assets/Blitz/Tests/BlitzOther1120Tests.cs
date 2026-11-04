@@ -46,7 +46,7 @@ namespace BlitzLegacy.Tests
         public void Roster_HoldsEveryMixedNationSourceVehicle()
         {
             var db = Database();
-            Assert.AreEqual(522, db.Count);
+            Assert.AreEqual(523, db.Count);
             var other = 0;
             foreach (var tank in db.Tanks) { if (tank.Nation == Nation.Other) { other++; } }
             Assert.AreEqual(82, other, "list.xml of vehicles/other has 82 entries");

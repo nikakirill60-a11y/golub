@@ -25,7 +25,40 @@ namespace BlitzLegacy.Core.Tanks
 
         public static TankModelAssets For(TankInfo card)
         {
-            return For(card != null ? card.Name : DefaultTankName);
+            if (card == null)
+            {
+                return For(DefaultTankName);
+            }
+
+            // A card may borrow another tank's model wholesale by naming the
+            // donor tank in model_path as a bare tank name ("maus"). Stock
+            // cards carry a source file path there instead
+            // ("Tanks/German/Maus.sc2"), which never matches this shape, and
+            // mod cards carry asset file paths, so only the bare-name form
+            // is treated as a donor.
+            var donor = card.ModelPath;
+            if (!string.IsNullOrEmpty(donor)
+                && !string.Equals(donor, card.Name, StringComparison.OrdinalIgnoreCase)
+                && IsBareTankName(donor))
+            {
+                return For(donor);
+            }
+
+            return For(card.Name);
+        }
+
+        private static bool IsBareTankName(string value)
+        {
+            for (var i = 0; i < value.Length; i++)
+            {
+                var c = value[i];
+                if (!char.IsLetterOrDigit(c) && c != '_' && c != '-')
+                {
+                    return false;
+                }
+            }
+
+            return value.Length > 0;
         }
 
         public static TankModelAssets For(string tankName)

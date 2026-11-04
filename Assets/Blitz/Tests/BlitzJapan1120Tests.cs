@@ -34,7 +34,7 @@ namespace BlitzLegacy.Tests
         public void TypeFiveHeavy_IsATierTenJapaneseCollectible()
         {
             var db = Database();
-            Assert.AreEqual(522, db.Count);
+            Assert.AreEqual(523, db.Count);
             var card = db.Get(Card);
             Assert.IsNotNull(card, Card);
             Assert.AreEqual("Type 5 Heavy", card.DisplayName);

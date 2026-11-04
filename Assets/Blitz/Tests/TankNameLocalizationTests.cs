@@ -22,7 +22,7 @@ namespace BlitzLegacy.Tests
             var table=Load();
             var cards=JsonNode.Parse(Resources.Load<TextAsset>("Data/tanks").text)["tanks"];
             var authored=JsonNode.Parse(Resources.Load<TextAsset>("Data/tank_name_localization").text)["tanks"];
-            Assert.AreEqual(522,cards.Count);
+            Assert.AreEqual(523,cards.Count);
             for(var i=0;i<cards.Count;i++)
             {
                 var tank=TankInfo.FromJson(cards[i]);

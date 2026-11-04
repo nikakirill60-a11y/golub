@@ -61075,7 +61075,9 @@
      }
     }
    ],
-   "unlock_tanks": {}
+   "unlock_tanks": {
+    "maus_ii": 260000
+   }
   },
   {
    "acquisition": "",
@@ -172741,6 +172743,210 @@
      },
      "unlocks": {},
      "weight": 9000.0,
+     "yaw_limits": {
+      "x": 180.0,
+      "y": 180.0
+     }
+    }
+   ],
+   "unlock_tanks": {}
+  },
+  {
+   "ammo_bay": {
+    "health": 280.0,
+    "max_regen_health": 190.0,
+    "repair_cost": 1.0
+   },
+   "cost": 6800000,
+   "cost_xp": 260000,
+   "crew": [
+    "commander",
+    "driver",
+    "gunner",
+    "radioman",
+    "loader"
+   ],
+   "crew_xp_factor": 1.0,
+   "display_name": "Maus II",
+   "display_name_short": "Maus II",
+   "engines": [
+    {
+     "cost_xp": 0,
+     "display_name": "DB 603 A2",
+     "fireStartingChance": 0.12,
+     "health": 360.0,
+     "kind": "engine",
+     "level": 11,
+     "max_regen_health": 160.0,
+     "name": "MB507",
+     "power": 2000.0,
+     "repair_cost": 10.0,
+     "unlocks": {},
+     "weight": 750.0
+    }
+   ],
+   "farm_coeff": 1.0,
+   "fuel_tank": {
+    "health": 200.0,
+    "max_regen_health": 70.0,
+    "repair_cost": 1.0
+   },
+   "guns": [
+    {
+     "aim_time": 2.9,
+     "burst_info": {
+      "kind": "burst"
+     },
+     "caliber": 128,
+     "cost_xp": 0,
+     "deviation_r": {
+      "x": 180.0,
+      "y": 180.0
+     },
+     "deviation_up": {
+      "x": 24.0,
+      "y": 8.0
+     },
+     "disp": 0.38,
+     "disp_factors": {
+      "x": 0.08,
+      "y": 3.0,
+      "z": 2.0
+     },
+     "display_name": "12,8 cm Kw.K. 44 L/55",
+     "fire_mode": 0,
+     "health": 220.0,
+     "impulse_mul": 0.56,
+     "kind": "gun",
+     "level": 11,
+     "max_ammo": 68,
+     "name": "_128mm_KwK44_L55",
+     "reload": 11.5,
+     "rot_speed": 26.25,
+     "shells": [
+      {
+       "caliber": 128,
+       "cost": 1070,
+       "dmg": 500,
+       "dmg_devices": 180,
+       "kind": "shell",
+       "name": "Pzgr 39",
+       "pen": 260,
+       "ricochet_angle": 70.0,
+       "speed": 950,
+       "type": 0
+      },
+      {
+       "caliber": 128,
+       "cost": 4000,
+       "dmg": 420,
+       "dmg_devices": 180,
+       "kind": "shell",
+       "name": "Pzgr 40",
+       "pen": 330,
+       "premium": true,
+       "ricochet_angle": 70.0,
+       "speed": 1180,
+       "type": 1
+      },
+      {
+       "caliber": 128,
+       "cost": 935,
+       "dmg": 650,
+       "dmg_devices": 180,
+       "explosion_radius": 2.71,
+       "kind": "shell",
+       "name": "Sprgr 18",
+       "pen": 65,
+       "speed": 920,
+       "type": 3
+      }
+     ],
+     "shot_sound": 4,
+     "weight": 3480.0
+    }
+   ],
+   "health": 2300,
+   "hull_weight": 89040.0,
+   "lvl": 11,
+   "model_path": "maus",
+   "name": "maus_ii",
+   "nation": 2,
+   "radios": [
+    {
+     "cost_xp": 0,
+     "display_name": "_10WSc",
+     "distance": 500.0,
+     "health": 250.0,
+     "kind": "radio",
+     "level": 11,
+     "name": "_10WSc",
+     "unlocks": {},
+     "weight": 160.0
+    }
+   ],
+   "repair_cost": 5.2,
+   "source": "original tier XI: Maus successor on the Maus model",
+   "speed_limits": {
+    "x": 28.0,
+    "y": 15.0
+   },
+   "spot_radius": 250.0,
+   "tank_class": 2,
+   "tracks": [
+    {
+     "bulk_health_factor": 3.0,
+     "cost_xp": 0,
+     "disp_move_mul": 0.22,
+     "disp_rotation_mul": 0.22,
+     "display_name": "Maus",
+     "health": 300.0,
+     "kind": "tracks",
+     "level": 11,
+     "max_regen_health": 225.0,
+     "name": "Mausketten",
+     "repair_cost": 5.0,
+     "rot_speed": 19.0,
+     "unlocks": {},
+     "weight": 37250.0
+    }
+   ],
+   "tree_branch": 0,
+   "tree_tank": true,
+   "turret_health": 560.0,
+   "turret_rot_speed": 14.0,
+   "turrets": [
+    {
+     "cost_xp": 0,
+     "display_name": "Maus",
+     "guns": [
+      {
+       "max_ammo": 68,
+       "mesh": "gun_01",
+       "name": "_128mm_KwK44_L55",
+       "reload": 11.5,
+       "unlocks": {}
+      }
+     ],
+     "health": 560.0,
+     "kind": "turret",
+     "level": 11,
+     "mesh": "turret_01",
+     "name": "Mausturm",
+     "rot_speed": 14.0,
+     "spot_radius": 250.0,
+     "surveying_device": {
+      "health": 120.0,
+      "max_regen_health": 60.0,
+      "repair_cost": 2.0
+     },
+     "turret_rotator": {
+      "health": 180.0,
+      "max_regen_health": 90.0,
+      "repair_cost": 1.0
+     },
+     "unlocks": {},
+     "weight": 58000.0,
      "yaw_limits": {
       "x": 180.0,
       "y": 180.0

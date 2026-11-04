@@ -50,7 +50,7 @@ namespace BlitzLegacy.Tests
         {
             var db = Database();
             var overlay = Overlay();
-            Assert.AreEqual(522, db.Count);
+            Assert.AreEqual(523, db.Count);
             Assert.AreEqual(42, overlay.Count);
             var usa = 0; var researchable = 0; var premium = 0; var collectible = 0;
             foreach (var tank in db.Tanks) { if (tank.Nation == Nation.Usa) { usa++; } }

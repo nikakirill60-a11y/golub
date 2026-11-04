@@ -43,12 +43,15 @@ namespace BlitzLegacy.Tests
             var database = TanksDatabase.Parse(
                 BlitzResources.LoadText(BlitzResources.TanksData));
             var atlas = BattleFlowUi.LoadAtlas();
-            Assert.That(database.Count, Is.EqualTo(522));
+            Assert.That(database.Count, Is.EqualTo(523));
             for (var i = 0; i < database.Tanks.Count; i++)
             {
                 var card = database.Tanks[i];
                 JsonNode source;
-                Assert.That(evidence.TryGetValue(card.Name, out source), Is.True,
+                // Maus II is an original tier XI addition on the Maus model;
+                // it borrows the donor's icon and provenance row.
+                var provenanceName = card.Name == "maus_ii" ? "maus" : card.Name;
+                Assert.That(evidence.TryGetValue(provenanceName, out source), Is.True,
                     card.Name + " provenance");
 
                 var id = TankModelAssets.For(card).DataId;
