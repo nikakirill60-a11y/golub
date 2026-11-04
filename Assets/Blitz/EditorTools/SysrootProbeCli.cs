@@ -1,11 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using UnityEditor;
 using UnityEditor.Build;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 namespace BlitzLegacy.EditorTools
 {
@@ -47,15 +49,22 @@ namespace BlitzLegacy.EditorTools
                         + " host=" + Prop(instance, "HostPlatform") + "/" + Prop(instance, "HostArch")
                         + " target=" + Prop(instance, "TargetPlatform") + "/" + Prop(instance, "TargetArch")
                         + " interfaces=" + string.Join(",", type.GetInterfaces().Select(i => i.FullName)));
-                    Debug.Log("[BlitzSysroot]   Initialize=" + Invoke(instance, "Initialize"));
-                    var sysrootPath = Convert.ToString(Invoke(instance, "GetSysrootPath"));
-                    var toolchainPath = Convert.ToString(Invoke(instance, "GetToolchainPath"));
+                    // Unity 7000.0.0a8's SysrootPackage extracts its payload by
+                    // running /bin/sh with broken argument quoting, which fails
+                    // on the CI runner ("Unterminated quoted string"), so the
+                    // packages can never install themselves headlessly. Extract
+                    // the payload with a correctly quoted tar call first; the
+                    // package's own Initialize() then finds it in place.
+                    TryManualInstall(instance);
+                    Debug.Log("[BlitzSysroot]   Initialize=" + InvokeSafe(instance, "Initialize"));
+                    var sysrootPath = Convert.ToString(InvokeSafe(instance, "GetSysrootPath"));
+                    var toolchainPath = Convert.ToString(InvokeSafe(instance, "GetToolchainPath"));
                     Debug.Log("[BlitzSysroot]   sysrootPath=" + (sysrootPath ?? "<null>")
                         + " toolchainPath=" + (toolchainPath ?? "<null>"));
-                    Debug.Log("[BlitzSysroot]   compilerFlags=" + Convert.ToString(Invoke(instance, "GetIl2CppCompilerFlags"))
-                        + " linkerFlags=" + Convert.ToString(Invoke(instance, "GetIl2CppLinkerFlags")));
-                    if (!string.IsNullOrEmpty(sysrootPath)) sysroots++;
-                    if (!string.IsNullOrEmpty(toolchainPath)) toolchains++;
+                    Debug.Log("[BlitzSysroot]   compilerFlags=" + Convert.ToString(InvokeSafe(instance, "GetIl2CppCompilerFlags"))
+                        + " linkerFlags=" + Convert.ToString(InvokeSafe(instance, "GetIl2CppLinkerFlags")));
+                    if (!string.IsNullOrEmpty(sysrootPath) && Directory.Exists(sysrootPath)) sysroots++;
+                    if (!string.IsNullOrEmpty(toolchainPath) && Directory.Exists(toolchainPath)) toolchains++;
                 }
                 catch (TargetInvocationException ex)
                 {
@@ -180,6 +189,139 @@ namespace BlitzLegacy.EditorTools
         {
             var info = instance.GetType().GetMethod(method, Type.EmptyTypes);
             return info == null ? "<no method>" : info.Invoke(instance, null);
+        }
+
+        private static object InvokeSafe(object instance, string method)
+        {
+            try
+            {
+                return Invoke(instance, method);
+            }
+            catch (TargetInvocationException ex)
+            {
+                Debug.LogWarning("[BlitzSysroot]   " + method + " threw: "
+                    + (ex.InnerException == null ? ex.Message : ex.InnerException.GetType().Name + ": " + ex.InnerException.Message));
+                return null;
+            }
+            catch (Exception ex)
+            {
+                Debug.LogWarning("[BlitzSysroot]   " + method + " threw: " + ex.Message);
+                return null;
+            }
+        }
+
+        /// <summary>
+        /// Workaround for the alpha editor's broken payload extraction:
+        /// unpack the provider's payload tarball into the directory the
+        /// package expects, using Process.ArgumentList (no shell quoting),
+        /// so Initialize() finds the payload already installed.
+        /// </summary>
+        private static void TryManualInstall(object instance)
+        {
+            var name = Prop(instance, "Name");
+            var payloadRoot = Convert.ToString(InvokeSafe(instance, "PathToPayload"));
+            Debug.Log("[BlitzSysroot]   payloadRoot=" + (payloadRoot ?? "<null>"));
+            if (!string.IsNullOrEmpty(payloadRoot) && Directory.Exists(payloadRoot))
+            {
+                foreach (var file in Directory.GetFiles(payloadRoot, "*", SearchOption.AllDirectories)
+                             .OrderBy(f => f).Take(40))
+                {
+                    Debug.Log("[BlitzSysroot]     payload file: "
+                        + file.Substring(payloadRoot.Length) + " (" + new FileInfo(file).Length + " bytes)");
+                }
+            }
+
+            string dest = null;
+            try
+            {
+                var installDir = instance.GetType().GetMethod("PayloadInstallDirectory",
+                    BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
+                if (installDir != null)
+                {
+                    dest = installDir.Invoke(instance, new object[] { name }) as string;
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.LogWarning("[BlitzSysroot]   PayloadInstallDirectory failed: " + ex.Message);
+            }
+
+            if (string.IsNullOrEmpty(dest))
+            {
+                dest = Convert.ToString(InvokeSafe(instance, "GetToolchainPath"))
+                    ?? Convert.ToString(InvokeSafe(instance, "GetSysrootPath"));
+            }
+
+            Debug.Log("[BlitzSysroot]   install dest=" + (dest ?? "<null>")
+                + " exists=" + (!string.IsNullOrEmpty(dest) && Directory.Exists(dest)));
+            if (string.IsNullOrEmpty(dest)) return;
+            if (Directory.Exists(dest) && Directory.GetFileSystemEntries(dest).Length > 0) return;
+
+            var tar = FindPayloadTar(payloadRoot) ?? FindPayloadTar(FindPackageDir(name));
+            if (tar == null)
+            {
+                Debug.LogWarning("[BlitzSysroot]   no payload archive found for " + name);
+                return;
+            }
+
+            Debug.Log("[BlitzSysroot]   extracting " + tar + " -> " + dest);
+            Directory.CreateDirectory(dest);
+            ExtractArchive(tar, dest);
+        }
+
+        private static string FindPackageDir(string packageName)
+        {
+            var packageCache = Path.Combine(Directory.GetCurrentDirectory(), "Library", "PackageCache");
+            if (string.IsNullOrEmpty(packageName) || !Directory.Exists(packageCache)) return null;
+            return Directory.GetDirectories(packageCache)
+                .FirstOrDefault(d => Path.GetFileName(d).StartsWith(packageName + "@", StringComparison.Ordinal));
+        }
+
+        private static string FindPayloadTar(string root)
+        {
+            if (string.IsNullOrEmpty(root) || !Directory.Exists(root)) return null;
+            string[] extensions = { ".tar.gz", ".tgz", ".tar.xz", ".tar.bz2", ".tar", ".zip" };
+            return Directory.GetFiles(root, "*", SearchOption.AllDirectories)
+                .Where(f => extensions.Any(e => f.EndsWith(e, StringComparison.OrdinalIgnoreCase)))
+                .OrderByDescending(f => new FileInfo(f).Length)
+                .FirstOrDefault();
+        }
+
+        private static void ExtractArchive(string archive, string dest)
+        {
+            var isZip = archive.EndsWith(".zip", StringComparison.OrdinalIgnoreCase);
+            var start = new ProcessStartInfo
+            {
+                FileName = isZip ? "/usr/bin/unzip" : "/bin/tar",
+                UseShellExecute = false,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+            };
+            if (isZip)
+            {
+                start.ArgumentList.Add("-q");
+                start.ArgumentList.Add("-o");
+                start.ArgumentList.Add(archive);
+                start.ArgumentList.Add("-d");
+                start.ArgumentList.Add(dest);
+            }
+            else
+            {
+                start.ArgumentList.Add("-xf");
+                start.ArgumentList.Add(archive);
+                start.ArgumentList.Add("-C");
+                start.ArgumentList.Add(dest);
+            }
+
+            using (var process = Process.Start(start))
+            {
+                var stdout = process.StandardOutput.ReadToEnd();
+                var stderr = process.StandardError.ReadToEnd();
+                process.WaitForExit();
+                Debug.Log("[BlitzSysroot]   extract exit=" + process.ExitCode
+                    + (string.IsNullOrWhiteSpace(stderr) ? "" : " stderr: " + stderr.Trim())
+                    + (string.IsNullOrWhiteSpace(stdout) ? "" : " stdout: " + stdout.Trim()));
+            }
         }
     }
 }
