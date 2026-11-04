@@ -54,8 +54,15 @@ jobs:
         run: |
           set -uo pipefail
           mkdir -p Logs
-          curl -fsSL https://unity.com/install.sh | bash 2>&1 | tee Logs/unity-cli-install.log
-          export PATH="$HOME/.local/bin:$PATH"
+          curl -sL https://hub.unity3d.com/linux/keys/public \
+            | sudo gpg --dearmor -o /usr/share/keyrings/Unity_Technologies_ApS.gpg
+          echo "Types: deb" | sudo tee /etc/apt/sources.list.d/unity-cli.sources > /dev/null
+          echo "URIs: https://hub.unity3d.com/linux/repos/deb" | sudo tee -a /etc/apt/sources.list.d/unity-cli.sources > /dev/null
+          echo "Suites: unstable" | sudo tee -a /etc/apt/sources.list.d/unity-cli.sources > /dev/null
+          echo "Components: main" | sudo tee -a /etc/apt/sources.list.d/unity-cli.sources > /dev/null
+          echo "Signed-By: /usr/share/keyrings/Unity_Technologies_ApS.gpg" | sudo tee -a /etc/apt/sources.list.d/unity-cli.sources > /dev/null
+          sudo apt-get update -qq 2>&1 | tee Logs/unity-cli-install.log
+          sudo apt-get install -y unity-cli 2>&1 | tee -a Logs/unity-cli-install.log
           unity --version 2>&1 | tee -a Logs/unity-cli-install.log
           set +e
           unity install "$UNITY_VERSION" -c "$UNITY_CHANGESET" \
@@ -209,8 +216,15 @@ jobs:
         run: |
           set -uo pipefail
           mkdir -p Logs
-          curl -fsSL https://unity.com/install.sh | bash 2>&1 | tee Logs/unity-cli-install.log
-          export PATH="$HOME/.local/bin:$PATH"
+          curl -sL https://hub.unity3d.com/linux/keys/public \
+            | sudo gpg --dearmor -o /usr/share/keyrings/Unity_Technologies_ApS.gpg
+          echo "Types: deb" | sudo tee /etc/apt/sources.list.d/unity-cli.sources > /dev/null
+          echo "URIs: https://hub.unity3d.com/linux/repos/deb" | sudo tee -a /etc/apt/sources.list.d/unity-cli.sources > /dev/null
+          echo "Suites: unstable" | sudo tee -a /etc/apt/sources.list.d/unity-cli.sources > /dev/null
+          echo "Components: main" | sudo tee -a /etc/apt/sources.list.d/unity-cli.sources > /dev/null
+          echo "Signed-By: /usr/share/keyrings/Unity_Technologies_ApS.gpg" | sudo tee -a /etc/apt/sources.list.d/unity-cli.sources > /dev/null
+          sudo apt-get update -qq 2>&1 | tee Logs/unity-cli-install.log
+          sudo apt-get install -y unity-cli 2>&1 | tee -a Logs/unity-cli-install.log
           set +e
           unity install "$UNITY_VERSION" -c "$UNITY_CHANGESET" \
             -m android --cm > Logs/unity-editor-install.log 2>&1
