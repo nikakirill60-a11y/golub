@@ -63,8 +63,8 @@ namespace BlitzLegacy.EditorTools
                         + " toolchainPath=" + (toolchainPath ?? "<null>"));
                     Debug.Log("[BlitzSysroot]   compilerFlags=" + Convert.ToString(InvokeSafe(instance, "GetIl2CppCompilerFlags"))
                         + " linkerFlags=" + Convert.ToString(InvokeSafe(instance, "GetIl2CppLinkerFlags")));
-                    if (!string.IsNullOrEmpty(sysrootPath) && Directory.Exists(sysrootPath)) sysroots++;
-                    if (!string.IsNullOrEmpty(toolchainPath) && Directory.Exists(toolchainPath)) toolchains++;
+                    if (IsInstalled(sysrootPath)) sysroots++;
+                    if (IsInstalled(toolchainPath)) toolchains++;
                 }
                 catch (TargetInvocationException ex)
                 {
@@ -189,6 +189,15 @@ namespace BlitzLegacy.EditorTools
         {
             var info = instance.GetType().GetMethod(method, Type.EmptyTypes);
             return info == null ? "<no method>" : info.Invoke(instance, null);
+        }
+
+        private static bool IsInstalled(string path)
+        {
+            // An empty directory is what a failed extraction leaves behind;
+            // it must not count as an installed sysroot/toolchain.
+            return !string.IsNullOrEmpty(path)
+                && Directory.Exists(path)
+                && Directory.GetFileSystemEntries(path).Length > 0;
         }
 
         private static object InvokeSafe(object instance, string method)
@@ -367,36 +376,50 @@ namespace BlitzLegacy.EditorTools
 
         private static void ExtractArchive(string archive, string dest)
         {
+            // payload.tar.7z is a tar stream compressed with 7z: unpack the
+            // outer layer first, then untar what came out of it.
+            if (archive.EndsWith(".7z", StringComparison.OrdinalIgnoreCase))
+            {
+                RunTool("/usr/bin/7z", new[] { "x", "-y", archive, "-o" + dest }, "7z");
+                var innerTar = Directory.GetFiles(dest, "*.tar", SearchOption.AllDirectories)
+                    .OrderByDescending(f => new FileInfo(f).Length)
+                    .FirstOrDefault();
+                if (innerTar != null)
+                {
+                    RunTool("/bin/tar", new[] { "-xf", innerTar, "-C", dest }, "tar");
+                    try { File.Delete(innerTar); } catch { /* keep the cache inspectable */ }
+                }
+
+                return;
+            }
+
             var isZip = archive.EndsWith(".zip", StringComparison.OrdinalIgnoreCase);
+            if (isZip)
+            {
+                RunTool("/usr/bin/unzip", new[] { "-q", "-o", archive, "-d", dest }, "unzip");
+            }
+            else
+            {
+                RunTool("/bin/tar", new[] { "-xf", archive, "-C", dest }, "tar");
+            }
+        }
+
+        private static void RunTool(string fileName, string[] args, string label)
+        {
             var start = new ProcessStartInfo
             {
-                FileName = isZip ? "/usr/bin/unzip" : "/bin/tar",
+                FileName = fileName,
                 UseShellExecute = false,
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
             };
-            if (isZip)
-            {
-                start.ArgumentList.Add("-q");
-                start.ArgumentList.Add("-o");
-                start.ArgumentList.Add(archive);
-                start.ArgumentList.Add("-d");
-                start.ArgumentList.Add(dest);
-            }
-            else
-            {
-                start.ArgumentList.Add("-xf");
-                start.ArgumentList.Add(archive);
-                start.ArgumentList.Add("-C");
-                start.ArgumentList.Add(dest);
-            }
-
+            foreach (var arg in args) start.ArgumentList.Add(arg);
             using (var process = Process.Start(start))
             {
                 var stdout = process.StandardOutput.ReadToEnd();
                 var stderr = process.StandardError.ReadToEnd();
                 process.WaitForExit();
-                Debug.Log("[BlitzSysroot]   extract exit=" + process.ExitCode
+                Debug.Log("[BlitzSysroot]   " + label + " exit=" + process.ExitCode
                     + (string.IsNullOrWhiteSpace(stderr) ? "" : " stderr: " + stderr.Trim())
                     + (string.IsNullOrWhiteSpace(stdout) ? "" : " stdout: " + stdout.Trim()));
             }
