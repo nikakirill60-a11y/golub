@@ -46,21 +46,28 @@ jobs:
         with:
           lfs: true
 
-      - name: Install Unity Hub and the exact editor
+      - name: Install the Unity CLI and the exact editor
         shell: bash
         run: |
-          set -euo pipefail
-          export ELECTRON_DISABLE_SANDBOX=1
-          wget -q https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage
-          chmod +x UnityHub.AppImage
-          ./UnityHub.AppImage --appimage-extract > /dev/null
-          HUB="$PWD/squashfs-root/AppRun"
-          "$HUB" --headless install-path -s "$HOME/Unity/Hub/Editor" || true
-          yes Y | xvfb-run -a "$HUB" --headless install \
-            --version "$UNITY_VERSION" --changeset "$UNITY_CHANGESET"
+          set -uo pipefail
+          mkdir -p Logs
+          curl -fsSL https://unity.com/install.sh | bash 2>&1 | tee Logs/unity-cli-install.log
+          export PATH="$HOME/.local/bin:$PATH"
+          unity --version 2>&1 | tee -a Logs/unity-cli-install.log
+          set +e
+          unity install "$UNITY_VERSION" -c "$UNITY_CHANGESET" \
+            > Logs/unity-editor-install.log 2>&1
+          code=$?
+          set -e
+          tail -n 60 Logs/unity-editor-install.log || true
+          if [ "$code" -ne 0 ]; then
+            tail -n 25 Logs/unity-editor-install.log | while IFS= read -r line; do
+              echo "::error::editor-install: $line"
+            done
+            exit "$code"
+          fi
           EDITOR="$HOME/Unity/Hub/Editor/$UNITY_VERSION/Editor/Unity"
           test -x "$EDITOR"
-          "$EDITOR" -version || true
           echo "UNITY_EDITOR=$EDITOR" >> "$GITHUB_ENV"
 
       - name: Activate the Personal license
@@ -162,20 +169,26 @@ jobs:
           fi
           ls -l "$KEYSTORE"
 
-      - name: Install Unity Hub, the exact editor and Android modules
+      - name: Install the Unity CLI, the exact editor and Android modules
         if: steps.signing.outputs.ready == 'true'
         shell: bash
         run: |
-          set -euo pipefail
-          export ELECTRON_DISABLE_SANDBOX=1
-          wget -q https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage
-          chmod +x UnityHub.AppImage
-          ./UnityHub.AppImage --appimage-extract > /dev/null
-          HUB="$PWD/squashfs-root/AppRun"
-          "$HUB" --headless install-path -s "$HOME/Unity/Hub/Editor" || true
-          yes Y | xvfb-run -a "$HUB" --headless install \
-            --version "$UNITY_VERSION" --changeset "$UNITY_CHANGESET" \
-            --module android --childModules
+          set -uo pipefail
+          mkdir -p Logs
+          curl -fsSL https://unity.com/install.sh | bash 2>&1 | tee Logs/unity-cli-install.log
+          export PATH="$HOME/.local/bin:$PATH"
+          set +e
+          unity install "$UNITY_VERSION" -c "$UNITY_CHANGESET" \
+            -m android --cm > Logs/unity-editor-install.log 2>&1
+          code=$?
+          set -e
+          tail -n 60 Logs/unity-editor-install.log || true
+          if [ "$code" -ne 0 ]; then
+            tail -n 25 Logs/unity-editor-install.log | while IFS= read -r line; do
+              echo "::error::editor-install: $line"
+            done
+            exit "$code"
+          fi
           EDITOR="$HOME/Unity/Hub/Editor/$UNITY_VERSION/Editor/Unity"
           test -x "$EDITOR"
           echo "UNITY_EDITOR=$EDITOR" >> "$GITHUB_ENV"
