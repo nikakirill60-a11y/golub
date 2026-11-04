@@ -347,10 +347,21 @@ namespace BlitzLegacy.EditorTools
         private static string FindPayloadTar(string root)
         {
             if (string.IsNullOrEmpty(root) || !Directory.Exists(root)) return null;
-            string[] extensions = { ".tar.gz", ".tgz", ".tar.xz", ".tar.bz2", ".tar", ".zip" };
-            return Directory.GetFiles(root, "*", SearchOption.AllDirectories)
+            string[] extensions = { ".tar.gz", ".tgz", ".tar.xz", ".tar.bz2", ".tar", ".zip", ".zst", ".7z" };
+            var files = Directory.GetFiles(root, "*", SearchOption.AllDirectories);
+            var archive = files
                 .Where(f => extensions.Any(e => f.EndsWith(e, StringComparison.OrdinalIgnoreCase)))
                 .OrderByDescending(f => new FileInfo(f).Length)
+                .FirstOrDefault();
+            if (archive != null) return archive;
+            // Payload archives in these packages do not always carry a
+            // recognizable extension; fall back to the largest payload-sized
+            // file under the payload root.
+            return files
+                .Select(f => new FileInfo(f))
+                .Where(f => f.Length > 1024 * 1024)
+                .OrderByDescending(f => f.Length)
+                .Select(f => f.FullName)
                 .FirstOrDefault();
         }
 

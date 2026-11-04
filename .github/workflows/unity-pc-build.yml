@@ -195,6 +195,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          grep -a "\[BlitzSysroot\]" Logs/sysroot-probe.log 2>/dev/null | tail -n 150 > Logs/sysroot-probe-summary.log || true
           {
             echo "PC build failed in run $GITHUB_RUN_ID."
             echo
