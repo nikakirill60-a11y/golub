@@ -1,0 +1,83 @@
+# Check that a Unity Personal license can be activated on a GitHub runner.
+#
+# Unity removed offline (manual) activation for Personal seats:
+# license.unity3d.com now answers "Offline activation is available only for
+# Enterprise and Industry seats", so the old .alf/.ulf exchange is dead for
+# the free tier. The current route is account-based: the Unity Licensing
+# Client bundled with the editor takes a seat directly from the account
+# (Unity.Licensing.Client --activate-all --include-personal) and returns it
+# at the end of the same job, so nothing but the Unity account login is
+# needed. No PC is required anywhere in this flow.
+#
+# Required repository secrets (Settings -> Secrets and variables -> Actions):
+#   UNITY_EMAIL     the Unity ID email
+#   UNITY_PASSWORD  the Unity ID password
+# Both are only ever read by the ephemeral runner; GitHub masks them in logs.
+# If they are missing the job finishes green with instructions instead of
+# failing, so this file can land before the secrets exist; add the secrets,
+# then use "Re-run all jobs" on the run page.
+#
+# The editor image is only a licensing probe (2022.3 ships a licensing client
+# that supports --include-personal). It is not the project's editor; the
+# build workflow remains responsible for the exact project version.
+
+name: Unity license check
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "arena/f9c604c3-golub"
+    paths:
+      - ".github/workflows/unity-license-check.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  personal-license:
+    name: Personal license on runner
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Activate, verify and return the Personal seat
+        shell: bash
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        run: |
+          set -uo pipefail
+
+          if [ -z "${UNITY_EMAIL}" ] || [ -z "${UNITY_PASSWORD}" ]; then
+            echo "::warning::UNITY_EMAIL / UNITY_PASSWORD secrets are not set yet."
+            echo "Add them under Settings -> Secrets and variables -> Actions,"
+            echo "then open this run and choose 'Re-run all jobs'."
+            exit 0
+          fi
+
+          docker run --rm \
+            --env UNITY_EMAIL \
+            --env UNITY_PASSWORD \
+            unityci/editor:ubuntu-2022.3.62f3-linux-il2cpp-3 \
+            bash -euo pipefail -c '
+              CLIENT=/opt/unity/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client
+
+              return_seat() {
+                echo "Returning the Personal seat..."
+                "$CLIENT" --return-ulf || true
+              }
+              trap return_seat EXIT
+
+              if ! "$CLIENT" --help 2>&1 | grep -q -- "--include-personal"; then
+                echo "::error::This licensing client cannot request a Personal seat."
+                exit 1
+              fi
+
+              echo "Activating a Unity Personal seat for the account..."
+              "$CLIENT" --activate-all --include-personal \
+                --username "$UNITY_EMAIL" \
+                --password "$UNITY_PASSWORD"
+
+              echo "Personal seat activated on this runner."
+            '
