@@ -37,11 +37,24 @@ jobs:
         with:
           lfs: true
 
+      - name: Cache the editor and the Library
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/Unity/Hub/Editor/${{ env.UNITY_VERSION }}
+            Library
+          key: pc-${{ env.UNITY_VERSION }}-${{ env.UNITY_CHANGESET }}-${{ hashFiles('Packages/packages-lock.json') }}
+          restore-keys: |
+            pc-${{ env.UNITY_VERSION }}-${{ env.UNITY_CHANGESET }}-
+
       - name: Install the Unity CLI and the exact editor
         shell: bash
         run: |
           set -uo pipefail
           mkdir -p Logs
+          # IL2CPP for a Linux target on a Linux host also uses the system
+          # Clang toolchain.
+          sudo apt-get update -qq && sudo apt-get install -y clang 2>&1 | tee Logs/apt-clang.log
           curl -sL https://hub.unity3d.com/linux/keys/public \
             | sudo gpg --dearmor -o /usr/share/keyrings/Unity_Technologies_ApS.gpg
           {
@@ -113,7 +126,7 @@ jobs:
         run: |
           {
             echo "PC build failed in run $GITHUB_RUN_ID."
-            for f in Logs/unity-editor-install.log Logs/import.log Logs/linux-production-debug.log; do
+            for f in Logs/unity-editor-install.log Logs/sentry-bootstrap.log Logs/import.log Logs/linux-production-debug.log; do
               echo
               echo "## $f (tail)"
               echo '```'
