@@ -120,7 +120,7 @@ namespace BlitzLegacy.Tests
             // The model, rig, armour and icons are the Maus donor's.
             var assets = TankModelAssets.For(successor);
             Assert.That(assets.Id, Is.EqualTo("MAUS"));
-            Assert.That(assets.DataId, Is.EqualTo("MAUS"));
+            Assert.That(assets.DataId, Is.EqualTo("maus"));
             Assert.That(database.ByLevel(11).Count, Is.EqualTo(1));
         }
 
