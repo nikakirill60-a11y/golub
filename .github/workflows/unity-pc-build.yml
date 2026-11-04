@@ -6,6 +6,14 @@
 # alpha (7000.0.0a8 / c93e369fcf1c), installed with the Unity CLI; the
 # Personal license is activated from the UNITY_EMAIL / UNITY_PASSWORD
 # secrets and returned at the end. No Android signing is involved.
+#
+# Speed notes: the editor and the project Library are cached with explicit
+# restore/save steps. actions/cache only saves in its post step on job
+# success, which a failing player build would skip, so the saves here run
+# with if: always() right after the editor install / project import. A
+# sysroot probe runs before the player build so a missing IL2CPP
+# sysroot/toolchain fails in minutes instead of after the player data has
+# been written.
 
 name: Unity PC build (Linux)
 
@@ -16,6 +24,9 @@ on:
       - "arena/f9c604c3-golub"
     paths:
       - ".github/workflows/unity-pc-build.yml"
+      - "Assets/Blitz/EditorTools/SysrootProbeCli.cs"
+      - "Tools/unity.sh"
+      - "Tools/unity.py"
 
 permissions:
   contents: read
@@ -24,6 +35,10 @@ permissions:
 env:
   UNITY_VERSION: "7000.0.0a8"
   UNITY_CHANGESET: "c93e369fcf1c"
+  # Deterministic, inspectable location for the extracted IL2CPP
+  # sysroot/toolchain payloads; the probe and the build share it.
+  UNITY_SYSROOT_CACHE: "${{ github.workspace }}/.sysroot-cache"
+  UNITY_SYSROOT_DEBUG: "1"
 
 jobs:
   linux:
@@ -37,15 +52,21 @@ jobs:
         with:
           lfs: true
 
-      - name: Cache the editor and the Library
-        uses: actions/cache@v4
+      - name: Restore the editor cache
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/Unity/Hub/Editor/${{ env.UNITY_VERSION }}
+          key: editor-${{ env.UNITY_VERSION }}-${{ env.UNITY_CHANGESET }}
+
+      - name: Restore the Library cache
+        uses: actions/cache/restore@v4
         with:
           path: |
-            ~/Unity/Hub/Editor/${{ env.UNITY_VERSION }}
             Library
-          key: pc-${{ env.UNITY_VERSION }}-${{ env.UNITY_CHANGESET }}-${{ hashFiles('Packages/packages-lock.json') }}
+            .sysroot-cache
+          key: library-${{ env.UNITY_VERSION }}-${{ hashFiles('Packages/manifest.json', 'Packages/packages-lock.json', 'ProjectSettings/ProjectVersion.txt') }}
           restore-keys: |
-            pc-${{ env.UNITY_VERSION }}-${{ env.UNITY_CHANGESET }}-
+            library-${{ env.UNITY_VERSION }}-
 
       - name: Install the Unity CLI and the exact editor
         shell: bash
@@ -77,6 +98,14 @@ jobs:
           test -x "$EDITOR"
           echo "UNITY_EDITOR=$EDITOR" >> "$GITHUB_ENV"
 
+      - name: Save the editor cache
+        if: always()
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: ~/Unity/Hub/Editor/${{ env.UNITY_VERSION }}
+          key: editor-${{ env.UNITY_VERSION }}-${{ env.UNITY_CHANGESET }}
+
       - name: Activate the Personal license
         shell: bash
         env:
@@ -98,6 +127,40 @@ jobs:
           UNITY="$UNITY_EDITOR" Tools/unity.sh import > Logs/import.log 2>&1
           code=$?
           tail -n 30 Logs/import.log || true
+          if [ "$code" -ne 0 ]; then exit "$code"; fi
+
+      - name: Inspect the sysroot packages
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo "== PackageCache entries (sysroot/toolchain/sdk) =="
+            ls Library/PackageCache 2>/dev/null | grep -i -E "sysroot|toolchain|sdk" || echo "<none>"
+            echo "== sysroot cache entries =="
+            find "$UNITY_SYSROOT_CACHE" -maxdepth 4 2>/dev/null | head -60 || echo "<none>"
+            echo "== sysroot mentions in the import log =="
+            grep -i -m 40 "sysroot\|toolchain" Logs/import.log 2>/dev/null || echo "<none>"
+            echo "== package errors in the import log =="
+            grep -i -m 40 "Failed to resolve\|Cannot connect\|packages.unity.com\|UPM" Logs/import.log 2>/dev/null || echo "<none>"
+          } | tee Logs/sysroot-inspection.log
+
+      - name: Save the Library cache
+        if: always()
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            Library
+            .sysroot-cache
+          key: library-${{ env.UNITY_VERSION }}-${{ hashFiles('Packages/manifest.json', 'Packages/packages-lock.json', 'ProjectSettings/ProjectVersion.txt') }}
+
+      - name: Probe the Linux sysroot (fail fast)
+        shell: bash
+        run: |
+          set -uo pipefail
+          UNITY="$UNITY_EDITOR" Tools/unity.sh sysroot-probe > Logs/sysroot-probe.log 2>&1
+          code=$?
+          grep -E "\[BlitzSysroot\]|error|Error" Logs/sysroot-probe.log | tail -n 80 || true
           if [ "$code" -ne 0 ]; then exit "$code"; fi
 
       - name: Build the Linux player
@@ -126,13 +189,23 @@ jobs:
         run: |
           {
             echo "PC build failed in run $GITHUB_RUN_ID."
-            for f in Logs/unity-editor-install.log Logs/sentry-bootstrap.log Logs/import.log Logs/linux-production-debug.log; do
+            echo
+            echo "## editor install result"
+            echo '```'
+            grep '"type":"result"' Logs/unity-editor-install.log 2>/dev/null || echo "<missing>"
+            echo '```'
+            for f in Logs/sysroot-inspection.log Logs/sysroot-probe.log Logs/sentry-bootstrap.log Logs/linux-production-debug.log; do
               echo
               echo "## $f (tail)"
               echo '```'
               tail -n 100 "$f" 2>/dev/null || echo "<missing>"
               echo '```'
             done
+            echo
+            echo "## sysroot/toolchain/error lines from Logs/import.log"
+            echo '```'
+            grep -i -m 60 "sysroot\|toolchain\|error" Logs/import.log 2>/dev/null || echo "<none>"
+            echo '```'
           } > /tmp/pc-diagnostics.md
           head -c 60000 /tmp/pc-diagnostics.md > /tmp/pc-diagnostics-short.md
           gh issue create --title "[ci] PC build diagnostics $GITHUB_RUN_ID" \

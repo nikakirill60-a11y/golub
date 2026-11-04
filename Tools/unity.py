@@ -21,6 +21,7 @@ ROUTES = {
 for route, target, method in [
     ('apk', 'Android', 'Android'), ('apk-debug', 'Android', 'AndroidDebug'),
     ('apk-production-debug', 'Android', 'AndroidProductionDebug'),
+    ('sysroot-probe', 'Linux64', 'SysrootProbeCli.Run'),
     ('linux', 'Linux64', 'Linux'), ('linux-debug', 'Linux64', 'LinuxDebug'),
     ('linux-production-debug', 'Linux64', 'LinuxProductionDebug'),
     ('windows-production-debug', 'Win64', 'WindowsProductionDebug'),
@@ -28,6 +29,8 @@ for route, target, method in [
     ROUTES[route] = ['-buildTarget', target, '-quit', '-executeMethod',
                      'BlitzLegacy.EditorTools.BuildPlayerCli.' + method]
 ROUTES['import'] = ['-quit']
+ROUTES['sysroot-probe'] = ['-buildTarget', 'Linux64', '-quit', '-executeMethod',
+                           'BlitzLegacy.EditorTools.SysrootProbeCli.Run']
 
 
 def windows_command(root: Path, env: dict[str, str], route: str) -> list[str]:

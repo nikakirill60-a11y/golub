@@ -140,6 +140,7 @@ case "$cmd" in
   # for it here.
   # Select the target before assemblies load: sysroot providers compiled for
   # Android do not implement the Linux API required by IL2CPP discovery.
+  sysroot-probe) exec "$UNITY" "$@" -buildTarget Linux64 -quit -executeMethod BlitzLegacy.EditorTools.SysrootProbeCli.Run ;;
   linux)        exec "$UNITY" "$@" -buildTarget Linux64 -quit -executeMethod BlitzLegacy.EditorTools.BuildPlayerCli.Linux ;;
   linux-debug)  exec "$UNITY" "$@" -buildTarget Linux64 -quit -executeMethod BlitzLegacy.EditorTools.BuildPlayerCli.LinuxDebug ;;
   linux-production-debug) exec "$UNITY" "$@" -buildTarget Linux64 -quit -executeMethod BlitzLegacy.EditorTools.BuildPlayerCli.LinuxProductionDebug ;;
