@@ -75,15 +75,27 @@ jobs:
           "$CLIENT" --activate-all --include-personal \
             --username "$UNITY_EMAIL" --password "$UNITY_PASSWORD"
 
-      - name: Import and build the Linux player
+      - name: Import the project
         shell: bash
         run: |
-          set -euo pipefail
+          set -uo pipefail
+          mkdir -p Logs
           cp .env.example .env
-          python3 Tools/bootstrap_sentry_sdk.py
-          UNITY="$UNITY_EDITOR" Tools/unity.sh import
-          UNITY="$UNITY_EDITOR" Tools/unity.sh linux-production-debug
-          ls -lh Build/Linux-productiondebug/
+          python3 Tools/bootstrap_sentry_sdk.py > Logs/sentry-bootstrap.log 2>&1 || { tail -n 100 Logs/sentry-bootstrap.log; exit 1; }
+          UNITY="$UNITY_EDITOR" Tools/unity.sh import > Logs/import.log 2>&1
+          code=$?
+          tail -n 30 Logs/import.log || true
+          if [ "$code" -ne 0 ]; then exit "$code"; fi
+
+      - name: Build the Linux player
+        shell: bash
+        run: |
+          set -uo pipefail
+          UNITY="$UNITY_EDITOR" Tools/unity.sh linux-production-debug > Logs/linux-production-debug.log 2>&1
+          code=$?
+          tail -n 40 Logs/linux-production-debug.log || true
+          ls -lh Build/Linux-productiondebug/ 2>/dev/null || true
+          if [ "$code" -ne 0 ]; then exit "$code"; fi
 
       - name: Upload the PC build
         uses: actions/upload-artifact@v4
