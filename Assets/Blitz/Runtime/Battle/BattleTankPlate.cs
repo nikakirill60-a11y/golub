@@ -225,7 +225,7 @@ namespace BlitzLegacy.Runtime.Battle
             // level: expand_mode 1 + stretch_mode 3 (KEEP_CENTERED) draws the
             // numeral at its atlas size in the middle of the box, and the 0.9
             // scale pivots on the box's top-left corner. Bake both into the rect.
-            var level = _tank.Card != null ? Mathf.Clamp(_tank.Card.Level, 1, 10) : 1;
+            var level = _tank.Card != null ? Mathf.Clamp(_tank.Card.Level, 1, TanksDatabase.MaxLevel) : 1;
             var levelSprite = atlas.Get("battle_otm_level_" + level);
             var boxWidth = TankPlateTuning.LevelRight - TankPlateTuning.LevelLeft;
             var boxHeight = TankPlateTuning.LevelBottom - TankPlateTuning.LevelTop;

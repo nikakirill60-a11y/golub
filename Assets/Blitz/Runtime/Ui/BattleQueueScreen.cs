@@ -58,7 +58,7 @@ namespace BlitzLegacy.Runtime.Ui
         };
 
         private readonly BattleQueueModel _model = new BattleQueueModel();
-        private readonly Text[] _tierValues = new Text[10];
+        private readonly Text[] _tierValues = new Text[TanksDatabase.MaxLevel];
         private readonly Text[] _typeValues = new Text[4];
         private Action _matched;
         private Action _cancelled;
@@ -148,16 +148,16 @@ namespace BlitzLegacy.Runtime.Ui
         // battle, from the lobby list, a few seconds behind).
         private int _roomPlayers;
         private int _roomCapacity;
-        private readonly int[] _roomTiers = new int[10];
+        private readonly int[] _roomTiers = new int[TanksDatabase.MaxLevel];
         private readonly int[] _roomClasses = new int[4];
         private bool _queueSeen;
         private int _queueWaiting;
-        private readonly int[] _queueTiers = new int[10];
+        private readonly int[] _queueTiers = new int[TanksDatabase.MaxLevel];
         private readonly int[] _queueClasses = new int[4];
 
         /// <summary>Humans the queue screen reports as waiting right now.</summary>
         public int OnlineWaiting { get; private set; }
-        public int[] OnlineTierCounts { get; } = new int[10];
+        public int[] OnlineTierCounts { get; } = new int[TanksDatabase.MaxLevel];
         public int[] OnlineClassCounts { get; } = new int[4];
 
         public void OnlineLobby(int players, int capacity, float startsIn,
@@ -401,7 +401,7 @@ namespace BlitzLegacy.Runtime.Ui
             return label;
         }
 
-        /// <summary>tank_by_lvl: ten tier rows, tier X first, at half scale.</summary>
+        /// <summary>tank_by_lvl: tier rows, top tier first, at half scale.</summary>
         private void BuildTierTable(
             RectTransform root, AtlasRegionTable atlas, LocalizationTable lang, Font bold)
         {
@@ -410,7 +410,7 @@ namespace BlitzLegacy.Runtime.Ui
             for (var index = 0; index < _tierValues.Length; index++)
             {
                 Separator(table, atlas, "line" + (index + 1));
-                var row = Row("lvl" + (10 - index), table, TextAnchor.MiddleCenter);
+                var row = Row("lvl" + (TanksDatabase.MaxLevel - index), table, TextAnchor.MiddleCenter);
                 Cell(row, bold, Dim, TextAnchor.MiddleCenter,
                     BattleFlowUi.RomanTier(index), 94.21f);
                 _tierValues[index] = Cell(

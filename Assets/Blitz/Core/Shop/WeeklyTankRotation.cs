@@ -40,11 +40,11 @@ namespace BlitzLegacy.Core.Shop
     public static class ShopPricing
     {
         public const int MinLevel = 6;
-        public const int MaxLevel = 10;
+        public const int MaxLevel = TanksDatabase.MaxLevel;
 
         // Index = tier - MinLevel.
-        private static readonly int[] PremiumPrices = { 2500, 4000, 6000, 9000, 13000 };
-        private static readonly int[] CollectorPrices = { 3500, 5500, 8500, 12500, 18000 };
+        private static readonly int[] PremiumPrices = { 2500, 4000, 6000, 9000, 13000, 18000 };
+        private static readonly int[] CollectorPrices = { 3500, 5500, 8500, 12500, 18000, 24500 };
 
         public static bool IsCollector(TankInfo tank)
         {

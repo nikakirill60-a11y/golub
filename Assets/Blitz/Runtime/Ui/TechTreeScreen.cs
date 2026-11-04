@@ -14,13 +14,13 @@ namespace BlitzLegacy.Runtime.Ui
     /// GDScript (ui_hangar_tech_tree), plus the ui_tech_tree_tank.tscn card.
     ///
     /// The Godot screen is built from BoxContainers, so every rect below is the
-    /// resolved layout: a 50 px leading spacer, ten 260x110 level columns with
+    /// resolved layout: a 50 px leading spacer, eleven 260x110 level columns with
     /// the theme's 4 px BoxContainer separation, and eleven branch rows per
     /// column (-5 .. +5) of which only the used branch range is shown.
     /// </summary>
     public sealed class TechTreeScreen
     {
-        public const int LevelCount = 10;
+        public const int LevelCount = TanksDatabase.MaxLevel;
 
         /// <summary>Godot max_slots_vertical: branches -5 .. +5.</summary>
         public const int BranchMin = -5;
@@ -64,7 +64,7 @@ namespace BlitzLegacy.Runtime.Ui
 
         private static readonly string[] LevelNumerals =
         {
-            "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X",
+            "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI",
         };
 
         private static readonly Nation[] NationOrder =

@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using BlitzLegacy.Core.Tanks;
 
 namespace BlitzLegacy.Core.Battle
 {
@@ -12,7 +13,7 @@ namespace BlitzLegacy.Core.Battle
     /// </summary>
     public static class OnlineQueue
     {
-        public const int Tiers = 10;
+        public const int Tiers = TanksDatabase.MaxLevel;
         public const int Classes = 4;
         public const int MixLength = Tiers + Classes;
 
@@ -23,7 +24,7 @@ namespace BlitzLegacy.Core.Battle
         public struct Room
         {
             public int Players;
-            /// <summary>Host tier 1..10; used when the room has no make-up string.</summary>
+            /// <summary>Host tier 1..Tiers; used when the room has no make-up string.</summary>
             public int Tier;
             /// <summary>The advertised make-up (<see cref="Encode"/>), may be null or garbage.</summary>
             public string Mix;
@@ -37,7 +38,7 @@ namespace BlitzLegacy.Core.Battle
             public int Rooms;
         }
 
-        /// <summary>"t10,...,t1,ht,mt,lt,td" as a short comma separated string.</summary>
+        /// <summary>"t11,...,t1,ht,mt,lt,td" as a short comma separated string.</summary>
         public static string Encode(IReadOnlyList<int> tiers, IReadOnlyList<int> classes)
         {
             var builder = new StringBuilder(40);
@@ -54,7 +55,7 @@ namespace BlitzLegacy.Core.Battle
 
         /// <summary>
         /// SECURITY: the string comes from any client in the lobby. Only plain
-        /// digits and commas are accepted, exactly 14 fields, each 0..14;
+        /// digits and commas are accepted, exactly MixLength fields, each 0..14;
         /// anything else is rejected as a whole.
         /// </summary>
         public static bool TryDecode(string mix, int[] tiers, int[] classes)

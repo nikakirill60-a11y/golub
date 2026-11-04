@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using BlitzLegacy.Core.Serialization;
+using BlitzLegacy.Core.Tanks;
 
 namespace BlitzLegacy.Core.Battle
 {
@@ -56,7 +57,7 @@ namespace BlitzLegacy.Core.Battle
             foreach (var role in _roles) if (!IsBoss(role.Key) && role.Key != previous) choices.Add(role.Key);
             return choices[random.Next(choices.Count)];
         }
-        public static bool EligibleTier(int tier) { return tier >= 5 && tier <= 10; }
+        public static bool EligibleTier(int tier) { return tier >= 5 && tier <= TanksDatabase.MaxLevel; }
 
         /// <summary>Lowest factor a scaled boost reaches - a reload or aim time never drops to
         /// zero - and the most damage a scaled shield absorbs.</summary>

@@ -90,8 +90,8 @@ namespace BlitzLegacy.Tests
         }
         [Test] public void TimeoutEqualTicketsIsDrawAndResetClearsDeduplication()
         { var m=new BigBossMatch(Rules); Assert.True(m.Verdict(true,out var winner)); Assert.AreEqual(-1,winner); m.Death(0,0,0,true); m.Reset(); Assert.AreEqual(30,m.TeamA); Assert.True(m.Death(0,0,0,true)); }
-        [TestCase(1,false)] [TestCase(4,false)] [TestCase(5,true)] [TestCase(10,true)] [TestCase(11,false)]
-        public void EligibilityIsTierFiveThroughTen(int tier,bool eligible) { Assert.AreEqual(eligible,BigBossRules.EligibleTier(tier)); }
+        [TestCase(1,false)] [TestCase(4,false)] [TestCase(5,true)] [TestCase(10,true)] [TestCase(11,true)] [TestCase(12,false)]
+        public void EligibilityIsTierFiveThroughEleven(int tier,bool eligible) { Assert.AreEqual(eligible,BigBossRules.EligibleTier(tier)); }
         [Test] public void ModeIsAppendedAndPlayableOnline()
         {
             Assert.AreEqual(5,(int)BattleMode.BigBoss); Assert.AreEqual(4,(int)BattleMode.WorldOfDucks);

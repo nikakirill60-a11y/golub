@@ -294,6 +294,13 @@
       "x": 2029,
       "y": 613
     },
+    "battle_otm_level_11": {
+      "h": 21,
+      "texture": "level11_battle",
+      "w": 25,
+      "x": 0,
+      "y": 0
+    },
     "battle_otm_level_2": {
       "h": 21,
       "texture": "battleScreen",
@@ -5051,6 +5058,13 @@
       "x": 1895,
       "y": 1
     },
+    "hangar_lvl11": {
+      "h": 48,
+      "texture": "level11_hangar",
+      "w": 54,
+      "x": 0,
+      "y": 0
+    },
     "hangar_lvl2": {
       "h": 48,
       "texture": "hangar_Out",
@@ -9629,12 +9643,26 @@
       "x": 879,
       "y": 1100
     },
+    "tank_level_11": {
+      "h": 57,
+      "texture": "level11",
+      "w": 62,
+      "x": 0,
+      "y": 0
+    },
     "tank_level_10_prem": {
       "h": 43,
       "texture": "lobbyCommon_Out",
       "w": 34,
       "x": 1236,
       "y": 803
+    },
+    "tank_level_11_prem": {
+      "h": 43,
+      "texture": "level11_prem",
+      "w": 50,
+      "x": 0,
+      "y": 0
     },
     "tank_level_1_prem": {
       "h": 43,

@@ -479,7 +479,7 @@ namespace BlitzLegacy.Runtime.Ui
         /// <summary>TanksDataBase.get_lvl_icon(lvl, false, true).</summary>
         private static string TierRegion(TankInfo card)
         {
-            var level = card == null ? 1 : Mathf.Clamp(card.Level, 1, 10);
+            var level = card == null ? 1 : Mathf.Clamp(card.Level, 1, TanksDatabase.MaxLevel);
             return "flow_intro_tier_" + level;
         }
 

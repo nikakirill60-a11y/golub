@@ -18,7 +18,7 @@ namespace BlitzLegacy.Tests
             var model = new BattleQueueModel();
             model.Refresh((min, max) => min, (min, max) => min);
 
-            var expected = new[] { 12, 8, 16, 5, 6, 9, 10, 16, 12, 2 };
+            var expected = new[] { 4, 12, 8, 16, 5, 6, 9, 10, 16, 12, 2 };
             var total = 0;
             for (var i = 0; i < expected.Length; i++)
             {

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using BlitzLegacy.Core.Tanks;
 
 namespace BlitzLegacy.Core.Battle
 {
@@ -18,8 +19,8 @@ namespace BlitzLegacy.Core.Battle
         public const float TypeShareMin = 0.05f;
         public const float TypeShareMax = 0.25f;
 
-        private static readonly int[] SourceRatios = { 9, 6, 12, 4, 5, 7, 8, 12, 9, 2 };
-        private readonly int[] _tiers = new int[10];
+        private static readonly int[] SourceRatios = { 3, 9, 6, 12, 4, 5, 7, 8, 12, 9, 2 };
+        private readonly int[] _tiers = new int[TanksDatabase.MaxLevel];
         private readonly int[] _types = new int[4];
 
         public IReadOnlyList<int> Tiers { get { return _tiers; } }

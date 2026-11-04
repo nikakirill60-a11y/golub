@@ -191,15 +191,16 @@ namespace BlitzLegacy.Runtime.Ui
         {
             switch (index)
             {
-                case 0: return "X";
-                case 1: return "IX";
-                case 2: return "VIII";
-                case 3: return "VII";
-                case 4: return "VI";
-                case 5: return "V";
-                case 6: return "IV";
-                case 7: return "III";
-                case 8: return "II";
+                case 0: return "XI";
+                case 1: return "X";
+                case 2: return "IX";
+                case 3: return "VIII";
+                case 4: return "VII";
+                case 5: return "VI";
+                case 6: return "V";
+                case 7: return "IV";
+                case 8: return "III";
+                case 9: return "II";
                 default: return "I";
             }
         }

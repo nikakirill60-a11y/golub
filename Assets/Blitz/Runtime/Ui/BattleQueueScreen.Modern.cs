@@ -17,7 +17,7 @@ namespace BlitzLegacy.Runtime.Ui
     public sealed partial class BattleQueueScreen
     {
         private Image _ringArc;
-        private readonly Image[] _tierBars = new Image[10];
+        private readonly Image[] _tierBars = new Image[TanksDatabase.MaxLevel];
         private readonly Image[] _typeBars = new Image[4];
         private bool _modern;
 
@@ -90,8 +90,8 @@ namespace BlitzLegacy.Runtime.Ui
             Heading(tiers.rectTransform, bold, lang.Get("queue.tanks_by_lvl"));
             for (var i = 0; i < _tierValues.Length; i++)
             {
-                _tierValues[i] = CountRow(tiers.rectTransform, atlas, regular, bold, i, 48f + i * 34f,
-                    HangarUiKit.LevelRegion(10 - i), null, 0f, out _tierBars[i]);
+                _tierValues[i] = CountRow(tiers.rectTransform, atlas, regular, bold, i, 44f + i * 31f,
+                    HangarUiKit.LevelRegion(TanksDatabase.MaxLevel - i), null, 0f, out _tierBars[i]);
             }
 
             var types = ModernUi.Panel("tank_by_type", root, ModernTheme.PanelRadius, ModernTheme.Glass, true);

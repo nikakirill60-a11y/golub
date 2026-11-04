@@ -108,10 +108,10 @@ namespace BlitzLegacy.Runtime.Ui
         /// <summary>The ButtonSmallGeneric texture of every filter button.</summary>
         private const string ButtonRegion = "button_small_generic";
 
-        /// <summary>lvl1 .. lvl10 icon_max_width.</summary>
+        /// <summary>lvl1 .. lvl11 icon_max_width.</summary>
         private static readonly float[] LevelIconWidths =
         {
-            10f, 16f, 24f, 26f, 20f, 26f, 34f, 40f, 28f, 21f,
+            10f, 16f, 24f, 26f, 20f, 26f, 34f, 40f, 28f, 21f, 30f,
         };
 
         /// <summary>filter_classes children, in filter_vars_classes order.</summary>

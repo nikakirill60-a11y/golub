@@ -308,7 +308,7 @@ namespace BlitzLegacy.Core.Tanks
         /// </summary>
         public void Cleanup()
         {
-            Level = Level < 1 ? 1 : (Level > 10 ? 10 : Level);
+            Level = Level < 1 ? 1 : (Level > TanksDatabase.MaxLevel ? TanksDatabase.MaxLevel : Level);
             Name = (Name ?? string.Empty).ToLowerInvariant();
             MatchmakerChance = MatchmakerChance < 0f
                 ? 0f

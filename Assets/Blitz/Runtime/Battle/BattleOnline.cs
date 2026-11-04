@@ -121,7 +121,7 @@ namespace BlitzLegacy.Runtime.Battle
         private static TanksDatabase _database;
 
         /// <summary>
-        /// Tier (1..10) and queue class column (0 ht, 1 mt, 2 lt, 3 td) of a
+        /// Tier (1..MaxLevel) and queue class column (0 ht, 1 mt, 2 lt, 3 td) of a
         /// tank, for the queue tables. Unknown tanks count as tier 1 light.
         /// </summary>
         public static void Classify(string tankId, out int tier, out int column)
@@ -132,7 +132,7 @@ namespace BlitzLegacy.Runtime.Battle
                 ModRuntime.Apply(_database);
             }
             var card = string.IsNullOrEmpty(tankId) ? null : _database.Get(tankId);
-            tier = card != null ? UnityEngine.Mathf.Clamp(card.Level, 1, 10) : 1;
+            tier = card != null ? UnityEngine.Mathf.Clamp(card.Level, 1, TanksDatabase.MaxLevel) : 1;
             var type = card != null ? card.Class : TankClass.Light;
             switch (type)
             {

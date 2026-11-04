@@ -525,7 +525,7 @@ namespace BlitzLegacy.Runtime.Ui
         /// <summary>TanksDataBase.get_lvl_icon, non-premium variants.</summary>
         public static string LevelRegion(int level)
         {
-            return "tank_level_" + Mathf.Clamp(level, 1, 10).ToString(CultureInfo.InvariantCulture);
+            return "tank_level_" + Mathf.Clamp(level, 1, TanksDatabase.MaxLevel).ToString(CultureInfo.InvariantCulture);
         }
 
         /// <summary>TanksDataBase.get_class_icon (TankTypesSmall).</summary>

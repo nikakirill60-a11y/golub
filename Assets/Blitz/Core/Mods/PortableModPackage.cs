@@ -120,7 +120,7 @@ namespace BlitzLegacy.Core.Mods
                 var card = TankInfo.FromJson(cardJson);
                 card.TurretRotationSpeed = cardJson["turret_speed_radians"].AsFloat();
                 Check(Finite(card.TurretRotationSpeed, true));
-                Check(card.Name == id && card.TotalHealth > 0 && card.TotalHealth <= 1000000 && card.Level >= 1 && card.Level <= 10);
+                Check(card.Name == id && card.TotalHealth > 0 && card.TotalHealth <= 1000000 && card.Level >= 1 && card.Level <= TanksDatabase.MaxLevel);
                 Check(card.Guns.Count == 1 && card.Engines.Count > 0 && card.Tracks.Count > 0);
                 var gun = card.Guns[0];
                 Check(Finite(gun.Reload, true) && Finite(card.HullWeight, true) && Finite(card.SpeedForward, true)

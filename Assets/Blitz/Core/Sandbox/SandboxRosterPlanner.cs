@@ -51,7 +51,7 @@ namespace BlitzLegacy.Core.Sandbox
     public static class SandboxRosterPlanner
     {
         public const int MinTier = 1;
-        public const int MaxTier = 10;
+        public const int MaxTier = TanksDatabase.MaxLevel;
 
         /// <summary>The dice of start_battle(), forced by the player team choice.</summary>
         public static bool PlayerOnTeamA(SandboxConfig config, IRandomSource random)

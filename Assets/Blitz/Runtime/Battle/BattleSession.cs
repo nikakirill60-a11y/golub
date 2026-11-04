@@ -291,7 +291,7 @@ namespace BlitzLegacy.Runtime.Battle
                 var matchmaker = new Matchmaker(database, random);
                 for (var i = 0; i < MatchRoster.TeamSize; i++)
                 {
-                    var tier = Mathf.Clamp(MatchRoster.SlotTiers[i], 5, 10);
+                    var tier = Mathf.Clamp(MatchRoster.SlotTiers[i], 5, TanksDatabase.MaxLevel);
                     if (tier == MatchRoster.SlotTiers[i]) continue;
                     MatchRoster.SlotTiers[i] = tier; MatchRoster.Template[i] = tier - card.Level;
                     MatchRoster.Allies[i] = matchmaker.GetByLevelRandom(tier, true);
@@ -1395,7 +1395,7 @@ namespace BlitzLegacy.Runtime.Battle
                 case TankClass.TankDestroyer: column = 3; break;
                 default: column = 2; break;
             }
-            return OnlineBalancer.Weight(Mathf.Clamp(card.Level, 1, 10), column);
+            return OnlineBalancer.Weight(Mathf.Clamp(card.Level, 1, TanksDatabase.MaxLevel), column);
         }
 
         private bool SeatGuest(

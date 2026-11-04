@@ -14,7 +14,7 @@ namespace BlitzLegacy.Core.Tanks
     public sealed class CarouselFilter
     {
         public const int MinLevel = 1;
-        public const int MaxLevel = 10;
+        public const int MaxLevel = TanksDatabase.MaxLevel;
 
         private readonly HashSet<int> _levels = new HashSet<int>();
         private readonly HashSet<Nation> _nations = new HashSet<Nation>();

@@ -11,8 +11,8 @@ namespace BlitzLegacy.Core.Tanks
     /// </summary>
     public sealed class TanksDatabase
     {
-        /// <summary>Godot clamps every card into tiers 1..10.</summary>
-        public const int MaxLevel = 10;
+        /// <summary>Cards clamp into tiers 1..MaxLevel (XI).</summary>
+        public const int MaxLevel = 11;
 
         private readonly List<TankInfo> _tanks = new List<TankInfo>();
         private readonly List<TankInfo>[] _byLevel = NewLevelBuckets();
@@ -96,7 +96,7 @@ namespace BlitzLegacy.Core.Tanks
 
         /// <summary>
         /// Godot <c>lvl_to_array</c>: the cards of one tier in table order. A tier
-        /// outside 1..10 clamps onto the nearest bucket, which is what the source
+        /// outside 1..MaxLevel clamps onto the nearest bucket, which is what the source
         /// does when the matchmaker rolls a slot off the tier range.
         /// </summary>
         public IReadOnlyList<TankInfo> ByLevel(int level)
