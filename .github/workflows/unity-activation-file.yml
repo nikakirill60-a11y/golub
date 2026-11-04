@@ -1,0 +1,55 @@
+# Generate a Unity manual activation request (.alf) on a GitHub runner, so
+# no local PC or Unity installation is needed to start the Personal license
+# process. The generated .alf is uploaded as a short-lived artifact; the
+# repository owner exchanges it for a .ulf at license.unity3d.com and stores
+# that file's contents in the UNITY_LICENSE Actions secret.
+#
+# The editor in this image is only a license-request generator. A Unity
+# Personal license file is not tied to one editor version; the game build
+# workflow remains responsible for installing the project's exact editor.
+
+name: Unity activation file
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "arena/f9c604c3-golub"
+    paths:
+      - ".github/workflows/unity-activation-file.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  generate-activation-file:
+    name: Generate .alf
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Generate Unity manual activation file
+        shell: bash
+        run: |
+          set -euo pipefail
+          activation_dir="${RUNNER_TEMP}/unity-activation"
+          mkdir -p "${activation_dir}"
+
+          docker run --rm \
+            --volume "${activation_dir}:/activation" \
+            --workdir /activation \
+            unityci/editor:ubuntu-2022.3.62f3-linux-il2cpp-3 \
+            unity-editor -nographics -logFile /dev/stdout -quit \
+              -createManualActivationFile
+
+          echo "Generated activation files:"
+          ls -l "${activation_dir}"
+          test -n "$(find "${activation_dir}" -maxdepth 1 -name '*.alf' -print -quit)"
+
+      - name: Upload activation file
+        uses: actions/upload-artifact@v4
+        with:
+          name: unity-activation-file
+          path: ${{ runner.temp }}/unity-activation/*.alf
+          if-no-files-found: error
+          retention-days: 7
