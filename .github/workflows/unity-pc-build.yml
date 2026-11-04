@@ -87,14 +87,21 @@ jobs:
           } | sudo tee /etc/apt/sources.list.d/unity-cli.sources > /dev/null
           sudo apt-get update -qq 2>&1 | tee Logs/unity-cli-install.log
           sudo apt-get install -y unity-cli 2>&1 | tee -a Logs/unity-cli-install.log
-          set +e
-          unity install "$UNITY_VERSION" -c "$UNITY_CHANGESET" \
-            -m linux-il2cpp --cm > Logs/unity-editor-install.log 2>&1
-          code=$?
-          set -e
-          tail -n 40 Logs/unity-editor-install.log || true
-          if [ "$code" -ne 0 ]; then exit "$code"; fi
           EDITOR="$(find "$HOME" -maxdepth 7 -type f -path "*/$UNITY_VERSION/*/Unity" 2>/dev/null | head -1)"
+          if [ -x "$EDITOR" ]; then
+            # Restored from the editor cache: `unity install` refuses to
+            # install over an existing editor, so skip straight to using it.
+            echo "Editor $UNITY_VERSION restored from cache: $EDITOR" | tee Logs/unity-editor-install.log
+          else
+            set +e
+            unity install "$UNITY_VERSION" -c "$UNITY_CHANGESET" \
+              -m linux-il2cpp --cm > Logs/unity-editor-install.log 2>&1
+            code=$?
+            set -e
+            tail -n 40 Logs/unity-editor-install.log || true
+            if [ "$code" -ne 0 ]; then exit "$code"; fi
+            EDITOR="$(find "$HOME" -maxdepth 7 -type f -path "*/$UNITY_VERSION/*/Unity" 2>/dev/null | head -1)"
+          fi
           test -x "$EDITOR"
           echo "UNITY_EDITOR=$EDITOR" >> "$GITHUB_ENV"
 
