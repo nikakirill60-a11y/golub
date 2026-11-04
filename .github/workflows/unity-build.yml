@@ -1,0 +1,234 @@
+# Build the game on GitHub runners: install the project's exact Unity
+# editor, activate the Personal license from the account secrets, compile,
+# run EditMode tests, and (when a signing password secret exists) produce
+# the production-debug Android APK.
+#
+# Why Hub and not a GameCI Docker image: the project pins an alpha editor
+# (7000.0.0a8, changeset c93e369fcf1c) that public unityci/editor images do
+# not carry, so the editor is installed with Unity Hub by version+changeset,
+# exactly like on a developer machine.
+#
+# Secrets used (Settings -> Secrets and variables -> Actions):
+#   UNITY_EMAIL / UNITY_PASSWORD  Unity ID for Personal activation
+#   ANDROID_SIGNING_PASSWORD      optional; one invented password. When set,
+#                                 the Android job generates a release
+#                                 keystore with it (kept in the Actions
+#                                 cache) and signs the production-debug APK.
+# Without ANDROID_SIGNING_PASSWORD the Android job finishes green after
+# printing what is missing; no debug-certificate APK is ever produced.
+
+name: Unity build
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "arena/f9c604c3-golub"
+    paths:
+      - ".github/workflows/unity-build.yml"
+
+permissions:
+  contents: read
+
+env:
+  UNITY_VERSION: "7000.0.0a8"
+  UNITY_CHANGESET: "c93e369fcf1c"
+
+jobs:
+  verify:
+    name: Compile and EditMode tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+
+    steps:
+      - name: Check out with LFS assets
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Install Unity Hub and the exact editor
+        shell: bash
+        run: |
+          set -euo pipefail
+          export ELECTRON_DISABLE_SANDBOX=1
+          wget -q https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage
+          chmod +x UnityHub.AppImage
+          ./UnityHub.AppImage --appimage-extract > /dev/null
+          HUB="$PWD/squashfs-root/AppRun"
+          "$HUB" --headless install-path -s "$HOME/Unity/Hub/Editor" || true
+          yes Y | xvfb-run -a "$HUB" --headless install \
+            --version "$UNITY_VERSION" --changeset "$UNITY_CHANGESET"
+          EDITOR="$HOME/Unity/Hub/Editor/$UNITY_VERSION/Editor/Unity"
+          test -x "$EDITOR"
+          "$EDITOR" -version || true
+          echo "UNITY_EDITOR=$EDITOR" >> "$GITHUB_ENV"
+
+      - name: Activate the Personal license
+        shell: bash
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          CLIENT="$(dirname "$UNITY_EDITOR")/Data/Resources/Licensing/Client/Unity.Licensing.Client"
+          test -x "$CLIENT"
+          "$CLIENT" --activate-all --include-personal \
+            --username "$UNITY_EMAIL" --password "$UNITY_PASSWORD"
+
+      - name: Prepare environment and Sentry SDK
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp .env.example .env
+          python3 Tools/bootstrap_sentry_sdk.py
+
+      - name: Import the project
+        shell: bash
+        run: UNITY="$UNITY_EDITOR" Tools/unity.sh import
+
+      - name: Compile
+        shell: bash
+        run: UNITY="$UNITY_EDITOR" Tools/unity.sh compile
+
+      - name: EditMode tests (tier XI and roster)
+        shell: bash
+        env:
+          BLITZ_TEST_FILTER: "TierElevenTests|ModCardDrumNationTests|TankTreeTests|Blitz480DataTests|SmallTankIconTests|TankNameLocalizationTests"
+        run: UNITY="$UNITY_EDITOR" Tools/unity.sh test
+
+      - name: Return the Personal license
+        if: always()
+        shell: bash
+        run: |
+          CLIENT="$(dirname "$UNITY_EDITOR")/Data/Resources/Licensing/Client/Unity.Licensing.Client"
+          "$CLIENT" --return-ulf || true
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unity-verify-logs
+          path: Logs
+          if-no-files-found: ignore
+          retention-days: 7
+
+  android:
+    name: Android APK (production-debug)
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+
+    steps:
+      - name: Check out with LFS assets
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Check signing configuration
+        id: signing
+        shell: bash
+        env:
+          ANDROID_SIGNING_PASSWORD: ${{ secrets.ANDROID_SIGNING_PASSWORD }}
+        run: |
+          if [ -z "${ANDROID_SIGNING_PASSWORD}" ]; then
+            echo "::warning::ANDROID_SIGNING_PASSWORD secret is not set; skipping the APK build."
+            echo "Add one invented password as the ANDROID_SIGNING_PASSWORD secret and re-run." >> "$GITHUB_STEP_SUMMARY"
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Restore or create the release keystore
+        if: steps.signing.outputs.ready == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/blitz-release.p12
+          key: blitz-android-release-keystore-v1
+
+      - name: Generate the keystore on first use
+        if: steps.signing.outputs.ready == 'true'
+        shell: bash
+        env:
+          ANDROID_SIGNING_PASSWORD: ${{ secrets.ANDROID_SIGNING_PASSWORD }}
+        run: |
+          set -euo pipefail
+          KEYSTORE="${RUNNER_TEMP}/blitz-release.p12"
+          if [ ! -f "$KEYSTORE" ]; then
+            keytool -genkeypair -keystore "$KEYSTORE" -storetype PKCS12 \
+              -alias blitzlegacy -keyalg RSA -keysize 4096 -validity 10000 \
+              -storepass "$ANDROID_SIGNING_PASSWORD" \
+              -keypass "$ANDROID_SIGNING_PASSWORD" \
+              -dname "CN=Blitz Legacy, O=Blitz Legacy, C=NL"
+          fi
+          ls -l "$KEYSTORE"
+
+      - name: Install Unity Hub, the exact editor and Android modules
+        if: steps.signing.outputs.ready == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          export ELECTRON_DISABLE_SANDBOX=1
+          wget -q https://public-cdn.cloud.unity3d.com/hub/prod/UnityHub.AppImage
+          chmod +x UnityHub.AppImage
+          ./UnityHub.AppImage --appimage-extract > /dev/null
+          HUB="$PWD/squashfs-root/AppRun"
+          "$HUB" --headless install-path -s "$HOME/Unity/Hub/Editor" || true
+          yes Y | xvfb-run -a "$HUB" --headless install \
+            --version "$UNITY_VERSION" --changeset "$UNITY_CHANGESET" \
+            --module android --childModules
+          EDITOR="$HOME/Unity/Hub/Editor/$UNITY_VERSION/Editor/Unity"
+          test -x "$EDITOR"
+          echo "UNITY_EDITOR=$EDITOR" >> "$GITHUB_ENV"
+
+      - name: Activate the Personal license
+        if: steps.signing.outputs.ready == 'true'
+        shell: bash
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          CLIENT="$(dirname "$UNITY_EDITOR")/Data/Resources/Licensing/Client/Unity.Licensing.Client"
+          "$CLIENT" --activate-all --include-personal \
+            --username "$UNITY_EMAIL" --password "$UNITY_PASSWORD"
+
+      - name: Build the production-debug APK
+        if: steps.signing.outputs.ready == 'true'
+        shell: bash
+        env:
+          ANDROID_SIGNING_PASSWORD: ${{ secrets.ANDROID_SIGNING_PASSWORD }}
+        run: |
+          set -euo pipefail
+          cp .env.example .env
+          python3 Tools/bootstrap_sentry_sdk.py
+          export BLITZ_ANDROID_KEYSTORE="${RUNNER_TEMP}/blitz-release.p12"
+          export BLITZ_ANDROID_KEYSTORE_PASSWORD="$ANDROID_SIGNING_PASSWORD"
+          export BLITZ_ANDROID_KEY_ALIAS="blitzlegacy"
+          export BLITZ_ANDROID_KEY_PASSWORD="$ANDROID_SIGNING_PASSWORD"
+          UNITY="$UNITY_EDITOR" Tools/unity.sh apk-production-debug
+          ls -l Build/Android/
+
+      - name: Upload the APK
+        if: steps.signing.outputs.ready == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: BlitzLegacy-productiondebug-apk
+          path: Build/Android/BlitzLegacy-productiondebug.apk
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Return the Personal license
+        if: always() && steps.signing.outputs.ready == 'true'
+        shell: bash
+        run: |
+          CLIENT="$(dirname "$UNITY_EDITOR")/Data/Resources/Licensing/Client/Unity.Licensing.Client"
+          "$CLIENT" --return-ulf || true
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unity-android-logs
+          path: Logs
+          if-no-files-found: ignore
+          retention-days: 7
