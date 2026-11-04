@@ -21,7 +21,6 @@ ROUTES = {
 for route, target, method in [
     ('apk', 'Android', 'Android'), ('apk-debug', 'Android', 'AndroidDebug'),
     ('apk-production-debug', 'Android', 'AndroidProductionDebug'),
-    ('sysroot-probe', 'Linux64', 'SysrootProbeCli.Run'),
     ('linux', 'Linux64', 'Linux'), ('linux-debug', 'Linux64', 'LinuxDebug'),
     ('linux-production-debug', 'Linux64', 'LinuxProductionDebug'),
     ('windows-production-debug', 'Win64', 'WindowsProductionDebug'),
