@@ -1,0 +1,130 @@
+# Build the desktop (PC) player on a GitHub runner.
+#
+# The Linux x86_64 production-debug player is the desktop build this
+# project's Linux editor can produce (Windows IL2CPP requires a Windows
+# editor and is attempted separately). The editor is the project's exact
+# alpha (7000.0.0a8 / c93e369fcf1c), installed with the Unity CLI; the
+# Personal license is activated from the UNITY_EMAIL / UNITY_PASSWORD
+# secrets and returned at the end. No Android signing is involved.
+
+name: Unity PC build (Linux)
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "arena/f9c604c3-golub"
+    paths:
+      - ".github/workflows/unity-pc-build.yml"
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  UNITY_VERSION: "7000.0.0a8"
+  UNITY_CHANGESET: "c93e369fcf1c"
+
+jobs:
+  linux:
+    name: Linux production-debug player
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - name: Check out with LFS assets
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Install the Unity CLI and the exact editor
+        shell: bash
+        run: |
+          set -uo pipefail
+          mkdir -p Logs
+          curl -sL https://hub.unity3d.com/linux/keys/public \
+            | sudo gpg --dearmor -o /usr/share/keyrings/Unity_Technologies_ApS.gpg
+          {
+            echo "Types: deb"
+            echo "URIs: https://hub.unity3d.com/linux/repos/deb"
+            echo "Suites: unstable"
+            echo "Components: main"
+            echo "Signed-By: /usr/share/keyrings/Unity_Technologies_ApS.gpg"
+          } | sudo tee /etc/apt/sources.list.d/unity-cli.sources > /dev/null
+          sudo apt-get update -qq 2>&1 | tee Logs/unity-cli-install.log
+          sudo apt-get install -y unity-cli 2>&1 | tee -a Logs/unity-cli-install.log
+          set +e
+          unity install "$UNITY_VERSION" -c "$UNITY_CHANGESET" \
+            -m linux-il2cpp --cm > Logs/unity-editor-install.log 2>&1
+          code=$?
+          set -e
+          tail -n 40 Logs/unity-editor-install.log || true
+          if [ "$code" -ne 0 ]; then exit "$code"; fi
+          EDITOR="$(find "$HOME" -maxdepth 7 -type f -path "*/$UNITY_VERSION/*/Unity" 2>/dev/null | head -1)"
+          test -x "$EDITOR"
+          echo "UNITY_EDITOR=$EDITOR" >> "$GITHUB_ENV"
+
+      - name: Activate the Personal license
+        shell: bash
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          CLIENT="$(dirname "$UNITY_EDITOR")/Data/Resources/Licensing/Client/Unity.Licensing.Client"
+          "$CLIENT" --activate-all --include-personal \
+            --username "$UNITY_EMAIL" --password "$UNITY_PASSWORD"
+
+      - name: Import and build the Linux player
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp .env.example .env
+          python3 Tools/bootstrap_sentry_sdk.py
+          UNITY="$UNITY_EDITOR" Tools/unity.sh import
+          UNITY="$UNITY_EDITOR" Tools/unity.sh linux-production-debug
+          ls -lh Build/Linux-productiondebug/
+
+      - name: Upload the PC build
+        uses: actions/upload-artifact@v4
+        with:
+          name: BlitzLegacy-linux-productiondebug
+          path: Build/Linux-productiondebug
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Publish build diagnostics
+        if: failure()
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "PC build failed in run $GITHUB_RUN_ID."
+            for f in Logs/unity-editor-install.log Logs/import.log Logs/linux-production-debug.log; do
+              echo
+              echo "## $f (tail)"
+              echo '```'
+              tail -n 100 "$f" 2>/dev/null || echo "<missing>"
+              echo '```'
+            done
+          } > /tmp/pc-diagnostics.md
+          head -c 60000 /tmp/pc-diagnostics.md > /tmp/pc-diagnostics-short.md
+          gh issue create --title "[ci] PC build diagnostics $GITHUB_RUN_ID" \
+            --body-file /tmp/pc-diagnostics-short.md || true
+
+      - name: Return the Personal license
+        if: always()
+        shell: bash
+        run: |
+          CLIENT="$(dirname "$UNITY_EDITOR")/Data/Resources/Licensing/Client/Unity.Licensing.Client"
+          "$CLIENT" --return-ulf || true
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unity-pc-logs
+          path: Logs
+          if-no-files-found: ignore
+          retention-days: 7
