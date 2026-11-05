@@ -85,7 +85,7 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: ~/Unity/Hub/Editor/${{ env.UNITY_VERSION }}
-          key: editor-android-${{ env.UNITY_VERSION }}-${{ env.UNITY_CHANGESET }}
+          key: editor-android-${{ env.UNITY_VERSION }}-${{ env.UNITY_CHANGESET }}-v2
 
       - name: Restore the Library cache
         if: steps.signing.outputs.ready == 'true'
@@ -125,12 +125,14 @@ jobs:
           sudo apt-get update -qq 2>&1 | tee Logs/unity-cli-install.log
           sudo apt-get install -y unity-cli 2>&1 | tee -a Logs/unity-cli-install.log
           EDITOR="$(find "$HOME" -maxdepth 7 -type f -path "*/$UNITY_VERSION/*/Unity" 2>/dev/null | head -1)"
-          if [ -x "$EDITOR" ] && [ -d "$(dirname "$EDITOR")/Data/PlaybackEngines/AndroidPlayer" ]; then
+          ANDROID_PLAYER=""
+          [ -n "$EDITOR" ] && ANDROID_PLAYER="$(dirname "$EDITOR")/Data/PlaybackEngines/AndroidPlayer"
+          if [ -x "$EDITOR" ] && [ -d "$ANDROID_PLAYER/SDK" ] && [ -d "$ANDROID_PLAYER/NDK" ]; then
             echo "Editor $UNITY_VERSION with Android support restored from cache: $EDITOR" | tee Logs/unity-editor-install.log
           else
             set +e
             unity install "$UNITY_VERSION" -c "$UNITY_CHANGESET" \
-              -m android --cm > Logs/unity-editor-install.log 2>&1
+              -m android --cm --accept-eula > Logs/unity-editor-install.log 2>&1
             code=$?
             set -e
             tail -n 40 Logs/unity-editor-install.log || true
@@ -146,7 +148,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: ~/Unity/Hub/Editor/${{ env.UNITY_VERSION }}
-          key: editor-android-${{ env.UNITY_VERSION }}-${{ env.UNITY_CHANGESET }}
+          key: editor-android-${{ env.UNITY_VERSION }}-${{ env.UNITY_CHANGESET }}-v2
 
       - name: Activate the Personal license
         if: steps.signing.outputs.ready == 'true'
