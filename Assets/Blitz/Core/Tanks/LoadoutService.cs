@@ -195,15 +195,24 @@ namespace BlitzLegacy.Core.Tanks
             switch (Action(save, slot, item, consumables))
             {
                 case EquipmentAction.Sell:
-                    return -(int)(ItemCost(save.Name, item, consumables) * 0.5f);
+                    // Demounting is free: the item goes back to the
+                    // warehouse instead of being sold for credits. Selling
+                    // for credits happens on the inventory screen.
+                    return 0;
                 case EquipmentAction.Swap:
-                    var back = (int)(ItemCost(
-                        save.Name, Installed(save, slot, consumables), consumables) * 0.5f);
-                    return ItemCost(save.Name, item, consumables) - back;
                 case EquipmentAction.Buy:
-                    return ItemCost(save.Name, item, consumables);
+                    // A spare copy in the warehouse mounts for free; only a
+                    // genuinely new item is charged. The swapped-out item
+                    // returns to the warehouse, so no sell-back is paid.
+                    return InStock(item) ? 0 : ItemCost(save.Name, item, consumables);
             }
             return 0;
+        }
+
+        /// <summary>Whether the warehouse holds a spare copy of the item.</summary>
+        private bool InStock(string item)
+        {
+            return _account != null && _account.InventoryCount(item) > 0;
         }
 
         /// <summary>The id in a slot, or the empty string like the source's slots.</summary>
@@ -250,6 +259,21 @@ namespace BlitzLegacy.Core.Tanks
             if (_account != null)
             {
                 _account.Credits -= cost;
+            }
+
+            // Warehouse moves: demounted items go back on the shelf, and a
+            // mount that ActionCost priced as free consumes a spare copy.
+            var warehouse = _account == null ? null : new InventoryService(_account);
+            var demounted = Installed(save, slot, consumables);
+            if (warehouse != null && action != EquipmentAction.Buy
+                && !string.IsNullOrEmpty(demounted))
+            {
+                warehouse.Add(demounted, 1);
+            }
+
+            if (warehouse != null && action != EquipmentAction.Sell && InStock(item))
+            {
+                warehouse.Take(item, 1);
             }
 
             Fill(save);

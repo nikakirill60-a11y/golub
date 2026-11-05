@@ -142,23 +142,41 @@ namespace BlitzLegacy.Tests
             // The same item cannot be installed twice.
             Assert.AreEqual(EquipmentAction.None, _service.Action(_save, 1, "rammer"));
 
-            // Selling returns half.
+            // Demounting is free: the item returns to the warehouse
+            // instead of being sold for half price.
             Assert.AreEqual(EquipmentAction.Sell, _service.Action(_save, 0, "rammer"));
-            Assert.AreEqual(-(rammer / 2), _service.ActionCost(_save, 0, "rammer"));
-
-            // Swapping returns half of the old item and charges the new one.
-            Assert.AreEqual(EquipmentAction.Swap, _service.Action(_save, 0, "optics"));
-            Assert.AreEqual(optics - (rammer / 2), _service.ActionCost(_save, 0, "optics"));
+            Assert.AreEqual(0, _service.ActionCost(_save, 0, "rammer"));
 
             credits = _account.Credits;
-            Assert.IsTrue(_service.Apply(_save, 0, "optics").Ok);
-            Assert.AreEqual(credits - optics + (rammer / 2), _account.Credits);
-            Assert.AreEqual("optics", LoadoutService.Installed(_save, 0));
-
-            credits = _account.Credits;
-            Assert.IsTrue(_service.Apply(_save, 0, "optics").Ok);
-            Assert.AreEqual(credits + (optics / 2), _account.Credits);
+            Assert.IsTrue(_service.Apply(_save, 0, "rammer").Ok);
+            Assert.AreEqual(credits, _account.Credits);
+            Assert.AreEqual(1, _account.InventoryCount("rammer"));
             Assert.AreEqual(string.Empty, LoadoutService.Installed(_save, 0));
+
+            // A spare copy in the warehouse mounts for free.
+            Assert.AreEqual(EquipmentAction.Buy, _service.Action(_save, 0, "rammer"));
+            Assert.AreEqual(0, _service.ActionCost(_save, 0, "rammer"));
+            Assert.IsTrue(_service.Apply(_save, 0, "rammer").Ok);
+            Assert.AreEqual(credits, _account.Credits);
+            Assert.AreEqual(0, _account.InventoryCount("rammer"));
+
+            // Swapping charges the full new price (the warehouse has no
+            // optics) and shelves the swapped-out item.
+            Assert.AreEqual(EquipmentAction.Swap, _service.Action(_save, 0, "optics"));
+            Assert.AreEqual(optics, _service.ActionCost(_save, 0, "optics"));
+
+            credits = _account.Credits;
+            Assert.IsTrue(_service.Apply(_save, 0, "optics").Ok);
+            Assert.AreEqual(credits - optics, _account.Credits);
+            Assert.AreEqual("optics", LoadoutService.Installed(_save, 0));
+            Assert.AreEqual(1, _account.InventoryCount("rammer"));
+
+            // Demounting the optics shelves it too, credits untouched.
+            credits = _account.Credits;
+            Assert.IsTrue(_service.Apply(_save, 0, "optics").Ok);
+            Assert.AreEqual(credits, _account.Credits);
+            Assert.AreEqual(string.Empty, LoadoutService.Installed(_save, 0));
+            Assert.AreEqual(1, _account.InventoryCount("optics"));
         }
 
         [Test]
