@@ -179,6 +179,7 @@ namespace BlitzLegacy.Runtime.Ui
         private ArmorViewerScreen _armorViewer;
         private CamouflageScreen _camouflage;
         private CamouflageService _camouflageService;
+        private InventoryScreen _inventory;
         private HangarScreenId _screen = HangarScreenId.Main;
 
         /// <summary>The hangar and the two overlays ported from screens/.</summary>
@@ -191,6 +192,7 @@ namespace BlitzLegacy.Runtime.Ui
             Shop,
             ArmorViewer,
             Camouflage,
+            Inventory,
         }
 
         public HangarScreenId CurrentScreen
@@ -227,6 +229,12 @@ namespace BlitzLegacy.Runtime.Ui
         public CamouflageScreen Camouflage
         {
             get { return _camouflage; }
+        }
+
+        /// <summary>The account warehouse of spare equipment and consumables.</summary>
+        public InventoryScreen Inventory
+        {
+            get { return _inventory; }
         }
 
         public HangarWorld World { get; private set; }
@@ -528,6 +536,13 @@ namespace BlitzLegacy.Runtime.Ui
             TopRight((RectTransform)shop.transform, 1283.6667f, 4f, 95f, 78f);
             AddIcon(shop, "hangar_shop", 55f);
             Bind(shop, () => ToScreen(HangarScreenId.Shop), AudioService.SoundEnter);
+
+            var inventory = StyleButton("btn_inventory", hud, "button_small_generic");
+            TopRight((RectTransform)inventory.transform, 1180f, 4f, 95f, 78f);
+            AddIcon(inventory, "equipment_entry", 55f);
+            Bind(
+                inventory, () => ToScreen(HangarScreenId.Inventory),
+                AudioService.SoundEnter);
         }
 
         // Drawn metrics of the currencies row: the authored Godot values
@@ -1818,12 +1833,19 @@ namespace BlitzLegacy.Runtime.Ui
             _camouflage.Changed = () => OnAccountChanged(false);
             _camouflageService = _camouflage.Service;
 
+            _inventory = new InventoryScreen(_kit, _tanks, _account, _modern);
+            _inventory.Overlay = ZLayer(HangarScreenId.Inventory);
+            _inventory.Build(_screens);
+            _inventory.HomePressed = () => ToScreen(HangarScreenId.Main);
+            _inventory.Changed = () => OnAccountChanged(false);
+
             _techTree.Root.gameObject.SetActive(false);
             _modules.Root.gameObject.SetActive(false);
             _loadout.Root.gameObject.SetActive(false);
             _shop.Hide();
             _armorViewer.Root.gameObject.SetActive(false);
             _camouflage.Hide();
+            _inventory.Hide();
             foreach (var layer in _zLayers)
             {
                 layer.Value.gameObject.SetActive(layer.Key == HangarScreenId.Main);
@@ -1907,6 +1929,12 @@ namespace BlitzLegacy.Runtime.Ui
             {
                 if (id == HangarScreenId.Camouflage) { _camouflage.Show(); }
                 else { _camouflage.Hide(); }
+            }
+
+            if (_inventory != null)
+            {
+                if (id == HangarScreenId.Inventory) { _inventory.Show(); }
+                else { _inventory.Hide(); }
             }
 
             if (id == HangarScreenId.TechTree && _techTree != null)
