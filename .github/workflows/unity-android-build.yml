@@ -102,17 +102,11 @@ jobs:
         run: |
           set -uo pipefail
           mkdir -p Logs
-          # The NDK linker can need libxml2.so.2; newer Ubuntu renamed
-          # the package/soname, so install what exists and bridge it.
-          for pkg in libxml2 libxml2-16 libxml2-15 libxml2-14; do
-            if sudo apt-get install -y "$pkg" > Logs/apt-libxml2.log 2>&1; then break; fi
-          done || true
-          sudo mkdir -p /opt/unity-libs
-          XML2="$(find /usr/lib/x86_64-linux-gnu /usr/lib -name 'libxml2.so.*' 2>/dev/null | sort -V | tail -1)"
-          if [ -n "$XML2" ] && [ ! -e /usr/lib/x86_64-linux-gnu/libxml2.so.2 ]; then
-            sudo ln -sf "$XML2" /opt/unity-libs/libxml2.so.2
-          fi
-          echo "LD_LIBRARY_PATH=/opt/unity-libs" >> "$GITHUB_ENV"
+          # NOTE: no libxml2 soname bridge here (unlike the Linux player
+          # build). The NDK's bundled ld.lld runs fine with the system
+          # libraries, and pointing LD_LIBRARY_PATH at a bridged
+          # libxml2.so.2 (a symlink to a newer ABI) makes it fail with
+          # "no version information available" inside Burst AOT.
           curl -sL https://hub.unity3d.com/linux/keys/public \
             | sudo gpg --dearmor -o /usr/share/keyrings/Unity_Technologies_ApS.gpg
           {
