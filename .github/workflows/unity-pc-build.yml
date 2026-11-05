@@ -75,7 +75,7 @@ jobs:
           mkdir -p Logs
           # IL2CPP for a Linux target on a Linux host also uses the system
           # Clang toolchain.
-          sudo apt-get update -qq && sudo apt-get install -y clang p7zip-full 2>&1 | tee Logs/apt-clang.log
+          sudo apt-get update -qq && sudo apt-get install -y clang p7zip-full libxml2 2>&1 | tee Logs/apt-clang.log
           curl -sL https://hub.unity3d.com/linux/keys/public \
             | sudo gpg --dearmor -o /usr/share/keyrings/Unity_Technologies_ApS.gpg
           {
