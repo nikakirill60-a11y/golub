@@ -261,6 +261,14 @@ namespace BlitzLegacy.EditorTools
                     ?? Convert.ToString(InvokeSafe(instance, "GetSysrootPath"));
             }
 
+            if (string.IsNullOrEmpty(dest) && !string.IsNullOrEmpty(payloadRoot)
+                && payloadRoot.IndexOf("PackageCache", StringComparison.OrdinalIgnoreCase) < 0)
+            {
+                // For the sysroot package PathToPayload() already returns the
+                // installation directory inside the sysroot cache.
+                dest = payloadRoot;
+            }
+
             Debug.Log("[BlitzSysroot]   install dest=" + (dest ?? "<null>")
                 + " exists=" + (!string.IsNullOrEmpty(dest) && Directory.Exists(dest)));
             if (string.IsNullOrEmpty(dest)) return;
@@ -386,8 +394,14 @@ namespace BlitzLegacy.EditorTools
                     .FirstOrDefault();
                 if (innerTar != null)
                 {
+                    // The 7z payload stores payload.tar with mode 000; make it
+                    // readable before handing it to tar.
+                    RunTool("/bin/chmod", new[] { "u+rwX", innerTar }, "chmod");
                     RunTool("/bin/tar", new[] { "-xf", innerTar, "-C", dest }, "tar");
-                    try { File.Delete(innerTar); } catch { /* keep the cache inspectable */ }
+                    if (Directory.GetFileSystemEntries(dest).Length > 1)
+                    {
+                        try { File.Delete(innerTar); } catch { /* keep the cache inspectable */ }
+                    }
                 }
 
                 return;
