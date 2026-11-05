@@ -1,5 +1,37 @@
 {
   "keys": {
+    "inventory:title": {
+      "en": "INVENTORY",
+      "ru": "ИНВЕНТАРЬ"
+    },
+    "inventory:tab_equipment": {
+      "en": "EQUIPMENT",
+      "ru": "ОБОРУДОВАНИЕ"
+    },
+    "inventory:tab_consumables": {
+      "en": "CONSUMABLES",
+      "ru": "РАСХОДНИКИ"
+    },
+    "inventory:buy": {
+      "en": "BUY",
+      "ru": "КУПИТЬ"
+    },
+    "inventory:sell": {
+      "en": "SELL",
+      "ru": "ПРОДАТЬ"
+    },
+    "inventory:empty": {
+      "en": "This shelf is empty",
+      "ru": "На этой полке пусто"
+    },
+    "inventory:unknown_item": {
+      "en": "Unknown item",
+      "ru": "Неизвестный предмет"
+    },
+    "inventory:empty_stock": {
+      "en": "Not in stock",
+      "ru": "Нет на складе"
+    },
     "MODS_PORTABLE_INFO": {
       "en": "Converted mod • native Blitz rules",
       "ru": "Конвертированный мод • правила Blitz"
