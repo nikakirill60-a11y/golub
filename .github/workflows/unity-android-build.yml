@@ -220,7 +220,7 @@ jobs:
             echo '```'
             grep '"type":"result"' Logs/unity-editor-install.log 2>/dev/null || echo "<missing>"
             echo '```'
-            for f in Logs/sentry-bootstrap.log Logs/import.log Logs/apk-production-debug.log; do
+            for f in Logs/unity-cli-install.log Logs/unity-editor-install.log Logs/apt-libxml2.log Logs/sentry-bootstrap.log Logs/import.log Logs/apk-production-debug.log; do
               echo
               echo "## $f (tail)"
               echo '```'
