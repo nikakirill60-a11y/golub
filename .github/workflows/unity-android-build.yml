@@ -247,3 +247,5 @@ jobs:
           path: Logs
           if-no-files-found: ignore
           retention-days: 7
+
+# Trigger: signing secret is in place, build the APK.
