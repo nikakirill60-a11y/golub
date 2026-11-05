@@ -37,6 +37,43 @@ namespace BlitzLegacy.Core.Save
         public readonly List<string> ResearchedModules = new List<string>();
         public readonly Dictionary<string, int> Rewards =
             new Dictionary<string, int>(StringComparer.Ordinal);
+
+        /// <summary>
+        /// Account warehouse: item id (EquipmentCatalog / ConsumableCatalog)
+        /// to the number of spare copies owned but not mounted on any tank.
+        /// Mounted items stay on TankSaveData; this is the stock they are
+        /// drawn from and returned to. Zero or negative counts are dropped
+        /// on save, so an empty entry never survives a round trip.
+        /// </summary>
+        public readonly Dictionary<string, int> Inventory =
+            new Dictionary<string, int>(StringComparer.Ordinal);
+
+        /// <summary>Spare copies of an item currently in the warehouse.</summary>
+        public int InventoryCount(string itemId)
+        {
+            if (string.IsNullOrEmpty(itemId)) { return 0; }
+            int count;
+            return Inventory.TryGetValue(itemId, out count) && count > 0 ? count : 0;
+        }
+
+        /// <summary>Drops empty and negative stacks so saves stay minimal.</summary>
+        public static void PruneInventory(Dictionary<string, int> inventory)
+        {
+            if (inventory == null || inventory.Count == 0) { return; }
+            var empty = new List<string>();
+            foreach (var pair in inventory)
+            {
+                if (pair.Value <= 0 || string.IsNullOrEmpty(pair.Key))
+                {
+                    empty.Add(pair.Key);
+                }
+            }
+
+            for (var i = 0; i < empty.Count; i++)
+            {
+                inventory.Remove(empty[i]);
+            }
+        }
         public readonly List<string> AchievementsDone = new List<string>();
         public readonly Dictionary<string, int> ShopGuaranteedRewards =
             new Dictionary<string, int>(StringComparer.Ordinal);
@@ -274,6 +311,7 @@ namespace BlitzLegacy.Core.Save
                 .Set("knyaz_given", KnyazGiven)
                 .Set("researched_modules", JsonMap.FromStrings(ResearchedModules))
                 .Set("rewards", JsonMap.FromIntMap(Rewards))
+                .Set("inventory", JsonMap.FromIntMap(Inventory))
                 .Set("achievements_done", JsonMap.FromStrings(AchievementsDone))
                 .Set("shop_guaranteed_rewards", JsonMap.FromIntMap(ShopGuaranteedRewards))
                 .Set("time_ingame", TimeIngame)
@@ -338,6 +376,8 @@ namespace BlitzLegacy.Core.Save
             account.KnyazGiven = node["knyaz_given"].AsBool();
             JsonMap.ReadStrings(node["researched_modules"], account.ResearchedModules);
             JsonMap.ReadIntMap(node["rewards"], account.Rewards);
+            JsonMap.ReadIntMap(node["inventory"], account.Inventory);
+            PruneInventory(account.Inventory);
             JsonMap.ReadStrings(node["achievements_done"], account.AchievementsDone);
             JsonMap.ReadIntMap(node["shop_guaranteed_rewards"], account.ShopGuaranteedRewards);
             account.TimeIngame = node["time_ingame"].AsDouble();
