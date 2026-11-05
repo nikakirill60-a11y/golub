@@ -75,7 +75,20 @@ jobs:
           mkdir -p Logs
           # IL2CPP for a Linux target on a Linux host also uses the system
           # Clang toolchain.
-          sudo apt-get update -qq && sudo apt-get install -y clang p7zip-full libxml2 2>&1 | tee Logs/apt-clang.log
+          sudo apt-get update -qq && sudo apt-get install -y clang p7zip-full 2>&1 | tee Logs/apt-clang.log
+          # Unity's bundled ld.lld (LLVM 15) needs libxml2.so.2 at runtime.
+          # Newer Ubuntu renamed the package and the soname, so install
+          # whatever is available and bridge the soname if needed.
+          for pkg in libxml2 libxml2-16 libxml2-15 libxml2-14; do
+            if sudo apt-get install -y "$pkg" >> Logs/apt-clang.log 2>&1; then break; fi
+          done
+          sudo mkdir -p /opt/unity-libs
+          XML2="$(find /usr/lib/x86_64-linux-gnu /usr/lib -name 'libxml2.so.*' 2>/dev/null | sort -V | tail -1)"
+          if [ -n "$XML2" ] && [ ! -e /usr/lib/x86_64-linux-gnu/libxml2.so.2 ]; then
+            sudo ln -sf "$XML2" /opt/unity-libs/libxml2.so.2
+          fi
+          echo "LD_LIBRARY_PATH=/opt/unity-libs" >> "$GITHUB_ENV"
+          ls -l /opt/unity-libs/ || true
           curl -sL https://hub.unity3d.com/linux/keys/public \
             | sudo gpg --dearmor -o /usr/share/keyrings/Unity_Technologies_ApS.gpg
           {
