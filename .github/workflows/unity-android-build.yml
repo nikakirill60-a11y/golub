@@ -1,0 +1,249 @@
+# Build the Android production-debug APK on a GitHub runner.
+#
+# Same editor story as the PC build: the project's exact alpha
+# (7000.0.0a8 / c93e369fcf1c) is installed with the Unity CLI and the
+# Personal license is activated from the UNITY_EMAIL / UNITY_PASSWORD
+# secrets. Signing uses a release keystore that the job generates on
+# first use from the ANDROID_SIGNING_PASSWORD secret and then keeps in
+# the Actions cache (key blitz-android-release-keystore-v1), so every
+# APK is signed with the same key as long as that cache entry lives.
+# Without the secret the job finishes green and explains what is missing.
+#
+# The editor and the Library are cached with explicit restore/save
+# steps so a failing build does not throw the caches away.
+
+name: Unity Android build (APK)
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "arena/f9c604c3-golub"
+    paths:
+      - ".github/workflows/unity-android-build.yml"
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  UNITY_VERSION: "7000.0.0a8"
+  UNITY_CHANGESET: "c93e369fcf1c"
+
+jobs:
+  android:
+    name: Android production-debug APK
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - name: Check out with LFS assets
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Check signing configuration
+        id: signing
+        shell: bash
+        env:
+          ANDROID_SIGNING_PASSWORD: ${{ secrets.ANDROID_SIGNING_PASSWORD }}
+        run: |
+          if [ -z "${ANDROID_SIGNING_PASSWORD}" ]; then
+            echo "::warning::ANDROID_SIGNING_PASSWORD secret is not set; skipping the APK build."
+            echo "Add one invented password as the ANDROID_SIGNING_PASSWORD secret and re-run." >> "$GITHUB_STEP_SUMMARY"
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Restore or create the release keystore
+        if: steps.signing.outputs.ready == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/blitz-release.p12
+          key: blitz-android-release-keystore-v1
+
+      - name: Generate the keystore on first use
+        if: steps.signing.outputs.ready == 'true'
+        shell: bash
+        env:
+          ANDROID_SIGNING_PASSWORD: ${{ secrets.ANDROID_SIGNING_PASSWORD }}
+        run: |
+          set -euo pipefail
+          KEYSTORE="${RUNNER_TEMP}/blitz-release.p12"
+          if [ ! -f "$KEYSTORE" ]; then
+            keytool -genkeypair -keystore "$KEYSTORE" -storetype PKCS12 \
+              -alias blitzlegacy -keyalg RSA -keysize 4096 -validity 10000 \
+              -storepass "$ANDROID_SIGNING_PASSWORD" \
+              -keypass "$ANDROID_SIGNING_PASSWORD" \
+              -dname "CN=Blitz Legacy, O=Blitz Legacy, C=NL"
+          fi
+          ls -l "$KEYSTORE"
+
+      - name: Restore the editor cache
+        if: steps.signing.outputs.ready == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/Unity/Hub/Editor/${{ env.UNITY_VERSION }}
+          key: editor-android-${{ env.UNITY_VERSION }}-${{ env.UNITY_CHANGESET }}
+
+      - name: Restore the Library cache
+        if: steps.signing.outputs.ready == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: Library
+          key: android-library-${{ env.UNITY_VERSION }}-${{ hashFiles('Packages/manifest.json', 'Packages/packages-lock.json', 'ProjectSettings/ProjectVersion.txt') }}
+          restore-keys: |
+            android-library-${{ env.UNITY_VERSION }}-
+
+      - name: Install the Unity CLI, the exact editor and Android modules
+        if: steps.signing.outputs.ready == 'true'
+        shell: bash
+        run: |
+          set -uo pipefail
+          mkdir -p Logs
+          # The NDK linker can need libxml2.so.2; newer Ubuntu renamed
+          # the package/soname, so install what exists and bridge it.
+          for pkg in libxml2 libxml2-16 libxml2-15 libxml2-14; do
+            if sudo apt-get install -y "$pkg" > Logs/apt-libxml2.log 2>&1; then break; fi
+          done || true
+          sudo mkdir -p /opt/unity-libs
+          XML2="$(find /usr/lib/x86_64-linux-gnu /usr/lib -name 'libxml2.so.*' 2>/dev/null | sort -V | tail -1)"
+          if [ -n "$XML2" ] && [ ! -e /usr/lib/x86_64-linux-gnu/libxml2.so.2 ]; then
+            sudo ln -sf "$XML2" /opt/unity-libs/libxml2.so.2
+          fi
+          echo "LD_LIBRARY_PATH=/opt/unity-libs" >> "$GITHUB_ENV"
+          curl -sL https://hub.unity3d.com/linux/keys/public \
+            | sudo gpg --dearmor -o /usr/share/keyrings/Unity_Technologies_ApS.gpg
+          {
+            echo "Types: deb"
+            echo "URIs: https://hub.unity3d.com/linux/repos/deb"
+            echo "Suites: unstable"
+            echo "Components: main"
+            echo "Signed-By: /usr/share/keyrings/Unity_Technologies_ApS.gpg"
+          } | sudo tee /etc/apt/sources.list.d/unity-cli.sources > /dev/null
+          sudo apt-get update -qq 2>&1 | tee Logs/unity-cli-install.log
+          sudo apt-get install -y unity-cli 2>&1 | tee -a Logs/unity-cli-install.log
+          EDITOR="$(find "$HOME" -maxdepth 7 -type f -path "*/$UNITY_VERSION/*/Unity" 2>/dev/null | head -1)"
+          if [ -x "$EDITOR" ] && [ -d "$(dirname "$EDITOR")/Data/PlaybackEngines/AndroidPlayer" ]; then
+            echo "Editor $UNITY_VERSION with Android support restored from cache: $EDITOR" | tee Logs/unity-editor-install.log
+          else
+            set +e
+            unity install "$UNITY_VERSION" -c "$UNITY_CHANGESET" \
+              -m android --cm > Logs/unity-editor-install.log 2>&1
+            code=$?
+            set -e
+            tail -n 40 Logs/unity-editor-install.log || true
+            if [ "$code" -ne 0 ]; then exit "$code"; fi
+            EDITOR="$(find "$HOME" -maxdepth 7 -type f -path "*/$UNITY_VERSION/*/Unity" 2>/dev/null | head -1)"
+          fi
+          test -x "$EDITOR"
+          echo "UNITY_EDITOR=$EDITOR" >> "$GITHUB_ENV"
+
+      - name: Save the editor cache
+        if: always() && steps.signing.outputs.ready == 'true'
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: ~/Unity/Hub/Editor/${{ env.UNITY_VERSION }}
+          key: editor-android-${{ env.UNITY_VERSION }}-${{ env.UNITY_CHANGESET }}
+
+      - name: Activate the Personal license
+        if: steps.signing.outputs.ready == 'true'
+        shell: bash
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          CLIENT="$(dirname "$UNITY_EDITOR")/Data/Resources/Licensing/Client/Unity.Licensing.Client"
+          "$CLIENT" --activate-all --include-personal \
+            --username "$UNITY_EMAIL" --password "$UNITY_PASSWORD"
+
+      - name: Import the project
+        if: steps.signing.outputs.ready == 'true'
+        shell: bash
+        run: |
+          set -uo pipefail
+          mkdir -p Logs
+          cp .env.example .env
+          python3 Tools/bootstrap_sentry_sdk.py > Logs/sentry-bootstrap.log 2>&1 || { tail -n 100 Logs/sentry-bootstrap.log; exit 1; }
+          UNITY="$UNITY_EDITOR" Tools/unity.sh import > Logs/import.log 2>&1
+          code=$?
+          tail -n 30 Logs/import.log || true
+          if [ "$code" -ne 0 ]; then exit "$code"; fi
+
+      - name: Save the Library cache
+        if: always() && steps.signing.outputs.ready == 'true'
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: Library
+          key: android-library-${{ env.UNITY_VERSION }}-${{ hashFiles('Packages/manifest.json', 'Packages/packages-lock.json', 'ProjectSettings/ProjectVersion.txt') }}
+
+      - name: Build the production-debug APK
+        if: steps.signing.outputs.ready == 'true'
+        shell: bash
+        env:
+          ANDROID_SIGNING_PASSWORD: ${{ secrets.ANDROID_SIGNING_PASSWORD }}
+        run: |
+          set -uo pipefail
+          export BLITZ_ANDROID_KEYSTORE="${RUNNER_TEMP}/blitz-release.p12"
+          export BLITZ_ANDROID_KEYSTORE_PASSWORD="$ANDROID_SIGNING_PASSWORD"
+          export BLITZ_ANDROID_KEY_ALIAS="blitzlegacy"
+          export BLITZ_ANDROID_KEY_PASSWORD="$ANDROID_SIGNING_PASSWORD"
+          UNITY="$UNITY_EDITOR" Tools/unity.sh apk-production-debug > Logs/apk-production-debug.log 2>&1
+          code=$?
+          tail -n 40 Logs/apk-production-debug.log || true
+          ls -lh Build/Android/ 2>/dev/null || true
+          if [ "$code" -ne 0 ]; then exit "$code"; fi
+
+      - name: Upload the APK
+        if: steps.signing.outputs.ready == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: BlitzLegacy-productiondebug-apk
+          path: Build/Android/BlitzLegacy-productiondebug.apk
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Publish build diagnostics
+        if: failure() && steps.signing.outputs.ready == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "Android build failed in run $GITHUB_RUN_ID."
+            echo
+            echo "## editor install result"
+            echo '```'
+            grep '"type":"result"' Logs/unity-editor-install.log 2>/dev/null || echo "<missing>"
+            echo '```'
+            for f in Logs/sentry-bootstrap.log Logs/import.log Logs/apk-production-debug.log; do
+              echo
+              echo "## $f (tail)"
+              echo '```'
+              tail -n 100 "$f" 2>/dev/null | cut -c1-400 || echo "<missing>"
+              echo '```'
+            done
+          } > /tmp/android-diagnostics.md
+          head -c 60000 /tmp/android-diagnostics.md > /tmp/android-diagnostics-short.md
+          gh issue create --title "[ci] Android build diagnostics $GITHUB_RUN_ID" \
+            --body-file /tmp/android-diagnostics-short.md || true
+
+      - name: Return the Personal license
+        if: always() && steps.signing.outputs.ready == 'true'
+        shell: bash
+        run: |
+          CLIENT="$(dirname "$UNITY_EDITOR")/Data/Resources/Licensing/Client/Unity.Licensing.Client"
+          "$CLIENT" --return-ulf || true
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unity-android-logs
+          path: Logs
+          if-no-files-found: ignore
+          retention-days: 7
